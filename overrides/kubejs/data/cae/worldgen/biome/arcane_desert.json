@@ -1,0 +1,19 @@
+{
+  "temperature": 2,
+  "downfall": -2,
+  "precipitation": "none",
+  "category": "desert",
+  "creature_spawn_probability": 0.2,
+  "effects": {
+    "sky_color": 12112383,
+    "fog_color": 16776360,
+    "water_color": 6419711,
+    "water_fog_color": 21038,
+    "grass_color": 12844668,
+    "foliage_color": 8019968
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

@@ -1,0 +1,22 @@
+{
+  "temperature": 1,
+  "downfall": 1,
+  "precipitation": "rain",
+  "category": "plains",
+  "creature_spawn_probability": 1,
+  "effects": {
+    "sky_color": 5699835,
+    "fog_color": 3473029,
+    "water_color": 4416419,
+    "water_fog_color": 7568083,
+    "grass_color": 4693504,
+    "foliage_color": 5490769,
+    "grass_color_modifier": "none"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    "cae:cascade"
+  ]
+}

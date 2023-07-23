@@ -1,0 +1,75 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "thermal:gold_coin",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 28
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 3
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:mending",
+                  "minecraft:multishot",
+                  "minecraft:channeling",
+                  "minecraft:sharpness"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "thermal:silver_coin",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 256
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:elytra",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

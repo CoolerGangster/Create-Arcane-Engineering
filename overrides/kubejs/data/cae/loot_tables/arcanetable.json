@@ -1,0 +1,631 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 7,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_nouveau:caster_tome",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ars_nouveau_spellCaster:{current_slot:1,flavor:\"Flying is quite dangerous you know\",spell_0:\"[]\",spell_1:\"[self, glide, extend_time, extend_time, harm, delay, harm, delay, delay, harm]\",spell_color_0:\"0,255,255\",spell_color_1:\"0,255,255\",spell_name_0:\"\",spell_name_1:\"\",spell_sound_0:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f},spell_sound_1:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f}},display:{Name:'{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"PigTurtles Freedom on Benefits\"}'}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_nouveau:caster_tome",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ars_nouveau_spellCaster:{current_slot:1,flavor:\"Make everyone a Star\",spell_0:\"[]\",spell_1:\"[projectile, fangs, delay, launch, amplify, delay, launch, amplify, firework, amplify]\",spell_color_0:\"0,255,255\",spell_color_1:\"255,0,255\",spell_name_0:\"\",spell_name_1:\"\",spell_sound_0:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f},spell_sound_1:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f}},display:{Name:'{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"FortnitePros Audition\"}'}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_nouveau:caster_tome",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ars_nouveau_spellCaster:{current_slot:1,flavor:\"Receive a Second Chance at Life\",spell_0:\"[]\",spell_1:\"[self, slowfall, watery_grave, summon_vex, leap, gust, bounce, gravity, amplify, amplify]\",spell_color_0:\"0,255,255\",spell_color_1:\"255,0,255\",spell_name_0:\"\",spell_name_1:\"\",spell_sound_0:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f},spell_sound_1:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f}},display:{Name:'{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"Imoderns Protection\"}'}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:lava_lily"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "forbidden_arcanus:rune",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "ars_nouveau:novice_robes"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "ars_nouveau:novice_hood"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "ars_nouveau:novice_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "ars_nouveau:novice_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:source_berry_roll",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forbidden_arcanus:sanity_meter"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:sas_ashlar",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "kubejs:runic_tablet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:wilden_wing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:wilden_horn"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "ars_nouveau:magebloom_fiber",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "ars_nouveau:mundane_belt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "ars_nouveau:ring_of_potential"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "forbidden_arcanus:xpetrified_orb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forbidden_arcanus:arcane_crystal_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "forbidden_arcanus:arcane_bone_meal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 12
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "forbidden_arcanus:arcane_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "forbidden_arcanus:arcane_gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "forbidden_arcanus:mundabitur_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "kubejs:empty_vial",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "quark:soul_bead",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ars_nouveau:runic_chalk"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "kubejs:magebloom_sourceberry_smoothie_bowl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forbidden_arcanus:obsidian_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "forbidden_arcanus:ender_pearl_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 12,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "forbidden_arcanus:dark_rune",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forbidden_arcanus:mortem_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forbidden_arcanus:mortem_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "forbidden_arcanus:arcane_golden_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forbidden_arcanus:dragon_scale",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "forbidden_arcanus:cloth",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "ars_nouveau:magebloom_crop",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:magebloom",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 13,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "ars_nouveau:blaze_fiber",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "forbidden_arcanus:dark_matter"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "reliquary:bat_wing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "reliquary:nebulous_heart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "reliquary:infernal_claw"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "ars_nouveau:end_fiber",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "reliquary:rib_bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "reliquary:guardian_spike"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "reliquary:glowing_bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "reliquary:rending_gale"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "reliquary:rending_gale"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:umbrella"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:everlasting_beef"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:panic_necklace"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:cross_necklace"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:lucky_scarf"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:superstitious_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:villager_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:shock_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:flame_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:thorn_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:charm_of_sinking"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:cloud_in_a_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:antidote_vessel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:universal_attractor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:crystal_heart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:helium_flamingo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:digging_claws"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:feral_claws"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:power_glove"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:thorn_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:fire_gauntlet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:pocket_piston"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:vampiric_glove"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:golden_hook"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:aqua_dashers"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:bunny_hoppers"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:kitty_slippers"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:running_shoes"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:steadfast_spikes"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:flippers"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:whoopee_cushion"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    }
+  ]
+}

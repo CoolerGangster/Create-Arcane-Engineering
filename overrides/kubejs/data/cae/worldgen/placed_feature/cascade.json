@@ -1,0 +1,25 @@
+{
+  "feature": {
+    "type": "minecraft:lake",
+    "config": {
+      "fluid": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:water"
+        }
+      },
+      "barrier": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 30
+    }
+  ]
+}

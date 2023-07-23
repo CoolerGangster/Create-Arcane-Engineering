@@ -1,0 +1,268 @@
+{
+  "version": 3,
+  "location": "cae:arcanereactor",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:arcanereactor",
+        "type": "imodel",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "arcanereactor",
+        "type": "geo",
+        "postRenderer": false
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "arcanreeactor",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABCBA",
+        "D   D",
+        "D   D",
+        "D   D",
+        "ABEBA"
+      ],
+      [
+        "B   B",
+        "     ",
+        "     ",
+        "     ",
+        "B   B"
+      ],
+      [
+        "F @ C",
+        "  G  ",
+        "  H  ",
+        "  G  ",
+        "E I E"
+      ],
+      [
+        "B   B",
+        "     ",
+        "     ",
+        "     ",
+        "B   B"
+      ],
+      [
+        "ABJBA",
+        "D   D",
+        "D   D",
+        "D   D",
+        "ABEBA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "forbidden_arcanus:arcane_polished_darkstone_wall"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "cae:arcanereactor",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "forbidden_arcanus:stellarite_block"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "item": {
+        "capability": "item",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:large_tank"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "kubejs:supercritical_machine"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "minecraft:netherite_block"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:smart_chest"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "forbidden_arcanus:arcane_gold_block"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "forbidden_arcanus:arcane_gold_block"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "I": {
+        "blocks": [
+          {
+            "id": "kubejs:time_machine"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "J": {
+        "blocks": [
+          {
+            "id": "integrateddynamics:energy_battery"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "any": {
+        "type": "any"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT"
+      },
+      "energy": {
+        "capability": "forge_energy",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C",
+        "fluid"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "item",
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J",
+        "energy"
+      ]
+    }
+  }
+}

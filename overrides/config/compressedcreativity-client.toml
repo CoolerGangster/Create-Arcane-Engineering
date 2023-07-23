@@ -1,0 +1,15 @@
+
+#Upgrades settings
+[upgrades]
+
+	#Mechanical visor
+	[upgrades.mechanical_visor]
+		#If Block Tracker should also check if actual tooltip is provided
+		block_tracker_advanced_check = false
+		#Tooltip mode
+		#Allowed Values: CLASSIC, WIDGET, BOTH, NONE
+		tooltip_mode = "CLASSIC"
+		#Block Tracker mode
+		#Allowed Values: ALL, GOGGLES, TOOLTIP, MIN
+		block_tracker_mode = "ALL"
+

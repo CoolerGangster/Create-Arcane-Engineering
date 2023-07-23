@@ -1,0 +1,97 @@
+
+#Config for Regions Unexplored!
+[region_weights]
+	#Sets Terrablender region weight for Northern Like region.
+	#Range: 0 ~ 100000
+	northern_like_region_weight = 20
+	#Sets Terrablender region weight for Temperate Like region.
+	#Range: 0 ~ 100000
+	temperate_like_region_weight = 20
+	#Sets Terrablender region weight for Overseas Like region.
+	#Range: 0 ~ 100000
+	overseas_like_region_weight = 20
+	#Sets Terrablender region weight for rare region.
+	#Range: 0 ~ 100000
+	rare_region_weight = 2
+
+[biome_toggles]
+	#northern_like_biomes
+	toggle_shrubland = true
+	toggle_autumnal_fields = true
+	toggle_maple_forest = true
+	toggle_temperate_grove = true
+	toggle_canadian_forest = true
+	toggle_autumnal_maple_forest = true
+	toggle_autumnal_mixed_taiga = true
+	toggle_fen = true
+	toggle_blackwood_forest = true
+	toggle_rainforest = true
+	toggle_old_growth_rainforest = true
+	toggle_tropics = true
+	toggle_steppe = true
+	toggle_wooded_steppe = true
+	toggle_joshua_desert = true
+	#temperate_like_biomes
+	toggle_prairie = true
+	toggle_barley_fields = true
+	toggle_deciduous_forest = true
+	toggle_silver_birch_forest = true
+	toggle_boreal_forest = true
+	toggle_old_growth_boreal_forest = true
+	toggle_frozen_tundra = true
+	toggle_cold_boreal_forest = true
+	toggle_cold_deciduous_forest = true
+	toggle_bayou = true
+	toggle_giant_bayou = true
+	toggle_orchard = true
+	toggle_redwoods = true
+	toggle_sparse_redwoods = true
+	toggle_baobab_savanna = true
+	toggle_saguaro_desert = true
+	#overseas_like_biomes
+	toggle_meadow = true
+	toggle_cherry_hills = true
+	toggle_willow_forest = true
+	toggle_pine_forest = true
+	toggle_icy_desert = true
+	toggle_frozen_forest = true
+	toggle_flooded_plains = true
+	toggle_bamboo_forest = true
+	toggle_eucalyptus_forest = true
+	toggle_roofed_eucalyptus_forest = true
+	toggle_dry_bushland = true
+	toggle_outback = true
+	#cave_biomes
+	toggle_scorch = true
+	toggle_lush_delta = true
+	toggle_overgrown_caves = true
+	toggle_bioshroom_caves = true
+	toggle_redstone_caves = true
+	toggle_prismachasm = true
+	#misc_biomes
+	toggle_chalk_cliffs = true
+	toggle_grassy_beach = true
+	toggle_gravel_beach = true
+	toggle_muddy_river = true
+	toggle_cold_river = true
+	toggle_lupine_plains = true
+	toggle_highland_fields = true
+	toggle_poppy_fields = true
+	toggle_grassland = true
+	toggle_lush_hills = true
+	toggle_towering_cliffs = true
+	toggle_icy_heights = true
+	toggle_pine_slopes = true
+	toggle_mountains = true
+	toggle_arid_mountains = true
+	toggle_wooded_arid_mountains = true
+	#rare_biomes
+	toggle_flower_field = true
+	toggle_pumpkin_fields = true
+	toggle_alpha_grove = true
+	toggle_mauve_hills = true
+	toggle_golden_boreal_forest = true
+	toggle_spires = true
+	toggle_fungal_fen = true
+	toggle_smouldering_woodland = true
+

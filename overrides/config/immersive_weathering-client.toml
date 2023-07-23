@@ -1,0 +1,6 @@
+
+[general]
+	leaves_decay_particles = true
+	falling_leaf_particles = true
+	decay_sound = true
+

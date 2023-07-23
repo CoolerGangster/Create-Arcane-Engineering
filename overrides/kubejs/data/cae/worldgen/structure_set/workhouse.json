@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "cae:workhouse",
+      "weight": 2
+    },
+    {
+      "structure": "cae:old_factory",
+      "weight": 2
+    },
+    {
+      "structure": "cae:stargazing",
+      "weight": 1
+    },
+    {
+      "structure": "cae:warped_cottage",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 30,
+    "salt": 1179587658
+  }
+}

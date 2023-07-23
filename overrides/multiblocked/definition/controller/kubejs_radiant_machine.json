@@ -1,0 +1,76 @@
+{
+  "version": 3,
+  "location": "kubejs:radiant_machine",
+  "traits": {},
+  "properties": {
+    "rotationState": "NON_Y_AXIS",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 3,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:radiant",
+        "type": "imodel",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "radiant",
+        "isGlobal": true,
+        "type": "geo",
+        "postRenderer": false
+      },
+      "lightEmissive": 11,
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    },
+    "new_status_1": {}
+  },
+  "recipeMap": "nothing",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "kubejs:radiant_machine",
+        "type": "component"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 112,
+				"texture_height": 112,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 9.5,
+				"visible_bounds_offset": [0, 4.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 16, 16],
+							"uv": {
+								"north": {"uv": [0.5, 0.5], "uv_size": [16, 16]},
+								"east": {"uv": [0.5, 0.5], "uv_size": [16, 16]},
+								"south": {"uv": [0.5, 0.5], "uv_size": [16, 16]},
+								"west": {"uv": [0.5, 0.5], "uv_size": [16, 16]},
+								"up": {"uv": [0.5, 0.5], "uv_size": [16, 16]},
+								"down": {"uv": [0.5, 16.5], "uv_size": [16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-38, 16, -1],
+							"size": [80, 112, 2],
+							"uv": {
+								"north": {"uv": [18, 0], "uv_size": [80, 112]},
+								"east": {"uv": [0, 2], "uv_size": [2, 112]},
+								"south": {"uv": [18, 0], "uv_size": [80, 112]},
+								"west": {"uv": [82, 2], "uv_size": [2, 112]},
+								"up": {"uv": [2, 0], "uv_size": [80, 2]},
+								"down": {"uv": [82, 2], "uv_size": [80, -2]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,537 @@
+{
+	id: "411C300A457361FB"
+	group: "42A213AA17D37DAF"
+	order_index: 7
+	filename: "chapter_m3"
+	title: "Chapter MIII: Chronical Chaos"
+	icon: "forbidden_arcanus:arcane_gilded_darkstone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -4.0d
+			y: -3.5d
+			width: 50.0d
+			height: 50.0d
+			rotation: 0.0d
+			image: "kubejs:textures/m3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			width: 20.0d
+			height: 18.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wowarcane.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -1.5d
+			y: -4.0d
+			subtitle: "Haunt Blackstone, Polish it, and apply arcane gold ingot"
+			dependencies: [
+				"45F57414659E044E"
+				"15C83F2E7CA1E295"
+			]
+			id: "6D2C48974003D539"
+			tasks: [{
+				id: "10EF2DD09190A293"
+				type: "item"
+				item: "forbidden_arcanus:arcane_polished_darkstone"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			subtitle: "A powerfull Catalyst known to occasionally corrupt researchers sanity."
+			dependencies: [
+				"3E7D072F1C7A0B14"
+				"191EE221A8EEE8F3"
+			]
+			id: "69F021C402A96487"
+			tasks: [{
+				id: "5433E57FB83C0EA4"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["7E9E78A1997AB84E"]
+			dependency_requirement: "all_started"
+			id: "6736E5C9F772788F"
+			tasks: [{
+				id: "1C43E5CE6F5DD8D5"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_block"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "You need about 18 Dust Specs to be processed back into Arcane Crystal Blocks, where the rest needs to go into the Dust Processing to fully Sustain a Arcane Obilisk Cycle"
+			dependencies: ["09E4D27B89F783CF"]
+			dependency_requirement: "one_completed"
+			id: "19EAE1780E1BAB55"
+			tasks: [{
+				id: "364954096EEA96A9"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust_speck"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "Combine Arcane Crystal dust specs into Arcane Crystal Dusts"
+			dependencies: ["19EAE1780E1BAB55"]
+			id: "3E7D072F1C7A0B14"
+			tasks: [{
+				id: "66DB7CDCBABBE1BA"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+			}]
+			rewards: [{
+				id: "4409BDC02EEB22D6"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				count: 6
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Spout and Press Aureal Essence onto Arcane Crystal Dust to form precious Arcane Crystals."
+			dependencies: [
+				"19EAE1780E1BAB55"
+				"718F45CF4E3C8A7E"
+			]
+			dependency_requirement: "all_started"
+			id: "7E9E78A1997AB84E"
+			tasks: [{
+				id: "0157D83C3C2D0FB6"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["3A10D0D5E8548C54"]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "09E4D27B89F783CF"
+			tasks: [{
+				id: "53FB3D90B3B612DA"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_obelisk"
+			}]
+			rewards: [
+				{
+					id: "6C6FC3D80FD8DB69"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_obelisk"
+				}
+				{
+					id: "2986F8195F2C466C"
+					type: "item"
+					item: "kubejs:lootbag_arcane_3"
+				}
+			]
+		}
+		{
+			title: "The Arcane Crystal Obilisk Cycle"
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["69F021C402A96487"]
+			dependency_requirement: "all_started"
+			id: "6184C8A1D38C1DBF"
+			tasks: [{
+				id: "260B2F0CBD864192"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_obelisk"
+			}]
+			rewards: [
+				{
+					id: "56E7FBFF9F589DEE"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_obelisk"
+				}
+				{
+					id: "4352D876209C7ED5"
+					type: "item"
+					item: "kubejs:lootbag_arcane_3"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["71A1D228DFD9F180"]
+			id: "45F57414659E044E"
+			tasks: [{
+				id: "01E0CA817D59A52B"
+				type: "item"
+				item: "minecraft:blackstone"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.5d
+			dependencies: ["3A10D0D5E8548C54"]
+			hide: true
+			id: "71A1D228DFD9F180"
+			tasks: [{
+				id: "22959B3F4E42DDB2"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			subtitle: "By deploying Arcane Dust onto a Dark Soul, one shall obtain a Corrupted Pixie"
+			dependencies: ["343F18E9136A3324"]
+			dependency_requirement: "one_completed"
+			id: "3D65558184A6EA1E"
+			tasks: [{
+				id: "0D5242AFD1B5B0C9"
+				type: "item"
+				item: "forbidden_arcanus:corrupted_pixie"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: [
+				"69F021C402A96487"
+				"66B319ACF0228A32"
+			]
+			dependency_requirement: "all_started"
+			id: "15C83F2E7CA1E295"
+			tasks: [{
+				id: "1C2F1C7044648551"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+			rewards: [{
+				id: "0713404E188B2A52"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			subtitle: "By Rightclicking or using a Deployer on Soulsand Block with a Soul Extractor, will relieve the Soul of the Soulsand Block, returning it into its Soulless state"
+			dependencies: [
+				"7D833DBB735C2FEC"
+				"76D6D1770639319E"
+			]
+			id: "57AFEA6EFF00F4FB"
+			tasks: [{
+				id: "7E6BC28EC1793033"
+				type: "item"
+				item: "forbidden_arcanus:soul"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "Simply Haunt a Soul"
+			dependencies: [
+				"3E7D072F1C7A0B14"
+				"57AFEA6EFF00F4FB"
+			]
+			dependency_requirement: "all_started"
+			id: "343F18E9136A3324"
+			tasks: [{
+				id: "073EC6F658A38696"
+				type: "item"
+				item: "forbidden_arcanus:dark_soul"
+			}]
+		}
+		{
+			title: "Corrupted Pixie Jar"
+			x: -3.0d
+			y: 1.0d
+			subtitle: "Rightclick with a corrupted pixie onto a Utrem Jar. Also works with deployers."
+			dependencies: ["3D65558184A6EA1E"]
+			id: "3F0798A77108E733"
+			tasks: [{
+				id: "71811CA19C01B48A"
+				type: "item"
+				item: "forbidden_arcanus:corrupted_pixie_utrem_jar"
+			}]
+		}
+		{
+			title: "Pixie Jar"
+			x: -1.5d
+			y: 1.0d
+			subtitle: "Washing a Corrupted Pixie Jar, will purify it, leaving behind A jar with a normal Pixie"
+			dependencies: ["3F0798A77108E733"]
+			id: "7614A2AE1D024BF4"
+			tasks: [{
+				id: "7672181701D753B3"
+				type: "item"
+				item: "forbidden_arcanus:pixie_utrem_jar"
+			}]
+		}
+		{
+			title: "Get a Wraith"
+			x: -8.0d
+			y: -2.0d
+			subtitle: "*you should probably get more than just one* (and you should nametag your wraiths)"
+			dependencies: ["3A10D0D5E8548C54"]
+			hide: true
+			id: "79B2BD8F7999E19F"
+			tasks: [{
+				id: "142394A47DA715D5"
+				type: "observation"
+				title: "Find a wraith in a soulsand valley"
+				icon: "quark:wraith_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "quark:wraith"
+			}]
+			rewards: [{
+				id: "72D4032AD14C6E9E"
+				type: "item"
+				item: "minecraft:name_tag"
+				count: 4
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			subtitle: "A Wraith standing on Soulless sand will convert the block into soulsand (the wraith doesnt die)"
+			dependencies: [
+				"7FC6F7E88224DA53"
+				"79B2BD8F7999E19F"
+			]
+			dependency_requirement: "all_started"
+			id: "7D833DBB735C2FEC"
+			tasks: [{
+				id: "4E10ABF4B91A5E7E"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+			rewards: [
+				{
+					id: "786EE402E52842A9"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 64
+				}
+				{
+					id: "1C2399D0C5D947C4"
+					type: "item"
+					item: "kubejs:lootbag_arcane_2"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -0.5d
+			dependencies: ["41EE2F2DB114D74A"]
+			id: "7FC6F7E88224DA53"
+			tasks: [{
+				id: "35C4D82E341371CA"
+				type: "item"
+				item: "forbidden_arcanus:soulless_sand"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["3A10D0D5E8548C54"]
+			hide: true
+			dependency_requirement: "one_completed"
+			optional: true
+			can_repeat: true
+			id: "76D6D1770639319E"
+			tasks: [{
+				id: "09A2515627FDCD8D"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:soul_extractor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			subtitle: "Bulk Wash Soulsand for GOLD!"
+			dependencies: ["7D833DBB735C2FEC"]
+			id: "66B319ACF0228A32"
+			tasks: [{
+				id: "70408ED4B829805A"
+				type: "item"
+				item: "minecraft:gold_nugget"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.5d
+			dependencies: ["71A1D228DFD9F180"]
+			id: "41EE2F2DB114D74A"
+			tasks: [{
+				id: "774949C69C4CC4AF"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["60F4CA04E216B7C3"]
+			dependency_requirement: "all_started"
+			id: "191EE221A8EEE8F3"
+			tasks: [{
+				id: "12FAF7138FDFDDB9"
+				type: "item"
+				item: "quark:soul_bead"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["79B2BD8F7999E19F"]
+			id: "60F4CA04E216B7C3"
+			tasks: [{
+				id: "23D114C5ADAFEE3E"
+				type: "item"
+				item: "kubejs:liquid_resent_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "By Draining a Pure Pixie Jar, you will obtain Aureal Essence"
+			dependencies: [
+				"783A2252E79DF746"
+				"7614A2AE1D024BF4"
+			]
+			id: "718F45CF4E3C8A7E"
+			tasks: [{
+				id: "722794CDA7B00406"
+				type: "item"
+				item: "forbidden_arcanus:aureal_bottle"
+			}]
+			rewards: [{
+				id: "6638CEE868E26FA6"
+				type: "item"
+				item: "forbidden_arcanus:aureal_bottle"
+				count: 6
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["0DE2BB9AD6FF9D32"]
+			id: "783A2252E79DF746"
+			tasks: [{
+				id: "2647A62AAAD5AC02"
+				type: "item"
+				item: "kubejs:empty_vial"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: [
+				"191EE221A8EEE8F3"
+				"2B065D0DA822D196"
+			]
+			id: "0DE2BB9AD6FF9D32"
+			tasks: [{
+				id: "34A493F9653BB58B"
+				type: "item"
+				item: "glassential:glass_ghostly"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			dependencies: ["41EE2F2DB114D74A"]
+			id: "2B065D0DA822D196"
+			tasks: [{
+				id: "4EF2F9746465F8AF"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+		}
+		{
+			icon: "davebuildingmod:alarm_sign"
+			x: -1.5d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Have a drink to calm down."
+			dependencies: ["3A10D0D5E8548C54"]
+			hide: true
+			id: "2082FF7C812BF843"
+			tasks: [{
+				id: "352F4A18E1001BDE"
+				type: "checkmark"
+				title: "Its not as bad as it looks...."
+			}]
+			rewards: [{
+				id: "7B999BFADC837052"
+				type: "item"
+				item: "kubejs:magebloom_sourceberry_smoothie_bowl"
+				count: 10
+			}]
+		}
+		{
+			x: 2.8d
+			y: 0.0d
+			subtitle: "Cool placeholder item"
+			dependencies: [
+				"718F45CF4E3C8A7E"
+				"7E9E78A1997AB84E"
+			]
+			size: 1.4d
+			id: "1E251A0792D8CC62"
+			tasks: [{
+				id: "127D1FBF3795A4B3"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7E7D2BDEB2203DE9"
+				type: "item"
+				item: "kubejs:lootbag_arcane_3"
+				count: 6
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: [
+				"6D2C48974003D539"
+				"6736E5C9F772788F"
+			]
+			id: "066CA4A66DD316F3"
+		}
+	]
+	quest_links: [ ]
+}

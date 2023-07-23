@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "title": "The Trial",
+    "description": "Enter the Dungeon",
+    "frame": "task"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "cae:start_portal"
+      }
+    }
+  }
+}

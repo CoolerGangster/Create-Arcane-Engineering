@@ -1,0 +1,67 @@
+
+fancymenu.fmvideo.backgroundtype = Background Video
+fancymenu.fmvideo.backgroundtype.desc = Use a local or online video file%n%as background for your layout.
+
+fancymenu.fmvideo.backgroundoptions.choosevideo = Choose/Edit Video
+
+fancymenu.fmvideo.backgroundoptions.videotype.local = Local Video File
+fancymenu.fmvideo.backgroundoptions.videotype.local.choose = Choose Video
+fancymenu.fmvideo.backgroundoptions.videotype.local.selected = §lSelected Video: {}
+fancymenu.fmvideo.backgroundoptions.videotype.local.novideo = §lNo video selected.
+fancymenu.fmvideo.backgroundoptions.videotype.local.invalidpath = §l§cInvalid File!%n%%n%No video selected or invalid file!
+
+fancymenu.fmvideo.backgroundoptions.videotype.online = Online Video Link
+fancymenu.fmvideo.backgroundoptions.videotype.online.enterlink = Direct link to video file:
+fancymenu.fmvideo.backgroundoptions.videotype.online.invalidlink = §l§cInvalid Link!%n%%n%The provided video link is invalid!%n% %n% %n% %n%
+
+fancymenu.fmvideo.backgroundoptions.cancel = Cancel
+
+fancymenu.fmvideo.videoproperties = Video Properties
+fancymenu.fmvideo.videoproperties.loop = Loop Video:
+fancymenu.fmvideo.videoproperties.loop.desc = If the video should loop or not.
+fancymenu.fmvideo.videoproperties.volume = Volume:
+fancymenu.fmvideo.videoproperties.volume.desc = The volume of the video audio.%n%Can be a value between 0 and 200.
+
+fancymenu.fmvideo.videoproperties.option.enabled = §aEnabled
+fancymenu.fmvideo.videoproperties.option.disabled = §cDisabled
+
+fancymenu.fmvideo.item = Video
+fancymenu.fmvideo.item.desc = Add a local or online video%n%to your layout.
+fancymenu.fmvideo.item.nomedia.line1 = §lNO VIDEO SET!
+fancymenu.fmvideo.item.nomedia.line2 = §lRIGHT-CLICK TO SET VIDEO!
+fancymenu.fmvideo.item.options.resetvideo = Reset Video
+fancymenu.fmvideo.item.options.resetvideo.btn.desc = Reset the video and all settings%n%to its defaults.
+fancymenu.fmvideo.item.options.setvideo = Set Video Path/Link
+fancymenu.fmvideo.item.options.setvideo.btn.desc = Set the path or link to%n%the video you want to play.
+fancymenu.fmvideo.item.options.aspectratio = Resize To Aspect Ratio
+fancymenu.fmvideo.item.options.aspectratio.btn.desc = Resize the video element%n%to its correct aspect ratio.%n%%n%This allows you to further%n%resize it, while pressing%n%SHIFT, to keep its aspect ratio.
+fancymenu.fmvideo.item.options.volume = Volume
+fancymenu.fmvideo.item.options.volume.btn.desc = Set the audio volume of the video.
+fancymenu.fmvideo.item.options.loop.on = Looping: §aOn
+fancymenu.fmvideo.item.options.loop.off = Looping: §cOff
+fancymenu.fmvideo.item.options.loop.btn.desc = If the video should play in a loop.
+
+fancymenu.fmvideo.buttonaction.lowervolume.action.desc = Lower the volume of videos.
+fancymenu.fmvideo.buttonaction.lowervolume.value.desc = Percent per Click
+
+fancymenu.fmvideo.buttonaction.uppervolume.action.desc = Upper the volume of videos.
+fancymenu.fmvideo.buttonaction.uppervolume.value.desc = Percent per Click
+
+fancymenu.fmvideo.placeholder.category = Video
+fancymenu.fmvideo.placeholder.videovolume = Video Volume
+fancymenu.fmvideo.placeholder.videovolume.desc = Gets the current%n%video volume percentage.
+
+fancymenu.fmvideo.config = Video Extension Settings
+
+fancymenu.fmvideo.config.categories.audio = Audio
+
+fancymenu.fmvideo.config.ignore_mc_master_volume = Ignore MC Master Volume
+fancymenu.fmvideo.config.ignore_mc_master_volume.desc = If the video volume should%n%ignore Minecraft's master volume.
+
+fancymenu.fmvideo.videoproperties.fallback_image = Fallback Image
+fancymenu.fmvideo.videoproperties.fallback_image.choose = Choose
+fancymenu.fmvideo.videoproperties.fallback_image.desc = There's always a chance that%n%the video fails to load.%n%In this case, the fallback%n%image is displayed instead.
+
+
+
+

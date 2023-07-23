@@ -1,0 +1,404 @@
+{
+	id: "7741B8A2FF594395"
+	group: "42A213AA17D37DAF"
+	order_index: 5
+	filename: "chapter_m1"
+	title: "Chapter MI: Crystalline Captivation"
+	icon: "quark:violet_corundum"
+	tags: ["corundum"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 16.5d
+			y: 2.5d
+			width: 42.0d
+			height: 42.0d
+			rotation: 0.0d
+			image: "kubejs:textures/corundum.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.0d
+			y: 3.5d
+			width: 14.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wowarcane.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 12.5d
+			y: -1.0d
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "545AED490B945C02"
+			tasks: [{
+				id: "503F728D1E07EB5F"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.5d
+			dependencies: ["178CF95FBA6B5406"]
+			id: "75409DD24277D1A7"
+			tasks: [{
+				id: "2DFA5CBA4ABE8600"
+				type: "item"
+				item: "minecraft:smooth_stone"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 6.0d
+			dependencies: ["1541034CCCF93673"]
+			id: "1CA4D9878985E384"
+			tasks: [{
+				id: "480EEB1BBF7C0566"
+				type: "item"
+				item: "minecraft:smooth_stone_slab"
+			}]
+			rewards: [{
+				id: "20E268548F308E95"
+				type: "item"
+				item: "kubejs:lootbag_arcane_1"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: [
+				"1CA4D9878985E384"
+				"23FFB3EBDEE7FC2E"
+			]
+			size: 1.3d
+			id: "191F931436C093A8"
+			tasks: [{
+				id: "2B03B0EE170CAD31"
+				type: "item"
+				item: "kubejs:runic_tablet"
+			}]
+			rewards: [
+				{
+					id: "6F2AA2701D10EC00"
+					type: "item"
+					item: "kubejs:lootbag_arcane_3"
+				}
+				{
+					id: "4479D532B8CE70E6"
+					type: "item"
+					item: "kubejs:runic_tablet"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 1.5d
+			shape: "rsquare"
+			dependencies: ["281CA0D5110C3959"]
+			id: "4ADB32C087B9092C"
+			tasks: [{
+				id: "71790AA0B67F41EE"
+				type: "item"
+				title: "Any #quark:corundum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:corundum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "46D5DEA375CEBA7D"
+				type: "item"
+				item: "quark:violet_corundum"
+				count: 16
+			}]
+		}
+		{
+			title: "Place a Spout Above a Corundum Block"
+			x: 18.0d
+			y: -1.0d
+			subtitle: "Fill the  Spout with Water, and youll see it actually spouting on the block below! Has to be below y20"
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "27B730C6CD9D0B95"
+			tasks: [
+				{
+					id: "2860243630356D34"
+					type: "item"
+					item: "create:spout"
+				}
+				{
+					id: "78912AEB5A6B7AD0"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+			rewards: [{
+				id: "484EB6CD20C22A32"
+				type: "item"
+				item: "kubejs:lootbag_arcane_1"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["27B730C6CD9D0B95"]
+			progression_mode: "flexible"
+			id: "281CA0D5110C3959"
+			tasks: [{
+				id: "234B6421229C1CAD"
+				type: "item"
+				title: "Any #quark:corundum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:corundum"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.5d
+			dependencies: ["281CA0D5110C3959"]
+			id: "21523CBC75AFE12D"
+			tasks: [{
+				id: "168F4B7C0C57FC64"
+				type: "item"
+				title: "Any #forge:corundum_clusters"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:corundum_clusters"
+					}
+				}
+			}]
+			rewards: [{
+				id: "73C98D1D32E9D518"
+				type: "item"
+				item: "quark:violet_corundum_cluster"
+				count: 16
+			}]
+		}
+		{
+			x: 16.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: [
+				"6321291501061632"
+				"21523CBC75AFE12D"
+			]
+			dependency_requirement: "one_completed"
+			id: "05A172D2244FF6A5"
+			tasks: [
+				{
+					id: "74CDD757A92E4D98"
+					type: "item"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "04A9290B41DFD769"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "2AD801299ADF4216"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 4.0d
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "6321291501061632"
+			tasks: [{
+				id: "06626A4B19400E31"
+				type: "item"
+				item: "kubejs:rune_dust"
+			}]
+			rewards: [
+				{
+					id: "681CF9A00A28F5E7"
+					type: "item"
+					item: "kubejs:lootbag_arcane_2"
+				}
+				{
+					id: "7BD74D80BB8185EF"
+					type: "item"
+					item: "kubejs:rune_dust"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 4.0d
+			dependencies: ["05A172D2244FF6A5"]
+			id: "17EF5048D1A08AFE"
+			tasks: [{
+				id: "12DE9078D0211666"
+				type: "item"
+				item: "quark:violet_corundum_cluster"
+			}]
+			rewards: [{
+				id: "7F32EEFFF226CB7F"
+				type: "item"
+				item: "kubejs:lootbag_arcane_1"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: [
+				"6321291501061632"
+				"17EF5048D1A08AFE"
+			]
+			dependency_requirement: "one_completed"
+			id: "0813B8BDA9147BE9"
+			tasks: [
+				{
+					id: "2B60A1EE8E48C643"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "6B51D8DCCD1C03DC"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 7.0d
+			dependencies: [
+				"0813B8BDA9147BE9"
+				"1A961226FACC3DF9"
+			]
+			dependency_requirement: "one_completed"
+			id: "23FFB3EBDEE7FC2E"
+			tasks: [{
+				id: "5A4A2B5C4E705B66"
+				type: "item"
+				item: "forbidden_arcanus:rune"
+			}]
+			rewards: [
+				{
+					id: "4BDC72D45A63F91A"
+					type: "item"
+					item: "forbidden_arcanus:rune"
+					count: 3
+				}
+				{
+					id: "0CD1D0D61F2D3ED9"
+					type: "item"
+					item: "kubejs:lootbag_arcane_2"
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["23FFB3EBDEE7FC2E"]
+			id: "5FB305FE4095D986"
+			tasks: [{
+				id: "7E93DD7FB92DAA53"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["545AED490B945C02"]
+			id: "178CF95FBA6B5406"
+			tasks: [
+				{
+					id: "57ABCD28450712A0"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "258025051FF484AA"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "3E798EAC7FFD2DCD"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["75409DD24277D1A7"]
+			id: "1541034CCCF93673"
+			tasks: [
+				{
+					id: "0E979649CB773C6D"
+					type: "item"
+					item: "minecraft:stonecutter"
+				}
+				{
+					id: "4B375B320DF84EAC"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 7.0d
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			optional: true
+			id: "1A961226FACC3DF9"
+			tasks: [{
+				id: "627B88154BE2D489"
+				type: "item"
+				title: "Any #forbidden_arcanus:runic_stones"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forbidden_arcanus:runic_stones"
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.0d
+			dependencies: ["5FB305FE4095D986"]
+			id: "31F408FB942B0947"
+		}
+	]
+	quest_links: [ ]
+}

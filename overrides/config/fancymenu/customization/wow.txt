@@ -1,0 +1,93 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = DrippyMenuStuff/arcanebackg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 143
+  width = 354
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = e050dd3b-176a-45d7-8a44-1b64b833f9f31687027897617
+  y = 133
+  height = 88
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = ef1f96b9-3600-4d4c-a76b-062caceecec41687027897617
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 140
+  width = 360
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 1dfe6407-1f5b-4392-ab17-6efeb49fc4ca1687027897617
+  y = 294
+  height = 10
+}
+
+customization {
+  path = DrippyMenuStuff/createlogo.png
+  orientation = mid-centered
+  x = -169
+  width = 337
+  action = addtexture
+  actionid = 0fe36911-5834-48a2-9b72-3288f1bb38b21687027943273
+  y = -159
+  height = 191
+}
+
+customization {
+  path = DrippyMenuStuff/arcaneengineering.png
+  orientation = mid-centered
+  x = -175
+  width = 350
+  action = addtexture
+  actionid = 040f8838-67f1-4f4b-98c9-c351521e5a231687027995265
+  y = -111
+  height = 242
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = 20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = true
+  x = 432
+  actionid = 606e34cc-5469-47ca-b069-5bfb70da99481687028055656
+  action = addsplash
+  y = 62
+  text = Enhanced!
+}
+

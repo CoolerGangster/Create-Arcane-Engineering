@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 176,
+				"texture_height": 176,
+				"visible_bounds_width": 10,
+				"visible_bounds_height": 13.5,
+				"visible_bounds_offset": [0, 6.25, 0]
+			},
+			"bones": [
+				{
+					"name": "emissive",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{
+							"origin": [-72, 16, -1],
+							"size": [144, 176, 40],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [144, 176]},
+								"east": {"uv": [0, 2], "uv_size": [2, 176]},
+								"south": {"uv": [16, 0], "uv_size": [144, 176]},
+								"west": {"uv": [146, 2], "uv_size": [2, 176]},
+								"up": {"uv": [2, 0], "uv_size": [144, 2]},
+								"down": {"uv": [146, 2], "uv_size": [144, -2]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

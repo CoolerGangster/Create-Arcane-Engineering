@@ -1,0 +1,5 @@
+
+[client]
+	#If true, renders enchanted guns from Scorched Bronze Guns with the enchantment glint. True by default.
+	enableGunEnchantmentGlint = true
+

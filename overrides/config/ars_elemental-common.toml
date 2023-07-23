@@ -1,0 +1,65 @@
+#Adjust this value to define how much the matching spell cost gets discounted by the focus
+#Range: 0.0 ~ 0.99
+"Elemental Focus discount" = 0.15
+
+#Adjust these values to balance how much a spell gets amplified by the matching spell focus, halved for lesser focus
+["Elemental Spell Foci - Amplify"]
+	"Fire Focus buff" = 2.0
+	"Water Focus buff" = 2.0
+	"Air Focus buff" = 2.0
+	"Earth Focus buff" = 2.0
+
+#Adjust these values to balance how much an elemental spell gets dampened by a not-matching lesser spell focus
+["Elemental Spell Foci - Dampening"]
+	"Fire Focus debuff" = -1.0
+	"Water Focus debuff" = -1.0
+	"Air Focus debuff" = -1.0
+	"Earth Focus debuff" = -1.0
+
+#Enable or disable the passive bonus of the foci
+["Elemental Spell Foci - Abilities"]
+	"Enable glyph empowering (ignite & freeze)" = true
+	"Enable regen bonus under special conditions" = true
+
+["Mermaid Fishing"]
+	#How much source mermaids consume per generation
+	#Range: 0 ~ 10000
+	mermaidManaCost = 1000
+	#How many channels must occur before a siren produces loot.
+	#Range: 0 ~ 300
+	mermaidMaxProgress = 30
+	#Max number of extra item rolls a shrine produces if the mood is high.
+	#Range: 0 ~ 10
+	mermaidScoreBonus = 2
+	#Chance multiplier to produce a treasure relative to the siren shrine score.
+	#Range: 0.0 ~ 1.0
+	mermaidTreasureBonus = 0.002
+	#Base number of items rolls a shrine produces per cycle.
+	#Range: 0 ~ 300
+	mermaidBaseItems = 1
+	#Max number of items a siren shrine can produce per cycle.
+	#Range: 0 ~ 300
+	mermaidQuantityCap = 5
+
+["Spawn and Worldgen"]
+	#How often sirens spawn
+	#Range: 0 ~ 200
+	sirenSpawnWeight = 3
+	#How often mages spawn
+	#Range: 0 ~ 200
+	magesSpawnWeight = 0
+	#If true, the wandering mages will target players too, unless they wear the focus of the same school.
+	magesAggro = true
+	#Rate of flashing archwood trees spawn per chunk. 0 disable, higher value -> more rare
+	#Range: > 0
+	flashingTreesRarity = 200
+
+[Misc]
+	#If enabled, flarecannons will simply die and drop the charm, instead of deactivating, if killed by their owner
+	flarecannon_owner_kill = false
+	#If enabled, homing will be able to target mobs only if they're glowing
+	homing_nerf = false
+	#Define the refresh rate of the Squirrel Ritual buff, in ticks.
+	#Range: > 1
+	squirrelRefreshRate = 600
+

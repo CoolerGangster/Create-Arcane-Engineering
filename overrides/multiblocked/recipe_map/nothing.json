@@ -1,0 +1,11 @@
+{
+  "name": "nothing",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "0644ff8d-5477-4864-a7d0-88cf67c5b0a9",
+      "duration": 1000
+    }
+  ]
+}

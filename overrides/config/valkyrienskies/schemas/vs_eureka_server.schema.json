@@ -1,0 +1,130 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "type" : "object",
+  "properties" : {
+    "allowDisassembly" : {
+      "type" : "boolean",
+      "description" : "Whether or not disassembly is permitted"
+    },
+    "antiVelocityMassRelevance" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "How much inertia affects Eureka ships. Max 10 = full inertia"
+    },
+    "ballastNoWeight" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "Weight of ballast when highest redstone power"
+    },
+    "ballastWeight" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "Weight of ballast when lowest redstone power"
+    },
+    "baseSpeed" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The speed a ship with no engines can move at"
+    },
+    "blockBlacklist" : {
+      "description" : "Blacklist of blocks that don't get assembled",
+      "type" : "array",
+      "items" : {
+        "type" : "string",
+        "description" : "Blacklist of blocks that don't get assembled"
+      }
+    },
+    "diagonals" : {
+      "type" : "boolean",
+      "description" : "Whether the ship helm assembles diagonally connected blocks or not"
+    },
+    "doFluidDrag" : {
+      "type" : "boolean",
+      "description" : "Allow Eureka controlled ships to be affected by fluid drag"
+    },
+    "engineHeatGain" : {
+      "type" : "number",
+      "format" : "float",
+      "description" : "The amount of heat a gain per tick (when burning)"
+    },
+    "engineHeatLoss" : {
+      "type" : "number",
+      "format" : "float",
+      "description" : "The amount of heat a engine loses per tick"
+    },
+    "enginePower" : {
+      "type" : "number",
+      "format" : "float",
+      "description" : "Movement power per engine heated fully"
+    },
+    "floaterBuoyantFactorPerKg" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The amount extra that each floater will make the ship float, per kg mass"
+    },
+    "impulseElevationRate" : {
+      "type" : "integer",
+      "format" : "int32",
+      "description" : "Vertical sensitivity up ascend/descend"
+    },
+    "linearStabilizeMaxAntiVelocity" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "How fast a ship will stop. 1 = fast stop, 0 = slow stop"
+    },
+    "massPerBalloon" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "Amount of mass in kg a balloon can lift"
+    },
+    "maxCasualSpeed" : {
+      "type" : "number",
+      "format" : "float",
+      "description" : "Max speed of a ship without boosting"
+    },
+    "maxFloaterBuoyantFactor" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The maximum amount extra each floater will multiply the buoyant force by, irrespective of mass"
+    },
+    "maxSizeForTurnSpeedPenalty" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The maximum distance from center of mass to one end of the ship considered by the turn speed. At it's default of 16, it ensures that really large ships will turn at the same speed as a ship with a center of mass only 16 blocks away from the farthest point in the ship. That way, large ships do not turn painfully slowly"
+    },
+    "minEnginePower" : {
+      "type" : "number",
+      "format" : "float",
+      "description" : "Movement power per engine with minimal heat"
+    },
+    "popSideBalloonChance" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "Chance for popped balloons to pop adjacent balloons, per side"
+    },
+    "stabilizationSpeed" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The speed at which the ship stabilizes"
+    },
+    "stabilizationTorqueConstant" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "How much torque a ship will apply to try and keep level"
+    },
+    "turnAcceleration" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The maximum linear acceleration at any point on the ship caused by helm torque"
+    },
+    "turnSpeed" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The maximum linear velocity at any point on the ship caused by helm torque"
+    },
+    "$schema" : {
+      "type" : "string"
+    }
+  },
+  "additionalProperties" : false
+}

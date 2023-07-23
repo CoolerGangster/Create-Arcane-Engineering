@@ -1,0 +1,59 @@
+{
+  "version": 3,
+  "location": "cae:pressurecontainer",
+  "traits": {
+    "pneumatic_pressure": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "",
+      "x": 8,
+      "y": 8,
+      "dangerPressure": 5.0,
+      "criticalPressure": 6.0,
+      "volume": 20000
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:skystone_catalyst_side",
+        "frontTexture": "multiblocked:skystone_catalyst_bottom",
+        "type": "gregtech",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "renderer": {
+        "baseTexture": "multiblocked:source_time_crystal",
+        "frontTexture": "multiblocked:liquid_resent_flow",
+        "type": "gregtech",
+        "postRenderer": false
+      },
+      "lightEmissive": 15,
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "canShared": true
+}

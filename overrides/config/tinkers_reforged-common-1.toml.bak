@@ -1,0 +1,88 @@
+#Default Modifier Cap for adapting
+adaptingModifierCap = 15.0
+
+#Bauxite Ore Worldgen
+[bauxite_ore]
+	#Enable/Disable Bauxite ore
+	bauxiteOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 256
+	minY = -60
+	#Max Y Level
+	#Range: -60 ~ 256
+	maxY = 120
+	#Ore vein count
+	#Range: 1 ~ 100
+	veinCount = 50
+	#Ore vein size
+	#Range: 1 ~ 10
+	veinSize = 4
+
+#Kepu Ore Worldgen
+[kepu_ore]
+	#Enable/Disable Kepu ore
+	kepuOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 256
+	minY = -20
+	#Max Y Level
+	#Range: -60 ~ 256
+	maxY = 100
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 3
+
+#Epidote Ore Worldgen
+[epidote_ore]
+	#Enable/Disable Epidote ore
+	epidoteOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 256
+	minY = -60
+	#Max Y Level
+	#Range: -60 ~ 5
+	maxY = 5
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 4
+
+#Hureaulite Ore Worldgen
+[hureaulite_ore]
+	#Enable/Disable Hureaulite ore
+	hureauliteOreEnabled = true
+	#Min Y level
+	#Range: -80 ~ 0
+	minY = -60
+	#Max Y Level
+	#Range: -60 ~ 5
+	maxY = 5
+	#Ore vein count
+	#Range: 1 ~ 40
+	veinCount = 20
+	#Ore vein size
+	#Range: 1 ~ 40
+	veinSize = 4
+
+#Red Beryl Ore Worldgen
+[red_beryl_ore]
+	#Enable/Disable Red Beryl ore
+	redBerylOreEnabled = true
+	#Min Y level
+	#Range: -60 ~ 256
+	minY = -40
+	#Max Y Level
+	#Range: -60 ~ 256
+	maxY = 60
+	#Ore vein count
+	#Range: 1 ~ 100
+	veinCount = 40
+	#Ore vein size
+	#Range: 1 ~ 10
+	veinSize = 5
+

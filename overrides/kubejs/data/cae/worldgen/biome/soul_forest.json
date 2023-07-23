@@ -1,0 +1,20 @@
+{
+  "temperature": 1,
+  "downfall": 1.4,
+  "precipitation": "rain",
+  "category": "forest",
+  "creature_spawn_probability": 0.6,
+  "effects": {
+    "sky_color": 11061247,
+    "fog_color": 11909815,
+    "water_color": 6388162,
+    "water_fog_color": 9081599,
+    "grass_color": 5917247,
+    "foliage_color": 85248,
+    "grass_color_modifier": "dark_forest"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

@@ -1,0 +1,85 @@
+[09:46:22] [INFO ] Loaded script server_scripts:Constants/trees.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Constants/wood_variants.js in 0.001 s
+[09:46:22] [INFO ] Loaded script server_scripts:Assembly.js in 0.001 s
+[09:46:22] [INFO ] Loaded script server_scripts:Tags.js in 0.001 s
+[09:46:22] [INFO ] Loaded script server_scripts:Temp m3.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Smelting.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Shaped.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Washing.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Sus conversion.js in 0.002 s
+[09:46:22] [INFO ] Loaded script server_scripts:draining.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Functions/functions.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Pneumaticraft.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:compat shit recipes.js in 0.001 s
+[09:46:22] [INFO ] Loaded script server_scripts:TempChM4.js in 0.001 s
+[09:46:22] [INFO ] Loaded script server_scripts:Constants/ingots.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Shapeless.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Skystonecatalyst.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:thermal.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Milling.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:VoidMine.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Sawing.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Tinkers.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Crafter.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:TempC2E.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Deploying.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Pressing.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:tree_extractor.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Crushing.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Remove.js in 0.001 s
+[09:46:22] [INFO ] Loaded script server_scripts:Fluidtransform.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Mixing.js in 0.0 s
+[09:46:22] [INFO ] Loaded script server_scripts:Filling.js in 0.0 s
+[09:46:22] [INFO ] Loaded 32/32 KubeJS server scripts in 0.018 s
+[09:46:22] [INFO ] Scripts loaded
+[09:46:22] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
+[09:46:22] [INFO ] Scanning recipes...
+[09:46:24] [INFO ] [worldgen/biome] Found 147 tags, added 1 objects, removed 0 objects
+[09:46:28] [INFO ] [items] Found 2426 tags, added 24 objects, removed 0 objects
+[09:46:28] [INFO ] [items] Found 2426 tags, added 24 objects, removed 0 objects
+[09:46:47] [WARN ] Failed to parse recipe 'beyond_earth:smeltery/melting/metal/ostrum/raw[tconstruct:ore_melting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:47] [WARN ] Failed to parse recipe beyond_earth:smeltery/melting/metal/ostrum/raw[tconstruct:ore_melting]: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:47] [WARN ] Failed to parse recipe 'beyond_earth:smeltery/melting/metal/desh/ore[tconstruct:ore_melting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:47] [WARN ] Failed to parse recipe beyond_earth:smeltery/melting/metal/desh/ore[tconstruct:ore_melting]: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:47] [WARN ] Failed to parse recipe 'immersive_weathering:waxed_cut_iron_stairs_from_waxed_plate_iron_stonecutting[minecraft:stonecutting]': "immersive_weathering:waxed_cut_copper_stairs" is not a valid result!
+[09:46:47] [WARN ] Failed to parse recipe 'beyond_earth:smeltery/melting/metal/desh/raw[tconstruct:ore_melting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:47] [WARN ] Failed to parse recipe beyond_earth:smeltery/melting/metal/desh/raw[tconstruct:ore_melting]: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:47] [WARN ] Failed to parse recipe 'pamhc2crops:torch_cattail[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[09:46:47] [WARN ] Failed to parse recipe pamhc2crops:torch_cattail[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[09:46:47] [WARN ] Failed to parse recipe 'dramaticdoors:tall_full_flesh_door[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomancy:full_flesh_door'
+[09:46:47] [WARN ] Failed to parse recipe dramaticdoors:tall_full_flesh_door[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomancy:full_flesh_door'
+[09:46:47] [WARN ] Failed to parse recipe 'extendedgears:crafting/large_steel_cogwheel_from_small[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'forge:ingots/steel'
+[09:46:47] [WARN ] Failed to parse recipe extendedgears:crafting/large_steel_cogwheel_from_small[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'forge:ingots/steel'
+[09:46:47] [WARN ] Failed to parse recipe 'pamhc2crops:bottle_x4_cattail_x2[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[09:46:47] [WARN ] Failed to parse recipe pamhc2crops:bottle_x4_cattail_x2[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[09:46:48] [WARN ] Failed to parse recipe 'dramaticdoors:tall_fleshkin_door[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomancy:fleshkin_door'
+[09:46:48] [WARN ] Failed to parse recipe dramaticdoors:tall_fleshkin_door[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomancy:fleshkin_door'
+[09:46:48] [WARN ] Failed to parse recipe 'immersive_weathering:waxed_plate_iron_stairs_from_stonecutting[minecraft:stonecutting]': "immersive_weathering:waxed_plate_copper_stairs" is not a valid result!
+[09:46:48] [WARN ] Failed to parse recipe 'beyond_earth:smeltery/melting/metal/calorite/ore[tconstruct:ore_melting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe beyond_earth:smeltery/melting/metal/calorite/ore[tconstruct:ore_melting]: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe 'davebuildingmod:rec_smoke_stack_opening[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'davebuildingmod:deleted_mod_element'
+[09:46:48] [WARN ] Failed to parse recipe davebuildingmod:rec_smoke_stack_opening[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'davebuildingmod:deleted_mod_element'
+[09:46:48] [WARN ] Failed to parse recipe 'createaddition:compat/tconstruct/pig_iron[create:mixing]': {"item":"minecraft:bottle","count":1} is not a valid result!
+[09:46:48] [WARN ] Failed to parse recipe 'beyond_earth:smeltery/melting/metal/calorite/raw[tconstruct:ore_melting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe beyond_earth:smeltery/melting/metal/calorite/raw[tconstruct:ore_melting]: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe 'pneumaticcraft:pneumaticcraft_fuels/cofh_biofuel[pneumaticcraft:fuel_quality]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown fluid 'thermal:refined_biofuel'
+[09:46:48] [WARN ] Failed to parse recipe pneumaticcraft:pneumaticcraft_fuels/cofh_biofuel[pneumaticcraft:fuel_quality]: com.google.gson.JsonSyntaxException: Unknown fluid 'thermal:refined_biofuel'
+[09:46:48] [WARN ] Failed to parse recipe 'alloyedguns:silencer[alloyedguns:workbench]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alloyedguns:small_steel_pipe'
+[09:46:48] [WARN ] Failed to parse recipe alloyedguns:silencer[alloyedguns:workbench]: com.google.gson.JsonSyntaxException: Unknown item 'alloyedguns:small_steel_pipe'
+[09:46:48] [WARN ] Failed to parse recipe 'beyond_earth:smeltery/melting/metal/desh/raw_block[tconstruct:ore_melting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe beyond_earth:smeltery/melting/metal/desh/raw_block[tconstruct:ore_melting]: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe 'infernalexp:stonecutting/basalt_bricks_vertical_slab[minecraft:stonecutting]': "infernalexp:basalt_bricks_vertical_slab" is not a valid result!
+[09:46:48] [WARN ] Failed to parse recipe 'beyond_earth:smeltery/melting/metal/calorite/raw_block[tconstruct:ore_melting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe beyond_earth:smeltery/melting/metal/calorite/raw_block[tconstruct:ore_melting]: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe 'beyond_earth:smeltery/melting/metal/ostrum/raw_block[tconstruct:ore_melting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe beyond_earth:smeltery/melting/metal/ostrum/raw_block[tconstruct:ore_melting]: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe 'beyond_earth:smeltery/melting/metal/ostrum/ore[tconstruct:ore_melting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [WARN ] Failed to parse recipe beyond_earth:smeltery/melting/metal/ostrum/ore[tconstruct:ore_melting]: com.google.gson.JsonSyntaxException: Missing rate, expected to find a string
+[09:46:48] [INFO ] Found 16830 recipes and 0 failed recipes in 379.0 ms
+[09:46:48] [ERR  ] server_scripts:Assembly.js:192: Failed to create recipe for type 'create:sequenced_assembly': Failed to create java.lang.IllegalStateException: Can't modify the empty stack.
+[09:46:48] [INFO ] Posted recipe events in 361.1 ms
+[09:46:48] [INFO ] Modified & removed recipes in 282.3 ms
+[09:46:48] [WARN ] Error creating recipe create:kjs_84snbikvwiufs23pgpcvl30cv[create:filling]: {"processingTime":100,"type":"create:filling","ingredients":[{"item":"minecraft:stone"},{"fluid":"minecraft:empty","nbt":{},"amount":0}],"results":[{"item":"minecraft:stone","count":1}]}: java.lang.IllegalStateException: Can't modify the empty stack.
+[09:46:48] [WARN ] Error creating recipe create:kjs_84snbikvwiufs23pgpcvl30cv[create:filling]: {"processingTime":100,"type":"create:filling","ingredients":[{"item":"minecraft:stone"},{"fluid":"minecraft:empty","nbt":{},"amount":0}],"results":[{"item":"minecraft:stone","count":1}]}: java.lang.IllegalStateException: Can't modify the empty stack.
+[09:46:48] [INFO ] Added recipes in 9.559 ms
+[09:46:48] [INFO ] Added 350 recipes, removed 347 recipes, modified 13 recipes, with 2 failed recipes and 0 fall-backed recipes

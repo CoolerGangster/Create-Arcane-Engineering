@@ -1,0 +1,20 @@
+{
+  "ComputerCraft" : {
+    "disableComputerCraft" : false,
+    "disableEurekaIntegration" : false,
+    "disableRadars" : false,
+    "disableShipReaders" : false,
+    "RadarSettings" : {
+      "maxRadarRadius" : 256,
+      "radarGetsName" : false,
+      "radarGetsId" : true,
+      "radarGetsPosition" : true,
+      "radarGetsMass" : true,
+      "radarGetsRotation" : false,
+      "radarGetsVelocity" : false,
+      "radarGetsDistance" : false,
+      "radarGetsSize" : false
+    }
+  },
+  "$schema" : "schemas/vc_server.schema.json"
+}

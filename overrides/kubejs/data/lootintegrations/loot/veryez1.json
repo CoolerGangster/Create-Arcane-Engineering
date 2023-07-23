@@ -1,0 +1,11 @@
+{
+  "loot_table": "cae:createmegacrippled",
+  "max_result_itemcount": 13,
+  "integrated_loot_tables": {
+    "minecraft:chests/simple_dungeon": 1,
+    "minecraft:chests/abandoned_mineshaft": 1,
+    "minecraft:chests/nether_bridge": 2,
+    "minecraft:chests/woodland_mansion": 2,
+    "minecraft:chests/stronghold_crossing": 2
+  }
+}

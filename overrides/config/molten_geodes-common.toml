@@ -1,0 +1,20 @@
+
+#General settings for Molten Geodes
+[common]
+	#When true, molten geodes will generate in the nether and not in the overworld. Highly recommended to dramatically increase the rarirty of geodes when this setting is enabled. Biomes added by the mod who is named in the modName config option will still generate geodes regardless of this setting. Default: false
+	netherInsteadOfOverworld = false
+	#The name of a mod whom's biomes you wish for the geodes to generate in. Important: You must have the mod's technical id such as 'tconstruct' instead of 'Tinkers Construct'. Default: 'inversia'
+	modName = "inversia"
+	#The minimum Y value at which geodes will generate. Default: -40
+	geodeMinHeight = -40
+	#The maximum Y value at which geodes will generate. Default: -6
+	geodeMaxHeight = -6
+	#The rarity of pure geodes. The higher the number the rarer the geodes. Default: 35
+	pureGeodeRarity = 35
+	#The rarity of impure geodes. The higher the number the rarer the geodes. Default: 20
+	impureGeodeRarity = 20
+	#When true, orestone blocks will only replace liquid source blocks. This means that you will require a constant supply of liquid to generate orestones. Default: true
+	useSource = true
+	#The name of a mod whom's biomes you wish for the geodes to generate in. Important: You must have the mod's technical id such as 'tconstruct' instead of 'Tinkers Construct'. Default: 'minecraft:lava'
+	requiredLiquid = "minecraft:lava"
+

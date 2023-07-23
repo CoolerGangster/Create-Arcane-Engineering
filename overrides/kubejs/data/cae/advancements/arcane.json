@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "title": "The legend unfolds",
+    "description": "Discover the Arcane Ruins",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "cae:arcane_portal"
+      }
+    }
+  }
+}

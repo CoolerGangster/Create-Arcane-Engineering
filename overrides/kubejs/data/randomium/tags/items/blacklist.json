@@ -1,0 +1,24 @@
+{
+    "replace": true,
+    "values": [
+      "minecraft:bedrock",
+      "minecraft:spawner",
+      "minecraft:end_portal_frame",
+      "minecraft:barrier",
+      "minecraft:debug_stick",
+      "minecraft:command_block",
+      "minecraft:command_block_minecart",
+      "minecraft:repeating_command_block",
+      "minecraft:jigsaw",
+      "minecraft:structure_block",
+      "minecraft:structure_void"
+    ],
+    "optional": [
+      "computercraft:computer_command",
+      "create:creative_motor",
+      "create:creative_fluid_tank",
+      "create:creative_crate",
+      "create:creative_blaze_cake",
+      "create:handheld_worldshaper"
+    ]
+  }

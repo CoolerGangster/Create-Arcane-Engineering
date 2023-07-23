@@ -1,0 +1,18 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "type" : "object",
+  "properties" : {
+    "recommendSlugsInMcCommands" : {
+      "type" : "boolean",
+      "description" : "Recommend ship slugs in mc commands where player names could be used ex. /tp ship-name wich could pollute user autocomplete"
+    },
+    "renderDebugText" : {
+      "type" : "boolean",
+      "description" : "Renders the VS2 debug HUD with TPS"
+    },
+    "$schema" : {
+      "type" : "string"
+    }
+  },
+  "additionalProperties" : false
+}

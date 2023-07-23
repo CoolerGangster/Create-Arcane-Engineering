@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": {
+        "text": "Arcane and Beyond",
+        "color": "dark_purple",
+        "bold": true,
+        "italic": true,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+    },
+    "description": {
+        "text": "Discover something otherwordly",
+        "color": "dark_green",
+        "obfuscated": false,
+        "strikethrough": false,
+        "underlined": false,
+        "bold": true,
+        "italic": true
+    },
+    "icon": {
+        "item": "minecraft:nether_star"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+},
+"criteria": {
+    "requirement": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "cae:void_portal"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "title": "The legend unfolds",
+    "description": "Discover the Arcane Ruins",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "sex": {
+        "trigger": "minecraft:impossible"
+    }
+}
+
+}

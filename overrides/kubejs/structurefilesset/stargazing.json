@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cae:stargazing",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 20,
+    "salt": 1179587658
+  }
+}

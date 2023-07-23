@@ -1,0 +1,5 @@
+#set the radius of aura value consumption.
+#Default: 20
+#Range: 1 ~ 64
+"Natures Aura Radius" = 20
+

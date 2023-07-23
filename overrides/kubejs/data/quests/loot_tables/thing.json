@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "ars_nouveau:caster_tome",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ars_nouveau_spellCaster:{current_slot:1,flavor:\"Flying is quite dangerous you know\",spell_0:\"[]\",spell_1:\"[self, glide, extend_time, extend_time, harm, delay, harm, delay, delay, harm]\",spell_color_0:\"0,255,255\",spell_color_1:\"0,255,255\",spell_name_0:\"\",spell_name_1:\"\",spell_sound_0:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f},spell_sound_1:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f}},display:{Name:'{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"Freedom\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

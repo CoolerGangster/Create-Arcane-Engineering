@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:bastion_remnant",
+  "biomes": "#forge:is_overworld",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "cae:asurine_geode",
+    "size": 7
+  }
+}

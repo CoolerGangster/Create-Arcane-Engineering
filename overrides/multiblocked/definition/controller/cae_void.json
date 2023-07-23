@@ -1,0 +1,188 @@
+{
+  "version": 3,
+  "location": "cae:void",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": false,
+    "isOpaque": false,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 2.31312323E10,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 12313,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:void",
+        "type": "imodel",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "void",
+        "isGlobal": true,
+        "type": "geo",
+        "postRenderer": false
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "e74b5f1f-9279-4f05-802d-736bc0f9615d",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "A   BCB@BCB   A",
+        " DDD   E   DDD ",
+        " DDF       FDD ",
+        "DDD         DDD",
+        "GDG         GDG",
+        "FDD         DDF",
+        "DDF         FDD",
+        "FDF         FDF",
+        "FFD         DFF",
+        "HDH         HDH",
+        " FF         FF ",
+        " DD         DD ",
+        "  DD       DD  ",
+        "   F       F   ",
+        "    D     D    "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "minecraft:birch_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cae:void",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "chipped:raw_gold_block_46"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "ars_nouveau:ab_mosaic"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "minecraft:smooth_sandstone"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "cae:void_portal"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "chipped:sandstone_7"
+          }
+        ],
+        "type": "blocks"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "minecraft:chiseled_sandstone"
+          }
+        ],
+        "type": "blocks"
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "minecraft:gold_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

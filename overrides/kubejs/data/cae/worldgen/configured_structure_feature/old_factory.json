@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#ars_elemental:has_structure/starbuncle_shrine",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "cae:old_factory",
+    "size": 7
+  }
+}

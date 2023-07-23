@@ -1,0 +1,27 @@
+{
+    "structures": [
+      {
+        "structure": "cae:veridium_geode",
+        "weight": 30
+      },
+      {
+        "structure": "cae:asurine_geode",
+        "weight": 30
+      },
+      {
+        "structure": "cae:ochrum_geode",
+        "weight": 30
+      },
+      {
+        "structure": "cae:crimsite_geode",
+        "weight": 30
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 12,
+      "separation": 6,
+      "salt": 662888134
+    }
+  }
+  

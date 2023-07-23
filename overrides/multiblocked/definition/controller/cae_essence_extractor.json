@@ -1,0 +1,180 @@
+{
+  "version": 3,
+  "location": "cae:essence_extractor",
+  "traits": {},
+  "properties": {
+    "rotationState": "NONE",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "minecraft:coarse_dirt",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "fortnite",
+        "isGlobal": true,
+        "type": "geo",
+        "postRenderer": false
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "thething",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " A ",
+        "   ",
+        " B ",
+        "   "
+      ],
+      [
+        "A@A",
+        " C ",
+        " D ",
+        " E "
+      ],
+      [
+        " A ",
+        "   ",
+        " B ",
+        "   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "A": {
+        "blocks": [
+          {
+            "id": "minecraft:waxed_cut_copper_slab"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "cae:essence_extractor",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "minecraft:end_rod"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "minecraft:netherite_block"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "minecraft:spore_blossom"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:small_tank"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "",
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E",
+        "fluid"
+      ]
+    }
+  }
+}

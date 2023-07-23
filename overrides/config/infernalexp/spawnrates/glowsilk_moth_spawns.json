@@ -1,0 +1,42 @@
+{
+  "biomes": [
+    {
+      "biome": "default",
+      "spawn_info": {
+        "spawn_rate": 5,
+        "min_count": 1,
+        "max_count": 1
+      }
+    },
+    {
+      "biome": "infernalexp:glowstone_canyon",
+      "spawn_info": {
+        "spawn_rate": 1,
+        "min_count": 1,
+        "max_count": 1,
+        "energy_budget": 3.0,
+        "charge": 0.1
+      }
+    },
+    {
+      "biome": "minecraft:crimson_forest",
+      "spawn_info": {
+        "spawn_rate": 1,
+        "min_count": 1,
+        "max_count": 1,
+        "energy_budget": 1.0,
+        "charge": 0.4
+      }
+    },
+    {
+      "biome": "minecraft:basalt_deltas",
+      "spawn_info": {
+        "spawn_rate": 1,
+        "min_count": 1,
+        "max_count": 1,
+        "energy_budget": 1.0,
+        "charge": 0.4
+      }
+    }
+  ]
+}

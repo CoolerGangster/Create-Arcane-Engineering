@@ -1,0 +1,43 @@
+{
+  "name": "particleaccelerator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "cb3ac3a8-55e6-4162-8225-f784ad3a8cea",
+      "duration": 160,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "pneumaticcraft:spawner_core"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "entity": [
+          {
+            "content": {
+              "type": "cae:essentialorb"
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "content": 500,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

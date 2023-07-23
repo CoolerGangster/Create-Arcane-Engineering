@@ -1,0 +1,64 @@
+{
+  "name": "e74b5f1f-9279-4f05-802d-736bc0f9615d",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "9faf1d4d-233e-4861-bbfc-a95aea45a2b5",
+      "duration": 2000,
+      "inputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:source_essence",
+              "amount": 512000
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "fluid": "kubejs:ice_essence",
+              "amount": 512000
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "fluid": "kubejs:dry_essence",
+              "amount": 512000
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "fluid": "kubejs:soul_essence",
+              "amount": 512000
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "fluid": "kubejs:nature_essence",
+              "amount": 512000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:god_actuation_fluid_bucket"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

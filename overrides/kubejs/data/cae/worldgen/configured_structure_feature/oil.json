@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#forge:is_desert",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "cae:oil",
+    "size": 7
+  }
+}

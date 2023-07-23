@@ -1,0 +1,526 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 4, 2023, 12:10:44 PM
+
+#terralith:zpointer/terralith_fractured_savanna
+- terralith:zpointer/terralith_fractured_savanna
+
+#terralith:zpointer/minecraft_taiga
+- terralith:zpointer/minecraft_taiga
+
+#terralith:zpointer/terralith_ice_marsh
+- terralith:zpointer/terralith_ice_marsh
+
+#terralith:zpointer/minecraft_bamboo_jungle
+- terralith:zpointer/minecraft_bamboo_jungle
+
+#terralith:zpointer/minecraft_meadow
+- terralith:zpointer/minecraft_meadow
+
+#terralith:zpointer/terralith_temperate_highlands
+- terralith:zpointer/terralith_temperate_highlands
+
+#terralith:zpointer/minecraft_jungle
+- terralith:zpointer/minecraft_jungle
+
+#terralith:zpointer/minecraft_frozen_ocean
+- terralith:zpointer/minecraft_frozen_ocean
+
+#quark:soul_bead_target
+- minecraft:fortress
+
+#terralith:zpointer/minecraft_beach
+- terralith:zpointer/minecraft_beach
+
+#terralith:zpointer/terralith_brushland
+- terralith:zpointer/terralith_brushland
+
+#terralith:zpointer/terralith_gravel_desert
+- terralith:zpointer/terralith_gravel_desert
+
+#terralith:zpointer/terralith_windswept_spires
+- terralith:zpointer/terralith_windswept_spires
+
+#terralith:zpointer/terralith_white_cliffs
+- terralith:zpointer/terralith_white_cliffs
+
+#terralith:zpointer/minecraft_frozen_river
+- terralith:zpointer/minecraft_frozen_river
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure
+
+#terralith:zpointer/minecraft_sparse_jungle
+- terralith:zpointer/minecraft_sparse_jungle
+
+#terralith:zpointer/minecraft_birch_forest
+- terralith:zpointer/minecraft_birch_forest
+
+#terralith:zpointer/terralith_white_mesa
+- terralith:zpointer/terralith_white_mesa
+
+#infernalexp:no_intersecting_features
+- infernalexp:glowstone_canyon_ruin
+- infernalexp:soul_sand_valley_ruin
+- infernalexp:bastion_outpost
+- infernalexp:strider_altar
+
+#terralith:zpointer/terralith_yosemite_lowlands
+- terralith:zpointer/terralith_yosemite_lowlands
+
+#terralith:zpointer/terralith_frozen_cliffs
+- terralith:zpointer/terralith_frozen_cliffs
+
+#terralith:zpointer/minecraft_windswept_hills
+- terralith:zpointer/minecraft_windswept_hills
+
+#byg:village
+- byg:village_red_rock
+- byg:village_skyris
+- byg:village_ruins
+- byg:village_tropical
+
+#terralith:zpointer/terralith_birch_taiga
+- terralith:zpointer/terralith_birch_taiga
+
+#minecraft:igloo
+- minecraft:igloo
+
+#terralith:zpointer/minecraft_deep_warm_ocean
+- terralith:zpointer/minecraft_deep_warm_ocean
+
+#terralith:zpointer/terralith_mirage_isles
+- terralith:zpointer/terralith_mirage_isles
+
+#terralith:zpointer/terralith_highlands
+- terralith:zpointer/terralith_highlands
+
+#terralith:zpointer/terralith_cloud_forest
+- terralith:zpointer/terralith_cloud_forest
+
+#terralith:zpointer/minecraft_warm_ocean
+- terralith:zpointer/minecraft_warm_ocean
+
+#terralith:zpointer/minecraft_flower_forest
+- terralith:zpointer/minecraft_flower_forest
+
+#terralith:zpointer/terralith_alpha_islands
+- terralith:zpointer/terralith_alpha_islands
+
+#terralith:zpointer/terralith_glacial_chasm
+- terralith:zpointer/terralith_glacial_chasm
+
+#terralith:zpointer/minecraft_snowy_beach
+- terralith:zpointer/minecraft_snowy_beach
+
+#terralith:zpointer/minecraft_deep_ocean
+- terralith:zpointer/minecraft_deep_ocean
+
+#terralith:zpointer/terralith_snowy_badlands
+- terralith:zpointer/terralith_snowy_badlands
+
+#terralith:zpointer/terralith_desert_spires
+- terralith:zpointer/terralith_desert_spires
+
+#terralith:zpointer/minecraft_windswept_savanna
+- terralith:zpointer/minecraft_windswept_savanna
+
+#terralith:zpointer/minecraft_deep_lukewarm_ocean
+- terralith:zpointer/minecraft_deep_lukewarm_ocean
+
+#terralith:zpointer/minecraft_savanna
+- terralith:zpointer/minecraft_savanna
+
+#terralith:zpointer/minecraft_snowy_plains
+- terralith:zpointer/minecraft_snowy_plains
+
+#pneumaticcraft:no_oil_lakes
+- #minecraft:village
+
+#minecraft:bastion_remnant
+- minecraft:bastion_remnant
+
+#terralith:zpointer/terralith_skylands_summer
+- terralith:zpointer/terralith_skylands_summer
+
+#terralith:zpointer/terralith_sandstone_valley
+- terralith:zpointer/terralith_sandstone_valley
+
+#terralith:zpointer/minecraft_old_growth_spruce_taiga
+- terralith:zpointer/minecraft_old_growth_spruce_taiga
+
+#terralith:zpointer/terralith_skylands_winter
+- terralith:zpointer/terralith_skylands_winter
+
+#terralith:zpointer/terralith_ashen_savanna
+- terralith:zpointer/terralith_ashen_savanna
+
+#terralith:zpointer/terralith_mountain_steppe
+- terralith:zpointer/terralith_mountain_steppe
+
+#terralith:zpointer/terralith_arid_highlands
+- terralith:zpointer/terralith_arid_highlands
+
+#terralith:zpointer/minecraft_ocean
+- terralith:zpointer/minecraft_ocean
+
+#terralith:zpointer/minecraft_savanna_plateau
+- terralith:zpointer/minecraft_savanna_plateau
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument
+
+#minecraft:jungle_pyramid
+- minecraft:jungle_pyramid
+
+#minecraft:swamp_hut
+- minecraft:swamp_hut
+
+#terralith:zpointer/terralith_rocky_shrubland
+- terralith:zpointer/terralith_rocky_shrubland
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert
+- minecraft:ruined_portal_jungle
+- minecraft:ruined_portal_mountain
+- minecraft:ruined_portal_nether
+- minecraft:ruined_portal_ocean
+- minecraft:ruined_portal
+- minecraft:ruined_portal_swamp
+
+#terralith:zpointer/terralith_tropical_jungle
+- terralith:zpointer/terralith_tropical_jungle
+
+#minecraft:village
+- minecraft:village_plains
+- minecraft:village_desert
+- minecraft:village_savanna
+- minecraft:village_snowy
+- minecraft:village_taiga
+- #byg:village
+
+#minecraft:end_city
+- minecraft:end_city
+
+#supplementaries:adventure_map_destinations
+- #minecraft:village
+- #minecraft:shipwreck
+- #minecraft:mineshaft
+- #minecraft:ocean_ruin
+- #minecraft:ruined_portal
+- #minecraft:swamp_hut
+- #minecraft:bastion_remnant
+- #minecraft:jungle_pyramid
+- #minecraft:desert_pyramid
+- #minecraft:pillager_outpost
+- #minecraft:igloo
+- #minecraft:end_city
+
+#terralith:zpointer/terralith_desert_oasis
+- terralith:zpointer/terralith_desert_oasis
+
+#terralith:zpointer/terralith_jungle_mountains
+- terralith:zpointer/terralith_jungle_mountains
+
+#minecraft:mineshaft
+- minecraft:mineshaft
+- minecraft:mineshaft_mesa
+
+#terralith:zpointer/minecraft_lukewarm_ocean
+- terralith:zpointer/minecraft_lukewarm_ocean
+
+#terralith:zpointer/terralith_valley_clearing
+- terralith:zpointer/terralith_valley_clearing
+
+#terralith:zpointer/minecraft_jagged_peaks
+- terralith:zpointer/minecraft_jagged_peaks
+
+#terralith:zpointer/minecraft_windswept_gravelly_hills
+- terralith:zpointer/minecraft_windswept_gravelly_hills
+
+#terralith:zpointer/terralith_moonlight_grove
+- terralith:zpointer/terralith_moonlight_grove
+
+#terralith:zpointer/terralith_skylands_spring
+- terralith:zpointer/terralith_skylands_spring
+
+#terralith:zpointer/terralith_sakura_valley
+- terralith:zpointer/terralith_sakura_valley
+
+#terralith:zpointer/terralith_amethyst_rainforest
+- terralith:zpointer/terralith_amethyst_rainforest
+
+#terralith:zpointer/minecraft_sunflower_plains
+- terralith:zpointer/minecraft_sunflower_plains
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold
+
+#terralith:zpointer/terralith_forested_highlands
+- terralith:zpointer/terralith_forested_highlands
+
+#terralith:zpointer/terralith_rocky_mountains
+- terralith:zpointer/terralith_rocky_mountains
+
+#terralith:zpointer/minecraft_ice_spikes
+- terralith:zpointer/minecraft_ice_spikes
+
+#terralith:zpointer/terralith_hot_shrubland
+- terralith:zpointer/terralith_hot_shrubland
+
+#terralith:zpointer/terralith_granite_cliffs
+- terralith:zpointer/terralith_granite_cliffs
+
+#minecraft:desert_pyramid
+- minecraft:desert_pyramid
+
+#terralith:zpointer/terralith_lavender_valley
+- terralith:zpointer/terralith_lavender_valley
+
+#terralith:zpointer/terralith_alpine_grove
+- terralith:zpointer/terralith_alpine_grove
+
+#terralith:zpointer/minecraft_desert
+- terralith:zpointer/minecraft_desert
+
+#terralith:zpointer/minecraft_old_growth_pine_taiga
+- terralith:zpointer/minecraft_old_growth_pine_taiga
+
+#terralith:zpointer/terralith_yellowstone
+- terralith:zpointer/terralith_yellowstone
+
+#terralith:zpointer/terralith_alpha_islands_winter
+- terralith:zpointer/terralith_alpha_islands_winter
+
+#terralith:zpointer/minecraft_swamp
+- terralith:zpointer/minecraft_swamp
+
+#terralith:zpointer/minecraft_plains
+- terralith:zpointer/minecraft_plains
+
+#terralith:zpointer/minecraft_frozen_peaks
+- terralith:zpointer/minecraft_frozen_peaks
+
+#terralith:zpointer/minecraft_mushroom_fields
+- terralith:zpointer/minecraft_mushroom_fields
+
+#terralith:zpointer/terralith_stony_spires
+- terralith:zpointer/terralith_stony_spires
+
+#terralith:zpointer/minecraft_forest
+- terralith:zpointer/minecraft_forest
+
+#terralith:zpointer/minecraft_stony_shore
+- terralith:zpointer/minecraft_stony_shore
+
+#terralith:zpointer/terralith_siberian_taiga
+- terralith:zpointer/terralith_siberian_taiga
+
+#terralith:zpointer/terralith_amethyst_canyon
+- terralith:zpointer/terralith_amethyst_canyon
+
+#terralith:zpointer/terralith_snowy_maple_forest
+- terralith:zpointer/terralith_snowy_maple_forest
+
+#terralith:zpointer/terralith_skylands_autumn
+- terralith:zpointer/terralith_skylands_autumn
+
+#terralith:zpointer/terralith_sakura_grove
+- terralith:zpointer/terralith_sakura_grove
+
+#terralith:zpointer/terralith_warped_mesa
+- terralith:zpointer/terralith_warped_mesa
+
+#terralith:zpointer/terralith_painted_mountains
+- terralith:zpointer/terralith_painted_mountains
+
+#terralith:zpointer/terralith_basalt_cliffs
+- terralith:zpointer/terralith_basalt_cliffs
+
+#terralith:zpointer/terralith_bryce_canyon
+- terralith:zpointer/terralith_bryce_canyon
+
+#terralith:zpointer/terralith_gravel_beach
+- terralith:zpointer/terralith_gravel_beach
+
+#terralith:zpointer/minecraft_snowy_taiga
+- terralith:zpointer/minecraft_snowy_taiga
+
+#terralith:zpointer/terralith_blooming_valley
+- terralith:zpointer/terralith_blooming_valley
+
+#terralith:zpointer/minecraft_eroded_badlands
+- terralith:zpointer/minecraft_eroded_badlands
+
+#terralith:zpointer/terralith_ancient_sands
+- terralith:zpointer/terralith_ancient_sands
+
+#terralith:zpointer/minecraft_wooded_badlands
+- terralith:zpointer/minecraft_wooded_badlands
+
+#terralith:zpointer/terralith_alpine_highlands
+- terralith:zpointer/terralith_alpine_highlands
+
+#terralith:zpointer/minecraft_stony_peaks
+- terralith:zpointer/minecraft_stony_peaks
+
+#byg:arches
+- byg:red_rock_arch
+- byg:destroyed_red_rock_arch
+- byg:overgrown_stone_arch
+- byg:stone_arch
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin
+- #minecraft:shipwreck
+
+#terralith:zpointer/terralith_shrubland
+- terralith:zpointer/terralith_shrubland
+
+#terralith:zpointer/terralith_red_oasis
+- terralith:zpointer/terralith_red_oasis
+
+#terralith:zpointer/terralith_yosemite_cliffs
+- terralith:zpointer/terralith_yosemite_cliffs
+
+#terralith:zpointer/minecraft_old_growth_birch_forest
+- terralith:zpointer/minecraft_old_growth_birch_forest
+
+#terralith:zpointer/terralith_moonlight_valley
+- terralith:zpointer/terralith_moonlight_valley
+
+#terralith:zpointer/terralith_blooming_plateau
+- terralith:zpointer/terralith_blooming_plateau
+
+#terralith:zpointer/terralith_savanna_slopes
+- terralith:zpointer/terralith_savanna_slopes
+
+#terralith:zpointer/terralith_shield_clearing
+- terralith:zpointer/terralith_shield_clearing
+
+#terralith:zpointer/terralith_lavender_forest
+- terralith:zpointer/terralith_lavender_forest
+
+#minecraft:pillager_outpost
+- minecraft:pillager_outpost
+
+#terralith:zpointer/terralith_steppe
+- terralith:zpointer/terralith_steppe
+
+#terralith:zpointer/terralith_haze_mountain
+- terralith:zpointer/terralith_haze_mountain
+
+#minecraft:shipwreck
+- minecraft:shipwreck
+- minecraft:shipwreck_beached
+
+#terralith:zpointer/terralith_cold_shrubland
+- terralith:zpointer/terralith_cold_shrubland
+
+#terralith:zpointer/minecraft_river
+- terralith:zpointer/minecraft_river
+
+#terralith:zpointer/terralith_snowy_shield
+- terralith:zpointer/terralith_snowy_shield
+
+#terralith:zpointer/minecraft_grove
+- terralith:zpointer/minecraft_grove
+
+#supplementaries:way_sign_destinations
+- #minecraft:village
+- repurposed_structures:village_badlands?
+- repurposed_structures:village_dark_oak?
+- repurposed_structures:village_birch?
+- repurposed_structures:village_giant_taiga?
+- repurposed_structures:village_jungle?
+- repurposed_structures:village_mountains?
+- repurposed_structures:village_oak?
+- repurposed_structures:village_swamp?
+- pokecube_legends:village?
+- pokecube_legends:village/ocean?
+- valhelsia_structures:castle?
+- valhelsia_structures:castle_ruin?
+- valhelsia_structures:small_castle?
+- valhelsia_structures:tower_ruin?
+- stoneholm:underground_village?
+- blue_skies:gatekeeper_house?
+- feywild:library?
+- feywild:blacksmith?
+- repurposed_structures:village_mushroom?
+
+#terralith:zpointer/terralith_volcanic_crater
+- terralith:zpointer/terralith_volcanic_crater
+
+#terralith:zpointer/minecraft_badlands
+- terralith:zpointer/minecraft_badlands
+
+#terralith:zpointer/minecraft_dripstone_caves
+- terralith:zpointer/minecraft_dripstone_caves
+
+#terralith:zpointer/terralith_wintry_forest
+- terralith:zpointer/terralith_wintry_forest
+
+#terralith:zpointer/terralith_skylands
+- terralith:zpointer/terralith_skylands
+
+#terralith:zpointer/terralith_caldera
+- terralith:zpointer/terralith_caldera
+
+#terralith:zpointer/minecraft_snowy_slopes
+- terralith:zpointer/minecraft_snowy_slopes
+
+#terralith:zpointer/minecraft_deep_cold_ocean
+- terralith:zpointer/minecraft_deep_cold_ocean
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold
+- minecraft:ocean_ruin_warm
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion
+
+#terralith:zpointer/terralith_rocky_jungle
+- terralith:zpointer/terralith_rocky_jungle
+
+#terralith:zpointer/minecraft_dark_forest
+- terralith:zpointer/minecraft_dark_forest
+
+#minecraft:fortress
+- minecraft:fortress
+
+#terralith:zpointer/terralith_siberian_grove
+- terralith:zpointer/terralith_siberian_grove
+
+#terralith:zpointer/terralith_volcanic_peaks
+- terralith:zpointer/terralith_volcanic_peaks
+
+#terralith:zpointer/terralith_shield
+- terralith:zpointer/terralith_shield
+
+#terralith:zpointer/minecraft_windswept_forest
+- terralith:zpointer/minecraft_windswept_forest
+
+#terralith:zpointer/terralith_warm_river
+- terralith:zpointer/terralith_warm_river
+
+#terralith:zpointer/terralith_lush_valley
+- terralith:zpointer/terralith_lush_valley
+
+#terralith:zpointer/terralith_emerald_peaks
+- terralith:zpointer/terralith_emerald_peaks
+
+#terralith:zpointer/minecraft_deep_frozen_ocean
+- terralith:zpointer/minecraft_deep_frozen_ocean
+
+#terralith:zpointer/minecraft_cold_ocean
+- terralith:zpointer/minecraft_cold_ocean
+
+#terralith:zpointer/terralith_scarlet_mountains
+- terralith:zpointer/terralith_scarlet_mountains
+
+#terralith:zpointer/terralith_savanna_badlands
+- terralith:zpointer/terralith_savanna_badlands
+
+#terralith:zpointer/minecraft_lush_caves
+- terralith:zpointer/minecraft_lush_caves
+
+#terralith:zpointer/terralith_orchid_swamp
+- terralith:zpointer/terralith_orchid_swamp

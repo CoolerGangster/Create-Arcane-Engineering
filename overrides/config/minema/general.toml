@@ -1,0 +1,36 @@
+
+#General Config.
+[general]
+
+	#Encoding Settings
+	[general.encoding]
+		useVideoEncoder = true
+		videoEncoderPath = "ffmpeg"
+		videoEncoderParams = "-f rawvideo -pix_fmt bgr24 -s %WIDTH%x%HEIGHT% -r %FPS% -i - -vf \"vflip%OPTIONAL_SCALE%\" -c:v libx264 -preset ultrafast -tune zerolatency -qp 18 -pix_fmt yuv420p %NAME%.mp4"
+		#Allowed Values: DISABLE, MOD2, MOD4, MOD8, MOD16
+		snapResolution = "MOD2"
+
+	#Capturing Settings
+	[general.capturing]
+		#Range: 0 ~ 1000
+		frameWidth = 0
+		#Range: 0 ~ 1000
+		frameHeight = 0
+		#Range: 1.0 ~ 240.0
+		frameRate = 60.0
+		#Range: > -1
+		frameLimit = -1
+		capturePath = "movies"
+		showOverlay = false
+		captureDepth = false
+		recordGui = true
+		aaFastRenderFix = false
+
+	#Engine Settings
+	[general.engine]
+		#Range: 0.01 ~ 100.0
+		engineSpeed = 1.0
+		syncEngine = true
+		preloadChunks = true
+		forcePreloadChunks = false
+

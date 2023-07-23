@@ -1,0 +1,15 @@
+
+["Spirit Options"]
+	#Set this to true if you want mobs that spawn from a soul cage to be collectable in a soul crystal.
+	collectFromSoulless = false
+	#This is the range that the soul pedestal will attract mobs from to insert into it.
+	#Range: 1 ~ 6
+	soulPedestalRange = 3
+	#This value determines the maximum amount of souls a crude soul crystal can hold.
+	#Range: > 1
+	crudeSoulCrystalCap = 256
+	#This is what the name of the tier is when the soul crystal has yet to reach a tier. It is translatable.
+	initialTierName = "spirit.soul_cage.tier_0"
+	#Set this to false if you wish to not see the erorr on chipped blocks
+	showChippedTooltipError = true
+

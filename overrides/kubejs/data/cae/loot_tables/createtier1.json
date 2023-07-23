@@ -1,0 +1,623 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:shaft",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "createaddition:iron_wire",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:analog_lever",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thermal:silver_coin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:crafting_blueprint"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:piston_extension_pole",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:gantry_shaft"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:wooden_bracket",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:brass_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:zinc_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "add": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "create:gearbox",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:vertical_gearbox",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:cogwheel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 12,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "createaddition:festive_spool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:propeller"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:whisk"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:raw_zinc",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "createaddition:brass_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kubejs:petrified_sheet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:empty_schematic"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:andesite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 17,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:diorite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 12
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:builders_tea",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:honeyed_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:chocolate_glazed_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:sweet_roll"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "createaddition:brass_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 11
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:item_vault",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:electron_tube"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:train_door"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:speedometer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:mechanical_harvester"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:andesite_casing",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 12
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "create:andesite_alloy",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:turntable"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:millstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:large_cogwheel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:cogwheel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 15,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:fluid_pipe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:empty_blaze_burner"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:basin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thermal:silver_coin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:nozzle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:encased_fan"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:fluid_valve"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:sail_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:white_sail",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:water_wheel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "ars_creo:starbuncle_wheel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:encased_fan"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:mechanical_press"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:mechanical_mixer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:filter"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:sturdy_sheet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:wheat_flour",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:rose_quartz",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:super_glue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:clutch"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:metal_girder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:track",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:mechanical_bearing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:rope_pulley"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:deployer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:windmill_bearing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:mechanical_saw"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:cart_assembler"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:linear_chassis",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:redstone_contact"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:radial_chassis"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    }
+  ]
+}

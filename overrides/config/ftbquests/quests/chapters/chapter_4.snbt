@@ -1,0 +1,1017 @@
+{
+	id: "2865FF8522348E3F"
+	group: "42A213AA17D37DAF"
+	order_index: 4
+	filename: "chapter_4"
+	title: "Chapter IV: Processing Pandemonium"
+	icon: "pneumaticcraft:module_expansion_card"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.5d
+			y: 14.5d
+			width: 50.0d
+			height: 50.0d
+			rotation: 0.0d
+			image: "kubejs:textures/pcb.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.5d
+			y: 14.5d
+			width: 23.0d
+			height: 29.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Raw PCB Board"
+			x: 5.5d
+			y: 9.5d
+			dependencies: ["7EC64303FE143A81"]
+			id: "61320E1D8B5C92C9"
+			tasks: [{
+				id: "243C631D4D10E6BE"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+		}
+		{
+			title: "Circuited PCB"
+			x: 5.5d
+			y: 10.5d
+			dependencies: ["4591B97FD28E4CD3"]
+			id: "3E378474C22727E1"
+			tasks: [{
+				id: "12EAD03B82714DDD"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:empty_pcb"
+					Count: 1b
+					tag: {
+						"pneumaticcraft:uv_exposure": 100
+					}
+				}
+			}]
+		}
+		{
+			title: "Treated PCB"
+			x: 5.5d
+			y: 20.5d
+			dependencies: [
+				"77D54D48FAB23B17"
+				"15CC7068585F0644"
+			]
+			id: "298CEF160DE9001A"
+			tasks: [{
+				id: "7CF0C1AC7764D08E"
+				type: "item"
+				item: "kubejs:untested_pcb"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 25.0d
+			shape: "octagon"
+			subtitle: "You did it!!!"
+			dependencies: ["32F372774EA354A2"]
+			size: 1.5d
+			id: "5226F9B2150E20FF"
+			tasks: [{
+				id: "4AE1901065F26476"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+			rewards: [
+				{
+					id: "6F79319C1E24E0B0"
+					type: "item"
+					item: "kubejs:lootbag_create_brass"
+					count: 4
+				}
+				{
+					id: "580C7F626FF7E44B"
+					type: "item"
+					item: "pneumaticcraft:printed_circuit_board"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 10.0d
+			dependencies: ["61320E1D8B5C92C9"]
+			id: "4591B97FD28E4CD3"
+			tasks: [{
+				id: "2FC7F80E9C564CAB"
+				type: "item"
+				item: "pneumaticcraft:uv_light_box"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 11.0d
+			dependencies: [
+				"3E378474C22727E1"
+				"6D68CB52EC9B836B"
+			]
+			id: "1C92D0E30D259104"
+			tasks: [{
+				id: "275A6A3A6CC702CC"
+				type: "item"
+				item: "pneumaticcraft:etching_tank"
+			}]
+		}
+		{
+			title: "PCB Legend Printer"
+			x: 4.5d
+			y: 19.0d
+			dependencies: ["33EE3A37662B9544"]
+			id: "6A22FF7811CCB20C"
+			tasks: [{
+				id: "2A6DC792CB1E5F9E"
+				type: "item"
+				item: "pneumaticcraft:assembly_laser"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			subtitle: "Why is a blueprint more expensive than the entire chapter?"
+			dependencies: [
+				"59ABD340BDE8BB7A"
+				"1EA0D68D000F3F66"
+				"0BCFBEBE7BF6DB75"
+				"0924407A34211D06"
+			]
+			id: "72758D7CA23C80A7"
+			tasks: [{
+				id: "0476FE857818A9DC"
+				type: "item"
+				item: "pneumaticcraft:pcb_blueprint"
+			}]
+			rewards: [{
+				id: "4747B77444373524"
+				type: "item"
+				item: "pneumaticcraft:pcb_blueprint"
+				count: 6
+			}]
+		}
+		{
+			x: 2.5d
+			y: 11.0d
+			dependencies: ["1C92D0E30D259104"]
+			id: "59596E3B3F71FDA2"
+			tasks: [{
+				id: "770391D81E5C56AD"
+				type: "item"
+				item: "pneumaticcraft:failed_pcb"
+			}]
+		}
+		{
+			title: "Solder Mask"
+			x: 4.5d
+			y: 15.0d
+			subtitle: "mix anthraquinone with green dye, to create green PCB dyeing (yes im not allowing you more colors)"
+			description: [""]
+			dependencies: [
+				"13CEF692B9FB1794"
+				"45C995E22C27692A"
+			]
+			id: "5888CBAEB9FC7313"
+			tasks: [{
+				id: "3A19624227CCDD3F"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 22.0d
+			dependencies: ["4F690F3748BBC3A8"]
+			id: "4A97ED1CE399C570"
+			tasks: [{
+				id: "49670B9C794F43D2"
+				type: "item"
+				item: "pneumaticcraft:failed_pcb"
+			}]
+		}
+		{
+			title: "Electrical Tests"
+			x: 4.5d
+			y: 21.0d
+			dependencies: ["298CEF160DE9001A"]
+			hide: true
+			id: "4A65497930CBBA31"
+			tasks: [
+				{
+					id: "13B5834364B230F4"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+				{
+					id: "1C538C54ABFF9F8F"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+			]
+		}
+		{
+			title: "Mystery PCB"
+			x: 5.5d
+			y: 21.5d
+			dependencies: ["4A65497930CBBA31"]
+			id: "214604F81229B45A"
+			tasks: [{
+				id: "75C2B8FED4D537C8"
+				type: "item"
+				item: "kubejs:mystery_pcb"
+			}]
+		}
+		{
+			title: "Final to Insane machinery"
+			x: 5.5d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "Your gate to becoming absolutely Unstoppable... Maybe. Well Goodluck!"
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			size: 1.3d
+			id: "75A0120D9D9162CB"
+			tasks: [{
+				id: "30892ED543AECE11"
+				type: "item"
+				item: "kubejs:radiant_mechanism"
+			}]
+		}
+		{
+			title: "Wash the board"
+			x: 4.5d
+			y: 12.0d
+			dependencies: ["267E7A7B7BA179FA"]
+			id: "1EA72478B9C95D6F"
+			tasks: [{
+				id: "44D96C3972A7393C"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			title: "Plastic Board"
+			x: 5.5d
+			y: 6.5d
+			shape: "rsquare"
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "2144F7A6D5ACA0F5"
+			tasks: [{
+				id: "4238CD7B66014E5A"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			dependencies: [
+				"014E4EB185583182"
+				"61439CE58F940DDA"
+			]
+			id: "59ABD340BDE8BB7A"
+			tasks: [{
+				id: "3821F53B9CDCDA87"
+				type: "item"
+				item: "ae2:printed_calculation_processor"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 8.5d
+			dependencies: [
+				"6918346C3A8402BB"
+				"2241C0384B216739"
+			]
+			id: "1EA0D68D000F3F66"
+			tasks: [{
+				id: "1C7FCCB90AC1465E"
+				type: "item"
+				item: "ae2:printed_engineering_processor"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			dependencies: [
+				"3F5D372F7552D3DC"
+				"30FA07BEBCB8E562"
+			]
+			id: "0BCFBEBE7BF6DB75"
+			tasks: [{
+				id: "27454214B1BA0DCD"
+				type: "item"
+				item: "ae2:printed_logic_processor"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.5d
+			dependencies: [
+				"644EDAE9FDFEC63B"
+				"54969E6B9D9A442E"
+			]
+			id: "0924407A34211D06"
+			tasks: [{
+				id: "440B92C9E0888403"
+				type: "item"
+				item: "create:empty_schematic"
+			}]
+		}
+		{
+			title: "Dried PCB"
+			x: 5.5d
+			y: 16.5d
+			dependencies: ["22FE7C36C4E5A0D9"]
+			id: "57AC7DE0EEE771C2"
+			tasks: [{
+				id: "6EF2F0B6DB59AC72"
+				type: "item"
+				item: "kubejs:dryed_board"
+			}]
+			rewards: [{
+				id: "42D8DD624C865F4F"
+				type: "item"
+				item: "kubejs:lootbag_create_brass"
+			}]
+		}
+		{
+			title: "Centrifuge off Impurities"
+			x: 4.5d
+			y: 13.0d
+			dependencies: ["62E308A788ABBC30"]
+			id: "21669356755554C4"
+			tasks: [{
+				id: "26E833599AA4D28F"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 14.0d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "4D5D0A0BE50D0E03"
+			tasks: [{
+				id: "4F90678EAE741DFC"
+				type: "item"
+				item: "kubejs:anthraquinone"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 16.0d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "69F58959BAD33533"
+			tasks: [{
+				id: "6787878530AE6E6C"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 15.0d
+			subtitle: "Theres a few ways to get Lime Dye, Corundum and Cactus are the most common ones."
+			dependencies: ["13D5724A77F71BE7"]
+			id: "079818C1C5FD02A1"
+			tasks: [{
+				id: "3516E26EB5B04552"
+				type: "item"
+				item: "minecraft:green_dye"
+			}]
+		}
+		{
+			title: "Industrially Dry the PCB"
+			x: 4.5d
+			y: 16.0d
+			dependencies: ["460EAFA39878746B"]
+			id: "22FE7C36C4E5A0D9"
+			tasks: [{
+				id: "37D8855EDEA81319"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 11.0d
+			subtitle: "This doesnt have to be automated as it gets consumed very slowly"
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "6D68CB52EC9B836B"
+			tasks: [{
+				id: "35A2E114AE5FBC80"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			subtitle: "Copper from Copper Veins"
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "76AE581955BC00E6"
+			tasks: [{
+				id: "6277B71FBFE68D2F"
+				type: "item"
+				item: "create:copper_sheet"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			dependencies: ["04182361139C66EC"]
+			id: "7EC64303FE143A81"
+			tasks: [{
+				id: "252A83C71CDB8D39"
+				type: "item"
+				item: "pneumaticcraft:assembly_drill"
+			}]
+		}
+		{
+			title: "Washed PCB"
+			x: 5.5d
+			y: 12.5d
+			dependencies: ["1EA72478B9C95D6F"]
+			id: "62E308A788ABBC30"
+			tasks: [{
+				id: "1782EBA8C512670D"
+				type: "item"
+				item: "kubejs:etched_board"
+			}]
+		}
+		{
+			title: "Etched PCB"
+			x: 5.5d
+			y: 11.5d
+			dependencies: ["1C92D0E30D259104"]
+			id: "267E7A7B7BA179FA"
+			tasks: [{
+				id: "340C128DB78E718F"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+			rewards: [{
+				id: "685FB5D4B5AE6B3B"
+				type: "item"
+				item: "kubejs:lootbag_create_brass"
+			}]
+		}
+		{
+			title: "Chromatic Waste"
+			x: 2.5d
+			y: 13.0d
+			dependencies: ["21669356755554C4"]
+			hide: false
+			id: "13F569D4E69B1C58"
+			tasks: [{
+				id: "71E13742A1C3E0AF"
+				type: "item"
+				item: "kubejs:chromatic_waste_bucket"
+			}]
+		}
+		{
+			title: "Cleaned PCB"
+			x: 5.5d
+			y: 13.5d
+			dependencies: ["21669356755554C4"]
+			id: "0631B96ACBB1D530"
+			tasks: [{
+				id: "596C38359BFB4A17"
+				type: "item"
+				item: "kubejs:separated_board"
+			}]
+			rewards: [{
+				id: "68620C41F4BA7974"
+				type: "item"
+				item: "kubejs:lootbag_create_brass"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 14.5d
+			subtitle: "Another one."
+			hide_dependency_lines: false
+			dependencies: ["72758D7CA23C80A7"]
+			dependency_requirement: "all_started"
+			id: "795F2715D7CD9AB6"
+			tasks: [{
+				id: "4A7E3A4E757A1CE4"
+				type: "item"
+				item: "pneumaticcraft:pcb_blueprint"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 17.5d
+			subtitle: "And another one. (DJ KHALED)"
+			dependencies: ["72758D7CA23C80A7"]
+			id: "0F6E4018EA415C55"
+			tasks: [{
+				id: "51C848D12991461E"
+				type: "item"
+				item: "pneumaticcraft:pcb_blueprint"
+			}]
+		}
+		{
+			title: "Legended PCB"
+			x: 5.5d
+			y: 19.5d
+			dependencies: ["6A22FF7811CCB20C"]
+			id: "5321394A9E72C586"
+			tasks: [{
+				id: "4F32EEE3AB6BB9A2"
+				type: "item"
+				item: "kubejs:legend_pcb"
+			}]
+			rewards: [{
+				id: "005D7E6EFA8039A7"
+				type: "item"
+				item: "kubejs:lootbag_create_brass"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 17.0d
+			subtitle: "Living Life on the Fastlane"
+			dependencies: ["3F5D372F7552D3DC"]
+			id: "15CC7068585F0644"
+			tasks: [{
+				id: "42C2950BDB178F6C"
+				type: "item"
+				item: "thermal:gold_dust"
+			}]
+		}
+		{
+			title: "Wash it"
+			x: 4.5d
+			y: 23.0d
+			dependencies: ["7FE09E8E7313C5AE"]
+			id: "0AF9D6E9290BB43B"
+			tasks: [{
+				id: "72DC8DBA2A8ACDBD"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			title: "Washed PCB"
+			x: 5.5d
+			y: 23.5d
+			dependencies: ["0AF9D6E9290BB43B"]
+			id: "24013103D8F4E370"
+			tasks: [{
+				id: "46FE8A5A4F6CB5B7"
+				type: "item"
+				item: "kubejs:cleaned_pcb"
+			}]
+			rewards: [{
+				id: "16EB0ECB61C8DC8E"
+				type: "item"
+				item: "kubejs:lootbag_create_brass"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "61439CE58F940DDA"
+			tasks: [{
+				id: "4884935AB5123093"
+				type: "item"
+				item: "kubejs:kinetic_mechanism"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.5d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "30FA07BEBCB8E562"
+			tasks: [{
+				id: "38DED957629A4427"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 8.5d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "2241C0384B216739"
+			tasks: [{
+				id: "7171D948E877D930"
+				type: "item"
+				item: "kubejs:radiant_mechanism"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.5d
+			subtitle: "From Gold Veins, or Ochrum Geodes"
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "3F5D372F7552D3DC"
+			tasks: [{
+				id: "4F000705A9001007"
+				type: "item"
+				item: "tconstruct:molten_gold_bucket"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			subtitle: "The Quartz Cycle"
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "014E4EB185583182"
+			tasks: [{
+				id: "35127B2F2094F4B2"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 8.5d
+			subtitle: "From Diamond Veins"
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "6918346C3A8402BB"
+			tasks: [{
+				id: "173CD28FD3C3CDDD"
+				type: "item"
+				item: "tconstruct:molten_diamond_bucket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 15.0d
+			dependencies: [
+				"3CAAC777363740AD"
+				"39E17CE31F4A0980"
+			]
+			id: "13D5724A77F71BE7"
+			tasks: [{
+				id: "220269AF0D3DD01F"
+				type: "item"
+				item: "quark:green_corundum_cluster"
+			}]
+		}
+		{
+			title: "PCB Legend Assembly Package"
+			x: 5.5d
+			y: 18.5d
+			dependencies: [
+				"0F6E4018EA415C55"
+				"2D4296C461899BB5"
+			]
+			id: "33EE3A37662B9544"
+			tasks: [{
+				id: "0BFD9C42EABCA3F6"
+				type: "item"
+				item: "kubejs:pcb_assembly_2"
+			}]
+		}
+		{
+			title: "Finally. Let it Dry."
+			x: 4.5d
+			y: 24.0d
+			dependencies: ["24013103D8F4E370"]
+			id: "32F372774EA354A2"
+			tasks: [
+				{
+					id: "34D1F45D4ABA73CC"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "1ACC2C1697375241"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+			]
+		}
+		{
+			title: "Masked PCB"
+			x: 5.5d
+			y: 15.5d
+			dependencies: [
+				"5888CBAEB9FC7313"
+				"795F2715D7CD9AB6"
+			]
+			id: "460EAFA39878746B"
+			tasks: [{
+				id: "718D2CC90597C5EB"
+				type: "item"
+				item: "kubejs:masked_pcb"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 8.5d
+			dependencies: [
+				"2144F7A6D5ACA0F5"
+				"72758D7CA23C80A7"
+				"76AE581955BC00E6"
+			]
+			id: "04182361139C66EC"
+			tasks: [{
+				id: "6CDDD4E36DD49918"
+				type: "item"
+				item: "kubejs:pcb_assembly"
+			}]
+			rewards: [{
+				id: "2A43F910CAFA9BB5"
+				type: "item"
+				item: "kubejs:lootbag_create_brass"
+			}]
+		}
+		{
+			title: "Masking Fluid"
+			x: 2.0d
+			y: 15.0d
+			dependencies: [
+				"69F58959BAD33533"
+				"4D5D0A0BE50D0E03"
+				"079818C1C5FD02A1"
+			]
+			id: "13CEF692B9FB1794"
+			tasks: [{
+				id: "4D787F2FF89E0E04"
+				type: "item"
+				item: "kubejs:green_anthraquinone_bucket"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.5d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "644EDAE9FDFEC63B"
+			tasks: [{
+				id: "780CC50D86CC66ED"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 7.5d
+			dependencies: [
+				"59F2D667F62DD570"
+				"0B0FDA0B9A92D18B"
+			]
+			id: "54969E6B9D9A442E"
+			tasks: [{
+				id: "44320F38E4781311"
+				type: "item"
+				item: "minecraft:light_blue_dye"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 15.0d
+			dependencies: ["3CAAC777363740AD"]
+			id: "2EF545698E32718D"
+			tasks: [{
+				id: "341E9E105F6C8B0A"
+				type: "item"
+				item: "quark:blue_corundum_cluster"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 15.0d
+			dependencies: ["3CAAC777363740AD"]
+			id: "04A746773A9039FE"
+			tasks: [{
+				id: "532CDBC197906866"
+				type: "item"
+				item: "quark:white_corundum_cluster"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			dependencies: ["04A746773A9039FE"]
+			id: "0B0FDA0B9A92D18B"
+			tasks: [{
+				id: "6D1B3E8486C9C29B"
+				type: "item"
+				item: "minecraft:white_dye"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 9.5d
+			dependencies: ["2EF545698E32718D"]
+			id: "59F2D667F62DD570"
+			tasks: [{
+				id: "3256105A59F798D2"
+				type: "item"
+				item: "minecraft:blue_dye"
+			}]
+		}
+		{
+			title: "Corundum Generator"
+			x: -1.5d
+			y: 15.0d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "3CAAC777363740AD"
+			tasks: [{
+				id: "0994938965FF8DBE"
+				type: "item"
+				item: "quark:violet_corundum"
+			}]
+		}
+		{
+			title: "PCB Unboxing (no way guys!!!)"
+			x: 4.5d
+			y: 22.0d
+			dependencies: [
+				"214604F81229B45A"
+				"27E2BC88C8E22134"
+			]
+			id: "4F690F3748BBC3A8"
+			tasks: [{
+				id: "0CC09EF3D28850CC"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			title: "Succesfully Tested PCB"
+			x: 5.5d
+			y: 22.5d
+			dependencies: ["4F690F3748BBC3A8"]
+			id: "7FE09E8E7313C5AE"
+			tasks: [{
+				id: "6E2BFCC25EB6C2C8"
+				type: "item"
+				item: "kubejs:tested_pcb"
+			}]
+		}
+		{
+			title: "Sandpaper"
+			x: 12.0d
+			y: 22.0d
+			dependencies: ["644EDAE9FDFEC63B"]
+			id: "27E2BC88C8E22134"
+			tasks: [{
+				id: "2344CE852CFC0BFF"
+				type: "item"
+				title: "Any #create:sandpaper"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:sandpaper"
+					}
+				}
+			}]
+		}
+		{
+			title: "Dried PCB Stack"
+			x: 5.5d
+			y: 17.5d
+			dependencies: ["30C79FCF9E7B348E"]
+			id: "2D4296C461899BB5"
+			tasks: [{
+				id: "446BA2DE17EFD8F1"
+				type: "item"
+				item: "kubejs:dryed_board_stack"
+			}]
+		}
+		{
+			title: "Stack the Boards once Again."
+			x: 4.5d
+			y: 17.0d
+			dependencies: ["57AC7DE0EEE771C2"]
+			id: "30C79FCF9E7B348E"
+			tasks: [{
+				id: "4C864C688CD0F2D9"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			title: "Cleaned PCB Stack"
+			x: 5.5d
+			y: 14.5d
+			dependencies: ["175A4432692BFC67"]
+			id: "45C995E22C27692A"
+			tasks: [{
+				id: "723033C56CE47EB8"
+				type: "item"
+				item: "kubejs:separated_board_stack"
+			}]
+		}
+		{
+			title: "Stack the Boards."
+			x: 4.5d
+			y: 14.0d
+			dependencies: ["0631B96ACBB1D530"]
+			id: "175A4432692BFC67"
+			tasks: [{
+				id: "06988C433E55BA7B"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 14.0d
+			subtitle: "Crystal Growing Based Corundum Duping"
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "39E17CE31F4A0980"
+			tasks: [{
+				id: "5CE15BB09C10A8F5"
+				type: "item"
+				item: "thermal:machine_crystallizer"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 20.0d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "75C1BDC42D35713E"
+			tasks: [{
+				id: "7CEFE4024BBF84EC"
+				type: "item"
+				item: "tconstruct:molten_nickel_bucket"
+			}]
+		}
+		{
+			title: "Apply ENIG Surface Treatment"
+			x: 4.5d
+			y: 20.0d
+			dependencies: [
+				"5321394A9E72C586"
+				"75C1BDC42D35713E"
+			]
+			id: "77D54D48FAB23B17"
+			tasks: [{
+				id: "721A2A3FBF42F1C0"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			title: "Drilling Machines: Your goto friend for this lovely chapter."
+			x: 5.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "How am I gonna get all of those Materials renewably? You might ask, well fear not. The Drilling Machine is Here! Create a vast network of Trains to unify into your Factory."
+			dependencies: ["3CB202406B401D8B"]
+			hide: true
+			id: "675C4C0F98A750CC"
+			tasks: [{
+				id: "1EF6EF50ED433239"
+				type: "item"
+				item: "createoreexcavation:drilling_machine"
+			}]
+			rewards: [
+				{
+					id: "4BCD61AEABD7B99A"
+					type: "item"
+					item: "kubejs:lootbag_create_brass"
+					count: 3
+				}
+				{
+					id: "4DDCC996B9EEAE81"
+					type: "item"
+					item: "createoreexcavation:netherite_drill"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

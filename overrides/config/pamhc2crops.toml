@@ -1,0 +1,38 @@
+
+["Miscellaneous Features"]
+	#Disable/enable fern blocks dropping seeds.
+	"Enable fern blocks dropping seeds" = false
+	#Disable/enable tall grass blocks dropping seeds.
+	"Enable tall grass blocks dropping seeds" = false
+	#Disable/enable grass blocks dropping seeds.
+	"Enable grass blocks dropping seeds" = false
+
+["Tweak Garden Cluster Sizes"]
+	#Amount of gardens that spawn together. Higher numbers indicate larger clusters; 32 is about 3-7ish (Default: 16)
+	#Range: 1 ~ 1000000000
+	"Probability of gardens generating" = 16
+
+["Tweak Garden World Generation Rates"]
+	#Chance of gardens generating in the world. Higher numbers indicate a lower probability; just 4 is very rare (Default: 6)
+	#Range: 1 ~ 1000000000
+	"Probability of gardens generating" = 6
+
+["Tweak Garden Cluster Rates"]
+	#Chance of gardens generating in the world. Higher numbers indicate a lower probability; just 4 is very rare (Default: 6)
+	#Range: 1 ~ 1000000000
+	"Probability of gardens generating" = 6
+
+["Enable/Disable Garden World Generation"]
+	#Should frost gardens should generate in world
+	"Generate frost gardens" = true
+	#Should arid gardens should generate in world
+	"Generate arid gardens" = true
+	#Should soggy gardens should generate in world
+	"Generate soggy gardens" = true
+	#Should shaded gardens should generate in world
+	"Generate shaded gardens" = true
+	#Should windy gardens should generate in world
+	"Generate windy gardens" = true
+	#Should tropical gardens should generate in world
+	"Generate tropical gardens" = true
+

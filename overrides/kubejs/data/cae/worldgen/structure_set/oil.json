@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cae:oil",
+      "weight": 8
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 14,
+    "separation": 7,
+    "salt": 1179587658
+  }
+}

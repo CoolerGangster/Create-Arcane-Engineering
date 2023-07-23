@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cae:arcane_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 2000,
+    "separation": 1000,
+    "salt": 1179587658
+  }
+}

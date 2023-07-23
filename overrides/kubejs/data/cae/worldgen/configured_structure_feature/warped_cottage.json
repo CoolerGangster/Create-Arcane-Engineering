@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#forge:is_coniferous",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "cae:warped_cottage",
+    "size": 7
+  }
+}

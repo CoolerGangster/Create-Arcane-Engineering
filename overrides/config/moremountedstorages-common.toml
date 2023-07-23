@@ -1,0 +1,32 @@
+
+#Mod integration config
+[Integration]
+
+	#Minecraft
+	[Integration.minecraft]
+
+		#Vanilla Minecraft
+		[Integration.minecraft.minecraft]
+			#Enabled Vanilla Minecraft integration. Default value is true
+			enabled = true
+
+	#Create
+	[Integration.create]
+
+		#Create Creative Crate
+		[Integration.create.creative_crate]
+			#Enabled Create Creative Crate integration. Default value is true
+			enabled = true
+			#Create Creative Crate storage priority. Items are inserted first into storages with higher priority. Default value is 0
+			priority = 0
+
+	#PneumaticCraft: Repressurized
+	[Integration.pneumaticcraft]
+
+		#PneumaticCraft Smart Chest
+		[Integration.pneumaticcraft.smart_chest]
+			#Enabled PneumaticCraft Smart Chest integration. Default value is true
+			enabled = true
+			#PneumaticCraft Smart Chest storage priority. Items are inserted first into storages with higher priority. Default value is 1
+			priority = 1
+

@@ -1,0 +1,904 @@
+{
+	id: "728EE5762BA55881"
+	group: "42A213AA17D37DAF"
+	order_index: 1
+	filename: "chapter_1_the_andesite_age"
+	title: "Chapter I: Alluring Allusions"
+	icon: "create:andesite_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 5.5d
+			width: 50.0d
+			height: 50.0d
+			rotation: 0.0d
+			image: "kubejs:textures/andesite.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			width: 20.0d
+			height: 20.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 5.0d
+			y: 1.0d
+			subtitle: "Rejuvination of Menril Shrubs. Smelting of Gravel"
+			dependencies: ["47EFBCDC513EE52D"]
+			id: "2A9D3B99068D645B"
+			tasks: [{
+				id: "1D728B720B763210"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "7205E6FA7E01DDF0"
+				type: "item"
+				item: "create:propeller"
+			}]
+		}
+		{
+			icon: "create:andesite_alloy"
+			x: 6.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Precrafting Items will be a reoccuring theme in this pack. Inorder to start out youll need to gather some Kinetic Mechanisms with the crafting table."
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "47EFBCDC513EE52D"
+			tasks: [{
+				id: "49DB7CB3F8D4F1BB"
+				type: "checkmark"
+				title: "Time to speedrun some machines!"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			subtitle: "Haha pull item"
+			dependencies: ["47EFBCDC513EE52D"]
+			id: "734F9602172ABF67"
+			tasks: [{
+				id: "75833C52B28C340A"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			subtitle: "Andesite Alloy Mixing"
+			dependencies: ["47EFBCDC513EE52D"]
+			id: "24F0C49370DE673C"
+			tasks: [
+				{
+					id: "4ED052D841154DD2"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "4B0795B1AD74D0DC"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [{
+				id: "158179AD02B291E7"
+				type: "item"
+				item: "create:whisk"
+			}]
+		}
+		{
+			title: "[Optional] Deployers."
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Creating Mechanisms. And Tree farming. This needs brass, perhaps a smeltery can do the trick? (Chapter 2 Hosts more info on Brass creation."
+			dependencies: [
+				"47EFBCDC513EE52D"
+				"11DAEE7A3CD9F8B6"
+			]
+			id: "4AD653F656923931"
+			tasks: [{
+				id: "1A696DDB6B44DB90"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "01823A626467CB6B"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+		{
+			title: "Chapter 1"
+			x: 0.0d
+			y: 4.5d
+			shape: "gear"
+			subtitle: "Let the journey begin!"
+			min_required_dependencies: 3
+			dependencies: [
+				"3193DF57DE756299"
+				"16CB9B2EBBE819CE"
+				"5EC51DF0F91C1C5E"
+			]
+			size: 1.5d
+			id: "4F91815A21A69A27"
+			tasks: [{
+				id: "2FF109DB53F8DFB3"
+				type: "item"
+				item: "kubejs:kinetic_mechanism"
+			}]
+			rewards: [
+				{
+					id: "0FB73B55F00A475E"
+					type: "item"
+					item: "kubejs:kinetic_mechanism"
+					count: 32
+				}
+				{
+					id: "3D505AE2199F288B"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 8
+				}
+				{
+					id: "0D16E9BDB03EBC94"
+					type: "item"
+					item: "kubejs:lootbag_create_andesite"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "The saw"
+			x: 2.0d
+			y: 4.0d
+			subtitle: "Sawcon"
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "3193DF57DE756299"
+			tasks: [{
+				id: "7E4A44C6925F5735"
+				type: "item"
+				item: {
+					id: "kubejs:saw"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			shape: "square"
+			subtitle: "Extract Resin from Trees, using Arboreal Extractors."
+			dependencies: ["3B25D99BFA2C928C"]
+			hide: true
+			id: "146F8C2D929D7A9E"
+			tasks: [{
+				id: "24A50C7E2AF9BFB3"
+				type: "item"
+				item: "thermal:resin_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["146F8C2D929D7A9E"]
+			id: "52D5CD76BB2EFBF3"
+			tasks: [{
+				id: "56B32BE4AFCC4DD1"
+				type: "item"
+				item: "thermal:rubber"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["52D5CD76BB2EFBF3"]
+			id: "6C5277004B0E4431"
+			tasks: [{
+				id: "34A402389CE2E71C"
+				type: "item"
+				item: "thermal:cured_rubber"
+			}]
+			rewards: [{
+				id: "6DA534746453D5B2"
+				type: "item"
+				item: "kubejs:enriched_rubber"
+				count: 4
+			}]
+		}
+		{
+			title: "Chapter 1b"
+			x: 0.0d
+			y: 11.0d
+			shape: "gear"
+			dependencies: [
+				"6C5277004B0E4431"
+				"125AABACCC0764C1"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "427375BD57CDAD8A"
+			tasks: [{
+				id: "282FC8DF96B19338"
+				type: "item"
+				item: "kubejs:sealed_mechanism"
+			}]
+			rewards: [
+				{
+					id: "0E78D481043EE18D"
+					type: "item"
+					auto: "disabled"
+					item: "kubejs:sealed_mechanism"
+					count: 32
+				}
+				{
+					id: "3D31FD9C90D29124"
+					type: "item"
+					auto: "disabled"
+					item: "create:copper_casing"
+					count: 8
+				}
+				{
+					id: "228AA109AAAA5B53"
+					type: "item"
+					item: "kubejs:lootbag_create_andesite"
+				}
+			]
+		}
+		{
+			title: "[Optional] Menril Enriched Rubber"
+			x: 1.0d
+			y: 10.0d
+			subtitle: "Doubles the output"
+			description: ["WOW!!! theres ponder integration for the menril bucket!! (if youre having issues check this)"]
+			dependencies: [
+				"162780AD2FB145CB"
+				"1C3021BFBCB35C4C"
+			]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "125AABACCC0764C1"
+			tasks: [
+				{
+					id: "2B70132C6B78A94C"
+					type: "item"
+					item: "kubejs:enriched_rubber"
+				}
+				{
+					id: "575E76BCB6BDC9FC"
+					type: "item"
+					item: "integrateddynamics:bucket_menril_resin"
+				}
+			]
+			rewards: [{
+				id: "0CD388EAB47B3ACB"
+				type: "item"
+				item: "kubejs:lootbag_create_andesite"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			subtitle: "Argh finally belts"
+			dependencies: ["6C5277004B0E4431"]
+			id: "7586DAB7F4E3BC7A"
+			tasks: [{
+				id: "0285AD412CE99295"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 9.0d
+			subtitle: "Finally, ID juice"
+			dependencies: ["5561DB673DBC0A77"]
+			id: "58C607BC03069CB5"
+			tasks: [{
+				id: "708A745FF7B25053"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 9.0d
+			subtitle: "Rubber and Menril"
+			dependencies: ["5561DB673DBC0A77"]
+			dependency_requirement: "all_started"
+			id: "14892D9D3ADFB68E"
+			tasks: [
+				{
+					id: "11959702A4AE73D7"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "758B1DA76F343F2B"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			subtitle: "Menril Saplings"
+			dependencies: ["47EFBCDC513EE52D"]
+			id: "6B94C01AF316B9CB"
+			tasks: [{
+				id: "5AFC9C4CBBA8C112"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "02EEF8009EEA51C3"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			icon: "integrateddynamics:menril_sapling"
+			x: 1.0d
+			y: 8.5d
+			subtitle: "Ponder the Arboreal Extractor to see how it works!"
+			dependencies: ["4FDF0A226DCE7DF3"]
+			hide: true
+			id: "162780AD2FB145CB"
+			tasks: [
+				{
+					id: "68642A47A577892C"
+					type: "item"
+					item: "integrateddynamics:menril_sapling"
+				}
+				{
+					id: "6EAFA3DE450C1494"
+					type: "item"
+					item: "thermal:device_tree_extractor"
+				}
+			]
+		}
+		{
+			title: "May I interest you in a optional route for 2x output?"
+			x: 1.0d
+			y: 7.5d
+			dependencies: ["3B25D99BFA2C928C"]
+			hide: true
+			id: "4FDF0A226DCE7DF3"
+			tasks: [{
+				id: "1C3021BFBCB35C4C"
+				type: "checkmark"
+				title: "YES"
+			}]
+		}
+		{
+			title: "Mechanical Saw(con)"
+			x: 7.0d
+			y: 1.0d
+			subtitle: "Tree Cutting. Recommended you do this with a contraption."
+			dependencies: ["47EFBCDC513EE52D"]
+			id: "415E7158F0514C8D"
+			tasks: [{
+				id: "137DC25779A0938C"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "5AF8AB5E0EC003AA"
+				type: "item"
+				item: "thermal:saw_blade"
+			}]
+		}
+		{
+			title: "Common Concerns"
+			icon: "architects_palette:hazard_sign"
+			x: 0.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "\"This is a Above and Beyond Ripoff\" Chill theres 10 Chapters, where only the first 2 are remotely similar. Enjoy :) \"Ew AI art.\" Yes, I apologize for using AI art, its purely temporary right now, and if you can feel free to send us your art to replace these! Wed be delighted to replace em :)"
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			size: 1.5d
+			id: "5BCBEF0C567F7D7E"
+			tasks: [{
+				id: "2CE418D4038C1E4B"
+				type: "checkmark"
+				title: "Hey, youre cool. So you recognize this chapter definetly wasnt ripped out of above and beyond, have a cookie!"
+			}]
+			rewards: [
+				{
+					id: "569724264C539B5B"
+					type: "item"
+					item: "ars_nouveau:starbuncle_shades"
+				}
+				{
+					id: "5F752C72D1E2B771"
+					type: "item"
+					item: "farmersdelight:sweet_berry_cookie"
+				}
+			]
+		}
+		{
+			title: "Cant find any Andesite/Diorite? We got you."
+			x: 1.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "Andesite is most commonly found in Forest biomes. And you can find andesite super easily by using a Natures Compass and searching for Andesite Caves on there (yes that works). If you have a hard time regardless, try using the Alloy Radar. It will scan a chunk for the blocks."
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "45875AB5349E8E94"
+			tasks: [
+				{
+					id: "44924696B53BA8FC"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "31F1F0BF1E4896B1"
+					type: "biome"
+					biome: "terralith:cave/andesite_caves"
+				}
+				{
+					id: "7876EF36D7FE6BD6"
+					type: "item"
+					item: "kubejs:alloy_radar"
+				}
+			]
+			rewards: [
+				{
+					id: "714B79FBACBD21BC"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 48
+				}
+				{
+					id: "36982AD1A36BB3CF"
+					type: "item"
+					item: "kubejs:lootbag_create_andesite"
+				}
+			]
+		}
+		{
+			icon: "create:copper_sheet"
+			x: -4.5d
+			y: 8.0d
+			shape: "diamond"
+			dependencies: ["3B25D99BFA2C928C"]
+			hide: true
+			id: "5561DB673DBC0A77"
+			tasks: [{
+				id: "68BA6546139A0B3C"
+				type: "checkmark"
+				title: "The Copper Age Speedrun"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 9.0d
+			dependencies: ["5561DB673DBC0A77"]
+			id: "355A59290365045F"
+			tasks: [{
+				id: "4510FEEFD809A201"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "octagon"
+			dependencies: [
+				"09C8825D777648B2"
+				"7027A7515B010BDD"
+			]
+			id: "16CB9B2EBBE819CE"
+			tasks: [{
+				id: "6C750E737372684D"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "5F98C42139E4EDA2"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: [
+				"6EE3AFA0160D976A"
+				"0DD09C8B05A2CBD3"
+			]
+			dependency_requirement: "one_completed"
+			id: "11DAEE7A3CD9F8B6"
+			tasks: [{
+				id: "004581D6A4E16811"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			title: "Alloying Through Tinkers, no blazes required!"
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["74A44C35A73EB298"]
+			id: "6EE3AFA0160D976A"
+			tasks: [{
+				id: "746941FD390384A0"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			title: "Runic Tablet + Empty Blaze Burner = Blaze Burner"
+			x: 6.0d
+			y: 5.5d
+			subtitle: "Requires brass, to craft the Runic Tablet through Chapter m1!"
+			dependencies: ["6EE3AFA0160D976A"]
+			id: "03B32FBE53374954"
+			tasks: [{
+				id: "705C99396B9CF976"
+				type: "custom"
+				title: "Deploy a Runic Tablet onto a Blaze burner."
+				icon: "kubejs:runic_tablet"
+			}]
+		}
+		{
+			title: "Alloying with Create, blazes Required!"
+			x: 7.0d
+			y: 5.5d
+			subtitle: "Alloying with Create is probably easier and Faster in the Long run..."
+			dependencies: [
+				"3D9E29CE4BA41D20"
+				"03B32FBE53374954"
+			]
+			dependency_requirement: "one_completed"
+			id: "0DD09C8B05A2CBD3"
+			tasks: [{
+				id: "445EC92DA3FA9FBC"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			title: "Get a Blaze from the Nether!"
+			icon: "minecraft:blaze_spawn_egg"
+			x: 6.0d
+			y: 6.5d
+			subtitle: "You can capture a blaze into your blazeburner, by rightclicking it with an empty one. You can alternatively rightclick blaze spawners with blaze burners!"
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "3D9E29CE4BA41D20"
+			tasks: [{
+				id: "7F7FCD4AACE6773F"
+				type: "observation"
+				title: "Look at a Blaze"
+				icon: "tconstruct:blaze_head"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:blaze"
+			}]
+		}
+		{
+			title: "Improbable Saplings"
+			x: -4.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "The Arcane has significantly reduced the availability of these Saplings, making them extremely rare to come by. As a result, a conventional tree farm is no longer sufficient to sustain their growth. However, trees still drop lifeless versions of the Saplings, which can be rejuvenated through a specific process. To successfully cultivate menril trees, it is necessary to establish an automated system for restoring the menril shrubs to menril saplings that loop back into the contraption."
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "65EB6D888AE39417"
+			tasks: [{
+				id: "779958089C9591AA"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+			}]
+			rewards: [{
+				id: "422FEE7F6CA834A3"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "Log Cutting Chain. Basically just slap down 3 saws and theyll do the job."
+			dependencies: ["65EB6D888AE39417"]
+			id: "2D3F582CF81B08C7"
+			tasks: [{
+				id: "0C0463FF5F182C8A"
+				type: "item"
+				item: "integrateddynamics:menril_log"
+			}]
+			rewards: [{
+				id: "53AF2F153669160A"
+				type: "item"
+				item: "kubejs:lootbag_create_andesite"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			shape: "pentagon"
+			dependencies: ["66CF869E554ADF06"]
+			id: "5EC51DF0F91C1C5E"
+			tasks: [{
+				id: "456510FDCEEA1922"
+				type: "item"
+				item: "integrateddynamics:menril_slab"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			shape: "octagon"
+			dependencies: ["2D3F582CF81B08C7"]
+			id: "2B079ED92A265059"
+			tasks: [{
+				id: "791DDA5A857BD5EA"
+				type: "item"
+				item: "integrateddynamics:menril_log_stripped"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			shape: "hexagon"
+			dependencies: ["2B079ED92A265059"]
+			id: "66CF869E554ADF06"
+			tasks: [{
+				id: "7A7258400F676D77"
+				type: "item"
+				item: "integrateddynamics:menril_planks"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "Drops from Menril Trees. With the weakening of the Arcane, so has the menril sapling been stripped of its life juice, perhaps a bit of water can help it?"
+			dependencies: ["65EB6D888AE39417"]
+			id: "2E64E817F8FABAC6"
+			tasks: [{
+				id: "79FE6FC7FED76E71"
+				type: "item"
+				item: "kubejs:menril_shrub"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Drops from Menril Trees, in particular the enriched menril logs. Maybe there are more ways to get this though?"
+			dependencies: ["65EB6D888AE39417"]
+			id: "7027A7515B010BDD"
+			tasks: [{
+				id: "3B8B155269F4DF39"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_chunk"
+			}]
+			rewards: [{
+				id: "467FEC98A4ED29DA"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_block"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "Congratulations! You've accomplished it! You've successfully rejuvenated it. However, it hasn't quite reached the level of the original sapling. Perhaps the inclusion of menril berries could contribute to its full resurrection?"
+			dependencies: ["2E64E817F8FABAC6"]
+			id: "424889E3B5E01EBB"
+			tasks: [{
+				id: "340A0522E74F8636"
+				type: "item"
+				item: "kubejs:rejuvinated_menril_shrub"
+			}]
+			rewards: [
+				{
+					id: "6A0090EF40715FE8"
+					type: "item"
+					item: "kubejs:lootbag_create_andesite"
+				}
+				{
+					id: "3D2F1B060FD2772F"
+					type: "item"
+					item: "integrateddynamics:menril_sapling"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Drops from Menril Trees. Also used for Resurrecting Menril Saplings."
+			dependencies: ["65EB6D888AE39417"]
+			id: "293527BB98246AD0"
+			tasks: [{
+				id: "385C45970C32C588"
+				type: "item"
+				item: "integrateddynamics:menril_berries"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: [
+				"424889E3B5E01EBB"
+				"293527BB98246AD0"
+			]
+			id: "4E6D567989DB1215"
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["0F2D17506A5B767D"]
+			id: "09C8825D777648B2"
+			tasks: [{
+				id: "3D3503D22276B7E1"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+			rewards: [
+				{
+					id: "6034975E457493AE"
+					type: "item"
+					item: "kubejs:lootbag_create_andesite"
+				}
+				{
+					id: "78B6FB8469DB637A"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: [
+				"285D1A1F699BB89B"
+				"5421B5CF50A0D596"
+			]
+			id: "2B23E9988262E352"
+			tasks: [{
+				id: "0C6801774CC67BE7"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "285D1A1F699BB89B"
+			tasks: [{
+				id: "77B0187DF26A33E7"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "5421B5CF50A0D596"
+			tasks: [{
+				id: "0078421D9C4A89B3"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["2B23E9988262E352"]
+			id: "0F2D17506A5B767D"
+			tasks: [{
+				id: "57019083C22B005E"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			subtitle: "Mine cobleston"
+			dependencies: ["47EFBCDC513EE52D"]
+			id: "4B437D3B2BA18945"
+			tasks: [{
+				id: "456D53F55A5F3345"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			title: "Early game Item filtering."
+			x: -1.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "Filtering items is possible, just slap an item into a drawer, lock the drawer, and put a funnel on. Now the funnel will only insert if the item meets the drawers locked item."
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "3B2E6054E10C6452"
+			tasks: [
+				{
+					id: "1EC638FFE0D11EC7"
+					type: "item"
+					title: "Any #functionalstorage:drawer"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "functionalstorage:drawer"
+						}
+					}
+				}
+				{
+					id: "311E5ECD6C30DA8A"
+					type: "item"
+					item: {
+						id: "functionalstorage:configuration_tool"
+						Count: 1b
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+				}
+				{
+					id: "5CF422E12DE1B8AD"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+			]
+		}
+		{
+			icon: "minecraft:light"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Sappling doesnt grow: Check light level, and if in a 5x15x5 around sapling if theres blocks. Any unnatural block like stone or a machine will prevent the sappling to grow!"
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "54879E4FF6671EFD"
+			tasks: [{
+				id: "3584059D2523EA21"
+				type: "checkmark"
+				title: "Stuff that may go wrong."
+			}]
+		}
+	]
+	quest_links: [ ]
+}

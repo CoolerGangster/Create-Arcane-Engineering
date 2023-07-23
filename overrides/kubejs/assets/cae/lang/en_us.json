@@ -1,0 +1,10 @@
+{
+    "fluid.cae.lst": "Liquid Space Time",
+    "item.cae.lst_bucket": "Bucket of Liquid Space Time",
+    "block.cae.essence_extractor": "Essence Extractor Core",
+    "block.cae.arcanereactor": "Arcane Reactor Core",
+    "block.cae.particle_accelerator": "Particle Accelerator Core",
+    "block.cae.portal_core": "Arcane Portal Core",
+    "block.cae.void_portal": "Final Portal",
+    "block.cae.arcane_portal": "Arcane Portal"
+}

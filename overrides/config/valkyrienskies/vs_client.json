@@ -1,0 +1,4 @@
+{
+  "renderDebugText" : false,
+  "$schema" : "schemas/vs_client.schema.json"
+}

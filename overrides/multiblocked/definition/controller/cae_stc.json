@@ -1,0 +1,575 @@
+{
+  "version": 3,
+  "location": "cae:stc",
+  "traits": {},
+  "properties": {
+    "rotationState": "NONE",
+    "showInJei": false,
+    "isOpaque": false,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.2121212E7,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "type": "gregtech",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "e74b5f1f-9279-4f05-802d-736bc0f9615d",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "A          ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "     B@B   ",
+        "     CDC   ",
+        "     BEB   ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "      F    ",
+        "    E GHE  ",
+        "    IJFHI  ",
+        "    E   E  ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "      G    ",
+        "      K    ",
+        "     JFJ   ",
+        "     JGJ   ",
+        "   EHLFL E ",
+        "   C LLF C ",
+        "   E FLH E ",
+        "      F    ",
+        "      L    ",
+        "      L    ",
+        "      H    ",
+        "           "
+      ],
+      [
+        "      G    ",
+        "     KFG   ",
+        "     GGF   ",
+        "     FLG   ",
+        "     GLFF  ",
+        "   ELLMLFE ",
+        "NOOILLMLFIO",
+        "   EJLML E ",
+        "     FLL   ",
+        "     JFH   ",
+        "     HLH   ",
+        "     HL    ",
+        "      L    "
+      ],
+      [
+        "           ",
+        "      K    ",
+        "      K    ",
+        "      G    ",
+        "     JFJ   ",
+        "   E  FF E ",
+        "   CJLLLHC ",
+        "   E FLL E ",
+        "     JLJ   ",
+        "      L    ",
+        "      H    ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "    E L E  ",
+        "    PJF P  ",
+        "    E J E  ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "     BBB   ",
+        "     CIC   ",
+        "     BBB   ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "A          ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "create:polished_cut_ochrum"
+          }
+        ],
+        "type": "blocks"
+      },
+      "a": {
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "controller": {
+        "location": "cae:stc",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "create:polished_cut_ochrum_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "forbidden_arcanus:polished_darkstone"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "minecraft:barrel"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "create:polished_cut_ochrum_slab"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "minecraft:magenta_stained_glass"
+          }
+        ],
+        "type": "blocks"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "minecraft:purple_stained_glass"
+          }
+        ],
+        "type": "blocks"
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "minecraft:pink_stained_glass_pane"
+          }
+        ],
+        "type": "blocks"
+      },
+      "I": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:huge_tank"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "J": {
+        "blocks": [
+          {
+            "id": "minecraft:magenta_stained_glass_pane"
+          }
+        ],
+        "type": "blocks"
+      },
+      "K": {
+        "blocks": [
+          {
+            "id": "minecraft:purple_stained_glass_pane"
+          }
+        ],
+        "type": "blocks"
+      },
+      "L": {
+        "blocks": [
+          {
+            "id": "minecraft:pink_stained_glass"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "blocks": [
+          {
+            "id": "minecraft:amethyst_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "N": {
+        "blocks": [
+          {
+            "id": "create:glass_fluid_pipe"
+          }
+        ],
+        "type": "blocks"
+      },
+      "O": {
+        "blocks": [
+          {
+            "id": "create:fluid_pipe"
+          }
+        ],
+        "type": "blocks"
+      },
+      "P": {
+        "blocks": [
+          {
+            "id": "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "a",
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "O": [
+        "O"
+      ],
+      "P": [
+        "P"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+
+#General settings
+[general]
+	#Toggle To Apply Stress Limitations To Cogwheels (configurable under stress)
+	apply_stress_limits = false
+	#Toggle To Apply Rotation Limitations To Cogwheels (configurable under rotation)
+	apply_rotation_limits = false
+
+	[general.stress]
+		#Maximum stress for spruce cogwheels (will break anything above this value not including)
+		#Range: > 0
+		spruce_stress_limit = 2147483647
+		#Maximum stress for dark_oak cogwheels (will break anything above this value not including)
+		#Range: > 0
+		dark_oak_stress_limit = 2147483647
+		#Maximum stress for oak cogwheels (will break anything above this value not including)
+		#Range: > 0
+		oak_stress_limit = 2147483647
+		#Maximum stress for birch cogwheels (will break anything above this value not including)
+		#Range: > 0
+		birch_stress_limit = 2147483647
+		#Maximum stress for jungle cogwheels (will break anything above this value not including)
+		#Range: > 0
+		jungle_stress_limit = 2147483647
+		#Maximum stress for acacia cogwheels (will break anything above this value not including)
+		#Range: > 0
+		acacia_stress_limit = 2147483647
+		#Maximum stress for warped cogwheels (will break anything above this value not including)
+		#Range: > 0
+		warped_stress_limit = 2147483647
+		#Maximum stress for crimson cogwheels (will break anything above this value not including)
+		#Range: > 0
+		crimson_stress_limit = 2147483647
+		#Maximum stress for iron cogwheels (will break anything above this value not including)
+		#Range: > 0
+		iron_stress_limit = 2147483647
+		#Maximum stress for steel cogwheels (will break anything above this value not including)
+		#Range: > 0
+		steel_stress_limit = 2147483647
+		#Maximum stress for copper cogwheels (will break anything above this value not including)
+		#Range: > 0
+		copper_stress_limit = 2147483647
+
+	[general.rotation]
+		#Maximum rpm for spruce cogwheels (will break anything above this value not including)
+		#Range: > 0
+		spruce_rotation_limit = 256
+		#Maximum rpm for dark_oak cogwheels (will break anything above this value not including)
+		#Range: > 0
+		dark_oak_rotation_limit = 256
+		#Maximum rpm for oak cogwheels (will break anything above this value not including)
+		#Range: > 0
+		oak_rotation_limit = 256
+		#Maximum rpm for birch cogwheels (will break anything above this value not including)
+		#Range: > 0
+		birch_rotation_limit = 256
+		#Maximum rpm for jungle cogwheels (will break anything above this value not including)
+		#Range: > 0
+		jungle_rotation_limit = 256
+		#Maximum rpm for acacia cogwheels (will break anything above this value not including)
+		#Range: > 0
+		acacia_rotation_limit = 256
+		#Maximum rpm for warped cogwheels (will break anything above this value not including)
+		#Range: > 0
+		warped_rotation_limit = 256
+		#Maximum rpm for crimson cogwheels (will break anything above this value not including)
+		#Range: > 0
+		crimson_rotation_limit = 256
+		#Maximum rpm for iron cogwheels (will break anything above this value not including)
+		#Range: > 0
+		iron_rotation_limit = 256
+		#Maximum rpm for steel cogwheels (will break anything above this value not including)
+		#Range: > 0
+		steel_rotation_limit = 256
+		#Maximum rpm for copper cogwheels (will break anything above this value not including)
+		#Range: > 0
+		copper_rotation_limit = 256
+

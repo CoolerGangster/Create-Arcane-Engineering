@@ -1,0 +1,10 @@
+{
+    "primary": "#minecraft:lava",
+    "secondary": "minecraft:water",
+    "secondary_pos": "D",
+
+    "min_height": 160,
+    "gens": [
+        [1,"minecraft:diorite"]
+    ]
+}

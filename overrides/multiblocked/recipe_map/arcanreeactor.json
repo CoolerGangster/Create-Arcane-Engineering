@@ -1,0 +1,69 @@
+{
+  "name": "arcanreeactor",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "d8eab137-6125-4e48-bcc2-742b0ee8d094",
+      "duration": 500,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "tiab:time_in_a_bottle"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:sourcegem_fragments"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "forbidden_arcanus:eternal_stella"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "pneumaticcraft:memory_essence",
+              "amount": 6000
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "fluid": "cae:lst_fluid",
+              "amount": 1000
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 320000,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

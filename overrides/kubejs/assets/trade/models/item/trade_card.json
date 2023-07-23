@@ -1,0 +1,8 @@
+ {
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "trade:item/trade_card_0",
+    "layer1": "trade:item/trade_card_1",
+    "layer2": "trade:item/trade_card_2"
+  }
+}

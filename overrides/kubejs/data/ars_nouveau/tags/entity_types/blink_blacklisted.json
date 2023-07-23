@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:item",
+        "create:carriage_contraption",
+        "create:contraption",
+        "create:stationary_contraption",
+        "minecraft:hopper_minecart",
+        "minecraft:chest_minecart",
+        "minecraft:furnace_minecart",
+        "supplementaries:dispenser_minecart",
+        "goldenhopper:golden_hopper_minecart",
+        "ars_nouveau:starbuncle",
+        "lootr:lootr_minecart"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [176, 172],
+	"textures": {
+		"1": "multiblocked:portal"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 1.45455, 1.48837], "texture": "#1"},
+				"east": {"uv": [0, 0, 1.45455, 1.48837], "texture": "#1"},
+				"south": {"uv": [0, 0, 1.45455, 1.48837], "texture": "#1"},
+				"west": {"uv": [0, 0, 1.45455, 1.48837], "texture": "#1"},
+				"up": {"uv": [2.90909, 1.5814, 1.45455, 0.09302], "texture": "#1"},
+				"down": {"uv": [1.45455, 0, 0, 1.48837], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "glow",
+			"origin": [0.75, 79.5, -0.75],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

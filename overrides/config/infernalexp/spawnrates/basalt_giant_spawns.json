@@ -1,0 +1,30 @@
+{
+  "biomes": [
+    {
+      "biome": "default",
+      "spawn_info": {
+        "spawn_rate": 5,
+        "min_count": 1,
+        "max_count": 1
+      }
+    },
+    {
+      "biome": "minecraft:basalt_deltas",
+      "spawn_info": {
+        "spawn_rate": 1,
+        "min_count": 1,
+        "max_count": 1,
+        "energy_budget": 2.0,
+        "charge": 0.1
+      }
+    },
+    {
+      "biome": "infernalexp:delta_shores",
+      "spawn_info": {
+        "spawn_rate": 1,
+        "min_count": 1,
+        "max_count": 1
+      }
+    }
+  ]
+}

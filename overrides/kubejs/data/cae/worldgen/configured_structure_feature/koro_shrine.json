@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:village",
+  "biomes": "cae:arcane_plains",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "cae:koro_shrine",
+    "size": 7
+  }
+}
+  

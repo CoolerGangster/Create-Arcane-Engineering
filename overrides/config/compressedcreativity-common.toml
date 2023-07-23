@@ -1,0 +1,167 @@
+
+#General Configuration
+[general]
+	#Minimal Pneumatic Chestplate pressure required to act as Copper Backtank
+	#Range: 0.0 ~ 9.0
+	chestplate_min_pressure = 2.0
+	#If Copper Backtank has pneumatic capability in item form
+	backtank_compat_item = true
+	#If Copper Backtank has pneumatic capability in block form
+	backtank_compat_block = true
+	#If Pneumatic Chestplate (with charging upgrade) can provide air to Create tools
+	chestplate_compat = true
+
+#Machines Configuration
+[machines]
+
+	#Rotational Compressor
+	[machines.rotational_compressor]
+		#Max Stress Impact of the machine (at 256 rpm)
+		#Default value: 2048
+		#Range: > 0
+		stress = 2048
+		#Air Volume of the machine
+		#Default value: 5000
+		#Range: > 0
+		volume = 5000
+		#How much air this machine produces per tick if it is running at 128 rpm
+		#Default value: 10.0
+		#Range: 0.0 ~ 999999.0
+		base_production = 10.0
+		#Pressure Tier of the machine
+		#All but CUSTOM one match Pressure Tiers from PNC:R
+		#Allowed Values: TIER_ONE, TIER_ONE_HALF, TIER_TWO, CUSTOM
+		pressure_tier = "TIER_ONE"
+
+		#Values from Custom Air Pressure for this machine
+		[machines.rotational_compressor.custom_pressure]
+			#Danger Pressure of the machine
+			#Default value: 5.0
+			#Range: 0.0 ~ 20.0
+			danger_pressure = 5.0
+			#Additional Critical Pressure of the machine.
+			#Actual Critical Pressure is the sum of this value and Danger Pressure
+			#Default value: 2.0
+			#Range: 0.0 ~ 20.0
+			critical_pressure = 2.0
+
+	#Air Blower
+	[machines.air_blower]
+		#Air Volume of the machine
+		#Default value: 500
+		#Range: > 0
+		volume = 500
+		#Pressure required by machine to operate
+		#Default value: 0.5
+		#Range: 0.0 ~ 20.0
+		work_pressure = 0.5
+		#Pressure required for double processing speed
+		#Default value: 4.8
+		#Range: 0.0 ~ 20.0
+		overwork_pressure = 4.8
+		#Air Usage per Bar (total air usage = this value * current pressure)
+		#Range: 0.0 ~ 999999.0
+		air_usage_per_bar = 4.0
+		#Pressure Tier of the machine
+		#All but CUSTOM one match Pressure Tiers from PNC:R
+		#Allowed Values: TIER_ONE, TIER_ONE_HALF, TIER_TWO, CUSTOM
+		pressure_tier = "TIER_ONE"
+
+		#Values from Custom Air Pressure for this machine
+		[machines.air_blower.custom_pressure]
+			#Danger Pressure of the machine
+			#Default value: 5.0
+			#Range: 0.0 ~ 20.0
+			danger_pressure = 5.0
+			#Additional Critical Pressure of the machine.
+			#Actual Critical Pressure is the sum of this value and Danger Pressure
+			#Default value: 2.0
+			#Range: 0.0 ~ 20.0
+			critical_pressure = 2.0
+
+	#Industrial Air Blower
+	[machines.industrial_air_blower]
+		#Air Volume of the machine
+		#Default value: 1000
+		#Range: > 0
+		volume = 1000
+		#Pressure Tier of the machine
+		#All but CUSTOM one match Pressure Tiers from PNC:R
+		#Allowed Values: TIER_ONE, TIER_ONE_HALF, TIER_TWO, CUSTOM
+		pressure_tier = "TIER_ONE_HALF"
+
+		#Values from Custom Air Pressure for this machine
+		[machines.industrial_air_blower.custom_pressure]
+			#Danger Pressure of the machine
+			#Default value: 5.0
+			#Range: 0.0 ~ 20.0
+			danger_pressure = 5.0
+			#Additional Critical Pressure of the machine.
+			#Actual Critical Pressure is the sum of this value and Danger Pressure
+			#Default value: 2.0
+			#Range: 0.0 ~ 20.0
+			critical_pressure = 2.0
+
+	#Compressed Air Engine
+	[machines.compressed_air_engine]
+		#Max/Worl Stress Capacity of the machine (at 256 rpm)
+		#Default value: 1024
+		#Range: > 0
+		stress = 1024
+		#Air Volume of the machine
+		#Default value: 1000
+		#Range: > 0
+		volume = 1000
+		#Air usage when working
+		#Default value: 20.0
+		#Range: 0.0 ~ 999999.0
+		air_usage_work = 40.0
+		#Air usage when idle
+		#Default value: 40.0
+		#Range: 0.0 ~ 999999.0
+		air_usage_idle = 80.0
+		#Pressure required to operate
+		#Default value: 3.0
+		#Range: 0.0 ~ 20.0
+		work_pressure = 3.0
+		#Pressure Tier of the machine
+		#All but CUSTOM one match Pressure Tiers from PNC:R
+		#Allowed Values: TIER_ONE, TIER_ONE_HALF, TIER_TWO, CUSTOM
+		pressure_tier = "TIER_ONE"
+
+		#Values from Custom Air Pressure for this machine
+		[machines.compressed_air_engine.custom_pressure]
+			#Danger Pressure of the machine
+			#Default value: 5.0
+			#Range: 0.0 ~ 20.0
+			danger_pressure = 5.0
+			#Additional Critical Pressure of the machine.
+			#Actual Critical Pressure is the sum of this value and Danger Pressure
+			#Default value: 2.0
+			#Range: 0.0 ~ 20.0
+			critical_pressure = 2.0
+
+	#Heater
+	[machines.heater]
+		#At what temperature the heater will start cooling down
+		#Range: > 0
+		starting_temperature = 100
+		#Temperature coefficient increase, this much heat is consumed for each degree over starting temperature
+		#Range: 0.0 ~ 100.0
+		temperature_coefficient = 0.1
+		#At what temperature the heater will be considered as passive heat source for Steam Engine (like a campfire)
+		#Range: > 0
+		temperature_passive = 100
+		#At what temperature the heater will be considered as active heat source for Steam Engine and Basin recipes (like a fueled Blaze Burner)
+		#Range: > 0
+		temperature_kindled = 200
+		#At what temperature the heater will be considered as seething (like a Blaze Burner fed with Blaze Cake)
+		#Range: > 0
+		temperature_seething = 300
+		#Thermal capacity of a Heater
+		#Range: 0.0 ~ 100.0
+		thermal_capacity = 2.0
+		#Thermal resistance of a Heater
+		#Range: 0.0 ~ 100.0
+		thermal_resistance = 1.0
+

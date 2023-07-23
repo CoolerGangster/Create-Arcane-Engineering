@@ -1,0 +1,12 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"wtf.model.new": {
+			"loop": true
+		},
+		"working": {
+			"animation_length": 2
+		}
+	},
+	"geckolib_format_version": 2
+}

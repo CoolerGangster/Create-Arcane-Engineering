@@ -1,0 +1,746 @@
+{
+	id: "7A4FCE7461FA73E8"
+	group: ""
+	order_index: 0
+	filename: "layout_i_guess"
+	title: "Layout I guess"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -2.5d
+			id: "0814B62D8A438B5E"
+			tasks: [{
+				id: "065A1D3FE4B7EF11"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "77E2356AD0008080"
+			tasks: [{
+				id: "2C02798AD8349216"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			id: "36E29C0F694B0EE3"
+			tasks: [{
+				id: "5F7772A69197CBE1"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			id: "4B9A48F3F25399FB"
+			tasks: [{
+				id: "0B46366632B5DAA0"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "45936013AA27430C"
+			tasks: [{
+				id: "0601DF591FF3F4B5"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			id: "21C12515ABE0DBF6"
+			tasks: [{
+				id: "4D5468E9936D6E3C"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			id: "13FC64083D90CA14"
+			tasks: [{
+				id: "56F657C5267F806E"
+				type: "checkmark"
+				title: "Tasks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			id: "6733DEE71BE0A7B8"
+			tasks: [{
+				id: "4250D18A39704640"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "399623565C5FB51C"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			id: "4F980BFAF23B552D"
+			tasks: [{
+				id: "3B0D3A7635DEDBDC"
+				type: "item"
+				item: "ftbquests:missing_item"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			id: "0F79A65EB51718E7"
+			tasks: [{
+				id: "25BCC0DAC35A1359"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "373F70068570AD59"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			id: "346242BFD7C50EFB"
+			tasks: [{
+				id: "40E5086A05B3E4C9"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "238D968F056232D5"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			id: "729AEC63ED839BD0"
+			tasks: [{
+				id: "281C87E788DAABFB"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "5FF97EB6C2DA1601"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			id: "06110E6D9738D616"
+			tasks: [{
+				id: "760E2866E7E3FBA8"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "39A48635C38CBB4F"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			id: "3835D29FE3EAE409"
+			tasks: [{
+				id: "78BDE661848044E8"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "5567CCD62A08A899"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			id: "34E4CB204D52B873"
+			tasks: [{
+				id: "2F36E93603FE6B40"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "6E67E6D4C74F98C8"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			id: "321FA241FAE0C96D"
+			tasks: [{
+				id: "57CD2970F7D4E63B"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "1AC866C0E76EA5DA"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			id: "30C10FCB7B3566A2"
+			tasks: [{
+				id: "5E2B4B463B314602"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "7B0239D1389A0783"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			id: "06B5999073ACC2F3"
+			tasks: [{
+				id: "30359DB5BD896468"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "09D6354371B3F4E6"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			id: "48854CAF97BEBB01"
+			tasks: [{
+				id: "7B54FC306110F3B4"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "4788D7F8E6EC40ED"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			id: "5E79B16C2AE70785"
+			tasks: [{
+				id: "087080C8CDDFF390"
+				type: "item"
+				icon: "minecraft:carrot"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			id: "7DA9FE57A67B81D8"
+			tasks: [{
+				id: "25E9134110144480"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "467F7F3B6D653DD8"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			id: "5FD639D5CC2C68B3"
+			tasks: [{
+				id: "4803E61E50BC5C8B"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			id: "7E384339AC138FC6"
+			tasks: [{
+				id: "7CE786D612C5F7DD"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			id: "010CF6278355896C"
+			tasks: [{
+				id: "4D39BD4A72EED370"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "216425DE77272E66"
+			tasks: [{
+				id: "3BF4CF82B2D61392"
+				type: "item"
+				item: "minecraft:cornflower"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			id: "58B21965F219591C"
+			tasks: [{
+				id: "7FC4F2DC78D38E54"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			id: "0874F9FA0F924868"
+			tasks: [{
+				id: "77CC2E329022ABC8"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "13B55AE9C7BD724C"
+			tasks: [{
+				id: "4CD81E3441D5EAB7"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "1A1D091AC7C879F9"
+			tasks: [{
+				id: "60A7C228230F8BAB"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "12F8410AD62A0548"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			id: "6871EAC18C6BEBE2"
+			tasks: [{
+				id: "7496474203690246"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "479DA82ABF869161"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			id: "04B6B6A334DF5C97"
+			tasks: [{
+				id: "32BE8F9CC55F2B23"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			id: "5A8BBEED05CF036A"
+			tasks: [{
+				id: "59A5B51C91894947"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "4AB21930256ACDFE"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			id: "4D76850BFF136B89"
+			tasks: [{
+				id: "2830EA49B38A5EAE"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "1FCE2D1332F1D269"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			id: "3F2C18F6C180F2C6"
+			tasks: [{
+				id: "59C6302F48637B8C"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "613308C666B3171B"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			id: "6BF3E8D690F71E92"
+			tasks: [{
+				id: "6D883806612C1412"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "08AFB00851939290"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			id: "577341A78B11594C"
+			tasks: [{
+				id: "4775D9DE367453F8"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "236D9EAB56CC7855"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			id: "09374BFE3223E620"
+			tasks: [{
+				id: "5E8C4929F5B1523F"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "5A5ECDA5221A2246"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "56D3C461F6348C93"
+			tasks: [{
+				id: "2DAE6939034AF44F"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			id: "7DA93A6D30B908E4"
+			tasks: [{
+				id: "2E6C37E59611C2D8"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "34EDE198587B6BDE"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			id: "6E29D2D4E14FBBB6"
+			tasks: [{
+				id: "35C3230F7006A8D7"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "44FDD89B56591CAD"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "64420FC72008372D"
+			tasks: [{
+				id: "3C89808636ADFD6B"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "710D434ABED4CD51"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			id: "465584DDA60AD270"
+			tasks: [{
+				id: "585D4BDC6EBF1670"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "782585AF3C425135"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "18C28703412BB129"
+			tasks: [{
+				id: "77BFA8F1AB4ED8F2"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			id: "6D9CC26D00FAEDAE"
+			tasks: [{
+				id: "17D0457591D681E6"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			id: "514628483846E1F6"
+			tasks: [{
+				id: "6129582D922D6D55"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			id: "3098015FC4232ED4"
+			tasks: [{
+				id: "700BC25AF55E059D"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			id: "45D205DD4E278C78"
+			tasks: [{
+				id: "495F2226AF963B1B"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			id: "578150A81E7E7D78"
+			tasks: [{
+				id: "2169A4CDCD97E07D"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "127A5EF326DD3F20"
+			tasks: [{
+				id: "56FA29B07D163DE0"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			id: "361A05772EF1C245"
+			tasks: [{
+				id: "6F8A36CA1005D53F"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "7D0F46253B6C7690"
+			tasks: [{
+				id: "0C4BCCF5A942640E"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			id: "7F313E00B78A149A"
+			tasks: [{
+				id: "264259653D36D386"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			id: "0A8943432A297D23"
+			tasks: [{
+				id: "62602FA4C9F63650"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			id: "3FCA7DFF03885D09"
+			tasks: [{
+				id: "06C37F2CFC36040B"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			id: "19ED12AA912F8AAB"
+			tasks: [{
+				id: "2BB9FEB35EF14A1C"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Always: Music Disks"
+			x: 4.0d
+			y: -2.0d
+			shape: "square"
+			id: "58CB5B2EC54EC7D8"
+			tasks: [{
+				id: "6EF720BDDF3B9CAB"
+				type: "item"
+				title: "Any #minecraft:music_discs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:music_discs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3DBF588129FF1817"
+				type: "item"
+				team_reward: false
+				auto: "disabled"
+				item: "thermal:iron_coin"
+				count: 16
+			}]
+		}
+	]
+	quest_links: [ ]
+}

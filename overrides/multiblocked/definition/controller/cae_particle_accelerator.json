@@ -1,0 +1,257 @@
+{
+  "version": 3,
+  "location": "cae:particle_accelerator",
+  "traits": {
+    "background": "multiblocked:textures/skystone_catalyst_top.png",
+    "forge_energy": {
+      "cIO": 0,
+      "gIO": 0,
+      "mbdIO": 0,
+      "slotName": "",
+      "x": 61,
+      "y": 109,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT",
+      "capacity": 10000000,
+      "maxReceive": 10000,
+      "maxExtract": 10000
+    }
+  },
+  "properties": {
+    "rotationState": "NONE",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "cae:particle_accelerator",
+          "meta": 2
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "particle",
+        "isGlobal": true,
+        "type": "geo",
+        "postRenderer": false
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "particleaccelerator",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "ABBBA",
+        "C   C",
+        "C   C",
+        "D   D"
+      ],
+      [
+        "BE EB",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "BF@FB",
+        "  G  ",
+        "  H  ",
+        "  I  "
+      ],
+      [
+        "BEBEB",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "ABBBA",
+        "C   C",
+        "C   C",
+        "D   D"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "create:shadow_steel_casing"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "cae:particle_accelerator",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "createdeco:netherite_sheet_stairs"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "minecraft:end_rod"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "minecraft:wither_skeleton_skull"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "ae2:controller"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "in": {
+        "capability": "item",
+        "type": "capability",
+        "io": "IN"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "minecraft:beacon"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "create:depot"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:pressurized_spawner"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "I": {
+        "blocks": [
+          {
+            "id": "multiblocked:entity"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "in",
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ]
+    }
+  }
+}

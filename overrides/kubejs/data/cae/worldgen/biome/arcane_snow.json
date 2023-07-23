@@ -1,0 +1,21 @@
+{
+  "temperature": -1.6,
+  "downfall": 1.4,
+  "precipitation": "snow",
+  "temperature_modifier": "frozen",
+  "category": "plains",
+  "creature_spawn_probability": 0.4,
+  "effects": {
+    "sky_color": 9108991,
+    "fog_color": 12118015,
+    "water_color": 10403583,
+    "water_fog_color": 13159145,
+    "grass_color": 11915423,
+    "foliage_color": 11659440,
+    "grass_color_modifier": "none"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

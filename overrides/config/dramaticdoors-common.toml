@@ -1,0 +1,8 @@
+
+#Dramatic Doors
+[Mixins]
+	#Allow doors to be waterlogged. Enable to allow waterlogging. Disable for compatibility with certain mods. Requires restart after changing.  Default: true
+	waterloggable_doors = true
+	#Allow fence gates to be waterlogged. Enable to allow waterlogging. Disable for compatibility with certain mods. Requires restart after changing.  Default: true
+	waterloggable_fence_gates = true
+

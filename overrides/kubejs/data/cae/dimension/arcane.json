@@ -1,0 +1,117 @@
+{
+  "type": {
+    "ultrawarm": false,
+    "natural": true,
+    "piglin_safe": false,
+    "respawn_anchor_works": false,
+    "bed_works": true,
+    "has_raids": false,
+    "has_skylight": true,
+    "has_ceiling": false,
+    "coordinate_scale": 1,
+    "ambient_light": 1,
+    "fixed_time": 0,
+    "logical_height": 320,
+    "effects": "minecraft:overworld",
+    "infiniburn": "#minecraft:infiniburn_overworld",
+    "min_y": -64,
+    "height": 320
+  },
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1340138607,
+    "settings": "cae:weirdness",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "cae:void",
+          "parameters": {
+            "temperature": -2,
+            "humidity": 1,
+            "continentalness": 1,
+            "erosion": 2,
+            "weirdness": 2,
+            "depth": 2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "cae:source_valley",
+          "parameters": {
+            "temperature": 1.5,
+            "humidity": 0,
+            "continentalness": 1.7,
+            "erosion": -0.6,
+            "weirdness": 1,
+            "depth": 1.1,
+            "offset": 1
+          }
+        },
+        {
+          "biome": "cae:arcane_desert",
+          "parameters": {
+            "temperature": 2,
+            "humidity": -2,
+            "continentalness": [
+              0,
+              2
+            ],
+            "erosion": 0,
+            "weirdness": [
+              1,
+              2
+            ],
+            "depth": 0,
+            "offset": 1
+          }
+        },
+        {
+          "biome": "cae:arcane_snow",
+          "parameters": {
+            "temperature": -1.3,
+            "humidity": [
+              -2,
+              2
+            ],
+            "continentalness": 0.2,
+            "erosion": -1.7,
+            "weirdness": 2,
+            "depth": -2,
+            "offset": 1
+          }
+        },
+        {
+          "biome": "cae:soul_forest",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": -2,
+            "continentalness": [
+              0,
+              1
+            ],
+            "erosion": -2,
+            "weirdness": -1,
+            "depth": 1,
+            "offset": 1
+          }
+        },
+        {
+          "biome": "cae:arcane_plains",
+          "parameters": {
+            "temperature": 1.4,
+            "humidity": 1.4,
+            "continentalness": 1,
+            "erosion": -1,
+            "weirdness": 1,
+            "depth": 0,
+            "offset": 1
+          }
+        }
+      ]
+    }
+  }
+}

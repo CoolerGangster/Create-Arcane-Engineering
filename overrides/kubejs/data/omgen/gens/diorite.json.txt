@@ -1,0 +1,10 @@
+{
+    "primary": "#minecraft:lava",
+    "secondary": "minecraft:water",
+    "secondary_pos": "D",
+
+    "max_height": 0,
+    "gens": [
+        [1,"minecraft:andesite"]
+    ]
+}

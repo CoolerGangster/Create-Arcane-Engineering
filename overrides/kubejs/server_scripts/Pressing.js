@@ -1,0 +1,11 @@
+onEvent('recipes', event => {
+  event.recipes.createCompacting('1x ' + ("thermal:rubber"), [Fluid.of(('minecraft:water'), 250), '4x #forge:vines'])
+  event.recipes.createCompacting('1x ' + ("thermal:rubber"), [Fluid.of(('minecraft:water'), 250), '4x #minecraft:flowers'])
+  event.recipes.createCompacting('1x ' + ("thermal:rubber"), [Fluid.of(('thermal:resin'), 250)])
+  event.recipes.create.compacting('forbidden_arcanus:rune', ['kubejs:rune_dust', 'kubejs:rune_dust', 'kubejs:rune_dust', 'quark:violet_corundum_cluster']).heated()
+  event.recipes.createCompacting('1x ' + ("create:chromatic_compound"), [Fluid.of(('kubejs:liquid_anthraquinone'), 144)])
+  event.recipes.createPressing("kubejs:radiant_sheet", ["create:refined_radiance"])
+  event.recipes.createPressing("create:sturdy_sheet","pneumaticcraft:ingot_iron_compressed")
+  event.recipes.createCompacting(Fluid.of(('kubejs:sourceberry_juice'), 100), ['ars_nouveau:source_berry'])
+  event.recipes.createCompacting(Fluid.of(('kubejs:magebloom_juice'), 100), ['ars_nouveau:magebloom'])
+})

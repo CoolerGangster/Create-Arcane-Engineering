@@ -1,0 +1,166 @@
+{
+  "name": "thething",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "65c89a94-0789-4d25-b7d7-14e855f0922b",
+      "duration": 120,
+      "inputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:nature_essence",
+              "amount": 3
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:soul_essence",
+              "amount": 10
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "biome",
+          "condition": {
+            "biome": "cae:soul_forest"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "ee1f527b-52d2-4ea9-8a9a-970baf02295b",
+      "duration": 120,
+      "inputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:dry_essence",
+              "amount": 3
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:nature_essence",
+              "amount": 10
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "biome",
+          "condition": {
+            "biome": "cae:arcane_plains"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "de995d52-75c8-47a2-bfae-2c39f6ae6efc",
+      "duration": 120,
+      "outputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:source_essence",
+              "amount": 10
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "biome",
+          "condition": {
+            "biome": "cae:source_valley"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "50600123-27cb-4db0-af10-276132b3901f",
+      "duration": 120,
+      "inputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:source_essence",
+              "amount": 3
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:ice_essence",
+              "amount": 10
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "biome",
+          "condition": {
+            "biome": "cae:arcane_snow"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "137f6d16-9647-47bf-8720-e4e8c1731e6e",
+      "duration": 120,
+      "inputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:ice_essence",
+              "amount": 3
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:dry_essence",
+              "amount": 10
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "biome",
+          "condition": {
+            "biome": "cae:arcane_desert"
+          }
+        }
+      ]
+    }
+  ]
+}

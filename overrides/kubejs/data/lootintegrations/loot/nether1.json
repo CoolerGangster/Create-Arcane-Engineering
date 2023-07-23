@@ -1,0 +1,11 @@
+{
+  "loot_table": "cae:arcanenormal",
+  "max_result_itemcount": 15,
+  "integrated_loot_tables": {
+    "dungeons_plus:chests/soul_prison/common": 6,
+    "totw_additions:chests/nether_tower/nether_tower_chest": 6,
+    "infernalexp:chests/desolate_bastion_outpost_chest": 9,
+    "infernalexp:chests/glowstone_canyon_ruin_chest": 9,
+    "infernalexp:chests/basalt_delta_ruin_chest": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "loot_table": "cae:createone",
+  "max_result_itemcount": 15,
+  "integrated_loot_tables": {
+    "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure": 3,
+    "dungeons_arise:chests/aviary/aviary_barrels": 1,
+    "dungeons_arise:chests/aviary/aviary_treasure": 5,
+    "dungeons_arise:chests/aviary/aviary_normal": 3,
+    "endrem:chests/treasure": 3,
+    "totw_additions:chests/end_tower/end_tower_chest": 3,
+    "dungeoncrawl:chests/treasure": 3,
+    "dungeoncrawl:chests/stage_5": 3
+  }
+}

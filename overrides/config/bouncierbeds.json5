@@ -1,0 +1,7 @@
+{
+	// Whether beds should prevent fall damage when a player lands on them. It's recommended to keep this enabled if you have lots of bounciness.
+	"bedsPreventFallDamage": true,
+	// The modifier of how much a bed bounces. A value of 2.0 makes the player jump around 30 blocks. A value of 100.0 makes the player jump around 4500 blocks.
+	// min: 0.0, max: 100.0
+	"bedBounciness": 1.5
+}

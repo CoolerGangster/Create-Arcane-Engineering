@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "forbidden_arcanus:xpetrified_orb",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:stellarite_piece",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:xpetrified_orb",
+            "slot": 2
+       },
+       {
+        "item": "forbidden_arcanus:xpetrified_orb",
+        "slot": 3
+        },
+        {
+            "item": "forbidden_arcanus:xpetrified_orb",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:xpetrified_orb",
+            "slot": 5
+       }
+    ],
+    "hephaestus_forge_item": "minecraft:netherite_ingot",
+    "essences": {
+        "experience": 0,
+        "aureal": 20,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "forbidden_arcanus:eternal_stella",
+        "count": 1
+    }
+}

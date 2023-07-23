@@ -1,0 +1,20 @@
+{
+  "biomes": [
+    {
+      "biome": "default",
+      "spawn_info": {
+        "spawn_rate": 50,
+        "min_count": 1,
+        "max_count": 5
+      }
+    },
+    {
+      "biome": "minecraft:soul_sand_valley",
+      "spawn_info": {
+        "spawn_rate": 30,
+        "min_count": 1,
+        "max_count": 3
+      }
+    }
+  ]
+}

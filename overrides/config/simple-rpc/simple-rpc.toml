@@ -1,0 +1,286 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1119733091775287296
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Initializing Machinery"
+	#The second line of text under the app name
+	state = "Create Arcane Engineering Starting."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["generic"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A Minecraft-Create Magic Modpack for 1.18"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["frick"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[init.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/h4m7mvZHaC"
+
+	[[init.buttons]]
+		label = "Trailer"
+		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is chillin in the Menu"
+	#The second line of text under the app name
+	state = "Prolly AFK"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["generic"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A Minecraft-Create Magic Modpack for 1.18"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["frick"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[main_menu.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/h4m7mvZHaC"
+
+	[[main_menu.buttons]]
+		label = "Trailer"
+		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a server"
+	#The second line of text under the app name
+	state = "Searching for friends"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["generic"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A Minecraft-Create Magic Modpack for 1.18"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["frick"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[server_list.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/h4m7mvZHaC"
+
+	[[server_list.buttons]]
+		label = "Trailer"
+		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["generic"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A Minecraft-Create Magic Modpack for 1.18"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["frick"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[realms_list.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/h4m7mvZHaC"
+
+	[[realms_list.buttons]]
+		label = "Trailer"
+		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is joining a game"
+	#The second line of text under the app name
+	state = "Joining Game"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["generic"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A Minecraft-Create Magic Modpack for 1.18"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["frick"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[join_game.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/h4m7mvZHaC"
+
+	[[join_game.buttons]]
+		label = "Trailer"
+		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Currently In %world%"
+	#The second line of text under the app name
+	state = "Playing lonely mode"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["generic"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A Minecraft-Create Magic Modpack for 1.18"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["frick"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[single_player.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/h4m7mvZHaC"
+
+	[[single_player.buttons]]
+		label = "Trailer"
+		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %servername% with %players% players"
+	#The second line of text under the app name
+	state = "Engineering alongside others."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["generic"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A Minecraft-Create Magic Modpack for 1.18"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["frick"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[multi_player.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/h4m7mvZHaC"
+
+	[[multi_player.buttons]]
+		label = "Trailer"
+		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["generic"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A Minecraft-Create Magic Modpack for 1.18"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["frick"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord 
+
+	[[realms.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/h4m7mvZHaC"
+
+	[[realms.buttons]]
+		label = "Trailer"
+		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+
+
+[generic]
+	#The first line of text under the app name
+	description = "Playing Create: Arcane Engineering"
+	#The second line of text under the app name
+	state = "Pondering the Arcane, whilst Engineering"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["generic"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A Minecraft-Create Magic Modpack for 1.18"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["frick"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+
+	[[generic.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/h4m7mvZHaC"
+
+	[[generic.buttons]]
+		label = "Trailer"
+		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "In the Overworld"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "In the Nether"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "In the End"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+
