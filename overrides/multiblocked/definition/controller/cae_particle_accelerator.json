@@ -37,12 +37,9 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "cae:particle_accelerator",
-          "meta": 2
-        },
-        "type": "blockstate",
-        "postRenderer": true
+        "modelLocation": "multiblocked:particle",
+        "type": "imodel",
+        "postRenderer": false
       }
     },
     "idle": {
