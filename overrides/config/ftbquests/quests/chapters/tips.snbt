@@ -637,7 +637,7 @@
 		}
 		{
 			title: "Search for Items in Chests"
-			icon: "ironchest:trapped_crystal_chest"
+			icon: "quark:warped_chest"
 			x: -6.0d
 			y: -15.0d
 			subtitle: "Hover over a item in JEI and Press Y to show all chests with that item."
