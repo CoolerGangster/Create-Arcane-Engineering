@@ -25,7 +25,7 @@ onEvent('item.registry', (event) => {
     let id = name.toLowerCase()
     event.create(id, 'sword').tier('tool').texture("kubejs:item/" + id).displayName(name).rarity(RARITY_COMMON)
   }
-  event.create("avaritia:zizz", 'sword').tier('zyzz').displayName("Goetterwaffe 20 cm").rarity(RARITY_EPIC)
+  event.create("avaritia:zizz", 'sword').tier('zyzz').displayName("Goetterwaffe").rarity(RARITY_EPIC)
   let seed = (name) => {
     let id = name.toLowerCase()
     event.create(id + '_seed').texture("kubejs:item/" + id + "_seed").displayName(name + ' Seed')
