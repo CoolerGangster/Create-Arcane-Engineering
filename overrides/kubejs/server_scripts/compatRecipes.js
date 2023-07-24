@@ -176,7 +176,7 @@ onEvent('block.right_click', event =>{
   })
 
 onEvent('recipes', event => {
-
+    /*
     let t = 'kubejs:incomplete_cogwheel'
     event.recipes.createSequencedAssembly([
       Item.of('create:cogwheel', 16),
@@ -184,18 +184,19 @@ onEvent('recipes', event => {
       event.recipes.createDeploying(t, [t, '#minecraft:wooden_buttons']),
       event.recipes.createCutting(t,t)
     ]).transitionalItem('kubejs:incomplete_cogwheel').loops(4)
-    event.remove({id: 'create:crafting/kinetics/large_cogwheelfrom_little'})
+    */
+    //event.remove({id: 'create:crafting/kinetics/large_cogwheelfrom_little'})
     event.remove({id: 'create:crafting/kinetics/belt_connector'})
-    event.shapeless('create:large_cogwheel',['create:cogwheel','#minecraft:planks'])
+    //event.shapeless('create:large_cogwheel',['create:cogwheel','#minecraft:planks'])
     event.remove({id: 'tinkers_reforged:smeltery/melting/redstone'})
     event.remove({id: 'tinkers_reforged:smeltery/melting/redstone_block'})
     event.remove({mod: 'extendedgears'})
     event.remove({id: 'beyond_earth:steel_ingot'})
     event.remove({id: 'rocketcraft'})
-    event.remove({id: 'create:deploying/large_cogwheel'})
-    event.remove({id: 'create:deploying/cogwheel'})
-    event.remove({id: 'create:crafting/kinetics/cogwheel'})
-    event.remove({id: 'create:crafting/kinetics/large_cogwheel'})
+    //event.remove({id: 'create:deploying/large_cogwheel'})
+    //event.remove({id: 'create:deploying/cogwheel'})
+    //event.remove({id: 'create:crafting/kinetics/cogwheel'})
+    //event.remove({id: 'create:crafting/kinetics/large_cogwheel'})
     event.remove({output: 'thermal:invar_ingot'})
     event.remove({id: 'create:crafting/materials/electron_tube'})
     event.remove({id: 'create:sequenced_assembly/precision_mechanism'})
