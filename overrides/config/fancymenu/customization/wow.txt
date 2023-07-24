@@ -45,34 +45,27 @@ customization {
   orientation = top-left
   hidden = false
   original_pos_size_calculation = true
-  x = 140
-  width = 360
+  x = 143
+  width = 338
   action = deep_customization_element:drippy_overlay_progress_bar
   actionid = 1dfe6407-1f5b-4392-ab17-6efeb49fc4ca1687027897617
-  y = 294
+  y = 277
   height = 10
 }
 
 customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1.78","decimal":"true"}}
   path = DrippyMenuStuff/createlogo.png
-  orientation = mid-centered
-  x = -169
-  width = 337
+  orientation = top-left
+  x = 0
+  width = 328
   action = addtexture
   actionid = 0fe36911-5834-48a2-9b72-3288f1bb38b21687027943273
-  y = -159
-  height = 191
-}
-
-customization {
-  path = DrippyMenuStuff/arcaneengineering.png
-  orientation = mid-centered
-  x = -175
-  width = 350
-  action = addtexture
-  actionid = 040f8838-67f1-4f4b-98c9-c351521e5a231687027995265
-  y = -111
-  height = 242
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} - {"placeholder":"elementwidth","values":{"id":"0fe36911-5834-48a2-9b72-3288f1bb38b21687027943273"}}) / 2 ","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/1.9","decimal":"true"}}
+  advanced_posy = 10
+  height = 190
 }
 
 customization {
@@ -88,6 +81,21 @@ customization {
   actionid = 606e34cc-5469-47ca-b069-5bfb70da99481687028055656
   action = addsplash
   y = 62
-  text = Enhanced!
+  text = All rumors are true!
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1.4","decimal":"true"}}
+  path = DrippyMenuStuff/arcaneengineering.png
+  orientation = top-left
+  x = 0
+  width = 350
+  action = addtexture
+  actionid = 040f8838-67f1-4f4b-98c9-c351521e5a231687027995265
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} - {"placeholder":"elementwidth","values":{"id":"040f8838-67f1-4f4b-98c9-c351521e5a231687027995265"}}) / 2 ","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/1.78","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"10 +{"placeholder":"elementheight","values":{"id":"0fe36911-5834-48a2-9b72-3288f1bb38b21687027943273"}}/4","decimal":"true"}}
+  height = 242
 }
 

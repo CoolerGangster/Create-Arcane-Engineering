@@ -24,6 +24,14 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-right
+  x = -196
+  action = movebutton
+  y = -10
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = -103
@@ -219,7 +227,7 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 186
+  x = 106
   width = 268
   action = deep_customization_element:title_screen_forge_top
   actionid = 2b40794e-3635-426a-b1e3-e97be58924791687023251441
@@ -234,18 +242,18 @@ customization {
   width = 143
   action = deep_customization_element:title_screen_branding
   actionid = 2c35837f-9aa0-4ef1-83c7-414bcb8c64841687023251447
-  y = 298
-  height = 60
+  y = 218
+  height = 50
 }
 
 customization {
   orientation = top-left
   hidden = false
-  x = 411
+  x = 251
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 29622cac-77cf-44d3-8cc6-9a60a2411b811687023251448
-  y = 340
+  y = 250
   height = 9
 }
 
@@ -307,41 +315,43 @@ customization {
 }
 
 customization {
+  orientation = top-left
+  copy_client_player = true
   slim = false
   auto_skin = false
   scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/7040ca3b025921b5f4b8b768fd18b26edf22ca18bb6ecc871b4bcae3884e20
   showname = false
+  crouching = false
   follow_mouse = true
-  capeurl = http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933
+  x = 410
+  width = 18
+  parrot_left_shoulder = false
   action = custom_layout_element:fancymenu_customization_player_entity
   actionid = 4c05c23e-fb2c-4e91-ad07-53938ad5bb291687025027797
-  playername = FortnitePro420Xx
+  y = 134
+  playername = PigTurtle
   bodyrotationx = 0.0
+  parrot = false
   bodyrotationy = 0.0
   auto_cape = false
   is_baby = false
   height = 54
-  orientation = top-left
-  copy_client_player = true
-  headrotationy = 0.0
-  headrotationx = 0.0
-  skinurl = http://textures.minecraft.net/texture/adb0f7d69495f0142e4b3335e63023eb41ad393a836f8ef0d77a56b99e3cc995
-  crouching = false
-  x = 307
-  width = 18
-  parrot_left_shoulder = false
-  y = 253
-  parrot = false
 }
 
 customization {
   path = DrippyMenuStuff/arcaneengineering.png
-  orientation = mid-centered
-  x = -161
-  width = 318
+  orientation = top-left
+  x = 0
+  width = 200
   action = addtexture
   actionid = c9e0c482-7284-4676-9921-d6a106804f1f1687024571026
-  y = -159
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":" {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2","decimal":"false"}}-{"placeholder":"guiscale"}*50/2","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiscale"} * 50","decimal":"false"}}
+  advanced_posy = -30
   height = 217
 }
 
