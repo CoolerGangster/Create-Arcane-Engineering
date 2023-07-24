@@ -1,0 +1,355 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = DrippyMenuStuff/arcanebackg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 123
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 77
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 79
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=376322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 67
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 66
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 135
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 65
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 65
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 19
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 77
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 101
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=376346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 178
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 3f908ec2-b6d1-459b-9443-453df5027a1d1690229112586
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 80ac83f7-483e-4628-8ade-cc4bb73d97fb1690229112586
+  y = 198
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 198
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 46eee0b8-1d2c-4d79-9f40-3502448c24cb1690229112586
+  y = 220
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 415
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 2f8b9689-71b8-4c18-9e12-38edbe41ebb81690229112587
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 97
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 3ac186cb-74d7-44f2-acb7-237546126c5a1690229112587
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-right
+  splash_color = #ffff00
+  hidden = true
+  x = -422
+  width = 60
+  splash_rotation = 30
+  action = deep_customization_element:title_screen_splash
+  actionid = 71d2bed5-9fbd-4ad6-aa14-db345cbc43e61690229112587
+  y = 47
+  height = 30
+}
+
+customization {
+  orientation = bottom-right
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 45
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/7040ca3b025921b5f4b8b768fd18b26edf22ca18bb6ecc871b4bcae3884e20
+  showname = true
+  crouching = false
+  follow_mouse = true
+  x = -54
+  width = 27
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 213a8ac0-1166-4e27-96ca-d7e14c0a19441690230392137
+  y = -105
+  playername = PigTurtle
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 81
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/2.4","decimal":"false"}}
+  path = DrippyMenuStuff/createlogo.png
+  orientation = top-left
+  x = 0
+  width = 181
+  action = addtexture
+  actionid = 882feb01-53cf-4d41-a21e-18d9c1d923951690230697456
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} - {"placeholder":"elementwidth","values":{"id":"882feb01-53cf-4d41-a21e-18d9c1d923951690230697456"}}) / 2 ","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2.35","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"20/{"placeholder":"guiscale"}","decimal":"true"}}
+  height = 100
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/1.85","decimal":"false"}}
+  path = DrippyMenuStuff/arcaneengineering.png
+  orientation = top-left
+  x = 0
+  width = 213
+  action = addtexture
+  actionid = a0ba06c9-2d41-47e8-a0c0-4a6e2e24ca5c1690230487148
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} - {"placeholder":"elementwidth","values":{"id":"a0ba06c9-2d41-47e8-a0c0-4a6e2e24ca5c1690230487148"}}) / 2 ","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"(20/{"placeholder":"guiscale"})+({"placeholder":"elementheight","values":{"id":"882feb01-53cf-4d41-a21e-18d9c1d923951690230697456"}}/4)","decimal":"false"}}
+  height = 130
+}
+
