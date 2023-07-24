@@ -37,7 +37,7 @@ onEvent("ponder.tag", (event) => {
         'forbidden_arcanus:pixie'
 
     ]); 
-    event.createTag('kubejs:time_crystal,', 'kubejs:source_time_crystal', 'The Source Time Crystal', 'Renewable Netherite' ,[
+    event.createTag('kubejs:time_crystal', 'kubejs:source_time_crystal', 'The Source Time Crystal', 'Renewable Netherite' ,[
         'cae:time_crystal',
         'cae:source_time_crystal',
         'minecraft:ancient_debris',

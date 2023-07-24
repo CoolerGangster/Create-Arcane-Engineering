@@ -42,7 +42,7 @@ onEvent('item.tooltip',tooltip => {
             text.add(1, Text.darkPurple(i[1]))
         })
     });
-    event.addAdvanced(/sophisticatedbackpacks:.*backpack/, (item, advanced, text) => {
+    tooltip.addAdvanced(/sophisticatedbackpacks:.*backpack/, (item, advanced, text) => {
 		if (!event.isShift()) {
 			if (item.nbt) {
 				text.add(1, "§7Leather:§r " + (item.nbt.leather ? item.nbt.leather : 0) + "§7/§r4")

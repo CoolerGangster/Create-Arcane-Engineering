@@ -6,4 +6,3 @@ onEvent('recipes', event => {
     event.recipes.create.deploying('kubejs:sturdy_mechanism', ['create:precision_mechanism', 'create:sturdy_sheet'])
     event.recipes.create.sandpaperPolishing([Item.of('kubejs:tested_pcb', 1).withChance(0.7),Item.of('pneumaticcraft:failed_pcb', 1).withChance(0.3)], 'kubejs:mystery_pcb')
 })
-
