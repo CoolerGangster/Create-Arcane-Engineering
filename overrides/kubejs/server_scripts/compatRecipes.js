@@ -176,8 +176,9 @@ onEvent('block.right_click', event =>{
   })
 
 onEvent('recipes', event => {
-    /*
+
     let t = 'kubejs:incomplete_cogwheel'
+    /*
     event.recipes.createSequencedAssembly([
       Item.of('create:cogwheel', 16),
     ], '#minecraft:wooden_slabs', [
