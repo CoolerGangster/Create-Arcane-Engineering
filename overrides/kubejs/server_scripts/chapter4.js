@@ -51,7 +51,6 @@ onEvent('recipes',event => {
   ]).transitionalItem(t).loops(1)
 
   let corundum = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "white", "black"]
-  console.log(event.recipes.thermal.toString())
   corundum.forEach(i => {
       event.recipes.thermal.crystallizer(`2x quark:${i}_corundum_cluster`,[`quark:${i}_corundum_cluster`,Fluid.of('minecraft:water',1000)])
       event.recipes.thermal.crystallizer(`2x quark:${i}_corundum`,[`quark:${i}_corundum`,Fluid.of('minecraft:water',1000)])
