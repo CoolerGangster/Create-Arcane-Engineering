@@ -138,18 +138,6 @@
 				item: {
 					id: "sophisticatedbackpacks:backpack"
 					Count: 1b
-					tag: {
-						inventorySlots: 27
-						borderColor: 2895973
-						upgradeSlots: 1
-						contentsUuid: [I;
-							1440982111
-							1309296160
-							-1520599945
-							434440889
-						]
-						clothColor: 12439408
-					}
 				}
 			}]
 		}
