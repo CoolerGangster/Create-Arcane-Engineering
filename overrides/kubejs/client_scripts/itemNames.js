@@ -1,6 +1,6 @@
 function capitalize(string) {;
 	let stringOut = "";
-	string.replace(/\_/g, " ").split(" ").forEach(substring =>{
+	string.split(/[ \_]/).forEach(substring =>{
 		substring = substring.charAt(0).toUpperCase()+substring.slice(1);
 		stringOut = stringOut + substring + " ";
 	});

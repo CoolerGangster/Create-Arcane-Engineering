@@ -651,7 +651,7 @@ onEvent('recipes', event => {
         ['minecraft:redstone','thermal:upgrade_augment_2'],
         ['#forge:glass',Item.of("pneumaticcraft:thermal_lagging",8)],
         ['thermal:rf_coil','thermal:dynamo_lapidary'],
-        ['pneumaticcraft:fluid_mixer','pneumaticcraft:turbine_rotor'],
+        ['pneumaticcraft:turbine_rotor', 'pneumaticcraft:fluid_mixer'],
         ['minecraft:furnace','pneumaticcraft:air_compressor'],
         ['pneumaticcraft:small_tank','pneumaticcraft:liquid_compressor'],
         ['create:blaze_burner','pneumaticcraft:thermal_compressor'],
