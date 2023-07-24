@@ -5,54 +5,12 @@
 	icon: "trade:deforesting_task_import"
 	loot_size: 1
 	rewards: [
-		{
-			title: "Mining Task Import"
-			icon: "trade:mining_task_import"
-			command: "/loot give @p loot trade:mining_task_import"
-			player_command: false
-			type: "command"
-		}
-		{
-			title: "Farming Task Import"
-			icon: "trade:farming_task_import"
-			command: "/loot give @p loot trade:farming_task_import"
-			player_command: false
-			type: "command"
-		}
-		{
-			title: "Collecting Task Import"
-			icon: "trade:collecting_task_import"
-			command: "/loot give @p loot trade:collecting_task_import"
-			player_command: false
-			type: "command"
-		}
-		{
-			title: "Deforesting Task Import"
-			icon: "trade:deforesting_task_import"
-			command: "/loot give @p loot trade:deforesting_task_import"
-			player_command: false
-			type: "command"
-		}
-		{
-			title: "Fishing Task Import"
-			icon: "trade:fishing_task_import"
-			command: "/loot give @p loot trade:fishing_task_import"
-			player_command: false
-			type: "command"
-		}
-		{
-			title: "Hunting Task Import"
-			icon: "trade:hunting_task_import"
-			command: "/loot give @p loot trade:hunting_task_import"
-			player_command: false
-			type: "command"
-		}
-		{
-			title: "Slaying Task Import"
-			icon: "trade:slaying_task_import"
-			command: "/loot give @p loot trade:slaying_task_import"
-			player_command: false
-			type: "command"
-		}
+		{ item: "trade:collecting_task_import" }
+		{ item: "trade:deforesting_task_import" }
+		{ item: "trade:fishing_task_import" }
+		{ item: "trade:hunting_task_import" }
+		{ item: "trade:mining_task_import" }
+		{ item: "trade:slaying_task_import" }
+		{ item: "trade:farming_task_import" }
 	]
 }
