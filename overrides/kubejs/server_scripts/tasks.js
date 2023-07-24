@@ -56,7 +56,7 @@ let mining = [//item, value-multiplier, amount-multiplier.
 	['minecraft:quartz', 3, 13], 
 	['minecraft:raw_iron', 4, 2], 
 	['minecraft:iron_ingot', 1, 3], 
-	['minecraft:Iron_block', 8, 1], 
+	['minecraft:iron_block', 8, 1], 
 	['minecraft:raw_gold', 8, 1], 
 	['minecraft:diamond', 12, 1],
 	['minecraft:diamond', 14, 1], 
