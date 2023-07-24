@@ -78,22 +78,7 @@
 				{
 					id: "26611519226B9A9C"
 					type: "item"
-					item: {
-						id: "sophisticatedbackpacks:backpack"
-						Count: 1b
-						tag: {
-							inventorySlots: 27
-							borderColor: 4673362
-							upgradeSlots: 1
-							contentsUuid: [I;
-								1797126959
-								-1361230613
-								-1466480531
-								-824775233
-							]
-							clothColor: 4673362
-						}
-					}
+					item: "sophisticatedbackpacks:backpack"
 				}
 			]
 		}
