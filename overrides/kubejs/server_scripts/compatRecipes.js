@@ -176,7 +176,6 @@ onEvent('block.right_click', event =>{
   })
 
 onEvent('recipes', event => {
-    console.log(event.recipes.create.toString())
 
     let t = 'kubejs:incomplete_cogwheel'
     event.recipes.createSequencedAssembly([
@@ -515,8 +514,6 @@ onEvent('recipes', event => {
             if (remove_old) {
             event.remove({output: output})
             };
-            console.log(outputs)
-            console.log(output)
             event.stonecutting(output, input)
             if(remove_old){
             event.recipes.createCompacting(input,[output,"kubejs:radiant_mechanism"])
@@ -543,9 +540,6 @@ onEvent('recipes', event => {
     let machine_smithing = (recipes, machine, remove_old) =>{
         recipes.forEach(entry => {
             if (remove_old) {
-                console.log(entry[0])
-                console.log(entry[1])
-                console.log(machine)
                 event.remove({output: entry[1]})
             };
             event.smithing(entry[1], machine, entry[0])
@@ -1273,7 +1267,6 @@ onEvent('recipes', event => {
     machineration('radiant','thermal:machine_frame')
     event.remove({mod:'integrateddynamics',output: "minecraft:netherrack"})
     event.remove({output: 'functionalstorage:ender_drawer'})
-    console.log(wrencharray)
     machineration('integrational','kubejs:gold_casing')
     machineration('plastic','kubejs:zinc_casing')
     machineration('time','kubejs:enderium_casing')
@@ -1285,7 +1278,6 @@ onEvent('recipes', event => {
     event.recipes.create.deploying('kubejs:enderium_casing',['#forge:stripped_logs',TE('enderium_ingot')])
     event.recipes.create.itemApplication('kubejs:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
     event.recipes.create.deploying('kubejs:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
-    console.log(event.recipes.thermal.toString())
     //event.recipes.thermal.rockGen('minecraft:andesite',[Fluid.of('create:honey'),Fluid.of('minecraft:water')])
     event.recipes.create.itemApplication('kubejs:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
     event.recipes.create.deploying('kubejs:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
@@ -1311,13 +1303,11 @@ onEvent('recipes', event => {
     event.remove({output: 'createaddition:zinc_sheet'})
 }); 
 onEvent('tags.blocks', thing =>{
-    console.log(wrencharray)
     dumbshitarray.forEach(entry =>{
     let dumbmachines = ["kubejs:andesite_machine","kubejs:sealed_machine","kubejs:brass_machine","kubejs:sturdy_machine","kubejs:integrational_machine","kubejs:radiant_machine","kubejs:plastic_machine","kubejs:time_machine","kubejs:supercritical_machine"]
-    if (entry.startsWith("x ", 1)) {entry = entry.slice(3) ;console.log("thing")}
+    if (entry.startsWith("x ", 1)) {entry = entry.slice(3)}
     if (entry.startsWith("x ", 2)) {entry = entry.slice(4)}
     if (Item.of(entry).isBlock()){
-        console.log(entry)
         thing.add("create:wrench_pickup",entry)
     }
     dumbmachines.forEach(i => {
