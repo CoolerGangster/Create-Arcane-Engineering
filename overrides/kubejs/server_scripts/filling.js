@@ -15,4 +15,4 @@ onEvent('recipes', event => {
   event.recipes.create.filling('kubejs:anthracene', ['kubejs:empty_vial', Fluid.of('kubejs:superheated_anthracene', 144)])
   event.recipes.create.filling('kubejs:magebloom_sourceberry_smoothie_bowl', ['minecraft:bowl', Fluid.of('kubejs:magebloom_sourceberry_smoothie', 100)])
   event.recipes.create.filling('pneumaticcraft:plastic',['create:sturdy_sheet', Fluid.of("pneumaticcraft:plastic", 500)])
-})  
+})

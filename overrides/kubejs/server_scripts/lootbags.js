@@ -25,6 +25,4 @@ onEvent('item.right_click',event=>{
     lootbag('kubejs:lootbag_arcane_1','cae:arcaneweak')
     lootbag('kubejs:lootbag_arcane_2','cae:arcanenormal')
     lootbag('kubejs:lootbag_arcane_3','cae:arcanetable')
-    
-    
 })
