@@ -29,6 +29,7 @@ onEvent('block.right_click', event =>{
     data.backpackData.tag.inventorySlots += slots
     data.backpackData.tag.upgradeSlots += upgradeSlots
     block.mergeEntityData(data)
+    if (!event.player.creativeMode) {item.count--}
     event.cancel()
 })
 

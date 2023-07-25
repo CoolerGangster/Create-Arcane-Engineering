@@ -45,17 +45,17 @@ onEvent('item.tooltip',tooltip => {
     tooltip.addAdvanced(/sophisticatedbackpacks:.*backpack/, (item, advanced, text) => {
 		if (!tooltip.isShift()) {
 			if (item.nbt) {
-				text.add(1, "§7Leather:§r " + (item.nbt.leather ? item.nbt.leather : 0) + "§7/§r4")
-				text.add(2, "§7String:§r " + (item.nbt.string ? item.nbt.string : 0) + "§7/§r2")
-				text.add(3, "§7Pockets:§r " + (item.nbt.pocket ? item.nbt.pocket : 0) + "§7/§r2")
-				text.add(4, "§7Obelisks:§r " + (item.nbt.obelisk ? item.nbt.obelisk : 0) + "§7/§r1")
-				text.add(5, "§7Final PCBs:§r " + (item.nbt.pcb ? item.nbt.pcb : 0) + "§7/§r2")
+				text.add(1, "§7Leather:§r " + (item.nbt.leather ? item.nbt.leather : 0) + "§7/§r4§7   (§r+1§7 Slot)")
+				text.add(2, "§7String:  §r " + (item.nbt.string ? item.nbt.string : 0) + "§7/§r2§7   (§r+1§7 Slot)")
+				text.add(3, "§7Pockets:§r " + (item.nbt.pocket ? item.nbt.pocket : 0) + "§7/§r2§7   (§r+6§7 Slots)")
+				text.add(4, "§7Obelisks:§r " + (item.nbt.obelisk ? item.nbt.obelisk : 0) + "§7/§r1§7   (§r+1§7 Upgrade Slot)")
+				text.add(5, "§7Final PCBs:§r " + (item.nbt.pcb ? item.nbt.pcb : 0) + "§7/§r2§7   (§r+1§7 Upgrade Slot)")
 			} else {
-				text.add(1, "§7Leather:§r 0§7/§r4")
-				text.add(2, "§7String:§r 0§7/§r2")
-				text.add(3, "§7Pockets:§r 0§7/§r2")
-				text.add(4, "§7Obelisks:§r 0§7/§r1")
-				text.add(5, "§7Final PCBs:§r 0§7/§r2")
+				text.add(1, "§7Leather:§r 0§7/§r4§7   (§r+1§7 Slot)")
+				text.add(2, "§7String:  §r 0§7/§r2§7   (§r+1§7 Slot)")
+				text.add(3, "§7Pockets:§r 0§7/§r2§7   (§r+6§7 Slots)")
+				text.add(4, "§7Obelisks:§r 0§7/§r1§7   (§r+1§7 Upgrade Slot)")
+				text.add(5, "§7Final PCBs:§r 0§7/§r2§7   (§r+1§7 Upgrade Slot)")
 			}
 		}
 	})

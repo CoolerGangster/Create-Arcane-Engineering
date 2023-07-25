@@ -6,9 +6,3 @@ onEvent('item.right_click', event =>{
 		}
 	}
 })
-onEvent('block.right_click', event =>{
-    if (event.block.id == 'cae:skystone_catalyst' && event.item.id == "minecraft:wooden_axe") {
-        event.block.set('air')
-        event.block.offset(0,10,0).set('cae:skystone_catalyst')
-    }  
-})
