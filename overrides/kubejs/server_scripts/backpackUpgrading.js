@@ -45,5 +45,5 @@ onEvent("recipes", event =>{
     event.shapeless("sophisticatedbackpacks:gold_backpack", ["sophisticatedbackpacks:backpack", "create:brass_sheet"])
     event.shapeless("sophisticatedbackpacks:iron_backpack", ["sophisticatedbackpacks:backpack", "kubejs:radiant_coil"])
     event.shapeless("sophisticatedbackpacks:diamond_backpack", ["sophisticatedbackpacks:backpack", "pneumaticcraft:module_expansion_card"])
-    event.shapeless("sophisticatedbackpacks:netherite_backpack", ["sophisticatedbackpacks:gold_backpack", "pneumaticcraft:printed_circuit_board"])
+    event.shapeless("sophisticatedbackpacks:netherite_backpack", ["sophisticatedbackpacks:backpack", "pneumaticcraft:printed_circuit_board"])
 })
