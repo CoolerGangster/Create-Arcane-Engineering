@@ -748,7 +748,8 @@ onEvent('recipes', event => {
         //Item.of('alloyedguns:complex_gun_kit')
     ]
     event.replaceInput({id: "create:crafting/kinetics/train_door"},"create:brass_sheet","create:sturdy_sheet")
-    event.replaceInput({id: "ars_creo:starbuncle_wheel"},"ars_nouveau:starbuncle_charm","ars_nouveau:starbuncle_shards")
+    event.remove({id: "ars_creo:starbuncle_wheel"})
+    event.shaped("ars_creo:starbuncle_wheel", ["XXX", "XWX", "XXX"], {X:"ars_creo:starbuncle_shards", W:"create:water_wheel"})
     event.replaceInput({id: "create:crafting/kinetics/train_trapdoor"},"create:brass_sheet","create:sturdy_sheet")
     //event.recipes.create.deploying('ars_nouveau:magebloom_crop',['#forge:seeds','kubejs:runic_tablet'])
     multicut(radiant_cutting,"kubejs:radiant_machine",true)
@@ -1269,6 +1270,7 @@ onEvent('recipes', event => {
     machineration('radiant','thermal:machine_frame')
     event.remove({mod:'integrateddynamics',output: "minecraft:netherrack"})
     event.remove({output: 'functionalstorage:ender_drawer'})
+    event.remove({output: /^functionalstorage\:fluid_/})
     machineration('integrational','kubejs:gold_casing')
     machineration('plastic','kubejs:zinc_casing')
     machineration('time','kubejs:enderium_casing')
