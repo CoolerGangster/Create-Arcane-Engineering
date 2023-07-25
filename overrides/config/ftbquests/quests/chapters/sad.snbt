@@ -156,7 +156,7 @@
 			x: -0.5d
 			y: 8.0d
 			subtitle: "Either make a lava farm. Or harvest it from the nether. Either way, this means get a way of infinite lava! I suggest heading to the Nether and using hose pulleys!"
-			dependencies: ["2E949A84C2E9B3C8"]
+			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "53F4A32746B719F2"
 			tasks: [
@@ -327,7 +327,7 @@
 			y: 6.0d
 			shape: "octagon"
 			subtitle: "You can Crush or Mill obsidian for Powdered Obsidian at a chance of getting 2 each time. You can reprocess 1 of the dusts using smelting back into Obsidian and use it again for crushing!"
-			dependencies: ["2E949A84C2E9B3C8"]
+			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "1377A2D928C6A05A"
 			tasks: [{
@@ -634,7 +634,10 @@
 			x: -3.5d
 			y: 6.0d
 			shape: "diamond"
-			dependencies: ["1F401CB82AEBC9FE"]
+			dependencies: [
+				"3A10D0D5E8548C54"
+				"10190AA2A7C13277"
+			]
 			hide: true
 			id: "729FE7549853385E"
 			tasks: [{

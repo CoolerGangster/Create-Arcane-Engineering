@@ -188,7 +188,7 @@
 			y: 6.5d
 			shape: "square"
 			subtitle: "Extract Resin from Trees, using Arboreal Extractors."
-			dependencies: ["3B25D99BFA2C928C"]
+			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "146F8C2D929D7A9E"
 			tasks: [{
@@ -381,7 +381,7 @@
 			title: "May I interest you in a optional route for 2x output?"
 			x: 1.0d
 			y: 7.5d
-			dependencies: ["3B25D99BFA2C928C"]
+			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "4FDF0A226DCE7DF3"
 			tasks: [{
