@@ -30,10 +30,10 @@ onEvent('item.tooltip',tooltip => {
         ["kubejs:source_bucket","Shapeless Craft it into a Ars Nouveau Source Bucket, which then can be rightclicked onto sourcejars..."],
         ["ars_nouveau:bucket_of_source","Right-Click Source Jars to insert the Source, can be made from Source Buckets from KubeJS"],
         ["cae:skystone_catalyst", "An alien Artifact found at the heart of a Meteorite. Right-Click it with redstone to make it create Skystone In a Cloud around it."],
-        ["cae:veridium_catalyst", "This Block can be found below Sea Level in a Geode. Rightclick it, and it will spew out blocks of its relatives into the surrounding, allowing them to be farmed"],
-        ["cae:ochrum_catalyst", "This Block can be found below Sea Level in a Geode. Rightclick it, and it will spew out blocks of its relatives into the surrounding, allowing them to be farmed"],
-        ["cae:asurine_catalyst", "This Block can be found below Sea Level in a Geode. Rightclick it, and it will spew out blocks of its relatives into the surrounding, allowing them to be farmed"],
-        ["cae:crimsite_catalyst", "This Block can be found below Sea Level in a Geode. Rightclick it, and it will spew out blocks of its relatives into the surrounding, allowing them to be farmed"],
+        ["cae:veridium_catalyst", "This Block can be found below Sea Level in a Geode. Rightclick it with a piece of Redstone Dust, and it will spew out blocks of its relatives into the surrounding, allowing them to be farmed"],
+        ["cae:ochrum_catalyst", "This Block can be found below Sea Level in a Geode. Rightclick it with a piece of Redstone Dust, and it will spew out blocks of its relatives into the surrounding, allowing them to be farmed"],
+        ["cae:asurine_catalyst", "This Block can be found below Sea Level in a Geode. Rightclick it with a piece of Redstone Dust, and it will spew out blocks of its relatives into the surrounding, allowing them to be farmed"],
+        ["cae:crimsite_catalyst", "This Block can be found below Sea Level in a Geode. Rightclick it with a piece of Redstone Dust, and it will spew out blocks of its relatives into the surrounding, allowing them to be farmed"],
         ["forbidden_arcanus:stellarite_piece","Throw Nether Stars above y320 to make it transform to stellarite"],
         ["kubejs:fragment_of_patience","§c *Important: The Saw processing will always set the Shard to Stage 1, so make sure the saw only gets used once!.* \n §5 7 Processing Steps are involved, with 7 machines, the order of processing steps are randomized on every world Load. The first step will always be cutting \nTheres a 1/1000 Chance for each cycle to bear success.\nThe key here is to make a factory thats super generalized."]
     ]
