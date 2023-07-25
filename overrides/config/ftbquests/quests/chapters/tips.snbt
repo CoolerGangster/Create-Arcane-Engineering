@@ -135,10 +135,7 @@
 			tasks: [{
 				id: "113D19B9D0E0D469"
 				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:backpack"
-					Count: 1b
-				}
+				item: "sophisticatedbackpacks:backpack"
 			}]
 		}
 		{
@@ -204,7 +201,7 @@
 			title: "Orestones are now Renewable!"
 			x: 13.0d
 			y: -7.0d
-			subtitle: "Molten Geodes of Orestones now spawn all around the world, find the Geode Block in those and place lava next to it, the lava will transform into a orestone. This way, orestones and their recources are fully automatable! Just make sure to set up a good supply of lava!"
+			subtitle: "Molten Geodes of Orestones now spawn all around the world, find the Geode Block in those and rightclick it with a redstone dust item. This way, orestones and their recources are fully automatable!"
 			id: "520888735E13CA2E"
 			tasks: [{
 				id: "00B80DE0D3B744F1"
