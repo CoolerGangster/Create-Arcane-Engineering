@@ -49,7 +49,7 @@ onEvent('item.tooltip',tooltip => {
 				text.add(2, "§7String:§r " + (item.nbt.string ? item.nbt.string : 0) + "§7/§r2")
 				text.add(3, "§7Pockets:§r " + (item.nbt.pocket ? item.nbt.pocket : 0) + "§7/§r2")
 				text.add(4, "§7Obelisks:§r " + (item.nbt.obelisk ? item.nbt.obelisk : 0) + "§7/§r1")
-				text.add(5, "§7Final PCBs:§r " + (item.nbt.pcb ? item.nbt.pcb : 0) + "§7/§r1")
+				text.add(5, "§7Final PCBs:§r " + (item.nbt.pcb ? item.nbt.pcb : 0) + "§7/§r2")
 			} else {
 				text.add(1, "§7Leather:§r 0§7/§r4")
 				text.add(2, "§7String:§r 0§7/§r2")
@@ -59,5 +59,10 @@ onEvent('item.tooltip',tooltip => {
 			}
 		}
 	})
+    tooltip.addAdvanced("sophisticatedbackpacks:backpack", (item, advanced, text) => {if (!tooltip.isShift()) {text.add(1,"§7Base: §r9§7 Slots, §r1§7 Upgrade Slot")}})
+    tooltip.addAdvanced("sophisticatedbackpacks:iron_backpack", (item, advanced, text) => {if (!tooltip.isShift()) {text.add(1,"§7Base: §r45§7 Slots, §r1§7 Upgrade Slot")}})
+    tooltip.addAdvanced("sophisticatedbackpacks:gold_backpack", (item, advanced, text) => {if (!tooltip.isShift()) {text.add(1,"§7Base: §r27§7 Slots, §r0§7 Upgrade Slot")}})
+    tooltip.addAdvanced("sophisticatedbackpacks:diamond_backpack", (item, advanced, text) => {if (!tooltip.isShift()) {text.add(1,"§7Base: §r36§7 Slots, §r4§7 Upgrade Slots")}})
+    tooltip.addAdvanced("sophisticatedbackpacks:netherite_backpack", (item, advanced, text) => {if (!tooltip.isShift()) {text.add(1,"§7Base: §r63§7 Slots, §r2§7 Upgrade Slots")}})
 })
  
