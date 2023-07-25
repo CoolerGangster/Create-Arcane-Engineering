@@ -559,13 +559,14 @@
 			x: 6.0d
 			y: 5.5d
 			subtitle: "Requires brass, to craft the Runic Tablet through Chapter m1!"
-			dependencies: ["6EE3AFA0160D976A"]
+			dependencies: ["74A44C35A73EB298"]
+			hide: true
 			id: "03B32FBE53374954"
 			tasks: [{
-				id: "705C99396B9CF976"
-				type: "custom"
-				title: "Deploy a Runic Tablet onto a Blaze burner."
-				icon: "kubejs:runic_tablet"
+				id: "56B26958D30E9BD3"
+				type: "item"
+				title: "Deploy a Runic Tablet onto an empty Blaze Burner"
+				item: "kubejs:runic_tablet"
 			}]
 		}
 		{
