@@ -10,7 +10,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.0128
+              "chance": 0.01
             }
           ]
         }
