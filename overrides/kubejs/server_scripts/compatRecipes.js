@@ -178,14 +178,14 @@ onEvent('block.right_click', event =>{
 onEvent('recipes', event => {
 
     let t = 'kubejs:incomplete_cogwheel'
-    /*
+    
     event.recipes.createSequencedAssembly([
       Item.of('create:cogwheel', 16),
-    ], '#minecraft:wooden_slabs', [
+    ], 'create:shaft', [
       event.recipes.createDeploying(t, [t, '#minecraft:wooden_buttons']),
       event.recipes.createCutting(t,t)
     ]).transitionalItem('kubejs:incomplete_cogwheel').loops(4)
-    */
+    
     //event.remove({id: 'create:crafting/kinetics/large_cogwheelfrom_little'})
     event.remove({id: 'create:crafting/kinetics/belt_connector'})
     //event.shapeless('create:large_cogwheel',['create:cogwheel','#minecraft:planks'])
@@ -216,7 +216,7 @@ onEvent('recipes', event => {
     corundum.forEach(Color => {
         event.recipes.createPressing(Item.of('minecraft:' + Color + '_dye').withChance(0.33),'quark:' + Color + '_corundum_cluster')
     });
-    event.shaped('8x create:cogwheel', [ //TODO: Check if ME controller is wrenchpickupable
+    /*event.shaped('8x create:cogwheel', [ //TODO: Check if ME controller is wrenchpickupable
         'GGG',
         'GAG',
         'GGG'
@@ -232,7 +232,7 @@ onEvent('recipes', event => {
         G: '#minecraft:wooden_buttons',
         A: 'create:andesite_alloy',
         P: '#minecraft:planks'
-    })
+    })*/
     event.shaped('kubejs:screwdriver', [
         '  G',
         'PAP',
