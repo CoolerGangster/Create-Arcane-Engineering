@@ -132,7 +132,7 @@
 			title: "Place a Spout Above a Corundum Block"
 			x: 18.0d
 			y: -1.0d
-			subtitle: "Fill the  Spout with Water, and youll see it actually spouting on the block below! Has to be below y20"
+			subtitle: "Fill the spout with water and you'll see it actually spouting onto the block below! Has to be below y20."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "27B730C6CD9D0B95"
