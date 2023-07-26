@@ -634,10 +634,7 @@
 			x: -3.5d
 			y: 6.0d
 			shape: "diamond"
-			dependencies: [
-				"3A10D0D5E8548C54"
-				"10190AA2A7C13277"
-			]
+			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "729FE7549853385E"
 			tasks: [{

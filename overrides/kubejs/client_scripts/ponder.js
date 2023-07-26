@@ -23,7 +23,7 @@ onEvent("ponder.tag", (event) => {
         "forbidden_arcanus:dark_matter"
     ]);
 
-      event.createTag('kubejs:arcane_obelisk', 'forbidden_arcanus:arcane_crystal_obelisk', 'The Arcane Crystal Obilisk', 'Youre gate to infinite Arcane Dust' ,[
+      event.createTag('kubejs:arcane_obelisk', 'forbidden_arcanus:arcane_crystal_obelisk', 'The Arcane Crystal Obelisk', 'Youre gate to infinite Arcane Dust' ,[
         'forbidden_arcanus:arcane_crystal_obelisk',
         'forbidden_arcanus:arcane_crystal_dust_speck'
 
