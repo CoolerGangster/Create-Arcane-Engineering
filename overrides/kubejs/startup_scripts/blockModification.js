@@ -22,4 +22,7 @@
     event.modify('cae:crimsite_catalyst', block =>{
       block.destroySpeed = -1
     })
+    event.modify('waystones:waystone', block =>{
+      block.destroySpeed = -1
+    })
   })

@@ -57,5 +57,6 @@ onEvent('recipes', event => {
     event.remove({id: "create:compacting/andesite_from_flint"})
     event.remove({id: 'ars_nouveau:imbuement_amethyst_block'})
     event.remove({output: 'compressedcreativity:compressed_iron_casing'})
+    event.remove({output:"waystones:waystone"})
     //event.remove({output: 'forbidden_arcanus:eternal_stella'})
 })   
