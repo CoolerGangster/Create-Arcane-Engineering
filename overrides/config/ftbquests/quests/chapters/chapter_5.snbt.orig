@@ -1,0 +1,863 @@
+{
+	id: "6CC9C97DA432C970"
+	group: "42A213AA17D37DAF"
+	order_index: 9
+	filename: "chapter_5"
+	title: "Chapter IX: Grand Aspirations."
+	icon: "minecraft:enchanted_golden_apple"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 13.0d
+			y: -6.5d
+			width: 90.0d
+			height: 60.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ARCANE_NEBULAE_by_betwizer.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 27.0d
+			y: -1.0d
+			width: 14.0d
+			height: 14.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			width: 18.5d
+			height: 18.5d
+			rotation: 0.0d
+			image: "kubejs:textures/wowarcane.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -3.0d
+			y: -4.0d
+			subtitle: "Maybe change recipe to create mixing etc"
+			dependencies: [
+				"1AA7289460C36614"
+				"2739555069504633"
+			]
+			id: "5EB72FD510377EC9"
+			tasks: [{
+				id: "7980CD8C04DD05F0"
+				type: "item"
+				item: "pneumaticcraft:spawner_core"
+			}]
+		}
+		{
+<<<<<<< HEAD
+			x: 1.5d
+			y: -8.0d
+=======
+			x: -5.0d
+			y: -4.5d
+>>>>>>> dev
+			subtitle: "If you fail the arcane orb progression, this will get voided. Otherwise, you only have to craft this once."
+			dependencies: [
+				"42100A7B11245314"
+				"64FB370B4142B43F"
+			]
+			id: "2739555069504633"
+			tasks: [{
+				id: "0C76629059A7B55A"
+				type: "item"
+				item: "pneumaticcraft:spawner_core_shell"
+			}]
+		}
+		{
+			title: "Memory Essence"
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["2C3209B88605792A"]
+			id: "1AA7289460C36614"
+			tasks: [{
+				id: "1D2E42C456FBE02B"
+				type: "item"
+				item: "pneumaticcraft:memory_essence_bucket"
+			}]
+		}
+		{
+<<<<<<< HEAD
+			x: 4.0d
+			y: -3.5d
+=======
+			x: -1.5d
+			y: -3.0d
+>>>>>>> dev
+			subtitle: "Will void the spawner core if you dont give it enough energy :) Make sure you give it atleast 240k FE"
+			dependencies: [
+				"5EB72FD510377EC9"
+				"01E55605761D5B94"
+			]
+			id: "71286756060D717D"
+			tasks: [{
+				id: "6C8102849483F879"
+				type: "item"
+				item: "cae:particle_accelerator"
+			}]
+		}
+		{
+			title: "The Entity"
+<<<<<<< HEAD
+			x: 5.5d
+			y: -5.0d
+=======
+			x: -1.5d
+			y: -1.0d
+>>>>>>> dev
+			subtitle: "Pure Arcane Crystalized for a moment. Quick! You have 20 Seconds to charge it with lightning before it dissapears again."
+			dependencies: [
+				"71286756060D717D"
+				"3292D55C12E810EA"
+			]
+			id: "5A2C71AE594D60B0"
+			tasks: [{
+				id: "0A31079AA92303B3"
+				type: "observation"
+				icon: "cae:orb_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "cae:essentialorb"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			dependencies: [
+				"50780D00B26B68CE"
+				"0D72CD367F34E545"
+				"7407939F245715CE"
+			]
+			dependency_requirement: "one_started"
+			id: "2C3209B88605792A"
+			tasks: [{
+				id: "61467E9020F119A5"
+				type: "item"
+				item: "cae:arcanereactor"
+			}]
+		}
+		{
+			title: "260k FE"
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["2C3209B88605792A"]
+			id: "01E55605761D5B94"
+			tasks: [{
+				id: "6556EC3669C4D4F5"
+				type: "forge_energy"
+				value: 240000L
+				max_input: 1000L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["2C3209B88605792A"]
+			id: "7589C8626DEF2BFE"
+			tasks: [{
+				id: "28BC5E1EF821C62E"
+				type: "item"
+				item: "cae:lst_bucket"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.5d
+			shape: "octagon"
+			dependencies: [
+				"099F5D860FC50376"
+				"1874AF18742915E4"
+			]
+			hide: true
+			id: "50780D00B26B68CE"
+			tasks: [{
+				id: "137D68EA564A43EA"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+<<<<<<< HEAD
+			x: 5.5d
+			y: -3.5d
+=======
+			x: -1.5d
+			y: 0.5d
+>>>>>>> dev
+			subtitle: "Runic Tablets create lightning when used on a block!"
+			dependencies: ["29D5D3CF2BB3175D"]
+			dependency_requirement: "one_completed"
+			id: "3292D55C12E810EA"
+			tasks: [{
+				id: "43A455529CF07829"
+				type: "item"
+				item: "kubejs:runic_tablet"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -8.5d
+			shape: "diamond"
+			dependencies: [
+				"099F5D860FC50376"
+				"1874AF18742915E4"
+			]
+			hide: true
+			id: "0D72CD367F34E545"
+			tasks: [{
+				id: "5EDB550E317A9479"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			dependencies: ["3EB9D9F4D986A7B1"]
+			id: "42100A7B11245314"
+			tasks: [{
+				id: "00AC6E1BF07DF9D5"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			shape: "hexagon"
+			dependencies: [
+				"099F5D860FC50376"
+				"1874AF18742915E4"
+			]
+			hide: true
+			id: "7407939F245715CE"
+			tasks: [{
+				id: "00BD011E62310E56"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			shape: "octagon"
+			subtitle: "You can either reprocess it, or rightclick for Creative Flight. Either way, youll get the spawner core back."
+			dependencies: ["5CDF579440FEA819"]
+			id: "384BA5BB43FE6F50"
+			tasks: [{
+				id: "055394EA85E36E41"
+				type: "item"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+			}]
+		}
+		{
+			title: "Arcane Destabilization"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Destabilize it by Exploding Disruptive Explosive Nearby."
+			dependencies: [
+				"5A2AF6C817F20F21"
+				"5A2C71AE594D60B0"
+			]
+			id: "13F4DF742237B0E5"
+			tasks: [{
+				id: "3141F124DE6B0677"
+				type: "item"
+				item: "cae:orb_spawn_egg"
+			}]
+		}
+		{
+<<<<<<< HEAD
+			x: 6.5d
+			y: -4.5d
+=======
+			x: 0.0d
+			y: 0.0d
+>>>>>>> dev
+			subtitle: "Explode TNT or a Disrputive explosive nearby.)"
+			dependencies: [
+				"099F5D860FC50376"
+				"1874AF18742915E4"
+			]
+			hide: true
+			id: "5A2AF6C817F20F21"
+			tasks: [{
+				id: "44BC069440F81BB6"
+				type: "item"
+				item: "thermal:ender_tnt"
+			}]
+		}
+		{
+			title: "Arcane Washing"
+<<<<<<< HEAD
+			x: 7.5d
+			y: -7.0d
+=======
+			x: 2.0d
+			y: -1.5d
+>>>>>>> dev
+			subtitle: "Have the Entity pass through Liquid Space Time while on top of a black hole. Will Absorb both."
+			dependencies: [
+				"13F4DF742237B0E5"
+				"1D18DDCCE55114C2"
+				"7589C8626DEF2BFE"
+			]
+			id: "4BCEB0647E3CD6D6"
+			tasks: [{
+				id: "6731D79342E22B38"
+				type: "item"
+				item: "cae:orb_spawn_egg"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["1BAF7E4BEB5CA5A1"]
+			id: "3E2188D1E67F2E30"
+			tasks: [{
+				id: "22C35BAE11B6C141"
+				type: "item"
+				item: "forbidden_arcanus:dark_matter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			subtitle: "Blow up a Dark Rune to get Corrupti Dust"
+			dependencies: ["7CEECE13AD34B374"]
+			id: "0162D63ABBC042E4"
+			tasks: [{
+				id: "42EE4C310EE2B2C1"
+				type: "item"
+				item: "forbidden_arcanus:corrupti_dust"
+			}]
+		}
+		{
+			title: "Singularity"
+<<<<<<< HEAD
+			x: 7.5d
+			y: -5.5d
+=======
+			x: 2.0d
+			y: 1.5d
+>>>>>>> dev
+			subtitle: "Throwing together Corrupti Dust and Dark Matter will create a black hole."
+			dependencies: [
+				"0162D63ABBC042E4"
+				"3E2188D1E67F2E30"
+			]
+			id: "1D18DDCCE55114C2"
+			tasks: [{
+				id: "352B5C6D4E616BB5"
+				type: "observation"
+				title: "Look at a Black Hole"
+				icon: "dustrial_decor:black_light"
+				timer: 0L
+				observe_type: 0
+				to_observe: "forbidden_arcanus:black_hole"
+			}]
+		}
+		{
+			title: "Cashout!"
+			icon: "cae:orb_spawn_egg"
+<<<<<<< HEAD
+			x: 8.5d
+			y: -9.0d
+=======
+			x: 3.5d
+			y: -2.5d
+>>>>>>> dev
+			subtitle: "Its cashout time, the entity is severly destabilized and will need to be fueled with 7 Singularities in the span of 5 seconds to convert to a Orb of Flight, which will be important later."
+			dependencies: [
+				"4BCEB0647E3CD6D6"
+				"02063472CAF17409"
+			]
+			id: "5CDF579440FEA819"
+			tasks: [{
+				id: "4B5DA9C26475A8A9"
+				type: "checkmark"
+				title: "Drop 8 singularities ontop of the Orb to convert it!"
+			}]
+		}
+		{
+			title: "Any Explosive"
+<<<<<<< HEAD
+			x: 8.5d
+			y: -1.5d
+=======
+			x: 3.5d
+			y: 3.5d
+>>>>>>> dev
+			subtitle: "Spoiler: Every type of explosion counts"
+			dependencies: [
+				"1874AF18742915E4"
+				"099F5D860FC50376"
+			]
+			hide: true
+			id: "3299C0A48AC083BB"
+			tasks: [
+				{
+					id: "1698BBF9814C68AA"
+					type: "item"
+					title: "Any #lychee:item_exploding_catalysts"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "lychee:item_exploding_catalysts"
+						}
+					}
+				}
+				{
+					id: "5DCCDB0AB491AE87"
+					type: "item"
+					item: "thermal:explosive_grenade"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: [
+				"3299C0A48AC083BB"
+				"1F84ACBD9490D33C"
+			]
+			id: "1BAF7E4BEB5CA5A1"
+			tasks: [{
+				id: "392F11942D168ECD"
+				type: "item"
+				item: "ae2:matter_ball"
+			}]
+		}
+		{
+			title: "The Rune Cycle MK2"
+			x: -0.5d
+			y: 3.5d
+			subtitle: "The Rune Cycle v2: Combining 2 Runes with Corrupti Dust will result in 2 Dark Runes... You can then explode these Runes to get Corrupti dust back, and so the cycle continues."
+			dependencies: [
+				"3299C0A48AC083BB"
+				"1536E95B08CC17C8"
+			]
+			id: "7CEECE13AD34B374"
+			tasks: [{
+				id: "14A9C941DFA34F9A"
+				type: "item"
+				item: "forbidden_arcanus:dark_rune"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			subtitle: "Crush Crushing Wheels for Singularities."
+			dependencies: ["3205AD8EE41A4142"]
+			id: "02063472CAF17409"
+			tasks: [{
+				id: "6995BD69DE0A64D9"
+				type: "item"
+				item: "ae2:singularity"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["384BA5BB43FE6F50"]
+			id: "366D7A329E87A0EB"
+			tasks: [{
+				id: "336C8317B35F2A07"
+				type: "item"
+				item: "kubejs:portal_actuation_fluid_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			dependencies: [
+				"1874AF18742915E4"
+				"099F5D860FC50376"
+			]
+			hide: true
+			id: "3205AD8EE41A4142"
+			tasks: [{
+				id: "4E3EAB379AB8D809"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["28E83A5E49526D17"]
+			id: "64FB370B4142B43F"
+			tasks: [{
+				id: "336059BEDEBD2A86"
+				type: "item"
+				item: "forbidden_arcanus:dark_nether_star"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: [
+				"1874AF18742915E4"
+				"099F5D860FC50376"
+			]
+			hide: true
+			id: "28E83A5E49526D17"
+			tasks: [{
+				id: "3F18412F3E47CF61"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			dependencies: [
+				"1874AF18742915E4"
+				"099F5D860FC50376"
+			]
+			hide: true
+			id: "3EB9D9F4D986A7B1"
+			tasks: [{
+				id: "073D522983CBB6D8"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: [
+				"1874AF18742915E4"
+				"099F5D860FC50376"
+			]
+			hide: true
+			id: "1F84ACBD9490D33C"
+			tasks: [{
+				id: "0BCC3CCA77EBA3D8"
+				type: "item"
+				item: "ae2:condenser"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			shape: "gear"
+			dependencies: [
+				"099F5D860FC50376"
+				"1874AF18742915E4"
+			]
+			hide: true
+			id: "1536E95B08CC17C8"
+			tasks: [{
+				id: "757E93EF27C8FD68"
+				type: "item"
+				item: "forbidden_arcanus:rune"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["0162D63ABBC042E4"]
+			id: "29D5D3CF2BB3175D"
+			tasks: [{
+				id: "40D4AA4D185D283D"
+				type: "item"
+				item: "forbidden_arcanus:rune"
+			}]
+		}
+		{
+<<<<<<< HEAD
+			x: 10.0d
+			y: -8.0d
+=======
+			x: 6.5d
+			y: -4.5d
+>>>>>>> dev
+			subtitle: "And so the cycle continues..."
+			dependencies: ["384BA5BB43FE6F50"]
+			id: "0D00E6C71CA81848"
+			tasks: [{
+				id: "2CFFAD6881D7D303"
+				type: "item"
+				item: "pneumaticcraft:spawner_core_shell"
+			}]
+		}
+		{
+			title: "The end?"
+			x: 6.5d
+			y: 2.0d
+			shape: "heart"
+			subtitle: "We went Above and Beyond, but what matters is the memories we made along the way."
+			dependencies: ["366D7A329E87A0EB"]
+			size: 2.0d
+			id: "7AB381389276D63C"
+			tasks: [{
+				id: "25F2350198CFF283"
+				type: "structure"
+				structure: "cae:arcane_temple"
+			}]
+		}
+		{
+			title: "PCB Reassembly"
+			x: 27.0d
+			y: -5.0d
+			shape: "hexagon"
+			dependencies: [
+				"1874AF18742915E4"
+				"099F5D860FC50376"
+			]
+			hide: true
+			size: 1.4d
+			id: "6AB111D1EC62FA83"
+			tasks: [{
+				id: "6BD7FE85360804A4"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+		}
+		{
+			x: 22.5d
+			y: -2.5d
+			dependencies: ["6AB111D1EC62FA83"]
+			id: "744EB0B5DFFCF914"
+			tasks: [{
+				id: "72E5C6B72E2B79C4"
+				type: "item"
+				item: "kubejs:damaged_a"
+			}]
+		}
+		{
+			x: 24.0d
+			y: -2.5d
+			dependencies: ["6AB111D1EC62FA83"]
+			id: "39DF8D826FDC397B"
+			tasks: [{
+				id: "083C0B2FB17D6295"
+				type: "item"
+				item: "kubejs:damaged_b"
+			}]
+		}
+		{
+			x: 25.5d
+			y: -2.5d
+			dependencies: ["6AB111D1EC62FA83"]
+			id: "09BF33BB51AF0892"
+			tasks: [{
+				id: "7102D6D3E23DD803"
+				type: "item"
+				item: "kubejs:damaged_c"
+			}]
+		}
+		{
+			x: 27.0d
+			y: -2.5d
+			dependencies: ["6AB111D1EC62FA83"]
+			id: "6E75EC12EA508152"
+			tasks: [{
+				id: "1F1D41C92DDC4BBF"
+				type: "item"
+				item: "kubejs:damaged_d"
+			}]
+		}
+		{
+			x: 28.5d
+			y: -2.5d
+			dependencies: ["6AB111D1EC62FA83"]
+			id: "761D88A254FB9083"
+			tasks: [{
+				id: "147BB95058AC8976"
+				type: "item"
+				item: "kubejs:damaged_e"
+			}]
+		}
+		{
+			x: 30.0d
+			y: -2.5d
+			dependencies: ["6AB111D1EC62FA83"]
+			id: "4E7F1A477EC845F2"
+			tasks: [{
+				id: "7D9F254D698E1DDF"
+				type: "item"
+				item: "kubejs:damaged_f"
+			}]
+		}
+		{
+			x: 31.5d
+			y: -2.5d
+			dependencies: ["6AB111D1EC62FA83"]
+			id: "720E10C0A006F499"
+			tasks: [{
+				id: "1852C27E83035B8A"
+				type: "item"
+				item: "kubejs:damaged_g"
+			}]
+		}
+		{
+			x: 27.0d
+			y: -1.0d
+			dependencies: [
+				"744EB0B5DFFCF914"
+				"39DF8D826FDC397B"
+				"09BF33BB51AF0892"
+				"6E75EC12EA508152"
+				"761D88A254FB9083"
+				"4E7F1A477EC845F2"
+				"720E10C0A006F499"
+			]
+			id: "02EB5D30B6AFC1FE"
+			tasks: [{
+				id: "43AC5825AF5CE26F"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 0.5d
+			dependencies: ["02EB5D30B6AFC1FE"]
+			id: "5B23DD78E5A8613D"
+			tasks: [{
+				id: "387BDE92C8E2E40A"
+				type: "item"
+				item: "kubejs:a"
+			}]
+		}
+		{
+			x: 24.0d
+			y: 0.5d
+			dependencies: ["02EB5D30B6AFC1FE"]
+			id: "62E876E846672D6B"
+			tasks: [{
+				id: "5562B134A54746E1"
+				type: "item"
+				item: "kubejs:b"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 0.5d
+			dependencies: ["02EB5D30B6AFC1FE"]
+			id: "1BD2C373757F0C8B"
+			tasks: [{
+				id: "4FC535759D158F2D"
+				type: "item"
+				item: "kubejs:c"
+			}]
+		}
+		{
+			x: 27.0d
+			y: 0.5d
+			dependencies: ["02EB5D30B6AFC1FE"]
+			id: "107824EA68F107AC"
+			tasks: [{
+				id: "06E29B62029DCF21"
+				type: "item"
+				item: "kubejs:d"
+			}]
+		}
+		{
+			x: 28.5d
+			y: 0.5d
+			dependencies: ["02EB5D30B6AFC1FE"]
+			id: "29FE42125038D1BD"
+			tasks: [{
+				id: "16547DB4958661C8"
+				type: "item"
+				item: "kubejs:e"
+			}]
+		}
+		{
+			x: 30.0d
+			y: 0.5d
+			dependencies: ["02EB5D30B6AFC1FE"]
+			id: "446035A77D2150F6"
+			tasks: [{
+				id: "3D726823C3FC3EB0"
+				type: "item"
+				item: "kubejs:f"
+			}]
+		}
+		{
+			x: 31.5d
+			y: 0.5d
+			dependencies: ["02EB5D30B6AFC1FE"]
+			id: "6D31F23A6AD290BD"
+			tasks: [{
+				id: "4152799E02189718"
+				type: "item"
+				item: "kubejs:g"
+			}]
+		}
+		{
+			x: 27.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "Time to craft final tier items!"
+			dependencies: [
+				"5B23DD78E5A8613D"
+				"62E876E846672D6B"
+				"1BD2C373757F0C8B"
+				"107824EA68F107AC"
+				"29FE42125038D1BD"
+				"446035A77D2150F6"
+				"6D31F23A6AD290BD"
+			]
+			size: 1.6d
+			id: "0C8DFF850ECA18E1"
+			tasks: [{
+				id: "3857838A3E7AB985"
+				type: "item"
+				item: "kubejs:finalpcb"
+			}]
+		}
+		{
+			title: "Artwork by @betwizer on discord"
+			icon: "ars_nouveau:glyph_redstone_signal"
+			x: 49.0d
+			y: -29.5d
+			description: [
+				"{image:kubejs:textures/ARCANE_NEBULAE_by_betwizer.png width:150 height:100 align:1}"
+				"This amazing piece of Art was provided by @betwizer"
+			]
+			dependencies: [
+				"1874AF18742915E4"
+				"099F5D860FC50376"
+			]
+			hide: true
+			id: "0713AD45FB3D37D4"
+			tasks: [{
+				id: "46EFFE6AC9DB4996"
+				type: "checkmark"
+				title: "Credits"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

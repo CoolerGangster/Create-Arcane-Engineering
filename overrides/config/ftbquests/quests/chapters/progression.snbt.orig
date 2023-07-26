@@ -1,0 +1,396 @@
+{
+	id: "38790066AE0C96F0"
+	group: ""
+	order_index: 0
+	filename: "progression"
+	title: "Progression"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.5d
+			y: 1.5d
+			width: 40.0d
+			height: 40.0d
+			rotation: 0.0d
+			image: "kubejs:textures/progression.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			width: 14.0d
+			height: 14.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Good Luck!"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "When things seem overwhelming, know that you are capable of overcoming these obstacles. In this pack its not your resources that limit you, but your will to think outside the box. While the first chapters may feel tough resource wise, we can guarantee that after the initial start you won't find yourself in the need of many recources anymore. Good Luck Traveller!"
+			id: "3BAD2CEF1245F202"
+			tasks: [{
+				id: "3C638DEE93C407D4"
+				type: "checkmark"
+				title: "Let the journey begin!"
+			}]
+			rewards: [
+				{
+					id: "1DB0D5BA24F93B0F"
+					type: "item"
+					item: "antiqueatlas:empty_antique_atlas"
+				}
+				{
+					id: "419427A795E296D0"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "veinmining:vein_mining"
+							}]
+						}
+					}
+				}
+				{
+					id: "0B776ED21D0AED56"
+					type: "item"
+					item: "kubejs:sushi"
+					count: 16
+				}
+				{
+					id: "567EAF9973FFE65F"
+					type: "item"
+					item: "ftbquests:book"
+				}
+				{
+					id: "26611519226B9A9C"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+			]
+		}
+		{
+			title: "First Tech Chapter: Alluring Allusions"
+			icon: "kubejs:andesite_machine"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "These are Tech Chapters! Here you will be expanding your technological capabilities through innovation!"
+<<<<<<< HEAD
+			dependencies: ["3BAD2CEF1245F202"]
+=======
+			dependencies: [
+				"3BAD2CEF1245F202"
+				"4F91815A21A69A27"
+			]
+>>>>>>> dev
+			id: "6EFF8BCEBC2E2AF2"
+			tasks: [
+				{
+					id: "075CF9BE7A363B2D"
+					type: "item"
+					item: "kubejs:andesite_machine"
+				}
+				{
+					id: "69A69B5061736432"
+					type: "checkmark"
+					title: "Yis I wanna do the next chapter."
+				}
+			]
+		}
+		{
+			title: "The first Magic chapter: Crystalline Captivation"
+			icon: "quark:violet_corundum"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "These are the Magic Chapters. Here you are tasked to find solutions to the extreme weirdness of Arcane Recipes, if however you fight past the struggle and conquer these challenges, tools unimaginably powerful will be yours."
+<<<<<<< HEAD
+			dependencies: ["3BAD2CEF1245F202"]
+=======
+			dependencies: [
+				"3BAD2CEF1245F202"
+				"191F931436C093A8"
+			]
+>>>>>>> dev
+			id: "07D1ED74C8A30306"
+			tasks: [
+				{
+					id: "49D09317C4599073"
+					type: "item"
+					item: "kubejs:runic_tablet"
+				}
+				{
+					id: "7F9798CE766D6BB8"
+					type: "checkmark"
+					title: "Yes, Lets do the next chapter"
+				}
+			]
+		}
+		{
+			title: "Extra Chapter: The Copper Age"
+			icon: "kubejs:sealed_machine"
+			x: 1.5d
+			y: -2.0d
+			dependencies: [
+				"6EFF8BCEBC2E2AF2"
+				"427375BD57CDAD8A"
+			]
+			id: "3B25D99BFA2C928C"
+			tasks: [{
+				id: "69C2E51A9F5E986B"
+				type: "checkmark"
+				title: "Unlock the Chapter!"
+			}]
+		}
+		{
+			title: "Extraterrestrial Expeditions"
+			icon: "kubejs:brass_machine"
+			x: 2.5d
+			y: -1.0d
+			subtitle: "Before going into the Brass age, one should not rush things and slowly advance their infrastructure, so they can handle the new demands of the Brass Age!"
+			dependencies: [
+				"6EFF8BCEBC2E2AF2"
+				"4F91815A21A69A27"
+				"1CF1A735F77415F2"
+			]
+			id: "3A10D0D5E8548C54"
+			tasks: [
+				{
+					id: "3B65AFBFCCD2CF77"
+					type: "item"
+					item: "kubejs:brass_machine"
+				}
+				{
+					id: "73BB42050BFC9FA6"
+					type: "checkmark"
+					title: "Gimme more chapters!"
+				}
+			]
+		}
+		{
+			title: "Chapter 2 Extra: Sturdy Machinery"
+			icon: "kubejs:sturdy_machine"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "Trains!"
+			dependencies: [
+				"3A10D0D5E8548C54"
+				"730102EB2E56C6A1"
+			]
+			dependency_requirement: "one_started"
+			id: "2E949A84C2E9B3C8"
+			tasks: [{
+				id: "73E5284067DB7466"
+				type: "checkmark"
+				title: "Yes Unlock Pls!"
+			}]
+		}
+		{
+			title: "Processing Pandemonium"
+			x: 5.5d
+			y: -1.0d
+			dependencies: [
+				"19232B8B77F86AF8"
+				"5226F9B2150E20FF"
+			]
+			id: "099F5D860FC50376"
+			tasks: [{
+				id: "06B2E74E9A4D86D9"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+		}
+		{
+			title: "Herbalists Heritage"
+			icon: "ars_nouveau:as_gold_stone"
+			x: 2.5d
+			y: 1.0d
+			dependencies: [
+				"07D1ED74C8A30306"
+				"191F931436C093A8"
+				"13DB66C24AD6C498"
+			]
+			id: "10190AA2A7C13277"
+			tasks: [
+				{
+					id: "2F22340B7C506B32"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+				}
+				{
+					id: "2CEA253303F6DB06"
+					type: "checkmark"
+					title: "We can continue!"
+				}
+			]
+		}
+		{
+			title: "Chromatic Creation"
+			icon: "kubejs:radiant_machine"
+			x: 4.0d
+			y: -1.0d
+			subtitle: "I can't wait to finish the pack! Give me more chapters!"
+			dependencies: [
+				"3A10D0D5E8548C54"
+				"1CF1A735F77415F2"
+				"76BADBF7F2B5B09B"
+			]
+			id: "19232B8B77F86AF8"
+			tasks: [
+				{
+					id: "551C5F3F6005F6FE"
+					type: "item"
+					item: "kubejs:radiant_machine"
+				}
+				{
+					id: "7148E1E85BDF49D9"
+					type: "checkmark"
+					title: "Give me harder demons"
+				}
+			]
+		}
+		{
+			title: "The Pneumatic Age"
+			icon: "kubejs:plastic_machine"
+			x: 4.5d
+			y: -2.0d
+			dependencies: [
+				"19232B8B77F86AF8"
+				"0B18125292828D4D"
+			]
+			id: "5A8CA8146004CDE2"
+			tasks: [{
+				id: "5076BF5FA05B47C6"
+				type: "checkmark"
+				title: "Unlock the Pneumatic Age!"
+			}]
+		}
+		{
+			title: "Chronical Chaos"
+			icon: "forbidden_arcanus:arcane_gilded_darkstone"
+			x: 4.0d
+			y: 1.0d
+			dependencies: [
+				"10190AA2A7C13277"
+				"1E251A0792D8CC62"
+			]
+			id: "10F884D73B9DB540"
+			tasks: [
+				{
+					id: "40072B1C1C293840"
+					type: "checkmark"
+					title: "Unlock the final Magic Chapter"
+				}
+				{
+					id: "06790D855864E027"
+					type: "item"
+					item: {
+						id: "tiab:time_in_a_bottle"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Enigmatic Enlightenment"
+			icon: {
+				id: "forbidden_arcanus:eternal_stella"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.5d
+			y: 1.0d
+			dependencies: [
+				"10F884D73B9DB540"
+				"43B996DFEAF1948A"
+			]
+			id: "1874AF18742915E4"
+			tasks: [{
+				id: "34CC89E7B5DB7605"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Arcane Alchemistry"
+			x: 6.5d
+			y: 0.0d
+			dependencies: [
+				"7AB381389276D63C"
+				"099F5D860FC50376"
+				"1874AF18742915E4"
+				"0C8DFF850ECA18E1"
+			]
+			hide: false
+			id: "33B884E7D9E5A820"
+			tasks: [{
+				id: "591F00D721AAA163"
+				type: "dimension"
+				dimension: "cae:arcane"
+			}]
+		}
+		{
+			icon: "kubejs:time_machine"
+			x: 4.5d
+			y: 0.0d
+			dependencies: [
+				"10F884D73B9DB540"
+				"19232B8B77F86AF8"
+				"3070EC94FB14615C"
+			]
+			id: "321593B0981F168B"
+			tasks: [{
+				id: "77DF7F1EC935C976"
+				type: "checkmark"
+				title: "Unlock the road to AE2"
+			}]
+		}
+		{
+			title: "Integrational Chapter"
+			icon: "kubejs:integrational_machine"
+			x: 3.0d
+			y: 0.0d
+			dependencies: [
+				"3A10D0D5E8548C54"
+				"10190AA2A7C13277"
+				"0CE0A2710D578A1A"
+			]
+			id: "1F401CB82AEBC9FE"
+			tasks: [{
+				id: "469E7DA40F9E39C3"
+				type: "checkmark"
+				title: "Unlock the Integrational Chapter"
+			}]
+		}
+		{
+			title: "The Destination."
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["33B884E7D9E5A820"]
+			hide: true
+			id: "1C392A3E7ADA7109"
+			tasks: [{
+				id: "0729F370FA81512E"
+				type: "custom"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
