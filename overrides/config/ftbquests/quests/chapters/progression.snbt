@@ -88,7 +88,14 @@
 			x: 1.0d
 			y: -1.0d
 			subtitle: "These are Tech Chapters! Here you will be expanding your technological capabilities through innovation!"
+<<<<<<< HEAD
 			dependencies: ["3BAD2CEF1245F202"]
+=======
+			dependencies: [
+				"3BAD2CEF1245F202"
+				"4F91815A21A69A27"
+			]
+>>>>>>> dev
 			id: "6EFF8BCEBC2E2AF2"
 			tasks: [
 				{
@@ -109,7 +116,14 @@
 			x: 1.0d
 			y: 1.0d
 			subtitle: "These are the Magic Chapters. Here you are tasked to find solutions to the extreme weirdness of Arcane Recipes, if however you fight past the struggle and conquer these challenges, tools unimaginably powerful will be yours."
+<<<<<<< HEAD
 			dependencies: ["3BAD2CEF1245F202"]
+=======
+			dependencies: [
+				"3BAD2CEF1245F202"
+				"191F931436C093A8"
+			]
+>>>>>>> dev
 			id: "07D1ED74C8A30306"
 			tasks: [
 				{
@@ -129,7 +143,10 @@
 			icon: "kubejs:sealed_machine"
 			x: 1.5d
 			y: -2.0d
-			dependencies: ["6EFF8BCEBC2E2AF2"]
+			dependencies: [
+				"6EFF8BCEBC2E2AF2"
+				"427375BD57CDAD8A"
+			]
 			id: "3B25D99BFA2C928C"
 			tasks: [{
 				id: "69C2E51A9F5E986B"
@@ -146,6 +163,7 @@
 			dependencies: [
 				"6EFF8BCEBC2E2AF2"
 				"4F91815A21A69A27"
+				"1CF1A735F77415F2"
 			]
 			id: "3A10D0D5E8548C54"
 			tasks: [
@@ -167,7 +185,10 @@
 			x: 3.0d
 			y: -2.0d
 			subtitle: "Trains!"
-			dependencies: ["3A10D0D5E8548C54"]
+			dependencies: [
+				"3A10D0D5E8548C54"
+				"730102EB2E56C6A1"
+			]
 			dependency_requirement: "one_started"
 			id: "2E949A84C2E9B3C8"
 			tasks: [{
@@ -199,6 +220,7 @@
 			dependencies: [
 				"07D1ED74C8A30306"
 				"191F931436C093A8"
+				"13DB66C24AD6C498"
 			]
 			id: "10190AA2A7C13277"
 			tasks: [
@@ -223,6 +245,7 @@
 			dependencies: [
 				"3A10D0D5E8548C54"
 				"1CF1A735F77415F2"
+				"76BADBF7F2B5B09B"
 			]
 			id: "19232B8B77F86AF8"
 			tasks: [
@@ -243,7 +266,10 @@
 			icon: "kubejs:plastic_machine"
 			x: 4.5d
 			y: -2.0d
-			dependencies: ["19232B8B77F86AF8"]
+			dependencies: [
+				"19232B8B77F86AF8"
+				"0B18125292828D4D"
+			]
 			id: "5A8CA8146004CDE2"
 			tasks: [{
 				id: "5076BF5FA05B47C6"
@@ -310,6 +336,7 @@
 				"7AB381389276D63C"
 				"099F5D860FC50376"
 				"1874AF18742915E4"
+				"0C8DFF850ECA18E1"
 			]
 			hide: false
 			id: "33B884E7D9E5A820"
@@ -326,6 +353,7 @@
 			dependencies: [
 				"10F884D73B9DB540"
 				"19232B8B77F86AF8"
+				"3070EC94FB14615C"
 			]
 			id: "321593B0981F168B"
 			tasks: [{
@@ -342,6 +370,7 @@
 			dependencies: [
 				"3A10D0D5E8548C54"
 				"10190AA2A7C13277"
+				"0CE0A2710D578A1A"
 			]
 			id: "1F401CB82AEBC9FE"
 			tasks: [{

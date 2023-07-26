@@ -2,7 +2,11 @@
 [enchantment]
 	#The rarity of the enchantment
 	#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+<<<<<<< HEAD
 	rarity = "RARE"
+=======
+	rarity = "VERY_RARE"
+>>>>>>> dev
 	#The number of levels of the enchantment
 	#Range: 1 ~ 5
 	levels = 3
@@ -18,10 +22,17 @@
 	canApplyOnBooks = true
 	#The minimum enchantability requirement for the first enchantment level
 	#Range: 1 ~ 100
+<<<<<<< HEAD
 	minEnchantabilityBase = 9
 	#The additional enchantability requirement for each enchantment level after the first
 	#Range: 1 ~ 100
 	minEnchantabilityPerLevel = 5
+=======
+	minEnchantabilityBase = 10
+	#The additional enchantability requirement for each enchantment level after the first
+	#Range: 1 ~ 100
+	minEnchantabilityPerLevel = 10
+>>>>>>> dev
 	#List of enchantments that cannot be applied together with this enchantment
 	incompatibleEnchantments = []
 	#List of items that the enchantment can be applied on

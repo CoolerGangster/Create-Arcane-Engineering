@@ -188,7 +188,11 @@
 			y: 6.5d
 			shape: "square"
 			subtitle: "Extract resin from Trees using Arboreal Extractors."
+<<<<<<< HEAD
 			dependencies: ["3B25D99BFA2C928C"]
+=======
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+>>>>>>> dev
 			hide: true
 			id: "146F8C2D929D7A9E"
 			tasks: [{
@@ -381,7 +385,7 @@
 			title: "May I interest you in a optional route for 2x output?"
 			x: 1.0d
 			y: 7.5d
-			dependencies: ["3B25D99BFA2C928C"]
+			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "4FDF0A226DCE7DF3"
 			tasks: [{
@@ -486,7 +490,7 @@
 			x: -4.5d
 			y: 8.0d
 			shape: "diamond"
-			dependencies: ["3B25D99BFA2C928C"]
+			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "5561DB673DBC0A77"
 			tasks: [{
@@ -546,7 +550,7 @@
 			title: "Alloying through Tinkers, no blazes required!"
 			x: 5.0d
 			y: 5.5d
-			dependencies: ["74A44C35A73EB298"]
+			dependencies: ["3BAD2CEF1245F202"]
 			id: "6EE3AFA0160D976A"
 			tasks: [{
 				id: "746941FD390384A0"
@@ -559,7 +563,11 @@
 			x: 6.0d
 			y: 5.5d
 			subtitle: "Requires brass to craft the Runic Tablet through Chapter m1!"
+<<<<<<< HEAD
 			dependencies: ["74A44C35A73EB298"]
+=======
+			dependencies: ["3BAD2CEF1245F202"]
+>>>>>>> dev
 			hide: true
 			id: "03B32FBE53374954"
 			tasks: [{

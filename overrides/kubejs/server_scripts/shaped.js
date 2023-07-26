@@ -36,4 +36,5 @@ onEvent('recipes', event => {
     G: 'minecraft:iron_ingot',
     W: '#minecraft:planks'
   })
+  event.shaped('kubejs:resonator', ["R B", "I I", "III"], {R: "minecraft:red_dye", B: "minecraft:blue_dye", I: "minecraft:iron_ingot"})
 })

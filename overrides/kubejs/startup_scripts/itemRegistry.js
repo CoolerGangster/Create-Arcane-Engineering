@@ -36,7 +36,11 @@ onEvent('item.registry', (event) => {
         let id = name.toLowerCase()
         event.create(id + '_seed').texture("kubejs:item/" + id + "_seed").displayName(name + ' Seed')
         event.create(id + '_cluster').texture("kubejs:item/" + id + "_cluster").displayName(name + ' Seed Cluster')
+<<<<<<< HEAD
         event.create('incomplete_' + id, 'create:sequenced_assembly').texture("kubejs:item/incomplete_" + id).displayName('Incomplete ' + name)
+=======
+        event.create('incomplete_' + id, 'create:sequenced_assembly').texture("kubejs:item/" + id + "_seed").displayName('Incomplete ' + name)
+>>>>>>> dev
     }
     event.create('leather_pocket')
     event.create('radiant_coil').glow(true).texture("kubejs:item/radiant_coil").displayName('Radiant Induction Coil')
@@ -44,7 +48,11 @@ onEvent('item.registry', (event) => {
     event.create('petrified_sheet').texture("kubejs:item/petrified_sheet").displayName('Petrified Sheet')
     event.create('enriched_rubber').texture("kubejs:item/enriched_rubber").displayName('Menril Enriched Rubber')
     event.create('certus_quartz_seed_cluster').texture("kubejs:item/certus_quartz_cluster").displayName('Certus Quartz Cluster')
+<<<<<<< HEAD
     event.create('incomplete_certus_quartz_cluster', 'create:sequenced_assembly').texture("kubejs:item/incomplete_certus_quartz_cluster").displayName('Incomplete Certus Quartz Cluster')
+=======
+    event.create('incomplete_certus_quartz_cluster', 'create:sequenced_assembly').texture("kubejs:item/certus_quartz_seed").displayName('Incomplete Certus Quartz Cluster')
+>>>>>>> dev
     mechanism('Kinetic')
     event.create('makeshift_kinetic_mechanism').tooltip("Without menril wood, the Mechanism isnt sturdy enough to support further tiers of mechanisms.")
     mechanism('Sealed') 
@@ -84,9 +92,15 @@ onEvent('item.registry', (event) => {
     event.create('untested_pcb').displayName(k).tooltip("Next: Electrical testing with Drill processing.")
     event.create('tested_pcb').displayName(k).tooltip("Next: Clean for finish.")  
     event.create('cleaned_pcb').displayName(k).tooltip("Next: Finally, let dry.")
+<<<<<<< HEAD
     event.create('incomplete_calculation_circuit', 'create:sequenced_assembly').displayName('Incomplete Calculation Circuit')
     event.create('incomplete_logic_circuit', 'create:sequenced_assembly').displayName('Incomplete Logic Circuit')
     event.create('incomplete_engineering_circuit', 'create:sequenced_assembly').displayName('Incomplete Engineering Circuit')
+=======
+    event.create('incomplete_calculation_circuit', 'create:sequenced_assembly').displayName('Incomplete Calculation Circuit').texture("kubejs:item/kinetic_mechanism")
+    event.create('incomplete_logic_circuit', 'create:sequenced_assembly').displayName('Incomplete Logic Circuit').texture("create:item/precision_mechanism")
+    event.create('incomplete_engineering_circuit', 'create:sequenced_assembly').displayName('Incomplete Engineering Circuit').texture("kubejs:item/radiant_mechanism")
+>>>>>>> dev
     event.create('electricaly_tested').displayName(k).tooltip("Next: Electrical testing with Drill processing.")
     event.create('mystery_pcb').displayName(k).tooltip("Next: Use Sandpaper to Reveal the Inside.")
     event.create("separated_board_stack").displayName(k)
@@ -187,6 +201,7 @@ onEvent('item.registry', (event) => {
 
     //sum chapter 2 stuff
     event.create("redstone_cluster")
+<<<<<<< HEAD
     event.create("redstone_seed")
     event.create("lootbag_create_andesite", "hoe").displayName("Engineers Toolkit").rarity(RARITY_RARE).unstackable().tier("lootbag")
     event.create("lootbag_arcane_1", "hoe").displayName("Artificers Bag").rarity(RARITY_UNCOMMON).unstackable().tier("lootbag")
@@ -194,4 +209,14 @@ onEvent('item.registry', (event) => {
     event.create("lootbag_arcane_3", "hoe").displayName("Artificers Legendary Bag").rarity(RARITY_EPIC).unstackable().tier("lootbag")
     event.create("lootbag_poggers", "hoe").displayName("Reward of Patience").rarity(RARITY_EPIC).unstackable().tier("lootbag")
     event.create("lootbag_create_brass", "hoe").displayName("Engineers Epic Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag")
+=======
+    event.create("incomplete_redstone_seed").texture("kubejs:item/redstone_seed")
+    event.create("redstone_seed")
+    event.create("lootbag_create_andesite", "pickaxe").displayName("Engineers Toolkit").rarity(RARITY_RARE).unstackable().tier("lootbag")
+    event.create("lootbag_arcane_1", "pickaxe").displayName("Artificers Bag").rarity(RARITY_UNCOMMON).unstackable().tier("lootbag")
+    event.create("lootbag_arcane_2", "pickaxe").displayName("Artificers Epic Bag").rarity(RARITY_RARE).unstackable().tier("lootbag")
+    event.create("lootbag_arcane_3", "pickaxe").displayName("Artificers Legendary Bag").rarity(RARITY_EPIC).unstackable().tier("lootbag")
+    event.create("lootbag_poggers", "pickaxe").displayName("Reward of Patience").rarity(RARITY_EPIC).unstackable().tier("lootbag")
+    event.create("lootbag_create_brass", "pickaxe").displayName("Engineers Epic Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag")
+>>>>>>> dev
 });

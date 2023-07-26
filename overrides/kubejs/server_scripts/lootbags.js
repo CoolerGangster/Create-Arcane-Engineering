@@ -27,6 +27,7 @@ onEvent('item.right_click',event=>{
     lootbag('kubejs:lootbag_arcane_1','cae:arcaneweak')
     lootbag('kubejs:lootbag_arcane_2','cae:arcanenormal')
     lootbag('kubejs:lootbag_arcane_3','cae:arcanetable')
+<<<<<<< HEAD
 })
 let lootbags = [
     'kubejs:lootbag_poggers',
@@ -40,4 +41,6 @@ onEvent('block.right_click', event=>{
     if (lootbags.includes(event.item.id)) {
         event.cancel()
     }
+=======
+>>>>>>> dev
 })
