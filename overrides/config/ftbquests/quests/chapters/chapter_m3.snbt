@@ -37,7 +37,7 @@
 		{
 			x: -1.5d
 			y: -4.0d
-			subtitle: "Haunt Blackstone, Polish it, and apply arcane gold ingot"
+			subtitle: "Haunt Blackstone, Polish it, and apply arcane gold ingots."
 			dependencies: [
 				"45F57414659E044E"
 				"15C83F2E7CA1E295"
@@ -52,7 +52,7 @@
 		{
 			x: -3.0d
 			y: -2.5d
-			subtitle: "A powerfull Catalyst known to occasionally corrupt researchers sanity."
+			subtitle: "A powerful catalyst known to occasionally corrupt people's sanity."
 			dependencies: [
 				"3E7D072F1C7A0B14"
 				"191EE221A8EEE8F3"
@@ -110,7 +110,7 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Spout and Press Aureal Essence onto Arcane Crystal Dust to form precious Arcane Crystals."
+			subtitle: "Spout and press Aureal Essence onto Arcane Crystal Dust to form precious Arcane Crystals."
 			dependencies: [
 				"19EAE1780E1BAB55"
 				"718F45CF4E3C8A7E"
@@ -150,7 +150,7 @@
 			]
 		}
 		{
-			title: "The Arcane Crystal Obilisk Cycle"
+			title: "The Arcane Crystal Obelisk Cycle"
 			x: -1.5d
 			y: -2.5d
 			dependencies: ["69F021C402A96487"]
@@ -234,7 +234,7 @@
 		{
 			x: -6.0d
 			y: -1.5d
-			subtitle: "By Rightclicking or using a Deployer on Soulsand Block with a Soul Extractor, will relieve the Soul of the Soulsand Block, returning it into its Soulless state"
+			subtitle: "By right clicking or using a Deployer on Soul Sand Block with a Soul Extractor, the sand will be relieved of its soul, returning it into its Soulless state"
 			dependencies: [
 				"7D833DBB735C2FEC"
 				"76D6D1770639319E"
@@ -279,7 +279,7 @@
 			title: "Pixie Jar"
 			x: -1.5d
 			y: 1.0d
-			subtitle: "Washing a Corrupted Pixie Jar, will purify it, leaving behind A jar with a normal Pixie"
+			subtitle: "Washing a Corrupted Pixie Jar will purify it, leaving behind a jar with a normal pixie."
 			dependencies: ["3F0798A77108E733"]
 			id: "7614A2AE1D024BF4"
 			tasks: [{
@@ -315,7 +315,7 @@
 		{
 			x: -7.0d
 			y: -0.5d
-			subtitle: "A Wraith standing on Soulless sand will convert the block into soulsand (the wraith doesnt die)"
+			subtitle: "A Wraith standing on Soulless Sand will convert the block into Soul Sand (the wraith is unaffected)"
 			dependencies: [
 				"7FC6F7E88224DA53"
 				"79B2BD8F7999E19F"
