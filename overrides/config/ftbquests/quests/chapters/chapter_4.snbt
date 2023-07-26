@@ -182,7 +182,7 @@
 			title: "Solder Mask"
 			x: 4.5d
 			y: 15.0d
-			subtitle: "mix anthraquinone with green dye, to create green PCB dyeing (yes im not allowing you more colors)"
+			subtitle: "Mix anthraquinone with green dye to create Green PCB Dye (no, you're not allowed more colors)"
 			description: [""]
 			dependencies: [
 				"13CEF692B9FB1794"
@@ -243,7 +243,7 @@
 			x: 5.5d
 			y: 5.0d
 			shape: "hexagon"
-			subtitle: "Your gate to becoming absolutely Unstoppable... Maybe. Well Goodluck!"
+			subtitle: "Your gate to becoming absolutely unstoppable... Good luck!"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			size: 1.3d
@@ -392,7 +392,7 @@
 		{
 			x: 1.0d
 			y: 15.0d
-			subtitle: "Theres a few ways to get Lime Dye, Corundum and Cactus are the most common ones."
+			subtitle: "There are a few ways to get Lime Dye. Corundum and Cactus are the most common ones."
 			dependencies: ["13D5724A77F71BE7"]
 			id: "079818C1C5FD02A1"
 			tasks: [{
@@ -402,7 +402,7 @@
 			}]
 		}
 		{
-			title: "Industrially Dry the PCB"
+			title: "Dry the PCB"
 			x: 4.5d
 			y: 16.0d
 			dependencies: ["460EAFA39878746B"]
@@ -416,7 +416,7 @@
 		{
 			x: 3.5d
 			y: 11.0d
-			subtitle: "This doesnt have to be automated as it gets consumed very slowly"
+			subtitle: "Etching Acid is consumed very slowly. You may be okay simply refilling it manually."
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "6D68CB52EC9B836B"
@@ -555,7 +555,7 @@
 		{
 			x: 9.0d
 			y: 17.0d
-			subtitle: "Living Life on the Fastlane"
+			subtitle: "Living life in the fast lane"
 			dependencies: ["3F5D372F7552D3DC"]
 			id: "15CC7068585F0644"
 			tasks: [{
@@ -909,7 +909,7 @@
 			}]
 		}
 		{
-			title: "Stack the Boards once Again."
+			title: "Stack the boards once again."
 			x: 4.5d
 			y: 17.0d
 			dependencies: ["57AC7DE0EEE771C2"]
@@ -933,7 +933,7 @@
 			}]
 		}
 		{
-			title: "Stack the Boards."
+			title: "Stack the boards."
 			x: 4.5d
 			y: 14.0d
 			dependencies: ["0631B96ACBB1D530"]
