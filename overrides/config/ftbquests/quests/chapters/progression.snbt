@@ -37,7 +37,7 @@
 			title: "Good Luck!"
 			x: -0.5d
 			y: 0.0d
-			subtitle: "When things seem overwhelming, know that you are capable of overcoming these obstacles. In this pack its not your recources that limit you, but your will to think outside the box. While the first chapters may feel tough recource wise, we can guarantee that after the initial start you wont find yourself in the need of much recources anymore. Good Luck Traveller!"
+			subtitle: "When things seem overwhelming, know that you are capable of overcoming these obstacles. In this pack its not your resources that limit you, but your will to think outside the box. While the first chapters may feel tough resource wise, we can guarantee that after the initial start you won't find yourself in the need of many recources anymore. Good Luck Traveller!"
 			id: "3BAD2CEF1245F202"
 			tasks: [{
 				id: "3C638DEE93C407D4"
@@ -87,11 +87,16 @@
 			icon: "kubejs:andesite_machine"
 			x: 1.0d
 			y: -1.0d
+<<<<<<< HEAD
 			subtitle: "These are Tech Chapters! Here you will be expanding your technological capabilities through Innovation!"
 			dependencies: [
 				"3BAD2CEF1245F202"
 				"4F91815A21A69A27"
 			]
+=======
+			subtitle: "These are Tech Chapters! Here you will be expanding your technological capabilities through innovation!"
+			dependencies: ["3BAD2CEF1245F202"]
+>>>>>>> main
 			id: "6EFF8BCEBC2E2AF2"
 			tasks: [
 				{
@@ -111,11 +116,16 @@
 			icon: "quark:violet_corundum"
 			x: 1.0d
 			y: 1.0d
+<<<<<<< HEAD
 			subtitle: "These are the Magic Chapters. Here you are tasked to find solutions to the extreme weirdness of Arcane Recipes, if however you fight past the struggle and conquer these challenges, tools unimaginably powerfull will be yours."
 			dependencies: [
 				"3BAD2CEF1245F202"
 				"191F931436C093A8"
 			]
+=======
+			subtitle: "These are the Magic Chapters. Here you are tasked to find solutions to the extreme weirdness of Arcane Recipes, if however you fight past the struggle and conquer these challenges, tools unimaginably powerful will be yours."
+			dependencies: ["3BAD2CEF1245F202"]
+>>>>>>> main
 			id: "07D1ED74C8A30306"
 			tasks: [
 				{
@@ -232,7 +242,7 @@
 			icon: "kubejs:radiant_machine"
 			x: 4.0d
 			y: -1.0d
-			subtitle: "I can't wait to finish this pack! Give me more chapters!"
+			subtitle: "I can't wait to finish the pack! Give me more chapters!"
 			dependencies: [
 				"3A10D0D5E8548C54"
 				"1CF1A735F77415F2"

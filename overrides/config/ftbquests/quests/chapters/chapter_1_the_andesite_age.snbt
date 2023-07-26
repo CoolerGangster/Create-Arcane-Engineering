@@ -37,7 +37,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			subtitle: "Rejuvination of Menril Shrubs. Smelting of Gravel"
+			subtitle: "Rejuvenation of Menril Shrubs. Smelting of Gravel"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "2A9D3B99068D645B"
 			tasks: [{
@@ -56,7 +56,7 @@
 			x: 6.0d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "Precrafting Items will be a reoccuring theme in this pack. Inorder to start out youll need to gather some Kinetic Mechanisms with the crafting table."
+			subtitle: "Precrafting items will be a reoccuring theme in this pack. In order to start out you'll need to gather some Kinetic Mechanisms through the crafting table."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "47EFBCDC513EE52D"
@@ -106,7 +106,7 @@
 			title: "[Optional] Deployers."
 			x: 6.0d
 			y: 3.0d
-			subtitle: "Creating Mechanisms. And Tree farming. This needs brass, perhaps a smeltery can do the trick? (Chapter 2 Hosts more info on Brass creation."
+			subtitle: "Assembling mechanisms and tree farming. This needs brass, so perhaps a smeltery can do the trick? (Chapter 2 Hosts more info on Brass creation.)"
 			dependencies: [
 				"47EFBCDC513EE52D"
 				"11DAEE7A3CD9F8B6"
@@ -164,7 +164,7 @@
 			]
 		}
 		{
-			title: "The saw"
+			title: "The Saw"
 			x: 2.0d
 			y: 4.0d
 			subtitle: "Sawcon"
@@ -187,8 +187,13 @@
 			x: 0.0d
 			y: 6.5d
 			shape: "square"
+<<<<<<< HEAD
 			subtitle: "Extract Resin from Trees, using Arboreal Extractors."
 			dependencies: ["6EFF8BCEBC2E2AF2"]
+=======
+			subtitle: "Extract resin from Trees using Arboreal Extractors."
+			dependencies: ["3B25D99BFA2C928C"]
+>>>>>>> main
 			hide: true
 			id: "146F8C2D929D7A9E"
 			tasks: [{
@@ -269,7 +274,7 @@
 			x: 1.0d
 			y: 10.0d
 			subtitle: "Doubles the output"
-			description: ["WOW!!! theres ponder integration for the menril bucket!! (if youre having issues check this)"]
+			description: ["There is ponder integration for the Menril Bucket, if you're having issues try pondering it!)"]
 			dependencies: [
 				"162780AD2FB145CB"
 				"1C3021BFBCB35C4C"
@@ -298,7 +303,7 @@
 		{
 			x: -1.0d
 			y: 10.0d
-			subtitle: "Argh finally belts"
+			subtitle: "Ugh, finally, belts!"
 			dependencies: ["6C5277004B0E4431"]
 			id: "7586DAB7F4E3BC7A"
 			tasks: [{
@@ -414,7 +419,7 @@
 			x: 0.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "\"This is a Above and Beyond Ripoff\" Chill theres 10 Chapters, where only the first 2 are remotely similar. Enjoy :) \"Ew AI art.\" Yes, I apologize for using AI art, its purely temporary right now, and if you can feel free to send us your art to replace these! Wed be delighted to replace em :)"
+			subtitle: "While the early chapters look similar to Above & Beyond, the pack diverges wildly as you progress."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			size: 1.5d
@@ -422,7 +427,7 @@
 			tasks: [{
 				id: "2CE418D4038C1E4B"
 				type: "checkmark"
-				title: "Hey, youre cool. So you recognize this chapter definetly wasnt ripped out of above and beyond, have a cookie!"
+				title: "Hey, youre cool. Have a cookie!"
 			}]
 			rewards: [
 				{
@@ -438,11 +443,11 @@
 			]
 		}
 		{
-			title: "Cant find any Andesite/Diorite? We got you."
+			title: "Cant find any Andesite or Diorite? We got you."
 			x: 1.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Andesite is most commonly found in Forest biomes. And you can find andesite super easily by using a Natures Compass and searching for Andesite Caves on there (yes that works). If you have a hard time regardless, try using the Alloy Radar. It will scan a chunk for the blocks."
+			subtitle: "Andesite is most commonly found in Forest biome and you can find andesite super easily by using a Nature's Compass and using it to search for an Andesite Caves biome. If you have a hard time regardless, try using the Alloy Radar. It will scan a chunk for the blocks."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "45875AB5349E8E94"
@@ -543,7 +548,7 @@
 			}]
 		}
 		{
-			title: "Alloying Through Tinkers, no blazes required!"
+			title: "Alloying through Tinkers, no blazes required!"
 			x: 5.0d
 			y: 5.5d
 			dependencies: ["74A44C35A73EB298"]
@@ -558,7 +563,7 @@
 			title: "Runic Tablet + Empty Blaze Burner = Blaze Burner"
 			x: 6.0d
 			y: 5.5d
-			subtitle: "Requires brass, to craft the Runic Tablet through Chapter m1!"
+			subtitle: "Requires brass to craft the Runic Tablet through Chapter m1!"
 			dependencies: ["74A44C35A73EB298"]
 			hide: true
 			id: "03B32FBE53374954"
@@ -570,10 +575,10 @@
 			}]
 		}
 		{
-			title: "Alloying with Create, blazes Required!"
+			title: "Alloying with Create, blazes required!"
 			x: 7.0d
 			y: 5.5d
-			subtitle: "Alloying with Create is probably easier and Faster in the Long run..."
+			subtitle: "Alloying with Create is probably easier and faster in the long run."
 			dependencies: [
 				"3D9E29CE4BA41D20"
 				"03B32FBE53374954"
@@ -591,7 +596,7 @@
 			icon: "minecraft:blaze_spawn_egg"
 			x: 6.0d
 			y: 6.5d
-			subtitle: "You can capture a blaze into your blazeburner, by rightclicking it with an empty one. You can alternatively rightclick blaze spawners with blaze burners!"
+			subtitle: "You can capture a blaze into your blaze burner, by rightclicking it with an empty one. You can alternatively rightclick blaze spawners with blaze burners!"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3D9E29CE4BA41D20"
@@ -610,7 +615,7 @@
 			x: -4.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "The Arcane has significantly reduced the availability of these Saplings, making them extremely rare to come by. As a result, a conventional tree farm is no longer sufficient to sustain their growth. However, trees still drop lifeless versions of the Saplings, which can be rejuvenated through a specific process. To successfully cultivate menril trees, it is necessary to establish an automated system for restoring the menril shrubs to menril saplings that loop back into the contraption."
+			subtitle: "The Arcane has significantly reduced the availability of these Saplings, making them extremely rare to come by. As a result, a conventional tree farm is no longer sufficient to sustain their growth. However, trees will still drop lifeless versions of their saplings, which can be rejuvenated through a specific process. To successfully cultivate menril trees, it is necessary to establish an automated system for restoring the menril shrubs to menril saplings that loop back into the contraption."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "65EB6D888AE39417"
@@ -630,7 +635,7 @@
 			x: -4.0d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "Log Cutting Chain. Basically just slap down 3 saws and theyll do the job."
+			subtitle: "Log Cutting Chain. Basically, just slap down 3 saws and they'll do the job."
 			dependencies: ["65EB6D888AE39417"]
 			id: "2D3F582CF81B08C7"
 			tasks: [{
@@ -684,7 +689,7 @@
 			x: -5.5d
 			y: 1.0d
 			shape: "rsquare"
-			subtitle: "Drops from Menril Trees. With the weakening of the Arcane, so has the menril sapling been stripped of its life juice, perhaps a bit of water can help it?"
+			subtitle: "Drops from Menril Trees. With the weakening of the Arcane, so has the menril sapling been stripped of its life essence, perhaps a bit of water can help it?"
 			dependencies: ["65EB6D888AE39417"]
 			id: "2E64E817F8FABAC6"
 			tasks: [{
@@ -696,7 +701,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			subtitle: "Drops from Menril Trees, in particular the enriched menril logs. Maybe there are more ways to get this though?"
+			subtitle: "Drops from Menril Trees, in particular the enriched menril logs. Perhaps there are more ways to get this though?"
 			dependencies: ["65EB6D888AE39417"]
 			id: "7027A7515B010BDD"
 			tasks: [{
@@ -740,7 +745,7 @@
 			x: -4.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Drops from Menril Trees. Also used for Resurrecting Menril Saplings."
+			subtitle: "Drops from Menril Trees. Also used for resurrecting Menril Saplings."
 			dependencies: ["65EB6D888AE39417"]
 			id: "293527BB98246AD0"
 			tasks: [{
@@ -837,7 +842,7 @@
 		{
 			x: 7.0d
 			y: 2.0d
-			subtitle: "Mine cobleston"
+			subtitle: "Mine coblestone"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "4B437D3B2BA18945"
 			tasks: [{
@@ -847,11 +852,11 @@
 			}]
 		}
 		{
-			title: "Early game Item filtering."
+			title: "Early game item filtering."
 			x: -1.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Filtering items is possible, just slap an item into a drawer, lock the drawer, and put a funnel on. Now the funnel will only insert if the item meets the drawers locked item."
+			subtitle: "Filtering items is possible, just slap an item into a drawer, lock the drawer, and put a funnel on. Now the funnel will only insert if the item matches the drawers locked item."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3B2E6054E10C6452"
@@ -890,7 +895,7 @@
 			icon: "minecraft:light"
 			x: -2.5d
 			y: -2.0d
-			subtitle: "Sappling doesnt grow: Check light level, and if in a 5x15x5 around sapling if theres blocks. Any unnatural block like stone or a machine will prevent the sappling to grow!"
+			subtitle: "If your sapling isn't growing, check for any unnatural blocks in a 5x15x5 area around it. Also check that it has enough light to grow."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "54879E4FF6671EFD"
