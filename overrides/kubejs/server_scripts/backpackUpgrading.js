@@ -43,8 +43,37 @@ onEvent("recipes", event =>{
     event.smithing("sophisticatedbackpacks:stack_upgrade_tier_3", "sophisticatedbackpacks:stack_upgrade_tier_1", "forbidden_arcanus:aureal_bottle")
     event.smithing("sophisticatedbackpacks:stack_upgrade_tier_4", "sophisticatedbackpacks:stack_upgrade_tier_1", "forbidden_arcanus:orb_of_temporary_flight")
     event.remove({output:/sophisticatedbackpacks\:.*_backpack/})
-    event.shapeless("sophisticatedbackpacks:gold_backpack", ["sophisticatedbackpacks:backpack", "create:brass_sheet"])
-    event.shapeless("sophisticatedbackpacks:iron_backpack", ["sophisticatedbackpacks:backpack", "kubejs:radiant_coil"])
-    event.shapeless("sophisticatedbackpacks:diamond_backpack", ["sophisticatedbackpacks:backpack", "pneumaticcraft:module_expansion_card"])
-    event.shapeless("sophisticatedbackpacks:netherite_backpack", ["sophisticatedbackpacks:backpack", "pneumaticcraft:printed_circuit_board"])
+    
+    event.shapeless("sophisticatedbackpacks:gold_backpack", ["sophisticatedbackpacks:backpack", "create:brass_sheet"]).modifyResult((inventory, itemstack) =>{
+        let backpack = inventory.find(Item.of('sophisticatedbackpacks:backpack').ignoreNBT())
+        if (backpack.nbt == null) return itemstack
+        let nbt = backpack.nbt
+        nbt.inventorySlots += 18
+        nbt.upgradeSlots -= 1
+    return itemstack.withNBT(nbt)
+    })
+    event.shapeless("sophisticatedbackpacks:iron_backpack", ["sophisticatedbackpacks:gold_backpack", "kubejs:radiant_coil"]).modifyResult((inventory, itemstack) =>{
+        let backpack = inventory.find(Item.of('sophisticatedbackpacks:gold_backpack').ignoreNBT())
+        if (backpack.nbt == null) return itemstack
+        let nbt = backpack.nbt
+        nbt.inventorySlots += 18
+        nbt.upgradeSlots += 1
+    return itemstack.withNBT(nbt)
+    })
+    event.shapeless("sophisticatedbackpacks:diamond_backpack", ["sophisticatedbackpacks:iron_backpack", "pneumaticcraft:module_expansion_card"]).modifyResult((inventory, itemstack) =>{
+        let backpack = inventory.find(Item.of('sophisticatedbackpacks:iron_backpack').ignoreNBT())
+        if (backpack.nbt == null) return itemstack
+        let nbt = backpack.nbt
+        nbt.inventorySlots -= 9
+        nbt.upgradeSlots += 3
+    return itemstack.withNBT(nbt)
+    })
+    event.shapeless("sophisticatedbackpacks:netherite_backpack", ["sophisticatedbackpacks:iron_backpack", "pneumaticcraft:printed_circuit_board"]).modifyResult((inventory, itemstack) =>{
+        let backpack = inventory.find(Item.of('sophisticatedbackpacks:iron_backpack').ignoreNBT())
+        if (backpack.nbt == null) return itemstack
+        let nbt = backpack.nbt
+        nbt.inventorySlots += 18
+        nbt.upgradeSlots += 1
+    return itemstack.withNBT(nbt)
+    })
 })
