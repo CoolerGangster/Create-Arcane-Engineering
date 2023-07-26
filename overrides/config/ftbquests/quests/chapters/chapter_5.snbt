@@ -796,6 +796,11 @@
 				"{image:kubejs:textures/ARCANE_NEBULAE_by_betwizer.png width:150 height:100 align:1}"
 				"This amazing piece of Art was provided by @betwizer"
 			]
+			dependencies: [
+				"1874AF18742915E4"
+				"099F5D860FC50376"
+			]
+			hide: true
 			id: "0713AD45FB3D37D4"
 			tasks: [{
 				id: "46EFFE6AC9DB4996"
