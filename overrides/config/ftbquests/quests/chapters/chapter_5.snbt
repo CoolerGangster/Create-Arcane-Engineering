@@ -64,7 +64,7 @@
 		{
 			x: 1.5d
 			y: -8.0d
-			subtitle: "If you fail the arcane orb progression, this will get voided. otherwise, you only have to craft this once"
+			subtitle: "If you fail the arcane orb progression, this will get voided. Otherwise, you only have to craft this once."
 			dependencies: [
 				"42100A7B11245314"
 				"64FB370B4142B43F"
@@ -91,7 +91,7 @@
 		{
 			x: 4.0d
 			y: -3.5d
-			subtitle: "Will void the spawner core if you dont give it enough energy :) So make sure you give it atleast idk 240k FE"
+			subtitle: "Will void the spawner core if you dont give it enough energy :) Make sure you give it atleast 240k FE"
 			dependencies: [
 				"5EB72FD510377EC9"
 				"01E55605761D5B94"
@@ -107,7 +107,7 @@
 			title: "The Entity"
 			x: 5.5d
 			y: -5.0d
-			subtitle: "Pure Arcane Crystalized for Seconds. Quick! You have 20 Seconds to Charge it with a Lightning before it dissapears again"
+			subtitle: "Pure Arcane Crystalized for a moment. Quick! You have 20 Seconds to charge it with lightning before it dissapears again."
 			dependencies: [
 				"71286756060D717D"
 				"3292D55C12E810EA"
@@ -185,7 +185,7 @@
 		{
 			x: 5.5d
 			y: -3.5d
-			subtitle: "Runic Tablets create Lightning when used on a block!"
+			subtitle: "Runic Tablets create lightning when used on a block!"
 			dependencies: ["29D5D3CF2BB3175D"]
 			dependency_requirement: "one_completed"
 			id: "3292D55C12E810EA"
@@ -246,7 +246,7 @@
 			x: 8.5d
 			y: -7.0d
 			shape: "octagon"
-			subtitle: "You can Either Reprocess it, or rightclick for Creative Flight. Either way, youll get the spawner core back"
+			subtitle: "You can either reprocess it, or rightclick for Creative Flight. Either way, youll get the spawner core back."
 			dependencies: ["5CDF579440FEA819"]
 			id: "384BA5BB43FE6F50"
 			tasks: [{
@@ -274,7 +274,7 @@
 		{
 			x: 6.5d
 			y: -4.5d
-			subtitle: "Explode TNT or Disrputive explosive nearby (still gotta figure out what I can code)"
+			subtitle: "Explode TNT or a Disrputive explosive nearby.)"
 			dependencies: [
 				"099F5D860FC50376"
 				"1874AF18742915E4"
@@ -291,7 +291,7 @@
 			title: "Arcane Washing"
 			x: 7.5d
 			y: -7.0d
-			subtitle: "Have the Entity pass through Liquid Space Time while on top of a Black Hole. Will Absorb both."
+			subtitle: "Have the Entity pass through Liquid Space Time while on top of a black hole. Will Absorb both."
 			dependencies: [
 				"13F4DF742237B0E5"
 				"1D18DDCCE55114C2"
@@ -331,7 +331,7 @@
 			title: "Singularity"
 			x: 7.5d
 			y: -5.5d
-			subtitle: "Throwing Together Corrupti Dust and Dark Matter will create a Black Hole."
+			subtitle: "Throwing together Corrupti Dust and Dark Matter will create a black hole."
 			dependencies: [
 				"0162D63ABBC042E4"
 				"3E2188D1E67F2E30"
@@ -352,7 +352,7 @@
 			icon: "cae:orb_spawn_egg"
 			x: 8.5d
 			y: -9.0d
-			subtitle: "Its Cashout time, the Entity is severly destabilized and will need to be fueled with 7 Singularities. In the span of 5 seconds to convert to a Orb of Flight, important for later tech."
+			subtitle: "Its cashout time, the entity is severly destabilized and will need to be fueled with 7 Singularities in the span of 5 seconds to convert to a Orb of Flight, which will be important later."
 			dependencies: [
 				"4BCEB0647E3CD6D6"
 				"02063472CAF17409"
@@ -368,7 +368,7 @@
 			title: "Any Explosive"
 			x: 8.5d
 			y: -1.5d
-			subtitle: "Spoiler: Every type of Explosion counts"
+			subtitle: "Spoiler: Every type of explosion counts"
 			dependencies: [
 				"1874AF18742915E4"
 				"099F5D860FC50376"
@@ -550,7 +550,7 @@
 		{
 			x: 10.0d
 			y: -8.0d
-			subtitle: "And so the Cycle continues..."
+			subtitle: "And so the cycle continues..."
 			dependencies: ["384BA5BB43FE6F50"]
 			id: "0D00E6C71CA81848"
 			tasks: [{
@@ -564,7 +564,7 @@
 			x: 13.0d
 			y: -5.0d
 			shape: "heart"
-			subtitle: "Weve went Above and Beyond, but what matters is the memories we made along the way."
+			subtitle: "We went Above and Beyond, but what matters is the memories we made along the way."
 			dependencies: ["366D7A329E87A0EB"]
 			size: 2.0d
 			id: "7AB381389276D63C"
@@ -769,7 +769,7 @@
 			x: 20.5d
 			y: -1.0d
 			shape: "diamond"
-			subtitle: "Time to craft final tier stuff!"
+			subtitle: "Time to craft final tier items!"
 			dependencies: [
 				"5B23DD78E5A8613D"
 				"62E876E846672D6B"
