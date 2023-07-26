@@ -147,7 +147,7 @@
 		{
 			x: -4.5d
 			y: -5.0d
-			subtitle: "this is just an example for converting chromatic compound to refined radiance"
+			subtitle: "This is just an example for converting Chromatic Compound to Refined Radiance."
 			dependencies: [
 				"78E3EDD6BCCA4E06"
 				"24F10DF147EC0844"
@@ -258,7 +258,7 @@
 			title: "Chrom"
 			x: -4.5d
 			y: -8.0d
-			subtitle: "Roll Glowstone over a Drain"
+			subtitle: "Roll Glowstone over a drain"
 			dependencies: ["78E3EDD6BCCA4E06"]
 			id: "22B3B089C7AD3875"
 			tasks: [{
@@ -284,7 +284,7 @@
 			icon: "thermal:crude_oil_bucket"
 			x: 1.5d
 			y: -7.0d
-			subtitle: "Set up a train link to Crude oil deposits all around the world."
+			subtitle: "Set up a train link to various crude oil deposits found all around the world."
 			description: ["Or set up a 10k source in your base"]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
@@ -351,7 +351,7 @@
 		{
 			x: -6.0d
 			y: -7.0d
-			subtitle: "Mix Powdered Flint with Refined Fuel to Create Gunpowder"
+			subtitle: "Mix Powdered Flint with Refined Fuel to create Gunpowder"
 			dependencies: ["4114B764FB9FF9BC"]
 			id: "24F10DF147EC0844"
 			tasks: [{
@@ -376,7 +376,7 @@
 		{
 			x: -6.0d
 			y: -9.5d
-			subtitle: "The flint from the iron gens put to use"
+			subtitle: "The flint from the iron generators being put to use"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "2F15BD639AC10819"
@@ -481,7 +481,7 @@
 			]
 		}
 		{
-			title: "[optional 2x bonus] Shadowsteel"
+			title: "[Optional 2x bonus] Shadow Steel"
 			x: -1.0d
 			y: -6.0d
 			dependencies: ["3EA71EFE88668E16"]
@@ -599,7 +599,7 @@
 			}]
 		}
 		{
-			title: "[By Product] All colors of Fuel."
+			title: "[Byproduct] All colors of fuel."
 			x: 2.0d
 			y: 4.5d
 			dependencies: ["6F59B705C4AC7E93"]
@@ -623,7 +623,7 @@
 			]
 		}
 		{
-			title: "Industrial Revolution."
+			title: "The Industrial Revolution"
 			x: 2.0d
 			y: 1.0d
 			subtitle: "Reprocess your output fuels to fuel your Factory."
@@ -716,7 +716,7 @@
 			x: -4.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "Applied Energistics, im waiting for you. A lot of machines are still gated behind a higher technology tier, but you should be able to set up a very basic ME system"
+			subtitle: "Applied Energistics; I'm waiting for you. A lot of machines are still gated behind a higher technology tier, but you should be able to set up a very basic ME system"
 			dependencies: ["1393B214AF417C06"]
 			id: "3070EC94FB14615C"
 			tasks: [{
