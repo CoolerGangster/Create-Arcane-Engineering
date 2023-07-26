@@ -49,7 +49,7 @@
 			title: "I can't wait to be an engineer!"
 			x: 1.5d
 			y: -2.5d
-			subtitle: "Fair Enough, heres some stuff to Gather!"
+			subtitle: "Fair enough, here is some stuff to gather."
 			dependencies: ["2F63FB9E8EAC18BD"]
 			id: "4DCF01FE026F9FE5"
 			tasks: [{
@@ -59,13 +59,13 @@
 			}]
 		}
 		{
-			title: "Your first Task"
+			title: "Your first task"
 			icon: "trade:deforesting_task_import"
 			x: 3.0d
 			y: -2.0d
 			shape: "diamond"
 			subtitle: "Getting started on making money"
-			description: ["Tasks are great! Completing them can help you make tons of money! \\n\\nBut be aware: They usually cost a few Silver Coins and you never know what task you may be given! \\nThis one is for free to get you started."]
+			description: ["Tasks are great! Completing them can help you make lots of money! \\n\\nBut be aware: They usually cost a few Silver Coins and you never know what task you may be given! \\nThis one is for free to get you started."]
 			optional: true
 			id: "3580485A369D2795"
 			tasks: [{
@@ -81,7 +81,7 @@
 			}]
 		}
 		{
-			title: "Item Grinding, usefull for a variety of things."
+			title: "Item grinding, useful for a variety of things."
 			x: -3.0d
 			y: 0.5d
 			dependencies: ["59386F705AAD3CFF"]
@@ -139,7 +139,7 @@
 		{
 			x: 0.5d
 			y: -4.5d
-			subtitle: "You can Make andesite Alloy with it"
+			subtitle: "You can make Andesite Alloy with it!"
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "4D32217601DA01D6"
 			tasks: [{
@@ -151,7 +151,7 @@
 		{
 			x: 0.5d
 			y: -3.5d
-			subtitle: "Lots of Iron."
+			subtitle: "Lots of iron."
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "769ACE88C21CA4F9"
 			tasks: [{
@@ -163,7 +163,7 @@
 		{
 			x: 2.5d
 			y: -3.5d
-			subtitle: "Some Zinc"
+			subtitle: "Some zinc."
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "21DF66C5B03C191D"
 			tasks: [{
@@ -173,7 +173,7 @@
 			}]
 		}
 		{
-			title: "What are these mods!? Im Scared!!"
+			title: "What are these mods!? Im scared!!"
 			x: 3.5d
 			y: -0.5d
 			subtitle: "Heres a list of some mods you may have never encountered before, and are incredibly confused about."
@@ -189,7 +189,7 @@
 			icon: "ars_nouveau:creative_spell_book"
 			x: 4.5d
 			y: -1.5d
-			subtitle: "Ars Nouveau is a mod dedicated to modern magic, featuring spells and familiars. However, it's important to note that this mod will only become relevant in the later stages of the pack, and you won't need an in-depth understanding of its mechanics. It has some plants that are usefull like sourceberries, and mageblooms/ youll figure out what they do later :)"
+			subtitle: "Ars Nouveau is a mod dedicated to modern magic, featuring spells and familiars. However, it's important to note that this mod will only become relevant in the later stages of the pack, and you won't need an in-depth understanding of its mechanics. It has some plants that are useful like sourceberries, and mageblooms. You'll figure out what they do later :)"
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "0F7ADBD455574DA8"
 			tasks: [{
@@ -228,7 +228,7 @@
 			icon: "cae:skystone_catalyst"
 			x: 5.5d
 			y: 0.5d
-			subtitle: "Arcane Engineering is the core mod of this modpack, introducing additional content for the ultra late game (which is not relevant at the moment). The mod features custom blocks for automating Skystone and Create Orestones, providing new ways to interact with these materials. Additionally, the mod alters the mechanics surrounding AE2 Meteorites."
+			subtitle: "Arcane Engineering is the core mod of this modpack, introducing additional content for the ultra late game (which is not relevant at the moment). The mod features custom blocks for automating Skystone and Create Orestones and providing new ways to interact with these materials. Additionally, the mod alters the mechanics surrounding AE2 Meteorites."
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "4BB71BE656192C7F"
 			tasks: [{
@@ -252,7 +252,7 @@
 		{
 			x: 1.5d
 			y: -5.5d
-			subtitle: "You can Make andesite Alloy with it"
+			subtitle: "You can make Andesite Alloy with it"
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "227004D221260FC2"
 			tasks: [{
@@ -270,7 +270,7 @@
 			tasks: [{
 				id: "54FF171FC21767DA"
 				type: "checkmark"
-				title: "I cant wait to become a cool Mage"
+				title: "I cant wait to become a cool mage!"
 			}]
 		}
 		{
@@ -281,14 +281,14 @@
 			tasks: [{
 				id: "3309E6DC2F78649F"
 				type: "checkmark"
-				title: "Lets get a Basic Workshop going eh?"
+				title: "Let's get a basic workshop going eh?"
 			}]
 		}
 		{
 			icon: "minecraft:chorus_fruit"
 			x: 6.5d
 			y: 0.5d
-			subtitle: "A utility mod for Modpack devs that provides inworld Recipes. Like droping items in fluids etc. Nothin for you to worry about."
+			subtitle: "A utility mod for modpack devs that provides in-world recipes, like dropping items in fluids etc. Nothin' for you to worry about."
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "03A3E838913EDD49"
 			tasks: [{
@@ -307,7 +307,7 @@
 			}
 			x: 6.5d
 			y: -1.5d
-			subtitle: "Tinker's construct is a tech mod that revolves around smelteries. It offers a unique feature that allows you to melt a variety of items and even entities, providing a cathartic way to melt away your sorrows. This mod gains importance in Chapter 2, making it worth exploring. Additionally, Tinkers' Construct is primarily focused on creating highly useful tools using a diverse selection of materials. With Tinkers' Construct, you can craft exceptionally powerful tools to aid you on your adventures!"
+			subtitle: "Tinker's Construct is a tech mod that revolves around smelteries. It offers a unique feature that allows you to melt a variety of items and even entities, providing a cathartic way to melt away your sorrows. This mod gains importance in Chapter 2, making it worth exploring. Additionally, Tinkers' Construct is primarily focused on creating highly useful tools using a diverse selection of materials. With Tinkers' Construct, you can craft exceptionally powerful tools to aid you on your adventures!"
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "4D411D9BCE1D33F2"
 			tasks: [{
@@ -320,7 +320,7 @@
 			icon: "integrateddynamics:logic_programmer"
 			x: 7.5d
 			y: -1.5d
-			subtitle: "Integrated Dynamics is a magic-tech mod that primarily focuses on logic and offers a highly modular approach to programming. However, there's no need to be concerned about delving into complex programming endeavors in this modpack. In this specific modpack, Integrated Dynamics is utilized solely for its Trees feature, so you won't need to engage in programming tasks. Its also worth mentioning, that Integrated Dynamics provides a way of Storage Similar to AE2"
+			subtitle: "Integrated Dynamics is a magic-tech mod that primarily focuses on logic and offers a highly modular approach to programming. However, there's no need to be concerned about delving into complex programming endeavors in this modpack. In this specific modpack, Integrated Dynamics is utilized solely for its Trees feature, so you won't need to engage in programming tasks. Its also worth mentioning, that Integrated Dynamics provides a way to store items similar to AE2."
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "74296D4CEDEA44AA"
 			tasks: [{
@@ -337,17 +337,17 @@
 			}
 			x: 7.5d
 			y: 0.5d
-			subtitle: "Forbidden Arcanus is a magic mod that revolves around a wide range of magic-related items, each possessing unique quirks and enchantments. While it's not necessary to delve into the intricacies of this mod at the moment, it will become more relevant as you progress further in the game. Rest assured, the we provide comprehensive explanations for the mechanics and features when they come into play."
+			subtitle: "Forbidden and Arcanus is a magic mod that revolves around a wide range of magic-related items, each possessing unique quirks and enchantments. While it's not necessary to delve into the intricacies of this mod at the moment, it will become more relevant as you progress further in the game. Rest assured that we provide comprehensive explanations for the mechanics and features when they come into play."
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "6FC749E2772DFD45"
 			tasks: [{
 				id: "13C0B18FD0FF6712"
 				type: "checkmark"
-				title: "Forbidden Arcanus"
+				title: "Forbidden and Arcanus"
 			}]
 		}
 		{
-			title: "Ez Tree Chopping"
+			title: "EZ Tree Chopping"
 			x: -2.5d
 			y: -0.5d
 			dependencies: ["59386F705AAD3CFF"]
@@ -384,7 +384,7 @@
 		{
 			x: 2.5d
 			y: -4.5d
-			subtitle: "You can Make andesite Alloy with it"
+			subtitle: "You can make Andesite Alloy with it"
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "02EE7F0461B0DFBF"
 			tasks: [{
@@ -436,7 +436,7 @@
 		{
 			x: 2.0d
 			y: 2.5d
-			subtitle: "How am I gonna get Brass!? Well, in Chapter 1 theres gonna be a tutorial :)"
+			subtitle: "How am I gonna get brass!? Well, in Chapter 1 there is a tutorial :)"
 			dependencies: ["749112B711CAB183"]
 			id: "17A07FB16A28912B"
 			tasks: [{
