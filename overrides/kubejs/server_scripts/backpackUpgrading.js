@@ -43,12 +43,6 @@ onEvent("recipes", event =>{
     event.smithing("sophisticatedbackpacks:stack_upgrade_tier_3", "sophisticatedbackpacks:stack_upgrade_tier_1", "forbidden_arcanus:aureal_bottle")
     event.smithing("sophisticatedbackpacks:stack_upgrade_tier_4", "sophisticatedbackpacks:stack_upgrade_tier_1", "forbidden_arcanus:orb_of_temporary_flight")
     event.remove({output:/sophisticatedbackpacks\:.*_backpack/})
-<<<<<<< HEAD
-    event.shapeless("sophisticatedbackpacks:gold_backpack", ["sophisticatedbackpacks:backpack", "create:brass_sheet"])
-    event.shapeless("sophisticatedbackpacks:iron_backpack", ["sophisticatedbackpacks:backpack", "kubejs:radiant_coil"])
-    event.shapeless("sophisticatedbackpacks:diamond_backpack", ["sophisticatedbackpacks:backpack", "pneumaticcraft:module_expansion_card"])
-    event.shapeless("sophisticatedbackpacks:netherite_backpack", ["sophisticatedbackpacks:backpack", "pneumaticcraft:printed_circuit_board"])
-=======
     
     event.shapeless("sophisticatedbackpacks:gold_backpack", ["sophisticatedbackpacks:backpack", "create:brass_sheet"]).modifyResult((inventory, itemstack) =>{
         let backpack = inventory.find(Item.of('sophisticatedbackpacks:backpack').ignoreNBT())
@@ -82,5 +76,4 @@ onEvent("recipes", event =>{
         nbt.upgradeSlots += 1
     return itemstack.withNBT(nbt)
     })
->>>>>>> dev
 })
