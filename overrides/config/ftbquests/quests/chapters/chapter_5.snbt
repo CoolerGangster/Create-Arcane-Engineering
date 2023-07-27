@@ -14,7 +14,7 @@
 			width: 90.0d
 			height: 60.0d
 			rotation: 0.0d
-			image: "kubejs:textures/ARCANE_NEBULAE_by_betwizer.png"
+			image: "kubejs:textures/arcane_nebulae_by_betwizer.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -843,7 +843,7 @@
 			x: 49.0d
 			y: -29.5d
 			description: [
-				"{image:kubejs:textures/ARCANE_NEBULAE_by_betwizer.png width:150 height:100 align:1}"
+				"{image:kubejs:textures/arcane_nebulae_by_betwizer.png width:150 height:100 align:1}"
 				"This amazing piece of Art was provided by @betwizer"
 			]
 			dependencies: [
