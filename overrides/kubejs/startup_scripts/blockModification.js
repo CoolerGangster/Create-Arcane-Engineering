@@ -23,12 +23,12 @@
       block.destroySpeed = -1
     })
     event.modify('waystones:waystone', block =>{
-      block.destroySpeed = -1
+      block.destroySpeed = 90
     })
     event.modify('waystones:mossy_waystone', block =>{
-      block.destroySpeed = -1
+      block.destroySpeed = 90
     })
     event.modify('waystones:sandy_waystone', block =>{
-      block.destroySpeed = -1
+      block.destroySpeed = 90
     })
   })
