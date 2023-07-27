@@ -22,7 +22,7 @@ onEvent('recipes', event => {
     event.remove({id: 'thermal:machines/pulverizer/pulverizer_blaze_rod'})
     event.replaceInput({id:/.*thermal\:fire_charge.*/}, "minecraft:fire_charge", "forbidden_arcanus:smelter_prism")
     event.remove({output: '#forge:coins'})
-    event.remove({output: 'thermal:rose_gold_ingot'})   
+    //event.remove({output: 'thermal:rose_gold_ingot'})   
     event.remove({output: 'thermal:cinnabar'})
     event.remove({output: 'thermal:apatite'})
     event.replaceInput({output: "thermal:lumium_ingot"}, 'minecraft:glowstone_dust' , 'create:refined_radiance')

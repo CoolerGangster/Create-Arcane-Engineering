@@ -103,7 +103,7 @@ onEvent('item.registry', (event) => {
     //start m3
     event.create('sourcegem_fragments').displayName('Source Crystal Fragments')
     //compat shit
-    event.create('incomplete_cogwheel', 'create:sequenced_assembly').displayName('Incomplete Cogwheel')
+    event.create('incomplete_cogwheel', 'create:sequenced_assembly').displayName('Incomplete Cogwheel').parentModel("create:block/cogwheel_shaftless")
     event.create('runic_tablet').displayName("Runic Tablet").tooltip("What mysteries may this behold?")
     event.create('alloy_radar').displayName('Alloy Scanner').tooltip("Rightclick The Ground to scan for Andesite and Diorite Pockets in Chunk. *might be laggy*")
 

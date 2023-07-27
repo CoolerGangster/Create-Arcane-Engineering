@@ -1,7 +1,6 @@
 onEvent('item.right_click',event=>{
     function lootbag(lootbag,lootable){
         if(event.item == lootbag){
-            event.item.setCount(event.item.getCount()-1)
             event.cancel()
             event.player.swingArm(event.hand)
             event.server.runCommandSilent(`execute in ${event.level.dimension} run loot spawn ${event.player.x} ${event.player.y} ${event.player.z} loot ${lootable}`) 
@@ -18,7 +17,7 @@ onEvent('item.right_click',event=>{
                     }
                 }
             }
-            
+            event.item.count--
         }
     }
     lootbag('kubejs:lootbag_poggers','cae:cool_tier')
