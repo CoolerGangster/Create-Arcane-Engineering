@@ -188,7 +188,11 @@
 			y: 6.5d
 			shape: "square"
 			subtitle: "Extract resin from Trees using Arboreal Extractors."
+<<<<<<< HEAD
+			dependencies: ["3B25D99BFA2C928C"]
+=======
 			dependencies: ["6EFF8BCEBC2E2AF2"]
+>>>>>>> dev
 			hide: true
 			id: "146F8C2D929D7A9E"
 			tasks: [{
@@ -559,7 +563,11 @@
 			x: 6.0d
 			y: 5.5d
 			subtitle: "Requires brass to craft the Runic Tablet through Chapter m1!"
+<<<<<<< HEAD
+			dependencies: ["74A44C35A73EB298"]
+=======
 			dependencies: ["3BAD2CEF1245F202"]
+>>>>>>> dev
 			hide: true
 			id: "03B32FBE53374954"
 			tasks: [{
