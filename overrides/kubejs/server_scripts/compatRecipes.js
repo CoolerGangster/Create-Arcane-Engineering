@@ -420,39 +420,49 @@ onEvent('recipes', event => {
             });
 
     // traintracks
-    const fuckyou = 
-    ['blackstone','warped','crimson']
-    const tracktypes =
-    ['acacia','birch','dark_oak','jungle','oak','spruce']
-    tracktypes.forEach(element => {
-        event.remove({id: 'railways:sequenced_assembly/track_'+element})
+    event.forEachRecipe({output: /^railways\:track_/}, r => {
+        if (r.outputItems[0].id != "railways:track_coupler" && r.outputItems[0].id != "railways:track_switch_andesite" && r.outputItems[0].id != "railways:track_switch_brass"&& r.outputItems[0].id != "railways:track_monorail") {
+            event.remove({output: r.outputItems[0].id})
+            let wood = r.outputItems[0].id.replace("railways:track_", "")
+            let woodId = wood.replace("byg_", "byg:").replace("biomesoplenty_", "biomesoplenty:").replace("white_mangrove","mangrove")
+            let nuggets = '#create:funkynuggets'
+            let count = 16
+            if (!woodId.includes(":")) {woodId = "minecraft:" + woodId}
 
-        let c = 'railways:track_incomplete_' + element
-        event.recipes.createSequencedAssembly([
-          '16x railways:track_'+element,
-        ], 'minecraft:'+element+'_slab', [
-          event.recipes.createDeploying(t, [t, '#create:funkynuggets']),
-          event.recipes.createDeploying(t, [t, '#create:funkynuggets']),
-          event.recipes.createPressing(t, t)
-        ]).transitionalItem(c).loops(1)
-    });
-    fuckyou.forEach(element => {
-        event.remove({id: 'railways:sequenced_assembly/track_'+element})
-
-        let c = 'railways:track_incomplete_' + element
-        event.recipes.createSequencedAssembly([
-          '16x railways:track_'+element,
-        ], 'minecraft:'+element+'_slab', [
-          event.recipes.createDeploying(t, [t, 'minecraft:gold_nugget']),
-          event.recipes.createDeploying(t, [t, 'minecraft:gold_nugget']),
-          event.recipes.createPressing(t, t)
-        ]).transitionalItem(c).loops(1)
-    });
-
+            if (wood == "ender") {
+                woodId = "minecraft:end_stone_brick"
+                nuggets = "forbidden_arcanus:ender_pearl_fragment"
+            }
+            if (wood == "blackstone" || wood == "crimson" || wood == "warped" ) {nuggets = "minecraft:gold_nugget"}
+            
+            let slabs = woodId+'_slab'
+            
+            if (wood == "tieless") {slabs = "minecraft:glass_pane"}
+            if (wood == "phantom") {slabs = "minecraft:phantom_membrane", count = 48}
+            
+            let c = 'railways:track_incomplete_' + wood
+            
+            event.recipes.createSequencedAssembly([
+                count + 'x ' + r.outputItems[0].id
+            ], slabs, [
+                event.recipes.createDeploying(c, [c, nuggets]),
+                event.recipes.createDeploying(c, [c, nuggets]),
+                event.recipes.createPressing(c, c)
+            ]).transitionalItem(c).loops(1)
+        }        
+    })
+    event.remove({output: "railways:track_monorail"})
+    let c = "railways:track_incomplete_monorail"
+    event.recipes.createSequencedAssembly([
+        '16x railways:track_monorail'
+    ], "create:metal_girder", [
+    event.recipes.createDeploying(c, [c, "create:metal_bracket"]),
+        event.recipes.createDeploying(c, [c, "create:iron_sheet"]),
+        event.recipes.createPressing(c, c)
+    ]).transitionalItem(c).loops(1)
 
     event.remove({id: 'create:sequenced_assembly/track'})
-
-    let c = 'create:incomplete_track'
+    c = 'create:incomplete_track'
     event.recipes.createSequencedAssembly([
       '16x create:track',
     ], '#create:sleepers', [
