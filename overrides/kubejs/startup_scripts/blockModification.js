@@ -10,4 +10,22 @@
       block.hasCollision = true
       block.explosionResistance = -1
     })
+    event.modify('cae:veridium_catalyst', block =>{
+      block.destroySpeed = -1
+    })
+    event.modify('cae:asurine_catalyst', block =>{
+      block.destroySpeed = -1
+    })
+    event.modify('cae:ochrum_catalyst', block =>{
+      block.destroySpeed = -1
+    })
+    event.modify('cae:crimsite_catalyst', block =>{
+      block.destroySpeed = -1
+    })
+<<<<<<< HEAD
+=======
+    event.modify('waystones:waystone', block =>{
+      block.destroySpeed = -1
+    })
+>>>>>>> dev
   })

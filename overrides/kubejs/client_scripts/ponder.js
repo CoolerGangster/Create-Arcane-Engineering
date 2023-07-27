@@ -23,7 +23,7 @@ onEvent("ponder.tag", (event) => {
         "forbidden_arcanus:dark_matter"
     ]);
 
-      event.createTag('kubejs:arcane_obelisk', 'forbidden_arcanus:arcane_crystal_obelisk', 'The Arcane Crystal Obilisk', 'Youre gate to infinite Arcane Dust' ,[
+      event.createTag('kubejs:arcane_obelisk', 'forbidden_arcanus:arcane_crystal_obelisk', 'The Arcane Crystal Obelisk', 'Youre gate to infinite Arcane Dust' ,[
         'forbidden_arcanus:arcane_crystal_obelisk',
         'forbidden_arcanus:arcane_crystal_dust_speck'
 
@@ -56,10 +56,10 @@ onEvent("ponder.tag", (event) => {
 
 });
 onEvent("ponder.registry", (event) => {
-  event
-      .create(["integrateddynamics:bucket_menril_resin",'thermal:device_tree_extractor'])
-      .scene(
-          "our_first_scene",
+    event
+        .create(["integrateddynamics:bucket_menril_resin",'thermal:device_tree_extractor'])
+        .scene(
+          "menril",
           "Extracting Menril from Menril trees",
           "kubejs:menriltree",
           (scene, util) => {
@@ -68,39 +68,40 @@ onEvent("ponder.registry", (event) => {
          * Alternatively, `scene.showBasePlate()` can be used to show the base plate.
          * Useful for animating different parts of the structure.
          */
-         scene.showStructure()
-         scene.idle(20);
-         scene.text(60, "Replace all Enriched Menril Logs with normal Menril Logs", [2.0, 2.5, 2.5])
-            .placeNearTarget()
-            .attachKeyFrame();
+            scene.showStructure()
+            scene.idle(20);
+            scene.text(60, "Replace all Enriched Menril Logs with normal Menril Logs", [2.0, 2.5, 2.5])
+                .placeNearTarget()
+                .attachKeyFrame();
             scene.idle(20);
             scene.world.modifyBlock([2, 2, 2], "integrateddynamics:menril_log", true);
             scene.idleSeconds(3)
             scene.text(60, "Finally place a Arboreal Extractor directly on the center trunk", [2.0, 1.5, 1]).placeNearTarget().attachKeyFrame();
             scene.world.setBlock([2, 1, 1], "thermal:device_tree_extractor", true);
-            scene.world.modifyTileNBT([2, 1, 1], (nbt) => {
-                nbt.Active = [
-                    {
-                        Active: 1,
-                    },
-                ];
-            });
-            scene.world.modifyTileNBT([2, 1, 1], (nbt) => {
-
-                nbt.RenderFluid = [
-                    {
-                        Amount: 25,
-                        FluidName: "integrateddynamics:menril_resin",
-                    },
-                ];
-            });
+        /*
+        scene.world.modifyTileNBT([2, 1, 1], (nbt) => {
+             nbt.Active = [
+                {
+                    Active: 1,
+                }
+            ];
+        });
+        scene.world.modifyTileNBT([2, 1, 1], (nbt) => {
+            nbt.RenderFluid = [
+                {
+                    Amount: 25,
+                    FluidName: "integrateddynamics:menril_resin",
+                }
+            ];
+        });
+        */
     });
 });
 onEvent("ponder.registry", (event) => {
     event
         .create(['forbidden_arcanus:arcane_crystal_dust_speck','forbidden_arcanus:arcane_crystal_obelisk'])
         .scene(
-            "our_first_scene",
+            "obelisk",
             "Farming Arcane Crystals from Arcane Crystal Obilisks",
             "kubejs:arcane_crystal_obelisk_scene",
             (scene, util) => {
@@ -175,7 +176,7 @@ onEvent("ponder.registry", (event) => {
       });
       	event.create("forbidden_arcanus:hephaestus_forge")
 		.scene(
-			"scene_ig_idk_what_to_write_here",
+			"hephaestus",
 			"Constructing the Hephaestus Forge",
 			"kubejs:hephaestus_forge_scene",
 			(scene, util) =>{

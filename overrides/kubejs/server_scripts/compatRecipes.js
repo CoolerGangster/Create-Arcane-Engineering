@@ -178,14 +178,14 @@ onEvent('block.right_click', event =>{
 onEvent('recipes', event => {
 
     let t = 'kubejs:incomplete_cogwheel'
-    /*
+    
     event.recipes.createSequencedAssembly([
       Item.of('create:cogwheel', 16),
-    ], '#minecraft:wooden_slabs', [
+    ], 'create:shaft', [
       event.recipes.createDeploying(t, [t, '#minecraft:wooden_buttons']),
       event.recipes.createCutting(t,t)
     ]).transitionalItem('kubejs:incomplete_cogwheel').loops(4)
-    */
+    
     //event.remove({id: 'create:crafting/kinetics/large_cogwheelfrom_little'})
     event.remove({id: 'create:crafting/kinetics/belt_connector'})
     //event.shapeless('create:large_cogwheel',['create:cogwheel','#minecraft:planks'])
@@ -216,7 +216,7 @@ onEvent('recipes', event => {
     corundum.forEach(Color => {
         event.recipes.createPressing(Item.of('minecraft:' + Color + '_dye').withChance(0.33),'quark:' + Color + '_corundum_cluster')
     });
-    event.shaped('8x create:cogwheel', [ //TODO: Check if ME controller is wrenchpickupable
+    /*event.shaped('8x create:cogwheel', [ //TODO: Check if ME controller is wrenchpickupable
         'GGG',
         'GAG',
         'GGG'
@@ -232,7 +232,7 @@ onEvent('recipes', event => {
         G: '#minecraft:wooden_buttons',
         A: 'create:andesite_alloy',
         P: '#minecraft:planks'
-    })
+    })*/
     event.shaped('kubejs:screwdriver', [
         '  G',
         'PAP',
@@ -651,7 +651,7 @@ onEvent('recipes', event => {
         ['minecraft:redstone','thermal:upgrade_augment_2'],
         ['#forge:glass',Item.of("pneumaticcraft:thermal_lagging",8)],
         ['thermal:rf_coil','thermal:dynamo_lapidary'],
-        ['pneumaticcraft:fluid_mixer','pneumaticcraft:turbine_rotor'],
+        ['pneumaticcraft:turbine_rotor', 'pneumaticcraft:fluid_mixer'],
         ['minecraft:furnace','pneumaticcraft:air_compressor'],
         ['pneumaticcraft:small_tank','pneumaticcraft:liquid_compressor'],
         ['create:blaze_burner','pneumaticcraft:thermal_compressor'],
@@ -748,7 +748,8 @@ onEvent('recipes', event => {
         //Item.of('alloyedguns:complex_gun_kit')
     ]
     event.replaceInput({id: "create:crafting/kinetics/train_door"},"create:brass_sheet","create:sturdy_sheet")
-    event.replaceInput({id: "ars_creo:starbuncle_wheel"},"ars_nouveau:starbuncle_charm","ars_nouveau:starbuncle_shards")
+    event.remove({id: "ars_creo:starbuncle_wheel"})
+    event.shaped("ars_creo:starbuncle_wheel", ["XXX", "XWX", "XXX"], {X:"ars_nouveau:starbuncle_shards", W:"create:water_wheel"})
     event.replaceInput({id: "create:crafting/kinetics/train_trapdoor"},"create:brass_sheet","create:sturdy_sheet")
     //event.recipes.create.deploying('ars_nouveau:magebloom_crop',['#forge:seeds','kubejs:runic_tablet'])
     multicut(radiant_cutting,"kubejs:radiant_machine",true)
@@ -1269,6 +1270,7 @@ onEvent('recipes', event => {
     machineration('radiant','thermal:machine_frame')
     event.remove({mod:'integrateddynamics',output: "minecraft:netherrack"})
     event.remove({output: 'functionalstorage:ender_drawer'})
+    event.remove({output: /^functionalstorage\:fluid_/})
     machineration('integrational','kubejs:gold_casing')
     machineration('plastic','kubejs:zinc_casing')
     machineration('time','kubejs:enderium_casing')

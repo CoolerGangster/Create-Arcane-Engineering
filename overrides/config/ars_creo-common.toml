@@ -3,5 +3,5 @@
 wheelBaseSpeed = 16
 #Speed of the wheel with a gold block in front
 #Range: > 0
-wheelMaxSpeed = 24
+wheelMaxSpeed = 128
 

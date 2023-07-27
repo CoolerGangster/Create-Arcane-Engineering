@@ -2,6 +2,8 @@ onEvent('item.right_click',event=>{
     function lootbag(lootbag,lootable){
         if(event.item == lootbag){
             event.item.setCount(event.item.getCount()-1)
+            event.cancel()
+            event.player.swingArm(event.hand)
             event.server.runCommandSilent(`execute in ${event.level.dimension} run loot spawn ${event.player.x} ${event.player.y} ${event.player.z} loot ${lootable}`) 
             event.player.playSound('minecraft:entity.experience_orb.pickup')
             if (event.item.hasEnchantment('minecraft:fortune',1) && lootbag != 'kubejs:lootbag_poggers'){
@@ -25,4 +27,20 @@ onEvent('item.right_click',event=>{
     lootbag('kubejs:lootbag_arcane_1','cae:arcaneweak')
     lootbag('kubejs:lootbag_arcane_2','cae:arcanenormal')
     lootbag('kubejs:lootbag_arcane_3','cae:arcanetable')
+<<<<<<< HEAD
+})
+let lootbags = [
+    'kubejs:lootbag_poggers',
+    'kubejs:lootbag_create_andesite',
+    'kubejs:lootbag_create_brass',
+    'kubejs:lootbag_arcane_1',
+    'kubejs:lootbag_arcane_2',
+    'kubejs:lootbag_arcane_3'
+]
+onEvent('block.right_click', event=>{
+    if (lootbags.includes(event.item.id)) {
+        event.cancel()
+    }
+=======
+>>>>>>> dev
 })

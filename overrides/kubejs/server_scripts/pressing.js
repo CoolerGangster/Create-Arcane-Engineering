@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-  event.recipes.createCompacting('1x ' + ("thermal:rubber"), [Fluid.of(('minecraft:water'), 250), '4x #forge:vines'])
+  event.recipes.createCompacting('1x ' + ("thermal:rubber"), [Fluid.of(('minecraft:water'), 250), '4x minecraft:vine'])
   event.recipes.createCompacting('1x ' + ("thermal:rubber"), [Fluid.of(('minecraft:water'), 250), '4x #minecraft:flowers'])
   event.recipes.createCompacting('1x ' + ("thermal:rubber"), [Fluid.of(('thermal:resin'), 250)])
   event.recipes.create.compacting('forbidden_arcanus:rune', ['kubejs:rune_dust', 'kubejs:rune_dust', 'kubejs:rune_dust', 'quark:violet_corundum_cluster']).heated()

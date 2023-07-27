@@ -1,0 +1,357 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = DrippyMenuStuff/arcanebackg.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 4
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-right
+  x = -196
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 37
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 60
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = -24
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=376322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 78
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 19
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 78
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 58
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = false
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = -15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -44
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = false
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = -2
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=376346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = DrippyMenuStuff/butonselect.png
+  backgroundnormal = DrippyMenuStuff/buttonunselect.png
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 2b40794e-3635-426a-b1e3-e97be58924791687023251441
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 143
+  action = deep_customization_element:title_screen_branding
+  actionid = 2c35837f-9aa0-4ef1-83c7-414bcb8c64841687023251447
+  y = 218
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 29622cac-77cf-44d3-8cc6-9a60a2411b811687023251448
+  y = 250
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = cf3fef70-fee5-4114-a903-b31fe802b0b41687023251448
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b32ebcca-4f29-4005-aee1-0318a7d59c4a1687023251448
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-left
+  splash_color = #ffff00
+  hidden = true
+  x = 526
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 1bb396ea-9c5d-4a4f-a739-398f92ccbf791687023251448
+  y = -110
+  height = 30
+}
+
+customization {
+  path = DrippyMenuStuff/createlogo.png
+  orientation = mid-centered
+  x = -125
+  width = 248
+  action = addtexture
+  actionid = cf1cd775-d360-427d-a2f5-bb6283be47ab1687024582108
+  y = -185
+  height = 140
+}
+
+customization {
+  path = DrippyMenuStuff/trollface.png
+  orientation = top-left
+  x = 245
+  width = 148
+  action = addtexture
+  actionid = 9598441c-170b-4b1b-84a1-0245b4d301a01687028544629
+  y = 258
+  height = 99
+}
+
+customization {
+  orientation = top-left
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/7040ca3b025921b5f4b8b768fd18b26edf22ca18bb6ecc871b4bcae3884e20
+  showname = false
+  crouching = false
+  follow_mouse = true
+  x = 410
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 4c05c23e-fb2c-4e91-ad07-53938ad5bb291687025027797
+  y = 134
+  playername = PigTurtle
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+}
+
+customization {
+  path = DrippyMenuStuff/arcaneengineering.png
+  orientation = top-left
+  x = 0
+  width = 200
+  action = addtexture
+  actionid = c9e0c482-7284-4676-9921-d6a106804f1f1687024571026
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":" {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2","decimal":"false"}}-{"placeholder":"guiscale"}*50/2","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiscale"} * 50","decimal":"false"}}
+  advanced_posy = -30
+  height = 217
+}
+

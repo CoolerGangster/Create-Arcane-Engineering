@@ -37,7 +37,7 @@ function assign(array, values, random, item) {
 
 function capitalize(string) {;
 	let stringOut = "";
-	string.replace(/\_/g, " ").split(" ").forEach(substring =>{
+	string.split(/[ \_]/).forEach(substring =>{
 		substring = substring.charAt(0).toUpperCase()+substring.slice(1);
 		stringOut = stringOut + substring + " ";
 	});
@@ -338,7 +338,7 @@ onEvent('item.right_click', event =>{
 			let amtMultpl = questType[0][id][1][0]
 			let reqAmt = Math.round(amtMultpl * questType[0][id][0][2])
 			let silver = Math.round((amtMultpl * questType[0][id][0][1]) + questType[0][id][1][1] + taskCost)
-			let currentAmt = event.player.inventory.count(reqItem)
+			let currentAmt = event.player.inventory.count(Item.of(reqItem).ignoreNBT())
 			if (currentAmt < reqAmt) {
 				event.player.setStatusMessage("§7You need§r " + (reqAmt - currentAmt).toString() + " §7more§r " + capitalize(reqItem.replace(/^.*\:/, "")) + "§7to complete this Quest!")
 				event.player.swingArm(MAIN_HAND)
@@ -352,13 +352,13 @@ onEvent('item.right_click', event =>{
 			if (!event.player.creativeMode) {event.item.count--}
 			let toTake = reqAmt
 			while (toTake > 0) {
-				let slotAmt = event.player.inventory.get(event.player.inventory.find(reqItem)).count
+				let slotAmt = event.player.inventory.get(event.player.inventory.find(Item.of(reqItem).ignoreNBT())).count
 				if (toTake <= slotAmt) {
-					event.player.inventory.extract(event.player.inventory.find(reqItem), toTake, false)
+					event.player.inventory.extract(event.player.inventory.find(Item.of(reqItem).ignoreNBT()), toTake, false)
 					toTake = 0
 					break
 				}
-				event.player.inventory.extract(event.player.inventory.find(reqItem), slotAmt, false)
+				event.player.inventory.extract(event.player.inventory.find(Item.of(reqItem).ignoreNBT()), slotAmt, false)
 				toTake -= slotAmt
 			}
 			event.player.giveInHand(Item.of("thermal:silver_coin", silver))

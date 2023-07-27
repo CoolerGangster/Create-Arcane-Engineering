@@ -15,7 +15,7 @@ onEvent('recipes', event => {
         else{randomrecipe(I,n,N,id,Math.floor(Math.random()*6),h)}
     }
     event.recipes.create.cutting(Item.of('kubejs:fragment_of_patience',`{display:{Name:'{\"text\":\"Fragment Of Patience, §6Stage:${1}/${global.patience}\"}'}}`).withNBT('\{stage:1\}'),Item.of('kubejs:fragment_of_patience').withNBT('\{stage: \}'))
-    event.recipes.create.deploying([Item.of("kubejs:lootbag_poggers").withChance(1/1000),Item.of('kubejs:fragment_of_patience'),Item.of('create:chocolate_glazed_berries',1).withChance(1/4),Item.of('minecraft:barrel', "{RepairCost:0,display:{Name:'{\"text\":\"Barrel Of Patience\"}'}}").enchant('minecraft:looting',2).withChance(1/2)],[Item.of('kubejs:fragment_of_patience',`{display:{Name:'{\"text\":\"Fragment Of Patience, §6Stage:${global.patience}/${global.patience}\"}'}}`).withNBT('\{stage:12\}'),"minecraft:iron_ingot"])
+    event.recipes.create.deploying([Item.of("kubejs:lootbag_poggers").withChance(1/1000),Item.of('kubejs:fragment_of_patience'),Item.of('create:chocolate_glazed_berries',1).withChance(1/4),Item.of('minecraft:barrel', "{RepairCost:0,display:{Name:'{\"text\":\"Barrel Of Patience\"}'}}").enchant('minecraft:looting',2).withChance(1/2)],[Item.of('kubejs:fragment_of_patience',`{display:{Name:'{\"text\":\"Fragment Of Patience, §6Stage:${global.patience}/${global.patience}\"}'}}`).withNBT('\{stage:5\}'),"minecraft:iron_ingot"])
     for (let i = 1; i < global.patience; i++) {
         randomrecipe("kubejs:fragment_of_patience",`\{stage:${i}\}`,`{\stage:${i+1}\}`,"cae:test_of_fortnite_"+i,Math.floor(Math.random()*6),i)
         

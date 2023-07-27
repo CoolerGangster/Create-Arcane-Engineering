@@ -43,5 +43,5 @@ onEvent('block.right_click', event =>{
 	
 })
 onEvent('recipes', event =>{
-	event.shapeless("kubejs:alloy_radar",["2x minecraft:stick","minecraft:iron_ingot"])
+	event.shaped("kubejs:alloy_radar",["SIS", " S ", " S "],{I: "minecraft:iron_ingot", S: "minecraft:stick"})
 })
