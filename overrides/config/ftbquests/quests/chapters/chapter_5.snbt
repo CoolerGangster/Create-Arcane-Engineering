@@ -62,13 +62,8 @@
 			}]
 		}
 		{
-<<<<<<< HEAD
-			x: 1.5d
-			y: -8.0d
-=======
 			x: -5.0d
 			y: -4.5d
->>>>>>> dev
 			subtitle: "If you fail the arcane orb progression, this will get voided. Otherwise, you only have to craft this once."
 			dependencies: [
 				"42100A7B11245314"
@@ -94,13 +89,8 @@
 			}]
 		}
 		{
-<<<<<<< HEAD
-			x: 4.0d
-			y: -3.5d
-=======
 			x: -1.5d
 			y: -3.0d
->>>>>>> dev
 			subtitle: "Will void the spawner core if you dont give it enough energy :) Make sure you give it atleast 240k FE"
 			dependencies: [
 				"5EB72FD510377EC9"
@@ -115,13 +105,8 @@
 		}
 		{
 			title: "The Entity"
-<<<<<<< HEAD
-			x: 5.5d
-			y: -5.0d
-=======
 			x: -1.5d
 			y: -1.0d
->>>>>>> dev
 			subtitle: "Pure Arcane Crystalized for a moment. Quick! You have 20 Seconds to charge it with lightning before it dissapears again."
 			dependencies: [
 				"71286756060D717D"
@@ -198,13 +183,8 @@
 			}]
 		}
 		{
-<<<<<<< HEAD
-			x: 5.5d
-			y: -3.5d
-=======
 			x: -1.5d
 			y: 0.5d
->>>>>>> dev
 			subtitle: "Runic Tablets create lightning when used on a block!"
 			dependencies: ["29D5D3CF2BB3175D"]
 			dependency_requirement: "one_completed"
@@ -292,13 +272,8 @@
 			}]
 		}
 		{
-<<<<<<< HEAD
-			x: 6.5d
-			y: -4.5d
-=======
 			x: 0.0d
 			y: 0.0d
->>>>>>> dev
 			subtitle: "Explode TNT or a Disrputive explosive nearby.)"
 			dependencies: [
 				"099F5D860FC50376"
@@ -314,13 +289,8 @@
 		}
 		{
 			title: "Arcane Washing"
-<<<<<<< HEAD
-			x: 7.5d
-			y: -7.0d
-=======
 			x: 2.0d
 			y: -1.5d
->>>>>>> dev
 			subtitle: "Have the Entity pass through Liquid Space Time while on top of a black hole. Will Absorb both."
 			dependencies: [
 				"13F4DF742237B0E5"
@@ -359,13 +329,8 @@
 		}
 		{
 			title: "Singularity"
-<<<<<<< HEAD
-			x: 7.5d
-			y: -5.5d
-=======
 			x: 2.0d
 			y: 1.5d
->>>>>>> dev
 			subtitle: "Throwing together Corrupti Dust and Dark Matter will create a black hole."
 			dependencies: [
 				"0162D63ABBC042E4"
@@ -385,13 +350,8 @@
 		{
 			title: "Cashout!"
 			icon: "cae:orb_spawn_egg"
-<<<<<<< HEAD
-			x: 8.5d
-			y: -9.0d
-=======
 			x: 3.5d
 			y: -2.5d
->>>>>>> dev
 			subtitle: "Its cashout time, the entity is severly destabilized and will need to be fueled with 7 Singularities in the span of 5 seconds to convert to a Orb of Flight, which will be important later."
 			dependencies: [
 				"4BCEB0647E3CD6D6"
@@ -406,13 +366,8 @@
 		}
 		{
 			title: "Any Explosive"
-<<<<<<< HEAD
-			x: 8.5d
-			y: -1.5d
-=======
 			x: 3.5d
 			y: 3.5d
->>>>>>> dev
 			subtitle: "Spoiler: Every type of explosion counts"
 			dependencies: [
 				"1874AF18742915E4"
@@ -593,13 +548,8 @@
 			}]
 		}
 		{
-<<<<<<< HEAD
-			x: 10.0d
-			y: -8.0d
-=======
 			x: 6.5d
 			y: -4.5d
->>>>>>> dev
 			subtitle: "And so the cycle continues..."
 			dependencies: ["384BA5BB43FE6F50"]
 			id: "0D00E6C71CA81848"
