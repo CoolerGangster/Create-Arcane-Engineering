@@ -35,7 +35,6 @@
 	]
 	quests: [
 		{
-			title: "Raw PCB Board"
 			x: 5.5d
 			y: 9.5d
 			dependencies: ["7EC64303FE143A81"]
@@ -47,7 +46,6 @@
 			}]
 		}
 		{
-			title: "Circuited PCB"
 			x: 5.5d
 			y: 10.5d
 			dependencies: ["4591B97FD28E4CD3"]
@@ -65,7 +63,6 @@
 			}]
 		}
 		{
-			title: "Treated PCB"
 			x: 5.5d
 			y: 20.5d
 			dependencies: [
@@ -133,7 +130,7 @@
 			}]
 		}
 		{
-			title: "PCB Legend Printer"
+			title: "使用钻头进行电器测试"
 			x: 4.5d
 			y: 19.0d
 			dependencies: ["33EE3A37662B9544"]
@@ -147,7 +144,7 @@
 		{
 			x: 6.5d
 			y: 7.5d
-			subtitle: "Why is a blueprint more expensive than the entire chapter?"
+			subtitle: "为什么蓝图比整个章节更贵？"
 			dependencies: [
 				"59ABD340BDE8BB7A"
 				"1EA0D68D000F3F66"
@@ -179,10 +176,10 @@
 			}]
 		}
 		{
-			title: "Solder Mask"
+			title: "注液"
 			x: 4.5d
 			y: 15.0d
-			subtitle: "Mix anthraquinone with green dye to create Green PCB Dye (no, you're not allowed more colors)"
+			subtitle: "将蒽醌与绿色染料混合，制成绿色染料液体（不，不允许添加其他颜色）"
 			description: [""]
 			dependencies: [
 				"13CEF692B9FB1794"
@@ -207,7 +204,7 @@
 			}]
 		}
 		{
-			title: "Electrical Tests"
+			title: "使用钻头进行电器测试"
 			x: 4.5d
 			y: 21.0d
 			dependencies: ["298CEF160DE9001A"]
@@ -227,7 +224,6 @@
 			]
 		}
 		{
-			title: "Mystery PCB"
 			x: 5.5d
 			y: 21.5d
 			dependencies: ["4A65497930CBBA31"]
@@ -243,7 +239,7 @@
 			x: 5.5d
 			y: 5.0d
 			shape: "hexagon"
-			subtitle: "Your gate to becoming absolutely unstoppable... Good luck!"
+			subtitle: "你将成为绝对不可阻挡的... 祝你好运"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			size: 1.3d
@@ -267,7 +263,7 @@
 			}]
 		}
 		{
-			title: "Plastic Board"
+			title: "塑料板"
 			x: 5.5d
 			y: 6.5d
 			shape: "rsquare"
@@ -337,7 +333,6 @@
 			}]
 		}
 		{
-			title: "Dried PCB"
 			x: 5.5d
 			y: 16.5d
 			dependencies: ["22FE7C36C4E5A0D9"]
@@ -354,7 +349,7 @@
 			}]
 		}
 		{
-			title: "Centrifuge off Impurities"
+			title: "离心"
 			x: 4.5d
 			y: 13.0d
 			dependencies: ["62E308A788ABBC30"]
@@ -392,7 +387,7 @@
 		{
 			x: 1.0d
 			y: 15.0d
-			subtitle: "There are a few ways to get Lime Dye. Corundum and Cactus are the most common ones."
+			subtitle: "获得染料的方法。最常见的是刚玉和仙人掌。"
 			dependencies: ["13D5724A77F71BE7"]
 			id: "079818C1C5FD02A1"
 			tasks: [{
@@ -402,7 +397,7 @@
 			}]
 		}
 		{
-			title: "Dry the PCB"
+			title: "哄干印刷电路板"
 			x: 4.5d
 			y: 16.0d
 			dependencies: ["460EAFA39878746B"]
@@ -416,7 +411,7 @@
 		{
 			x: 3.5d
 			y: 11.0d
-			subtitle: "Etching Acid is consumed very slowly. You may be okay simply refilling it manually."
+			subtitle: "蚀刻酸的消耗非常缓慢。您只需手动加注即可。"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "6D68CB52EC9B836B"
@@ -429,7 +424,7 @@
 		{
 			x: 3.5d
 			y: 8.0d
-			subtitle: "Copper from Copper Veins"
+			subtitle: "从铜矿脉中提取铜"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "76AE581955BC00E6"
@@ -451,7 +446,6 @@
 			}]
 		}
 		{
-			title: "Washed PCB"
 			x: 5.5d
 			y: 12.5d
 			dependencies: ["1EA72478B9C95D6F"]
@@ -480,7 +474,7 @@
 			}]
 		}
 		{
-			title: "Chromatic Waste"
+			title: "异彩废料"
 			x: 2.5d
 			y: 13.0d
 			dependencies: ["21669356755554C4"]
@@ -493,7 +487,6 @@
 			}]
 		}
 		{
-			title: "Cleaned PCB"
 			x: 5.5d
 			y: 13.5d
 			dependencies: ["21669356755554C4"]
@@ -512,7 +505,7 @@
 		{
 			x: 6.5d
 			y: 14.5d
-			subtitle: "Another one."
+			subtitle: "还有一个"
 			hide_dependency_lines: false
 			dependencies: ["72758D7CA23C80A7"]
 			dependency_requirement: "all_started"
@@ -526,7 +519,7 @@
 		{
 			x: 6.5d
 			y: 17.5d
-			subtitle: "And another one. (DJ KHALED)"
+			subtitle: "还有更多"
 			dependencies: ["72758D7CA23C80A7"]
 			id: "0F6E4018EA415C55"
 			tasks: [{
@@ -536,7 +529,6 @@
 			}]
 		}
 		{
-			title: "Legended PCB"
 			x: 5.5d
 			y: 19.5d
 			dependencies: ["6A22FF7811CCB20C"]
@@ -555,7 +547,7 @@
 		{
 			x: 9.0d
 			y: 17.0d
-			subtitle: "Living life in the fast lane"
+			subtitle: "在快车道上生活"
 			dependencies: ["3F5D372F7552D3DC"]
 			id: "15CC7068585F0644"
 			tasks: [{
@@ -565,7 +557,7 @@
 			}]
 		}
 		{
-			title: "Wash it"
+			title: "洗涤电路板"
 			x: 4.5d
 			y: 23.0d
 			dependencies: ["7FE09E8E7313C5AE"]
@@ -577,7 +569,6 @@
 			}]
 		}
 		{
-			title: "Washed PCB"
 			x: 5.5d
 			y: 23.5d
 			dependencies: ["0AF9D6E9290BB43B"]
@@ -632,7 +623,7 @@
 		{
 			x: 9.0d
 			y: 7.5d
-			subtitle: "From Gold Veins, or Ochrum Geodes"
+			subtitle: "来自金矿脉"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "3F5D372F7552D3DC"
@@ -645,7 +636,7 @@
 		{
 			x: 8.5d
 			y: 6.5d
-			subtitle: "The Quartz Cycle"
+			subtitle: "石英再生"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "014E4EB185583182"
@@ -658,7 +649,7 @@
 		{
 			x: 8.5d
 			y: 8.5d
-			subtitle: "From Diamond Veins"
+			subtitle: "来自钻石矿脉"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "6918346C3A8402BB"
@@ -683,7 +674,6 @@
 			}]
 		}
 		{
-			title: "PCB Legend Assembly Package"
 			x: 5.5d
 			y: 18.5d
 			dependencies: [
@@ -698,7 +688,7 @@
 			}]
 		}
 		{
-			title: "Finally. Let it Dry."
+			title: "哄干"
 			x: 4.5d
 			y: 24.0d
 			dependencies: ["24013103D8F4E370"]
@@ -717,7 +707,6 @@
 			]
 		}
 		{
-			title: "Masked PCB"
 			x: 5.5d
 			y: 15.5d
 			dependencies: [
@@ -752,7 +741,7 @@
 			}]
 		}
 		{
-			title: "Masking Fluid"
+			title: "制作液态染料"
 			x: 2.0d
 			y: 15.0d
 			dependencies: [
@@ -838,7 +827,6 @@
 			}]
 		}
 		{
-			title: "Corundum Generator"
 			x: -1.5d
 			y: 15.0d
 			dependencies: ["19232B8B77F86AF8"]
@@ -851,7 +839,7 @@
 			}]
 		}
 		{
-			title: "PCB Unboxing (no way guys!!!)"
+			title: "用砂纸打磨后观察内部"
 			x: 4.5d
 			y: 22.0d
 			dependencies: [
@@ -866,7 +854,6 @@
 			}]
 		}
 		{
-			title: "Succesfully Tested PCB"
 			x: 5.5d
 			y: 22.5d
 			dependencies: ["4F690F3748BBC3A8"]
@@ -878,7 +865,7 @@
 			}]
 		}
 		{
-			title: "Sandpaper"
+			title: "砂纸"
 			x: 12.0d
 			y: 22.0d
 			dependencies: ["644EDAE9FDFEC63B"]
@@ -886,7 +873,7 @@
 			tasks: [{
 				id: "2344CE852CFC0BFF"
 				type: "item"
-				title: "Any #create:sandpaper"
+				title: "任何标签为 #create:sandpaper 的物品"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -897,7 +884,6 @@
 			}]
 		}
 		{
-			title: "Dried PCB Stack"
 			x: 5.5d
 			y: 17.5d
 			dependencies: ["30C79FCF9E7B348E"]
@@ -909,7 +895,7 @@
 			}]
 		}
 		{
-			title: "Stack the boards once again."
+			title: "压缩它们"
 			x: 4.5d
 			y: 17.0d
 			dependencies: ["57AC7DE0EEE771C2"]
@@ -921,7 +907,6 @@
 			}]
 		}
 		{
-			title: "Cleaned PCB Stack"
 			x: 5.5d
 			y: 14.5d
 			dependencies: ["175A4432692BFC67"]
@@ -933,7 +918,7 @@
 			}]
 		}
 		{
-			title: "Stack the boards."
+			title: "压缩"
 			x: 4.5d
 			y: 14.0d
 			dependencies: ["0631B96ACBB1D530"]
@@ -947,7 +932,6 @@
 		{
 			x: -0.5d
 			y: 14.0d
-			subtitle: "Crystal Growing Based Corundum Duping"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "39E17CE31F4A0980"
@@ -970,7 +954,7 @@
 			}]
 		}
 		{
-			title: "Apply ENIG Surface Treatment"
+			title: "进行镍金处理"
 			x: 4.5d
 			y: 20.0d
 			dependencies: [
@@ -985,11 +969,11 @@
 			}]
 		}
 		{
-			title: "Drilling Machines: Your goto friend for this lovely chapter."
+			title: "矿物钻井： 您的好朋友"
 			x: 5.5d
 			y: 4.0d
 			shape: "diamond"
-			subtitle: "How am I gonna get all of those Materials renewably? You might ask, well fear not. The Drilling Machine is Here! Create a vast network of Trains to unify into your Factory."
+			subtitle: "我怎样才能可循环地获得所有这些材料？你可能会问，不用怕。钻孔机就在这里！创建一个庞大的火车网络，将它们统一到你的工厂中。"
 			dependencies: ["3CB202406B401D8B"]
 			hide: true
 			id: "675C4C0F98A750CC"
