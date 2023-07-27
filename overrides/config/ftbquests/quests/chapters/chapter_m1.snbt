@@ -159,7 +159,6 @@
 			y: 0.0d
 			shape: "diamond"
 			dependencies: ["27B730C6CD9D0B95"]
-			progression_mode: "flexible"
 			id: "281CA0D5110C3959"
 			tasks: [{
 				id: "234B6421229C1CAD"

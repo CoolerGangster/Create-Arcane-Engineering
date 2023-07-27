@@ -70,7 +70,7 @@ onEvent('item.registry', event => {
 		{ in: S(64), out: G(1) }
 	], true)
 
-	let DATAGEN_QUESTS = true
+	let DATAGEN_QUESTS = false
 
 	let data = []
 	let group_max_width = []
