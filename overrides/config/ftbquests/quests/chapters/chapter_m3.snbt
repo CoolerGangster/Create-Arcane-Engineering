@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 7
 	filename: "chapter_m3"
-	title: "Chapter MIII: Chronical Chaos"
+	title: "魔法第三章:永恒混沌"
 	icon: "forbidden_arcanus:arcane_gilded_darkstone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -37,7 +37,7 @@
 		{
 			x: -1.5d
 			y: -4.0d
-			subtitle: "Haunt Blackstone, Polish it, and apply arcane gold ingots."
+			subtitle: "通过缠魂获得黑石，抛光它，然后涂上神秘金锭"
 			dependencies: [
 				"45F57414659E044E"
 				"15C83F2E7CA1E295"
@@ -52,7 +52,7 @@
 		{
 			x: -3.0d
 			y: -2.5d
-			subtitle: "A powerful catalyst known to occasionally corrupt people's sanity."
+			subtitle: "一种强大的催化剂，偶尔会腐蚀人们的理智"
 			dependencies: [
 				"3E7D072F1C7A0B14"
 				"191EE221A8EEE8F3"
@@ -79,7 +79,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			subtitle: "You need about 18 Dust Specs to be processed back into Arcane Crystal Blocks, where the rest needs to go into the Dust Processing to fully Sustain a Arcane Obilisk Cycle"
+			subtitle: "您需要大约 18 个神秘水晶粉末颗粒才能加工回神秘水晶方块，其余的需要进入神秘水晶粉末处理以完全维持奥术方石碑循环"
 			dependencies: ["09E4D27B89F783CF"]
 			dependency_requirement: "one_completed"
 			id: "19EAE1780E1BAB55"
@@ -92,7 +92,7 @@
 		{
 			x: -3.0d
 			y: -1.0d
-			subtitle: "Combine Arcane Crystal dust specs into Arcane Crystal Dusts"
+			subtitle: "将神秘水晶粉尘颗粒合成为神秘水晶粉尘"
 			dependencies: ["19EAE1780E1BAB55"]
 			id: "3E7D072F1C7A0B14"
 			tasks: [{
@@ -110,7 +110,7 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Spout and press Aureal Essence onto Arcane Crystal Dust to form precious Arcane Crystals."
+			subtitle: "将耀金精华喷出并按压到神秘水晶粉末上，形成珍贵的神秘水晶"
 			dependencies: [
 				"19EAE1780E1BAB55"
 				"718F45CF4E3C8A7E"
@@ -150,7 +150,7 @@
 			]
 		}
 		{
-			title: "The Arcane Crystal Obelisk Cycle"
+			title: "神秘水晶方尖碑循环"
 			x: -1.5d
 			y: -2.5d
 			dependencies: ["69F021C402A96487"]
@@ -200,7 +200,7 @@
 		{
 			x: -4.5d
 			y: 0.5d
-			subtitle: "By deploying Arcane Dust onto a Dark Soul, one shall obtain a Corrupted Pixie"
+			subtitle: "通过对暗魂使用奥术之尘，可以获得一个腐化精灵"
 			dependencies: ["343F18E9136A3324"]
 			dependency_requirement: "one_completed"
 			id: "3D65558184A6EA1E"
@@ -234,7 +234,7 @@
 		{
 			x: -6.0d
 			y: -1.5d
-			subtitle: "By right clicking or using a Deployer on Soul Sand Block with a Soul Extractor, the sand will be relieved of its soul, returning it into its Soulless state"
+			subtitle: "通过右键单击或使用带有灵魂提取器的机械手在灵魂沙上，灵魂沙将释放其灵魂，使其恢复到无灵魂状态"
 			dependencies: [
 				"7D833DBB735C2FEC"
 				"76D6D1770639319E"
@@ -249,7 +249,7 @@
 		{
 			x: -5.0d
 			y: -1.0d
-			subtitle: "Simply Haunt a Soul"
+			subtitle: "简单地缠魂一个灵魂"
 			dependencies: [
 				"3E7D072F1C7A0B14"
 				"57AFEA6EFF00F4FB"
@@ -263,10 +263,10 @@
 			}]
 		}
 		{
-			title: "Corrupted Pixie Jar"
+			title: "腐化精灵瓶罐"
 			x: -3.0d
 			y: 1.0d
-			subtitle: "Rightclick with a corrupted pixie onto a Utrem Jar. Also works with deployers."
+			subtitle: "用腐化精灵右键瓶罐。还可以与机械手一起使用"
 			dependencies: ["3D65558184A6EA1E"]
 			id: "3F0798A77108E733"
 			tasks: [{
@@ -276,10 +276,10 @@
 			}]
 		}
 		{
-			title: "Pixie Jar"
+			title: "精灵瓶罐"
 			x: -1.5d
 			y: 1.0d
-			subtitle: "Washing a Corrupted Pixie Jar will purify it, leaving behind a jar with a normal pixie."
+			subtitle: "洗涤腐化精灵瓶罐可以净化它，留下一个装有正常精灵的瓶罐"
 			dependencies: ["3F0798A77108E733"]
 			id: "7614A2AE1D024BF4"
 			tasks: [{
@@ -289,17 +289,17 @@
 			}]
 		}
 		{
-			title: "Get a Wraith"
+			title: "获得一个游魂"
 			x: -8.0d
 			y: -2.0d
-			subtitle: "*you should probably get more than just one* (and you should nametag your wraiths)"
+			subtitle: "*你可能应该弄不止一个*（并且你应该给你的游魂贴上名字标签）"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "79B2BD8F7999E19F"
 			tasks: [{
 				id: "142394A47DA715D5"
 				type: "observation"
-				title: "Find a wraith in a soulsand valley"
+				title: "在灵魂沙峡谷寻找游魂"
 				icon: "quark:wraith_spawn_egg"
 				timer: 0L
 				observe_type: 5
@@ -315,7 +315,7 @@
 		{
 			x: -7.0d
 			y: -0.5d
-			subtitle: "A Wraith standing on Soulless Sand will convert the block into Soul Sand (the wraith is unaffected)"
+			subtitle: "游魂站在失魂沙上会将其转化为灵魂沙（游魂不受影响）"
 			dependencies: [
 				"7FC6F7E88224DA53"
 				"79B2BD8F7999E19F"
@@ -376,7 +376,7 @@
 		{
 			x: -7.0d
 			y: -4.0d
-			subtitle: "Bulk Wash Soulsand for GOLD!"
+			subtitle: "大量洗涤灵魂沙即可获得黄金！"
 			dependencies: ["7D833DBB735C2FEC"]
 			id: "66B319ACF0228A32"
 			tasks: [{
@@ -422,7 +422,7 @@
 		{
 			x: 0.0d
 			y: 1.0d
-			subtitle: "By Draining a Pure Pixie Jar, you will obtain Aureal Essence"
+			subtitle: "通过分液精灵瓶罐，你将获得耀金精华"
 			dependencies: [
 				"783A2252E79DF746"
 				"7614A2AE1D024BF4"
@@ -481,14 +481,14 @@
 			x: -1.5d
 			y: -6.5d
 			shape: "square"
-			subtitle: "Have a drink to calm down."
+			subtitle: "喝点冷静一下"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "2082FF7C812BF843"
 			tasks: [{
 				id: "352F4A18E1001BDE"
 				type: "checkmark"
-				title: "Its not as bad as it looks...."
+				title: "它并不像看起来那么糟糕......"
 			}]
 			rewards: [{
 				id: "7B999BFADC837052"
@@ -500,7 +500,7 @@
 		{
 			x: 2.8d
 			y: 0.0d
-			subtitle: "Cool placeholder item"
+			subtitle: "很酷的占位符"
 			dependencies: [
 				"718F45CF4E3C8A7E"
 				"7E9E78A1997AB84E"

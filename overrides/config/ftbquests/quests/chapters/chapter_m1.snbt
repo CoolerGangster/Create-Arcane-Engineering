@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 5
 	filename: "chapter_m1"
-	title: "Chapter MI: Crystalline Captivation"
+	title: "魔法第一章:晶莹剔透"
 	icon: "quark:violet_corundum"
 	tags: ["corundum"]
 	default_quest_shape: ""
@@ -112,7 +112,7 @@
 			tasks: [{
 				id: "71790AA0B67F41EE"
 				type: "item"
-				title: "Any #quark:corundum"
+				title: "任何标签为 #quark:corundum 的物品"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -129,10 +129,10 @@
 			}]
 		}
 		{
-			title: "Place a Spout Above a Corundum Block"
+			title: "将注液器放置在刚玉块上方"
 			x: 18.0d
 			y: -1.0d
-			subtitle: "Fill the spout with water and you'll see it actually spouting onto the block below! Has to be below y20."
+			subtitle: "将注液器装满水，您会看到它竟然喷到下面的方块上！必须低于 y20 刚玉才会生长"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "27B730C6CD9D0B95"
@@ -163,7 +163,7 @@
 			tasks: [{
 				id: "234B6421229C1CAD"
 				type: "item"
-				title: "Any #quark:corundum"
+				title: "任何标签为 #quark:corundum 的物品"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -181,7 +181,7 @@
 			tasks: [{
 				id: "168F4B7C0C57FC64"
 				type: "item"
-				title: "Any #forge:corundum_clusters"
+				title: "任何标签为 #forge:corundum_clusters 的物品"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -382,7 +382,7 @@
 			tasks: [{
 				id: "627B88154BE2D489"
 				type: "item"
-				title: "Any #forbidden_arcanus:runic_stones"
+				title: "任何标签为 #forbidden_arcanus:runic_stones 的物品"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

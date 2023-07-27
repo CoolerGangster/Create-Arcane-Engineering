@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 1
 	filename: "chapter_1_the_andesite_age"
-	title: "Chapter I: Alluring Allusions"
+	title: "第一章:诱人典故"
 	icon: "create:andesite_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -37,7 +37,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			subtitle: "Rejuvenation of Menril Shrubs. Smelting of Gravel"
+			subtitle: "恢复门瑞欧灌木的活力。熔炼砂砾"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "2A9D3B99068D645B"
 			tasks: [{
@@ -56,20 +56,20 @@
 			x: 6.0d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "Precrafting items will be a reoccuring theme in this pack. In order to start out you'll need to gather some Kinetic Mechanisms through the crafting table."
+			subtitle: "自动化制作物品是这个整合包中的一个重要主题。为了开始，你需要通过工作台制作一些动力构件。"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "47EFBCDC513EE52D"
 			tasks: [{
 				id: "49DB7CB3F8D4F1BB"
 				type: "checkmark"
-				title: "Time to speedrun some machines!"
+				title: "是时候加速制作一些机器了！"
 			}]
 		}
 		{
 			x: 6.0d
 			y: 2.0d
-			subtitle: "Haha pull item"
+			subtitle: "哈哈！抽取物品"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "734F9602172ABF67"
 			tasks: [{
@@ -81,7 +81,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
-			subtitle: "Andesite Alloy Mixing"
+			subtitle: "搅拌安山合金"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "24F0C49370DE673C"
 			tasks: [
@@ -103,10 +103,10 @@
 			}]
 		}
 		{
-			title: "[Optional] Deployers."
+			title: "[可选] 机械手"
 			x: 6.0d
 			y: 3.0d
-			subtitle: "Assembling mechanisms and tree farming. This needs brass, so perhaps a smeltery can do the trick? (Chapter 2 Hosts more info on Brass creation.)"
+			subtitle: "制作构件与种植树木，这需要一些黄铜，也许冶炼炉能派上用场？(第二章提供了更多关于黄铜制造的信息）"
 			dependencies: [
 				"47EFBCDC513EE52D"
 				"11DAEE7A3CD9F8B6"
@@ -124,11 +124,11 @@
 			}]
 		}
 		{
-			title: "Chapter 1"
+			title: "第一章"
 			x: 0.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "Let the journey begin!"
+			subtitle: "正式开始！"
 			min_required_dependencies: 3
 			dependencies: [
 				"3193DF57DE756299"
@@ -164,10 +164,10 @@
 			]
 		}
 		{
-			title: "The Saw"
+			title: "锯子"
 			x: 2.0d
 			y: 4.0d
-			subtitle: "Sawcon"
+			subtitle: "锯"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3193DF57DE756299"
@@ -187,12 +187,8 @@
 			x: 0.0d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Extract resin from Trees using Arboreal Extractors."
-<<<<<<< HEAD
-			dependencies: ["3B25D99BFA2C928C"]
-=======
+			subtitle: "使用树液提取器从树上提取树脂."
 			dependencies: ["6EFF8BCEBC2E2AF2"]
->>>>>>> dev
 			hide: true
 			id: "146F8C2D929D7A9E"
 			tasks: [{
@@ -230,7 +226,7 @@
 			}]
 		}
 		{
-			title: "Chapter 1b"
+			title: "第一章支线"
 			x: 0.0d
 			y: 11.0d
 			shape: "gear"
@@ -269,11 +265,11 @@
 			]
 		}
 		{
-			title: "[Optional] Menril Enriched Rubber"
+			title: "[可选] 门瑞欧富集橡胶"
 			x: 1.0d
 			y: 10.0d
-			subtitle: "Doubles the output"
-			description: ["There is ponder integration for the Menril Bucket, if you're having issues try pondering it!)"]
+			subtitle: "双倍产出"
+			description: ["门瑞欧树脂接入了思索功能，如果您遇到问题，请尝试思索一下！)"]
 			dependencies: [
 				"162780AD2FB145CB"
 				"1C3021BFBCB35C4C"
@@ -302,7 +298,7 @@
 		{
 			x: -1.0d
 			y: 10.0d
-			subtitle: "Ugh, finally, belts!"
+			subtitle: "唉，终于有传送带了！"
 			dependencies: ["6C5277004B0E4431"]
 			id: "7586DAB7F4E3BC7A"
 			tasks: [{
@@ -314,7 +310,7 @@
 		{
 			x: -3.5d
 			y: 9.0d
-			subtitle: "Finally, ID juice"
+			subtitle: "汁液"
 			dependencies: ["5561DB673DBC0A77"]
 			id: "58C607BC03069CB5"
 			tasks: [{
@@ -326,7 +322,7 @@
 		{
 			x: -4.5d
 			y: 9.0d
-			subtitle: "Rubber and Menril"
+			subtitle: "橡胶和门瑞欧"
 			dependencies: ["5561DB673DBC0A77"]
 			dependency_requirement: "all_started"
 			id: "14892D9D3ADFB68E"
@@ -346,7 +342,7 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			subtitle: "Menril Saplings"
+			subtitle: "门瑞欧树苗"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "6B94C01AF316B9CB"
 			tasks: [{
@@ -364,7 +360,7 @@
 			icon: "integrateddynamics:menril_sapling"
 			x: 1.0d
 			y: 8.5d
-			subtitle: "Ponder the Arboreal Extractor to see how it works!"
+			subtitle: "思索一下树液提取器来看看如何使用！"
 			dependencies: ["4FDF0A226DCE7DF3"]
 			hide: true
 			id: "162780AD2FB145CB"
@@ -382,7 +378,7 @@
 			]
 		}
 		{
-			title: "May I interest you in a optional route for 2x output?"
+			title: "我可以向您推荐一条双倍产出的可选路线吗？"
 			x: 1.0d
 			y: 7.5d
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -395,10 +391,10 @@
 			}]
 		}
 		{
-			title: "Mechanical Saw(con)"
+			title: "动力锯"
 			x: 7.0d
 			y: 1.0d
-			subtitle: "Tree Cutting. Recommended you do this with a contraption."
+			subtitle: "砍树。建议你用一个动力装置来完成。"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "415E7158F0514C8D"
 			tasks: [{
@@ -413,12 +409,12 @@
 			}]
 		}
 		{
-			title: "Common Concerns"
+			title: "常见问题"
 			icon: "architects_palette:hazard_sign"
 			x: 0.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "While the early chapters look similar to Above & Beyond, the pack diverges wildly as you progress."
+			subtitle: "虽然前面的章节看起来CAB相似，但随着发展，整合包的内容却大相径庭。"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			size: 1.5d
@@ -426,7 +422,7 @@
 			tasks: [{
 				id: "2CE418D4038C1E4B"
 				type: "checkmark"
-				title: "Hey, youre cool. Have a cookie!"
+				title: "嘿，你很酷。吃块饼干吧"
 			}]
 			rewards: [
 				{
@@ -442,11 +438,11 @@
 			]
 		}
 		{
-			title: "Cant find any Andesite or Diorite? We got you."
+			title: "找不到安山岩或闪长岩？"
 			x: 1.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Andesite is most commonly found in Forest biome and you can find andesite super easily by using a Nature's Compass and using it to search for an Andesite Caves biome. If you have a hard time regardless, try using the Alloy Radar. It will scan a chunk for the blocks."
+			subtitle: "安山岩最常见于森林生物群系，使用自然罗盘搜索安山岩洞穴生物群系，就能轻松找到安山岩。如果您很难找到安山岩，可以尝试使用合金雷达。它可以扫描区块中的安山岩。"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "45875AB5349E8E94"
@@ -496,7 +492,7 @@
 			tasks: [{
 				id: "68BA6546139A0B3C"
 				type: "checkmark"
-				title: "The Copper Age Speedrun"
+				title: "铜器时代"
 			}]
 		}
 		{
@@ -559,29 +555,25 @@
 			}]
 		}
 		{
-			title: "Runic Tablet + Empty Blaze Burner = Blaze Burner"
+			title: "符文石碑 + 空烈焰人燃烧室 = 烈焰人燃烧室"
 			x: 6.0d
 			y: 5.5d
-			subtitle: "Requires brass to craft the Runic Tablet through Chapter m1!"
-<<<<<<< HEAD
-			dependencies: ["74A44C35A73EB298"]
-=======
+			subtitle: "在魔法第一章之前需要使用黄铜来制作符文之碑"
 			dependencies: ["3BAD2CEF1245F202"]
->>>>>>> dev
 			hide: true
 			id: "03B32FBE53374954"
 			tasks: [{
 				id: "56B26958D30E9BD3"
 				type: "item"
-				title: "Deploy a Runic Tablet onto an empty Blaze Burner"
+				title: "对空的烈焰人燃烧室使用符文石碑"
 				item: "kubejs:runic_tablet"
 			}]
 		}
 		{
-			title: "Alloying with Create, blazes required!"
+			title: "机械动力合金需要烈焰人燃烧室"
 			x: 7.0d
 			y: 5.5d
-			subtitle: "Alloying with Create is probably easier and faster in the long run."
+			subtitle: "长远来看，用机械动力来制作合金可能更好也更快"
 			dependencies: [
 				"3D9E29CE4BA41D20"
 				"03B32FBE53374954"
@@ -595,18 +587,18 @@
 			}]
 		}
 		{
-			title: "Get a Blaze from the Nether!"
+			title: "从地狱抓一只烈焰人！"
 			icon: "minecraft:blaze_spawn_egg"
 			x: 6.0d
 			y: 6.5d
-			subtitle: "You can capture a blaze into your blaze burner, by rightclicking it with an empty one. You can alternatively rightclick blaze spawners with blaze burners!"
+			subtitle: "你可以通过使用空的烈焰人燃烧室右键烈焰人来抓取，也可以直接右键烈焰人刷怪笼来抓取"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3D9E29CE4BA41D20"
 			tasks: [{
 				id: "7F7FCD4AACE6773F"
 				type: "observation"
-				title: "Look at a Blaze"
+				title: "看火焰！"
 				icon: "tconstruct:blaze_head"
 				timer: 0L
 				observe_type: 5
@@ -614,11 +606,11 @@
 			}]
 		}
 		{
-			title: "Improbable Saplings"
+			title: "不可思议的树苗"
 			x: -4.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "The Arcane has significantly reduced the availability of these Saplings, making them extremely rare to come by. As a result, a conventional tree farm is no longer sufficient to sustain their growth. However, trees will still drop lifeless versions of their saplings, which can be rejuvenated through a specific process. To successfully cultivate menril trees, it is necessary to establish an automated system for restoring the menril shrubs to menril saplings that loop back into the contraption."
+			subtitle: "随着奥术的削弱显著降低了这些树苗的可获得性，使它们变得极为罕见。因此，传统的树场已不足以维持它们的生长。然而，树木仍会掉落灌木，这些灌木可以通过特定的过程恢复生机。为了成功培育门瑞欧树，建立一个自动化系统来将门瑞欧灌木恢复为门瑞欧树苗，并让其循环回到装置中是必要的."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "65EB6D888AE39417"
@@ -638,7 +630,7 @@
 			x: -4.0d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "Log Cutting Chain. Basically, just slap down 3 saws and they'll do the job."
+			subtitle: "原木切割产线，基本上只需三把锯子即可完成"
 			dependencies: ["65EB6D888AE39417"]
 			id: "2D3F582CF81B08C7"
 			tasks: [{
@@ -692,7 +684,7 @@
 			x: -5.5d
 			y: 1.0d
 			shape: "rsquare"
-			subtitle: "Drops from Menril Trees. With the weakening of the Arcane, so has the menril sapling been stripped of its life essence, perhaps a bit of water can help it?"
+			subtitle: "瑞欧树掉落门瑞欧树苗。随着奥术的减弱，门瑞欧树苗也失去了它的生命精华，或许妳可以帮助它恢复活力？"
 			dependencies: ["65EB6D888AE39417"]
 			id: "2E64E817F8FABAC6"
 			tasks: [{
@@ -704,7 +696,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			subtitle: "Drops from Menril Trees, in particular the enriched menril logs. Perhaps there are more ways to get this though?"
+			subtitle: "门瑞欧结晶碎片从门瑞欧树上掉落，尤其是富集的门瑞欧原木，也许有更多的方法可以获得这些东西？"
 			dependencies: ["65EB6D888AE39417"]
 			id: "7027A7515B010BDD"
 			tasks: [{
@@ -722,7 +714,7 @@
 			x: -5.5d
 			y: -1.0d
 			shape: "diamond"
-			subtitle: "Congratulations! You've accomplished it! You've successfully rejuvenated it. However, it hasn't quite reached the level of the original sapling. Perhaps the inclusion of menril berries could contribute to its full resurrection?"
+			subtitle: "恭喜你，你成功了 你成功了！你成功地让它恢复了活力。不过，它还没有达到原来树苗的水平。也许加入门瑞欧浆果能让它完全复活？"
 			dependencies: ["2E64E817F8FABAC6"]
 			id: "424889E3B5E01EBB"
 			tasks: [{
@@ -748,7 +740,7 @@
 			x: -4.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Drops from Menril Trees. Also used for resurrecting Menril Saplings."
+			subtitle: "从门瑞欧树上获得。同时用于复活门瑞欧树苗。"
 			dependencies: ["65EB6D888AE39417"]
 			id: "293527BB98246AD0"
 			tasks: [{
@@ -845,7 +837,7 @@
 		{
 			x: 7.0d
 			y: 2.0d
-			subtitle: "Mine coblestone"
+			subtitle: "收集圆石"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "4B437D3B2BA18945"
 			tasks: [{
@@ -855,11 +847,11 @@
 			}]
 		}
 		{
-			title: "Early game item filtering."
+			title: "游戏前期的物品分类"
 			x: -1.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Filtering items is possible, just slap an item into a drawer, lock the drawer, and put a funnel on. Now the funnel will only insert if the item matches the drawers locked item."
+			subtitle: "在游戏前期，可以使用物品过滤器来筛选物品。只需将物品放入抽屉中，锁住抽屉，并在上方放置漏斗。现在，只有当物品符合抽屉锁定的物品时，漏斗才会将物品导入其中。"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3B2E6054E10C6452"
@@ -867,7 +859,7 @@
 				{
 					id: "1EC638FFE0D11EC7"
 					type: "item"
-					title: "Any #functionalstorage:drawer"
+					title: "任意标签为 #functionalstorage:drawer 的物品"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -898,14 +890,14 @@
 			icon: "minecraft:light"
 			x: -2.5d
 			y: -2.0d
-			subtitle: "If your sapling isn't growing, check for any unnatural blocks in a 5x15x5 area around it. Also check that it has enough light to grow."
+			subtitle: "如果树苗没有生长，请检查周围 5x15x5 的区域内是否有任何非自然阻挡物。还要检查它是否有足够的光照来生长。"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "54879E4FF6671EFD"
 			tasks: [{
 				id: "3584059D2523EA21"
 				type: "checkmark"
-				title: "Stuff that may go wrong."
+				title: "可能出现的问题"
 			}]
 		}
 	]

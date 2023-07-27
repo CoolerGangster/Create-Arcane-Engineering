@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 3
 	filename: "chapter_3"
-	title: "Chapter III: Chromatic Creation"
+	title: "第三章:异彩产物"
 	icon: "thermal:invar_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -86,7 +86,7 @@
 			x: 6.0d
 			y: -9.0d
 			shape: "square"
-			subtitle: "2 nickel ingots"
+			subtitle: "2 镍锭"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "2AADB6429BCA7866"
@@ -97,7 +97,7 @@
 			}]
 		}
 		{
-			title: "Invar Slurry"
+			title: "熔融殷钢"
 			icon: "pneumaticcraft:fluid_mixer"
 			x: 5.0d
 			y: -9.0d
@@ -147,7 +147,7 @@
 		{
 			x: -4.5d
 			y: -5.0d
-			subtitle: "This is just an example for converting Chromatic Compound to Refined Radiance."
+			subtitle: "这个物品可以帮助你将异彩化合物转化为光辉石"
 			dependencies: [
 				"78E3EDD6BCCA4E06"
 				"24F10DF147EC0844"
@@ -198,7 +198,7 @@
 			}]
 		}
 		{
-			title: "Anthracene"
+			title: "蒽"
 			x: -1.0d
 			y: -9.0d
 			dependencies: ["470D621EDE14E399"]
@@ -226,10 +226,9 @@
 			}]
 		}
 		{
-			title: "The glowstone reactor"
+			title: "关辉反应"
 			x: -4.5d
 			y: -7.0d
-			subtitle: "Drop gunpowder in glowlight"
 			dependencies: ["24F10DF147EC0844"]
 			id: "78E3EDD6BCCA4E06"
 			tasks: [{
@@ -255,10 +254,10 @@
 			}]
 		}
 		{
-			title: "Chrom"
+			title: "铬"
 			x: -4.5d
 			y: -8.0d
-			subtitle: "Roll Glowstone over a drain"
+			subtitle: "用荧石右键分液池得到"
 			dependencies: ["78E3EDD6BCCA4E06"]
 			id: "22B3B089C7AD3875"
 			tasks: [{
@@ -268,10 +267,10 @@
 			}]
 		}
 		{
-			title: "Chromic acid"
+			title: "铬酸"
 			x: -3.0d
 			y: -8.0d
-			subtitle: "Won by dropping Chrome Into Water"
+			subtitle: "将铬丢入水中获得"
 			dependencies: ["22B3B089C7AD3875"]
 			id: "2B264D6DD625F492"
 			tasks: [{
@@ -284,8 +283,8 @@
 			icon: "thermal:crude_oil_bucket"
 			x: 1.5d
 			y: -7.0d
-			subtitle: "Set up a train link to various crude oil deposits found all around the world."
-			description: ["Or set up a 10k source in your base"]
+			subtitle: "建造一个连接原油的矿车线路。"
+			description: ["或者在你的基地里放置一个至少10k桶的石油储液桶"]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "68A5356444030698"
@@ -337,7 +336,7 @@
 			}]
 		}
 		{
-			title: "Chromatic Waste"
+			title: "异彩废料"
 			x: -3.0d
 			y: -7.0d
 			dependencies: ["78E3EDD6BCCA4E06"]
@@ -351,7 +350,7 @@
 		{
 			x: -6.0d
 			y: -7.0d
-			subtitle: "Mix Powdered Flint with Refined Fuel to create Gunpowder"
+			subtitle: "混合精炼油和燧石粉得到"
 			dependencies: ["4114B764FB9FF9BC"]
 			id: "24F10DF147EC0844"
 			tasks: [{
@@ -376,7 +375,7 @@
 		{
 			x: -6.0d
 			y: -9.5d
-			subtitle: "The flint from the iron generators being put to use"
+			subtitle: "你的燧石终于要派上用场了！"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "2F15BD639AC10819"
@@ -389,7 +388,7 @@
 		{
 			x: -6.0d
 			y: -8.0d
-			subtitle: "Crush Flint to get Powdered Flint"
+			subtitle: "研磨燧石得到"
 			dependencies: ["2F15BD639AC10819"]
 			id: "4114B764FB9FF9BC"
 			tasks: [{
@@ -405,7 +404,7 @@
 			}]
 		}
 		{
-			title: "Radiant Mechanism"
+			title: "光辉构件"
 			x: -0.99d
 			y: -2.5d
 			shape: "gear"
@@ -481,7 +480,7 @@
 			]
 		}
 		{
-			title: "[Optional 2x bonus] Shadow Steel"
+			title: "暗影钢"
 			x: -1.0d
 			y: -6.0d
 			dependencies: ["3EA71EFE88668E16"]
@@ -599,7 +598,7 @@
 			}]
 		}
 		{
-			title: "[Byproduct] All colors of fuel."
+			title: "所有颜色的燃料"
 			x: 2.0d
 			y: 4.5d
 			dependencies: ["6F59B705C4AC7E93"]
@@ -623,10 +622,10 @@
 			]
 		}
 		{
-			title: "The Industrial Revolution"
+			title: "工业革命"
 			x: 2.0d
 			y: 1.0d
-			subtitle: "Reprocess your output fuels to fuel your Factory."
+			subtitle: "给你的锅炉接上蒸汽引擎，为你的工厂提供动能"
 			dependencies: ["248443FB4003CD22"]
 			id: "5A4A535DF716F163"
 			tasks: [{
@@ -716,7 +715,7 @@
 			x: -4.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "Applied Energistics; I'm waiting for you. A lot of machines are still gated behind a higher technology tier, but you should be able to set up a very basic ME system"
+			subtitle: "应用能源(AE)近在咫尺。虽然许多机器依旧要在更高的科技等级之后才能做，但你可以做一些基本的存储系统"
 			dependencies: ["1393B214AF417C06"]
 			id: "3070EC94FB14615C"
 			tasks: [{

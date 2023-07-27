@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 2
 	filename: "sad"
-	title: "Chapter II: Extraterrestrial Expeditions"
+	title: "第二章:坚固机械"
 	icon: "create:brass_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -35,11 +35,11 @@
 	]
 	quests: [
 		{
-			title: "Chapter 2 Start!"
+			title: "第二章！启动！ （原神！启动？）"
 			x: -1.5d
 			y: -9.0d
 			shape: "octagon"
-			subtitle: "Short tip, you can speedrun the majority of this chapter just by crafting rose quartz with quartz and redstone dust obtained from the world."
+			subtitle: "小提示：只需获得的石英和红石制作玫瑰石英，就能快速完成本章的大部分内容。"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			size: 1.5d
@@ -56,7 +56,7 @@
 			}]
 		}
 		{
-			title: "Chapter 2"
+			title: "第二章"
 			x: -1.5d
 			y: 4.5d
 			shape: "rsquare"
@@ -155,7 +155,7 @@
 		{
 			x: -0.5d
 			y: 8.0d
-			subtitle: "Either make a lava farm. Or harvest it from the nether. Either way, this means get a way of infinite lava! I suggest heading to the Nether and using hose pulleys!"
+			subtitle: "要么建造一个熔岩工厂。或者从地狱收集。无论哪种方式，都意味着要想办法获得无限熔岩！我建议前往地狱，使用软管滑轮！"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "53F4A32746B719F2"
@@ -173,17 +173,17 @@
 			]
 		}
 		{
-			title: "Screwdrivin"
+			title: "螺丝刀"
 			x: 0.0d
 			y: 4.5d
-			subtitle: "(the framedblocks screwdriver is 1 use only lmao)"
+			subtitle: "(螺丝刀只能用一次，笑死我了）"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "0CEFD94EEE91DDE9"
 			tasks: [{
 				id: "0DE8513933778AAF"
 				type: "item"
-				title: "Any #forge:screwdrivers"
+				title: "任何标签为 #forge:screwdrivers 的物品"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -234,10 +234,10 @@
 			}]
 		}
 		{
-			title: "[optional] Variable Card"
+			title: "[可选] 变量卡"
 			x: -3.0d
 			y: 4.0d
-			subtitle: "As per usual, you can make your factory 2x as efficient by adding a simple extra step!"
+			subtitle: "按照惯例，您只需增加一个简单的额外步骤，就能使工厂的效率提高 2 倍！"
 			dependencies: [
 				"5D36117177BCD37F"
 				"3E09633CF4F786AE"
@@ -255,10 +255,10 @@
 			}]
 		}
 		{
-			title: "Unlock the Optional Route?"
+			title: "解锁可选路线？"
 			x: -3.0d
 			y: 0.0d
-			subtitle: "Will double the rates by 2x. Requires some Menril Tree Work"
+			subtitle: "可将效率提高 2 倍。需要一些门瑞欧树"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "0158C3930229C41C"
@@ -288,12 +288,12 @@
 			]
 		}
 		{
-			title: "Skystone Tip"
+			title: "陨石提示"
 			icon: "railways:track_birch"
 			x: -1.5d
 			y: -6.5d
-			subtitle: "Meteorites can be shockingly far away from where your base is situated. Welcome to this pack, locational recources like these are a reoccuring theme. Now you either have the choice to Make a factory on the Skystone Catalyst, or make a rail line delivering the skystone to you, the choice is yours. Either way, youll need a rail line connecting the factories."
-			description: ["2nd Tip: If you rightclick the skystone catalyst with a wooden axe it will moove 10 blocks up in the air, this is so if your meteorite is in the ocean you can moove the catalyst out so you dont have to clear an entire ocean or mine out a cave..."]
+			subtitle: "陨石可能距离你的基地非常远. 欢迎来到这个整合包, 陨石这样的资源位置偏远是一个经常出现的问题。现在你可以选择在陨石催化剂上建造一个工厂, 无论哪种方式，你都需要建造连接基地和陨石的火车"
+			description: ["第二个提示：如果你用一把木斧右键点击陨石催化器，它将会在空中上升10格，这样如果你的陨石在海洋中，你就可以将催化器移出来，这样你就不必清理整个海洋或挖掘一个洞穴..."]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "323AEEF2915E79D2"
@@ -322,11 +322,11 @@
 			]
 		}
 		{
-			title: "The Obsidian Cycle!"
+			title: "再生黑曜石"
 			x: -1.5d
 			y: 6.0d
 			shape: "octagon"
-			subtitle: "You can Crush or Mill obsidian for Powdered Obsidian at a chance of getting 2 each time. You can reprocess 1 of the dusts using smelting back into Obsidian and use it again for crushing!"
+			subtitle: "你可以将黑曜石压碎或磨成黑曜石粉末，每次有机会获得2个。你可以重新加工其中的1个粉尘，通过熔炉将其还原成黑曜石，并再次用于压碎！"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "1377A2D928C6A05A"
@@ -348,7 +348,7 @@
 			}]
 		}
 		{
-			title: "Smelt down Obsidian Dust for Obsidian!"
+			title: "用黑曜石粉制作黑曜石"
 			x: -2.0d
 			y: 7.0d
 			dependencies: ["25EE3A139473ED49"]
@@ -427,11 +427,11 @@
 			}]
 		}
 		{
-			title: "Discover the Skystone Catalyst"
+			title: "寻找陨石催化器"
 			x: -1.5d
 			y: -7.5d
 			shape: "square"
-			subtitle: "An Alien block, only found within Meteorites. Not much is known about this artifact, but what we have figured out, is that it is responsible for Transmuting everything up to 7 Blocks Away from it, when interacted with redstone dust, replacing it with Skystone, is this a form of alien allergy? Perhaps this is exploitable for infinite Skystone."
+			subtitle: "在陨石中心发现的外星方块。用红石右键它，可在其周围的生成陨石"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "5D9D3025CB2DEEA4"
@@ -644,12 +644,12 @@
 			}]
 		}
 		{
-			title: "Lets Speedrun some Machines once again!"
+			title: "让我们再次加速制作一些机器！"
 			icon: "create:brass_ingot"
 			x: -7.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Luckily, this chapter is easy to speedrun as you really just need redstone and skystone!"
+			subtitle: "幸运的是，这个章节很容易，你实际上只需要红石和陨石！"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "4BC7774659DA5996"
@@ -660,10 +660,10 @@
 			}]
 		}
 		{
-			title: "4x Crushing Wheels"
+			title: "4x 粉碎轮"
 			x: -6.0d
 			y: 1.0d
-			subtitle: "For sand automation. But shh, you can also make sand with a millstone at less efficiency!"
+			subtitle: "用于自动化沙子。不过，你也可以用效率较低的石磨！"
 			dependencies: ["4BC7774659DA5996"]
 			dependency_requirement: "one_started"
 			id: "0D2D800F4A49CA86"
@@ -677,7 +677,7 @@
 		{
 			x: -8.0d
 			y: 1.0d
-			subtitle: "Melting Iron and Redstone"
+			subtitle: "液态铁与红石"
 			dependencies: ["4BC7774659DA5996"]
 			id: "74A44C35A73EB298"
 			tasks: [{
@@ -687,10 +687,10 @@
 			}]
 		}
 		{
-			title: "27x Mechanical Crafters"
+			title: "27x 动力合成器"
 			x: -7.0d
 			y: 1.0d
-			subtitle: "For Crushing Wheels"
+			subtitle: "用于合成粉碎轮"
 			dependencies: ["4BC7774659DA5996"]
 			id: "54866C6D8E7DD4D1"
 			tasks: [{

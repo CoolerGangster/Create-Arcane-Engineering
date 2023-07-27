@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 4
 	filename: "chapter_4"
-	title: "Chapter IV: Processing Pandemonium"
+	title: "第四章:疯狂加工"
 	icon: "pneumaticcraft:module_expansion_card"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

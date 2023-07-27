@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 6
 	filename: "chapter_m2"
-	title: "Chapter MII: Herbalists Heritage"
+	title: "魔法第二章:药师传承"
 	icon: "ars_nouveau:as_gold_stone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -35,11 +35,11 @@
 	]
 	quests: [
 		{
-			title: "Sourceberry"
+			title: "魔源浆果"
 			x: -2.0d
 			y: -7.5d
 			shape: "square"
-			subtitle: "Found all around the world."
+			subtitle: "遍布世界各地"
 			dependencies: ["07D1ED74C8A30306"]
 			hide: true
 			id: "4FCF36E9502773E2"
@@ -63,10 +63,10 @@
 			]
 		}
 		{
-			title: "Sourceberry Juice"
+			title: "魔源浆果汁"
 			x: -0.5d
 			y: -8.0d
-			subtitle: "Stamp down Sourceberries"
+			subtitle: "辊压魔源浆果"
 			dependencies: ["4FCF36E9502773E2"]
 			id: "77CEF8A4D9FBB5E2"
 			tasks: [{
@@ -76,10 +76,10 @@
 			}]
 		}
 		{
-			title: "Magebloom Sourceberry Smoothie Bowl"
+			title: "法师之花魔源浆果奶昔"
 			x: 0.5d
 			y: -6.0d
-			subtitle: "Spout Magebloom Sourceberry Smoothie onto a Bowl"
+			subtitle: "将法师之花魔源浆果奶昔注入碗中"
 			dependencies: ["2ADEBF32DFED9BAC"]
 			id: "5E8190EE24211A08"
 			tasks: [{
@@ -102,10 +102,10 @@
 			]
 		}
 		{
-			title: "Magically Blooming Leaves"
+			title: "魔法绽放树叶"
 			x: -0.5d
 			y: -5.0d
-			subtitle: "Roll a Impure Source Bowl over a item drain"
+			subtitle: "洗涤绽放树叶碗"
 			dependencies: ["5E8190EE24211A08"]
 			id: "7DC257849AB71246"
 			tasks: [{
@@ -120,10 +120,10 @@
 			}]
 		}
 		{
-			title: "Impure Source Bucket"
+			title: "不纯净的魔源液桶"
 			x: 2.0d
 			y: -4.5d
-			subtitle: "Roll a Magebloom Source Smoothie Bowl over a item drain"
+			subtitle: "分液法师之花魔源浆果奶昔碗"
 			dependencies: ["5E8190EE24211A08"]
 			id: "09BFC11F9574430E"
 			tasks: [{
@@ -136,7 +136,7 @@
 			x: 0.5d
 			y: -1.5d
 			shape: "diamond"
-			subtitle: "Cast Source into a gem cast"
+			subtitle: "将魔源液铸造成魔源宝石"
 			dependencies: ["640F176B95D8B880"]
 			dependency_requirement: "one_started"
 			size: 1.2d
@@ -164,7 +164,7 @@
 		{
 			x: 0.0d
 			y: -4.0d
-			subtitle: "The Ssring woven together will reveal an ancient parchment."
+			subtitle: "编织在一起的法师之花纤维将展现为一张古老的羊皮纸"
 			dependencies: ["0D60C3E9ADF653D5"]
 			id: "2F4BE8EF99F2622B"
 			tasks: [{
@@ -197,7 +197,7 @@
 		{
 			x: 0.5d
 			y: -3.0d
-			subtitle: "Boil down Impure Source in a Mixer for a 75% source loss. Or purify the source with the confined Source of Scroll Parchment to create Source with 100% efficiency"
+			subtitle: "在搅拌器中煮沸不纯净的魔源液体，损失将高达 75%。或者用法术羊皮纸含有的有限魔源净化不纯净的魔源液体，以100%的效率创造魔源液"
 			dependencies: [
 				"2F4BE8EF99F2622B"
 				"09BFC11F9574430E"
@@ -215,10 +215,10 @@
 			}]
 		}
 		{
-			title: "Magebloom Fiber"
+			title: "法师之花纤维"
 			x: -1.0d
 			y: -3.5d
-			subtitle: "Cut down Arcane Leaves using a Deployer"
+			subtitle: "使用机械手撕开魔法绽放树叶"
 			dependencies: ["7DC257849AB71246"]
 			id: "0D60C3E9ADF653D5"
 			tasks: [{
@@ -237,7 +237,7 @@
 			x: 3.0d
 			y: -7.5d
 			shape: "square"
-			subtitle: "Sighted on islands high up in the Sky. Some of the Ancients used to store this."
+			subtitle: "在漂浮空岛被发现的。一些古人曾经储存过这个"
 			dependencies: ["07D1ED74C8A30306"]
 			hide: true
 			id: "672C2DF08E4C5B8A"
@@ -268,10 +268,10 @@
 			]
 		}
 		{
-			title: "Magebloom Juice"
+			title: "法师之花汁"
 			x: 1.5d
 			y: -8.0d
-			subtitle: "Stamp down Mageblooms"
+			subtitle: "辊压法师之花"
 			dependencies: ["672C2DF08E4C5B8A"]
 			id: "13FAE8977206B874"
 			tasks: [{
@@ -281,10 +281,10 @@
 			}]
 		}
 		{
-			title: "Magebloom Sourceberry Smoothie"
+			title: "法师之花魔源浆果奶昔"
 			x: 0.5d
 			y: -7.0d
-			subtitle: "Mix Sourceberry and Magebloom Juice"
+			subtitle: "混合法师之花汁和魔源浆果汁"
 			dependencies: [
 				"77CEF8A4D9FBB5E2"
 				"13FAE8977206B874"

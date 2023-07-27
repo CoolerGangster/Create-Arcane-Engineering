@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "quests"
-	title: "The Trade Market"
+	title: "贸易市场"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -35,12 +35,12 @@
 	progression_mode: "flexible"
 	quests: [
 		{
-			title: "Buy a Task!"
+			title: "购买任务"
 			icon: "quests:deforesting_task"
 			x: 0.0d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "Gotta get that Cash!"
+			subtitle: "超市大抢购"
 			can_repeat: true
 			id: "26C60BF347F40F36"
 			tasks: [{
@@ -58,7 +58,7 @@
 			}]
 		}
 		{
-			title: "Machine Buying"
+			title: "贸易机"
 			icon: {
 				id: "custommachinery:custom_machine_item"
 				Count: 1b
@@ -97,7 +97,7 @@
 			]
 		}
 		{
-			title: "Currency Exchange"
+			title: "货币兑换"
 			x: 0.5d
 			y: 1.0d
 			can_repeat: true
@@ -116,7 +116,7 @@
 			}]
 		}
 		{
-			title: "Currency Exchange"
+			title: "货币兑换"
 			x: 2.5d
 			y: 1.0d
 			can_repeat: true
@@ -135,11 +135,11 @@
 			}]
 		}
 		{
-			title: "Dont mind this, just made so you cant complete this"
+			title: "不要在意这个，只是为了让你无法完成它"
 			icon: "minecraft:black_stained_glass_pane"
 			x: 3.0d
 			y: -9.55d
-			subtitle: "Dont claim this other than the purpose of doing 100%"
+			subtitle: "除了为了做100%的目的之外"
 			dependencies: ["1C392A3E7ADA7109"]
 			hide: true
 			size: 0.1d
@@ -147,17 +147,17 @@
 			tasks: [{
 				id: "20E3ADB25AB5D606"
 				type: "checkmark"
-				title: "I want my game to sound like shit!"
+				title: "小声逼逼"
 			}]
 		}
 		{
-			title: "16x Dirt"
+			title: "16x 泥土"
 			icon: "minecraft:dirt"
 			disable_toast: true
 			x: -2.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "2 银"
 			can_repeat: true
 			id: "3AED10CF643CBF0E"
 			tasks: [{
@@ -178,7 +178,7 @@
 				{
 					id: "07D4DCA583437BF8"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -186,13 +186,13 @@
 			]
 		}
 		{
-			title: "16x Sand"
+			title: "16x 沙子"
 			icon: "minecraft:sand"
 			disable_toast: true
 			x: -1.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "2628456BE4F18ABA"
 			tasks: [{
@@ -213,7 +213,7 @@
 				{
 					id: "459FF356A2EC5428"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -221,13 +221,13 @@
 			]
 		}
 		{
-			title: "16x Gravel"
+			title: "16x 砂砾"
 			icon: "minecraft:gravel"
 			disable_toast: true
 			x: 0.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "2 银"
 			can_repeat: true
 			id: "1AE81790C7E48635"
 			tasks: [{
@@ -248,7 +248,7 @@
 				{
 					id: "52D4FE446F10622A"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -256,13 +256,13 @@
 			]
 		}
 		{
-			title: "16x Clay"
+			title: "16x 粘土块"
 			icon: "minecraft:clay"
 			disable_toast: true
 			x: 1.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "6 Silver"
+			subtitle: "6 银"
 			can_repeat: true
 			id: "2CDED5DCBB15A1FF"
 			tasks: [{
@@ -283,7 +283,7 @@
 				{
 					id: "14C2AAC6AC0B238B"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -291,13 +291,13 @@
 			]
 		}
 		{
-			title: "16x Ice"
+			title: "16x 冰块"
 			icon: "minecraft:ice"
 			disable_toast: true
 			x: 2.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "2942E84D37261DF4"
 			tasks: [{
@@ -318,7 +318,7 @@
 				{
 					id: "6B120229EB43A59A"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -326,13 +326,13 @@
 			]
 		}
 		{
-			title: "16x Blackstone"
+			title: "16x 黑石"
 			icon: "minecraft:blackstone"
 			disable_toast: true
 			x: 3.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "12 Silver"
+			subtitle: "12 银锭"
 			can_repeat: true
 			id: "098091BA9556D846"
 			tasks: [{
@@ -353,7 +353,7 @@
 				{
 					id: "77171F24B2D6CC05"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -361,13 +361,13 @@
 			]
 		}
 		{
-			title: "16x Grout"
+			title: "16x 砖泥"
 			icon: "tconstruct:grout"
 			disable_toast: true
 			x: 4.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "12 Silver"
+			subtitle: "12 银"
 			can_repeat: true
 			id: "5218FA5F3102EF09"
 			tasks: [{
@@ -388,7 +388,7 @@
 				{
 					id: "3424491350EAB0DB"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -396,13 +396,13 @@
 			]
 		}
 		{
-			title: "16x Cobblestone"
+			title: "16x 圆石"
 			icon: "minecraft:cobblestone"
 			disable_toast: true
 			x: 5.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 银"
 			can_repeat: true
 			id: "5BEB01B0D20B7C5B"
 			tasks: [{
@@ -423,7 +423,7 @@
 				{
 					id: "15D92769F1FA0D1B"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -431,13 +431,13 @@
 			]
 		}
 		{
-			title: "16x Granite"
+			title: "16x 花岗岩"
 			icon: "minecraft:granite"
 			disable_toast: true
 			x: -2.0d
 			y: -8.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "43B6BB032AF62F20"
 			tasks: [{
@@ -458,7 +458,7 @@
 				{
 					id: "5C6EA1515D15D327"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -466,13 +466,13 @@
 			]
 		}
 		{
-			title: "16x Diorite"
+			title: "16x 闪长岩"
 			icon: "minecraft:diorite"
 			disable_toast: true
 			x: -1.0d
 			y: -8.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "455C7ADDD0CC568F"
 			tasks: [{
@@ -493,7 +493,7 @@
 				{
 					id: "6A9B97375A7B02F6"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -501,13 +501,13 @@
 			]
 		}
 		{
-			title: "16x Andesite"
+			title: "16x 安山岩"
 			icon: "minecraft:andesite"
 			disable_toast: true
 			x: 0.0d
 			y: -8.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "796456C8E992FD7A"
 			tasks: [{
@@ -528,7 +528,7 @@
 				{
 					id: "3224FA30302555FD"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -536,13 +536,13 @@
 			]
 		}
 		{
-			title: "16x Deepslate"
+			title: "16x 深板岩"
 			icon: "minecraft:deepslate"
 			disable_toast: true
 			x: 1.0d
 			y: -8.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "320AFC0356D6B1C1"
 			tasks: [{
@@ -563,7 +563,7 @@
 				{
 					id: "3C5A0BC0218BF3E5"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -571,13 +571,13 @@
 			]
 		}
 		{
-			title: "16x Dripstone"
+			title: "16x 滴水石"
 			icon: "minecraft:dripstone_block"
 			disable_toast: true
 			x: 2.0d
 			y: -8.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "0E3E6B0AB5BC59D0"
 			tasks: [{
@@ -598,7 +598,7 @@
 				{
 					id: "5C7092F234D49F2F"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -606,13 +606,13 @@
 			]
 		}
 		{
-			title: "16x Calcite"
+			title: "16x 方解石"
 			icon: "minecraft:calcite"
 			disable_toast: true
 			x: 3.0d
 			y: -8.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "01D95CE8CEB8C5E3"
 			tasks: [{
@@ -633,7 +633,7 @@
 				{
 					id: "3582568CF085747E"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -641,13 +641,13 @@
 			]
 		}
 		{
-			title: "16x Tuff"
+			title: "16x 凝灰岩"
 			icon: "minecraft:tuff"
 			disable_toast: true
 			x: 4.0d
 			y: -8.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "04C83D9F664A2AAC"
 			tasks: [{
@@ -668,7 +668,7 @@
 				{
 					id: "1FC4D6F567D1222B"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -676,13 +676,13 @@
 			]
 		}
 		{
-			title: "16x Scoria"
+			title: "16x 熔渣石"
 			icon: "create:scoria"
 			disable_toast: true
 			x: 5.0d
 			y: -8.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "260EF9D0D139FC8D"
 			tasks: [{
@@ -703,7 +703,7 @@
 				{
 					id: "62CF9D308F2A5C6A"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -711,13 +711,13 @@
 			]
 		}
 		{
-			title: "16x Scorchia"
+			title: "16x 焦黑熔渣"
 			icon: "create:scorchia"
 			disable_toast: true
 			x: -2.0d
 			y: -7.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "4C4E381BCED70F5A"
 			tasks: [{
@@ -738,7 +738,7 @@
 				{
 					id: "0F6B6305CFE1A9FD"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -746,13 +746,13 @@
 			]
 		}
 		{
-			title: "1x Obsidian"
+			title: "1x 黑曜石"
 			icon: "minecraft:obsidian"
 			disable_toast: true
 			x: 5.0d
 			y: -7.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "040565A8216416BC"
 			tasks: [{
@@ -773,7 +773,7 @@
 				{
 					id: "4902CE965F3DEC06"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -781,13 +781,13 @@
 			]
 		}
 		{
-			title: "16x Dead Log"
+			title: "16x 枯木"
 			icon: "biomesoplenty:dead_log"
 			disable_toast: true
 			x: -2.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "2 银"
 			can_repeat: true
 			id: "4789A825D31FF01B"
 			tasks: [{
@@ -808,7 +808,7 @@
 				{
 					id: "44A6459D7942C4FB"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -816,13 +816,13 @@
 			]
 		}
 		{
-			title: "16x Oak Log"
+			title: "16x 橡木原木"
 			icon: "minecraft:oak_log"
 			disable_toast: true
 			x: -1.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "60A4682D4A8698EA"
 			tasks: [{
@@ -843,7 +843,7 @@
 				{
 					id: "0B35AD49712541BE"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -851,13 +851,13 @@
 			]
 		}
 		{
-			title: "16x Birch Log"
+			title: "16x 白桦原木"
 			icon: "minecraft:birch_log"
 			disable_toast: true
 			x: 0.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "4233621023CFB2E8"
 			tasks: [{
@@ -878,7 +878,7 @@
 				{
 					id: "715DE130562C8142"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -886,13 +886,13 @@
 			]
 		}
 		{
-			title: "16x Spruce Log"
+			title: "16x 云杉原木"
 			icon: "minecraft:spruce_log"
 			disable_toast: true
 			x: 1.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "641DFD495E5E3CC5"
 			tasks: [{
@@ -913,7 +913,7 @@
 				{
 					id: "72D11E58476D6916"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -921,13 +921,13 @@
 			]
 		}
 		{
-			title: "16x Jungle Log"
+			title: "16x 丛林原木"
 			icon: "minecraft:jungle_log"
 			disable_toast: true
 			x: 2.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "2A4B7F33BD98B07E"
 			tasks: [{
@@ -948,7 +948,7 @@
 				{
 					id: "2D4AE42330314BFA"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -956,13 +956,13 @@
 			]
 		}
 		{
-			title: "16x Acacia Log"
+			title: "16x 金合欢原木"
 			icon: "minecraft:acacia_log"
 			disable_toast: true
 			x: 3.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "25C5D13F11DAF84C"
 			tasks: [{
@@ -983,7 +983,7 @@
 				{
 					id: "42F97F498C6E3D07"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -991,13 +991,13 @@
 			]
 		}
 		{
-			title: "16x Dark Oak Log"
+			title: "16x 深色橡木原木"
 			icon: "minecraft:dark_oak_log"
 			disable_toast: true
 			x: 4.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "2F1FABC2850C639F"
 			tasks: [{
@@ -1018,7 +1018,7 @@
 				{
 					id: "1A60A183B614E539"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1026,13 +1026,13 @@
 			]
 		}
 		{
-			title: "16x Crimson Stem"
+			title: "16x 绯红菌柄"
 			icon: "minecraft:crimson_stem"
 			disable_toast: true
 			x: 5.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "332160B1B6D8088E"
 			tasks: [{
@@ -1053,7 +1053,7 @@
 				{
 					id: "2377E1B1F8375297"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1061,13 +1061,13 @@
 			]
 		}
 		{
-			title: "16x Warped Stem"
+			title: "16x 诡异菌柄"
 			icon: "minecraft:warped_stem"
 			disable_toast: true
 			x: 1.5d
 			y: -5.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "2114369D6C8B6432"
 			tasks: [{
@@ -1088,7 +1088,7 @@
 				{
 					id: "51A3D3C464F87F8F"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1096,13 +1096,13 @@
 			]
 		}
 		{
-			title: "8x Iron Ingot"
+			title: "8x 铁锭"
 			icon: "minecraft:iron_ingot"
 			disable_toast: true
 			x: -2.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "44E6D3530F0F00BF"
 			tasks: [{
@@ -1123,7 +1123,7 @@
 				{
 					id: "27C951E116C7A84F"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1131,13 +1131,13 @@
 			]
 		}
 		{
-			title: "8x Zinc Ingot"
+			title: "8x 锌锭"
 			icon: "create:zinc_ingot"
 			disable_toast: true
 			x: -1.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "52BE4EBCDB44128E"
 			tasks: [{
@@ -1158,7 +1158,7 @@
 				{
 					id: "3569B9FAA2BF007A"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1166,13 +1166,13 @@
 			]
 		}
 		{
-			title: "8x Copper Ingot"
+			title: "8x 铜锭"
 			icon: "minecraft:copper_ingot"
 			disable_toast: true
 			x: 0.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "49DA4299E750E271"
 			tasks: [{
@@ -1193,7 +1193,7 @@
 				{
 					id: "75A7F1BC00163974"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1201,13 +1201,13 @@
 			]
 		}
 		{
-			title: "8x Nickel Ingot"
+			title: "8x 镍锭"
 			icon: "thermal:nickel_ingot"
 			disable_toast: true
 			x: 1.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 银"
 			can_repeat: true
 			id: "35EF77DF269912D3"
 			tasks: [{
@@ -1228,7 +1228,7 @@
 				{
 					id: "75860EB6B5DBD7D2"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1236,13 +1236,13 @@
 			]
 		}
 		{
-			title: "8x Lead Ingot"
+			title: "8x 铅锭"
 			icon: "thermal:lead_ingot"
 			disable_toast: true
 			x: 2.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 银"
 			can_repeat: true
 			id: "7B9E56403B41808F"
 			tasks: [{
@@ -1263,7 +1263,7 @@
 				{
 					id: "5300D57506217BB3"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1271,13 +1271,13 @@
 			]
 		}
 		{
-			title: "8x Gold Ingot"
+			title: "8x 金锭"
 			icon: "minecraft:gold_ingot"
 			disable_toast: true
 			x: 3.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 银"
 			can_repeat: true
 			id: "608842D9D10DAF0B"
 			tasks: [{
@@ -1298,7 +1298,7 @@
 				{
 					id: "573663746C8FD663"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1306,13 +1306,13 @@
 			]
 		}
 		{
-			title: "16x Andesite Alloy"
+			title: "16x 安山合金"
 			icon: "create:andesite_alloy"
 			disable_toast: true
 			x: 4.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "60BB11BAE99B3EC5"
 			tasks: [{
@@ -1333,7 +1333,7 @@
 				{
 					id: "5BBF58CD737EB9E9"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1341,13 +1341,13 @@
 			]
 		}
 		{
-			title: "8x Steel"
+			title: "8x 钢"
 			icon: "alloyed:steel_ingot"
 			disable_toast: true
 			x: 5.0d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "0DD64923F28B4BF3"
 			tasks: [{
@@ -1368,7 +1368,7 @@
 				{
 					id: "3CE854648F79DA7A"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1376,13 +1376,13 @@
 			]
 		}
 		{
-			title: "8x Brass Ingot"
+			title: "8x 黄铜合金锭"
 			icon: "create:brass_ingot"
 			disable_toast: true
 			x: -2.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 银"
 			can_repeat: true
 			id: "63AC44423DF4C17D"
 			tasks: [{
@@ -1403,7 +1403,7 @@
 				{
 					id: "43A00F02C2AC2136"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1411,13 +1411,13 @@
 			]
 		}
 		{
-			title: "4x Invar Ingot"
+			title: "4x 殷钢锭"
 			icon: "thermal:invar_ingot"
 			disable_toast: true
 			x: -1.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "64 Silver"
+			subtitle: "64 银"
 			can_repeat: true
 			id: "2F37F4CF54CD7B10"
 			tasks: [{
@@ -1438,7 +1438,7 @@
 				{
 					id: "0176E8CFD86B1CC7"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1446,13 +1446,13 @@
 			]
 		}
 		{
-			title: "16x Coal"
+			title: "16x 煤炭"
 			icon: "minecraft:coal"
 			disable_toast: true
 			x: 0.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "0A6BF8CC37529DE2"
 			tasks: [{
@@ -1473,7 +1473,7 @@
 				{
 					id: "3A297E11E7A069A1"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1481,13 +1481,13 @@
 			]
 		}
 		{
-			title: "16x Flint"
+			title: "16x 燧石"
 			icon: "minecraft:flint"
 			disable_toast: true
 			x: 1.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "790AD625555BEB78"
 			tasks: [{
@@ -1508,7 +1508,7 @@
 				{
 					id: "24D8C6F14A9410F4"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1516,13 +1516,13 @@
 			]
 		}
 		{
-			title: "16x Redstone Dust"
+			title: "16x 红石"
 			icon: "minecraft:redstone"
 			disable_toast: true
 			x: 3.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "6BE2E0969D5267D6"
 			tasks: [{
@@ -1543,7 +1543,7 @@
 				{
 					id: "2C38AC21FA392419"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1551,13 +1551,13 @@
 			]
 		}
 		{
-			title: "1x Diamond"
+			title: "1x 钻石"
 			icon: "minecraft:diamond"
 			disable_toast: true
 			x: 4.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "1 Gold"
+			subtitle: "1 金"
 			can_repeat: true
 			id: "0D58DE847F518C21"
 			tasks: [{
@@ -1578,7 +1578,7 @@
 				{
 					id: "010003D8A27F1AC3"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1586,13 +1586,13 @@
 			]
 		}
 		{
-			title: "8x Lapis Lazuli"
+			title: "8x 青金石"
 			icon: "minecraft:lapis_lazuli"
 			disable_toast: true
 			x: 5.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 银"
 			can_repeat: true
 			id: "447B34DC39E78B14"
 			tasks: [{
@@ -1613,7 +1613,7 @@
 				{
 					id: "732BC8C0A6C31584"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1621,13 +1621,13 @@
 			]
 		}
 		{
-			title: "1x Emerald"
+			title: "1x 绿宝石"
 			icon: "minecraft:emerald"
 			disable_toast: true
 			x: 2.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "1 Gold"
+			subtitle: "1 金"
 			can_repeat: true
 			id: "3A68BF9EC89753F0"
 			tasks: [{
@@ -1648,7 +1648,7 @@
 				{
 					id: "5124D7CA085B4E75"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1656,13 +1656,13 @@
 			]
 		}
 		{
-			title: "4x Sulfur"
+			title: "4x 硫磺"
 			icon: "thermal:sulfur"
 			disable_toast: true
 			x: -2.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "0E42210E126F3EFF"
 			tasks: [{
@@ -1683,7 +1683,7 @@
 				{
 					id: "4F17D88EB5D2EE3E"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1691,13 +1691,13 @@
 			]
 		}
 		{
-			title: "8x Nether Quartz"
+			title: "8x 下界石英"
 			icon: "minecraft:quartz"
 			disable_toast: true
 			x: -1.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "24 银"
 			can_repeat: true
 			id: "1CD313EDB8260665"
 			tasks: [{
@@ -1718,7 +1718,7 @@
 				{
 					id: "028B43012394F9C9"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1726,13 +1726,13 @@
 			]
 		}
 		{
-			title: "8x Certus Quartz"
+			title: "8x 赛特斯石英"
 			icon: "ae2:certus_quartz_crystal"
 			disable_toast: true
 			x: 1.5d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "24 银"
 			can_repeat: true
 			id: "668C13B16DD4243D"
 			tasks: [{
@@ -1753,7 +1753,7 @@
 				{
 					id: "1DE08739F5BF20D7"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1761,13 +1761,13 @@
 			]
 		}
 		{
-			title: "8x Fluix Quartz"
+			title: "8x 福鲁伊克斯水晶"
 			icon: "ae2:fluix_crystal"
 			disable_toast: true
 			x: 4.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 银"
 			can_repeat: true
 			id: "12431332D6707C9F"
 			tasks: [{
@@ -1788,7 +1788,7 @@
 				{
 					id: "6DFD2C0207C0282E"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1796,13 +1796,13 @@
 			]
 		}
 		{
-			title: "6x Cured Rubber"
+			title: "6x 硫化橡胶"
 			icon: "thermal:cured_rubber"
 			disable_toast: true
 			x: 5.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "1A13AA4D0A9583F3"
 			tasks: [{
@@ -1823,7 +1823,7 @@
 				{
 					id: "561DAC12C7BA8454"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1831,13 +1831,13 @@
 			]
 		}
 		{
-			title: "16x Scaffolding"
+			title: "16x 脚手架"
 			icon: "minecraft:scaffolding"
 			disable_toast: true
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "2 银"
 			can_repeat: true
 			id: "10C1229145B67CC9"
 			tasks: [{
@@ -1858,7 +1858,7 @@
 				{
 					id: "200391F6C7AB5BF3"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1866,13 +1866,13 @@
 			]
 		}
 		{
-			title: "1x Wool"
+			title: "1x 羊毛"
 			icon: "minecraft:white_wool"
 			disable_toast: true
 			x: 1.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "5DE89E126C669B7A"
 			tasks: [{
@@ -1893,7 +1893,7 @@
 				{
 					id: "78B79DD809D0A64A"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1901,13 +1901,13 @@
 			]
 		}
 		{
-			title: "1x Sponge"
+			title: "1x 海绵"
 			icon: "minecraft:sponge"
 			disable_toast: true
 			x: 2.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "4D237133611B1EED"
 			tasks: [{
@@ -1928,7 +1928,7 @@
 				{
 					id: "00D603AD35B64C59"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1936,13 +1936,13 @@
 			]
 		}
 		{
-			title: "1x Cobweb"
+			title: "1x 蛛丝"
 			icon: "minecraft:cobweb"
 			disable_toast: true
 			x: 3.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "3E70078A275DE81B"
 			tasks: [{
@@ -1963,7 +1963,7 @@
 				{
 					id: "43BE1EA6A7B307ED"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1971,13 +1971,13 @@
 			]
 		}
 		{
-			title: "1x Rice"
+			title: "1x 稻米"
 			icon: "farmersdelight:rice_bag"
 			disable_toast: true
 			x: -2.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "6241D59CC15B98DF"
 			tasks: [{
@@ -1998,7 +1998,7 @@
 				{
 					id: "649A1DDEB81EAB8F"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2006,13 +2006,13 @@
 			]
 		}
 		{
-			title: "32x Straw"
+			title: "32x 草秆"
 			icon: "farmersdelight:straw"
 			disable_toast: true
 			x: -1.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "3B3F31F0E6109883"
 			tasks: [{
@@ -2033,7 +2033,7 @@
 				{
 					id: "513E49A0786E22D1"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2041,13 +2041,13 @@
 			]
 		}
 		{
-			title: "4x Glowshroom"
+			title: "4x 荧光菇"
 			icon: "biomesoplenty:glowshroom"
 			disable_toast: true
 			x: 0.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "9 Silver"
+			subtitle: "9 银"
 			can_repeat: true
 			id: "135ADDAB3B6588BA"
 			tasks: [{
@@ -2068,7 +2068,7 @@
 				{
 					id: "1D732893F292D4E8"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2076,13 +2076,13 @@
 			]
 		}
 		{
-			title: "4x Bramble"
+			title: "4x 荆棘"
 			icon: "biomesoplenty:bramble"
 			disable_toast: true
 			x: 1.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "9 Silver"
+			subtitle: "9 银"
 			can_repeat: true
 			id: "378C87350DAA214E"
 			tasks: [{
@@ -2103,7 +2103,7 @@
 				{
 					id: "186F5D5ED9D1C33C"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2111,13 +2111,13 @@
 			]
 		}
 		{
-			title: "4x Barley"
+			title: "4x 大麦"
 			icon: "biomesoplenty:barley"
 			disable_toast: true
 			x: 2.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "11A5F12DBDD6C9B4"
 			tasks: [{
@@ -2138,7 +2138,7 @@
 				{
 					id: "21D8DB7941114C55"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2146,13 +2146,13 @@
 			]
 		}
 		{
-			title: "4x Watergrass"
+			title: "4x 水草"
 			icon: "biomesoplenty:watergrass"
 			disable_toast: true
 			x: 3.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "0764B001CFC24ADD"
 			tasks: [{
@@ -2173,7 +2173,7 @@
 				{
 					id: "47F03935E427AFE3"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2181,13 +2181,13 @@
 			]
 		}
 		{
-			title: "4x Reed"
+			title: "4x 芦苇"
 			icon: "biomesoplenty:reed"
 			disable_toast: true
 			x: 4.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "5 银"
 			can_repeat: true
 			id: "5F58C5E2514FF1AD"
 			tasks: [{
@@ -2208,7 +2208,7 @@
 				{
 					id: "2FF27A4629BDD419"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2216,13 +2216,13 @@
 			]
 		}
 		{
-			title: "4x Clover Petal"
+			title: "4x 三叶草"
 			icon: "biomesoplenty:huge_clover_petal"
 			disable_toast: true
 			x: 5.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "10 Silver"
+			subtitle: "10 银"
 			can_repeat: true
 			id: "7B648841B7CD1B86"
 			tasks: [{
@@ -2243,7 +2243,7 @@
 				{
 					id: "2BD0640662A67C90"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2251,13 +2251,13 @@
 			]
 		}
 		{
-			title: "4x Spanish Moss"
+			title: "4x 松萝铁兰"
 			icon: "biomesoplenty:spanish_moss"
 			disable_toast: true
 			x: -2.0d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "7 银"
 			can_repeat: true
 			id: "03A5E0DA8B1DA40E"
 			tasks: [{
@@ -2278,7 +2278,7 @@
 				{
 					id: "5C8E91CFFFFC61F6"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2286,13 +2286,13 @@
 			]
 		}
 		{
-			title: "4x Willow Vine"
+			title: "4x 柳树藤蔓"
 			icon: "biomesoplenty:willow_vine"
 			disable_toast: true
 			x: -1.0d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "7 银"
 			can_repeat: true
 			id: "0D633397682685C4"
 			tasks: [{
@@ -2313,7 +2313,7 @@
 				{
 					id: "4EFD210ECBCAB5AD"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2321,13 +2321,13 @@
 			]
 		}
 		{
-			title: "4x Cattail"
+			title: "4x 香蒲"
 			icon: "biomesoplenty:cattail"
 			disable_toast: true
 			x: 0.0d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "1374DB21A9D78570"
 			tasks: [{
@@ -2348,7 +2348,7 @@
 				{
 					id: "7A1E82285F665FBF"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2356,13 +2356,13 @@
 			]
 		}
 		{
-			title: "4x Sugar Cane"
+			title: "4x 甘蔗"
 			icon: "minecraft:sugar_cane"
 			disable_toast: true
 			x: 1.0d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "6EB996ABF4FCF21A"
 			tasks: [{
@@ -2383,7 +2383,7 @@
 				{
 					id: "35CECAA96656688A"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2391,13 +2391,13 @@
 			]
 		}
 		{
-			title: "8x Kelp"
+			title: "8x 海带"
 			icon: "minecraft:kelp"
 			disable_toast: true
 			x: 2.0d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "4404EEA45F8F3DBB"
 			tasks: [{
@@ -2418,7 +2418,7 @@
 				{
 					id: "4D85F823FD828BF5"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2426,13 +2426,13 @@
 			]
 		}
 		{
-			title: "8x Bamboo"
+			title: "8x 竹子"
 			icon: "minecraft:bamboo"
 			disable_toast: true
 			x: 3.0d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "5 银"
 			can_repeat: true
 			id: "271DC492379266B8"
 			tasks: [{
@@ -2453,7 +2453,7 @@
 				{
 					id: "108D732630E6F077"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2461,13 +2461,13 @@
 			]
 		}
 		{
-			title: "8x Sweet Berries"
+			title: "8x 甜浆果"
 			icon: "minecraft:sweet_berries"
 			disable_toast: true
 			x: 4.0d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "11 Silver"
+			subtitle: "11 银"
 			can_repeat: true
 			id: "076112B18C8063A9"
 			tasks: [{
@@ -2488,7 +2488,7 @@
 				{
 					id: "6847A8E56D10D2D7"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2496,13 +2496,13 @@
 			]
 		}
 		{
-			title: "4x Vines"
+			title: "4x 藤蔓"
 			icon: "minecraft:vine"
 			disable_toast: true
 			x: 5.0d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "7 银"
 			can_repeat: true
 			id: "077E2BDB2BAD743B"
 			tasks: [{
@@ -2523,7 +2523,7 @@
 				{
 					id: "39E6B559DD3F5B57"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2531,13 +2531,13 @@
 			]
 		}
 		{
-			title: "16x Daub"
+			title: "16x 粗灰泥"
 			icon: "supplementaries:daub"
 			disable_toast: true
 			x: -2.0d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "5 银"
 			can_repeat: true
 			id: "1FB88AA67E337157"
 			tasks: [{
@@ -2558,7 +2558,7 @@
 				{
 					id: "23CAC70830080F13"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2566,13 +2566,13 @@
 			]
 		}
 		{
-			title: "16x Clear Glass"
+			title: "16x 通透玻璃"
 			icon: "tconstruct:clear_glass"
 			disable_toast: true
 			x: -1.0d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 银"
 			can_repeat: true
 			id: "49645A25CC205FFF"
 			tasks: [{
@@ -2593,7 +2593,7 @@
 				{
 					id: "22CB57061303C468"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2601,13 +2601,13 @@
 			]
 		}
 		{
-			title: "16x Copper Shingles"
+			title: "16x 铜砖瓦"
 			icon: "create:copper_shingles"
 			disable_toast: true
 			x: 0.0d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "60D5AE6BC006B47B"
 			tasks: [{
@@ -2628,7 +2628,7 @@
 				{
 					id: "070F93EA41341C66"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2636,13 +2636,13 @@
 			]
 		}
 		{
-			title: "32x Algal Bricks"
+			title: "32x 海藻砖块"
 			icon: "architects_palette:algal_bricks"
 			disable_toast: true
 			x: 1.0d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "6 Silver"
+			subtitle: "6 银"
 			can_repeat: true
 			id: "4D5893BA16586FAB"
 			tasks: [{
@@ -2663,7 +2663,7 @@
 				{
 					id: "0BD2650FBE9FF80F"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2671,13 +2671,13 @@
 			]
 		}
 		{
-			title: "32x Olivestone Bricks"
+			title: "32x 橄榄石砖"
 			icon: "architects_palette:olivestone_bricks"
 			disable_toast: true
 			x: 2.0d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "2BD7498CC53B4AFA"
 			tasks: [{
@@ -2698,7 +2698,7 @@
 				{
 					id: "17DC7D545493B3E8"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2706,13 +2706,13 @@
 			]
 		}
 		{
-			title: "32x Limestone"
+			title: "32x 石灰岩"
 			icon: "create:limestone"
 			disable_toast: true
 			x: 3.0d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "0FE111E18D254220"
 			tasks: [{
@@ -2733,7 +2733,7 @@
 				{
 					id: "357D556F2EC6A468"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2741,13 +2741,13 @@
 			]
 		}
 		{
-			title: "32x Sunmetal"
+			title: "32x 耀阳金属"
 			icon: "architects_palette:sunmetal_block"
 			disable_toast: true
 			x: 4.0d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "1EBE19E0F2E53360"
 			tasks: [{
@@ -2768,7 +2768,7 @@
 				{
 					id: "44E57A6D3CD2E059"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2776,13 +2776,13 @@
 			]
 		}
 		{
-			title: "32x Plating Block"
+			title: "32x 金属板块"
 			icon: "architects_palette:plating_block"
 			disable_toast: true
 			x: 5.0d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "013494F88C959077"
 			tasks: [{
@@ -2803,7 +2803,7 @@
 				{
 					id: "06726E1725890B0F"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2811,13 +2811,13 @@
 			]
 		}
 		{
-			title: "32x Twisted Planks"
+			title: "32x 扭曲木板"
 			icon: "architects_palette:twisted_planks"
 			disable_toast: true
 			x: -2.0d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "015DFF026DEEDB08"
 			tasks: [{
@@ -2838,7 +2838,7 @@
 				{
 					id: "2AC8680AAFBB0E1E"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2846,13 +2846,13 @@
 			]
 		}
 		{
-			title: "32x Osseous Bricks"
+			title: "32x 骨砖"
 			icon: "architects_palette:osseous_bricks"
 			disable_toast: true
 			x: -1.0d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "1A61E7ED7B59BA52"
 			tasks: [{
@@ -2873,7 +2873,7 @@
 				{
 					id: "5B785AB4A3D4944F"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2881,13 +2881,13 @@
 			]
 		}
 		{
-			title: "16x Seared Stone"
+			title: "16x 焦黑石"
 			icon: "tconstruct:seared_stone"
 			disable_toast: true
 			x: 0.0d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 银"
 			can_repeat: true
 			id: "213D8BC4899BC034"
 			tasks: [{
@@ -2908,7 +2908,7 @@
 				{
 					id: "211FD1D9E834D2E6"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2916,13 +2916,13 @@
 			]
 		}
 		{
-			title: "16x Scorched Stone"
+			title: "16x 焦灼石"
 			icon: "tconstruct:scorched_stone"
 			disable_toast: true
 			x: 1.0d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 银"
 			can_repeat: true
 			id: "26848E07D86F94A5"
 			tasks: [{
@@ -2943,7 +2943,7 @@
 				{
 					id: "4C71038A1FE54B3C"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2951,13 +2951,13 @@
 			]
 		}
 		{
-			title: "1x Lantern"
+			title: "1x 灯笼"
 			icon: "minecraft:lantern"
 			disable_toast: true
 			x: 2.0d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 银"
 			can_repeat: true
 			id: "136D134FB3F84357"
 			tasks: [{
@@ -2978,7 +2978,7 @@
 				{
 					id: "630A951B9C0AE7BF"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2986,13 +2986,13 @@
 			]
 		}
 		{
-			title: "1x Copper Lantern"
+			title: "1x 铜灯笼"
 			icon: "supplementaries:copper_lantern"
 			disable_toast: true
 			x: 3.0d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 银"
 			can_repeat: true
 			id: "7F61BDB35F669A52"
 			tasks: [{
@@ -3013,7 +3013,7 @@
 				{
 					id: "0A69B395963D43DB"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3021,13 +3021,13 @@
 			]
 		}
 		{
-			title: "1x Brass Lantern"
+			title: "1x 黄铜灯笼"
 			icon: "supplementaries:brass_lantern"
 			disable_toast: true
 			x: 4.0d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 银"
 			can_repeat: true
 			id: "17C35733F7E09D18"
 			tasks: [{
@@ -3048,7 +3048,7 @@
 				{
 					id: "57343B0C90DD6B40"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3056,13 +3056,13 @@
 			]
 		}
 		{
-			title: "1x Crimson Lantern"
+			title: "1x 绯红灯笼"
 			icon: "supplementaries:crimson_lantern"
 			disable_toast: true
 			x: 5.0d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 银"
 			can_repeat: true
 			id: "168915751F68B556"
 			tasks: [{
@@ -3083,7 +3083,7 @@
 				{
 					id: "2F4112710FF8D4FC"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3091,13 +3091,13 @@
 			]
 		}
 		{
-			title: "4x Slime Ball"
+			title: "4x 黏液球"
 			icon: "minecraft:slime_ball"
 			disable_toast: true
 			x: -2.0d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "24 银"
 			can_repeat: true
 			id: "72BB7BA2CAECA49B"
 			tasks: [{
@@ -3118,7 +3118,7 @@
 				{
 					id: "75B983D6C4E79791"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3126,13 +3126,13 @@
 			]
 		}
 		{
-			title: "4x String"
+			title: "4x 线"
 			icon: "minecraft:string"
 			disable_toast: true
 			x: -1.0d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "5 银"
 			can_repeat: true
 			id: "33B0B3F55E5CDC4A"
 			tasks: [{
@@ -3153,7 +3153,7 @@
 				{
 					id: "62CBBF5A37A0334C"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3161,13 +3161,13 @@
 			]
 		}
 		{
-			title: "4x Feather"
+			title: "4x 羽毛"
 			icon: "minecraft:feather"
 			disable_toast: true
 			x: 0.0d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "6 Silver"
+			subtitle: "6 银"
 			can_repeat: true
 			id: "43B7677DA52C6565"
 			tasks: [{
@@ -3188,7 +3188,7 @@
 				{
 					id: "561C76E66C1DD09C"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3196,13 +3196,13 @@
 			]
 		}
 		{
-			title: "4x Gunpowder"
+			title: "4x 火药"
 			icon: "minecraft:gunpowder"
 			disable_toast: true
 			x: 1.0d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "7 银"
 			can_repeat: true
 			id: "644F29FAED074C0B"
 			tasks: [{
@@ -3223,7 +3223,7 @@
 				{
 					id: "74B8ABD3289618B9"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3231,13 +3231,13 @@
 			]
 		}
 		{
-			title: "4x Leather"
+			title: "4x 皮革"
 			icon: "minecraft:leather"
 			disable_toast: true
 			x: 2.0d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "5C3F7BBAF57FD684"
 			tasks: [{
@@ -3258,7 +3258,7 @@
 				{
 					id: "7F810A351258082D"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3266,13 +3266,13 @@
 			]
 		}
 		{
-			title: "4x Ink Sac"
+			title: "4x 墨囊"
 			icon: "minecraft:ink_sac"
 			disable_toast: true
 			x: 3.0d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "496FAF9CFDA44680"
 			tasks: [{
@@ -3293,7 +3293,7 @@
 				{
 					id: "4CCA2B9BBBC3946E"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3301,13 +3301,13 @@
 			]
 		}
 		{
-			title: "1x Experience"
+			title: "1x 经验"
 			icon: "minecraft:experience_bottle"
 			disable_toast: true
 			x: 4.0d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "5530B62161F6EC54"
 			tasks: [{
@@ -3328,7 +3328,7 @@
 				{
 					id: "6A9B5C4765503A1E"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3336,13 +3336,13 @@
 			]
 		}
 		{
-			title: "1x Shulker Shell"
+			title: "1x 潜影壳"
 			icon: "minecraft:shulker_shell"
 			disable_toast: true
 			x: 5.0d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "2 金"
 			can_repeat: true
 			id: "164B9F8E7BA58128"
 			tasks: [{
@@ -3363,7 +3363,7 @@
 				{
 					id: "648CFB4869282526"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3371,13 +3371,13 @@
 			]
 		}
 		{
-			title: "4x Spider Eye"
+			title: "4x 蜘蛛眼"
 			icon: "minecraft:spider_eye"
 			disable_toast: true
 			x: -2.0d
 			y: 10.5d
 			shape: "hexagon"
-			subtitle: "10 Silver"
+			subtitle: "10 银"
 			can_repeat: true
 			id: "27373D7BC55970A1"
 			tasks: [{
@@ -3398,7 +3398,7 @@
 				{
 					id: "26475A2E18E4502A"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3406,13 +3406,13 @@
 			]
 		}
 		{
-			title: "1x Ender Pearl"
+			title: "1x 末影珍珠"
 			icon: "minecraft:ender_pearl"
 			disable_toast: true
 			x: -1.0d
 			y: 10.5d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 银"
 			can_repeat: true
 			id: "17C69C03EBDD2759"
 			tasks: [{
@@ -3433,7 +3433,7 @@
 				{
 					id: "2BD77F66CB1C15A9"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3441,13 +3441,13 @@
 			]
 		}
 		{
-			title: "4x Rotten Flesh"
+			title: "4x 腐肉"
 			icon: "minecraft:rotten_flesh"
 			disable_toast: true
 			x: 0.0d
 			y: 10.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 银"
 			can_repeat: true
 			id: "5D17B90093D56FA6"
 			tasks: [{
@@ -3468,7 +3468,7 @@
 				{
 					id: "2992548908C27805"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3476,13 +3476,13 @@
 			]
 		}
 		{
-			title: "1x Blaze Rod"
+			title: "1x 烈焰棒"
 			icon: "minecraft:blaze_rod"
 			disable_toast: true
 			x: 1.0d
 			y: 10.5d
 			shape: "hexagon"
-			subtitle: "20 Silver"
+			subtitle: "20 银"
 			can_repeat: true
 			id: "59C4FE8D6BA8EFA7"
 			tasks: [{
@@ -3503,7 +3503,7 @@
 				{
 					id: "07CD89D6EF24CC38"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3511,13 +3511,13 @@
 			]
 		}
 		{
-			title: "4x Bone"
+			title: "4x 骨头"
 			icon: "minecraft:bone"
 			disable_toast: true
 			x: 1.5d
 			y: 11.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 银"
 			can_repeat: true
 			id: "5B507B92175B8CB4"
 			tasks: [{
@@ -3538,7 +3538,7 @@
 				{
 					id: "0E74FE47D2644DDE"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3546,13 +3546,13 @@
 			]
 		}
 		{
-			title: "4x Prismarine Shard"
+			title: "4x 海晶碎片"
 			icon: "minecraft:prismarine_shard"
 			disable_toast: true
 			x: 2.0d
 			y: 10.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "3181BBCBF6B4D318"
 			tasks: [{
@@ -3573,7 +3573,7 @@
 				{
 					id: "619E65BFEC5DB963"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3581,13 +3581,13 @@
 			]
 		}
 		{
-			title: "4x Prismarine Crystals"
+			title: "4x 海晶砂粒"
 			icon: "minecraft:prismarine_crystals"
 			disable_toast: true
 			x: 3.0d
 			y: 10.5d
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "24 银"
 			can_repeat: true
 			id: "56736FA0ED4BA1DE"
 			tasks: [{
@@ -3608,7 +3608,7 @@
 				{
 					id: "609992259D81FE4E"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3616,13 +3616,13 @@
 			]
 		}
 		{
-			title: "1x Phantom Membrane"
+			title: "1x 幻翼膜"
 			icon: "minecraft:phantom_membrane"
 			disable_toast: true
 			x: 5.0d
 			y: 10.5d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 银"
 			can_repeat: true
 			id: "6D173E4150C49131"
 			tasks: [{
@@ -3643,7 +3643,7 @@
 				{
 					id: "2C427D2E49798FE9"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3651,13 +3651,13 @@
 			]
 		}
 		{
-			title: "1x Blaze Cake"
+			title: "1x 烈焰蛋糕"
 			icon: "create:blaze_cake"
 			disable_toast: true
 			x: 4.0d
 			y: 10.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 银"
 			can_repeat: true
 			id: "221B29325F0FFBA5"
 			tasks: [{
@@ -3678,7 +3678,7 @@
 				{
 					id: "29C0EACDF51A9CAA"
 					type: "custom"
-					title: "Repeatable"
+					title: "重置"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3716,13 +3716,11 @@
 			tasks: [{
 				id: "76F40A1F0A7371B3"
 				type: "checkmark"
-				title: "yes 100% the modpack please."
 			}]
 		}
 		{
 			x: 1.5d
 			y: 2.0d
-			subtitle: "All of the Trades are also in Amadron!"
 			id: "326AC4EEE9E97B3A"
 			tasks: [{
 				id: "750D92F95510798F"
