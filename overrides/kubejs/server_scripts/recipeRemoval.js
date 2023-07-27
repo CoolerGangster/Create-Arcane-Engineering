@@ -59,5 +59,7 @@ onEvent('recipes', event => {
     event.remove({output: 'compressedcreativity:compressed_iron_casing'})
     event.remove({output: /waystones\:.*waystone/})
     event.remove({id: "create:filling/redsone"})
+    event.remove({id: "createaddition:mixing/netherrack"})
+    event.remove({id: "pneumaticcraft:block_heat_properties/minecraft/magma"})
     //event.remove({output: 'forbidden_arcanus:eternal_stella'})
 })   
