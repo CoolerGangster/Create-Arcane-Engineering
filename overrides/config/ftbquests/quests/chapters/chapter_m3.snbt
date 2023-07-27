@@ -188,7 +188,7 @@
 		{
 			x: -9.5d
 			y: -5.5d
-			dependencies: ["10190AA2A7C13277"]
+			dependencies: ["43DDE8F2EDA941A9"]
 			hide: true
 			id: "71A1D228DFD9F180"
 			tasks: [{
@@ -293,7 +293,7 @@
 			x: -8.0d
 			y: -2.0d
 			subtitle: "*you should probably get more than just one* (and you should nametag your wraiths)"
-			dependencies: ["3A10D0D5E8548C54"]
+			dependencies: ["43DDE8F2EDA941A9"]
 			hide: true
 			id: "79B2BD8F7999E19F"
 			tasks: [{
