@@ -672,14 +672,10 @@ let forbidden = [
 
 
 onEvent('block.break', event => {
-    
-    if (!event.player.isCreativeMode()){
-        if (event.level.dimension == 'cae:void'){
-            if (forbidden.includes(event.block.id)){
-                event.player.tell(Text.darkRed("Arcane Forces Protect this Block"))
-                event.cancel()
-            }
-        }
+    if (event.player.isCreativeMode() || event.level.dimension != 'cae:void') {return}
+    if (forbidden.includes(event.block.id)){
+        event.player.tell(Text.darkRed("Arcane Forces Protect this Block"))
+        event.cancel()
     }
 })
 /*
