@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 0
 	filename: "chapter_0_beginnings"
-	title: "Chapter 0: Beginnings"
+	title: "{chapter.0.title}"
 	icon: "minecraft:crafting_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -196,7 +196,7 @@
 			tasks: [{
 				id: "201D4D788B943D77"
 				type: "checkmark"
-				title: "Ars Nouveau"
+				title: "{chapter.0.quest.12.task.1.title}"
 			}]
 		}
 		{
@@ -209,7 +209,7 @@
 			tasks: [{
 				id: "153B106F8A7C6DF8"
 				type: "checkmark"
-				title: "Pneumaticcraft"
+				title: "{chapter.0.quest.12.task.1.title}"
 			}]
 		}
 		{
@@ -222,7 +222,7 @@
 			tasks: [{
 				id: "30B3270A916D1913"
 				type: "checkmark"
-				title: "KubeJS"
+				title: "{chapter.0.quest.14.task.1.title}"
 			}]
 		}
 		{
@@ -235,7 +235,7 @@
 			tasks: [{
 				id: "712E9828CEC53555"
 				type: "checkmark"
-				title: "Create Arcane Engineering"
+				title: "{chapter.0.quest.15.task.1.title}"
 			}]
 		}
 		{
@@ -295,7 +295,7 @@
 			tasks: [{
 				id: "00CA845E07229A7E"
 				type: "checkmark"
-				title: "Lychee"
+				title: "{chapter.0.quest.20.task.1.title}"
 			}]
 		}
 		{
@@ -314,7 +314,7 @@
 			tasks: [{
 				id: "19A69F0A95E68D12"
 				type: "checkmark"
-				title: "Tinkers\u0027 Construct"
+				title: "{chapter.0.quest.21.task.1.title}"
 			}]
 		}
 		{
@@ -327,7 +327,7 @@
 			tasks: [{
 				id: "633DC26121E79E2C"
 				type: "checkmark"
-				title: "Integrated Dynamics"
+				title: "{chapter.0.quest.22.task.1.title}"
 			}]
 		}
 		{
@@ -344,7 +344,7 @@
 			tasks: [{
 				id: "13C0B18FD0FF6712"
 				type: "checkmark"
-				title: "Forbidden and Arcanus"
+				title: "{chapter.0.quest.23.task.1.title}"
 			}]
 		}
 		{

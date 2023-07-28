@@ -8,6 +8,108 @@
     "block.kubejs.time_machine": "Time Machine",
 
     
+    "progression.id" : "38790066AE0C96F0",
+    "progression.title": "Progression",
+
+    "progression.quest.1.id" : "3BAD2CEF1245F202",
+    "progression.quest.1.title": "Good Luck!",
+    "progression.quest.1.subtitle": "When things seem overwhelming, know that you are capable of overcoming these obstacles. In this pack its not your resources that limit you, but your will to think outside the box. While the first chapters may feel tough resource wise, we can guarantee that after the initial start you won\u0027t find yourself in the need of many recources anymore. Good Luck Traveller!",
+    "progression.quest.1.description.1": "",
+    "progression.quest.1.task.1.title": "Let the journey begin!",
+
+    "progression.quest.2.id" : "6EFF8BCEBC2E2AF2",
+    "progression.quest.2.title": "First Tech Chapter: Alluring Allusions",
+    "progression.quest.2.subtitle": "These are Tech Chapters! Here you will be expanding your technological capabilities through innovation!",
+    "progression.quest.2.description.1": "",
+    "progression.quest.2.task.1.title": "Yis I wanna do the next chapter.",
+
+    "progression.quest.3.id" : "07D1ED74C8A30306",
+    "progression.quest.3.title": "The first Magic chapter: Crystalline Captivation",
+    "progression.quest.3.subtitle": "These are the Magic Chapters. Here you are tasked to find solutions to the extreme weirdness of Arcane Recipes, if however you fight past the struggle and conquer these challenges, tools unimaginably powerful will be yours.",
+    "progression.quest.3.description.1": "",
+    "progression.quest.3.task.1.title": "Yes, Lets do the next chapter",
+
+    "progression.quest.4.id" : "3B25D99BFA2C928C",
+    "progression.quest.4.title": "Extra Chapter: The Copper Age",
+    "progression.quest.4.subtitle": "",
+    "progression.quest.4.description.1": "",
+    "progression.quest.4.task.1.title": "Unlock the Chapter!",
+
+    "progression.quest.5.id" : "3A10D0D5E8548C54",
+    "progression.quest.5.title": "Extraterrestrial Expeditions",
+    "progression.quest.5.subtitle": "Before going into the Brass age, one should not rush things and slowly advance their infrastructure, so they can handle the new demands of the Brass Age!",
+    "progression.quest.5.description.1": "",
+    "progression.quest.5.task.1.title": "Gimme more chapters!",
+
+    "progression.quest.6.id" : "2E949A84C2E9B3C8",
+    "progression.quest.6.title": "Chapter 2 Extra: Sturdy Machinery",
+    "progression.quest.6.subtitle": "Trains!",
+    "progression.quest.6.description.1": "",
+    "progression.quest.6.task.1.title": "Yes Unlock Pls!",
+
+    "progression.quest.7.id" : "099F5D860FC50376",
+    "progression.quest.7.title": "Processing Pandemonium",
+    "progression.quest.7.subtitle": "",
+    "progression.quest.7.description.1": "",
+
+    "progression.quest.8.id" : "10190AA2A7C13277",
+    "progression.quest.8.title": "Herbalists Heritage",
+    "progression.quest.8.subtitle": "",
+    "progression.quest.8.description.1": "",
+    "progression.quest.8.task.1.title": "We can continue!",
+
+    "progression.quest.9.id" : "19232B8B77F86AF8",
+    "progression.quest.9.title": "Chromatic Creation",
+    "progression.quest.9.subtitle": "I can\u0027t wait to finish the pack! Give me more chapters!",
+    "progression.quest.9.description.1": "",
+    "progression.quest.9.task.1.title": "Give me harder demons",
+
+    "progression.quest.10.id" : "5A8CA8146004CDE2",
+    "progression.quest.10.title": "The Pneumatic Age",
+    "progression.quest.10.subtitle": "",
+    "progression.quest.10.description.1": "",
+    "progression.quest.10.task.1.title": "Unlock the Pneumatic Age!",
+
+    "progression.quest.11.id" : "10F884D73B9DB540",
+    "progression.quest.11.title": "Chronical Chaos",
+    "progression.quest.11.subtitle": "",
+    "progression.quest.11.description.1": "",
+    "progression.quest.11.task.1.title": "Unlock the final Magic Chapter",
+
+    "progression.quest.12.id" : "1874AF18742915E4",
+    "progression.quest.12.title": "Enigmatic Enlightenment",
+    "progression.quest.12.subtitle": "",
+    "progression.quest.12.description.1": "",
+
+    "progression.quest.13.id" : "33B884E7D9E5A820",
+    "progression.quest.13.title": "Arcane Alchemistry",
+    "progression.quest.13.subtitle": "",
+    "progression.quest.13.description.1": "",
+
+    "progression.quest.14.id" : "321593B0981F168B",
+    "progression.quest.14.title": "Applied Energistics 2 (AE2)",
+    "progression.quest.14.subtitle": "",
+    "progression.quest.14.description.1": "",
+    "progression.quest.14.task.1.title": "Unlock the road to AE2",
+
+    "progression.quest.15.id" : "1F401CB82AEBC9FE",
+    "progression.quest.15.title": "Integrational Chapter",
+    "progression.quest.15.subtitle": "",
+    "progression.quest.15.description.1": "",
+    "progression.quest.15.task.1.title": "Unlock the Integrational Chapter",
+
+    "progression.quest.16.id" : "1C392A3E7ADA7109",
+    "progression.quest.16.title": "The Destination.",
+    "progression.quest.16.subtitle": "",
+    "progression.quest.16.description.1": "",
+
+    "progression.quest.17.id" : "69C04E51277D2D0A",
+    "progression.quest.17.title": "Help translate!",
+    "progression.quest.17.subtitle": "We need your assistance! \\nTogether, we can make this modpack available in multiple languages and share the fun with everyone! :)",
+    "progression.quest.17.description.1": "Available Languages:",
+    "progression.quest.17.task.1.title": "Ok",
+
+
     "chapter.0.id": "23E704844FBC1F13",
     "chapter.0.title": "Chapter 0: Beginnings",
 
@@ -73,21 +175,25 @@
     "chapter.0.quest.12.title": "",
     "chapter.0.quest.12.subtitle": "Ars Nouveau is a mod dedicated to modern magic, featuring spells and familiars. However, it\u0027s important to note that this mod will only become relevant in the later stages of the pack, and you won\u0027t need an in-depth understanding of its mechanics. It has some plants that are useful like sourceberries, and mageblooms. You\u0027ll figure out what they do later :",
     "chapter.0.quest.12.description.1": "",
+    "chapter.0.quest.12.task.1.title": "Ars Nouveau",
 
     "chapter.0.quest.13.id" : "520425F3AFA5599F",
     "chapter.0.quest.13.title": "",
     "chapter.0.quest.13.subtitle": "In this tech-focused mod centered around pressure, the mechanics initially revolve around generating power and supplying it to various machines. While the significance of this mod will become apparent in later stages, it\u0027s important to note that the initial chapters do not involve overly complex mechanics beyond power production and distribution. Therefore, there\u0027s no need to worry about the intricacies of the mod during the first two chapters.",
     "chapter.0.quest.13.description.1": "",
+    "chapter.0.quest.13.task.1.title": "Pneumaticcraft",
 
     "chapter.0.quest.14.id" : "30B3270A916D1913",
     "chapter.0.quest.14.title": "",
     "chapter.0.quest.14.subtitle": "KubeJS is a mod that significantly enhances the modpack by adding numerous custom items, unique interactions, and intriguing quirks. As a modpack utility, it greatly simplifies the development process. If you come across an item attributed to KubeJS, it\u0027s likely to be crucial for progression within the modpack.",
     "chapter.0.quest.14.description.1": "",
+    "chapter.0.quest.14.task.1.title": "KubeJS",
 
     "chapter.0.quest.15.id" : "712E9828CEC53555",
     "chapter.0.quest.15.title": "",
     "chapter.0.quest.15.subtitle": "Arcane Engineering is the core mod of this modpack, introducing additional content for the ultra late game (which is not relevant at the moment). The mod features custom blocks for automating Skystone and Create Orestones and providing new ways to interact with these materials. Additionally, the mod alters the mechanics surrounding AE2 Meteorites.",
     "chapter.0.quest.15.description.1": "",
+    "chapter.0.quest.15.task.1.title": "Create Arcane Engineering",
 
     "chapter.0.quest.16.id" : "34055C39C54686D8",
     "chapter.0.quest.16.title": "",
@@ -115,21 +221,25 @@
     "chapter.0.quest.20.title": "",
     "chapter.0.quest.20.subtitle": "A utility mod for modpack devs that provides in-world recipes, like dropping items in fluids etc. Nothin\u0027 for you to worry about.",
     "chapter.0.quest.20.description.1": "",
+    "chapter.0.quest.20.task.1.title": "Lychee",
 
     "chapter.0.quest.21.id" : "4D411D9BCE1D33F2",
     "chapter.0.quest.21.title": "",
     "chapter.0.quest.21.subtitle": "Tinker\u0027s Construct is a tech mod that revolves around smelteries. It offers a unique feature that allows you to melt a variety of items and even entities, providing a cathartic way to melt away your sorrows. This mod gains importance in Chapter 2, making it worth exploring. Additionally, Tinkers\u0027 Construct is primarily focused on creating highly useful tools using a diverse selection of materials. With Tinkers\u0027 Construct, you can craft exceptionally powerful tools to aid you on your adventures!",
     "chapter.0.quest.21.description.1": "",
+    "chapter.0.quest.21.task.1.title": "Tinkers\u0027 Construct",
 
     "chapter.0.quest.22.id" : "74296D4CEDEA44AA",
     "chapter.0.quest.22.title": "",
     "chapter.0.quest.22.subtitle": "Integrated Dynamics is a magic-tech mod that primarily focuses on logic and offers a highly modular approach to programming. However, there\u0027s no need to be concerned about delving into complex programming endeavors in this modpack. In this specific modpack, Integrated Dynamics is utilized solely for its Trees feature, so you won\u0027t need to engage in programming tasks. Its also worth mentioning, that Integrated Dynamics provides a way to store items similar to AE2.",
     "chapter.0.quest.22.description.1": "",
+    "chapter.0.quest.22.task.1.title": "Integrated Dynamics",
 
     "chapter.0.quest.23.id" : "13C0B18FD0FF6712",
     "chapter.0.quest.23.title": "",
     "chapter.0.quest.23.subtitle": "Forbidden and Arcanus is a magic mod that revolves around a wide range of magic-related items, each possessing unique quirks and enchantments. While it\u0027s not necessary to delve into the intricacies of this mod at the moment, it will become more relevant as you progress further in the game. Rest assured that we provide comprehensive explanations for the mechanics and features when they come into play.",
     "chapter.0.quest.23.description.1": "",
+    "chapter.0.quest.23.task.1.title": "Forbidden and Arcanus",
 
     "chapter.0.quest.24.id" : "2E9BC6F50E8EAA67",
     "chapter.0.quest.24.title": "EZ Tree Chopping",

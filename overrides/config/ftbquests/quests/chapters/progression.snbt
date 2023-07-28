@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "progression"
-	title: "Progression"
+	title: "{progression.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -34,15 +34,15 @@
 	]
 	quests: [
 		{
-			title: "Good Luck!"
+			title: "{progression.quest.1.title}"
 			x: -0.5d
 			y: 0.0d
-			subtitle: "When things seem overwhelming, know that you are capable of overcoming these obstacles. In this pack its not your resources that limit you, but your will to think outside the box. While the first chapters may feel tough resource wise, we can guarantee that after the initial start you won't find yourself in the need of many recources anymore. Good Luck Traveller!"
+			subtitle: "{progression.quest.1.subtitle}"
 			id: "3BAD2CEF1245F202"
 			tasks: [{
 				id: "3C638DEE93C407D4"
 				type: "checkmark"
-				title: "Let the journey begin!"
+				title: "{progression.quest.1.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -83,11 +83,11 @@
 			]
 		}
 		{
-			title: "First Tech Chapter: Alluring Allusions"
+			title: "{progression.quest.2.title}"
 			icon: "kubejs:andesite_machine"
 			x: 1.0d
 			y: -1.0d
-			subtitle: "These are Tech Chapters! Here you will be expanding your technological capabilities through innovation!"
+			subtitle: "{progression.quest.2.subtitle}"
 			dependencies: [
 				"3BAD2CEF1245F202"
 				"4F91815A21A69A27"
@@ -102,16 +102,16 @@
 				{
 					id: "69A69B5061736432"
 					type: "checkmark"
-					title: "Yis I wanna do the next chapter."
+					title: "{progression.quest.2.task.1.title}"
 				}
 			]
 		}
 		{
-			title: "The first Magic chapter: Crystalline Captivation"
+			title: "{progression.quest.3.title}"
 			icon: "quark:violet_corundum"
 			x: 1.0d
 			y: 1.0d
-			subtitle: "These are the Magic Chapters. Here you are tasked to find solutions to the extreme weirdness of Arcane Recipes, if however you fight past the struggle and conquer these challenges, tools unimaginably powerful will be yours."
+			subtitle: "{progression.quest.3.subtitle}"
 			dependencies: [
 				"3BAD2CEF1245F202"
 				"191F931436C093A8"
@@ -126,12 +126,12 @@
 				{
 					id: "7F9798CE766D6BB8"
 					type: "checkmark"
-					title: "Yes, Lets do the next chapter"
+					title: "{progression.quest.3.task.1.title}"
 				}
 			]
 		}
 		{
-			title: "Extra Chapter: The Copper Age"
+			title: "{progression.quest.4.title}"
 			icon: "kubejs:sealed_machine"
 			x: 1.5d
 			y: -2.0d
@@ -143,15 +143,15 @@
 			tasks: [{
 				id: "69C2E51A9F5E986B"
 				type: "checkmark"
-				title: "Unlock the Chapter!"
+				title: "{progression.quest.4.task.1.title}"
 			}]
 		}
 		{
-			title: "Extraterrestrial Expeditions"
+			title: "{progression.quest.5.title}"
 			icon: "kubejs:brass_machine"
 			x: 2.5d
 			y: -1.0d
-			subtitle: "Before going into the Brass age, one should not rush things and slowly advance their infrastructure, so they can handle the new demands of the Brass Age!"
+			subtitle: "{progression.quest.5.subtitle}"
 			dependencies: [
 				"6EFF8BCEBC2E2AF2"
 				"4F91815A21A69A27"
@@ -167,16 +167,16 @@
 				{
 					id: "73BB42050BFC9FA6"
 					type: "checkmark"
-					title: "Gimme more chapters!"
+					title: "{progression.quest.5.task.1.title}"
 				}
 			]
 		}
 		{
-			title: "Chapter 2 Extra: Sturdy Machinery"
+			title: "{progression.quest.6.title}"
 			icon: "kubejs:sturdy_machine"
 			x: 3.0d
 			y: -2.0d
-			subtitle: "Trains!"
+			subtitle: "{progression.quest.6.subtitle}"
 			dependencies: [
 				"3A10D0D5E8548C54"
 				"730102EB2E56C6A1"
@@ -186,11 +186,11 @@
 			tasks: [{
 				id: "73E5284067DB7466"
 				type: "checkmark"
-				title: "Yes Unlock Pls!"
+				title: "{progression.quest.6.task.1.title}"
 			}]
 		}
 		{
-			title: "Processing Pandemonium"
+			title: "{progression.quest.7.title}"
 			x: 5.5d
 			y: -1.0d
 			dependencies: [
@@ -205,7 +205,7 @@
 			}]
 		}
 		{
-			title: "Herbalists Heritage"
+			title: "{progression.quest.8.title}"
 			icon: "ars_nouveau:as_gold_stone"
 			x: 2.5d
 			y: 1.0d
@@ -224,16 +224,16 @@
 				{
 					id: "2CEA253303F6DB06"
 					type: "checkmark"
-					title: "We can continue!"
+					title: "{progression.quest.8.task.1.title}"
 				}
 			]
 		}
 		{
-			title: "Chromatic Creation"
+			title: "{progression.quest.9.title}"
 			icon: "kubejs:radiant_machine"
 			x: 4.0d
 			y: -1.0d
-			subtitle: "I can't wait to finish the pack! Give me more chapters!"
+			subtitle: "{progression.quest.9.subtitle}"
 			dependencies: [
 				"3A10D0D5E8548C54"
 				"1CF1A735F77415F2"
@@ -249,12 +249,12 @@
 				{
 					id: "7148E1E85BDF49D9"
 					type: "checkmark"
-					title: "Give me harder demons"
+					title: "{progression.quest.9.task.1.title}"
 				}
 			]
 		}
 		{
-			title: "The Pneumatic Age"
+			title: "{progression.quest.10.title}"
 			icon: "kubejs:plastic_machine"
 			x: 4.5d
 			y: -2.0d
@@ -266,11 +266,11 @@
 			tasks: [{
 				id: "5076BF5FA05B47C6"
 				type: "checkmark"
-				title: "Unlock the Pneumatic Age!"
+				title: "{progression.quest.10.task.1.title}"
 			}]
 		}
 		{
-			title: "Chronical Chaos"
+			title: "{progression.quest.11.title}"
 			icon: "forbidden_arcanus:arcane_gilded_darkstone"
 			x: 4.0d
 			y: 1.0d
@@ -283,7 +283,7 @@
 				{
 					id: "40072B1C1C293840"
 					type: "checkmark"
-					title: "Unlock the final Magic Chapter"
+					title: "{progression.quest.11.task.1.title}"
 				}
 				{
 					id: "06790D855864E027"
@@ -297,7 +297,7 @@
 			]
 		}
 		{
-			title: "Enigmatic Enlightenment"
+			title: "{progression.quest.12.title}"
 			icon: {
 				id: "forbidden_arcanus:eternal_stella"
 				Count: 1b
@@ -321,7 +321,7 @@
 			}]
 		}
 		{
-			title: "Arcane Alchemistry"
+			title: "{progression.quest.13.title}"
 			x: 6.5d
 			y: 0.0d
 			dependencies: [
@@ -339,6 +339,7 @@
 			}]
 		}
 		{
+			title : "Applied Energistics 2 (AE2)"
 			icon: "kubejs:time_machine"
 			x: 4.5d
 			y: 0.0d
@@ -351,11 +352,11 @@
 			tasks: [{
 				id: "77DF7F1EC935C976"
 				type: "checkmark"
-				title: "Unlock the road to AE2"
+				title: "{progression.quest.14.task.1.title}"
 			}]
 		}
 		{
-			title: "Integrational Chapter"
+			title: "{progression.quest.15.title}"
 			icon: "kubejs:integrational_machine"
 			x: 3.0d
 			y: 0.0d
@@ -368,11 +369,11 @@
 			tasks: [{
 				id: "469E7DA40F9E39C3"
 				type: "checkmark"
-				title: "Unlock the Integrational Chapter"
+				title: "{progression.quest.15.task.1.title}"
 			}]
 		}
 		{
-			title: "The Destination."
+			title: "{progression.quest.16.title}"
 			x: 8.5d
 			y: 0.0d
 			dependencies: ["33B884E7D9E5A820"]
@@ -384,7 +385,7 @@
 			}]
 		}
 		{
-			title: "Help translate!"
+			title: "{progression.quest.17.title}"
 			icon: {
 				id: "minecraft:writable_book"
 				Count: 1b
@@ -394,10 +395,10 @@
 			}
 			x: -0.5d
 			y: -2.0d
-			subtitle: "We need your assistance! \\nTogether, we can make this modpack available in multiple languages and share the fun with everyone! :)"
+			subtitle: "{progression.quest.17.subtitle}"
 			description: [
 				""
-				"Available Languages:"
+				"{progression.quest.17.description.1}"
 				""
 				"en_us: English"
 				"pt_br: Português (Brasil) - WIP"
@@ -406,7 +407,7 @@
 			tasks: [{
 				id: "102C94374D1423A2"
 				type: "checkmark"
-				title: "Ok"
+				title: "{progression.quest.17.task.1.title}"
 			}]
 		}
 	]
