@@ -5,6 +5,175 @@
     "block.kubejs.sealed_machine": "Sealed Machine",
     "block.kubejs.brass_machine": "Brass Machine",
     "block.kubejs.integrational_machine": "Integrational Machine",
-    "block.kubejs.time_machine": "Time Machine"
+    "block.kubejs.time_machine": "Time Machine",
 
+    
+    "chapter.0.id": "23E704844FBC1F13",
+    "chapter.0.title": "Chapter 0: Beginnings",
+
+    "chapter.0.quest.1.id" : "2F63FB9E8EAC18BD",
+    "chapter.0.quest.1.title": "Getting started!",
+    "chapter.0.quest.1.subtitle": "You know how to punch trees, right? Before you get too invested in all the mods, if you\u0027re not sure what you\u0027re doing, just play some Minecraft. Build a house, build a farm, do the usual.",
+    "chapter.0.quest.1.description.1": "",
+
+    "chapter.0.quest.2.id" : "4DCF01FE026F9FE5",
+    "chapter.0.quest.2.title": "I can\u0027t wait to be an engineer!",
+    "chapter.0.quest.2.subtitle": "Fair enough, here is some stuff to gather.",
+    "chapter.0.quest.2.description.1": "",
+    "chapter.0.quest.2.task.1.title": "Preparations for Chapter 1",
+
+    "chapter.0.quest.3.id" : "3580485A369D2795",
+    "chapter.0.quest.3.title": "Your first task",
+    "chapter.0.quest.3.subtitle": "Getting started on making money",
+    "chapter.0.quest.3.description.1": "Tasks are great! Completing them can help you make lots of money! \\n\\nBut be aware: They usually cost a few Silver Coins and you never know what task you may be given! \\nThis one is for free to get you started.",
+    "chapter.0.quest.3.task.1.title": "I understand",
+
+    "chapter.0.quest.4.id" : "6EC5AFB16BA0E63B",
+    "chapter.0.quest.4.title": "Item grinding, useful for a variety of things.",
+    "chapter.0.quest.4.subtitle": "",
+    "chapter.0.quest.4.description.1": "",
+
+    "chapter.0.quest.5.id" : "6C385B4921836314",
+    "chapter.0.quest.5.title": "OP Smelting, Smoking and Washing",
+    "chapter.0.quest.5.subtitle": "",
+    "chapter.0.quest.5.description.1": "",
+
+    "chapter.0.quest.6.id" : "59386F705AAD3CFF",
+    "chapter.0.quest.6.title": "Some SU appliances.",
+    "chapter.0.quest.6.subtitle": "Power has to come from somewhere.",
+    "chapter.0.quest.6.description.1": "",
+
+    "chapter.0.quest.7.id" : "7130663AECB4C8B1",
+    "chapter.0.quest.7.title": "",
+    "chapter.0.quest.7.subtitle": "A bit of copper.",
+    "chapter.0.quest.7.description.1": "",
+
+    "chapter.0.quest.8.id" : "4D32217601DA01D6",
+    "chapter.0.quest.8.title": "",
+    "chapter.0.quest.8.subtitle": "You can make Andesite Alloy with it!",
+    "chapter.0.quest.8.description.1": "",
+
+    "chapter.0.quest.9.id" : "769ACE88C21CA4F9",
+    "chapter.0.quest.9.title": "",
+    "chapter.0.quest.9.subtitle": "Lots of iron.",
+    "chapter.0.quest.9.description.1": "",
+
+    "chapter.0.quest.10.id" : "21DF66C5B03C191D",
+    "chapter.0.quest.10.title": "",
+    "chapter.0.quest.10.subtitle": "Some zinc.",
+    "chapter.0.quest.10.description.1": "",
+
+    "chapter.0.quest.11.id" : "10DADBB2E6B7B7B5",
+    "chapter.0.quest.11.title": "What are these mods!? Im scared!!",
+    "chapter.0.quest.11.subtitle": "Heres a list of some mods you may have never encountered before, and are incredibly confused about.",
+    "chapter.0.quest.11.description.1": "",
+    "chapter.0.quest.11.task.1.title": "Stuff to Ignore!",
+
+    "chapter.0.quest.12.id" : "0F7ADBD455574DA8",
+    "chapter.0.quest.12.title": "",
+    "chapter.0.quest.12.subtitle": "Ars Nouveau is a mod dedicated to modern magic, featuring spells and familiars. However, it\u0027s important to note that this mod will only become relevant in the later stages of the pack, and you won\u0027t need an in-depth understanding of its mechanics. It has some plants that are useful like sourceberries, and mageblooms. You\u0027ll figure out what they do later :",
+    "chapter.0.quest.12.description.1": "",
+
+    "chapter.0.quest.13.id" : "520425F3AFA5599F",
+    "chapter.0.quest.13.title": "",
+    "chapter.0.quest.13.subtitle": "In this tech-focused mod centered around pressure, the mechanics initially revolve around generating power and supplying it to various machines. While the significance of this mod will become apparent in later stages, it\u0027s important to note that the initial chapters do not involve overly complex mechanics beyond power production and distribution. Therefore, there\u0027s no need to worry about the intricacies of the mod during the first two chapters.",
+    "chapter.0.quest.13.description.1": "",
+
+    "chapter.0.quest.14.id" : "30B3270A916D1913",
+    "chapter.0.quest.14.title": "",
+    "chapter.0.quest.14.subtitle": "KubeJS is a mod that significantly enhances the modpack by adding numerous custom items, unique interactions, and intriguing quirks. As a modpack utility, it greatly simplifies the development process. If you come across an item attributed to KubeJS, it\u0027s likely to be crucial for progression within the modpack.",
+    "chapter.0.quest.14.description.1": "",
+
+    "chapter.0.quest.15.id" : "712E9828CEC53555",
+    "chapter.0.quest.15.title": "",
+    "chapter.0.quest.15.subtitle": "Arcane Engineering is the core mod of this modpack, introducing additional content for the ultra late game (which is not relevant at the moment). The mod features custom blocks for automating Skystone and Create Orestones and providing new ways to interact with these materials. Additionally, the mod alters the mechanics surrounding AE2 Meteorites.",
+    "chapter.0.quest.15.description.1": "",
+
+    "chapter.0.quest.16.id" : "34055C39C54686D8",
+    "chapter.0.quest.16.title": "",
+    "chapter.0.quest.16.subtitle": "Chapter 1 requires you to farm Menril Trees.",
+    "chapter.0.quest.16.description.1": "",
+
+    "chapter.0.quest.17.id" : "227004D221260FC2",
+    "chapter.0.quest.17.title": "",
+    "chapter.0.quest.17.subtitle": "You can make Andesite Alloy with it",
+    "chapter.0.quest.17.description.1": "",
+
+    "chapter.0.quest.18.id" : "749112B711CAB183",
+    "chapter.0.quest.18.title": "",
+    "chapter.0.quest.18.subtitle": "Here are the items you\u0027ll need to get started, and once you begin, there\u0027s no turning back! 12121!!",
+    "chapter.0.quest.18.description.1": "",
+    "chapter.0.quest.18.task.1.title": "I cant wait to become a cool mage!",
+
+    "chapter.0.quest.19.id" : "3309E6DC2F78649F",
+    "chapter.0.quest.19.title": "",
+    "chapter.0.quest.19.subtitle": "",
+    "chapter.0.quest.19.description.1": "",
+    "chapter.0.quest.19.task.1.title": "Let\u0027s get a basic workshop going eh?",
+
+    "chapter.0.quest.20.id" : "00CA845E07229A7E",
+    "chapter.0.quest.20.title": "",
+    "chapter.0.quest.20.subtitle": "A utility mod for modpack devs that provides in-world recipes, like dropping items in fluids etc. Nothin\u0027 for you to worry about.",
+    "chapter.0.quest.20.description.1": "",
+
+    "chapter.0.quest.21.id" : "4D411D9BCE1D33F2",
+    "chapter.0.quest.21.title": "",
+    "chapter.0.quest.21.subtitle": "Tinker\u0027s Construct is a tech mod that revolves around smelteries. It offers a unique feature that allows you to melt a variety of items and even entities, providing a cathartic way to melt away your sorrows. This mod gains importance in Chapter 2, making it worth exploring. Additionally, Tinkers\u0027 Construct is primarily focused on creating highly useful tools using a diverse selection of materials. With Tinkers\u0027 Construct, you can craft exceptionally powerful tools to aid you on your adventures!",
+    "chapter.0.quest.21.description.1": "",
+
+    "chapter.0.quest.22.id" : "74296D4CEDEA44AA",
+    "chapter.0.quest.22.title": "",
+    "chapter.0.quest.22.subtitle": "Integrated Dynamics is a magic-tech mod that primarily focuses on logic and offers a highly modular approach to programming. However, there\u0027s no need to be concerned about delving into complex programming endeavors in this modpack. In this specific modpack, Integrated Dynamics is utilized solely for its Trees feature, so you won\u0027t need to engage in programming tasks. Its also worth mentioning, that Integrated Dynamics provides a way to store items similar to AE2.",
+    "chapter.0.quest.22.description.1": "",
+
+    "chapter.0.quest.23.id" : "13C0B18FD0FF6712",
+    "chapter.0.quest.23.title": "",
+    "chapter.0.quest.23.subtitle": "Forbidden and Arcanus is a magic mod that revolves around a wide range of magic-related items, each possessing unique quirks and enchantments. While it\u0027s not necessary to delve into the intricacies of this mod at the moment, it will become more relevant as you progress further in the game. Rest assured that we provide comprehensive explanations for the mechanics and features when they come into play.",
+    "chapter.0.quest.23.description.1": "",
+
+    "chapter.0.quest.24.id" : "2E9BC6F50E8EAA67",
+    "chapter.0.quest.24.title": "EZ Tree Chopping",
+    "chapter.0.quest.24.subtitle": "",
+    "chapter.0.quest.24.description.1": "",
+
+    "chapter.0.quest.25.id" : "3109A6F2EA23F755",
+    "chapter.0.quest.25.title": "",
+    "chapter.0.quest.25.subtitle": "",
+    "chapter.0.quest.25.description.1": "",
+
+    "chapter.0.quest.26.id" : "7B1516AB858E84A1",
+    "chapter.0.quest.26.title": "Doubling Andesite Alloy rates.",
+    "chapter.0.quest.26.subtitle": "",
+    "chapter.0.quest.26.description.1": "",
+
+    "chapter.0.quest.27.id" : "02EE7F0461B0DFBF",
+    "chapter.0.quest.27.title": "",
+    "chapter.0.quest.27.subtitle": "You can make Andesite Alloy with it",
+    "chapter.0.quest.27.description.1": "",
+
+    "chapter.0.quest.28.id" : "3F2F651C5B2E8758",
+    "chapter.0.quest.28.title": "",
+    "chapter.0.quest.28.subtitle": "",
+    "chapter.0.quest.28.description.1": "",
+
+    "chapter.0.quest.29.id" : "16C84D39BB2CA23B",
+    "chapter.0.quest.29.title": "",
+    "chapter.0.quest.29.subtitle": "",
+    "chapter.0.quest.29.description.1": "",
+    "chapter.0.quest.29.task.1.title": "Any #quark:corundum",
+
+    "chapter.0.quest.30.id" : "159959902CC20D5F",
+    "chapter.0.quest.30.title": "",
+    "chapter.0.quest.30.subtitle": "",
+    "chapter.0.quest.30.description.1": "",
+
+    "chapter.0.quest.31.id" : "17A07FB16A28912B",
+    "chapter.0.quest.31.title": "",
+    "chapter.0.quest.31.subtitle": "How am I gonna get brass!? Well, in Chapter 1 there is a tutorial :)",
+    "chapter.0.quest.31.description.1": "",
+
+    "chapter.0.quest.32.id" : "6BBE4CCFE07312A9",
+    "chapter.0.quest.32.title": "",
+    "chapter.0.quest.32.subtitle": "",
+    "chapter.0.quest.32.description.1": ""
 }

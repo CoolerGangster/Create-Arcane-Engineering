@@ -88,14 +88,10 @@
 			x: 1.0d
 			y: -1.0d
 			subtitle: "These are Tech Chapters! Here you will be expanding your technological capabilities through innovation!"
-<<<<<<< HEAD
-			dependencies: ["3BAD2CEF1245F202"]
-=======
 			dependencies: [
 				"3BAD2CEF1245F202"
 				"4F91815A21A69A27"
 			]
->>>>>>> dev
 			id: "6EFF8BCEBC2E2AF2"
 			tasks: [
 				{
@@ -116,14 +112,10 @@
 			x: 1.0d
 			y: 1.0d
 			subtitle: "These are the Magic Chapters. Here you are tasked to find solutions to the extreme weirdness of Arcane Recipes, if however you fight past the struggle and conquer these challenges, tools unimaginably powerful will be yours."
-<<<<<<< HEAD
-			dependencies: ["3BAD2CEF1245F202"]
-=======
 			dependencies: [
 				"3BAD2CEF1245F202"
 				"191F931436C093A8"
 			]
->>>>>>> dev
 			id: "07D1ED74C8A30306"
 			tasks: [
 				{
@@ -389,6 +381,32 @@
 			tasks: [{
 				id: "0729F370FA81512E"
 				type: "custom"
+			}]
+		}
+		{
+			title: "Help translate!"
+			icon: {
+				id: "minecraft:writable_book"
+				Count: 1b
+				tag: {
+					Enchantments: [{ }]
+				}
+			}
+			x: -0.5d
+			y: -2.0d
+			subtitle: "We need your assistance! \\nTogether, we can make this modpack available in multiple languages and share the fun with everyone! :)"
+			description: [
+				""
+				"Available Languages:"
+				""
+				"en_us: English"
+				"pt_br: Português (Brasil) - WIP"
+			]
+			id: "69C04E51277D2D0A"
+			tasks: [{
+				id: "102C94374D1423A2"
+				type: "checkmark"
+				title: "Ok"
 			}]
 		}
 	]
