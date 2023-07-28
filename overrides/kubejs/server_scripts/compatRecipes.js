@@ -1,5 +1,6 @@
 let wrencharray = []
 let dumbshitarray =  [
+    "kubejs:gold_casing",
     "2x create:portable_storage_interface",
     "2x create:mechanical_harvester",
     "2x create:mechanical_plough",
