@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Tue Jul 25 16:48:40 CEST 2023
-=======
 #Wed Jul 26 19:44:00 CEST 2023
->>>>>>> dev
 shadowDistance=256.0
 LIGHT_END_I=1.20
 AURORA_CONDITION=1
