@@ -107,6 +107,7 @@
 			x: 19.5d
 			y: 1.5d
 			shape: "rsquare"
+			subtitle: "You even get extra corundum blocks to expand your production!"
 			dependencies: ["281CA0D5110C3959"]
 			id: "4ADB32C087B9092C"
 			tasks: [{
@@ -122,10 +123,9 @@
 				}
 			}]
 			rewards: [{
-				id: "46D5DEA375CEBA7D"
+				id: "3600F8721D492C36"
 				type: "item"
-				item: "quark:violet_corundum"
-				count: 16
+				item: "kubejs:lootbag_arcane_1"
 			}]
 		}
 		{
@@ -190,17 +190,12 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "73C98D1D32E9D518"
-				type: "item"
-				item: "quark:violet_corundum_cluster"
-				count: 16
-			}]
 		}
 		{
 			x: 16.5d
 			y: 3.0d
 			shape: "diamond"
+			subtitle: "Mix the Corundum Clusters with Rune dust to make Violet Corundum Clusters"
 			dependencies: [
 				"6321291501061632"
 				"21523CBC75AFE12D"
@@ -270,6 +265,7 @@
 			x: 16.5d
 			y: 5.0d
 			shape: "diamond"
+			subtitle: "Compress Violet Corundum Clusters and rune dust back into Runes"
 			dependencies: [
 				"6321291501061632"
 				"17EF5048D1A08AFE"
@@ -321,6 +317,7 @@
 			x: 18.0d
 			y: 6.0d
 			shape: "diamond"
+			subtitle: "Crush the Runes into Rune Dust"
 			dependencies: ["23FFB3EBDEE7FC2E"]
 			id: "5FB305FE4095D986"
 			tasks: [{
@@ -375,22 +372,30 @@
 		{
 			x: 19.5d
 			y: 7.0d
+			subtitle: "Obtain a Rune to get the Cycle started"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			optional: true
 			id: "1A961226FACC3DF9"
-			tasks: [{
-				id: "627B88154BE2D489"
-				type: "item"
-				title: "Any #forbidden_arcanus:runic_stones"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forbidden_arcanus:runic_stones"
+			tasks: [
+				{
+					id: "627B88154BE2D489"
+					type: "item"
+					title: "Any #forbidden_arcanus:runic_stones"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forbidden_arcanus:runic_stones"
+						}
 					}
 				}
-			}]
+				{
+					id: "22997C9757A6649B"
+					type: "item"
+					item: "forbidden_arcanus:rune"
+				}
+			]
 		}
 		{
 			x: 18.0d
