@@ -110,6 +110,202 @@
     "progression.quest.17.task.1.title": "Ok",
 
 
+    "tips.id": "32AC7585758C60EA",
+    "tips.title": "Tips",
+
+    "tips.quest.1.id": "2DF25740BF8AF0F2",
+    "tips.quest.1.title": "",
+    "tips.quest.1.subtitle": "There are many locational recources. The motive behind those is for you to use the new 1.18 trains :) Train Tracks have been made SIXTEEN TIMES cheaper than normal, so your train building adventures are as easy as they can be!",
+    "tips.quest.1.description.1": "",
+
+    "tips.quest.2.id": "14FC19629B01ACFF",
+    "tips.quest.2.title": "Iron Farms",
+    "tips.quest.2.subtitle": "This pack demands a good supply of iron....",
+    "tips.quest.2.description.1": "",
+
+    "tips.quest.3.id": "51054C4D158084AD",
+    "tips.quest.3.title": "Ore Deposit Guide",
+    "tips.quest.3.subtitle": "All ores can be found in every biome, but they differ in rarity and plentyness depending on Biome. In particular, every Ore has 1 biome where it is found in plentyfull quality, then theres a secondary biome which has very high vein spawn rates, but very miniscule deposits (1k-7k ish), lastly there are normal veins in every overworld biome that are very rare.You can see all the info on the Biomes and max vein sizes in the recipe tabs for the drilling machine.Gold is most common in Dry biomes, while it also has remnants in the nether, but these veins are more limited.Iron is most commonly found in Jungles, and secondarily in Rare biomes, such as the flower forest.Tin, lead,nickel,and Zinc are found like Iron.Copper is found most commonly in Mountains, and secondarily in Rare biomes.Lastly, Silver is most commonly found in Mountains, and secondarily in the End",
+    "tips.quest.3.description.1": "",
+
+    "tips.quest.4.id": "0C07D49BEDE78634",
+    "tips.quest.4.title": "Trains in every Dimension!",
+    "tips.quest.4.subtitle": "Rightclicking a Diamond Block with Flint and Steel will Grant portals in every dimension, as an extension you can make trains in every dimension, just place a track into that generated portal.",
+    "tips.quest.4.description.1": "",
+
+    "tips.quest.5.id": "3147CC1F634EF8E7",
+    "tips.quest.5.title": "",
+    "tips.quest.5.subtitle": "This is a create chunkloader, it also works on contraptions. But it doesnt simulate randomticks, which is the stuff you need to grow crops. But another tool allows for randomtick chunkloading, which is the FTBchunks force load. It is more or less required to complete this pack.",
+    "tips.quest.5.description.1": "",
+
+    "tips.quest.6.id": "5296043AF72D58DD",
+    "tips.quest.6.title": "",
+    "tips.quest.6.subtitle": "",
+    "tips.quest.6.description.1": "",
+
+    "tips.quest.7.id": "7CE214F701140C6B",
+    "tips.quest.7.title": "",
+    "tips.quest.7.subtitle": "",
+    "tips.quest.7.description.1": "",
+
+    "tips.quest.8.id": "39417A51292D3544",
+    "tips.quest.8.title": "",
+    "tips.quest.8.subtitle": "Find Any Structure at the click of a Button",
+    "tips.quest.8.description.1": "",
+
+    "tips.quest.9.id": "00A12D9476F67645",
+    "tips.quest.9.title": "",
+    "tips.quest.9.subtitle": "Saddles are craftable!",
+    "tips.quest.9.description.1": "",
+
+    "tips.quest.10.id": "6BE95A5BCF9527ED",
+    "tips.quest.10.title": "CT Mills",
+    "tips.quest.10.subtitle": "Windmills Only need 1 Sail to work! (assuming I didnt mess up configs)",
+    "tips.quest.10.description.1": "",
+
+    "tips.quest.11.id": "520888735E13CA2E",
+    "tips.quest.11.title": "Orestones are now Renewable!",
+    "tips.quest.11.subtitle": "Molten Geodes of Orestones now spawn all around the world, find the Geode Block in those and rightclick it with a redstone dust item. This way, orestones and their recources are fully automatable!",
+    "tips.quest.11.description.1": "",
+
+    "tips.quest.12.id": "52EE3B7F60A5C0F4",
+    "tips.quest.12.title": "",
+    "tips.quest.12.subtitle": "After Chapter M1 you will have unlocked the Runic Tablet. It allows transmuting various things into their counterpart, such as empty blaze burners into blaze burners, and mobdrops into their super rare reliquary counterpart",
+    "tips.quest.12.description.1": "",
+
+    "tips.quest.13.id": "45D36D1DEB856A0F",
+    "tips.quest.13.title": "Item filtering in the early game!",
+    "tips.quest.13.subtitle": "Locking Drawers and attaching a Andesite Funnel works suprisingly well as an early game Item filtering method!",
+    "tips.quest.13.description.1": "",
+
+    "tips.quest.14.id": "392207368024751B",
+    "tips.quest.14.title": "Pre Brass Item Stacking!",
+    "tips.quest.14.subtitle": "You can group items into stacks by using Weighted Ejectors, simply scroll with a wrench on a Weighted Ejector to configure the desired Stack amount!",
+    "tips.quest.14.description.1": "",
+
+    "tips.quest.15.id": "39BEA048AB996A02",
+    "tips.quest.15.title": "",
+    "tips.quest.15.subtitle": "Easy Placing and Breaking. The Construction Wand is absolutely overpowered.",
+    "tips.quest.15.description.1": "",
+
+    "tips.quest.16.id": "071AE83CC302169D",
+    "tips.quest.16.title": "",
+    "tips.quest.16.subtitle": "Will Make any Item Indestructible.",
+    "tips.quest.16.description.1": "",
+
+    "tips.quest.17.id": "1F8010E246DBE7D2",
+    "tips.quest.17.title": "Vein Mining Enchantment",
+    "tips.quest.17.subtitle": "",
+    "tips.quest.17.description.1": "",
+
+    "tips.quest.18.id": "0403135BEBFF8693",
+    "tips.quest.18.title": "Blaze Burners can now Accept Liquids if you give them a Straw! Bypasses blaze cakes",
+    "tips.quest.18.subtitle": "",
+    "tips.quest.18.description.1": "",
+
+    "tips.quest.19.id": "514DF30DE10444A1",
+    "tips.quest.19.title": "",
+    "tips.quest.19.subtitle": "",
+    "tips.quest.19.description.1": "",
+
+    "tips.quest.20.id": "2871D10E1E289B18",
+    "tips.quest.20.title": "",
+    "tips.quest.20.subtitle": "",
+    "tips.quest.20.description.1": "",
+
+    "tips.quest.21.id": "10F2426EC2ABA865",
+    "tips.quest.21.title": "",
+    "tips.quest.21.subtitle": "Still to be implemented",
+    "tips.quest.21.description.1": "",
+
+    "tips.quest.22.id": "5CFBF9DB3C810E70",
+    "tips.quest.22.title": "Witherproof glass",
+    "tips.quest.22.subtitle": "Completely Indestructible by Withers",
+    "tips.quest.22.description.1": "",
+
+    "tips.quest.23.id": "52E70CAD0E90E8E3",
+    "tips.quest.23.title": "",
+    "tips.quest.23.subtitle": "",
+    "tips.quest.23.description.1": "",
+
+    "tips.quest.24.id": "640704ED253016CA",
+    "tips.quest.24.title": "Portable Energy? YES PLEASE",
+    "tips.quest.24.subtitle": "",
+    "tips.quest.24.description.1": "",
+
+    "tips.quest.25.id": "39726A3AB587CB01",
+    "tips.quest.25.title": "Harvesting Leaves in STYLE",
+    "tips.quest.25.subtitle": "Harvesters can harvest leaves.",
+    "tips.quest.25.description.1": "",
+
+    "tips.quest.26.id": "3D7B34D45116567D",
+    "tips.quest.26.title": "",
+    "tips.quest.26.subtitle": "Can be used to farm Fish...",
+    "tips.quest.26.description.1": "",
+
+    "tips.quest.27.id": "5E6870E5C7A79754",
+    "tips.quest.27.title": "",
+    "tips.quest.27.subtitle": "",
+    "tips.quest.27.description.1": "",
+
+    "tips.quest.28.id": "433CCF86EBF39A8E",
+    "tips.quest.28.title": "",
+    "tips.quest.28.subtitle": "Scans a chunk for Andesite and Diorite",
+    "tips.quest.28.description.1": "",
+
+    "tips.quest.29.id": "6425BC0E551581F5",
+    "tips.quest.29.title": "",
+    "tips.quest.29.subtitle": "Netherack is now renewable!!!! WOOOO (Dont you dare try and automate it) (I MADE IT AS PAINFULL AS POSSIBLE SO NO ONE WILL DO IT)",
+    "tips.quest.29.description.1": "",
+
+    "tips.quest.30.id": "223B1CB805849D44",
+    "tips.quest.30.title": "",
+    "tips.quest.30.subtitle": "Collect some, will ya?",
+    "tips.quest.30.description.1": "",
+
+    "tips.quest.31.id": "2A80651B5135AB01",
+    "tips.quest.31.title": "Plates through Anvils",
+    "tips.quest.31.subtitle": "Drop an Anvil on an Ingot, and sure enough, it'll get pressed down into a plate. (A bit lossy)",
+    "tips.quest.31.description.1": "",
+
+    "tips.quest.32.id": "4C457CC907F4CAA5",
+    "tips.quest.32.title": "",
+    "tips.quest.32.subtitle": "",
+    "tips.quest.32.description.1": "",
+    "tips.quest.32.task.1.title": "Do the Test of Patience.",
+
+    "tips.quest.33.id": "280B58649F0CB8C9",
+    "tips.quest.33.title": "The most Important Tips:",
+    "tips.quest.33.subtitle": "",
+    "tips.quest.33.description.1": "",
+
+    "tips.quest.34.id": "654993F745FC29F0",
+    "tips.quest.34.title": "Less Important Tips:",
+    "tips.quest.34.subtitle": "",
+    "tips.quest.34.description.1": "",
+
+    "tips.quest.35.id": "3799508D7DECC323",
+    "tips.quest.35.title": "Misc Tips",
+    "tips.quest.35.subtitle": "",
+    "tips.quest.35.description.1": "",
+
+    "tips.quest.36.id": "686971D4F5FC320E",
+    "tips.quest.36.title": "",
+    "tips.quest.36.subtitle": "Will Generate the block placed below it.",
+    "tips.quest.36.description.1": "",
+
+    "tips.quest.37.id": "1BDC8F965F8B7DA7",
+    "tips.quest.37.title": "Search for Items in Chests",
+    "tips.quest.37.subtitle": "Hover over a item in JEI and Press Y to show all chests with that item.",
+    "tips.quest.37.description.1": "",
+    "tips.quest.37.task.1.title": "Hover over a item in JEI and Press Y to show all chests with that item.",
+
+    "tips.quest.38.id": "41474C57E044994B",
+    "tips.quest.38.title": "",
+    "tips.quest.38.subtitle": "Heat Create Steam Engines with Pneumaticcraft!",
+    "tips.quest.38.description.1": "",
+
+
     "chapter.0.id": "23E704844FBC1F13",
     "chapter.0.title": "Chapter 0: Beginnings",
 
@@ -270,7 +466,6 @@
     "chapter.0.quest.29.title": "",
     "chapter.0.quest.29.subtitle": "",
     "chapter.0.quest.29.description.1": "",
-    "chapter.0.quest.29.task.1.title": "Any #quark:corundum",
 
     "chapter.0.quest.30.id" : "159959902CC20D5F",
     "chapter.0.quest.30.title": "",

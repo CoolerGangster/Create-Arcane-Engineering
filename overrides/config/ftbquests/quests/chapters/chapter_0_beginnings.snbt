@@ -413,7 +413,7 @@
 			tasks: [{
 				id: "2644512E661BB3A2"
 				type: "item"
-				title: "{chapter.0.quest.29.task.1.title}"
+				title: "Any #quark:corundum"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

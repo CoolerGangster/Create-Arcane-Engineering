@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "tips"
-	title: "Tips"
+	title: "{tips.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -60,7 +60,7 @@
 		{
 			x: -5.5d
 			y: -12.0d
-			subtitle: "There are many locational recources. The motive behind those is for you to use the new 1.18 trains :) Train Tracks have been made SIXTEEN TIMES cheaper than normal, so your train building adventures are as easy as they can be!"
+			subtitle: "{tips.quest.1.subtitle}"
 			id: "2DF25740BF8AF0F2"
 			tasks: [{
 				id: "7BB8B3A8548C9213"
@@ -69,10 +69,10 @@
 			}]
 		}
 		{
-			title: "Iron Farms"
+			title: "{tips.quest.2.title}"
 			x: -6.5d
 			y: -11.0d
-			subtitle: "This pack demands a good supply of iron...."
+			subtitle: "{tips.quest.2.subtitle}"
 			id: "14FC19629B01ACFF"
 			tasks: [{
 				id: "26D4C20DB80ADEFD"
@@ -81,10 +81,10 @@
 			}]
 		}
 		{
-			title: "Ore Deposit Guide"
+			title: "{tips.quest.3.title}"
 			x: -6.0d
 			y: -10.0d
-			subtitle: "All ores can be found in every biome, but they differ in rarity and plentyness depending on Biome. In particular, every Ore has 1 biome where it is found in plentyfull quality, then theres a secondary biome which has very high vein spawn rates, but very miniscule deposits (1k-7k ish), lastly there are normal veins in every overworld biome that are very rare.You can see all the info on the Biomes and max vein sizes in the recipe tabs for the drilling machine.Gold is most common in Dry biomes, while it also has remnants in the nether, but these veins are more limited.Iron is most commonly found in Jungles, and secondarily in Rare biomes, such as the flower forest.Tin, lead,nickel,and Zinc are found like Iron.Copper is found most commonly in Mountains, and secondarily in Rare biomes.Lastly, Silver is most commonly found in Mountains, and secondarily in the End"
+			subtitle: "{tips.quest.3.subtitle}"
 			id: "51054C4D158084AD"
 			tasks: [{
 				id: "27EA85318341928B"
@@ -93,10 +93,10 @@
 			}]
 		}
 		{
-			title: "Trains in every Dimension!"
+			title: "{tips.quest.4.title}"
 			x: -4.5d
 			y: -13.5d
-			subtitle: "Rightclicking a Diamond Block with Flint and Steel will Grant portals in every dimension, as an extension you can make trains in every dimension, just place a track into that generated portal."
+			subtitle: "{tips.quest.4.subtitle}"
 			id: "0C07D49BEDE78634"
 			tasks: [
 				{
@@ -120,7 +120,7 @@
 		{
 			x: 13.0d
 			y: -8.0d
-			subtitle: "This is a create chunkloader, it also works on contraptions. But it doesnt simulate randomticks, which is the stuff you need to grow crops. But another tool allows for randomtick chunkloading, which is the FTBchunks force load. It is more or less required to complete this pack."
+			subtitle: "{tips.quest.5.subtitle}"
 			id: "3147CC1F634EF8E7"
 			tasks: [{
 				id: "00D0B84159CDC1CE"
@@ -155,7 +155,7 @@
 		{
 			x: -5.5d
 			y: -14.0d
-			subtitle: "Find Any Structure at the click of a Button"
+			subtitle: "{tips.quest.8.subtitle}"
 			id: "39417A51292D3544"
 			tasks: [{
 				id: "004F74707B04D4E7"
@@ -170,7 +170,7 @@
 		{
 			x: -6.0d
 			y: -3.0d
-			subtitle: "Saddles are craftable!"
+			subtitle: "{tips.quest.9.subtitle}"
 			id: "00A12D9476F67645"
 			tasks: [{
 				id: "65BF0B4D1A86B085"
@@ -179,10 +179,10 @@
 			}]
 		}
 		{
-			title: "CT Mills"
+			title: "{tips.quest.10.title}"
 			x: 12.0d
 			y: -7.0d
-			subtitle: "Windmills Only need 1 Sail to work! (assuming I didnt mess up configs)"
+			subtitle: "{tips.quest.10.subtitle}"
 			id: "6BE95A5BCF9527ED"
 			tasks: [
 				{
@@ -198,10 +198,10 @@
 			]
 		}
 		{
-			title: "Orestones are now Renewable!"
+			title: "{tips.quest.11.title}"
 			x: 13.0d
 			y: -7.0d
-			subtitle: "Molten Geodes of Orestones now spawn all around the world, find the Geode Block in those and rightclick it with a redstone dust item. This way, orestones and their recources are fully automatable!"
+			subtitle: "{tips.quest.11.subtitle}"
 			id: "520888735E13CA2E"
 			tasks: [{
 				id: "00B80DE0D3B744F1"
@@ -212,7 +212,7 @@
 		{
 			x: -6.5d
 			y: -12.0d
-			subtitle: "After Chapter M1 you will have unlocked the Runic Tablet. It allows transmuting various things into their counterpart, such as empty blaze burners into blaze burners, and mobdrops into their super rare reliquary counterpart"
+			subtitle: "{tips.quest.12.subtitle}"
 			id: "52EE3B7F60A5C0F4"
 			tasks: [{
 				id: "0D57135F3938BE15"
@@ -221,10 +221,10 @@
 			}]
 		}
 		{
-			title: "Item filtering in the early game!"
+			title: "{tips.quest.13.title}"
 			x: -6.5d
 			y: -13.0d
-			subtitle: "Locking Drawers and attaching a Andesite Funnel works suprisingly well as an early game Item filtering method!"
+			subtitle: "{tips.quest.13.subtitle}"
 			id: "45D36D1DEB856A0F"
 			tasks: [
 				{
@@ -265,10 +265,10 @@
 			]
 		}
 		{
-			title: "Pre Brass Item Stacking!"
+			title: "{tips.quest.14.title}"
 			x: -7.5d
 			y: -13.5d
-			subtitle: "You can group items into stacks by using Weighted Ejectors, simply scroll with a wrench on a Weighted Ejector to configure the desired Stack amount!"
+			subtitle: "{tips.quest.14.subtitle}"
 			id: "392207368024751B"
 			tasks: [{
 				id: "0558024E34F02416"
@@ -279,7 +279,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			subtitle: "Easy Placing and Breaking. The Construction Wand is absolutely overpowered."
+			subtitle: "{tips.quest.15.subtitle}"
 			id: "39BEA048AB996A02"
 			tasks: [
 				{
@@ -303,7 +303,7 @@
 		{
 			x: 11.0d
 			y: -8.0d
-			subtitle: "Will Make any Item Indestructible."
+			subtitle: "{tips.quest.16.subtitle}"
 			id: "071AE83CC302169D"
 			tasks: [{
 				id: "3A1D25CC549EE8DE"
@@ -316,7 +316,7 @@
 			}]
 		}
 		{
-			title: "Vein Mining Enchantment"
+			title: "{tips.quest.17.title}"
 			x: -6.0d
 			y: -1.0d
 			id: "1F8010E246DBE7D2"
@@ -338,7 +338,7 @@
 		{
 			x: -4.5d
 			y: -12.5d
-			subtitle: "Blaze Burners can now Accept Liquids if you give them a Straw! Bypasses blaze cakes"
+			subtitle: "{tips.quest.18.title}"
 			id: "0403135BEBFF8693"
 			tasks: [
 				{
@@ -382,7 +382,7 @@
 		{
 			x: -6.0d
 			y: -2.0d
-			subtitle: "Still to be implemented"
+			subtitle: "{tips.quest.21.subtitle}"
 			id: "10F2426EC2ABA865"
 			tasks: [
 				{
@@ -402,10 +402,10 @@
 			]
 		}
 		{
-			title: "Witherproof glass"
+			title: "{tips.quest.22.title}"
 			x: -5.5d
 			y: -11.0d
-			subtitle: "Completely Indestructible by Withers"
+			subtitle: "{tips.quest.22.subtitle}"
 			id: "5CFBF9DB3C810E70"
 			tasks: [
 				{
@@ -431,7 +431,7 @@
 			}]
 		}
 		{
-			title: "Portable Energy? YES PLEASE"
+			title: "{tips.quest.24.title}"
 			x: -7.0d
 			y: -3.5d
 			id: "640704ED253016CA"
@@ -449,10 +449,10 @@
 			]
 		}
 		{
-			title: "Harvesting Leaves in STYLE"
+			title: "{tips.quest.25.title}"
 			x: -6.5d
 			y: -14.0d
-			subtitle: "Harvesters can harvest leaves."
+			subtitle: "{tips.quest.25.subtitle}"
 			id: "39726A3AB587CB01"
 			tasks: [
 				{
@@ -477,7 +477,7 @@
 		{
 			x: 11.0d
 			y: -6.0d
-			subtitle: "Can be used to farm Fish..."
+			subtitle: "{tips.quest.26.subtitle}"
 			id: "3D7B34D45116567D"
 			tasks: [{
 				id: "600FE95A2CB0913B"
@@ -498,7 +498,7 @@
 		{
 			x: -5.5d
 			y: -13.0d
-			subtitle: "Scans a chunk for Andesite and Diorite"
+			subtitle: "{tips.quest.28.subtitle}"
 			id: "433CCF86EBF39A8E"
 			tasks: [{
 				id: "3D478FAFAF8DACFC"
@@ -509,7 +509,7 @@
 		{
 			x: 11.0d
 			y: -7.0d
-			subtitle: "Netherack is now renewable!!!! WOOOO (Dont you dare try and automate it) (I MADE IT AS PAINFULL AS POSSIBLE SO NO ONE WILL DO IT)"
+			subtitle: "{tips.quest.29.subtitle}"
 			id: "6425BC0E551581F5"
 			tasks: [{
 				id: "4C2519536CDF599D"
@@ -520,7 +520,7 @@
 		{
 			x: -7.5d
 			y: -12.5d
-			subtitle: "Collect some, will ya?"
+			subtitle: "{tips.quest.30.subtitle}"
 			id: "223B1CB805849D44"
 			tasks: [
 				{
@@ -536,10 +536,10 @@
 			]
 		}
 		{
-			title: "Plates through Anvils"
+			title: "{tips.quest.31.title}"
 			x: 10.0d
 			y: -7.0d
-			subtitle: "Drop an Anvil on an Ingot, and sure enough, itll get pressed down into a plate. (A bit lossy)"
+			subtitle: "{tips.quest.31.subtitle}"
 			id: "2A80651B5135AB01"
 			tasks: [
 				{
@@ -568,7 +568,7 @@
 			tasks: [{
 				id: "6F46BA932D39FE72"
 				type: "checkmark"
-				title: "Do the Test of Patience."
+				title: "{tips.quest.32.task.1.title}"
 			}]
 			rewards: [{
 				id: "2EC22C98DF0C43CE"
@@ -577,7 +577,7 @@
 			}]
 		}
 		{
-			title: "The most Important Tips:"
+			title: "{tips.quest.33.title}"
 			x: -6.0d
 			y: -16.0d
 			id: "280B58649F0CB8C9"
@@ -588,7 +588,7 @@
 			}]
 		}
 		{
-			title: "Less Important Tips:"
+			title: "{tips.quest.34.title}"
 			x: 11.5d
 			y: -9.0d
 			id: "654993F745FC29F0"
@@ -599,7 +599,7 @@
 			}]
 		}
 		{
-			title: "Misc Tips"
+			title: "{tips.quest.35.title}"
 			x: -6.0d
 			y: -5.0d
 			id: "3799508D7DECC323"
@@ -612,7 +612,7 @@
 		{
 			x: 10.0d
 			y: -8.0d
-			subtitle: "Will Generate the block placed below it."
+			subtitle: "{tips.quest.36.subtitle}"
 			id: "686971D4F5FC320E"
 			tasks: [{
 				id: "0D6C3F32723A2F16"
@@ -621,22 +621,22 @@
 			}]
 		}
 		{
-			title: "Search for Items in Chests"
+			title: "{tips.quest.37.title}"
 			icon: "quark:warped_chest"
 			x: -6.0d
 			y: -15.0d
-			subtitle: "Hover over a item in JEI and Press Y to show all chests with that item."
+			subtitle: "{tips.quest.37.subtitle}"
 			id: "1BDC8F965F8B7DA7"
 			tasks: [{
 				id: "0A0883A23A9D8436"
 				type: "checkmark"
-				title: "Hover over a item in JEI and Press Y to show all chests with that item."
+				title: "{tips.quest.37.task.1.title}"
 			}]
 		}
 		{
 			x: 12.0d
 			y: -6.0d
-			subtitle: "Heat Create Steam Engines with Pneumaticcraft!"
+			subtitle: "{tips.quest.38.subtitle}"
 			id: "41474C57E044994B"
 			tasks: [{
 				id: "63EC1E041F8BFE36"
