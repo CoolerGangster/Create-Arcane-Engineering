@@ -1332,5 +1332,5 @@ onEvent('tags.blocks', thing =>{
     
 })
 onEvent('tags.fluids', event =>{
-        event.add('create:bottomless','pneumaticcraft:oil')
+        event.add('create:bottomless/allow','pneumaticcraft:oil')
 })
