@@ -7,7 +7,7 @@ if (global.questLists == undefined) {global.questLists = []}
 
 console.log(global.questLists)
 
-let taskCost = 4
+let taskCost = 8
 
 function shuffle(array, random) {
     for (let i = 0; i < array.length; i++) {
