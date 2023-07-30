@@ -1,0 +1,37 @@
+{
+  "pools": [
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "quests:mining_task"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "quests:collecting_task"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "quests:hunting_task"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "quests:slaying_task"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "quests:farming_task"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "quests:fishing_task"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "quests:deforesting_task"
+              }
+          ]
+      }
+  ]
+}

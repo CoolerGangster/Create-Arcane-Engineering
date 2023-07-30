@@ -698,6 +698,17 @@
 				type: "item"
 				item: "kubejs:a"
 			}]
+			rewards: [{
+				id: "67A327B588666A42"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 24.0d
@@ -708,6 +719,17 @@
 				id: "5562B134A54746E1"
 				type: "item"
 				item: "kubejs:b"
+			}]
+			rewards: [{
+				id: "4FA3D4A780B4E72B"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -720,6 +742,17 @@
 				type: "item"
 				item: "kubejs:c"
 			}]
+			rewards: [{
+				id: "7CC6D10DE1501345"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 27.0d
@@ -730,6 +763,17 @@
 				id: "06E29B62029DCF21"
 				type: "item"
 				item: "kubejs:d"
+			}]
+			rewards: [{
+				id: "579DFE4AD4972263"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -742,6 +786,17 @@
 				type: "item"
 				item: "kubejs:e"
 			}]
+			rewards: [{
+				id: "6B8B8B9D7892D92C"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 30.0d
@@ -753,6 +808,17 @@
 				type: "item"
 				item: "kubejs:f"
 			}]
+			rewards: [{
+				id: "7D847D6264B85C21"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 31.5d
@@ -763,6 +829,17 @@
 				id: "4152799E02189718"
 				type: "item"
 				item: "kubejs:g"
+			}]
+			rewards: [{
+				id: "0C7CA20B46FB6E26"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{

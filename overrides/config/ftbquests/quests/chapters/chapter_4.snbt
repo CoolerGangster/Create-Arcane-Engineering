@@ -96,7 +96,13 @@
 				{
 					id: "6F79319C1E24E0B0"
 					type: "item"
-					item: "kubejs:lootbag_create_brass"
+					item: {
+						id: "kubejs:lootbag_pcb"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 					count: 4
 				}
 				{
@@ -160,12 +166,25 @@
 				type: "item"
 				item: "pneumaticcraft:pcb_blueprint"
 			}]
-			rewards: [{
-				id: "4747B77444373524"
-				type: "item"
-				item: "pneumaticcraft:pcb_blueprint"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "4747B77444373524"
+					type: "item"
+					item: "pneumaticcraft:pcb_blueprint"
+					count: 6
+				}
+				{
+					id: "58B46BC4253A3484"
+					type: "item"
+					item: {
+						id: "kubejs:lootbag_pcb"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -350,7 +369,13 @@
 			rewards: [{
 				id: "42D8DD624C865F4F"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -425,6 +450,17 @@
 				type: "item"
 				item: "pneumaticcraft:etching_acid_bucket"
 			}]
+			rewards: [{
+				id: "53D3E43AF9859B92"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
@@ -476,7 +512,13 @@
 			rewards: [{
 				id: "685FB5D4B5AE6B3B"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -506,7 +548,13 @@
 			rewards: [{
 				id: "68620C41F4BA7974"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -549,7 +597,13 @@
 			rewards: [{
 				id: "005D7E6EFA8039A7"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -590,7 +644,13 @@
 			rewards: [{
 				id: "16EB0ECB61C8DC8E"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -696,6 +756,17 @@
 				type: "item"
 				item: "kubejs:pcb_assembly_2"
 			}]
+			rewards: [{
+				id: "02875D77FDBB18BA"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			title: "Finally. Let it Dry."
@@ -734,6 +805,7 @@
 		{
 			x: 5.5d
 			y: 8.5d
+			subtitle: "Reusing textures is great and absolutely not confusing! \\n(please don't blame me for being lazy)"
 			dependencies: [
 				"2144F7A6D5ACA0F5"
 				"72758D7CA23C80A7"
@@ -746,9 +818,15 @@
 				item: "kubejs:pcb_assembly"
 			}]
 			rewards: [{
-				id: "2A43F910CAFA9BB5"
+				id: "49582EAE8747B155"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_radiant"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -765,6 +843,17 @@
 				id: "4D787F2FF89E0E04"
 				type: "item"
 				item: "kubejs:green_anthraquinone_bucket"
+			}]
+			rewards: [{
+				id: "310DCEE4D3C6AE4E"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -1002,7 +1091,13 @@
 				{
 					id: "4BCD61AEABD7B99A"
 					type: "item"
-					item: "kubejs:lootbag_create_brass"
+					item: {
+						id: "kubejs:lootbag_create_brass"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 					count: 3
 				}
 				{

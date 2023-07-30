@@ -21,8 +21,10 @@ onEvent('item.right_click',event=>{
         }
     }
     lootbag('kubejs:lootbag_poggers','cae:cool_tier')
-    lootbag('kubejs:lootbag_create_andesite','cae:createtier1')
-    lootbag('kubejs:lootbag_create_brass','cae:createtier2')
+    lootbag('kubejs:lootbag_create_andesite','loot:lootbag/create/andesite')
+    lootbag('kubejs:lootbag_create_brass','loot:lootbag/create/brass')
+    lootbag('kubejs:lootbag_create_radiant','loot:lootbag/create/radiant')
+    lootbag('kubejs:lootbag_pcb', 'loot:lootbag/create/pcb')
     lootbag('kubejs:lootbag_arcane_1','cae:arcaneweak')
     lootbag('kubejs:lootbag_arcane_2','cae:arcanenormal')
     lootbag('kubejs:lootbag_arcane_3','cae:arcanetable')

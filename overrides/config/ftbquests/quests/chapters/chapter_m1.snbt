@@ -38,6 +38,8 @@
 		{
 			x: 12.5d
 			y: -1.0d
+			subtitle: "Automate Stone"
+			description: [""]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "545AED490B945C02"
@@ -71,7 +73,13 @@
 			rewards: [{
 				id: "20E268548F308E95"
 				type: "item"
-				item: "kubejs:lootbag_arcane_1"
+				item: {
+					id: "kubejs:lootbag_arcane_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -93,7 +101,13 @@
 				{
 					id: "6F2AA2701D10EC00"
 					type: "item"
-					item: "kubejs:lootbag_arcane_3"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "4479D532B8CE70E6"
@@ -125,14 +139,20 @@
 			rewards: [{
 				id: "3600F8721D492C36"
 				type: "item"
-				item: "kubejs:lootbag_arcane_1"
+				item: {
+					id: "kubejs:lootbag_arcane_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
 			title: "Place a Spout Above a Corundum Block"
 			x: 18.0d
 			y: -1.0d
-			subtitle: "Fill the spout with water and you'll see it actually spouting onto the block below! Has to be below y20."
+			subtitle: "Fill the spout with water and you'll see it actually spouting onto the block below! Has to be below y20 for the Corundum to grow."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "27B730C6CD9D0B95"
@@ -151,7 +171,13 @@
 			rewards: [{
 				id: "484EB6CD20C22A32"
 				type: "item"
-				item: "kubejs:lootbag_arcane_1"
+				item: {
+					id: "kubejs:lootbag_arcane_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -235,7 +261,13 @@
 				{
 					id: "681CF9A00A28F5E7"
 					type: "item"
-					item: "kubejs:lootbag_arcane_2"
+					item: {
+						id: "kubejs:lootbag_arcane_2"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "7BD74D80BB8185EF"
@@ -258,7 +290,13 @@
 			rewards: [{
 				id: "7F32EEFFF226CB7F"
 				type: "item"
-				item: "kubejs:lootbag_arcane_1"
+				item: {
+					id: "kubejs:lootbag_arcane_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -309,7 +347,13 @@
 				{
 					id: "0CD1D0D61F2D3ED9"
 					type: "item"
-					item: "kubejs:lootbag_arcane_2"
+					item: {
+						id: "kubejs:lootbag_arcane_2"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -370,6 +414,8 @@
 			]
 		}
 		{
+			title: "Obtain a Rune"
+			icon: "forbidden_arcanus:runic_darkstone"
 			x: 19.5d
 			y: 7.0d
 			subtitle: "Obtain a Rune to get the Cycle started"
@@ -377,25 +423,11 @@
 			hide: true
 			optional: true
 			id: "1A961226FACC3DF9"
-			tasks: [
-				{
-					id: "627B88154BE2D489"
-					type: "item"
-					title: "Any #forbidden_arcanus:runic_stones"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forbidden_arcanus:runic_stones"
-						}
-					}
-				}
-				{
-					id: "22997C9757A6649B"
-					type: "item"
-					item: "forbidden_arcanus:rune"
-				}
-			]
+			tasks: [{
+				id: "22997C9757A6649B"
+				type: "item"
+				item: "forbidden_arcanus:rune"
+			}]
 		}
 		{
 			x: 18.0d

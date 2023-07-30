@@ -3720,14 +3720,36 @@
 			}]
 		}
 		{
+			title: "Buying from Amadron"
+			icon: {
+				id: "pneumaticcraft:amadron_tablet"
+				Count: 1b
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
 			x: 1.5d
 			y: 2.0d
 			subtitle: "All of the Trades are also in Amadron!"
+			description: ["Pressure-Limited Amadron Subscription"]
 			id: "326AC4EEE9E97B3A"
 			tasks: [{
-				id: "750D92F95510798F"
+				id: "523E0F5C88578A7F"
 				type: "item"
-				item: "pneumaticcraft:amadron_tablet"
+				item: "thermal:silver_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "48F46F51BEA5DA94"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:amadron_tablet"
+					Count: 1b
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+				}
 			}]
 		}
 	]

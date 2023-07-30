@@ -52,7 +52,13 @@
 				{
 					id: "561023DAC5BC8E9E"
 					type: "item"
-					item: "kubejs:lootbag_arcane_1"
+					item: {
+						id: "kubejs:lootbag_arcane_1"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "444B4DB0143C3743"
@@ -97,7 +103,13 @@
 				{
 					id: "04B1508F1B5EF9C7"
 					type: "item"
-					item: "kubejs:lootbag_arcane_2"
+					item: {
+						id: "kubejs:lootbag_arcane_2"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -116,7 +128,13 @@
 			rewards: [{
 				id: "1A298141DCBB8CD5"
 				type: "item"
-				item: "kubejs:lootbag_arcane_1"
+				item: {
+					id: "kubejs:lootbag_arcane_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -150,7 +168,13 @@
 				{
 					id: "18191B53401D5D59"
 					type: "item"
-					item: "kubejs:lootbag_arcane_3"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 					count: 2
 				}
 				{
@@ -180,7 +204,13 @@
 				{
 					id: "6644BFEF6F8F0C9E"
 					type: "item"
-					item: "kubejs:lootbag_arcane_2"
+					item: {
+						id: "kubejs:lootbag_arcane_2"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "22218EBCA32AB1F0"
@@ -211,7 +241,13 @@
 			rewards: [{
 				id: "07AE90E8FEFD3CB8"
 				type: "item"
-				item: "kubejs:lootbag_arcane_2"
+				item: {
+					id: "kubejs:lootbag_arcane_2"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -257,7 +293,13 @@
 				{
 					id: "5A5E0943E8BCC80D"
 					type: "item"
-					item: "kubejs:lootbag_arcane_1"
+					item: {
+						id: "kubejs:lootbag_arcane_1"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "112D0C8337989FA0"

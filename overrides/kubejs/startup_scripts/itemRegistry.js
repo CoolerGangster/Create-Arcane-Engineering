@@ -51,7 +51,8 @@ onEvent('item.registry', (event) => {
     mechanism('Sturdy')
     mechanism('Plastic', RARITY_UNCOMMON)
     mechanism('Integrational', RARITY_UNCOMMON)
-    mechanism('Radiant', RARITY_UNCOMMON)
+    event.create('radiant_mechanism').texture("kubejs:item/radiant_mechanism").displayName('Radiant Mechanism').rarity(RARITY_COMMON).glow(true)
+    event.create('incomplete_radiant_mechanism', 'create:sequenced_assembly').texture("kubejs:item/incomplete_radiant_mechanism").displayName('Incomplete Radiant Mechanism').glow(false)
     mechanism('Time', RARITY_RARE)
     mechanism('Supercritical', RARITY_RARE)
     tool('Saw')
@@ -194,5 +195,7 @@ onEvent('item.registry', (event) => {
     event.create("lootbag_arcane_2", "pickaxe").displayName("Artificers Epic Bag").rarity(RARITY_RARE).unstackable().tier("lootbag")
     event.create("lootbag_arcane_3", "pickaxe").displayName("Artificers Legendary Bag").rarity(RARITY_EPIC).unstackable().tier("lootbag")
     event.create("lootbag_poggers", "pickaxe").displayName("Reward of Patience").rarity(RARITY_EPIC).unstackable().tier("lootbag")
-    event.create("lootbag_create_brass", "pickaxe").displayName("Engineers Epic Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag")
+    event.create("lootbag_create_brass", "pickaxe").displayName("Engineers Brass Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag")
+    event.create("lootbag_create_radiant", "pickaxe").displayName("Engineers Radiant Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag").glow(true)
+    event.create("lootbag_pcb", "pickaxe").displayName("PCB Loot Package").rarity(RARITY_EPIC).unstackable().tier("lootbag")
 });

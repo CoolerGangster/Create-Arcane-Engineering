@@ -158,7 +158,13 @@
 				{
 					id: "0D16E9BDB03EBC94"
 					type: "item"
-					item: "kubejs:lootbag_create_andesite"
+					item: {
+						id: "kubejs:lootbag_create_andesite"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 					count: 2
 				}
 			]
@@ -260,7 +266,13 @@
 				{
 					id: "228AA109AAAA5B53"
 					type: "item"
-					item: "kubejs:lootbag_create_andesite"
+					item: {
+						id: "kubejs:lootbag_create_andesite"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -292,7 +304,13 @@
 			rewards: [{
 				id: "0CD388EAB47B3ACB"
 				type: "item"
-				item: "kubejs:lootbag_create_andesite"
+				item: {
+					id: "kubejs:lootbag_create_andesite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -414,7 +432,7 @@
 			x: 0.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "While the early chapters look similar to Above & Beyond, the pack diverges wildly as you progress."
+			subtitle: "While the early chapters look similar to Above \\& Beyond, the pack diverges wildly as you progress."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			size: 1.5d
@@ -477,7 +495,13 @@
 				{
 					id: "36982AD1A36BB3CF"
 					type: "item"
-					item: "kubejs:lootbag_create_andesite"
+					item: {
+						id: "kubejs:lootbag_create_andesite"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -642,7 +666,13 @@
 			rewards: [{
 				id: "53AF2F153669160A"
 				type: "item"
-				item: "kubejs:lootbag_create_andesite"
+				item: {
+					id: "kubejs:lootbag_create_andesite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -727,7 +757,13 @@
 				{
 					id: "6A0090EF40715FE8"
 					type: "item"
-					item: "kubejs:lootbag_create_andesite"
+					item: {
+						id: "kubejs:lootbag_create_andesite"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "3D2F1B060FD2772F"
@@ -774,7 +810,13 @@
 				{
 					id: "6034975E457493AE"
 					type: "item"
-					item: "kubejs:lootbag_create_andesite"
+					item: {
+						id: "kubejs:lootbag_create_andesite"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "78B6FB8469DB637A"
