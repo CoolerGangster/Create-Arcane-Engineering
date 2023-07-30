@@ -324,6 +324,7 @@ onEvent('lootjs', event=>{
 
 onEvent('item.right_click', event =>{
 	if (!event.item.hasTag("quests:task_items")) {return}
+	if (event.item.id.includes("import")) {return}
 	if (!event.item.nbt) {
 		let itemId = event.item.id
 		if (!event.player.creativeMode) {event.item.count--}
