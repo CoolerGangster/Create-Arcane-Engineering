@@ -7,7 +7,7 @@ onEvent('recipes', event => {
     event.recipes.createMixing(Fluid.of("kubejs:source", 3) , [Fluid.of(KJ('impure_source'), 12)]).heated()
     event.recipes.createMixing('integrateddynamics:menril_sapling',['8x integrateddynamics:menril_berries','kubejs:rejuvinated_menril_shrub'])
     event.recipes.createMixing(Fluid.of("kubejs:source", 500), ['ars_nouveau:spell_parchment',Fluid.of(KJ('impure_source'), 500 )])
-    event.recipes.createMixing('ae2:charged_certus_quartz_crystal', ['alloyed:steel_mesh_fence','ae2:certus_quartz_crystal']).heated()
+    event.recipes.createMixing('ae2:charged_certus_quartz_crystal', ['minecraft:iron_bars','ae2:certus_quartz_crystal']).heated()
     event.recipes.createMixing(['2x kubejs:time_mechanism',"kubejs:empty_vial"], ['tiab:time_in_a_bottle','2x kubejs:radiant_mechanism']).superheated()
     event.recipes.createMixing(Fluid.of('pneumaticcraft:yeast_culture',200),['#forge:mushrooms',Fluid.of('minecraft:water',1000)]).heated()
     event.recipes.createMixing(Fluid.of('createaddition:bioethanol',50),['minecraft:sugar',Fluid.of('pneumaticcraft:yeast_culture',100)]).heated()
