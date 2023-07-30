@@ -51,7 +51,7 @@
           },
           {
             "content": {
-              "fluid": "cae:lst_fluid",
+              "fluid": "cae:lst",
               "amount": 1000
             },
             "chance": 1.0
