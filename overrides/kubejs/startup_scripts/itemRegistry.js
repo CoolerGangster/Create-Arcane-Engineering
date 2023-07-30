@@ -13,9 +13,9 @@ onEvent('item.registry.tool_tiers', event => {
         tier.repairIngredient = 'avaritia:zyzzium_ingot'
     })
     event.add('lootbag', tier =>{
-        tier.speed = 0.0
-        tier.uses = -1
         tier.enchantmentValue = 15
+        tier.speed = 0.0
+        //tier.uses = -1  //makes them not work in the enchanting table
         tier.attackDamageBonus = 0
     })
 });
