@@ -20,7 +20,7 @@ onEvent('item.right_click',event=>{
             event.item.count--
         }
     }
-    lootbag('kubejs:lootbag_poggers','cae:cool_tier')
+    lootbag('kubejs:lootbag_poggers','loot:patience')
     lootbag('kubejs:lootbag_create_andesite','loot:lootbag/create/andesite')
     lootbag('kubejs:lootbag_create_brass','loot:lootbag/create/brass')
     lootbag('kubejs:lootbag_create_radiant','loot:lootbag/create/radiant')

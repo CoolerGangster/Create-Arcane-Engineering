@@ -1,111 +1,23 @@
 {
     "pools": [
         {
-            "rolls": {
-                "min": 1,
-                "max": 2
-            },
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 6,
-                    "name": "create:chute",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 3,
-                    "name": "create:weighted_ejector",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "name": "create:hand_crank"
-                },
-                {
-                    "type": "minecraft:item",
                     "weight": 1,
-                    "name": "create:basin"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 3,
-                    "name": "create:andesite_funnel",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "create:rose_quartz",
+                    "name": "forbidden_arcanus:dragon_scale",
                     "conditions": [
                         {
                             "condition": "minecraft:random_chance",
-                            "chance": 0.5
+                            "chance": 0.2
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "create:red_sand_paper"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 6,
-                    "name": "create:white_sail",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 6,
-                    "name": "create:gantry_shaft",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 10
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 6,
-                    "name": "create:piston_extension_pole",
+                    "weight": 4,
+                    "name": "ars_nouveau:wilden_horn",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -118,22 +30,8 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 2,
-                    "name": "create:track",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 16,
-                                "max": 32
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 4,
-                    "name": "create:item_vault",
+                    "weight": 3,
+                    "name": "reliquary:bat_wing",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -143,6 +41,88 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "reliquary:infernal_claw"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "ars_nouvaeau:wilden_wing",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "reliquary:rib_bone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "reliquary:witch_hat"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "reliquary:zombie_heart",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "reliquary:nebulous_heart"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "reliquary:fertile_essence"
                 }
             ]
         }

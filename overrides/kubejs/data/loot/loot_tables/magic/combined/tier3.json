@@ -1,0 +1,76 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "loot:magic/artifacts_and_reliquary"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 9,
+                "max": 11
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 20,
+                    "name": "loot:magic/magic_basic"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:magic/arcane_gold_tools"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:magic/ars_armor"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:magic/ars_trinkets"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "loot:magic/mob_items"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "loot:magic/random_reliquary"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "loot:magic/ctome_or_book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 40
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

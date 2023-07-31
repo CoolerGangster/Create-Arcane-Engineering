@@ -1,0 +1,59 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "ars_nouveau:novice_hood"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "ars_nouveau:novice_robes"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "ars_nouveau:novice_leggings"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "ars_nouveau:novice_boots"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "ars_nouveau:blaze_fiber",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": {
+                                    "min": 4,
+                                    "max": 7
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "ars_nouveau:magebloom_fiber",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "forbidden_arcanus:mortem_helmet"
+                }
+            ]
+        }
+    ]
+}

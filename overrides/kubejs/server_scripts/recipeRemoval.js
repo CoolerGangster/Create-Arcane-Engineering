@@ -61,7 +61,7 @@ onEvent('recipes', event => {
     event.remove({output: /waystones\:.*sharestone/})
     event.remove({output: /waystone\:.*scroll/})
     event.remove({output: "waystones:warp_plate"})
-    event.remove({id: "create:filling/redsone"})
+    event.remove({id: "create:filling/redstone"})
     event.remove({id: "createaddition:mixing/netherrack"})
     event.remove({id: "pneumaticcraft:block_heat_properties/minecraft/magma"})
     event.remove({id: "epicsamurai:steel_ingot_from_blasting_iron_ingot"})

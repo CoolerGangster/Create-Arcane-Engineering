@@ -1,0 +1,56 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "ars_nouveau:caster_tome",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ars_nouveau_spellCaster:{current_slot:1,flavor:\"Flying is quite dangerous you know\",spell_0:\"[]\",spell_1:\"[self, glide, extend_time, extend_time, harm, delay, harm, delay, delay, harm]\",spell_color_0:\"0,255,255\",spell_color_1:\"0,255,255\",spell_name_0:\"\",spell_name_1:\"\",spell_sound_0:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f},spell_sound_1:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f}},display:{Name:'{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"PigTurtles Freedom on Benefits\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "ars_nouveau:caster_tome",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ars_nouveau_spellCaster:{current_slot:1,flavor:\"Make everyone a Star\",spell_0:\"[]\",spell_1:\"[projectile, fangs, delay, launch, amplify, delay, launch, amplify, firework, amplify]\",spell_color_0:\"0,255,255\",spell_color_1:\"255,0,255\",spell_name_0:\"\",spell_name_1:\"\",spell_sound_0:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f},spell_sound_1:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f}},display:{Name:'{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"FortnitePros Audition\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "ars_nouveau:caster_tome",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ars_nouveau_spellCaster:{current_slot:1,flavor:\"Receive a Second Chance at Life\",spell_0:\"[]\",spell_1:\"[self, slowfall, watery_grave, summon_vex, leap, gust, bounce, gravity, amplify, amplify]\",spell_color_0:\"0,255,255\",spell_color_1:\"255,0,255\",spell_name_0:\"\",spell_name_1:\"\",spell_sound_0:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f},spell_sound_1:{pitch:1.0f,soundTag:{id:\"ars_nouveau:fire_family\"},volume:1.0f}},display:{Name:'{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"Imoderns Protection\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 25,
+                                "max": 40
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

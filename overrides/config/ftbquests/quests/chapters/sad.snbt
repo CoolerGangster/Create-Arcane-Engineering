@@ -627,6 +627,7 @@
 		{
 			x: -1.5d
 			y: -3.0d
+			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
 			dependencies: [
 				"71204DE937D1B562"
 				"5FF85EC9DA06810F"

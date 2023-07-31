@@ -360,6 +360,13 @@
 			x: 1.0d
 			y: 1.5d
 			shape: "gear"
+			description: [
+				"Automating the Hephaestus Forge is a bit difficult."
+				""
+				"4 of its slots, 3 of which are inaccessible without hoppers/funnels, take priority over the actually important ones."
+				""
+				"To automate inputting into the forge, simply fill those slots with any unstackable item first."
+			]
 			dependencies: [
 				"28FC493A45BD131F"
 				"3882C0D9CAA0BE84"

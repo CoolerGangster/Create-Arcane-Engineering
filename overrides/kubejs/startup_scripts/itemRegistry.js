@@ -96,7 +96,7 @@ onEvent('item.registry', (event) => {
     //start M2
     event.create('mage_leaf').displayName('Magically Blooming Leaves')
     event.create('magebloom_sourceberry_smoothie_bowl').displayName('Magebloom Sourceberry Smoothie Bowl').food(food => {
-        food.hunger(8).saturation(1.5).effect("ars_nouveau:mana_regen",300,2,1).eaten(ctx => {
+        food.hunger(8).saturation(0.75).effect("ars_nouveau:mana_regen",300,2,1).eaten(ctx => {
             ctx.player.give(Item.of("minecraft:bowl",1))
         })
     })

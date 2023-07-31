@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "ars_nouveau:jar_of_light"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "ars_nouveau:belt_of_unstable_gifts"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "ars_nouveau:mundane_belt"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "ars_nouveau:ring_of_potential"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "ars_nouveau:dull_trinket"
+                }
+            ]
+        }
+    ]
+}
