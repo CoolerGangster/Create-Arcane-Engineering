@@ -3,7 +3,7 @@
 	group: "42A213AA17D37DAF"
 	order_index: 1
 	filename: "chapter_1_the_andesite_age"
-	title: "Chapter I: Alluring Allusions"
+	title: "{chapter.1.title}"
 	icon: "create:andesite_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -37,7 +37,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			subtitle: "Rejuvenation of Menril Shrubs. Smelting of Gravel"
+			subtitle: "{chapter.1.quest.1.subtitle}"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "2A9D3B99068D645B"
 			tasks: [{
@@ -56,20 +56,20 @@
 			x: 6.0d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "Precrafting items will be a reoccuring theme in this pack. In order to start out you'll need to gather some Kinetic Mechanisms through the crafting table."
+			subtitle: "{chapter.1.quest.2.subtitle}"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "47EFBCDC513EE52D"
 			tasks: [{
 				id: "49DB7CB3F8D4F1BB"
 				type: "checkmark"
-				title: "Time to speedrun some machines!"
+				title: "{chapter.1.quest.2.task.1.title}"
 			}]
 		}
 		{
 			x: 6.0d
 			y: 2.0d
-			subtitle: "Haha pull item"
+			subtitle: "{chapter.1.quest.3.subtitle}"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "734F9602172ABF67"
 			tasks: [{
@@ -81,7 +81,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
-			subtitle: "Andesite Alloy Mixing"
+			subtitle: "{chapter.1.quest.4.subtitle}"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "24F0C49370DE673C"
 			tasks: [
@@ -103,10 +103,10 @@
 			}]
 		}
 		{
-			title: "[Optional] Deployers."
+			title: "{chapter.1.quest.5.title}"
 			x: 6.0d
 			y: 3.0d
-			subtitle: "Assembling mechanisms and tree farming. This needs brass, so perhaps a smeltery can do the trick? (Chapter 2 Hosts more info on Brass creation.)"
+			subtitle: "{chapter.1.quest.5.subtitle}"
 			dependencies: [
 				"47EFBCDC513EE52D"
 				"11DAEE7A3CD9F8B6"
@@ -128,7 +128,7 @@
 			x: 0.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "Let the journey begin!"
+			subtitle: "{chapter.1.quest.7.subtitle}"
 			min_required_dependencies: 3
 			dependencies: [
 				"3193DF57DE756299"
@@ -170,10 +170,10 @@
 			]
 		}
 		{
-			title: "The Saw"
+			title: "{chapter.1.quest.8.title}"
 			x: 2.0d
 			y: 4.0d
-			subtitle: "Sawcon"
+			subtitle: "{Sawcon}"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3193DF57DE756299"
@@ -193,7 +193,7 @@
 			x: 0.0d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Extract resin from Trees using Arboreal Extractors."
+			subtitle: "{chapter.1.quest.9.subtitle}"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "146F8C2D929D7A9E"
@@ -232,7 +232,7 @@
 			}]
 		}
 		{
-			title: "Chapter 1b"
+			title: "{chapter.1.quest.12.title}"
 			x: 0.0d
 			y: 11.0d
 			shape: "gear"
@@ -277,11 +277,11 @@
 			]
 		}
 		{
-			title: "[Optional] Menril Enriched Rubber"
+			title: "{chapter.1.quest.13.title}"
 			x: 1.0d
 			y: 10.0d
-			subtitle: "Doubles the output"
-			description: ["There is ponder integration for the Menril Bucket, if you're having issues try pondering it!)"]
+			subtitle: "{chapter.1.quest.13.subtitle}"
+			description: ["{chapter.1.quest.13.description.1}"]
 			dependencies: [
 				"162780AD2FB145CB"
 				"1C3021BFBCB35C4C"
@@ -316,7 +316,7 @@
 		{
 			x: -1.0d
 			y: 10.0d
-			subtitle: "Ugh, finally, belts!"
+			subtitle: "{chapter.1.quest.14.subtitle}"
 			dependencies: ["6C5277004B0E4431"]
 			id: "7586DAB7F4E3BC7A"
 			tasks: [{
@@ -328,7 +328,7 @@
 		{
 			x: -3.5d
 			y: 9.0d
-			subtitle: "Finally, ID juice"
+			subtitle: "{chapter.1.quest.15.title}"
 			dependencies: ["5561DB673DBC0A77"]
 			id: "58C607BC03069CB5"
 			tasks: [{
@@ -340,7 +340,7 @@
 		{
 			x: -4.5d
 			y: 9.0d
-			subtitle: "Rubber and Menril"
+			subtitle: "{chapter.1.quest.16.subtitle}"
 			dependencies: ["5561DB673DBC0A77"]
 			dependency_requirement: "all_started"
 			id: "14892D9D3ADFB68E"
@@ -360,7 +360,7 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			subtitle: "Menril Saplings"
+			subtitle: "{chapter.1.quest.17.subtitle}"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "6B94C01AF316B9CB"
 			tasks: [{
@@ -378,7 +378,7 @@
 			icon: "integrateddynamics:menril_sapling"
 			x: 1.0d
 			y: 8.5d
-			subtitle: "Ponder the Arboreal Extractor to see how it works!"
+			subtitle: "{chapter.1.quest.18.subtitle}"
 			dependencies: ["4FDF0A226DCE7DF3"]
 			hide: true
 			id: "162780AD2FB145CB"
@@ -396,7 +396,7 @@
 			]
 		}
 		{
-			title: "May I interest you in a optional route for 2x output?"
+			title: "{chapter.1.quest.19.title}"
 			x: 1.0d
 			y: 7.5d
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -405,14 +405,14 @@
 			tasks: [{
 				id: "1C3021BFBCB35C4C"
 				type: "checkmark"
-				title: "YES"
+				title: "{chapter.1.quest.19.task.1.title}"
 			}]
 		}
 		{
-			title: "Mechanical Saw(con)"
+			title: "{chapter.1.quest.20.title}"
 			x: 7.0d
 			y: 1.0d
-			subtitle: "Tree Cutting. Recommended you do this with a contraption."
+			subtitle: "{chapter.1.quest.20.subtitle}"
 			dependencies: ["47EFBCDC513EE52D"]
 			id: "415E7158F0514C8D"
 			tasks: [{
@@ -427,12 +427,12 @@
 			}]
 		}
 		{
-			title: "Common Concerns"
+			title: "{chapter.1.quest.21.title}"
 			icon: "architects_palette:hazard_sign"
 			x: 0.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "While the early chapters look similar to Above \\& Beyond, the pack diverges wildly as you progress."
+			subtitle: "{chapter.1.quest.21.subtitle}"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			size: 1.5d
@@ -440,7 +440,7 @@
 			tasks: [{
 				id: "2CE418D4038C1E4B"
 				type: "checkmark"
-				title: "Hey, youre cool. Have a cookie!"
+				title: "{chapter.1.quest.21.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -456,11 +456,11 @@
 			]
 		}
 		{
-			title: "Cant find any Andesite or Diorite? We got you."
+			title: "{chapter.1.quest.22.title}"
 			x: 1.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Andesite is most commonly found in Forest biome and you can find andesite super easily by using a Nature's Compass and using it to search for an Andesite Caves biome. If you have a hard time regardless, try using the Alloy Radar. It will scan a chunk for the blocks."
+			subtitle: "{chapter.1.quest.22.subtitle}"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "45875AB5349E8E94"
@@ -516,7 +516,7 @@
 			tasks: [{
 				id: "68BA6546139A0B3C"
 				type: "checkmark"
-				title: "The Copper Age Speedrun"
+				title: "{chapter.1.quest.23.task.1.title}"
 			}]
 		}
 		{
@@ -567,7 +567,7 @@
 			}]
 		}
 		{
-			title: "Alloying through Tinkers, no blazes required!"
+			title: "{chapter.1.quest.27.title}"
 			x: 5.0d
 			y: 5.5d
 			dependencies: ["3BAD2CEF1245F202"]
@@ -580,25 +580,25 @@
 			}]
 		}
 		{
-			title: "Runic Tablet + Empty Blaze Burner = Blaze Burner"
+			title: "{chapter.1.quest.28.title}"
 			x: 6.0d
 			y: 5.5d
-			subtitle: "Requires brass to craft the Runic Tablet through Chapter m1!"
+			subtitle: "{chapter.1.quest.28.subtitle}"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "03B32FBE53374954"
 			tasks: [{
 				id: "56B26958D30E9BD3"
 				type: "item"
-				title: "Deploy a Runic Tablet onto an empty Blaze Burner"
+				title: "{chapter.1.quest.28.task.1.title}"
 				item: "kubejs:runic_tablet"
 			}]
 		}
 		{
-			title: "Alloying with Create, blazes required!"
+			title: "{chapter.1.quest.29.title}"
 			x: 7.0d
 			y: 5.5d
-			subtitle: "Alloying with Create is probably easier and faster in the long run."
+			subtitle: "{chapter.1.quest.29.subtitle}"
 			dependencies: [
 				"3D9E29CE4BA41D20"
 				"03B32FBE53374954"
@@ -612,18 +612,18 @@
 			}]
 		}
 		{
-			title: "Get a Blaze from the Nether!"
+			title: "{chapter.1.quest.30.title}"
 			icon: "minecraft:blaze_spawn_egg"
 			x: 6.0d
 			y: 6.5d
-			subtitle: "You can capture a blaze into your blaze burner, by rightclicking it with an empty one. You can alternatively rightclick blaze spawners with blaze burners!"
+			subtitle: "{chapter.1.quest.30.subtitle}"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3D9E29CE4BA41D20"
 			tasks: [{
 				id: "7F7FCD4AACE6773F"
 				type: "observation"
-				title: "Look at a Blaze"
+				title: "{chapter.1.quest.30.task.1.title}"
 				icon: "tconstruct:blaze_head"
 				timer: 0L
 				observe_type: 5
@@ -631,11 +631,11 @@
 			}]
 		}
 		{
-			title: "Improbable Saplings"
+			title: "{chapter.1.quest.31.title}"
 			x: -4.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "The Arcane has significantly reduced the availability of these Saplings, making them extremely rare to come by. As a result, a conventional tree farm is no longer sufficient to sustain their growth. However, trees will still drop lifeless versions of their saplings, which can be rejuvenated through a specific process. To successfully cultivate menril trees, it is necessary to establish an automated system for restoring the menril shrubs to menril saplings that loop back into the contraption."
+			subtitle: "{chapter.1.quest.31.subtitle}"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "65EB6D888AE39417"
@@ -655,7 +655,7 @@
 			x: -4.0d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "Log Cutting Chain. Basically, just slap down 3 saws and they'll do the job."
+			subtitle: "{chapter.1.quest.32.subtitle}"
 			dependencies: ["65EB6D888AE39417"]
 			id: "2D3F582CF81B08C7"
 			tasks: [{
@@ -715,7 +715,7 @@
 			x: -5.5d
 			y: 1.0d
 			shape: "rsquare"
-			subtitle: "Drops from Menril Trees. With the weakening of the Arcane, so has the menril sapling been stripped of its life essence, perhaps a bit of water can help it?"
+			subtitle: "{chapter.1.quest.35.subtitle}"
 			dependencies: ["65EB6D888AE39417"]
 			id: "2E64E817F8FABAC6"
 			tasks: [{
@@ -727,7 +727,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			subtitle: "Drops from Menril Trees, in particular the enriched menril logs. Perhaps there are more ways to get this though?"
+			subtitle: "{chapter.1.quest.36.subtitle}"
 			dependencies: ["65EB6D888AE39417"]
 			id: "7027A7515B010BDD"
 			tasks: [{
@@ -745,7 +745,7 @@
 			x: -5.5d
 			y: -1.0d
 			shape: "diamond"
-			subtitle: "Congratulations! You've accomplished it! You've successfully rejuvenated it. However, it hasn't quite reached the level of the original sapling. Perhaps the inclusion of menril berries could contribute to its full resurrection?"
+			subtitle: "{chapter.1.quest.37.subtitle}"
 			dependencies: ["2E64E817F8FABAC6"]
 			id: "424889E3B5E01EBB"
 			tasks: [{
@@ -777,7 +777,7 @@
 			x: -4.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Drops from Menril Trees. Also used for resurrecting Menril Saplings."
+			subtitle: "{chapter.1.quest.38.subtitle}"
 			dependencies: ["65EB6D888AE39417"]
 			id: "293527BB98246AD0"
 			tasks: [{
@@ -890,11 +890,11 @@
 			}]
 		}
 		{
-			title: "Early game item filtering."
+			title: "{chapter.1.quest.46.title}"
 			x: -1.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Filtering items is possible, just slap an item into a drawer, lock the drawer, and put a funnel on. Now the funnel will only insert if the item matches the drawers locked item."
+			subtitle: "{chapter.1.quest.46.subtitle}"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3B2E6054E10C6452"
@@ -933,14 +933,14 @@
 			icon: "minecraft:light"
 			x: -2.5d
 			y: -2.0d
-			subtitle: "If your sapling isn't growing, check for any unnatural blocks in a 5x15x5 area around it. Also check that it has enough light to grow."
+			subtitle: "{chapter.1.quest.47.subtitle}"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "54879E4FF6671EFD"
 			tasks: [{
 				id: "3584059D2523EA21"
 				type: "checkmark"
-				title: "Stuff that may go wrong."
+				title: "{chapter.1.quest.47.task.1.title}"
 			}]
 		}
 	]
