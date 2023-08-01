@@ -37,7 +37,7 @@
 		{
 			title: "{chapter.0.quest.1.title}"
 			x: 1.5d
-			y: -0.5d
+			y: 0.5d
 			subtitle: "{chapter.0.quest.1.subtitle}"
 			id: "2F63FB9E8EAC18BD"
 			tasks: [{
@@ -90,9 +90,9 @@
 			]
 		}
 		{
+			x: -2.0d
+			y: 2.0d
 			title: "{chapter.0.quest.4.title}"
-			x: -4.0d
-			y: 1.5d
 			dependencies: ["69C0AE6714182D7F"]
 			id: "6EC5AFB16BA0E63B"
 			tasks: [{
@@ -241,6 +241,11 @@
 				type: "item"
 				item: "pneumaticcraft:security_upgrade"
 			}]
+			rewards: [{
+				id: "18FDA15F78E05D25"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+			}]
 		}
 		{
 			icon: "kubejs:integrational_mechanism"
@@ -262,7 +267,7 @@
 		{
 			icon: "cae:skystone_catalyst"
 			x: 5.5d
-			y: -5.0d
+			y: 1.5d
 			subtitle: "{chapter.0.quest.15.subtitle}"
 			description: [
 				"{chapter.0.quest.15.description.1}"
@@ -292,7 +297,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 0.5d
 			y: -4.5d
 			subtitle: "{chapter.0.quest.17.subtitle}"
 			dependencies: ["4DCF01FE026F9FE5"]
@@ -329,7 +334,7 @@
 		{
 			icon: "minecraft:chorus_fruit"
 			x: 6.5d
-			y: 0.5d
+			y: 1.5d
 			subtitle: "{chapter.0.quest.20.subtitle}"
 			description: [
 				"{chapter.0.quest.20.description.1}"

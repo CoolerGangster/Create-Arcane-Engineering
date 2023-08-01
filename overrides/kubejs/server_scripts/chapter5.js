@@ -5,7 +5,7 @@ onEvent('recipes', event => {
     event.remove({id: 'thermal:ender_tnt'}) 
     event.recipes.create.haunting('forbidden_arcanus:dark_nether_star','minecraft:nether_star')
     event.recipes.create.haunting(Item.of('thermal:ender_tnt').withChance(0.65),'minecraft:tnt')
-    event.recipes.createMixing([Fluid.of('kubejs:portal_actuation_fluid',1),'pneumaticcraft:spawner_core_shell'],[Fluid.of('pneumaticcraft:kerosene',600),Fluid.of('pneumaticcraft:gasoline',600),Fluid.of('pneumaticcraft:diesel',800), 'forbidden_arcanus:orb_of_temporary_flight']).superheated()
+    event.recipes.createMixing([Fluid.of('kubejs:portal_actuation_fluid',1),'pneumaticcraft:spawner_core_shell'],[Fluid.of('pneumaticcraft:gasoline',1000),Fluid.of('pneumaticcraft:diesel',800), 'forbidden_arcanus:orb_of_temporary_flight']).superheated()
     event.shaped('pneumaticcraft:spawner_core_shell', [
         'NBN',
         'BSB',

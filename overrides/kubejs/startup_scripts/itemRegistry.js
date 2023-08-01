@@ -13,9 +13,9 @@ onEvent('item.registry.tool_tiers', event => {
         tier.repairIngredient = 'avaritia:zyzzium_ingot'
     })
     event.add('lootbag', tier =>{
-        tier.speed = 0.0
-        tier.uses = -1
         tier.enchantmentValue = 15
+        tier.speed = 0.0
+        //tier.uses = -1  //makes them not work in the enchanting table
         tier.attackDamageBonus = 0
     })
 });
@@ -51,7 +51,8 @@ onEvent('item.registry', (event) => {
     mechanism('Sturdy')
     mechanism('Plastic', RARITY_UNCOMMON)
     mechanism('Integrational', RARITY_UNCOMMON)
-    mechanism('Radiant', RARITY_UNCOMMON)
+    event.create('radiant_mechanism').texture("kubejs:item/radiant_mechanism").displayName('Radiant Mechanism').rarity(RARITY_COMMON).glow(true)
+    event.create('incomplete_radiant_mechanism', 'create:sequenced_assembly').texture("kubejs:item/incomplete_radiant_mechanism").displayName('Incomplete Radiant Mechanism').glow(false)
     mechanism('Time', RARITY_RARE)
     mechanism('Supercritical', RARITY_RARE)
     tool('Saw')
@@ -95,7 +96,7 @@ onEvent('item.registry', (event) => {
     //start M2
     event.create('mage_leaf').displayName('Magically Blooming Leaves')
     event.create('magebloom_sourceberry_smoothie_bowl').displayName('Magebloom Sourceberry Smoothie Bowl').food(food => {
-        food.hunger(8).saturation(1.5).effect("ars_nouveau:mana_regen",300,2,1).eaten(ctx => {
+        food.hunger(8).saturation(0.75).effect("ars_nouveau:mana_regen",300,2,1).eaten(ctx => {
             ctx.player.give(Item.of("minecraft:bowl",1))
         })
     })
@@ -194,5 +195,7 @@ onEvent('item.registry', (event) => {
     event.create("lootbag_arcane_2", "pickaxe").displayName("Artificers Epic Bag").rarity(RARITY_RARE).unstackable().tier("lootbag")
     event.create("lootbag_arcane_3", "pickaxe").displayName("Artificers Legendary Bag").rarity(RARITY_EPIC).unstackable().tier("lootbag")
     event.create("lootbag_poggers", "pickaxe").displayName("Reward of Patience").rarity(RARITY_EPIC).unstackable().tier("lootbag")
-    event.create("lootbag_create_brass", "pickaxe").displayName("Engineers Epic Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag")
+    event.create("lootbag_create_brass", "pickaxe").displayName("Engineers Brass Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag")
+    event.create("lootbag_create_radiant", "pickaxe").displayName("Engineers Radiant Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag").glow(true)
+    event.create("lootbag_pcb", "pickaxe").displayName("PCB Loot Package").rarity(RARITY_EPIC).unstackable().tier("lootbag")
 });

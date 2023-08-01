@@ -64,5 +64,10 @@ onEvent('item.tooltip',tooltip => {
     tooltip.addAdvanced("sophisticatedbackpacks:gold_backpack", (item, advanced, text) => {if (!tooltip.isShift()) {text.add(1,"§7Base: §r27§7 Slots, §r0§7 Upgrade Slot")}})
     tooltip.addAdvanced("sophisticatedbackpacks:diamond_backpack", (item, advanced, text) => {if (!tooltip.isShift()) {text.add(1,"§7Base: §r36§7 Slots, §r4§7 Upgrade Slots")}})
     tooltip.addAdvanced("sophisticatedbackpacks:netherite_backpack", (item, advanced, text) => {if (!tooltip.isShift()) {text.add(1,"§7Base: §r63§7 Slots, §r2§7 Upgrade Slots")}})
+    tooltip.addAdvanced(/quests\:.*task/, (item, advanced, text) =>{
+        if (item != "quests:task" && !item.nbt) {
+            text.add(1, "§7Rightclick to roll")
+        }
+    })
 })
  

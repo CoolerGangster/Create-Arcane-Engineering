@@ -1,0 +1,86 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:sequenced_gearshift"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "create:stockpile_switch"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "create:content_observer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "create:elevator_pulley"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "create:brass_tunnel"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 12,
+                    "name": "create:brass_funnel"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:smart_chute"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "createaddition:portable_energy_interface"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "create:brass_casing",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": {
+                                    "min": 2,
+                                    "max": 5
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "create:railway_casing",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": {
+                                    "min": 1,
+                                    "max": 2
+                                },
+                                "max": {
+                                    "min": 2,
+                                    "max": 3
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

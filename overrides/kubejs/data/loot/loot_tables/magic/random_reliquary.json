@@ -1,0 +1,60 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "ars_nouveau:runic_chalk"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "ars_nouveau:wand"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "ars_nouveau:spell_bow"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "forbidden_arcanus:obsidian_skull"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "reliquary:rending_gale"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "reliquary:lantern_of_paranoia"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "reliquary:salamander_eye"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "reliquary:ender_staff"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "reliquary:emperor_chalice"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "reliquary:ice_magus_rod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "reliquary:infernal_claws"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "reliquary:sojourner_staff"
+                }
+            ]
+        }
+    ]
+}

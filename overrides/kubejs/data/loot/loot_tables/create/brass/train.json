@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "create:track_signal"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "create:track_observer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "railways:track_coupler"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:sturdy_sheet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "create:flywheel"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:nixie_tube"
+                }
+            ]
+        }
+    ]
+}

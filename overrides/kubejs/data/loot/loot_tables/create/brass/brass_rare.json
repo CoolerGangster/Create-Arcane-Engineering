@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:mechanical_arm"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "create:rotation_speed_controller"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 14,
+                    "name": "create:mechanical_crafter",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": {
+                                    "min": 1,
+                                    "max": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "create:controls"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "createaddition:tesla_coil"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "createaddition:modular_accumulator"
+                }
+            ]
+        }
+    ]
+}

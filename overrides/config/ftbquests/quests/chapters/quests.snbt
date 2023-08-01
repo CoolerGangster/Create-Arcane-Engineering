@@ -1341,41 +1341,6 @@
 			]
 		}
 		{
-			title: "8x Steel"
-			icon: "alloyed:steel_ingot"
-			disable_toast: true
-			x: 5.0d
-			y: -3.5d
-			shape: "hexagon"
-			subtitle: "16 Silver"
-			can_repeat: true
-			id: "0DD64923F28B4BF3"
-			tasks: [{
-				id: "1C9BD3EE7771B2FD"
-				type: "item"
-				icon: { id: "thermal:silver_coin", Count: 10b }
-				item: "thermal:silver_coin"
-				count: 10L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "639C6EFC13823AD3"
-					type: "item"
-					auto: "enabled"
-					item: "trade:trade_card_steel"
-				}
-				{
-					id: "3CE854648F79DA7A"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
-					auto: "no_toast"
-				}
-			]
-		}
-		{
 			title: "8x Brass Ingot"
 			icon: "create:brass_ingot"
 			disable_toast: true
@@ -1729,7 +1694,7 @@
 			title: "8x Certus Quartz"
 			icon: "ae2:certus_quartz_crystal"
 			disable_toast: true
-			x: 1.5d
+			x: 4.0d
 			y: -1.5d
 			shape: "hexagon"
 			subtitle: "24 Silver"
@@ -1764,7 +1729,7 @@
 			title: "8x Fluix Quartz"
 			icon: "ae2:fluix_crystal"
 			disable_toast: true
-			x: 4.0d
+			x: 5.0d
 			y: -1.5d
 			shape: "hexagon"
 			subtitle: "32 Silver"
@@ -1800,7 +1765,7 @@
 			icon: "thermal:cured_rubber"
 			disable_toast: true
 			x: 5.0d
-			y: -1.5d
+			y: -3.5d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			can_repeat: true
@@ -3720,14 +3685,36 @@
 			}]
 		}
 		{
+			title: "Buying from Amadron"
+			icon: {
+				id: "pneumaticcraft:amadron_tablet"
+				Count: 1b
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
 			x: 1.5d
 			y: 2.0d
 			subtitle: "All of the Trades are also in Amadron!"
+			description: ["Pressure-Limited Amadron Subscription"]
 			id: "326AC4EEE9E97B3A"
 			tasks: [{
-				id: "750D92F95510798F"
+				id: "523E0F5C88578A7F"
 				type: "item"
-				item: "pneumaticcraft:amadron_tablet"
+				item: "thermal:silver_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "48F46F51BEA5DA94"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:amadron_tablet"
+					Count: 1b
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+				}
 			}]
 		}
 	]

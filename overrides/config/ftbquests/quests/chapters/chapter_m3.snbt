@@ -127,7 +127,7 @@
 			x: -1.5d
 			y: -2.5d
 			shape: "diamond"
-			dependencies: ["3A10D0D5E8548C54"]
+			dependencies: ["10190AA2A7C13277"]
 			hide: true
 			dependency_requirement: "one_completed"
 			id: "09E4D27B89F783CF"
@@ -145,7 +145,13 @@
 				{
 					id: "2986F8195F2C466C"
 					type: "item"
-					item: "kubejs:lootbag_arcane_3"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -170,7 +176,13 @@
 				{
 					id: "4352D876209C7ED5"
 					type: "item"
-					item: "kubejs:lootbag_arcane_3"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -337,7 +349,13 @@
 				{
 					id: "1C2399D0C5D947C4"
 					type: "item"
-					item: "kubejs:lootbag_arcane_2"
+					item: {
+						id: "kubejs:lootbag_arcane_2"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -519,7 +537,13 @@
 			rewards: [{
 				id: "7E7D2BDEB2203DE9"
 				type: "item"
-				item: "kubejs:lootbag_arcane_3"
+				item: {
+					id: "kubejs:lootbag_arcane_3"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 				count: 6
 			}]
 		}

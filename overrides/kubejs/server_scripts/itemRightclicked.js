@@ -10,4 +10,8 @@ onEvent('block.right_click', event =>{
         event.block.set('air')
         event.block.offset(0,10,0).set('cae:skystone_catalyst')
     }  
+	if (event.item == "pneumaticcraft:pneumatic_wrench" && event.block.id.startsWith("create:")) {
+		event.player.statusMessage = 'We\'ve prevented this item from interacting with Create components due to a possible Crash.'
+		event.cancel()
+	}
 })
