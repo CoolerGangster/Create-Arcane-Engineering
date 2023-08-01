@@ -314,8 +314,8 @@ onEvent('lootjs', event=>{
 			let requiredAmount = Math.round(element[0][2]*+element[1][0])
 			let coinOutput = Math.round(element[0][1]*element[1][0]+element[1][1] + taskCost)
 			lootItem.addNbt(lootNbt)
-			lootItem.setName('§4§lQuest: §r§6Collect ' + requiredAmount + capitalize(element[0][0].replace(/^.*\:/, ' ')))
-			lootItem.addLore('§7' + requiredAmount + capitalize(element[0][0].replace(/^.*\:/, ' ')) + ' §8 -> §7  ' + coinOutput + " Silver")
+			lootItem.setName(Component.translate('lootItem.trade.name',requiredAmount.toString(),Item.of(element[0][0]).getName().string))
+			lootItem.addLore(Component.translate('lootItem.trade.lore',requiredAmount.toString(),Item.of(element[0][0]).getName().string,coinOutput.toString()))
 			lootEntries.push(lootItem)
 		})
 		event.addLootTableModifier(questType[1]).addWeightedLoot(lootEntries)
@@ -340,12 +340,12 @@ onEvent('item.right_click', event =>{
 			let silver = Math.round((amtMultpl * questType[0][id][0][1]) + questType[0][id][1][1] + taskCost)
 			let currentAmt = event.player.inventory.count(Item.of(reqItem).ignoreNBT())
 			if (currentAmt < reqAmt) {
-				event.player.setStatusMessage("§7You need§r " + (reqAmt - currentAmt).toString() + " §7more§r " + capitalize(reqItem.replace(/^.*\:/, "")) + "§7to complete this Quest!")
+				event.player.setStatusMessage(Component.translate("lootItem.trade.statusMessage",(reqAmt - currentAmt).toString(),Item.of(reqItem).getName().string))
 				event.player.swingArm(MAIN_HAND)
 				return
 			}
 			if (!event.player.crouching) {
-				event.player.setStatusMessage("  §7'§rSneak + Rightclick§7'   to complete this Quest!")
+				event.player.setStatusMessage(Component.translate("lootItem.trade.toFinishMessage"))
 				event.player.swingArm(MAIN_HAND)
 				return
 			}
@@ -362,7 +362,7 @@ onEvent('item.right_click', event =>{
 				toTake -= slotAmt
 			}
 			event.player.giveInHand(Item.of("thermal:silver_coin", silver))
-			event.player.setStatusMessage("§6Congrats on completing a Quest!")
+			event.player.setStatusMessage(Component.translate("lootItem.trade.finishedMessage"))
 			event.player.swingArm(MAIN_HAND)
 		})
 	}

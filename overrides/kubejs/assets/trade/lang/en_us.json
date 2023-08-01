@@ -1,0 +1,7 @@
+{
+    "lootItem.trade.name": "§4§lQuest: §r§6Collect %s %s",
+    "lootItem.trade.lore": "§7%s %s §8 -> §7  %s  Silver",
+    "lootItem.trade.statusMessage": "§7You need§r %s §7more§r %s §7to complete this Quest!",
+    "lootItem.trade.toFinishMessage": "  §7'§rSneak + Rightclick§7'   to complete this Quest!",
+    "lootItem.trade.finishedMessage": "§6Congrats on completing a Quest!"
+}
