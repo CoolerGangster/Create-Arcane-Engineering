@@ -33,17 +33,17 @@ onEvent('item.registry', event => {
     
 
 	//task imports
-	//event.create('trade:task_import').texture("quests:item/task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-    event.create('trade:collecting_task_import').texture("quests:item/collecting_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-    event.create('trade:deforesting_task_import').texture("quests:item/deforesting_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-    event.create('trade:fishing_task_import').texture("quests:item/fishing_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-    event.create('trade:hunting_task_import').texture("quests:item/hunting_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-    event.create('trade:mining_task_import').texture("quests:item/mining_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-    event.create('trade:slaying_task_import').texture("quests:item/slaying_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-    //event.create('trade:cooking_task_import').texture("quests:item/cooking_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-    event.create('trade:farming_task_import').texture("quests:item/farming_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-	//event.create('trade:processing_task_import').texture("quests:item/processing_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
-    //event.create('trade:magic_task_import').texture("quests:item/magic_task").glow(true).tooltip(Component.gray("Used to automatically buy Tasks"))
+	//event.create('trade:task_import').texture("quests:item/task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+    event.create('trade:collecting_task_import').texture("quests:item/collecting_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+    event.create('trade:deforesting_task_import').texture("quests:item/deforesting_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+    event.create('trade:fishing_task_import').texture("quests:item/fishing_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+    event.create('trade:hunting_task_import').texture("quests:item/hunting_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+    event.create('trade:mining_task_import').texture("quests:item/mining_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+    event.create('trade:slaying_task_import').texture("quests:item/slaying_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+    //event.create('trade:cooking_task_import').texture("quests:item/cooking_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+    event.create('trade:farming_task_import').texture("quests:item/farming_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+	//event.create('trade:processing_task_import').texture("quests:item/processing_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
+    //event.create('trade:magic_task_import').texture("quests:item/magic_task").glow(true).tooltip(Component.translate("tradeCard.trade.tooltip").gray())
 
 
 	global.trades = []
