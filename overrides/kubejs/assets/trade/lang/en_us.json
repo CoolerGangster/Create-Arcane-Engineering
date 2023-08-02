@@ -107,5 +107,5 @@
     "item.trade.trade_card_prismarine_crystals": "Import: Prismarine Crystals",
     "item.trade.trade_card_phantom_membrane": "Import: Phantom Membrane",
     "item.trade.trade_card_blaze_cake": "Import: Blaze Cake",
-    "traddeCard.trade.tooltip": "Used to automatically buy Tasks"
+    "tradeCard.trade.tooltip": "Used to automatically buy Tasks"
 }
