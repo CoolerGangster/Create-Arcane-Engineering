@@ -151,13 +151,13 @@
 			}]
 		}
 		{
-			title: "16x Dirt"
+			title: "[\"\",\"16x \",{\"translate\":\"block.minecraft.dirt\"}]"
 			icon: "minecraft:dirt"
 			disable_toast: true
 			x: -2.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "[\"\",\"2 \",{\"translate\":\"item.thermal.silver_coin\"}]"
 			can_repeat: true
 			id: "3AED10CF643CBF0E"
 			tasks: [{
@@ -186,13 +186,13 @@
 			]
 		}
 		{
-			title: "16x Sand"
+			title: "[\"\",\"16x \",{\"translate\":\"block.minecraft.sand\"}]"
 			icon: "minecraft:sand"
 			disable_toast: true
 			x: -1.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "[\"\",\"4 \",{\"translate\":\"item.thermal.silver_coin\"}]"
 			can_repeat: true
 			id: "2628456BE4F18ABA"
 			tasks: [{
@@ -221,13 +221,13 @@
 			]
 		}
 		{
-			title: "16x Gravel"
+			title: "[\"\",\"16x \",{\"translate\":\"block.minecraft.gravel\"}]"
 			icon: "minecraft:gravel"
 			disable_toast: true
 			x: 0.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "[\"\",\"2 \",{\"translate\":\"item.thermal.silver_coin\"}]"
 			can_repeat: true
 			id: "1AE81790C7E48635"
 			tasks: [{
