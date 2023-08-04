@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "quests"
-	title: "The Trade Market"
+	title: "{market.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -35,12 +35,12 @@
 	progression_mode: "flexible"
 	quests: [
 		{
-			title: "Buy a Task!"
+			title: "{market.quest.1.title}"
 			icon: "quests:deforesting_task"
 			x: 0.0d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "Gotta get that Cash!"
+			subtitle: "{market.quest.1.subtitle}"
 			can_repeat: true
 			id: "26C60BF347F40F36"
 			tasks: [{
@@ -58,7 +58,7 @@
 			}]
 		}
 		{
-			title: "Machine Buying"
+			title: "{market.quest.2.title}"
 			icon: {
 				id: "custommachinery:custom_machine_item"
 				Count: 1b
@@ -97,7 +97,7 @@
 			]
 		}
 		{
-			title: "Currency Exchange"
+			title: "{market.quest.3.title}"
 			x: 0.5d
 			y: 1.0d
 			can_repeat: true
@@ -116,7 +116,7 @@
 			}]
 		}
 		{
-			title: "Currency Exchange"
+			title: "{market.quest.3.title}"
 			x: 2.5d
 			y: 1.0d
 			can_repeat: true
@@ -135,11 +135,11 @@
 			}]
 		}
 		{
-			title: "Dont mind this, just made so you cant complete this"
+			title: "{market.quest.4.title}"
 			icon: "minecraft:black_stained_glass_pane"
 			x: 3.0d
 			y: -9.55d
-			subtitle: "Dont claim this other than the purpose of doing 100%"
+			subtitle: "{market.quest.4.subtitle}"
 			dependencies: ["1C392A3E7ADA7109"]
 			hide: true
 			size: 0.1d
@@ -147,7 +147,7 @@
 			tasks: [{
 				id: "20E3ADB25AB5D606"
 				type: "checkmark"
-				title: "I want my game to sound like shit!"
+				title: "{market.quest.4.description.1}"
 			}]
 		}
 		{
@@ -177,7 +177,7 @@
 				{
 					id: "07D4DCA583437BF8"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -211,7 +211,7 @@
 				{
 					id: "459FF356A2EC5428"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -245,7 +245,7 @@
 				{
 					id: "52D4FE446F10622A"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -279,7 +279,7 @@
 				{
 					id: "14C2AAC6AC0B238B"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -313,7 +313,7 @@
 				{
 					id: "6B120229EB43A59A"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -347,7 +347,7 @@
 				{
 					id: "77171F24B2D6CC05"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -381,7 +381,7 @@
 				{
 					id: "3424491350EAB0DB"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -415,7 +415,7 @@
 				{
 					id: "15D92769F1FA0D1B"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -449,7 +449,7 @@
 				{
 					id: "5C6EA1515D15D327"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -483,7 +483,7 @@
 				{
 					id: "6A9B97375A7B02F6"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -517,7 +517,7 @@
 				{
 					id: "3224FA30302555FD"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -551,7 +551,7 @@
 				{
 					id: "3C5A0BC0218BF3E5"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -585,7 +585,7 @@
 				{
 					id: "5C7092F234D49F2F"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -619,7 +619,7 @@
 				{
 					id: "3582568CF085747E"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -653,7 +653,7 @@
 				{
 					id: "1FC4D6F567D1222B"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -687,7 +687,7 @@
 				{
 					id: "62CF9D308F2A5C6A"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -721,7 +721,7 @@
 				{
 					id: "0F6B6305CFE1A9FD"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -755,7 +755,7 @@
 				{
 					id: "4902CE965F3DEC06"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -789,7 +789,7 @@
 				{
 					id: "44A6459D7942C4FB"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -823,7 +823,7 @@
 				{
 					id: "0B35AD49712541BE"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -857,7 +857,7 @@
 				{
 					id: "715DE130562C8142"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -891,7 +891,7 @@
 				{
 					id: "72D11E58476D6916"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -925,7 +925,7 @@
 				{
 					id: "2D4AE42330314BFA"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -959,7 +959,7 @@
 				{
 					id: "42F97F498C6E3D07"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -993,7 +993,7 @@
 				{
 					id: "1A60A183B614E539"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1027,7 +1027,7 @@
 				{
 					id: "2377E1B1F8375297"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1061,7 +1061,7 @@
 				{
 					id: "51A3D3C464F87F8F"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1095,7 +1095,7 @@
 				{
 					id: "27C951E116C7A84F"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1129,7 +1129,7 @@
 				{
 					id: "3569B9FAA2BF007A"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1163,7 +1163,7 @@
 				{
 					id: "75A7F1BC00163974"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1197,7 +1197,7 @@
 				{
 					id: "75860EB6B5DBD7D2"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1231,7 +1231,7 @@
 				{
 					id: "5300D57506217BB3"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1265,7 +1265,7 @@
 				{
 					id: "573663746C8FD663"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1299,7 +1299,7 @@
 				{
 					id: "5BBF58CD737EB9E9"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1333,7 +1333,7 @@
 				{
 					id: "43A00F02C2AC2136"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1367,7 +1367,7 @@
 				{
 					id: "0176E8CFD86B1CC7"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1401,7 +1401,7 @@
 				{
 					id: "3A297E11E7A069A1"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1435,7 +1435,7 @@
 				{
 					id: "24D8C6F14A9410F4"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1469,7 +1469,7 @@
 				{
 					id: "2C38AC21FA392419"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1503,7 +1503,7 @@
 				{
 					id: "010003D8A27F1AC3"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1537,7 +1537,7 @@
 				{
 					id: "732BC8C0A6C31584"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1571,7 +1571,7 @@
 				{
 					id: "5124D7CA085B4E75"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1605,7 +1605,7 @@
 				{
 					id: "4F17D88EB5D2EE3E"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1639,7 +1639,7 @@
 				{
 					id: "028B43012394F9C9"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1673,7 +1673,7 @@
 				{
 					id: "1DE08739F5BF20D7"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1707,7 +1707,7 @@
 				{
 					id: "6DFD2C0207C0282E"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1741,7 +1741,7 @@
 				{
 					id: "561DAC12C7BA8454"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1775,7 +1775,7 @@
 				{
 					id: "200391F6C7AB5BF3"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1809,7 +1809,7 @@
 				{
 					id: "78B79DD809D0A64A"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1843,7 +1843,7 @@
 				{
 					id: "00D603AD35B64C59"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1877,7 +1877,7 @@
 				{
 					id: "43BE1EA6A7B307ED"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1911,7 +1911,7 @@
 				{
 					id: "649A1DDEB81EAB8F"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1945,7 +1945,7 @@
 				{
 					id: "513E49A0786E22D1"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -1979,7 +1979,7 @@
 				{
 					id: "1D732893F292D4E8"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2013,7 +2013,7 @@
 				{
 					id: "186F5D5ED9D1C33C"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2047,7 +2047,7 @@
 				{
 					id: "21D8DB7941114C55"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2081,7 +2081,7 @@
 				{
 					id: "47F03935E427AFE3"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2115,7 +2115,7 @@
 				{
 					id: "2FF27A4629BDD419"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2149,7 +2149,7 @@
 				{
 					id: "2BD0640662A67C90"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2183,7 +2183,7 @@
 				{
 					id: "5C8E91CFFFFC61F6"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2217,7 +2217,7 @@
 				{
 					id: "4EFD210ECBCAB5AD"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2251,7 +2251,7 @@
 				{
 					id: "7A1E82285F665FBF"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2285,7 +2285,7 @@
 				{
 					id: "35CECAA96656688A"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2319,7 +2319,7 @@
 				{
 					id: "4D85F823FD828BF5"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2353,7 +2353,7 @@
 				{
 					id: "108D732630E6F077"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2387,7 +2387,7 @@
 				{
 					id: "6847A8E56D10D2D7"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2421,7 +2421,7 @@
 				{
 					id: "39E6B559DD3F5B57"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2455,7 +2455,7 @@
 				{
 					id: "23CAC70830080F13"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2489,7 +2489,7 @@
 				{
 					id: "22CB57061303C468"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2523,7 +2523,7 @@
 				{
 					id: "070F93EA41341C66"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2557,7 +2557,7 @@
 				{
 					id: "0BD2650FBE9FF80F"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2591,7 +2591,7 @@
 				{
 					id: "17DC7D545493B3E8"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2625,7 +2625,7 @@
 				{
 					id: "357D556F2EC6A468"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2659,7 +2659,7 @@
 				{
 					id: "44E57A6D3CD2E059"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2693,7 +2693,7 @@
 				{
 					id: "06726E1725890B0F"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2727,7 +2727,7 @@
 				{
 					id: "2AC8680AAFBB0E1E"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2761,7 +2761,7 @@
 				{
 					id: "5B785AB4A3D4944F"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2795,7 +2795,7 @@
 				{
 					id: "211FD1D9E834D2E6"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2829,7 +2829,7 @@
 				{
 					id: "4C71038A1FE54B3C"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2863,7 +2863,7 @@
 				{
 					id: "630A951B9C0AE7BF"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2897,7 +2897,7 @@
 				{
 					id: "0A69B395963D43DB"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2931,7 +2931,7 @@
 				{
 					id: "57343B0C90DD6B40"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2965,7 +2965,7 @@
 				{
 					id: "2F4112710FF8D4FC"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -2999,7 +2999,7 @@
 				{
 					id: "75B983D6C4E79791"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3033,7 +3033,7 @@
 				{
 					id: "62CBBF5A37A0334C"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3067,7 +3067,7 @@
 				{
 					id: "561C76E66C1DD09C"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3101,7 +3101,7 @@
 				{
 					id: "74B8ABD3289618B9"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3135,7 +3135,7 @@
 				{
 					id: "7F810A351258082D"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3169,7 +3169,7 @@
 				{
 					id: "4CCA2B9BBBC3946E"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3203,7 +3203,7 @@
 				{
 					id: "6A9B5C4765503A1E"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3237,7 +3237,7 @@
 				{
 					id: "648CFB4869282526"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3271,7 +3271,7 @@
 				{
 					id: "26475A2E18E4502A"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3305,7 +3305,7 @@
 				{
 					id: "2BD77F66CB1C15A9"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3339,7 +3339,7 @@
 				{
 					id: "2992548908C27805"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3373,7 +3373,7 @@
 				{
 					id: "07CD89D6EF24CC38"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3407,7 +3407,7 @@
 				{
 					id: "0E74FE47D2644DDE"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3441,7 +3441,7 @@
 				{
 					id: "619E65BFEC5DB963"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3475,7 +3475,7 @@
 				{
 					id: "609992259D81FE4E"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3509,7 +3509,7 @@
 				{
 					id: "2C427D2E49798FE9"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3543,7 +3543,7 @@
 				{
 					id: "29C0EACDF51A9CAA"
 					type: "custom"
-					title: "Repeatable"
+					title: "{market.quests.repeatable}"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -3581,11 +3581,11 @@
 			tasks: [{
 				id: "76F40A1F0A7371B3"
 				type: "checkmark"
-				title: "yes 100% the modpack please."
+				title: "{market.quest.5.task.1.title}"
 			}]
 		}
 		{
-			title: "Buying from Amadron"
+			title: "{market.quest.6.title}"
 			icon: {
 				id: "pneumaticcraft:amadron_tablet"
 				Count: 1b
@@ -3595,8 +3595,8 @@
 			}
 			x: 1.5d
 			y: 2.0d
-			subtitle: "All of the Trades are also in Amadron!"
-			description: ["Pressure-Limited Amadron Subscription"]
+			subtitle: "{market.quest.6.subtitle}"
+			description: ["{market.quest.6.description.1}"]
 			id: "326AC4EEE9E97B3A"
 			tasks: [{
 				id: "523E0F5C88578A7F"

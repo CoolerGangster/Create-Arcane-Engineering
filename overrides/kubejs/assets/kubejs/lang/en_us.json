@@ -307,6 +307,41 @@
     "tips.quest.38.description.1": "",
 
 
+    "market.id": "7368D6DF70D43FD5",
+    "market.title": "The Trade Market",
+    "market.quests.repeatable": "Repeatable",
+
+    "market.quest.1.id" : "26C60BF347F40F36",
+    "market.quest.1.title": "Buy a Task!",
+    "market.quest.1.subtitle": "Gotta get that Cash!",
+    "market.quest.1.description.1": "",
+
+    "market.quest.2.id" : "00382A0A19DB8818",
+    "market.quest.2.title": "Machine Buying",
+    "market.quest.2.subtitle": "",
+    "market.quest.2.description.1": "",
+
+    "market.quest.3.id" : "122979216534B8CB",
+    "market.quest.3.title": "Currency Exchange",
+    "market.quest.3.subtitle": "",
+    "market.quest.3.description.1": "",
+
+    "market.quest.4.id" : "",
+    "market.quest.4.title": "Don\u0027t mind this, just made so you can\u0027t complete this",
+    "market.quest.4.subtitle": "Don\u0027t claim this other than the purpose of doing 100%",
+    "market.quest.4.description.1": "I want my game to sound like shit!",
+
+    "market.quest.5.id" : "2EECCC87E78CD653",
+    "market.quest.5.title": "",
+    "market.quest.5.subtitle": "",
+    "market.quest.5.description.1": "",
+    "market.quest.5.task.1.title": "yes 100% the modpack please.",
+
+    "market.quest.6.id" : "326AC4EEE9E97B3A",
+    "market.quest.6.title": "Buying from Amadron",
+    "market.quest.6.subtitle": "All of the Trades are also in Amadron!",
+    "market.quest.6.description.1": "Pressure-Limited Amadron Subscription",
+    
     "chapter.0.id": "23E704844FBC1F13",
     "chapter.0.title": "Chapter 0: Beginnings",
 
