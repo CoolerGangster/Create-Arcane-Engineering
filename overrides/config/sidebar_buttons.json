@@ -10,8 +10,5 @@
 		"toggle.rain": true,
 		"toggle.day": true,
 		"toggle.night": true
-	},
-	"ftbchunks": {
-		"chunks": true
 	}
 }

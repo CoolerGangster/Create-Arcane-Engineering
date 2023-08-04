@@ -1483,7 +1483,7 @@
 			x: 4.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "1 Gold"
+			subtitle: "[\"\",\"1 \",{\"translate\":\"item.thermal.gold_coin\"}]"
 			can_repeat: true
 			id: "0D58DE847F518C21"
 			tasks: [{
@@ -1551,7 +1551,7 @@
 			x: 2.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "1 Gold"
+			subtitle: "[\"\",\"1 \",{\"translate\":\"item.thermal.gold_coin\"}]"
 			can_repeat: true
 			id: "3A68BF9EC89753F0"
 			tasks: [{
@@ -3217,7 +3217,7 @@
 			x: 5.0d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "[\"\",\"2 \",{\"translate\":\"item.thermal.gold_coin\"}]"
 			can_repeat: true
 			id: "164B9F8E7BA58128"
 			tasks: [{
