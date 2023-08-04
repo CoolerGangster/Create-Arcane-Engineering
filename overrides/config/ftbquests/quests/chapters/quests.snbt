@@ -2327,7 +2327,7 @@
 			x: 1.0d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "[\"\",\"3 \",{\"translate\":\"item.thermal.silver_coin\"}]""
+			subtitle: "[\"\",\"3 \",{\"translate\":\"item.thermal.silver_coin\"}]"
 			can_repeat: true
 			id: "6EB996ABF4FCF21A"
 			tasks: [{

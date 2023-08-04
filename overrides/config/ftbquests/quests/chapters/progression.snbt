@@ -395,7 +395,7 @@
 			}
 			x: -0.5d
 			y: -2.0d
-			subtitle: "{[\"\",{\"translate\":\"chapter.0.quest.17.subtitle\"},\"\\n\",{\"translate\":\"progression.quest.17.description.1\"}]}"
+			subtitle: "[\"\",{\"translate\":\"progression.quest.17.title\"},\"\\n\",{\"translate\":\"progression.quest.17.description.1\"}]"
 			description: [
 				""
 				"{progression.quest.17.description.2}"
