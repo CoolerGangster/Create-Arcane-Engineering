@@ -1,0 +1,62 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "loot:magic/artifacts_and_reliquary"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.15
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 7,
+                "max": 9
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 24,
+                    "name": "loot:magic/magic_basic"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "loot:magic/arcane_gold_tools"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "loot:magic/ars_armor"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "loot:magic/ars_trinkets"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 7,
+                    "name": "loot:magic/mob_items"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:magic/random_reliquary"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "loot:magic/ctome_or_book"
+                }
+            ]
+        }
+    ]
+}

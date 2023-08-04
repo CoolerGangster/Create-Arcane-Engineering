@@ -1,0 +1,95 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "pneumaticcraft:printed_circuit_board",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "kubejs:pcb_asembly_2"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "kubejs:time_mechanism",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": {
+                                    "min": 1,
+                                    "max": 2
+                                },
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "kubejs:plastic_mechanism",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "kubejs:pcb_assembly"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "kubejs:integrational_mechanism",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 12,
+                    "name": "kubejs:radiant_mechanism",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 12
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "thermal:gold_coin",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 28,
+                                "max": 36
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 3
+                        },
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "veinmining:vein_mining",
+                                "minecraft:mending",
+                                "minecraft:sharpness",
+                                "minecraft:efficiency",
+                                "minecraft:fortune"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "thermal:silver_coin",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 64
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "kubejs:fragment_of_patience"
+                }
+            ]
+        }
+    ]
+}

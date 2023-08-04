@@ -68,7 +68,13 @@
 				{
 					id: "7114A6A448127244"
 					type: "item"
-					item: "kubejs:lootbag_arcane_3"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 					count: 3
 				}
 			]
@@ -90,7 +96,13 @@
 				{
 					id: "4D8B6294F45B7377"
 					type: "item"
-					item: "kubejs:lootbag_arcane_3"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "0D662DB14CE4A30A"
@@ -151,7 +163,13 @@
 				{
 					id: "4D7A73F26F2BF095"
 					type: "item"
-					item: "kubejs:lootbag_arcane_3"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 					count: 3
 				}
 				{
@@ -193,7 +211,13 @@
 			rewards: [{
 				id: "7F1B3718CC2EDDDD"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -231,7 +255,13 @@
 				{
 					id: "481DED478BB9490C"
 					type: "item"
-					item: "kubejs:lootbag_arcane_3"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -274,7 +304,13 @@
 				{
 					id: "43BF4B8920FE9A32"
 					type: "item"
-					item: "kubejs:lootbag_arcane_3"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -324,6 +360,13 @@
 			x: 1.0d
 			y: 1.5d
 			shape: "gear"
+			description: [
+				"Automating the Hephaestus Forge is a bit difficult."
+				""
+				"4 of its slots, 3 of which are inaccessible without hoppers/funnels, take priority over the actually important ones."
+				""
+				"To automate inputting into the forge, simply fill those slots with any unstackable item first."
+			]
 			dependencies: [
 				"28FC493A45BD131F"
 				"3882C0D9CAA0BE84"
@@ -631,7 +674,13 @@
 				{
 					id: "4F8F1550E1FE3232"
 					type: "item"
-					item: "kubejs:lootbag_arcane_2"
+					item: {
+						id: "kubejs:lootbag_arcane_2"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "0B4AA3D9F5DCC2D8"

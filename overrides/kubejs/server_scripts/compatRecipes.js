@@ -1,5 +1,6 @@
 let wrencharray = []
 let dumbshitarray =  [
+    "kubejs:gold_casing",
     "2x create:portable_storage_interface",
     "2x create:mechanical_harvester",
     "2x create:mechanical_plough",
@@ -1236,9 +1237,9 @@ onEvent('recipes', event => {
     event.forEachRecipe({id: 'reliquary:alkahestry/drain/redstone'}, recipe => {
         recipe.id(recipe.getOrCreateId() + '_manual_only')
     })
+    event.remove({id:"reliquary:alkahestry/crafting/netherrack"})
     let alkahestryshit = [
         'sand',
-        'netherrack',
         'sandstone',
         'iron_ingot',
         'lapis_lazuli',
@@ -1315,6 +1316,8 @@ onEvent('recipes', event => {
     event.recipes.create.deploying('kubejs:gold_casing',['#forge:stripped_wood','#forge:plates/gold']) 
     //machineration('radiant','thermal:machine_frame')
     event.remove({output: 'createaddition:zinc_sheet'})
+
+    event.remove({id:"create:splashing/crushed_raw_iron"})
 }); 
 onEvent('tags.blocks', thing =>{
     dumbshitarray.forEach(entry =>{
@@ -1331,5 +1334,5 @@ onEvent('tags.blocks', thing =>{
     
 })
 onEvent('tags.fluids', event =>{
-        event.add('create:bottomless','pneumaticcraft:oil')
+        event.add('create:bottomless/allow','pneumaticcraft:oil')
 })

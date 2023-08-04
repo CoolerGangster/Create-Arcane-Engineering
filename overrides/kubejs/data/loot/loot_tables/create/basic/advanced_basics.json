@@ -1,0 +1,150 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:chute",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "create:weighted_ejector",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "create:hand_crank"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "create:basin"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "create:andesite_funnel",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "create:rose_quartz",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "create:red_sand_paper"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:white_sail",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:gantry_shaft",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:piston_extension_pole",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "create:track",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "create:item_vault",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

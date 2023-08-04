@@ -135,7 +135,7 @@ t = "kubejs:incomplete_engineering_circuit"
 event.recipes.createSequencedAssembly([
   'ae2:printed_engineering_processor',
 ], 'kubejs:radiant_mechanism', [
-  event.recipes.createFilling(t, [t, Fluid.of("tconstruct:molten_diamond", 144)]),
+  event.recipes.createFilling(t, [t, Fluid.of("tconstruct:molten_diamond", 100)]),
   event.recipes.createPressing(t,[t])
 ]).transitionalItem(t).loops(1)
 
@@ -143,7 +143,7 @@ t = "kubejs:incomplete_calculation_circuit"
 event.recipes.createSequencedAssembly([
   'ae2:printed_logic_processor',
 ], 'create:precision_mechanism', [
-  event.recipes.createFilling(t, [t, Fluid.of("tconstruct:molten_gold", 144)]),
+  event.recipes.createFilling(t, [t, Fluid.of("tconstruct:molten_gold", 90)]),
   event.recipes.createPressing(t,[t])
 ]).transitionalItem(t).loops(1)
 
@@ -160,7 +160,7 @@ t = KJ("incomplete_tested_pcb")
 event.recipes.createSequencedAssembly([
   'kubejs:untested_pcb',
 ], 'kubejs:legend_pcb', [
-  event.recipes.createFilling(t, [t, Fluid.of("tconstruct:molten_nickel", 144)]),
+  event.recipes.createFilling(t, [t, Fluid.of("tconstruct:molten_nickel", 90)]),
   event.recipes.createDeploying(t, [t, 'thermal:gold_dust'])
 ]).transitionalItem(t).loops(1)
 

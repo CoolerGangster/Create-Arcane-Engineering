@@ -1,0 +1,237 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": {
+                    "min": 5,
+                    "max": 7
+                }
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "ars_nouveau:end_fiber",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "forbidden_arcanus:arcane_crystal_block"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "forbidden_arcanus:xpetrified_orb",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "forbidden_arcanus:mundabitur_dust"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "kubejs:dirty_bowl"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "kubejs:magebloom_sourceberry_smoothie_bowl",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "forbidden_arcanus:dark_matter"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "quark:soul_bead"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "forbidden_arcanus:arcane_gold_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "ars_nouveau:lava_lily"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "forbidden_arcanus:rune",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": {
+                                    "min": 1,
+                                    "max": 3
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "kubejs:rune_dust",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "ars_nouveau:magebloom_crop"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:experience_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "forbidden_arcanus:cloth",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "forbidden_arcanus:arcane_bone_meal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "forbidden_arcanus:arcane_crystal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "kubejs:runic_tablet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "kubejs:empty_vial"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "reliquary:glowing_bread",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "ars_nouveau:source_berry_roll",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

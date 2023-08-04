@@ -623,7 +623,7 @@
 		{
 			title: "{tips.quest.37.title}"
 			icon: "quark:warped_chest"
-			x: -6.0d
+			x: -6.5d
 			y: -15.0d
 			subtitle: "{tips.quest.37.subtitle}"
 			id: "1BDC8F965F8B7DA7"
@@ -643,6 +643,33 @@
 				type: "item"
 				item: "compressedcreativity:heater"
 			}]
+		}
+		{
+			icon: "create:item_vault"
+			x: -5.5d
+			y: -15.0d
+			subtitle: "Don't know how to fix something? Call it a feature."
+			description: ["Item Vaults are a great way to store the bulk of your Items. \\nYou can even interact with their contents manually through a Tinkers crafting station."]
+			id: "48D73F3A6C8C0203"
+			tasks: [
+				{
+					id: "078DD2C7D6303FD7"
+					type: "item"
+					item: "create:item_vault"
+				}
+				{
+					id: "6D69399EBF8FBC41"
+					type: "item"
+					title: "Any Crafting Station"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:workbenches"
+						}
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]

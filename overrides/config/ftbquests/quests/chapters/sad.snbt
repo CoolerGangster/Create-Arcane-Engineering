@@ -52,7 +52,13 @@
 			rewards: [{
 				id: "2B0A259AF94D3224"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -65,6 +71,7 @@
 				"24B4AA7FE57740B1"
 				"7EA15D680D22F69B"
 			]
+			dependency_requirement: "one_completed"
 			size: 1.4d
 			id: "1CF1A735F77415F2"
 			tasks: [{
@@ -88,8 +95,25 @@
 				{
 					id: "43494FF5AF13F11F"
 					type: "item"
-					item: "kubejs:lootbag_create_brass"
+					item: {
+						id: "kubejs:lootbag_create_brass"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 					count: 2
+				}
+				{
+					id: "68F6880D93469F19"
+					type: "item"
+					item: {
+						id: "kubejs:lootbag_create_radiant"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -120,7 +144,13 @@
 				{
 					id: "38E11DE211BBC778"
 					type: "item"
-					item: "kubejs:lootbag_create_brass"
+					item: {
+						id: "kubejs:lootbag_create_brass"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 					count: 2
 				}
 			]
@@ -148,7 +178,13 @@
 				{
 					id: "2D99E84E909D994A"
 					type: "item"
-					item: "kubejs:lootbag_create_brass"
+					item: {
+						id: "kubejs:lootbag_create_brass"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -251,7 +287,13 @@
 			rewards: [{
 				id: "2C94401543076216"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -283,7 +325,13 @@
 				{
 					id: "45FD59D3AF86C5C2"
 					type: "item"
-					item: "kubejs:lootbag_create_brass"
+					item: {
+						id: "kubejs:lootbag_create_brass"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -387,7 +435,13 @@
 			rewards: [{
 				id: "3B433DD548B15CBE"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -405,7 +459,13 @@
 				{
 					id: "2F24B670EBAB520F"
 					type: "item"
-					item: "kubejs:lootbag_create_andesite"
+					item: {
+						id: "kubejs:lootbag_create_andesite"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "1690D23D3EE16222"
@@ -446,7 +506,13 @@
 			rewards: [{
 				id: "078B6CD96D050783"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -493,7 +559,13 @@
 				{
 					id: "5A936E9835A2371F"
 					type: "item"
-					item: "kubejs:lootbag_create_brass"
+					item: {
+						id: "kubejs:lootbag_create_brass"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "71683E019FA5ED99"
@@ -531,7 +603,13 @@
 			rewards: [{
 				id: "0377837D0B554B56"
 				type: "item"
-				item: "kubejs:lootbag_create_brass"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -549,6 +627,7 @@
 		{
 			x: -1.5d
 			y: -3.0d
+			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
 			dependencies: [
 				"71204DE937D1B562"
 				"5FF85EC9DA06810F"
@@ -559,6 +638,17 @@
 				id: "04DC18B63F99A744"
 				type: "item"
 				item: "kubejs:redstone_cluster"
+			}]
+			rewards: [{
+				id: "41698F936DE4927F"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -585,11 +675,30 @@
 				type: "item"
 				item: "kubejs:integrational_mechanism"
 			}]
-			rewards: [{
-				id: "5B0B05FB1EB29EC3"
-				type: "item"
-				item: "kubejs:lootbag_arcane_3"
-			}]
+			rewards: [
+				{
+					id: "5B0B05FB1EB29EC3"
+					type: "item"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "548F6326A1A866C6"
+					type: "item"
+					item: {
+						id: "kubejs:lootbag_create_radiant"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -604,7 +713,13 @@
 			rewards: [{
 				id: "0F79ECDCDB2C1AFD"
 				type: "item"
-				item: "kubejs:lootbag_create_andesite"
+				item: {
+					id: "kubejs:lootbag_create_andesite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -672,6 +787,17 @@
 				type: "item"
 				item: "create:crushing_wheel"
 				count: 4L
+			}]
+			rewards: [{
+				id: "6D78CE82DC5FD3BF"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_create_brass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{

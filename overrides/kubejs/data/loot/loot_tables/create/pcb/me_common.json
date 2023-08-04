@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "ae2:item_cell_housing"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "ae2:fluid_cell_housing"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "ae2:basic_card"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "ae2:advanced_card"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "ae2:speed_card"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "ae2:void_card"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "ae2:redstone_card"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "ae2:formation_core"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "ae2:annihilation_core"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 8,
+                    "name": "create:mechanical_press"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 8,
+                    "name": "create:mechanical_mixer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:mechanical_drill"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "create:mechanical_saw"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 8,
+                    "name": "create:mechanical_harvester"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 8,
+                    "name": "create:encased_fan"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "create:deployer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "ars_creo:starbuncle_wheel"
+                }
+            ]
+        }
+    ]
+}

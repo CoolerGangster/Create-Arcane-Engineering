@@ -1,0 +1,71 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "thermal:device_nullifier"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "thermal:device_collector"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "thermal:machine_insulator"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "thermal:machine_smelter"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "pneumaticcraft:pressure_tube",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "pneumaticcraft:heat_pipe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "pneumaticcraft:thermal_lagging",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

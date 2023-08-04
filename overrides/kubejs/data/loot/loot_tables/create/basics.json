@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 6,
+                "max": 9
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "name": "loot:create/basic/create_food"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 12,
+                    "name": "loot:create/basic/create_junk"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 6,
+                    "name": "loot:create/basic/create_basics"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 4,
+                    "name": "loot:create/basic/advanced_basics"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 6,
+                    "name": "loot:create/basic/andesite_encased"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:create/basic/create_equip"
+                }
+            ]
+        }
+    ]
+}

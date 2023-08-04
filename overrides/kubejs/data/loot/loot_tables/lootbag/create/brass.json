@@ -1,0 +1,145 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": {
+                    "min": 1,
+                    "max": 2
+                },
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "loot:coin_or_task"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min":1, 
+                "max":3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "loot:create/basic/create_junk"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "loot:create/basics"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "loot:create/basic/create_food"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "loot:create/basics/andesite_encased"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": {
+                    "min": 5,
+                    "max": 7
+                }
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 6,
+                    "name": "loot:create/brass/resources"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 4,
+                    "name": "loot:create/brass/brass_mechansim"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "loot:create/brass/brass_common"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:create/brass/brass_rare"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:create/brass/train"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "loot:create/starbuncle"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 4,
+                    "name": "loot:create/radiant/resources"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "loot:create/radiant/radiant_mechanism"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:create/radiant/machines"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:create/brass/brass_common"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:create/andesite/andesite_rare"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "loot:coin_or_task"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "kubejs:lootbag_create_andesite"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 8,
+                "max": 11
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "name": "loot:create/basic/create_food"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:create/basic/create_junk"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 9,
+                    "name": "loot:create/basic/create_basics"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "name": "loot:create/basic/advanced_basics"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "name": "loot:create/basic/andesite_encased"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:create/basic/create_equip"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "loot:create/basic/create_basics"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 8,
+                    "name": "loot:create/basic/andesite_encased"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "loot:create/andesite/andesite_common"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "loot:create/andesite/andesite_rare"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "loot:create/brass/brass_common",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

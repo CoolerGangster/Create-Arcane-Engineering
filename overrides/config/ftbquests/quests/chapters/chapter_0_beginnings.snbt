@@ -37,7 +37,7 @@
 		{
 			title: "{chapter.0.quest.1.title}"
 			x: 1.5d
-			y: -0.5d
+			y: 0.5d
 			subtitle: "{chapter.0.quest.1.subtitle}"
 			id: "2F63FB9E8EAC18BD"
 			tasks: [{
@@ -66,7 +66,12 @@
 			y: -1.0d
 			shape: "diamond"
 			subtitle: "{chapter.0.quest.3.subtitle}"
-			description: ["{chapter.0.quest.3.description.1}"]
+			description: [
+				"{chapter.0.quest.3.description.1}"
+				""
+				"{chapter.0.quest.3.description.2}"
+				"{chapter.0.quest.3.description.3}"
+			]
 			optional: true
 			id: "3580485A369D2795"
 			tasks: [{
@@ -91,8 +96,8 @@
 		}
 		{
 			title: "{chapter.0.quest.4.title}"
-			x: -4.0d
-			y: 1.5d
+			x: -2.0d
+			y: 2.0d
 			dependencies: ["69C0AE6714182D7F"]
 			id: "6EC5AFB16BA0E63B"
 			tasks: [{
@@ -206,7 +211,9 @@
 			subtitle: "{chapter.0.quest.12.subtitle}"
 			description: [
 				"{chapter.0.quest.12.description.1}"
+				""
 				"{chapter.0.quest.12.description.2}"
+				""
 				"{chapter.0.quest.12.description.3}"
 			]
 			dependencies: ["10DADBB2E6B7B7B5"]
@@ -223,18 +230,25 @@
 			y: 1.5d
 			subtitle: "{chapter.0.quest.13.subtitle}."
 			description: [
-				"chapter.0.quest.13.description.1"
-				"chapter.0.quest.13.description.2"
-				"chapter.0.quest.13.description.3"
-				"chapter.0.quest.13.description.4"
-				"chapter.0.quest.13.description.5"
+				"{chapter.0.quest.13.description.1}"
+				""
+				"{chapter.0.quest.13.description.2}"
+				""
+				""
+				"{\"translate\":\"chapter.0.quest.13.description.3\",\"bold\":true}"
+				""
+				"[\"\",{\"text\":\"1. \",\"bold\":true,\"color\":\"dark_aqua\"},{\"translate\":\"chapter.0.quest.13.description.4\"}]"
+				""
+				"[\"\",{\"text\":\"2. \",\"bold\":true,\"color\":\"dark_aqua\"},{\"translate\":\"chapter.0.quest.13.description.5\"}]"
+				""
+				"[\"\",{\"text\":\"3. \",\"bold\":true,\"color\":\"dark_aqua\"},{\"translate\":\"chapter.0.quest.13.description.6\"}]"
 			]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "520425F3AFA5599F"
 			tasks: [{
 				id: "153B106F8A7C6DF8"
 				type: "checkmark"
-				title: "{chapter.0.quest.12.task.1.title}"
+				title: "{chapter.0.quest.13.task.1.title}"
 			}]
 			rewards: [{
 				id: "18FDA15F78E05D25"
@@ -249,6 +263,7 @@
 			subtitle: "{chapter.0.quest.14.subtitle}"
 			description: [
 				"{chapter.0.quest.14.description.1}"
+				""
 				"{chapter.0.quest.14.description.2}"
 			]
 			dependencies: ["10DADBB2E6B7B7B5"]
@@ -262,7 +277,7 @@
 		{
 			icon: "cae:skystone_catalyst"
 			x: 5.5d
-			y: -5.0d
+			y: 1.5d
 			subtitle: "{chapter.0.quest.15.subtitle}"
 			description: [
 				"{chapter.0.quest.15.description.1}"
@@ -292,7 +307,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 0.5d
 			y: -4.5d
 			subtitle: "{chapter.0.quest.17.subtitle}"
 			dependencies: ["4DCF01FE026F9FE5"]
@@ -329,7 +344,7 @@
 		{
 			icon: "minecraft:chorus_fruit"
 			x: 6.5d
-			y: 0.5d
+			y: 1.5d
 			subtitle: "{chapter.0.quest.20.subtitle}"
 			description: [
 				"{chapter.0.quest.20.description.1}"

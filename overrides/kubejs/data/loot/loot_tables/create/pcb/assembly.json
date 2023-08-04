@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pneumaticcraft:assembly_io_unit_import"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pneumaticcraft:assembly_io_unit_export"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pneumaticcraft:assembly_drill"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pneumaticcraft:assembly_laser"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pneumaticcraft:assembly_controller"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pneumaticcraft:assembly_platform"
+                }
+            ]
+        }
+    ]
+}
