@@ -595,7 +595,8 @@ onEvent('recipes', event => {
         ["createaddition:capacitor","createaddition:modular_accumulator"],
         ['createaddition:connector',"createaddition:portable_energy_interface"],
         ['create:rotation_speed_controller',"createaddition:electric_motor"],
-        ['thermal:silver_coin',Item.of('custommachinery:custom_machine_item', '{machine:"quests:quest_station"}')]
+        ['thermal:silver_coin',Item.of('custommachinery:custom_machine_item', '{machine:"quests:quest_station"}')],
+        ['#functionalstorage:drawer','functionalstorage:storage_controller']
         
     ];
     machine_smithing(brass_smithing, "kubejs:brass_machine",true)
