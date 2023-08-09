@@ -122,7 +122,7 @@
 			y: 1.5d
 			shape: "rsquare"
 			subtitle: "You even get extra corundum blocks to expand your production!"
-			dependencies: ["281CA0D5110C3959"]
+			dependencies: ["157719EAD74917EB"]
 			id: "4ADB32C087B9092C"
 			tasks: [{
 				id: "71790AA0B67F41EE"
@@ -181,28 +181,9 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: 0.0d
-			shape: "diamond"
-			dependencies: ["27B730C6CD9D0B95"]
-			id: "281CA0D5110C3959"
-			tasks: [{
-				id: "234B6421229C1CAD"
-				type: "item"
-				title: "Any #quark:corundum"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "quark:corundum"
-					}
-				}
-			}]
-		}
-		{
 			x: 16.5d
 			y: 1.5d
-			dependencies: ["281CA0D5110C3959"]
+			dependencies: ["157719EAD74917EB"]
 			id: "21523CBC75AFE12D"
 			tasks: [{
 				id: "168F4B7C0C57FC64"
@@ -434,6 +415,25 @@
 			y: 4.0d
 			dependencies: ["5FB305FE4095D986"]
 			id: "31F408FB942B0947"
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["27B730C6CD9D0B95"]
+			id: "157719EAD74917EB"
+			tasks: [{
+				id: "0BD993101EF9CB6A"
+				type: "item"
+				title: "Any #quark:corundum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:corundum"
+					}
+				}
+			}]
 		}
 	]
 	quest_links: [ ]
