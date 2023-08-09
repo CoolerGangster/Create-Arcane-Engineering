@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
+                    "weight": 5,
                     "name": "ars_nouveau:caster_tome",
                     "functions": [
                         {
@@ -16,7 +16,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
+                    "weight": 5,
                     "name": "ars_nouveau:caster_tome",
                     "functions": [
                         {
@@ -27,7 +27,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
+                    "weight": 5,
                     "name": "ars_nouveau:caster_tome",
                     "functions": [
                         {
@@ -38,17 +38,22 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 2,
-                    "name": "minecraft:enchanted_book",
+                    "weight": 10,
+                    "name": "minecraft:book",
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
-                                "min": 25,
+                                "min": 30,
                                 "max": 40
                             }
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book"
                 }
             ]
         }
