@@ -10,6 +10,9 @@ onEvent('recipes', event => {
         },
         "block_in": {
             "blocks": ["kubejs:source"],
+            "state": {
+                "level": 0
+            }
         },
         "post": [
             {

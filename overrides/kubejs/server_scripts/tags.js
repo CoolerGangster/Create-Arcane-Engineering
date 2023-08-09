@@ -28,6 +28,7 @@ onEvent('tags.items', event => {
     event.add('create:funkynuggets','create:zinc_nugget')
     event.add('create:kinetic_mechanisms','kubejs:makeshift_kinetic_mechanism')
     event.add('create:kinetic_mechanisms','kubejs:kinetic_mechanism')
+    event.add('davebuildingmod:skeleton', /^davebuildingmod:skeleton_/)
     
     const wrenchpickupables = 
     ["#thermal:", "", "", "", "", "", "", "", "", "",]

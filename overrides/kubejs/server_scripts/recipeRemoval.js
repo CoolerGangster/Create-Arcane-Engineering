@@ -66,6 +66,8 @@ onEvent('recipes', event => {
     event.remove({id: "pneumaticcraft:block_heat_properties/minecraft/magma"})
     event.remove({id: "epicsamurai:steel_ingot_from_blasting_iron_ingot"})
     event.remove({output: /integrateddynamics\:part.*porter_world/})
+    event.remove({output: /integratedtunnels\:part.*porter_world/})
+    event.remove({output: "integratedtunnels:part_player_simulator"})
     event.remove({output: "integrateddynamics:part_connector_omni_directional"})
     //event.remove({output: 'forbidden_arcanus:eternal_stella'})
 })   
