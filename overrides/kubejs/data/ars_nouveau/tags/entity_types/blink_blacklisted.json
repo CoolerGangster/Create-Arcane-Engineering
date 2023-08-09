@@ -9,8 +9,13 @@
         "minecraft:chest_minecart",
         "minecraft:furnace_minecart",
         "supplementaries:dispenser_minecart",
-        "goldenhopper:golden_hopper_minecart",
         "ars_nouveau:starbuncle",
-        "lootr:lootr_minecart"
+        "lootr:lootr_minecart",
+        "pneumaticcraft:drone",
+        "pneumaticcraft:amadrone",
+        "pneumaticcraft:logistics_drone",
+        "pneumaticcraft:collector_drone",
+        "pneumaticcraft:harvesting_drone",
+        "pneumaticcraft:guard_drone"
     ]
 }
