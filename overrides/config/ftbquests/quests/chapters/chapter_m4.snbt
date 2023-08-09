@@ -589,38 +589,18 @@
 			y: 5.0d
 			dependencies: ["51B16B49FDE64745"]
 			id: "1D13EA7170FD3C81"
-			tasks: [
-				{
-					id: "7106A635AB6781C6"
-					type: "item"
-					item: "davebuildingmod:skeleton_1"
+			tasks: [{
+				id: "7106A635AB6781C6"
+				type: "item"
+				title: "Any #davebuildingmod:skeleton"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "davebuildingmod:skeleton"
+					}
 				}
-				{
-					id: "65EABB18481B41B7"
-					type: "item"
-					item: "davebuildingmod:skeleton_2"
-				}
-				{
-					id: "6B4BBEB83374F1D0"
-					type: "item"
-					item: "davebuildingmod:skeleton_3"
-				}
-				{
-					id: "16892F5D4E2C1469"
-					type: "item"
-					item: "davebuildingmod:skeleton_5"
-				}
-				{
-					id: "6EB5E7D25A548DF0"
-					type: "item"
-					item: "davebuildingmod:skeleton_4"
-				}
-				{
-					id: "4908827078792E4B"
-					type: "item"
-					item: "davebuildingmod:skeleton_6"
-				}
-			]
+			}]
 		}
 		{
 			x: -3.5d
