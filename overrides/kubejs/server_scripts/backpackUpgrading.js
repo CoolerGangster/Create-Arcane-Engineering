@@ -42,6 +42,8 @@ onEvent("recipes", event =>{
     event.smithing("sophisticatedbackpacks:stack_upgrade_tier_2", "sophisticatedbackpacks:stack_upgrade_tier_1", "ars_nouveau:source_gem")
     event.smithing("sophisticatedbackpacks:stack_upgrade_tier_3", "sophisticatedbackpacks:stack_upgrade_tier_1", "forbidden_arcanus:aureal_bottle")
     event.smithing("sophisticatedbackpacks:stack_upgrade_tier_4", "sophisticatedbackpacks:stack_upgrade_tier_1", "forbidden_arcanus:orb_of_temporary_flight")
+    event.remove({id: "sophisticatedbackpacks:xp_pump_upgrade"})
+    event.smithing('sophisticatedbackpacks:xp_pump_upgrade', 'sophisticatedbackpacks:upgrade_base', 'thermal:xp_crystal')
     event.remove({output:/sophisticatedbackpacks\:.*_backpack/})
     
     event.shapeless("sophisticatedbackpacks:gold_backpack", ["sophisticatedbackpacks:backpack", "create:brass_sheet"]).modifyResult((inventory, itemstack) =>{

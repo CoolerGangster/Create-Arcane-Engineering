@@ -266,9 +266,12 @@
 			]
 			id: "13F4DF742237B0E5"
 			tasks: [{
-				id: "3141F124DE6B0677"
-				type: "item"
-				item: "cae:orb_spawn_egg"
+				id: "0A2267D6BF3CF9F7"
+				type: "observation"
+				icon: "cae:orb_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "cae:essentialorb"
 			}]
 		}
 		{
@@ -299,9 +302,12 @@
 			]
 			id: "4BCEB0647E3CD6D6"
 			tasks: [{
-				id: "6731D79342E22B38"
-				type: "item"
-				item: "cae:orb_spawn_egg"
+				id: "028F96A66845C0DB"
+				type: "observation"
+				icon: "cae:orb_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "cae:essentialorb"
 			}]
 		}
 		{

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cae:time_crystal",
+          "name": "minecraft:amethyst_cluster",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

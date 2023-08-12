@@ -6,6 +6,9 @@ onEvent('recipes', event => {
         },
         "block_in": {
             "blocks": ["minecraft:water"],
+            "state": {
+                "level": 0
+            }
         },
         "post": [
             {
@@ -30,6 +33,9 @@ onEvent('recipes', event => {
         },
         "block_in": {
             "blocks": ["minecraft:water"],
+            "state": {
+                "level": 0
+            }
         },
         "post": [
             {
@@ -54,6 +60,9 @@ onEvent('recipes', event => {
         },
         "block_in": {
             "blocks": ["kubejs:sulfuric_acid"],
+            "state": {
+                "level": 0
+            }
         },
         "post": [
             {
@@ -79,6 +88,9 @@ onEvent('recipes', event => {
         },
         "block_in": {
             "blocks": ["kubejs:dichromic_acid"],
+            "state": {
+                "level": 0
+            }
         },
         "post": [
             {

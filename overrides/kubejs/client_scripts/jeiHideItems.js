@@ -29,6 +29,13 @@ onEvent('jei.hide.items', event => {
     event.hide('thermal:bronze_coin')
     event.hide('integrateddynamics:logic_director')
     event.hide('functionalstorage:ender_drawer')
+    event.hide(/waystones\:.*sharestone/)
+    event.hide(/waystone\:.*scroll/)
+    event.hide("waystones:warp_plate")
+    event.hide(/integrateddynamics\:part.*porter_world/)
+    event.hide(/integratedtunnels\:part.*porter_world/)
+    event.hide("integratedtunnels:part_player_simulator")
+    event.hide("integrateddynamics:part_connector_omni_directional")
   })
   onEvent('jei.hide.fluids', event => {
     event.hide('tconstruct:liquid_redstone')

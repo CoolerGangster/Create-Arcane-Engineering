@@ -133,9 +133,6 @@ let dumbshitarray =  [
     "pneumaticcraft:assembly_platform",
     //"alloyedguns:complex_gun_kit",
     "thermal:dynamo_gourmand",
-    "integratedterminals:part_terminal_storage",
-    "integratedterminals:part_terminal_crafting_job",
-    "integrateddynamics:part_display_panel",
     "integrateddynamics:delay",
     "integrateddynamics:mechanical_drying_basin",
     "integrateddynamics:mechanical_squeezer",
@@ -144,12 +141,8 @@ let dumbshitarray =  [
     "integrateddynamics:energy_battery",
     "integrateddynamics:variablestore",
     "integratednbt:nbt_extractor",
-    "4x integrateddynamics:variable_transformer_output",
-    "4x integrateddynamics:variable_transformer_input",
-    "4x integrateddynamics:part_static_light_panel",
     "integrateddynamics:logic_programmer",
     "integrateddynamics:portable_logic_programmer",
-    "4x integrateddynamics:cable",
     "4x ae2:formation_core",
     "4x ae2:annihilation_core",
     "ae2:controller",
@@ -595,7 +588,8 @@ onEvent('recipes', event => {
         ["createaddition:capacitor","createaddition:modular_accumulator"],
         ['createaddition:connector',"createaddition:portable_energy_interface"],
         ['create:rotation_speed_controller',"createaddition:electric_motor"],
-        ['thermal:silver_coin',Item.of('custommachinery:custom_machine_item', '{machine:"quests:quest_station"}')]
+        ['thermal:silver_coin',Item.of('custommachinery:custom_machine_item', '{machine:"quests:quest_station"}')],
+        ['#functionalstorage:drawer','functionalstorage:storage_controller']
         
     ];
     machine_smithing(brass_smithing, "kubejs:brass_machine",true)
@@ -758,6 +752,7 @@ onEvent('recipes', event => {
     const radiant_cutting = [
         //Item.of('alloyedguns:complex_gun_kit')
     ]
+    event.replaceInput({id: "create:crafting/kinetics/elevator_pulley"},'minecraft:dried_kelp_block','thermal:cured_rubber_block')
     event.replaceInput({id: "create:crafting/kinetics/train_door"},"create:brass_sheet","create:sturdy_sheet")
     event.remove({id: "ars_creo:starbuncle_wheel"})
     event.shaped("ars_creo:starbuncle_wheel", ["XXX", "XWX", "XXX"], {X:"ars_nouveau:starbuncle_shards", W:"create:water_wheel"})
@@ -782,6 +777,7 @@ onEvent('recipes', event => {
     ]
     
     multicut(integrational_cutting,"kubejs:integrational_machine",true)
+
     event.replaceInput({id:'create:mechanical_crafting/wand_of_symmetry'},'minecraft:ender_pearl',"create:refined_radiance")
     
     event.replaceInput({id:'create:mechanical_crafting/wand_of_symmetry'},'create:precision_mechanism',"kubejs:radiant_mechanism")
