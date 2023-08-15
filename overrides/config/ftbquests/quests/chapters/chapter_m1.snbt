@@ -38,8 +38,7 @@
 		{
 			x: 12.5d
 			y: -1.0d
-			subtitle: "Automate Stone"
-			description: [""]
+			description: ["Automate Stone using a Cobblestone Generator."]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "545AED490B945C02"
@@ -86,6 +85,12 @@
 			x: 14.0d
 			y: 7.5d
 			shape: "gear"
+			description: [
+				"Deploy a Rune on a Smooth Stone Slab to make a Runic Tablet."
+				""
+				"Magic Chapters do not have Machines. The final items are used in Recipes directly. "
+				"Runic Tablets are used for Backpack Upgrades and Reliquary Mob drops."
+			]
 			dependencies: [
 				"1CA4D9878985E384"
 				"23FFB3EBDEE7FC2E"
@@ -121,7 +126,7 @@
 			x: 19.5d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "You even get extra corundum blocks to expand your production!"
+			description: ["The Blocks are just extra, but allow you to expand your farm if you ever need to."]
 			dependencies: ["157719EAD74917EB"]
 			id: "4ADB32C087B9092C"
 			tasks: [{
@@ -152,7 +157,13 @@
 			title: "Place a Spout Above a Corundum Block"
 			x: 18.0d
 			y: -1.0d
-			subtitle: "Fill the spout with water and you'll see it actually spouting onto the block below! Has to be below y20 for the Corundum to grow."
+			description: [
+				"Place a Spout above a Corundum block."
+				""
+				"Fill the spout with water and you'll see it actually spouting onto the block below! "
+				""
+				"Has to be below y20 for the Corundum to grow."
+			]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "27B730C6CD9D0B95"
@@ -183,6 +194,7 @@
 		{
 			x: 16.5d
 			y: 1.5d
+			description: ["Collect the Corundum Clusters"]
 			dependencies: ["157719EAD74917EB"]
 			id: "21523CBC75AFE12D"
 			tasks: [{
@@ -202,7 +214,7 @@
 			x: 16.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Mix the Corundum Clusters with Rune dust to make Violet Corundum Clusters"
+			description: ["Mix 3 Corundum Clusters with a Rune Dust to make 3 Violet Corundum Clusters"]
 			dependencies: [
 				"6321291501061632"
 				"21523CBC75AFE12D"
@@ -284,7 +296,7 @@
 			x: 16.5d
 			y: 5.0d
 			shape: "diamond"
-			subtitle: "Compress Violet Corundum Clusters and rune dust back into Runes"
+			description: ["Compress a Violet Corundum Cluster 3 Rune Dust back into a Rune. You will end up with 2 extra Violet Clusters."]
 			dependencies: [
 				"6321291501061632"
 				"17EF5048D1A08AFE"
@@ -342,7 +354,7 @@
 			x: 18.0d
 			y: 6.0d
 			shape: "diamond"
-			subtitle: "Crush the Runes into Rune Dust"
+			description: ["Crush the Runes into 4 Rune Dust"]
 			dependencies: ["23FFB3EBDEE7FC2E"]
 			id: "5FB305FE4095D986"
 			tasks: [{
@@ -399,7 +411,7 @@
 			icon: "forbidden_arcanus:runic_darkstone"
 			x: 19.5d
 			y: 7.0d
-			subtitle: "Obtain a Rune to get the Cycle started"
+			description: ["Obtain a Rune to get the Cycle started."]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			optional: true
@@ -420,6 +432,7 @@
 			x: 18.0d
 			y: 0.0d
 			shape: "diamond"
+			description: ["The Corundum Will grow an extra block with a cluster attached."]
 			dependencies: ["27B730C6CD9D0B95"]
 			id: "157719EAD74917EB"
 			tasks: [{

@@ -21,7 +21,7 @@
 			corner: false
 		}
 		{
-			x: 5.5d
+			x: 6.0d
 			y: 14.5d
 			width: 23.0d
 			height: 29.0d
@@ -36,7 +36,7 @@
 	quests: [
 		{
 			title: "Raw PCB Board"
-			x: 5.5d
+			x: 4.5d
 			y: 9.5d
 			dependencies: ["7EC64303FE143A81"]
 			id: "61320E1D8B5C92C9"
@@ -48,7 +48,7 @@
 		}
 		{
 			title: "Circuited PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 10.5d
 			dependencies: ["4591B97FD28E4CD3"]
 			id: "3E378474C22727E1"
@@ -66,7 +66,7 @@
 		}
 		{
 			title: "Treated PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 20.5d
 			dependencies: [
 				"77D54D48FAB23B17"
@@ -80,7 +80,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 4.5d
 			y: 25.0d
 			shape: "octagon"
 			subtitle: "You did it!!!"
@@ -114,7 +114,7 @@
 			]
 		}
 		{
-			x: 4.5d
+			x: 3.5d
 			y: 10.0d
 			dependencies: ["61320E1D8B5C92C9"]
 			id: "4591B97FD28E4CD3"
@@ -125,7 +125,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 3.5d
 			y: 11.0d
 			dependencies: [
 				"3E378474C22727E1"
@@ -140,7 +140,7 @@
 		}
 		{
 			title: "PCB Legend Printer"
-			x: 4.5d
+			x: 3.5d
 			y: 19.0d
 			dependencies: ["33EE3A37662B9544"]
 			id: "6A22FF7811CCB20C"
@@ -151,7 +151,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 5.5d
 			y: 7.5d
 			subtitle: "Why is a blueprint more expensive than the entire chapter?"
 			dependencies: [
@@ -187,7 +187,7 @@
 			]
 		}
 		{
-			x: 2.5d
+			x: 1.5d
 			y: 11.0d
 			dependencies: ["1C92D0E30D259104"]
 			id: "59596E3B3F71FDA2"
@@ -199,7 +199,7 @@
 		}
 		{
 			title: "Solder Mask"
-			x: 4.5d
+			x: 3.5d
 			y: 15.0d
 			subtitle: "Mix anthraquinone with green dye to create Green PCB Dye (no, you're not allowed more colors)"
 			description: [""]
@@ -215,7 +215,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 1.5d
 			y: 22.0d
 			dependencies: ["4F690F3748BBC3A8"]
 			id: "4A97ED1CE399C570"
@@ -227,7 +227,7 @@
 		}
 		{
 			title: "Electrical Tests"
-			x: 4.5d
+			x: 3.5d
 			y: 21.0d
 			dependencies: ["298CEF160DE9001A"]
 			hide: true
@@ -247,7 +247,7 @@
 		}
 		{
 			title: "Mystery PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 21.5d
 			dependencies: ["4A65497930CBBA31"]
 			id: "214604F81229B45A"
@@ -259,7 +259,7 @@
 		}
 		{
 			title: "Final to Insane machinery"
-			x: 5.5d
+			x: 4.5d
 			y: 5.0d
 			shape: "hexagon"
 			subtitle: "Your gate to becoming absolutely unstoppable... Good luck!"
@@ -275,7 +275,7 @@
 		}
 		{
 			title: "Wash the board"
-			x: 4.5d
+			x: 3.5d
 			y: 12.0d
 			dependencies: ["267E7A7B7BA179FA"]
 			id: "1EA72478B9C95D6F"
@@ -287,7 +287,7 @@
 		}
 		{
 			title: "Plastic Board"
-			x: 5.5d
+			x: 4.5d
 			y: 6.5d
 			shape: "rsquare"
 			dependencies: ["19232B8B77F86AF8"]
@@ -300,7 +300,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 6.5d
 			y: 6.5d
 			dependencies: [
 				"014E4EB185583182"
@@ -314,7 +314,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 6.5d
 			y: 8.5d
 			dependencies: [
 				"6918346C3A8402BB"
@@ -328,7 +328,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.0d
 			y: 7.5d
 			dependencies: [
 				"3F5D372F7552D3DC"
@@ -342,7 +342,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 11.0d
 			y: 7.5d
 			dependencies: [
 				"644EDAE9FDFEC63B"
@@ -357,7 +357,7 @@
 		}
 		{
 			title: "Dried PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 16.5d
 			dependencies: ["22FE7C36C4E5A0D9"]
 			id: "57AC7DE0EEE771C2"
@@ -380,7 +380,7 @@
 		}
 		{
 			title: "Centrifuge off Impurities"
-			x: 4.5d
+			x: 3.5d
 			y: 13.0d
 			dependencies: ["62E308A788ABBC30"]
 			id: "21669356755554C4"
@@ -391,7 +391,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.0d
 			y: 14.0d
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -403,7 +403,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.0d
 			y: 16.0d
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -415,10 +415,23 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.0d
 			y: 15.0d
-			subtitle: "There are a few ways to get Lime Dye. Corundum and Cactus are the most common ones."
-			dependencies: ["13D5724A77F71BE7"]
+			subtitle: "Various Options"
+			description: [
+				"There are a few ways to get Green Dye. "
+				""
+				"Some of them are:"
+				" - Green Corundum"
+				" - Moss"
+				" - Cactus"
+			]
+			dependencies: [
+				"13D5724A77F71BE7"
+				"468D68720E0E5CF1"
+				"0EFA51A5AF8428DF"
+			]
+			dependency_requirement: "one_completed"
 			id: "079818C1C5FD02A1"
 			tasks: [{
 				id: "3516E26EB5B04552"
@@ -428,7 +441,7 @@
 		}
 		{
 			title: "Dry the PCB"
-			x: 4.5d
+			x: 3.5d
 			y: 16.0d
 			dependencies: ["460EAFA39878746B"]
 			id: "22FE7C36C4E5A0D9"
@@ -439,7 +452,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 2.5d
 			y: 11.0d
 			subtitle: "Etching Acid is consumed very slowly. You may be okay simply refilling it manually."
 			dependencies: ["19232B8B77F86AF8"]
@@ -463,7 +476,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 2.5d
 			y: 8.0d
 			subtitle: "Copper from Copper Veins"
 			dependencies: ["19232B8B77F86AF8"]
@@ -476,7 +489,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 3.5d
 			y: 9.0d
 			dependencies: ["04182361139C66EC"]
 			id: "7EC64303FE143A81"
@@ -488,7 +501,7 @@
 		}
 		{
 			title: "Washed PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 12.5d
 			dependencies: ["1EA72478B9C95D6F"]
 			id: "62E308A788ABBC30"
@@ -500,7 +513,7 @@
 		}
 		{
 			title: "Etched PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 11.5d
 			dependencies: ["1C92D0E30D259104"]
 			id: "267E7A7B7BA179FA"
@@ -523,7 +536,7 @@
 		}
 		{
 			title: "Chromatic Waste"
-			x: 2.5d
+			x: 1.5d
 			y: 13.0d
 			dependencies: ["21669356755554C4"]
 			hide: false
@@ -536,7 +549,7 @@
 		}
 		{
 			title: "Cleaned PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 13.5d
 			dependencies: ["21669356755554C4"]
 			id: "0631B96ACBB1D530"
@@ -558,7 +571,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 5.5d
 			y: 14.5d
 			subtitle: "Another one."
 			hide_dependency_lines: false
@@ -572,7 +585,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 5.5d
 			y: 17.5d
 			subtitle: "And another one. (DJ KHALED)"
 			dependencies: ["72758D7CA23C80A7"]
@@ -585,7 +598,7 @@
 		}
 		{
 			title: "Legended PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 19.5d
 			dependencies: ["6A22FF7811CCB20C"]
 			id: "5321394A9E72C586"
@@ -607,7 +620,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 8.0d
 			y: 17.0d
 			subtitle: "Living life in the fast lane"
 			dependencies: ["3F5D372F7552D3DC"]
@@ -620,7 +633,7 @@
 		}
 		{
 			title: "Wash it"
-			x: 4.5d
+			x: 3.5d
 			y: 23.0d
 			dependencies: ["7FE09E8E7313C5AE"]
 			id: "0AF9D6E9290BB43B"
@@ -632,7 +645,7 @@
 		}
 		{
 			title: "Washed PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 23.5d
 			dependencies: ["0AF9D6E9290BB43B"]
 			id: "24013103D8F4E370"
@@ -654,7 +667,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 8.5d
 			y: 6.5d
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -666,7 +679,7 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 9.0d
 			y: 7.5d
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -678,7 +691,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 8.5d
 			y: 8.5d
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -690,7 +703,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 8.0d
 			y: 7.5d
 			subtitle: "From Gold Veins, or Ochrum Geodes"
 			dependencies: ["19232B8B77F86AF8"]
@@ -703,7 +716,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.5d
 			y: 6.5d
 			subtitle: "The Quartz Cycle"
 			dependencies: ["19232B8B77F86AF8"]
@@ -716,7 +729,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.5d
 			y: 8.5d
 			subtitle: "From Diamond Veins"
 			dependencies: ["19232B8B77F86AF8"]
@@ -729,12 +742,13 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 15.0d
+			x: -1.5d
+			y: 16.0d
 			dependencies: [
 				"3CAAC777363740AD"
 				"39E17CE31F4A0980"
 			]
+			dependency_requirement: "one_completed"
 			id: "13D5724A77F71BE7"
 			tasks: [{
 				id: "220269AF0D3DD01F"
@@ -744,7 +758,7 @@
 		}
 		{
 			title: "PCB Legend Assembly Package"
-			x: 5.5d
+			x: 4.5d
 			y: 18.5d
 			dependencies: [
 				"0F6E4018EA415C55"
@@ -770,7 +784,7 @@
 		}
 		{
 			title: "Finally. Let it Dry."
-			x: 4.5d
+			x: 3.5d
 			y: 24.0d
 			dependencies: ["24013103D8F4E370"]
 			id: "32F372774EA354A2"
@@ -789,7 +803,7 @@
 		}
 		{
 			title: "Masked PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 15.5d
 			dependencies: [
 				"5888CBAEB9FC7313"
@@ -803,7 +817,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 4.5d
 			y: 8.5d
 			subtitle: "Reusing textures is great and absolutely not confusing! \\n(please don't blame me for being lazy)"
 			dependencies: [
@@ -831,7 +845,7 @@
 		}
 		{
 			title: "Masking Fluid"
-			x: 2.0d
+			x: 1.0d
 			y: 15.0d
 			dependencies: [
 				"69F58959BAD33533"
@@ -857,7 +871,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 11.0d
 			y: 6.5d
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -871,21 +885,37 @@
 		{
 			x: 13.0d
 			y: 7.5d
+			subtitle: "Oh, the possibilities..."
+			description: [
+				"You have various options to automate light blue dye:"
+				""
+				" - Automating Blue Orchids through a Phytogenic Insolator"
+				""
+				" - Automating White and Blue dye"
+				"     - White Dye through bonemeal or Corundum"
+				"     - Blue Dye through Corundum"
+			]
 			dependencies: [
 				"59F2D667F62DD570"
 				"0B0FDA0B9A92D18B"
+				"201A17E582F213BD"
 			]
+			dependency_requirement: "one_completed"
 			id: "54969E6B9D9A442E"
 			tasks: [{
-				id: "44320F38E4781311"
+				id: "2C22CCA1B7343975"
 				type: "item"
 				item: "minecraft:light_blue_dye"
 			}]
 		}
 		{
 			x: 13.0d
-			y: 15.0d
-			dependencies: ["3CAAC777363740AD"]
+			y: 10.5d
+			dependencies: [
+				"36BB722849B8DDBF"
+				"1E0D5B60F9CDCD78"
+			]
+			dependency_requirement: "one_completed"
 			id: "2EF545698E32718D"
 			tasks: [{
 				id: "341E9E105F6C8B0A"
@@ -894,9 +924,13 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 15.0d
-			dependencies: ["3CAAC777363740AD"]
+			x: 14.0d
+			y: 10.5d
+			dependencies: [
+				"36BB722849B8DDBF"
+				"1E0D5B60F9CDCD78"
+			]
+			dependency_requirement: "one_completed"
 			id: "04A746773A9039FE"
 			tasks: [{
 				id: "532CDBC197906866"
@@ -905,9 +939,13 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 9.5d
-			dependencies: ["04A746773A9039FE"]
+			x: 14.0d
+			y: 7.5d
+			dependencies: [
+				"04A746773A9039FE"
+				"2E4724E4086B4621"
+			]
+			dependency_requirement: "one_completed"
 			id: "0B0FDA0B9A92D18B"
 			tasks: [{
 				id: "6D1B3E8486C9C29B"
@@ -927,21 +965,29 @@
 			}]
 		}
 		{
-			title: "Corundum Generator"
-			x: -1.5d
-			y: 15.0d
+			title: "Option 3.2: Corundum - Spoutomation"
+			x: -2.5d
+			y: 17.0d
+			description: ["Same as Chapter M1"]
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "3CAAC777363740AD"
 			tasks: [{
 				id: "0994938965FF8DBE"
 				type: "item"
-				item: "quark:violet_corundum"
+				title: "Any #quark:corundum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:corundum"
+					}
+				}
 			}]
 		}
 		{
 			title: "PCB Unboxing (no way guys!!!)"
-			x: 4.5d
+			x: 3.5d
 			y: 22.0d
 			dependencies: [
 				"214604F81229B45A"
@@ -956,7 +1002,7 @@
 		}
 		{
 			title: "Succesfully Tested PCB"
-			x: 5.5d
+			x: 4.5d
 			y: 22.5d
 			dependencies: ["4F690F3748BBC3A8"]
 			id: "7FE09E8E7313C5AE"
@@ -968,7 +1014,7 @@
 		}
 		{
 			title: "Sandpaper"
-			x: 12.0d
+			x: 11.0d
 			y: 22.0d
 			dependencies: ["644EDAE9FDFEC63B"]
 			id: "27E2BC88C8E22134"
@@ -987,7 +1033,7 @@
 		}
 		{
 			title: "Dried PCB Stack"
-			x: 5.5d
+			x: 4.5d
 			y: 17.5d
 			dependencies: ["30C79FCF9E7B348E"]
 			id: "2D4296C461899BB5"
@@ -999,7 +1045,7 @@
 		}
 		{
 			title: "Stack the boards once again."
-			x: 4.5d
+			x: 3.5d
 			y: 17.0d
 			dependencies: ["57AC7DE0EEE771C2"]
 			id: "30C79FCF9E7B348E"
@@ -1011,7 +1057,7 @@
 		}
 		{
 			title: "Cleaned PCB Stack"
-			x: 5.5d
+			x: 4.5d
 			y: 14.5d
 			dependencies: ["175A4432692BFC67"]
 			id: "45C995E22C27692A"
@@ -1023,7 +1069,7 @@
 		}
 		{
 			title: "Stack the boards."
-			x: 4.5d
+			x: 3.5d
 			y: 14.0d
 			dependencies: ["0631B96ACBB1D530"]
 			id: "175A4432692BFC67"
@@ -1034,9 +1080,10 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 14.0d
-			subtitle: "Crystal Growing Based Corundum Duping"
+			title: "Option 3.1 Corundum - Crystallizer"
+			x: -2.5d
+			y: 16.0d
+			description: ["The Crystallizer can dupe any Corundum Cluster."]
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "39E17CE31F4A0980"
@@ -1047,7 +1094,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: 20.0d
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -1060,7 +1107,7 @@
 		}
 		{
 			title: "Apply ENIG Surface Treatment"
-			x: 4.5d
+			x: 3.5d
 			y: 20.0d
 			dependencies: [
 				"5321394A9E72C586"
@@ -1075,7 +1122,7 @@
 		}
 		{
 			title: "Drilling Machines: Your goto friend for this lovely chapter."
-			x: 5.5d
+			x: 4.5d
 			y: 4.0d
 			shape: "diamond"
 			subtitle: "How am I gonna get all of those Materials renewably? You might ask, well fear not. The Drilling Machine is Here! Create a vast network of Trains to unify into your Factory."
@@ -1106,6 +1153,98 @@
 					item: "createoreexcavation:netherite_drill"
 				}
 			]
+		}
+		{
+			title: "Option 2: Moss"
+			x: -2.0d
+			y: 15.0d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "0EFA51A5AF8428DF"
+			tasks: [{
+				id: "7D167CA0860E4AB8"
+				type: "item"
+				item: "immersive_weathering:moss_clump"
+			}]
+		}
+		{
+			title: "Option 1: Cactus"
+			x: -1.5d
+			y: 14.0d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "468D68720E0E5CF1"
+			tasks: [{
+				id: "1D37CD38EC4B7A7A"
+				type: "item"
+				item: "minecraft:cactus"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 11.5d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "1E0D5B60F9CDCD78"
+			tasks: [{
+				id: "2C2CC5CD30B9A640"
+				type: "item"
+				title: "Any #quark:corundum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:corundum"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 11.5d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "36BB722849B8DDBF"
+			tasks: [{
+				id: "2B0D49FC7159F47C"
+				type: "item"
+				item: "thermal:machine_crystallizer"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.5d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "2E4724E4086B4621"
+			tasks: [{
+				id: "3E99D6FF1A1EC99C"
+				type: "item"
+				item: "minecraft:bone_meal"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 6.5d
+			dependencies: ["363579746995CF55"]
+			id: "201A17E582F213BD"
+			tasks: [{
+				id: "2269A723B6187DC3"
+				type: "item"
+				item: "minecraft:blue_orchid"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.5d
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "363579746995CF55"
+			tasks: [{
+				id: "64C2845B921903DE"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
 		}
 	]
 	quest_links: [ ]

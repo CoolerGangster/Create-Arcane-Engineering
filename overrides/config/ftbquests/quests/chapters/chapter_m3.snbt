@@ -37,11 +37,12 @@
 		{
 			x: -1.5d
 			y: -4.0d
-			subtitle: "Haunt Blackstone, Polish it, and apply arcane gold ingots."
+			description: ["Haunt Blackstone, Polish it, and add in a arcane gold ingot."]
 			dependencies: [
 				"45F57414659E044E"
 				"15C83F2E7CA1E295"
 			]
+			dependency_requirement: "one_completed"
 			id: "6D2C48974003D539"
 			tasks: [{
 				id: "10EF2DD09190A293"
@@ -52,11 +53,12 @@
 		{
 			x: -3.0d
 			y: -2.5d
-			subtitle: "A powerful catalyst known to occasionally corrupt people's sanity."
+			description: ["A powerful catalyst known to occasionally corrupt people's sanity."]
 			dependencies: [
 				"3E7D072F1C7A0B14"
 				"191EE221A8EEE8F3"
 			]
+			dependency_requirement: "one_completed"
 			id: "69F021C402A96487"
 			tasks: [{
 				id: "5433E57FB83C0EA4"
@@ -79,8 +81,11 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			subtitle: "You need about 18 Dust Specs to be processed back into Arcane Crystal Blocks, where the rest needs to go into the Dust Processing to fully Sustain a Arcane Obilisk Cycle"
-			dependencies: ["09E4D27B89F783CF"]
+			description: [
+				"You need about 18 Dust Specs to be processed back into Arcane Crystals for Crystal Blocks, "
+				"the rest needs to be turned into the Dust for further processing to fully sustain a Arcane Obelisk Cycle"
+			]
+			dependencies: ["6184C8A1D38C1DBF"]
 			dependency_requirement: "one_completed"
 			id: "19EAE1780E1BAB55"
 			tasks: [{
@@ -92,7 +97,7 @@
 		{
 			x: -3.0d
 			y: -1.0d
-			subtitle: "Combine Arcane Crystal dust specs into Arcane Crystal Dusts"
+			description: ["Combine 9 Arcane Crystal Dust Specs into Arcane Crystal Dust"]
 			dependencies: ["19EAE1780E1BAB55"]
 			id: "3E7D072F1C7A0B14"
 			tasks: [{
@@ -110,12 +115,12 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Spout and press Aureal Essence onto Arcane Crystal Dust to form precious Arcane Crystals."
+			description: ["Spout and press Aureal Essence onto Arcane Crystal Dust to form precious Arcane Crystals."]
 			dependencies: [
 				"19EAE1780E1BAB55"
 				"718F45CF4E3C8A7E"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			id: "7E9E78A1997AB84E"
 			tasks: [{
 				id: "0157D83C3C2D0FB6"
@@ -127,7 +132,12 @@
 			x: -1.5d
 			y: -2.5d
 			shape: "diamond"
-			dependencies: ["10190AA2A7C13277"]
+			description: ["Assemble a Crystal Obelisk, break it and Crush it into Crystal Dust Specs."]
+			dependencies: [
+				"69F021C402A96487"
+				"6D2C48974003D539"
+				"6736E5C9F772788F"
+			]
 			hide: true
 			dependency_requirement: "one_completed"
 			id: "09E4D27B89F783CF"
@@ -159,7 +169,8 @@
 			title: "The Arcane Crystal Obelisk Cycle"
 			x: -1.5d
 			y: -2.5d
-			dependencies: ["69F021C402A96487"]
+			description: ["Assemble a Crystal Obelisk, break it and Crush it into Crystal Dust Specs."]
+			dependencies: ["13DB66C24AD6C498"]
 			dependency_requirement: "all_started"
 			id: "6184C8A1D38C1DBF"
 			tasks: [{
@@ -189,6 +200,7 @@
 		{
 			x: -1.5d
 			y: -5.5d
+			description: ["Haunt the cobblestone into Blackstone using an Encased Fan"]
 			dependencies: ["71A1D228DFD9F180"]
 			id: "45F57414659E044E"
 			tasks: [{
@@ -200,7 +212,8 @@
 		{
 			x: -9.5d
 			y: -5.5d
-			dependencies: ["43DDE8F2EDA941A9"]
+			description: ["Build (yet another) Cobblestone Generator"]
+			dependencies: ["13DB66C24AD6C498"]
 			hide: true
 			id: "71A1D228DFD9F180"
 			tasks: [{
@@ -212,8 +225,11 @@
 		{
 			x: -4.5d
 			y: 0.5d
-			subtitle: "By deploying Arcane Dust onto a Dark Soul, one shall obtain a Corrupted Pixie"
-			dependencies: ["343F18E9136A3324"]
+			description: ["By deploying Arcane Dust onto a Dark Soul, one shall obtain a Corrupted Pixie"]
+			dependencies: [
+				"343F18E9136A3324"
+				"3E7D072F1C7A0B14"
+			]
 			dependency_requirement: "one_completed"
 			id: "3D65558184A6EA1E"
 			tasks: [{
@@ -225,11 +241,12 @@
 		{
 			x: -3.0d
 			y: -4.0d
+			description: ["Mix gold ingots and Mundabitur Dust"]
 			dependencies: [
 				"69F021C402A96487"
 				"66B319ACF0228A32"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			id: "15C83F2E7CA1E295"
 			tasks: [{
 				id: "1C2F1C7044648551"
@@ -246,7 +263,10 @@
 		{
 			x: -6.0d
 			y: -1.5d
-			subtitle: "By right clicking or using a Deployer on Soul Sand Block with a Soul Extractor, the sand will be relieved of its soul, returning it into its Soulless state"
+			description: [
+				"Right click Soul Sand with a Soul Extractor to relieve it of its soul. "
+				"The Sand will return to its Soulless state."
+			]
 			dependencies: [
 				"7D833DBB735C2FEC"
 				"76D6D1770639319E"
@@ -261,12 +281,9 @@
 		{
 			x: -5.0d
 			y: -1.0d
-			subtitle: "Simply Haunt a Soul"
-			dependencies: [
-				"3E7D072F1C7A0B14"
-				"57AFEA6EFF00F4FB"
-			]
-			dependency_requirement: "all_started"
+			description: ["Simply Haunt a Soul"]
+			dependencies: ["57AFEA6EFF00F4FB"]
+			dependency_requirement: "one_completed"
 			id: "343F18E9136A3324"
 			tasks: [{
 				id: "073EC6F658A38696"
@@ -278,7 +295,7 @@
 			title: "Corrupted Pixie Jar"
 			x: -3.0d
 			y: 1.0d
-			subtitle: "Rightclick with a corrupted pixie onto a Utrem Jar. Also works with deployers."
+			description: ["Rightclick with a corrupted pixie onto a Utrem Jar. Also works with deployers."]
 			dependencies: ["3D65558184A6EA1E"]
 			id: "3F0798A77108E733"
 			tasks: [{
@@ -291,7 +308,7 @@
 			title: "Pixie Jar"
 			x: -1.5d
 			y: 1.0d
-			subtitle: "Washing a Corrupted Pixie Jar will purify it, leaving behind a jar with a normal pixie."
+			description: ["Washing a Corrupted Pixie Jar will purify it, leaving behind a jar with a normal pixie."]
 			dependencies: ["3F0798A77108E733"]
 			id: "7614A2AE1D024BF4"
 			tasks: [{
@@ -304,8 +321,9 @@
 			title: "Get a Wraith"
 			x: -8.0d
 			y: -2.0d
-			subtitle: "*you should probably get more than just one* (and you should nametag your wraiths)"
-			dependencies: ["43DDE8F2EDA941A9"]
+			subtitle: "*you should probably get more than just one*"
+			description: ["Make sure to nametag your wraiths so they don't despawn"]
+			dependencies: ["13DB66C24AD6C498"]
 			hide: true
 			id: "79B2BD8F7999E19F"
 			tasks: [{
@@ -327,7 +345,13 @@
 		{
 			x: -7.0d
 			y: -0.5d
-			subtitle: "A Wraith standing on Soulless Sand will convert the block into Soul Sand (the wraith is unaffected)"
+			description: [
+				"The Soul(sand) Cycle"
+				""
+				"A Wraith standing on Soulless Sand will convert it into Soulsand."
+				""
+				"Using a Soul Extractor on Soulsand will turn it into Soulless Sand and spawn in a Soul item"
+			]
 			dependencies: [
 				"7FC6F7E88224DA53"
 				"79B2BD8F7999E19F"
@@ -373,11 +397,9 @@
 		{
 			x: -6.0d
 			y: 0.5d
-			dependencies: ["3A10D0D5E8548C54"]
+			dependencies: ["13DB66C24AD6C498"]
 			hide: true
 			dependency_requirement: "one_completed"
-			optional: true
-			can_repeat: true
 			id: "76D6D1770639319E"
 			tasks: [{
 				id: "09A2515627FDCD8D"
@@ -394,7 +416,7 @@
 		{
 			x: -7.0d
 			y: -4.0d
-			subtitle: "Bulk Wash Soulsand for GOLD!"
+			description: ["Wash Soulsand for Gold!"]
 			dependencies: ["7D833DBB735C2FEC"]
 			id: "66B319ACF0228A32"
 			tasks: [{
@@ -417,7 +439,11 @@
 		{
 			x: -4.5d
 			y: -2.5d
-			dependencies: ["60F4CA04E216B7C3"]
+			description: ["Spout Liquid Resent on a Soul to get a Soul Bead"]
+			dependencies: [
+				"60F4CA04E216B7C3"
+				"57AFEA6EFF00F4FB"
+			]
 			dependency_requirement: "all_started"
 			id: "191EE221A8EEE8F3"
 			tasks: [{
@@ -429,6 +455,10 @@
 		{
 			x: -6.0d
 			y: -3.0d
+			description: [
+				"Melt a Wraith in a Smeltery to get Liquid Resent."
+				"Doing so will not damage the Wraith."
+			]
 			dependencies: ["79B2BD8F7999E19F"]
 			id: "60F4CA04E216B7C3"
 			tasks: [{
@@ -440,7 +470,7 @@
 		{
 			x: 0.0d
 			y: 1.0d
-			subtitle: "By Draining a Pure Pixie Jar, you will obtain Aureal Essence"
+			description: ["By Draining a Pure Pixie Jar, you will obtain Aureal Essence"]
 			dependencies: [
 				"783A2252E79DF746"
 				"7614A2AE1D024BF4"
@@ -500,7 +530,7 @@
 			y: -6.5d
 			shape: "square"
 			subtitle: "Have a drink to calm down."
-			dependencies: ["3A10D0D5E8548C54"]
+			dependencies: ["13DB66C24AD6C498"]
 			hide: true
 			id: "2082FF7C812BF843"
 			tasks: [{
@@ -518,7 +548,6 @@
 		{
 			x: 2.8d
 			y: 0.0d
-			subtitle: "Cool placeholder item"
 			dependencies: [
 				"718F45CF4E3C8A7E"
 				"7E9E78A1997AB84E"
@@ -546,15 +575,6 @@
 				}
 				count: 6
 			}]
-		}
-		{
-			x: -1.5d
-			y: -2.5d
-			dependencies: [
-				"6D2C48974003D539"
-				"6736E5C9F772788F"
-			]
-			id: "066CA4A66DD316F3"
 		}
 	]
 	quest_links: [ ]

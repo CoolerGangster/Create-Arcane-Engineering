@@ -39,7 +39,6 @@
 			x: -1.5d
 			y: -9.0d
 			shape: "octagon"
-			subtitle: "Short tip, you can speedrun the majority of this chapter just by crafting rose quartz with quartz and redstone dust obtained from the world."
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			size: 1.5d
@@ -191,7 +190,13 @@
 		{
 			x: -0.5d
 			y: 8.0d
-			subtitle: "Either make a lava farm. Or harvest it from the nether. Either way, this means get a way of infinite lava! I suggest heading to the Nether and using hose pulleys!"
+			description: [
+				"Automate Lava."
+				""
+				"Options are:"
+				" - A dripstone/cauldron based farm"
+				" - Using a Hose Pulley to take lava from a reservoir that holds more than 10k source blocks. You can find many pools of that size in the Nether."
+			]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "53F4A32746B719F2"
@@ -273,7 +278,7 @@
 			title: "[optional] Variable Card"
 			x: -3.0d
 			y: 4.0d
-			subtitle: "As per usual, you can make your factory 2x as efficient by adding a simple extra step!"
+			description: ["As per usual, you can make your factory 2x as efficient by adding a simple extra step!"]
 			dependencies: [
 				"5D36117177BCD37F"
 				"3E09633CF4F786AE"
@@ -336,12 +341,21 @@
 			]
 		}
 		{
-			title: "Skystone Tip"
+			title: "Skystone T(r)ip"
 			icon: "railways:track_birch"
 			x: -1.5d
 			y: -6.5d
-			subtitle: "Meteorites can be shockingly far away from where your base is situated. Welcome to this pack, locational recources like these are a reoccuring theme. Now you either have the choice to Make a factory on the Skystone Catalyst, or make a rail line delivering the skystone to you, the choice is yours. Either way, youll need a rail line connecting the factories."
-			description: ["2nd Tip: If you rightclick the skystone catalyst with a wooden axe it will moove 10 blocks up in the air, this is so if your meteorite is in the ocean you can moove the catalyst out so you dont have to clear an entire ocean or mine out a cave..."]
+			description: [
+				"Meteorites can be shockingly far away from where your base is located."
+				""
+				"Welcome to this pack, where locational recources like these will be a reoccuring theme. "
+				"You have the choice to either build a factory around the Skystone Catalyst and only ship the finished products, "
+				"or create a rail line delivering the skystone to you. "
+				"The choice is yours, but you'll need a rail line connecting the factories either way."
+				""
+				"And another tip: Rightclicking the Skystone Catalyst with a Wooden Axe will move it 10 blocks upwards. "
+				"This feature was implemented to let you move your Catalyst away in case your meteorite spawned in the ocean or underground so you dont have to spend an eternity clearing out the area before building your factory."
+			]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "323AEEF2915E79D2"
@@ -374,7 +388,10 @@
 			x: -1.5d
 			y: 6.0d
 			shape: "octagon"
-			subtitle: "You can Crush or Mill obsidian for Powdered Obsidian at a chance of getting 2 each time. You can reprocess 1 of the dusts using smelting back into Obsidian and use it again for crushing!"
+			description: [
+				"You can Crush or Mill obsidian for Powdered Obsidian at a chance of getting 2 each time. "
+				"Smelting the dusts will turn them back into Obsidian for you to crush again!"
+			]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "1377A2D928C6A05A"
@@ -396,7 +413,7 @@
 			}]
 		}
 		{
-			title: "Smelt down Obsidian Dust for Obsidian!"
+			title: "Smelt Obsidian Dust for Obsidian!"
 			x: -2.0d
 			y: 7.0d
 			dependencies: ["25EE3A139473ED49"]
@@ -422,6 +439,7 @@
 		{
 			x: -2.5d
 			y: -4.5d
+			description: ["You can mix Skystone Dust with Water to obtain Volatile Sky Solution."]
 			dependencies: [
 				"626B12C1D9AEC171"
 				"3513058D64801DAF"
@@ -448,6 +466,7 @@
 			x: -1.5d
 			y: -1.5d
 			shape: "diamond"
+			description: ["Smelt Redstone Clusters to obtain Redstone Dust."]
 			dependencies: ["71204DE937D1B562"]
 			id: "189DB93AC1830737"
 			tasks: [{
@@ -477,6 +496,7 @@
 		{
 			x: -2.5d
 			y: -3.0d
+			description: ["Obtained by milling or crushing Gravel."]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "68704916A38C450C"
@@ -491,14 +511,21 @@
 			x: -1.5d
 			y: -7.5d
 			shape: "square"
-			subtitle: "An Alien block, only found within Meteorites. Not much is known about this artifact, but what we have figured out, is that it is responsible for Transmuting everything up to 7 Blocks Away from it, when interacted with redstone dust, replacing it with Skystone, is this a form of alien allergy? Perhaps this is exploitable for infinite Skystone."
+			subtitle: "An Alien block, only found within Meteorites. "
+			description: [
+				"Not much is known about this relic, "
+				"but it appears to turn both blocks and air up to 11 Blocks away from it into Skystone whenever someone interacts with it while holding redstone dust. "
+				""
+				"Is this a form of alien allergy? "
+				"Perhaps it might be exploitable for infinite Skystone."
+			]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "5D9D3025CB2DEEA4"
 			tasks: [{
 				id: "79A64C87821EFB2A"
 				type: "observation"
-				icon: "kubejs:skystone_catalyst"
+				icon: "cae:skystone_catalyst"
 				timer: 0L
 				observe_type: 0
 				to_observe: "cae:skystone_catalyst"
@@ -518,6 +545,7 @@
 		{
 			x: -1.5d
 			y: -5.5d
+			description: ["Crushing Skystone results in Skystone Dust."]
 			dependencies: ["5D9D3025CB2DEEA4"]
 			id: "626B12C1D9AEC171"
 			tasks: [{
@@ -530,6 +558,7 @@
 			x: -1.5d
 			y: 0.0d
 			shape: "pentagon"
+			description: ["Rose Quartz can be crushed back into Redstone Seeds."]
 			dependencies: [
 				"0E1C18F07009AA94"
 				"189DB93AC1830737"
@@ -578,6 +607,14 @@
 		{
 			x: 1.0d
 			y: -3.0d
+			description: [
+				"Find a way to automate Iron."
+				""
+				"Options are:"
+				" - Washing Gravel"
+				" - Automating a Crimsite Catalyst"
+				" - or a Villager based Iron Farm."
+			]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "15AB5DED45C5B6E4"
@@ -590,6 +627,7 @@
 		{
 			x: 1.0d
 			y: -1.5d
+			description: ["Use Either a Seared Melter or a full Smeltery to melt the Iron and Redstone."]
 			dependencies: [
 				"15AB5DED45C5B6E4"
 				"189DB93AC1830737"
@@ -615,6 +653,7 @@
 		{
 			x: -1.5d
 			y: -4.5d
+			description: ["Obtained by Crushing Rose Quartz."]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "71204DE937D1B562"
@@ -627,7 +666,7 @@
 		{
 			x: -1.5d
 			y: -3.0d
-			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
+			description: ["The Sequenced Assembly will always return Redstone Seeds as salvage."]
 			dependencies: [
 				"71204DE937D1B562"
 				"5FF85EC9DA06810F"
@@ -668,6 +707,7 @@
 			x: -3.5d
 			y: 10.0d
 			shape: "square"
+			description: ["Gives access to Integrated Dynamics, a Mod similar to ComputerCraft in its capabilities."]
 			dependencies: ["729FE7549853385E"]
 			id: "0CE0A2710D578A1A"
 			tasks: [{
@@ -703,6 +743,7 @@
 		{
 			x: 0.5d
 			y: 0.0d
+			description: ["Spout Destabilized Redstone onto Redstone Dust to create Rose Quartz"]
 			dependencies: ["188BA56A5EBACDAF"]
 			id: "0E1C18F07009AA94"
 			tasks: [{
@@ -725,6 +766,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
+			description: ["Spout Molten Iron on Rose Quartz to make Electron Tubes."]
 			dependencies: ["188BA56A5EBACDAF"]
 			id: "262EF6D138DAB69F"
 			tasks: [{
@@ -778,7 +820,7 @@
 			title: "4x Crushing Wheels"
 			x: -6.0d
 			y: 1.0d
-			subtitle: "For sand automation. But shh, you can also make sand with a millstone at less efficiency!"
+			subtitle: "To efficiently automate Sand"
 			dependencies: ["4BC7774659DA5996"]
 			dependency_requirement: "one_started"
 			id: "0D2D800F4A49CA86"
@@ -813,7 +855,7 @@
 			}]
 		}
 		{
-			title: "27x Mechanical Crafters"
+			title: "21x Mechanical Crafters"
 			x: -7.0d
 			y: 1.0d
 			subtitle: "For Crushing Wheels"

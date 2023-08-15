@@ -175,7 +175,7 @@
 		{
 			x: -4.5d
 			y: -5.0d
-			subtitle: "This is just an example for converting Chromatic Compound to Refined Radiance."
+			description: ["A (cool) example on converting Chromatic Compound to Refined Radiance."]
 			dependencies: [
 				"78E3EDD6BCCA4E06"
 				"24F10DF147EC0844"
@@ -224,6 +224,7 @@
 		{
 			x: 2.0d
 			y: -10.0d
+			description: ["Refine Heavy Oil into Tar and Refined Fuel"]
 			dependencies: ["68A5356444030698"]
 			id: "7192EEB9C99F0186"
 			tasks: [{
@@ -247,7 +248,7 @@
 			title: "Anthracene"
 			x: -1.0d
 			y: -10.0d
-			subtitle: "Fill a Vial with Anthracene"
+			description: ["Fill a Vial with Anthracene"]
 			dependencies: ["470D621EDE14E399"]
 			id: "5B6CFF917782AA41"
 			tasks: [{
@@ -259,7 +260,7 @@
 		{
 			x: -1.0d
 			y: -8.0d
-			subtitle: "Drop Incomplete Anthraquinone into Dichromic Acid"
+			description: ["Drop Incomplete Anthraquinone into Dichromic Acid"]
 			dependencies: [
 				"2B264D6DD625F492"
 				"0CA2002E4C346B59"
@@ -276,7 +277,7 @@
 			title: "The glowstone reactor"
 			x: -4.5d
 			y: -7.0d
-			subtitle: "Drop gunpowder into glowfire"
+			description: ["Create a Glow Fire by lighting a block of Shimmer Sand on fire\\nThen drop gunpowder into it to convert it."]
 			dependencies: ["24F10DF147EC0844"]
 			id: "78E3EDD6BCCA4E06"
 			tasks: [{
@@ -288,6 +289,7 @@
 		{
 			x: 2.0d
 			y: -9.0d
+			description: ["Refine Light Oil into Sulfur Dust and Refined Fuel"]
 			dependencies: ["68A5356444030698"]
 			id: "068FE94132C1DE4D"
 			tasks: [{
@@ -311,7 +313,7 @@
 			title: "Chrom"
 			x: -4.5d
 			y: -8.0d
-			subtitle: "Roll Glowstone over a drain"
+			description: ["Roll Glowstone over a drain"]
 			dependencies: ["78E3EDD6BCCA4E06"]
 			id: "22B3B089C7AD3875"
 			tasks: [{
@@ -335,7 +337,7 @@
 			title: "Chromic acid"
 			x: -3.0d
 			y: -8.0d
-			subtitle: "Won by dropping Chrome Into Water"
+			description: ["Won by dropping Chrome Into Water"]
 			dependencies: ["22B3B089C7AD3875"]
 			id: "2B264D6DD625F492"
 			tasks: [{
@@ -348,8 +350,13 @@
 			icon: "thermal:crude_oil_bucket"
 			x: 2.0d
 			y: -7.5d
-			subtitle: "Set up a train link to various crude oil deposits found all around the world."
-			description: ["Or set up a 10k source in your base"]
+			description: [
+				"Refine Crude Oil into Heavy and Light Oil using a Pneumaticcraft Refinery"
+				""
+				"Find Oil and automate it using a Hose Pulley to take from a source of more than 10,000 buckets. "
+				""
+				"You can do so by setting up a train link to one of the various crude oil deposits found in deserts, or by creating a deposit of your own at your base."
+			]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "68A5356444030698"
@@ -410,7 +417,7 @@
 		{
 			x: 0.5d
 			y: -10.0d
-			subtitle: "Melt Tar into Anthracene"
+			description: ["Use a Smeltery to melt Tar into Anthracene"]
 			dependencies: ["7192EEB9C99F0186"]
 			id: "470D621EDE14E399"
 			tasks: [{
@@ -434,7 +441,7 @@
 		{
 			x: -6.0d
 			y: -7.0d
-			subtitle: "Mix Powdered Flint with Refined Fuel to create Gunpowder"
+			description: ["Mix Powdered Flint with Refined Fuel to create Gunpowder"]
 			dependencies: ["4114B764FB9FF9BC"]
 			id: "24F10DF147EC0844"
 			tasks: [{
@@ -465,7 +472,7 @@
 		{
 			x: -6.0d
 			y: -9.5d
-			subtitle: "Wash gravel for Flint and Iron Nuggets"
+			description: ["Wash gravel for Flint and Iron Nuggets"]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "2F15BD639AC10819"
@@ -478,7 +485,7 @@
 		{
 			x: -6.0d
 			y: -8.0d
-			subtitle: "Crush Flint to get Powdered Flint"
+			description: ["Crush Flint to get Powdered Flint"]
 			dependencies: ["2F15BD639AC10819"]
 			id: "4114B764FB9FF9BC"
 			tasks: [{
@@ -602,6 +609,7 @@
 			title: "[Optional 2x bonus] Shadow Steel"
 			x: 1.0d
 			y: -6.0d
+			description: ["Obtained by dropping Chromatic Compound into the void."]
 			dependencies: ["3EA71EFE88668E16"]
 			optional: true
 			id: "01E0C7BE2AD25541"
@@ -668,6 +676,7 @@
 				"24C1844E85C471F9"
 				"7F668BCB6E7FED46"
 			]
+			dependency_requirement: "one_completed"
 			id: "2DCECAF511896C4D"
 			tasks: [{
 				id: "0F75F89E0A0CD7CD"
@@ -723,8 +732,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 4.5d
+			title: "Option 2: LPG Route"
+			x: 0.0d
+			y: 5.5d
 			shape: "rsquare"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -748,7 +758,7 @@
 		}
 		{
 			title: "[Byproduct] All colors of fuel."
-			x: 2.0d
+			x: 1.0d
 			y: 4.5d
 			dependencies: ["6F59B705C4AC7E93"]
 			id: "01170F6AF97D2887"
@@ -783,8 +793,8 @@
 		}
 		{
 			title: "The Industrial Revolution"
-			x: 2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 3.5d
 			subtitle: "Reprocess your output fuels to fuel your Factory."
 			dependencies: ["248443FB4003CD22"]
 			id: "5A4A535DF716F163"
@@ -796,7 +806,7 @@
 		}
 		{
 			x: 2.0d
-			y: 2.5d
+			y: 3.5d
 			dependencies: [
 				"01170F6AF97D2887"
 				"5CF7DD93DE302B8E"
@@ -836,7 +846,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: 2.5d
 			dependencies: ["7870083118F5EB2A"]
 			id: "5CF7DD93DE302B8E"
@@ -888,7 +898,10 @@
 			x: -4.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "Applied Energistics; I'm waiting for you. A lot of machines are still gated behind a higher technology tier, but you should be able to set up a very basic ME system"
+			description: [
+				"Applied Energistics; I'm waiting for you. "
+				"A lot of machines are still gated behind a higher technology tier, but you should be able to set up a very basic ME system"
+			]
 			dependencies: ["1393B214AF417C06"]
 			id: "3070EC94FB14615C"
 			tasks: [{
@@ -957,7 +970,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: 0.5d
 			dependencies: ["7620DA247BD74FC4"]
 			id: "7870083118F5EB2A"
@@ -987,7 +1000,8 @@
 			]
 		}
 		{
-			x: -2.5d
+			title: "Option 1: Biodiesel Route"
+			x: -2.0d
 			y: -1.0d
 			shape: "rsquare"
 			dependencies: ["19232B8B77F86AF8"]
@@ -1019,7 +1033,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: -1.0d
 			dependencies: ["3ACE31F1A130AEA7"]
 			id: "7620DA247BD74FC4"
@@ -1032,7 +1046,7 @@
 		{
 			x: -1.0d
 			y: -9.0d
-			subtitle: "Drop an Anthracene Vial into Sulfuric Acid"
+			description: ["Drop an Anthracene Vial into Sulfuric Acid to convert it into Incomplete Anthraquinone"]
 			dependencies: [
 				"5B6CFF917782AA41"
 				"74E536DF3F2CB466"
@@ -1058,7 +1072,7 @@
 		{
 			x: 0.5d
 			y: -9.0d
-			subtitle: "Drop Sulfur dust into Water to create Sulfuric Acid"
+			description: ["Drop Sulfur dust into Water to create Sulfuric Acid"]
 			dependencies: [
 				"5F66AA228DD8F04C"
 				"068FE94132C1DE4D"

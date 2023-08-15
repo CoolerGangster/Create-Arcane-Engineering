@@ -115,7 +115,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
-			subtitle: "Crushing Silverfish will grant Experience Nuggets."
+			description: ["Crushing Silverfish will grant Experience Nuggets."]
 			dependencies: ["4FD232051F96C24C"]
 			id: "2C7C88F0236ECBE8"
 			tasks: [{
@@ -128,7 +128,11 @@
 			title: "Silverfish"
 			x: 5.5d
 			y: -0.5d
-			subtitle: "If you hurt a Silverfish and a infested Stone block is near, the infested stone block will turn into a silverfish"
+			description: [
+				"Obtain Infested Stone from haunting regular Stone."
+				""
+				"If you hurt a Silverfish near Infested Stone blocks, the Silverfish will call for Reinforcements and some of the Infested Stone blocks will turn into Silverfish."
+			]
 			dependencies: ["10F884D73B9DB540"]
 			hide: true
 			id: "641BC3313321273D"
@@ -180,11 +184,20 @@
 			]
 		}
 		{
-			title: "Look at the Source-Time Crystal."
+			title: "Look at the Source-Time Crystal"
 			x: 1.0d
 			y: -1.5d
 			subtitle: "Drop Time Crystals into Source to Create Source-Time Crystals. Click this quest for a guide."
-			description: ["The SourceTimeCrystal (STC) will convert to ancient debris, provided you process it correctly. Heres how to: The STC has a pool of 10 possible spells it can be hit with. And it randomly selects 5 upon creation. Now, everytime a spell passes by the sourcetime Crystal, it checkks if the spell contains one of the 5 chosen spells, if it does. Then the sourcetime crystal checks of that spell from its list and searches for the other spells. Once you fire all spells onto it either by randomly guessing the spells, or nbt reading(hasnt been implemented yet) so in simple terms, fire 10 spells at it and itll convert to ancient debris"]
+			description: [
+				"The SourceTimeCrystal (STC) will convert to ancient debris, provided you process it correctly. "
+				""
+				"Heres how to: "
+				"The STC has a pool of 10 possible spells it can be hit with, and randomly selects 5 upon creation. "
+				"Now, every time a spell passes by the sourcetime Crystal, it checks if the spell contains one of the 5 chosen spells. "
+				"If it does, the Source-Time Crystal takes that spell from its list, makes the Spell Projectile cycle around the block and keeps checking for the other spells. "
+				""
+				"Once you fire all spells onto it, the block will convert to Ancient Debris."
+			]
 			dependencies: [
 				"089DD6C64F12E754"
 				"29202035B6E8F1EC"
@@ -198,12 +211,13 @@
 				"6EBFF16CA4642166"
 				"71384DD64BC880DE"
 			]
+			dependency_requirement: "one_completed"
 			id: "707DF250A92F24B7"
 			tasks: [{
 				id: "4A10DC6C64234848"
 				type: "observation"
 				title: "Look at the Source-Time Crystal"
-				icon: "kubejs:source_time_crystal"
+				icon: "cae:source_time_crystal"
 				timer: 0L
 				observe_type: 0
 				to_observe: "cae:source_time_crystal"
@@ -223,7 +237,7 @@
 		{
 			x: -1.0d
 			y: -6.0d
-			subtitle: "Each time you kill the golem you will gain Amethyst dust"
+			description: ["Crushing an Amethyst Golem will return its Charm and an Amethyst Cluster."]
 			dependencies: ["10F884D73B9DB540"]
 			hide: true
 			id: "27B2E5E119C5F23B"
@@ -237,7 +251,7 @@
 			x: -0.5d
 			y: 1.5d
 			shape: "diamond"
-			subtitle: "Yeet Nether Stars above the Build limit to create stellarite"
+			description: ["Yeet Nether Stars above the Build limit to create stellarite"]
 			dependencies: ["7010165D31CB43FD"]
 			id: "3882C0D9CAA0BE84"
 			tasks: [{
@@ -268,7 +282,10 @@
 		{
 			x: -1.5d
 			y: 1.5d
-			subtitle: "Yes, automated Wither killing. Hardened Glass is wither-resistant, making a good cage for the boss."
+			description: [
+				"Yes, automated Wither killing. "
+				"Hardened Glass is Wither-resistant, making a good cage for the boss."
+			]
 			dependencies: [
 				"4F2C8B0FFE0646C4"
 				"76FF8A53B02CF2E0"
@@ -317,7 +334,7 @@
 		{
 			x: -2.5d
 			y: 2.0d
-			subtitle: "Immolating a Skeleton in soul fire and placing it inside of a wither rose will convert it to a boosted Wither Skeleton that drops extra wither skulls"
+			description: ["Burning a Skeleton in Soul Fire and moving it into a wither rose will convert it to a boosted Wither Skeleton that drops extra Wither Skulls"]
 			dependencies: [
 				"7F7E6735DDC3712F"
 				"6988B2238F02E9EB"
@@ -344,7 +361,7 @@
 		{
 			x: -3.0d
 			y: 3.0d
-			subtitle: "The Arcane Transformation"
+			description: ["Mixing any Flower together with Liquid Resent will convert it into a Wither Rose."]
 			dependencies: [
 				"62D9AAC8D4355173"
 				"562C3A36FCCAA7EA"
@@ -383,7 +400,7 @@
 			title: "Synthesizing Skeletons from Thin Air"
 			x: -2.0d
 			y: 3.5d
-			subtitle: "Spawn an Amplified Skeleton by rightclicking a DavesBE skeleton with a Soul. ALL of the Amplified Skeletons will have a custom lootable that can sustain the block cycle"
+			description: ["Spawn an Amplified Skeleton by rightclicking a DavesBE skeleton with a Soul. ALL of the Amplified Skeletons will have a custom lootable that can sustain the block cycle"]
 			dependencies: [
 				"1D13EA7170FD3C81"
 				"68F10C80D3E640D7"
@@ -545,7 +562,10 @@
 			title: "Important Note."
 			x: 1.0d
 			y: -6.0d
-			subtitle: "This chapter relies on hostile mobs being summoned for a big part. This means by nature that this factory will only work with a player nearby, otherwise the mobs will despawn! "
+			description: [
+				"This chapter heavily relies on hostile mobs being summoned. "
+				"This means that, by nature, this factory will only work with a player nearby to prevent mobs from despawning and isn't automatable in peaceful mode."
+			]
 			dependencies: ["10F884D73B9DB540"]
 			hide: true
 			id: "790F8C1BC091E6F7"
@@ -628,7 +648,10 @@
 		{
 			x: 5.5d
 			y: 0.5d
-			subtitle: "You can crush entities! Crush Silverfish for Experience Gems"
+			description: [
+				"You can crush entities! "
+				"Crush Silverfish for Experience Nuggets."
+			]
 			dependencies: ["641BC3313321273D"]
 			id: "4FD232051F96C24C"
 			tasks: [{
@@ -640,6 +663,7 @@
 		{
 			x: 1.0d
 			y: -4.0d
+			description: ["Combine the Amethyst Cluster with Time In A Bottle for a Time Crystal Fragment"]
 			dependencies: [
 				"67EB56E5BE508BE8"
 				"5C02EC87CD4EDBAE"
