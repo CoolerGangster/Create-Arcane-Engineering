@@ -33,4 +33,18 @@ onEvent('tags.items', event => {
     const wrenchpickupables = 
     ["#thermal:", "", "", "", "", "", "", "", "", "",]
 
+    event.add("randomium:blacklist", [
+        /dev/,
+        /creative/,
+        /test/,
+        /command/,
+        /infinite/,
+        /portal/,
+        /^tconstruct:.*bucket/,
+        /^curios:/,
+        /^itemfilters:/,
+        /^cae/,
+        /^waystones:/,
+        "create:handheld_worldshaper"
+    ])
 })
