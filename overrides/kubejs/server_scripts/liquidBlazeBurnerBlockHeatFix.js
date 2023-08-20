@@ -6,7 +6,7 @@ onEvent('recipes', event => {
         "statePredicate": {
           "blaze": "smouldering"
         },
-        "temperature": 1427,
+        "temperature": 1700,
         "thermalResistance": 100000,
       })
     
@@ -17,7 +17,7 @@ onEvent('recipes', event => {
         "statePredicate": {
           "blaze": "fading"
         },
-        "temperature": 1427,
+        "temperature": 1700,
         "thermalResistance": 1000,
       })
 
@@ -28,7 +28,7 @@ onEvent('recipes', event => {
         "statePredicate": {
           "blaze": "kindled"
         },
-        "temperature": 1427,
+        "temperature": 1700,
         "thermalResistance": 500,
       })
 
@@ -39,7 +39,7 @@ onEvent('recipes', event => {
         "statePredicate": {
           "blaze": "seething"
         },
-        "temperature": 1427,
+        "temperature": 1700,
         "thermalResistance": 50,
       })
 })
