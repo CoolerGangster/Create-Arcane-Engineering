@@ -6,5 +6,5 @@ onEvent("lootjs", (event) => {
         .removeLoot(/waystones\:.*waystone/)
     event
         .addBlockLootModifier('cae:sky_stone')
-        .removeLoot('ae2:sky_stone_block')
+        .addLoot('ae2:sky_stone_block')
 })
