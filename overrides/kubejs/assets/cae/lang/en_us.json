@@ -6,5 +6,6 @@
     "block.cae.particle_accelerator": "Particle Accelerator Core",
     "block.cae.portal_core": "Arcane Portal Core",
     "block.cae.void_portal": "Final Portal",
-    "block.cae.arcane_portal": "Arcane Portal"
+    "block.cae.arcane_portal": "Arcane Portal",
+    "block.cae.skystone": "Sky Stone"
 }
