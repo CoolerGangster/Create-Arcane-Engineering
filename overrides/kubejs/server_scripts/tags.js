@@ -33,8 +33,8 @@ onEvent('tags.items', event => {
     const wrenchpickupables = 
     ["#thermal:", "", "", "", "", "", "", "", "", "",]
 
-    event.add('cae:"skystone', 'ae2:sky_stone_block')
-    event.add('cae:"skystone', 'cae:sky_stone')
+    event.add('cae:'skystone', 'ae2:sky_stone_block')
+    event.add('cae:'skystone', 'cae:sky_stone')
     event.add("randomium:blacklist", [
         /dev/,
         /creative/,
