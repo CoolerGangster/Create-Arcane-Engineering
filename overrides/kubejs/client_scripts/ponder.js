@@ -159,20 +159,20 @@ onEvent("ponder.registry", (event) => {
             "kubejs:corrupted_pixie",
             (scene, util) => {
            scene.showStructure()
-           scene.idle(30);
-           scene.text(40, "This is A Utrem Jar", [2.0, 1.5, 2.5])
+           scene.idle(40);
+           scene.text(60, "This is A Utrem Jar", [2.0, 1.5, 2.5])
               .placeNearTarget()
               .attachKeyFrame();
-            scene.idle(60);
+            scene.idle(70);
             scene.showControls(30, [2.5, 1.5, 2.5], "down")
             .rightClick()
             .withItem("forbidden_arcanus:corrupted_pixie");
-            scene.idle(20);
+            scene.idle(50);
             scene.world.modifyBlock([2, 1, 2], () => Block.id("forbidden_arcanus:corrupted_pixie_utrem_jar"), true);
             scene.idleSeconds(2)
-            scene.text(70, "Rightclick it with a Corrupted Pixie, and Boom. You got yourself a Corrupted Pixie Jar", [2.0, 1.5, 2.0]).attachKeyFrame();
+            scene.text(90, "Rightclick it with a Corrupted Pixie, and Boom. You got yourself a Corrupted Pixie Jar", [2.0, 1.5, 2.0]).attachKeyFrame();
             scene.idleSeconds(5)
-            scene.text(60, "You can now mine it for the Corrupted Pixie Jar Item! ", [2.5, 1.5, 2.5])
+            scene.text(70, "You can now mine it for the Corrupted Pixie Jar Item! ", [2.5, 1.5, 2.5])
       });
       	event.create("forbidden_arcanus:hephaestus_forge")
 		.scene(
@@ -320,48 +320,48 @@ onEvent("ponder.registry", (event) => {
             scene.showStructure()
             scene.world.setBlock([sx, sy, sz], "cae:skystone_catalyst", true);
             const entity = scene.world.createEntity("cae:essentialorb", [sx, sy+1, sz] );
-            scene.idle(45)
+            scene.idle(65)
 
-            scene.text(50, "This is the Arcane Space Time Construct (ASTC) ", [sx, sy+1, sz])
+            scene.text(80, "This is the Arcane Space Time Construct (ASTC) ", [sx, sy+1, sz])
               .placeNearTarget()
               .attachKeyFrame();
-            scene.idle(50)
-            scene.text(35, "It needs a bunch of inworld processes to get converted to a Flying Orb!", [sx, sy+1, sz])
-            scene.idle(45)
-            scene.text(35, "Firstly, lets Strike it by lightning!", [sx, sy+1, sz]).attachKeyFrame()
-            scene.idle(40)
+            scene.idle(80)
+            scene.text(55, "It needs a bunch of inworld processes to get converted to a Flying Orb!", [sx, sy+1, sz])
+            scene.idle(75)
+            scene.text(55, "Firstly, lets Strike it by lightning!", [sx, sy+1, sz]).attachKeyFrame()
+            scene.idle(70)
 
            
             
-            scene.text(40, "Lightning will set the ASTC 1 Phase ahead. Keep in mind, does the clock on the ASTC run out it will destroy itself.", [sx, sy, sz]).attachKeyFrame()
-            scene.idle(40)
+            scene.text(80, "Lightning will set the ASTC 1 Phase ahead. Keep in mind, does the clock on the ASTC run out it will destroy itself.", [sx, sy, sz]).attachKeyFrame()
+            scene.idle(90)
             scene.showControls(25, [sx, sy, sz], "down")
             .rightClick()
             .withItem("kubejs:runic_tablet");
-            scene.idle(28)
+            scene.idle(48)
             scene.world.createEntity("forbidden_arcanus:crimson_lightning_bolt", [sx, sy, sz]);
 				scene.idle(5);
-            scene.idle(50)
-            scene.text(40, "Next we shall Light a Disruptive TNT next to it.", [sx, sy+1, sz]).attachKeyFrame()
-            scene.idle(50)
+            scene.idle(70)
+            scene.text(60, "Next we shall Light a Disruptive TNT next to it.", [sx, sy+1, sz]).attachKeyFrame()
+            scene.idle(70)
             scene.world.createEntity("thermal:ender_tnt", [sx-1, sy, sz-1]);
-                scene.idle(10);
-            scene.text(50, "Congrats, youre now at stage 3!",[sx, sy+1, sz])
+                scene.idle(30);
+            scene.text(70, "Congrats, youre now at stage 3!",[sx, sy+1, sz])
             .attachKeyFrame()
-            scene.idle(60)
-            scene.text(45, "Now you need to place the ASTC on a Black Hole made by throwing Dark Matter and Corrupti Dust together on the ground.",[sx, sy+2, sz])
-            scene.idle(60)
+            scene.idle(90)
+            scene.text(65, "Now you need to place the ASTC on a Black Hole made by throwing Dark Matter and Corrupti Dust together on the ground.",[sx, sy+2, sz])
+            scene.idle(80)
             scene.world.setBlock([sx, sy, sz], "forbidden_arcanus:black_hole", true);
-            scene.text(45, `Now Immerse the ASTC with Liquid Space Time!  `,[sx, sy+1, sz]).attachKeyFrame()
-            scene.idle(60)
+            scene.text(65, `Now Immerse the ASTC with Liquid Space Time!  `,[sx, sy+1, sz]).attachKeyFrame()
+            scene.idle(80)
             scene.world.setBlock([sx, sy+1, sz], "cae:lst", true);
-            scene.idle(30)
+            scene.idle(50)
             scene.world.setBlock([sx, sy+1, sz], "air", true);
             scene.world.setBlock([sx, sy, sz], "chipped:shroomlight_3", true);
             scene.text(45, "Now were at stage 4! It's Cashout time!",[sx, sy+1, sz])
-            scene.idle(60)
-            scene.text(50, "To finish, you need to throw 6 Singularities from AE2 onto it. And if that is met, it will transform into a Orb of flight",[sx, sy, sz]).attachKeyFrame()
-            scene.idle(60)
+            scene.idle(80)
+            scene.text(60, "To finish, you need to throw 6 Singularities from AE2 onto it. And if that is met, it will transform into a Orb of flight",[sx, sy, sz]).attachKeyFrame()
+            scene.idle(80)
             scene.world.modifyEntity(entity, (e) => {
                 e.discard()
             });
