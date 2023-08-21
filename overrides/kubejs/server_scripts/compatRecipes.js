@@ -555,7 +555,12 @@ onEvent('recipes', event => {
             if (!entry[1].toString().startsWith("x ",1) && !entry[1].toString().startsWith("x ", 2)){
                 if(Item.of(entry[1]).isBlock()){
                 event.recipes.create.itemApplication(entry[1],[machine,entry[0]])
-            }   
+                } 
+            }  
+            if (entry[1].toString().startsWith("x ",1) || entry[1].toString().startsWith("x ", 2)){
+                
+                event.recipes.create.deploying(entry[1],[machine,entry[0]])
+             
             }
             
             if (entry[1].toString().startsWith("x ", 1)) {entry[1] = entry[1].slice(3)}
