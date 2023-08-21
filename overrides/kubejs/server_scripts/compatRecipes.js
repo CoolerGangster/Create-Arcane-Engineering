@@ -180,7 +180,7 @@ onEvent('recipes', event => {
       event.recipes.createCutting(t,t)
     ]).transitionalItem('kubejs:incomplete_cogwheel').loops(4)
     
-    //event.remove({id: 'create:crafting/kinetics/large_cogwheelfrom_little'})
+    event.remove({id: 'forbidden_arcanus:golden_orchid_seeds'})
     event.remove({id: 'create:crafting/kinetics/belt_connector'})
     //event.shapeless('create:large_cogwheel',['create:cogwheel','#minecraft:planks'])
     event.remove({id: 'tinkers_reforged:smeltery/melting/redstone'})
