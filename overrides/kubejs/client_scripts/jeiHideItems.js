@@ -36,6 +36,7 @@ onEvent('jei.hide.items', event => {
     event.hide(/integratedtunnels\:part.*porter_world/)
     event.hide("integratedtunnels:part_player_simulator")
     event.hide("integrateddynamics:part_connector_omni_directional")
+    event.remove("integratedterminals:crafting/terminal_storage_portable")
   })
   onEvent('jei.hide.fluids', event => {
     event.hide('tconstruct:liquid_redstone')
