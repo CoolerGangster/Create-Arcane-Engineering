@@ -762,6 +762,9 @@ onEvent('recipes', event => {
     event.remove({id: "ars_creo:starbuncle_wheel"})
     event.shaped("ars_creo:starbuncle_wheel", ["XXX", "XWX", "XXX"], {X:"ars_nouveau:starbuncle_shards", W:"create:water_wheel"})
     event.replaceInput({id: "create:crafting/kinetics/train_trapdoor"},"create:brass_sheet","create:sturdy_sheet")
+
+	event.replaceInput({},"ae2:sky_stone_block","#cae:skystone")
+	
     //event.recipes.create.deploying('ars_nouveau:magebloom_crop',['#forge:seeds','kubejs:runic_tablet'])
     multicut(radiant_cutting,"kubejs:radiant_machine",true)
     let containercolors = [
