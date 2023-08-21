@@ -69,7 +69,7 @@ onEvent('item.registry', (event) => {
     event.create('empty_vial').displayName('Empty Vial')
     //start chapter 4
     let k = 'Unassembled PCB'
-    event.create('incomplete_pcb_blueprint', 'create:sequenced_assembly').displayName('Incomplete PCB Blueprint')
+    event.create('incomplete_pcb_blueprint', 'create:sequenced_assembly').displayName('Incomplete PCB Blueprint').texture("create:item/empty_schematic")
     event.create('plastic_board').displayName('Plastic Board')
     event.create('etched_board').displayName(k).tooltip("Next: Separate leftover residue inside a Centrifugal Separator")
     event.create('dryed_board').displayName(k).tooltip("Next: Package for legend processing")
@@ -77,11 +77,11 @@ onEvent('item.registry', (event) => {
     event.create('masked_pcb').displayName(k).tooltip("Next: Let dry in an Induction Smelter")
     event.create('incomplete_masked_pcb', 'create:sequenced_assembly').displayName('Incomplete Unassembled PCB')
     event.create('pcb_assembly').displayName('PCB Assembly Package')
-    event.create('incomplete_pcb_assembly', 'create:sequenced_assembly').displayName('Incomplete PCB assembly package')
+    event.create('incomplete_pcb_assembly', 'create:sequenced_assembly').displayName('Incomplete PCB assembly package').texture("pneumaticcraft:item/plastic")
     event.create('pcb_assembly_2').displayName('PCB Legend Assembly Package')
-    event.create('incomplete_pcb_assembly_2', 'create:sequenced_assembly').displayName('Incomplete PCB Legend Assembly Package')
+    event.create('incomplete_pcb_assembly_2', 'create:sequenced_assembly').displayName('Incomplete PCB Legend Assembly Package').texture("kubejs:item/pcb_assembly")
     event.create('legend_pcb').displayName(k).tooltip("Next: Apply ENIG surface treatment")
-    event.create('incomplete_tested_pcb', 'create:sequenced_assembly').displayName('Incomplete Unassembled PCB')
+    event.create('incomplete_tested_pcb', 'create:sequenced_assembly').displayName('Incomplete Unassembled PCB').texture("kubejs:item/legend_pcb")
     event.create('untested_pcb').displayName(k).tooltip("Next: Electrical testing with Drill processing.")
     event.create('tested_pcb').displayName(k).tooltip("Next: Clean for finish.")  
     event.create('cleaned_pcb').displayName(k).tooltip("Next: Finally, let dry.")
