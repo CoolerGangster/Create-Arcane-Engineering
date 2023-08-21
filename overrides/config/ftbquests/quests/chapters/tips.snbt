@@ -60,7 +60,7 @@
 		{
 			x: -5.5d
 			y: -12.0d
-			subtitle: "There are many locational recources. The motive behind those is for you to use the new 1.18 trains :) Train Tracks have been made SIXTEEN TIMES cheaper than normal, so your train building adventures are as easy as they can be!"
+			description: ["There are many locational recources. The motive behind those is for you to use the new 1.18 trains :) Train Tracks have been made SIXTEEN TIMES cheaper than normal, so your train building adventures are as easy as they can be!"]
 			id: "2DF25740BF8AF0F2"
 			tasks: [{
 				id: "7BB8B3A8548C9213"
@@ -84,7 +84,17 @@
 			title: "Ore Deposit Guide"
 			x: -6.0d
 			y: -10.0d
-			subtitle: "All ores can be found in every biome, but they differ in rarity and plentyness depending on Biome. In particular, every Ore has 1 biome where it is found in plentyfull quality, then theres a secondary biome which has very high vein spawn rates, but very miniscule deposits (1k-7k ish), lastly there are normal veins in every overworld biome that are very rare.You can see all the info on the Biomes and max vein sizes in the recipe tabs for the drilling machine.Gold is most common in Dry biomes, while it also has remnants in the nether, but these veins are more limited.Iron is most commonly found in Jungles, and secondarily in Rare biomes, such as the flower forest.Tin, lead,nickel,and Zinc are found like Iron.Copper is found most commonly in Mountains, and secondarily in Rare biomes.Lastly, Silver is most commonly found in Mountains, and secondarily in the End"
+			description: [
+				"All ores can be found in every biome, but their rarity and deposit size are affected by the Biome. "
+				"Every Ore has one particular biome where it is found in the largest quantity and one biome where it has the highest vein spawn rates but only appears in small deposits (1k-7k ish). All other biomes just contain normal veins at the usual, low, frequency. "
+				""
+				"All info on the Biomes and max vein sizes of a particular ore can be found in the recipe tab for the drilling machine."
+				""
+				"Gold is most commonly found in Dry biomes, and also appears in the nether, but these veins are more limited."
+				"Iron appears most commonly in Jungles, and secondarily in Rare biomes, such as the flower forest. The same goes for Tin, Lead, Nickel and Zinc."
+				"Copper is found most commonly in Mountains, and secondarily in Rare biomes."
+				"Lastly, Silver is most commonly found in Mountains, and appears secondarily in the End"
+			]
 			id: "51054C4D158084AD"
 			tasks: [{
 				id: "27EA85318341928B"
@@ -96,7 +106,7 @@
 			title: "Trains in every Dimension!"
 			x: -4.5d
 			y: -13.5d
-			subtitle: "Rightclicking a Diamond Block with Flint and Steel will Grant portals in every dimension, as an extension you can make trains in every dimension, just place a track into that generated portal."
+			description: ["Rightclicking a Diamond Block with Flint and Steel will create a portals no matter the dimension, allowing trains to travel anywhere!"]
 			id: "0C07D49BEDE78634"
 			tasks: [
 				{
@@ -120,7 +130,11 @@
 		{
 			x: 13.0d
 			y: -8.0d
-			subtitle: "This is a create chunkloader, it also works on contraptions. But it doesnt simulate randomticks, which is the stuff you need to grow crops. But another tool allows for randomtick chunkloading, which is the FTBchunks force load. It is more or less required to complete this pack."
+			description: [
+				"This is a create chunkloader. It ONLY works on contraptions. "
+				"But it doesnt simulate randomticks, which is the stuff you need to grow crops. FTBchunks force load can do that for you. "
+				"Chunk Loading is more or less required to complete this pack."
+			]
 			id: "3147CC1F634EF8E7"
 			tasks: [{
 				id: "00D0B84159CDC1CE"
@@ -131,6 +145,11 @@
 		{
 			x: -5.0d
 			y: -2.5d
+			description: [
+				"Sophisticated Backpacks are in this pack!"
+				"And there is even additional Functionality:"
+				"Clicking a placed Backpack with an item mentioned on the backpacks tooltip will add additional Slots!"
+			]
 			id: "5296043AF72D58DD"
 			tasks: [{
 				id: "113D19B9D0E0D469"
@@ -155,7 +174,7 @@
 		{
 			x: -5.5d
 			y: -14.0d
-			subtitle: "Find Any Structure at the click of a Button"
+			description: ["Find Any Structure at the click of a Button"]
 			id: "39417A51292D3544"
 			tasks: [{
 				id: "004F74707B04D4E7"
@@ -182,7 +201,7 @@
 			title: "CT Mills"
 			x: 12.0d
 			y: -7.0d
-			subtitle: "Windmills Only need 1 Sail to work! (assuming I didnt mess up configs)"
+			description: ["Windmills Only need 1 Sail to work! (assuming I didnt mess up configs)"]
 			id: "6BE95A5BCF9527ED"
 			tasks: [
 				{
@@ -201,7 +220,11 @@
 			title: "Orestones are now Renewable!"
 			x: 13.0d
 			y: -7.0d
-			subtitle: "Molten Geodes of Orestones now spawn all around the world, find the Geode Block in those and rightclick it with a redstone dust item. This way, orestones and their recources are fully automatable!"
+			description: [
+				"Geodes of Orestones now spawn all around the world. "
+				"rightclick the Geode Block in those with a redstone dust item, and it will spawn in Orestone blocks! "
+				"This way, orestones and their recources are fully automatable!"
+			]
 			id: "520888735E13CA2E"
 			tasks: [{
 				id: "00B80DE0D3B744F1"
@@ -212,7 +235,10 @@
 		{
 			x: -6.5d
 			y: -12.0d
-			subtitle: "After Chapter M1 you will have unlocked the Runic Tablet. It allows transmuting various things into their counterpart, such as empty blaze burners into blaze burners, and mobdrops into their super rare reliquary counterpart"
+			description: [
+				"After Chapter M1 you will have unlocked the Runic Tablet. "
+				"It allows transmuting various things into their counterparts, such as empty blaze burners into blaze burners, and mobdrops into their super rare reliquary versions."
+			]
 			id: "52EE3B7F60A5C0F4"
 			tasks: [{
 				id: "0D57135F3938BE15"
@@ -224,7 +250,7 @@
 			title: "Item filtering in the early game!"
 			x: -6.5d
 			y: -13.0d
-			subtitle: "Locking Drawers and attaching a Andesite Funnel works suprisingly well as an early game Item filtering method!"
+			description: ["Locking Drawers and attaching a Andesite Funnel works suprisingly well as an early game Item filtering method!"]
 			id: "45D36D1DEB856A0F"
 			tasks: [
 				{
@@ -268,7 +294,7 @@
 			title: "Pre Brass Item Stacking!"
 			x: -7.5d
 			y: -13.5d
-			subtitle: "You can group items into stacks by using Weighted Ejectors, simply scroll with a wrench on a Weighted Ejector to configure the desired Stack amount!"
+			description: ["You can group items into stacks by using Weighted Ejectors, simply scroll with a wrench on a Weighted Ejector to configure the desired Stack amount!"]
 			id: "392207368024751B"
 			tasks: [{
 				id: "0558024E34F02416"
@@ -279,7 +305,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			subtitle: "Easy Placing and Breaking. The Construction Wand is absolutely overpowered."
+			description: ["Easy Placing and Breaking of Blocks. The Construction Wand is an incredibly powerful tool!"]
 			id: "39BEA048AB996A02"
 			tasks: [
 				{
@@ -319,6 +345,12 @@
 			title: "Vein Mining Enchantment"
 			x: -6.0d
 			y: -1.0d
+			description: [
+				"We have Veinmining - As an enchantment."
+				"It goes up to level 3, and mines 16 connected blocks per level."
+				""
+				"If you don't like it being active all the time on enchanted tools, you can change it to require a keybind in the client config of the mod."
+			]
 			id: "1F8010E246DBE7D2"
 			tasks: [{
 				id: "7322A96D72857116"
@@ -338,7 +370,7 @@
 		{
 			x: -4.5d
 			y: -12.5d
-			subtitle: "Blaze Burners can now Accept Liquids if you give them a Straw! Bypasses blaze cakes"
+			description: ["Blaze Burners can now Accept Liquids if you give them a Straw! Bypasses blaze cakes"]
 			id: "0403135BEBFF8693"
 			tasks: [
 				{
@@ -405,7 +437,7 @@
 			title: "Witherproof glass"
 			x: -5.5d
 			y: -11.0d
-			subtitle: "Completely Indestructible by Withers"
+			subtitle: "Completely Indestructible to Withers"
 			id: "5CFBF9DB3C810E70"
 			tasks: [
 				{
@@ -423,6 +455,10 @@
 		{
 			x: -7.0d
 			y: -2.5d
+			description: [
+				"Can be used to manually buy any item available through Imports!"
+				"A charged Tablet can be bought in the Market as well."
+			]
 			id: "52E70CAD0E90E8E3"
 			tasks: [{
 				id: "07618CC7C276AE29"
@@ -452,7 +488,7 @@
 			title: "Harvesting Leaves in STYLE"
 			x: -6.5d
 			y: -14.0d
-			subtitle: "Harvesters can harvest leaves."
+			description: ["Harvesters can harvest leaves."]
 			id: "39726A3AB587CB01"
 			tasks: [
 				{
@@ -498,7 +534,7 @@
 		{
 			x: -5.5d
 			y: -13.0d
-			subtitle: "Scans a chunk for Andesite and Diorite"
+			description: ["Scans a chunk for Andesite and Diorite"]
 			id: "433CCF86EBF39A8E"
 			tasks: [{
 				id: "3D478FAFAF8DACFC"
@@ -539,7 +575,7 @@
 			title: "Plates through Anvils"
 			x: 10.0d
 			y: -7.0d
-			subtitle: "Drop an Anvil on an Ingot, and sure enough, itll get pressed down into a plate. (A bit lossy)"
+			description: ["Drop an Anvil on an Ingot, and sure enough, itll get pressed down into a plate. (A bit lossy)"]
 			id: "2A80651B5135AB01"
 			tasks: [
 				{
@@ -612,7 +648,7 @@
 		{
 			x: 10.0d
 			y: -8.0d
-			subtitle: "Will Generate the block placed below it."
+			description: ["Will Generate most decorative stones when they are placed below it."]
 			id: "686971D4F5FC320E"
 			tasks: [{
 				id: "0D6C3F32723A2F16"
@@ -625,7 +661,7 @@
 			icon: "quark:warped_chest"
 			x: -6.5d
 			y: -15.0d
-			subtitle: "Hover over a item in JEI and Press Y to show all chests with that item."
+			description: ["Hover over a item in JEI and Press Y to show all chests with that item."]
 			id: "1BDC8F965F8B7DA7"
 			tasks: [{
 				id: "0A0883A23A9D8436"
@@ -636,7 +672,7 @@
 		{
 			x: 12.0d
 			y: -6.0d
-			subtitle: "Heat Create Steam Engines with Pneumaticcraft!"
+			description: ["You can heat Create Steam Engines with Pneumaticcraft!"]
 			id: "41474C57E044994B"
 			tasks: [{
 				id: "63EC1E041F8BFE36"
