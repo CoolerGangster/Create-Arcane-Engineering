@@ -167,7 +167,18 @@ onEvent('block.right_click', event =>{
         
     }
 
-  })
+})
+/*
+onEvent('block.break', event => {
+    event.server.tell("i (s)cream")
+   if (event.player.isCreativeMode()) {return}
+    event.server.tell(event.player.playergetMainHandItem())
+    
+    if (event.item.id.includes("gavel")){
+        event.player.tell(Text.darkRed("Thou Shall not mine stuff with a Gavel"))
+        event.cancel()
+    }
+})*/
 
 onEvent('recipes', event => {
 
@@ -179,8 +190,25 @@ onEvent('recipes', event => {
       event.recipes.createDeploying(t, [t, '#minecraft:wooden_buttons']),
       event.recipes.createCutting(t,t)
     ]).transitionalItem('kubejs:incomplete_cogwheel').loops(4)
-    
+    function nineitemstoitem(o,i) {
+        event.shaped(o, [
+            'SSS',
+            'SSS',
+            'SSS'
+          ], {
+            S: i
+        })
+    }
+    function itemtoninetimes(o,i){
+        event.shapeless(Item.of(o,9),Item.of(i))
+    }
+    event.shapeless(Item.of("ars_nouveau:source_gem",4),"ars_nouveau:source_gem_block")
+    itemtoninetimes("forbidden_arcanus:arcane_crystal","forbidden_arcanus:arcane_crystal_block")
+    itemtoninetimes("create:andesite_alloy","create:andesite_alloy_block")
+    itemtoninetimes("thermal:invar_ingot","thermal:invar_block")
+    nineitemstoitem("thermal:invar_ingot","thermal:invar_nugget")
     event.remove({id: 'forbidden_arcanus:golden_orchid_seeds'})
+    event.remove({output: 'architects_palette:ancient_plating_slab'})
     event.remove({id: 'create:crafting/kinetics/belt_connector'})
     //event.shapeless('create:large_cogwheel',['create:cogwheel','#minecraft:planks'])
     event.remove({id: 'tinkers_reforged:smeltery/melting/redstone'})
@@ -201,6 +229,7 @@ onEvent('recipes', event => {
     event.smelting('ae2:certus_quartz_crystal','ae2:certus_quartz_dust')
     event.remove({id: 'create:mixing/coal_deepslate'})
     event.remove({id: 'create:mixing/charcoal_deepslate'})
+    event.remove({id: 'tconstruct:smeltery/melting/metal/iron/chain'})
     //making stuff renewable
     event.recipes.createMixing('8x minecraft:deepslate',['8x minecraft:cobblestone','#minecraft:coals']).id('renewabledeepslate')
     event.recipes.create.haunting('minecraft:tuff','minecraft:infested_deepslate').id('tufffromdeepslate')

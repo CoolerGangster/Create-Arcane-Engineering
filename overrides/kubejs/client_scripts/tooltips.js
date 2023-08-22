@@ -11,6 +11,8 @@ onEvent('item.tooltip',tooltip => {
     })
     let toltips =[
         ['thermal:obsidian_glass', "Completely Indestructible by Withers."],
+        ['forbidden_arcanus:soul', "Right-Click a Soul-Sand with a Soul Extractor to free the soul"],
+        ['minecraft:soul_sand', 'Due to a weakening of the arcane bulk haunting sand only yields soulless sand, to reinfuse it with a soul have a Wraith stand on top of it'],
         ['thermal:enderium_glass',"Completely Indestructible by Withers."],
         ['thermal:lumium_glass',"Completely Indestructible by Withers."],
         ['thermal:signalum_glass',"Completely Indestructible by Withers."], 

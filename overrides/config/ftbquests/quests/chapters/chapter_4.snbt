@@ -1,7 +1,7 @@
 {
 	id: "2865FF8522348E3F"
-	group: "42A213AA17D37DAF"
-	order_index: 4
+	group: "65FB4ECE344979A8"
+	order_index: 3
 	filename: "chapter_4"
 	title: "Chapter IV: Processing Pandemonium"
 	icon: "pneumaticcraft:module_expansion_card"
@@ -1001,7 +1001,7 @@
 			}]
 		}
 		{
-			title: "Succesfully Tested PCB"
+			title: "Successfully Tested PCB"
 			x: 4.5d
 			y: 22.5d
 			dependencies: ["4F690F3748BBC3A8"]

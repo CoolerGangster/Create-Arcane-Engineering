@@ -1,7 +1,7 @@
 {
 	id: "0918A9C44C07BDAB"
-	group: "42A213AA17D37DAF"
-	order_index: 2
+	group: "65FB4ECE344979A8"
+	order_index: 1
 	filename: "sad"
 	title: "Chapter II: Extraterrestrial Expeditions"
 	icon: "create:brass_casing"
@@ -737,6 +737,18 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "4645B99DA0EE854B"
+					type: "item"
+					item: "kubejs:integrational_mechanism"
+					count: 16
+				}
+				{
+					id: "743C831CA0684AEE"
+					type: "item"
+					item: "kubejs:gold_casing"
+					count: 2
 				}
 			]
 		}

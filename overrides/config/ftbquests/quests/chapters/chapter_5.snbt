@@ -1,10 +1,10 @@
 {
 	id: "6CC9C97DA432C970"
-	group: "42A213AA17D37DAF"
-	order_index: 9
+	group: "595B2B01CFB4E702"
+	order_index: 0
 	filename: "chapter_5"
 	title: "Chapter IX: Grand Aspirations."
-	icon: "minecraft:enchanted_golden_apple"
+	icon: "kubejs:finalpcb"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -147,10 +147,16 @@
 			dependencies: ["2C3209B88605792A"]
 			id: "01E55605761D5B94"
 			tasks: [{
-				id: "6556EC3669C4D4F5"
-				type: "forge_energy"
-				value: 240000L
-				max_input: 1000L
+				id: "2342DA5F58F2A29D"
+				type: "item"
+				item: {
+					id: "integrateddynamics:energy_battery"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+				match_nbt: false
 			}]
 		}
 		{
@@ -583,7 +589,7 @@
 			x: 10.0d
 			y: 1.0d
 			shape: "heart"
-			subtitle: "We went Above and Beyond, but what matters is the memories we made along the way."
+			subtitle: "We went Above and Beyond, but what matters are the memories we made along the way."
 			dependencies: ["366D7A329E87A0EB"]
 			size: 2.0d
 			id: "7AB381389276D63C"

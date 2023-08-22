@@ -1,7 +1,7 @@
 {
 	id: "728EE5762BA55881"
-	group: "42A213AA17D37DAF"
-	order_index: 1
+	group: "65FB4ECE344979A8"
+	order_index: 0
 	filename: "chapter_1_the_andesite_age"
 	title: "Chapter I: Alluring Allusions"
 	icon: "create:andesite_casing"
@@ -594,9 +594,9 @@
 			hide: true
 			id: "6EE3AFA0160D976A"
 			tasks: [{
-				id: "746941FD390384A0"
+				id: "35CED39344731224"
 				type: "item"
-				item: "tconstruct:smeltery_controller"
+				item: "tconstruct:seared_melter"
 			}]
 		}
 		{

@@ -41,7 +41,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "empty",
+  "recipeMap": "nothing",
   "basePattern": {
     "structureDir": [
       "LEFT",
