@@ -186,7 +186,7 @@ onEvent('block.break', event => {
 })
 
 onEvent('recipes', event => {
-
+    event.recipes.create.mixing("thermal:steel_ingot",["thermal:coal_coke","thermal:iron_dust"])
     let t = 'kubejs:incomplete_cogwheel'
     
     event.recipes.createSequencedAssembly([
