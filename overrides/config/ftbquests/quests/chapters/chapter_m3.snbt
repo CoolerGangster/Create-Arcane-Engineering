@@ -132,7 +132,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -1.5d
 			y: -3.5d
 			shape: "diamond"
 			subtitle: "Open Quest for Info."
@@ -170,7 +170,7 @@
 		}
 		{
 			title: "The Arcane Crystal Obelisk Cycle"
-			x: 1.0d
+			x: -1.5d
 			y: -3.5d
 			dependencies: ["69F021C402A96487"]
 			dependency_requirement: "all_started"
@@ -579,6 +579,7 @@
 				"6736E5C9F772788F"
 				"10190AA2A7C13277"
 			]
+			hide: true
 			id: "066CA4A66DD316F3"
 		}
 		{
