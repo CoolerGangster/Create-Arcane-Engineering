@@ -830,7 +830,10 @@ onEvent('recipes', event => {
         ['thermal:rf_coil','thermal:dynamo_disenchantment'],
         ['minecraft:glowstone_dust','ae2:semi_dark_monitor'],
         [AE2("fluix_pearl"),AE2('condenser')],
-        ['integratedterminals:part_terminal_storage','ae2:terminal']
+        ['integratedterminals:part_terminal_storage','ae2:terminal'],
+        ["waystones:warp_stone","waystones:waystone"],
+        ["waystones:warp_stone","waystones:mossy_waystone"],
+        ["waystones:warp_stone","waystones:sandy_waystone"]
     ]
     
     const timecutting = [
@@ -1342,11 +1345,11 @@ onEvent('recipes', event => {
         event.recipes.create.deploying(o,[i,I]) 
     }
     
-    casineration("create:refined_radiance_casing",'#forge:stripped_wood','create:refined_radiance')
-    casineration("create:refined_radiance_casing",'#forge:stripped_logs','create:refined_radiance')
-    casineration("create:shadow_steel_casing",'#forge:stripped_wood','create:shadow_steel')
-    casineration("create:shadow_steel_casing",'#forge:stripped_logs','create:shadow_steel')
-    casineration("kubejs:supercritical_casing","create:shadow_steel_casing","create:refined_radiance_casing")
+    casineration("create:refined_radiance_casing",'create:refined_radiance','#forge:stripped_wood')
+    casineration("create:refined_radiance_casing",'create:refined_radiance','#forge:stripped_logs')
+    casineration("create:shadow_steel_casing",'create:shadow_steel','#forge:stripped_wood')
+    casineration("create:shadow_steel_casing",'create:shadow_steel','#forge:stripped_logs')
+    casineration("kubejs:supercritical_casing","create:refined_radiance_casing","create:shadow_steel_casing")
 
     event.recipes.create.itemApplication('kubejs:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
     event.recipes.create.deploying('kubejs:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
