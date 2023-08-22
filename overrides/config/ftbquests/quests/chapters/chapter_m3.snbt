@@ -51,7 +51,7 @@
 		}
 		{
 			x: 35.5d
-			y: -1.5d
+			y: -0.5d
 			subtitle: "A powerful catalyst known to occasionally corrupt people's sanity."
 			dependencies: [
 				"3E7D072F1C7A0B14"
@@ -77,8 +77,8 @@
 			}]
 		}
 		{
-			x: 34.5d
-			y: -0.5d
+			x: 33.0d
+			y: 1.5d
 			subtitle: "You need about 18 Dust Specs to be processed back into Arcane Crystal Blocks, where the rest needs to go into the Dust Processing to fully Sustain a Arcane Obilisk Cycle"
 			dependencies: ["09E4D27B89F783CF"]
 			dependency_requirement: "one_completed"
