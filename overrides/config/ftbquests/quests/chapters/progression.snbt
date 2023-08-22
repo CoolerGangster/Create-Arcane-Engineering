@@ -388,9 +388,9 @@
 			hide: true
 			id: "1C392A3E7ADA7109"
 			tasks: [{
-				id: "2392AB4E641E710D"
+				id: "07D8543A567B2541"
 				type: "item"
-				item: "avaritia:zizz"
+				item: "avaritia:zyzzium_ingot"
 			}]
 		}
 	]
