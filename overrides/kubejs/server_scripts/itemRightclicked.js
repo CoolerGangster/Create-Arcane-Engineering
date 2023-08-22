@@ -6,7 +6,7 @@ onEvent('item.right_click', event =>{
 	}
 })
 onEvent('block.right_click', event =>{
-	if (event.item.id == "kubejs:runic_tablet" && event.block.entityId == "minecraft:air") {
+	if (event.item.id == "kubejs:runic_tablet" && event.block.entityId == "minecraft:air" && event.block.id != "minecraft:crafting_table") {
 		if (!event.player.creativeMode) {event.item.count--}
 		let lightning = event.block.createEntity("forbidden_arcanus:crimson_lightning_bolt")
 		lightning.spawn()
