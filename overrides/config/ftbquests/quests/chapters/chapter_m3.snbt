@@ -41,6 +41,7 @@
 			dependencies: [
 				"45F57414659E044E"
 				"15C83F2E7CA1E295"
+				"43DDE8F2EDA941A9"
 			]
 			dependency_requirement: "one_completed"
 			id: "6D2C48974003D539"
@@ -69,6 +70,7 @@
 		{
 			x: -0.5d
 			y: -5.5d
+			dependencies: ["43DDE8F2EDA941A9"]
 			dependency_requirement: "all_started"
 			id: "6736E5C9F772788F"
 			tasks: [{
@@ -130,7 +132,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: 0.0d
 			y: -3.5d
 			shape: "diamond"
 			subtitle: "Open Quest for Info."
@@ -168,7 +170,7 @@
 		}
 		{
 			title: "The Arcane Crystal Obelisk Cycle"
-			x: -1.5d
+			x: 1.0d
 			y: -3.5d
 			dependencies: ["69F021C402A96487"]
 			dependency_requirement: "all_started"
@@ -242,6 +244,7 @@
 			dependencies: [
 				"69F021C402A96487"
 				"66B319ACF0228A32"
+				"43DDE8F2EDA941A9"
 			]
 			dependency_requirement: "all_started"
 			id: "15C83F2E7CA1E295"
@@ -433,7 +436,10 @@
 		{
 			x: -7.5d
 			y: -0.5d
-			dependencies: ["60F4CA04E216B7C3"]
+			dependencies: [
+				"60F4CA04E216B7C3"
+				"43DDE8F2EDA941A9"
+			]
 			dependency_requirement: "all_started"
 			id: "191EE221A8EEE8F3"
 			tasks: [{
@@ -571,6 +577,7 @@
 			dependencies: [
 				"6D2C48974003D539"
 				"6736E5C9F772788F"
+				"10190AA2A7C13277"
 			]
 			id: "066CA4A66DD316F3"
 		}
@@ -611,6 +618,7 @@
 		{
 			x: -1.5d
 			y: 1.0d
+			dependencies: ["43DDE8F2EDA941A9"]
 			id: "1FAEF479BCF83D6F"
 			tasks: [{
 				id: "57BFB5CBCFA1459D"
