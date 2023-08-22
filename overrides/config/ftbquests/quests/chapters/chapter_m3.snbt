@@ -133,6 +133,11 @@
 			x: -1.5d
 			y: -3.5d
 			shape: "diamond"
+			subtitle: "Open Quest for Info."
+			description: [
+				"You can place these on Hephaesthus forge pedestal spots, and they'll passively make Aureal for the Forge."
+				"If you want to know, how to make these Obelisks, check their Ponder."
+			]
 			dependencies: ["10190AA2A7C13277"]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -204,7 +209,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -0.5d
 			y: -7.5d
 			dependencies: ["43DDE8F2EDA941A9"]
 			hide: true
@@ -611,6 +616,17 @@
 				id: "57BFB5CBCFA1459D"
 				type: "item"
 				item: "forbidden_arcanus:deepslate_arcane_crystal_ore"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["7E9E78A1997AB84E"]
+			id: "5FA9E765E8330E71"
+			tasks: [{
+				id: "0FFF23E600826A25"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_block"
 			}]
 		}
 	]
