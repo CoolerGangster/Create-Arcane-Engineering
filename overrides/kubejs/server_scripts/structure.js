@@ -123,7 +123,7 @@ onEvent('level.tick', event => {
                 y: 64, //this is constant, but it doesnt have to be
                 z: 10000
             }
-            
+            event.server.runCommandSilent(`execute in cae:void run forceload add 9990 10053 10065 9982`)
             event.server.runCommandSilent(`execute in cae:arcane run forceload add 8043 10135 8270 9968`)
             event.server.runCommandSilent(`execute in cae:arcane run setblock 8040 23 9985 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:sun_temple",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
             event.server.runCommandSilent(`execute in cae:arcane run setblock 8040 22 9985 minecraft:redstone_block`)
