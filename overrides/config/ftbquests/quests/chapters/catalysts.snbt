@@ -378,7 +378,7 @@
 		{
 			title: "Drilling Machine and You"
 			x: -4.5d
-			y: 5.0d
+			y: 5.5d
 			shape: "heart"
 			subtitle: "Click on This Quest for a Detailled Guide to Ore Deposits"
 			description: [
