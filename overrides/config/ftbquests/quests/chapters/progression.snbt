@@ -388,8 +388,9 @@
 			hide: true
 			id: "1C392A3E7ADA7109"
 			tasks: [{
-				id: "0729F370FA81512E"
-				type: "custom"
+				id: "2392AB4E641E710D"
+				type: "item"
+				item: "avaritia:zizz"
 			}]
 		}
 	]
