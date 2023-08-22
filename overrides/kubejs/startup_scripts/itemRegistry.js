@@ -46,7 +46,7 @@ onEvent('item.registry', (event) => {
     event.create('certus_quartz_seed_cluster').texture("kubejs:item/certus_quartz_cluster").displayName('Certus Quartz Cluster')
     event.create('incomplete_certus_quartz_cluster', 'create:sequenced_assembly').texture("kubejs:item/certus_quartz_seed").displayName('Incomplete Certus Quartz Cluster')
     mechanism('Kinetic')
-    event.create('makeshift_kinetic_mechanism').tooltip("Without menril wood, the Mechanism isnt sturdy enough to support further tiers of mechanisms.")
+    event.create('makeshift_kinetic_mechanism').tooltip("Without menril wood, the Mechanism isn't sturdy enough to support further tiers of mechanisms.")
     mechanism('Sealed') 
     mechanism('Sturdy')
     mechanism('Plastic', RARITY_UNCOMMON)
