@@ -69,7 +69,7 @@ onEvent('level.tick', event =>{
 				else {blck = blck.offset("south", -1); yPos = 0.25; zPos = 0.6; mY = -0.3; mZ = 0; circleX = false}
 
 				spell.setPosition((blck.getX() + xPos), (blck.getY() + yPos), (blck.getZ() + zPos));
-				spell.mergeFullNBT('{nothing: 1}') //otherwise the client doesnt properly get updated on the new position of the spell
+				spell.mergeFullNBT('{pierce: 256}') //otherwise the client doesnt properly get updated on the new position of the spell
 				spell.minecraftEntity.addTag("orbit");
 				spell.nbt.putBoolean("circleX", circleX);
 				spell.nbt.putBoolean("circleY", circleY);
