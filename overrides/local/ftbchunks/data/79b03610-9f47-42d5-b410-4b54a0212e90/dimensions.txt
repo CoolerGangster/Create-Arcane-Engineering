@@ -1,3 +1,0 @@
-minecraft:overworld
-cae:arcane
-cae:void
