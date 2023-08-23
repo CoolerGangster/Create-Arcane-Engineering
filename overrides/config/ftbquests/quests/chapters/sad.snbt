@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: -1.5d
-			y: 0.5d
+			x: -1.0d
+			y: 1.0d
 			width: 20.0d
 			height: 27.0d
 			rotation: 0.0d
@@ -37,8 +37,9 @@
 		{
 			title: "Chapter 2 Start!"
 			x: -1.5d
-			y: -9.0d
+			y: -6.75d
 			shape: "octagon"
+			subtitle: "Short tip, you can speedrun the majority of this chapter just by crafting rose quartz with quartz and redstone dust obtained from the world."
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			size: 1.5d
@@ -62,8 +63,8 @@
 		}
 		{
 			title: "Chapter 2"
-			x: -1.5d
-			y: 4.5d
+			x: -1.4d
+			y: 4.2d
 			shape: "rsquare"
 			dependencies: [
 				"0CEFD94EEE91DDE9"
@@ -190,13 +191,7 @@
 		{
 			x: -0.5d
 			y: 8.0d
-			description: [
-				"Automate Lava."
-				""
-				"Options are:"
-				" - A dripstone/cauldron based farm"
-				" - Using a Hose Pulley to take lava from a reservoir that holds more than 10k source blocks. You can find many pools of that size in the Nether."
-			]
+			subtitle: "Either make a lava farm. Or harvest it from the nether. Either way, this means get a way of infinite lava! I suggest heading to the Nether and using hose pulleys!"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "53F4A32746B719F2"
@@ -215,8 +210,8 @@
 		}
 		{
 			title: "Screwdrivin"
-			x: 0.0d
-			y: 4.5d
+			x: -0.5d
+			y: 2.0d
 			subtitle: "(the framedblocks screwdriver is 1 use only lmao)"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -235,8 +230,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.0d
+			x: -5.0d
+			y: 1.5d
 			dependencies: ["0158C3930229C41C"]
 			hide: true
 			id: "727A38A2922B49F6"
@@ -247,8 +242,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 3.0d
+			x: -4.5d
+			y: 2.5d
 			dependencies: ["727A38A2922B49F6"]
 			id: "5D36117177BCD37F"
 			tasks: [{
@@ -258,8 +253,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 2.5d
+			x: -4.0d
+			y: 1.5d
 			dependencies: ["4132AB6AF6FC3ED0"]
 			hide: true
 			id: "3E09633CF4F786AE"
@@ -277,12 +272,13 @@
 		{
 			title: "[optional] Variable Card"
 			x: -3.0d
-			y: 4.0d
-			description: ["As per usual, you can make your factory 2x as efficient by adding a simple extra step!"]
+			y: 3.0d
+			subtitle: "As per usual, you can make your factory 2x as efficient by adding a simple extra step!"
 			dependencies: [
 				"5D36117177BCD37F"
 				"3E09633CF4F786AE"
 			]
+			dependency_requirement: "one_completed"
 			id: "24B4AA7FE57740B1"
 			tasks: [{
 				id: "58A5E717210879EE"
@@ -303,7 +299,7 @@
 		}
 		{
 			title: "Unlock the Optional Route?"
-			x: -3.0d
+			x: -5.5d
 			y: 0.0d
 			subtitle: "Will double the rates by 2x. Requires some Menril Tree Work"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -341,21 +337,12 @@
 			]
 		}
 		{
-			title: "Skystone T(r)ip"
+			title: "Skystone Tip"
 			icon: "railways:track_birch"
-			x: -1.5d
-			y: -6.5d
-			description: [
-				"Meteorites can be shockingly far away from where your base is located."
-				""
-				"Welcome to this pack, where locational recources like these will be a reoccuring theme. "
-				"You have the choice to either build a factory around the Skystone Catalyst and only ship the finished products, "
-				"or create a rail line delivering the skystone to you. "
-				"The choice is yours, but you'll need a rail line connecting the factories either way."
-				""
-				"And another tip: Rightclicking the Skystone Catalyst with a Wooden Axe will move it 10 blocks upwards. "
-				"This feature was implemented to let you move your Catalyst away in case your meteorite spawned in the ocean or underground so you dont have to spend an eternity clearing out the area before building your factory."
-			]
+			x: 1.0d
+			y: -6.0d
+			subtitle: "Meteorites can be shockingly far away from where your base is situated. Welcome to this pack, locational recources like these are a reoccuring theme. Now you either have the choice to Make a factory on the Skystone Catalyst, or make a rail line delivering the skystone to you, the choice is yours. Either way, youll need a rail line connecting the factories."
+			description: ["2nd Tip: If you rightclick the skystone catalyst with a wooden axe it will moove 10 blocks up in the air, this is so if your meteorite is in the ocean you can moove the catalyst out so you dont have to clear an entire ocean or mine out a cave..."]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "323AEEF2915E79D2"
@@ -388,10 +375,7 @@
 			x: -1.5d
 			y: 6.0d
 			shape: "octagon"
-			description: [
-				"You can Crush or Mill obsidian for Powdered Obsidian at a chance of getting 2 each time. "
-				"Smelting the dusts will turn them back into Obsidian for you to crush again!"
-			]
+			subtitle: "You can Crush or Mill obsidian for Powdered Obsidian at a chance of getting 2 each time. You can reprocess 1 of the dusts using smelting back into Obsidian and use it again for crushing!"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "1377A2D928C6A05A"
@@ -413,7 +397,7 @@
 			}]
 		}
 		{
-			title: "Smelt Obsidian Dust for Obsidian!"
+			title: "Smelt down Obsidian Dust for Obsidian!"
 			x: -2.0d
 			y: 7.0d
 			dependencies: ["25EE3A139473ED49"]
@@ -437,13 +421,14 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -4.5d
-			description: ["You can mix Skystone Dust with Water to obtain Volatile Sky Solution."]
+			x: 2.5d
+			y: -3.0d
+			subtitle: "Mix Skystone Dust with Water"
 			dependencies: [
 				"626B12C1D9AEC171"
 				"3513058D64801DAF"
 			]
+			dependency_requirement: "one_completed"
 			id: "5FF85EC9DA06810F"
 			tasks: [{
 				id: "5AB4FE27F8287432"
@@ -463,42 +448,10 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
-			shape: "diamond"
-			description: ["Smelt Redstone Clusters to obtain Redstone Dust."]
-			dependencies: ["71204DE937D1B562"]
-			id: "189DB93AC1830737"
-			tasks: [{
-				id: "070B0323EF8EA47B"
-				type: "item"
-				item: "minecraft:redstone"
-			}]
-			rewards: [
-				{
-					id: "2F24B670EBAB520F"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_create_andesite"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "1690D23D3EE16222"
-					type: "item"
-					item: "minecraft:redstone_block"
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: -3.0d
-			description: ["Obtained by milling or crushing Gravel."]
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
+			x: 2.5d
+			y: -1.0d
+			subtitle: "Crush Gravel"
+			dependencies: ["587F4DF4DAE4FEA7"]
 			id: "68704916A38C450C"
 			tasks: [{
 				id: "0D5666E3AB5EC911"
@@ -508,19 +461,11 @@
 		}
 		{
 			title: "Discover the Skystone Catalyst"
-			x: -1.5d
-			y: -7.5d
+			x: 1.0d
+			y: -5.0d
 			shape: "square"
-			subtitle: "An Alien block, only found within Meteorites. "
-			description: [
-				"Not much is known about this relic, "
-				"but it appears to turn both blocks and air up to 11 Blocks away from it into Skystone whenever someone interacts with it while holding redstone dust. "
-				""
-				"Is this a form of alien allergy? "
-				"Perhaps it might be exploitable for infinite Skystone."
-			]
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
+			subtitle: "An Alien block, only found within Meteorites. Not much is known about this artifact, but what we have figured out, is that it is responsible for Transmuting everything up to 7 Blocks Away from it, when interacted with redstone dust, replacing it with Skystone, is this a form of alien allergy? Perhaps this is exploitable for infinite Skystone."
+			dependencies: ["44DC0A3FAA5645AB"]
 			id: "5D9D3025CB2DEEA4"
 			tasks: [{
 				id: "79A64C87821EFB2A"
@@ -543,10 +488,10 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -5.5d
-			description: ["Crushing Skystone results in Skystone Dust."]
-			dependencies: ["5D9D3025CB2DEEA4"]
+			x: 3.5d
+			y: -4.0d
+			subtitle: "Crush Skystone"
+			dependencies: ["6C157C90A109C62C"]
 			id: "626B12C1D9AEC171"
 			tasks: [{
 				id: "78CB906AB0F3F67E"
@@ -556,28 +501,13 @@
 		}
 		{
 			x: -1.5d
-			y: 0.0d
-			shape: "pentagon"
-			description: ["Rose Quartz can be crushed back into Redstone Seeds."]
-			dependencies: [
-				"0E1C18F07009AA94"
-				"189DB93AC1830737"
-			]
-			id: "5357ECF63E8DC401"
-			tasks: [{
-				id: "1D83E26B51891784"
-				type: "item"
-				item: "create:rose_quartz"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 1.5d
+			y: 2.0d
 			shape: "hexagon"
 			dependencies: [
-				"5357ECF63E8DC401"
-				"262EF6D138DAB69F"
+				"0EC86FFDFEDFDF96"
+				"608F9C97C746DA3A"
 			]
+			dependency_requirement: "one_completed"
 			id: "7EA15D680D22F69B"
 			tasks: [{
 				id: "2BB5D6DD433926E8"
@@ -605,18 +535,14 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: -4.5d
 			y: -3.0d
-			description: [
-				"Find a way to automate Iron."
-				""
-				"Options are:"
-				" - Washing Gravel"
-				" - Automating a Crimsite Catalyst"
-				" - or a Villager based Iron Farm."
+			subtitle: "Wash Gravel"
+			dependencies: [
+				"183650453A13684A"
+				"472F3F99F006C58B"
 			]
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
+			dependency_requirement: "one_completed"
 			id: "15AB5DED45C5B6E4"
 			tasks: [{
 				id: "4E3B307B57E9174E"
@@ -625,53 +551,17 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.5d
-			description: ["Use Either a Seared Melter or a full Smeltery to melt the Iron and Redstone."]
+			x: 1.5d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "Click for Info."
+			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
 			dependencies: [
-				"15AB5DED45C5B6E4"
-				"189DB93AC1830737"
-			]
-			id: "188BA56A5EBACDAF"
-			tasks: [{
-				id: "21325C2057DE4D58"
-				type: "item"
-				item: "tconstruct:seared_melter"
-			}]
-			rewards: [{
-				id: "0377837D0B554B56"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_brass"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: -4.5d
-			description: ["Obtained by Crushing Rose Quartz."]
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "71204DE937D1B562"
-			tasks: [{
-				id: "575DAFA044CF63F3"
-				type: "item"
-				item: "kubejs:redstone_seed"
-			}]
-		}
-		{
-			x: -1.5d
-			y: -3.0d
-			description: ["The Sequenced Assembly will always return Redstone Seeds as salvage."]
-			dependencies: [
-				"71204DE937D1B562"
 				"5FF85EC9DA06810F"
 				"68704916A38C450C"
+				"28F41BBD84F43AAB"
 			]
+			dependency_requirement: "one_completed"
 			id: "415F16AFB5FDC3FC"
 			tasks: [{
 				id: "04DC18B63F99A744"
@@ -691,8 +581,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -6.5d
+			x: 4.0d
+			y: -3.0d
 			shape: "rsquare"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -707,7 +597,6 @@
 			x: -3.5d
 			y: 10.0d
 			shape: "square"
-			description: ["Gives access to Integrated Dynamics, a Mod similar to ComputerCraft in its capabilities."]
 			dependencies: ["729FE7549853385E"]
 			id: "0CE0A2710D578A1A"
 			tasks: [{
@@ -738,58 +627,11 @@
 						}
 					}
 				}
-				{
-					id: "4645B99DA0EE854B"
-					type: "item"
-					item: "kubejs:integrational_mechanism"
-					count: 16
-				}
-				{
-					id: "743C831CA0684AEE"
-					type: "item"
-					item: "kubejs:gold_casing"
-					count: 2
-				}
 			]
 		}
 		{
-			x: 0.5d
-			y: 0.0d
-			description: ["Spout Destabilized Redstone onto Redstone Dust to create Rose Quartz"]
-			dependencies: ["188BA56A5EBACDAF"]
-			id: "0E1C18F07009AA94"
-			tasks: [{
-				id: "03A9E7FA6A6250A4"
-				type: "item"
-				item: "thermal:redstone_bucket"
-			}]
-			rewards: [{
-				id: "0F79ECDCDB2C1AFD"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_andesite"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 0.0d
-			y: 1.5d
-			description: ["Spout Molten Iron on Rose Quartz to make Electron Tubes."]
-			dependencies: ["188BA56A5EBACDAF"]
-			id: "262EF6D138DAB69F"
-			tasks: [{
-				id: "793D6FFAF859B575"
-				type: "item"
-				item: "tconstruct:molten_iron_bucket"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 1.5d
+			x: -4.5d
+			y: 0.5d
 			dependencies: ["0158C3930229C41C"]
 			hide: true
 			id: "4132AB6AF6FC3ED0"
@@ -816,7 +658,7 @@
 			title: "Lets Speedrun some Machines once again!"
 			icon: "create:brass_ingot"
 			x: -7.0d
-			y: 0.0d
+			y: -6.0d
 			shape: "square"
 			subtitle: "Luckily, this chapter is easy to speedrun as you really just need redstone and skystone!"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -830,10 +672,10 @@
 		}
 		{
 			title: "4x Crushing Wheels"
-			x: -6.0d
-			y: 1.0d
-			subtitle: "To efficiently automate Sand"
-			dependencies: ["4BC7774659DA5996"]
+			x: -7.0d
+			y: -4.0d
+			subtitle: "For sand automation. But shh, you can also make sand with a millstone at less efficiency!"
+			dependencies: ["54866C6D8E7DD4D1"]
 			dependency_requirement: "one_started"
 			id: "0D2D800F4A49CA86"
 			tasks: [{
@@ -855,21 +697,9 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 1.0d
-			subtitle: "Melting Iron and Redstone"
-			dependencies: ["4BC7774659DA5996"]
-			id: "74A44C35A73EB298"
-			tasks: [{
-				id: "0DD47A4E704F719D"
-				type: "item"
-				item: "tconstruct:seared_melter"
-			}]
-		}
-		{
 			title: "21x Mechanical Crafters"
 			x: -7.0d
-			y: 1.0d
+			y: -5.0d
 			subtitle: "For Crushing Wheels"
 			dependencies: ["4BC7774659DA5996"]
 			id: "54866C6D8E7DD4D1"
@@ -877,7 +707,175 @@
 				id: "0A8DF121E4AE9719"
 				type: "item"
 				item: "create:mechanical_crafter"
-				count: 27L
+				count: 21L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			dependencies: ["5D9D3025CB2DEEA4"]
+			id: "6C157C90A109C62C"
+			tasks: [{
+				id: "648FCD08F3DE9ECB"
+				type: "item"
+				item: "ae2:sky_stone_block"
+			}]
+		}
+		{
+			title: "Cobblestone"
+			icon: "minecraft:cobblestone"
+			x: 3.0d
+			y: 2.0d
+			shape: "rsquare"
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "68C479C7186A272E"
+			tasks: [{
+				id: "59BA3378413E26D7"
+				type: "checkmark"
+				title: "Make a Cobble Gen"
+			}]
+		}
+		{
+			title: "Gravel"
+			icon: "minecraft:gravel"
+			x: 2.5d
+			y: 0.5d
+			subtitle: "Crush Cobblestone"
+			dependencies: ["68C479C7186A272E"]
+			id: "587F4DF4DAE4FEA7"
+			tasks: [{
+				id: "731625C1D0DBD738"
+				type: "checkmark"
+				title: "Crush Cobblestone"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			subtitle: "As you can see, Redstone is quite Central! Click for more Info."
+			description: ["Redstone will have to go to The Catalyst to make more Skystone. Redstone will also have to go to a Smeltery to make Destabilized Redstone. Lastly, you win back Redstone by Smelting Redstone Clusters."]
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "44DC0A3FAA5645AB"
+			tasks: [{
+				id: "150B36A2AF20D48D"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "1AB3B0F68A9C03CE"
+			tasks: [{
+				id: "7B311DF874E9F6CF"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: [
+				"1AB3B0F68A9C03CE"
+				"44DC0A3FAA5645AB"
+			]
+			id: "630ECD0F8AB8AF0C"
+			tasks: [{
+				id: "4F8E2C92A1632FAA"
+				type: "item"
+				item: "thermal:redstone_bucket"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: [
+				"630ECD0F8AB8AF0C"
+				"44DC0A3FAA5645AB"
+			]
+			dependency_requirement: "one_completed"
+			id: "0EC86FFDFEDFDF96"
+			tasks: [{
+				id: "4928E8FC05FCF196"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Click for Info."
+			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
+			dependencies: ["0EC86FFDFEDFDF96"]
+			id: "28F41BBD84F43AAB"
+			tasks: [{
+				id: "559108A26CC73C87"
+				type: "item"
+				item: "kubejs:redstone_seed"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["415F16AFB5FDC3FC"]
+			id: "449387DB0AC44B63"
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: [
+				"1AB3B0F68A9C03CE"
+				"15AB5DED45C5B6E4"
+			]
+			id: "608F9C97C746DA3A"
+			tasks: [{
+				id: "017671F75778E46F"
+				type: "item"
+				item: "tconstruct:molten_iron_bucket"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			subtitle: "From Crimsite Catalysts. See the the Chapter Automated Excavation for more info."
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "472F3F99F006C58B"
+			tasks: [{
+				id: "5F4888E0B611709A"
+				type: "item"
+				item: "create:crushed_raw_iron"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			subtitle: "Crush Cobblestone"
+			dependencies: ["4BF0679BAD02D8AE"]
+			id: "183650453A13684A"
+			tasks: [{
+				id: "718D4C41D77F08F6"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			shape: "rsquare"
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "4BF0679BAD02D8AE"
+			tasks: [{
+				id: "5227F6047A422F41"
+				type: "item"
+				item: "minecraft:cobblestone"
 			}]
 		}
 	]

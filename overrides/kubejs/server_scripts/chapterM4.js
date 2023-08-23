@@ -25,7 +25,7 @@ onEvent('recipes', event => {
     let t = "create:experience_nugget"
     event.recipes.createSequencedAssembly([
         'forbidden_arcanus:xpetrified_orb',
-      ], 'create:experience_nugget', [
+      ], 'create:experience_block', [
         event.recipes.createPressing(t, ["create:experience_nugget"])
     ]).transitionalItem(t).loops(10)
 

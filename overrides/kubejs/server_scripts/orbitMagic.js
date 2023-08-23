@@ -7,17 +7,26 @@ let delay = 1
 
 onEvent('level.tick', event =>{
 	if (event.level.getDimension() != 'minecraft:overworld') {return}
-	event.level.getEntities('@e[type=ars_nouveau:spell_proj]').forEach(spell => {
-		if (spell.fullNBT.ForgeCaps['cae:properties'].kubejsdoshit  == "dontdoit") {
+	event.level.getEntities('@e[type=minecraft:area_effect_cloud]').forEach(spell => {
+		if (spell.fullNBT.ForgeCaps['cae:properties'].kubejsdoshit  == "IM ALIVE") {
 			let random2 = Math.random();
-			spell.block.popItem("minecraft:ancient_debris")
-			spell.block.popItem("minecraft:ancient_debris")
-			spell.block.popItem("minecraft:ancient_debris")
-			spell.block.popItem("minecraft:ancient_debris")
+			spell.block.set('air')
+			let d = "minecraft:ancient_debris"
+			if(spell.level.dimension == 'minecraft:overworld'){d = "minecraft:diamond"}
+			if(spell.level.dimension == 'minecraft:the_nether'){d = "minecraft:ancient_debris"}
+			if(spell.level.dimension == 'minecraft:the_end'){d = "minecraft:firework_rocket"}
+			for (let i = 0; i < 3; i++) {
+
+				spell.block.popItem(d)
+			}
+		
+
 			spell.remove()
 			return
-		   }
+		   }})
+		event.level.getEntities('@e[type=ars_nouveau:spell_proj]').forEach(spell => {
 		if (spell.fullNBT.ForgeCaps['cae:properties'].kubejsdoshit  != "doit") {
+			if(spell.fullNBT.ForgeCaps['cae:properties'].kubejsdoshit  == "dontdoit"){spell.remove()}
 			return
 			}
 

@@ -84,7 +84,7 @@
 			y: 1.5d
 			shape: "diamond"
 			subtitle: "Process an Experience Nugget under a press 10 times to produce an Xpetrified Orbs"
-			dependencies: ["2C7C88F0236ECBE8"]
+			dependencies: ["46FE534E423684FD"]
 			hide: false
 			id: "28FC493A45BD131F"
 			tasks: [{
@@ -747,6 +747,18 @@
 				type: "item"
 				item: "minecraft:ancient_debris"
 				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			shape: "pentagon"
+			dependencies: ["2C7C88F0236ECBE8"]
+			id: "46FE534E423684FD"
+			tasks: [{
+				id: "4B29D96A7C6FE68F"
+				type: "item"
+				item: "create:experience_block"
 			}]
 		}
 	]
