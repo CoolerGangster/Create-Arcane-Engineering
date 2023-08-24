@@ -171,10 +171,12 @@ onEvent('block.right_click', event =>{
 onEvent("block.right_click", event =>{
     if (event.item.id.includes("gavel") && event.block.id == "forbidden_arcanus:hephaestus_forge") {
         event.item.nbt.putInt("RemainingRitualUses",2147483647)
+        event.block.mergeEntityData('{Essences:{Corruption: 0}}')
        /*const itemid = event.item.id
+       e
        event.item.setCount(event.item.getCount()-1)
        event.player.give(Item.of(itemid,`${dmg}`))*/
-    }   
+    }       
 })
 onEvent('block.break', event => {
 

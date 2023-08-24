@@ -110,11 +110,17 @@ onEvent('level.tick', event => {
     if (global.fortnite != 0){global.fortnite--}
     else{
     global.fortnite = 20;
-    event.level.getEntities('@e[type=item, nbt = {Item:{id:"minecraft:nether_star",Count:1b}}]').forEach(Orb => {
+    event.level.getEntities('@e[type=item, nbt = {Item:{id:"minecraft:nether_star"}}]').forEach(Orb => {
         if (Orb.y >= 320){
+        const amt =Orb.fullNBT.getCompound("Item").getInt("Count")
         Orb.remove()
-        Orb.block.popItem('forbidden_arcanus:stellarite_piece')
+        for (let i = 0; i < amt; i++) {
+            Orb.block.popItem('forbidden_arcanus:stellarite_piece')
+        }
         let glow = event.entity.block.createEntity("thermal:glowstone_tnt")
+        glow.x = Orb.x
+        glow.y = Orb.y
+        glow.z = Orb.z
         glow.spawn()
         
         }
