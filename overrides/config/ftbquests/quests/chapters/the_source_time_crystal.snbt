@@ -229,7 +229,7 @@
 		}
 		{
 			x: 0.0d
-			y: 4.5d
+			y: 3.5d
 			subtitle: "Crushing a Silverfish, will make XP Nuggets!"
 			dependencies: ["26471D6D7EF98BFD"]
 			id: "020DF0D142C9EFAB"
@@ -241,7 +241,7 @@
 		}
 		{
 			x: -1.0d
-			y: 3.0d
+			y: 1.5d
 			subtitle: "Crush the Silverfish"
 			dependencies: ["2B836E8DC0E24294"]
 			id: "26471D6D7EF98BFD"
@@ -252,8 +252,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.5d
+			x: -2.5d
+			y: 3.0d
 			subtitle: "Mine Infested Stone, to spawn a Silverfish"
 			id: "2B836E8DC0E24294"
 			tasks: [

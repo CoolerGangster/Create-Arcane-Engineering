@@ -116,6 +116,7 @@ onEvent('level.tick', event => {
     if (event.level.dimension == 'cae:arcane'){
         event.level.getBlock(8117,114,10073).set("cae:stc")
         if(global.f >=1){
+            event.server.runCommandSilent(`execute in cae:clearlag run forceload add 6 -8 -3 2`)
             global.f--
         } else if (event.level.getBlock(8150,24,10085).id != "minecraft:barrier"){
             let d = { //this defines the position the strucututre will spawn at.
@@ -123,6 +124,8 @@ onEvent('level.tick', event => {
                 y: 64, //this is constant, but it doesnt have to be
                 z: 10000
             }
+           
+            
             event.server.runCommandSilent(`execute in cae:void run forceload add 9990 10053 10065 9982`)
             event.server.runCommandSilent(`execute in cae:arcane run forceload add 8043 10135 8270 9968`)
             event.server.runCommandSilent(`execute in cae:arcane run setblock 8040 23 9985 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:sun_temple",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
@@ -259,9 +262,12 @@ onEvent('item.right_click', event =>{ //generating new rooms
         } else if (event.item.id == "cae:nature_keystone"){
             event.level.getEntities('@e[type=minecraft:player]').forEach(player => {
                 if(player.level.dimension != "cae:void"){return;}
+                
                 playerEntry(event, player.name.text, {x: -32065, y: 119, z: 32118})
+                event.server.runCommandSilent(`execute in cae:void run gamemode adventure ${player.name.text}`)
             })
             event.server.scheduleInTicks(1, c => {
+                
                 c.server.runCommandSilent(`execute in cae:void run setblock -32049 94 32105 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:insanity",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
                 c.server.runCommandSilent(`execute in cae:void run setblock -32049 93 32105 minecraft:redstone_block`) 
                 c.server.runCommandSilent(`execute in cae:void run fill -32049 94 32105 -32049 93 32105 air`)
@@ -516,8 +522,6 @@ let forbidden = [
     'minecraft:stripped_dark_oak_wood',
     'framedblocks:framed_slab_edge',
     'minecraft:spruce_stairs',
-    'minecraft:red_mushroom',
-    'minecraft:brown_mushroom',
     'minecraft:bookshelf',
     
     'chipped:bookshelf_1',

@@ -113,7 +113,11 @@
 			title: "Trains in every Dimension!"
 			x: -4.5d
 			y: -13.5d
-			description: ["Rightclicking a Diamond Block with Flint and Steel will create a portals no matter the dimension, allowing trains to travel anywhere!"]
+			description: [
+				"Rightclicking a Diamond Block with Flint and Steel will create a portals no matter the dimension, allowing trains to travel anywhere!"
+				"This Portal only works for Trains, and their Inhabiting entities. To make the link work in the first place, you have to place a Track Down just as you would next to any Nether Portal. Just make sure to place it in the dimension you are attempting to link to."
+				"Place Your Portal in the Special Dimension. Then go through it. Go back to the special Dimension (not through the newly created Portal) and then place a Train Track at the Portal in the special dimension."
+			]
 			id: "0C07D49BEDE78634"
 			tasks: [
 				{

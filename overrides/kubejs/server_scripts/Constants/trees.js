@@ -12,7 +12,7 @@ const treeRegistry = [
               substrate: 'dirt',
               sap: 'integrateddynamics:menril_resin',
               rate: { living: 25, dead: 4 }
-            }
+            }//TODO: Start work here tomorrow (whenever tomorrow is)
         ]
     }
 ];
