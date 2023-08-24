@@ -71,4 +71,10 @@ onEvent('recipes', event => {
     event.remove({output: "integrateddynamics:part_connector_omni_directional"})
     event.remove({id: "integratedterminals:crafting/terminal_storage_portable"})
     //event.remove({output: 'forbidden_arcanus:eternal_stella'})
+    //Cast Iron Removal
+    event.remove({output: "dustrial_decor:cast_iron_balustrade"})
+    event.remove({output: "dustrial_decor:cast_iron_billet"})
+    event.remove({output: "dustrial_decor:cast_iron_block"})
+    //Tyr Samurai cost balancing
+    event.remove({output: "epicsamurai:tyr_samurai_chestplate"})
 })   
