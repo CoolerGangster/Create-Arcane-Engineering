@@ -30,6 +30,7 @@ onEvent('player.advancement', event => {
         event.server.runCommandSilent(`execute in cae:void run ftbquests block_rewards true ${d.name}`) //block quest rewards
         event.server.runCommandSilent(`effect give ${d.name} minecraft:absorption 100 100 true`)
         event.server.runCommandSilent(`execute in cae:void run clear ${d.name}`)
+        event.server.runCommandSilent(`execute in cae:void run curios clear ${d.name}`)
         event.server.runCommandSilent(`effect give ${d.name} minecraft:slow_falling 50 100 true`)
         event.server.runCommandSilent(`execute in cae:void run tp ${d.name} 10026 500 10028`)
         event.server.scheduleInTicks(40, c =>{
@@ -169,6 +170,7 @@ onEvent('block.right_click', event =>{
 function playerEntry (event, playerName, pos) {
     event.server.runCommandSilent(`execute in cae:void run gamemode survival ${playerName}`)
     event.server.runCommandSilent(`execute in cae:void run clear ${playerName}`)
+    event.server.runCommandSilent(`execute in cae:void run curios clear ${playerName}`)
     event.server.runCommandSilent(`effect give ${playerName} minecraft:absorption 100 100 true`)
     event.server.runCommandSilent(`effect give ${playerName} minecraft:slow_falling 20 100 true`)
     event.server.runCommandSilent(`execute in cae:void run tp ${playerName} ${pos.x} ${pos.y} ${pos.z}`)
