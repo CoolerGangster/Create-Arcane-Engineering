@@ -37,4 +37,31 @@ onEvent('recipes', event => {
     W: '#minecraft:planks'
   })
   event.shaped('kubejs:resonator', ["R B", "I I", "III"], {R: "minecraft:red_dye", B: "minecraft:blue_dye", I: "minecraft:iron_ingot"})
+  
+  //Cast Iron Unification
+  event.shaped('12x dustrial_decor:cast_iron_block', [
+    'SSS',
+    'S S',
+    'SSS'
+  ], {
+    S: 'createdeco:cast_iron_ingot'
+  })
+  event.shaped('16x dustrial_decor:cast_iron_balustrade', [
+    '   ',
+    'SSS',
+    'SSS'  
+  ], {
+    S: 'createdeco:cast_iron_sheet'
+  })
+
+  //Tyr Samurai Cost change
+  event.shaped('epicsamurai:tyr_samurai_chestplate', [
+    'GSG',
+    'AGA',
+    'AAA'  
+  ], {
+    S: 'thermal:steel_ingot',
+    A: 'forbidden_arcanus:golden_dragon_scale',
+    G: 'forbidden_arcanus:aquatic_dragon_scale'
+  })
 })
