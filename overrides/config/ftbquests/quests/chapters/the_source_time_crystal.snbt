@@ -137,7 +137,7 @@
 			y: -1.0d
 			shape: "diamond"
 			subtitle: "Click for Info."
-			description: ["Have a Wither Skeleton be lit on Soul Fire, and stand inside a Wither Rose. To make a Wither Skeleton with Ultra Buffed Skull Drops"]
+			description: ["Have a Skeleton be lit on Soul Fire, and stand inside a Wither Rose. To make a Wither Skeleton with Ultra Buffed Skull Drops"]
 			dependencies: [
 				"24561F85983A16EB"
 				"310C10FF294A195E"

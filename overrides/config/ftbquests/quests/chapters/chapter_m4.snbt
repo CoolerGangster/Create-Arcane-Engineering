@@ -83,7 +83,7 @@
 			x: 2.5d
 			y: 1.5d
 			shape: "diamond"
-			subtitle: "Process an Experience Nugget under a press 10 times to produce an Xpetrified Orbs"
+			subtitle: "Process an Experience Block under a press 10 times to produce an Xpetrified Orbs"
 			dependencies: ["46FE534E423684FD"]
 			hide: false
 			id: "28FC493A45BD131F"

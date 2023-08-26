@@ -90,7 +90,7 @@ onEvent('recipes', event => {
 		"cast_consumed": true,
 		"fluid": {
 		  "name": "kubejs:source",
-		  "amount": 200	
+		  "amount": 144	
 		},
 		"result": "ars_nouveau:source_gem",
 		"cooling_time": 100

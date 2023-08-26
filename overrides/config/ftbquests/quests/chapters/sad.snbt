@@ -878,6 +878,61 @@
 				item: "minecraft:cobblestone"
 			}]
 		}
+		{
+			title: "Eternal Screwdriver"
+			icon: {
+				id: "kubejs:screwdriver"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					Damage: 0
+					Repair: 1b
+					Modifier: "forbidden_arcanus:eternal"
+					Enchantments: [{ }]
+				}
+			}
+			x: -1.5d
+			y: -8.0d
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "4F6956BBD4CE7CCF"
+			tasks: [
+				{
+					id: "0A008155B6EA02F3"
+					type: "item"
+					item: "thermal:silver_coin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "0ABF89723D2340A1"
+					type: "item"
+					item: {
+						id: "kubejs:screwdriver"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "72EFCB2BD99F66C1"
+				type: "item"
+				item: {
+					id: "kubejs:screwdriver"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						Damage: 0
+						Repair: 1b
+						Modifier: "forbidden_arcanus:eternal"
+						Enchantments: [{ }]
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

@@ -688,7 +688,6 @@ onEvent('recipes', event => {
     multicut(copper_machines_cutting,"kubejs:sealed_machine",true)
     machine_smithing(copper_smithing, "kubejs:sealed_machine",true)
     const sturdy_smithing = [
-        [MC('redstone'),'2x railways:track_coupler'],
         [MC('lever'), 'create:controls'],
         [MC("observer"),'2x create:track_observer'],
         ['thermal:energy_cell_frame','thermal:energy_cell'],
@@ -710,7 +709,8 @@ onEvent('recipes', event => {
     ];
     const sturdy_cutting =[
         Item.of('pneumaticcraft:turbine_blade',4),
-        Item.of("pneumaticcraft:heat_pipe",8)
+        Item.of("pneumaticcraft:heat_pipe",8),
+        "2x railways:track_coupler"
 
     ]
     const sturdy_cutting2 =[

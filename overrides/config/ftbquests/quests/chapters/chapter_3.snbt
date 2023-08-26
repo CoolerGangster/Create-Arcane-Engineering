@@ -22,7 +22,7 @@
 		}
 		{
 			x: -1.0d
-			y: -2.5d
+			y: -3.0d
 			width: 21.0d
 			height: 23.0d
 			rotation: 0.0d
@@ -35,10 +35,14 @@
 	]
 	quests: [
 		{
+			title: "Chapter 3 Start!"
 			x: -1.0d
-			y: -11.0d
+			y: -11.3d
+			shape: "hexagon"
+			subtitle: "It's time to test your expertise."
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
+			size: 1.5d
 			id: "05BCD225FB1AD581"
 			tasks: [{
 				id: "48DEC554715A495D"
@@ -356,6 +360,7 @@
 				"Find Oil and automate it using a Hose Pulley to take from a source of more than 10,000 buckets. "
 				""
 				"You can do so by setting up a train link to one of the various crude oil deposits found in deserts, or by creating a deposit of your own at your base."
+				"cae:oil"
 			]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
@@ -1094,6 +1099,61 @@
 				id: "04A4406AB9BD7EAF"
 				type: "item"
 				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			title: "Eternal Resonator"
+			icon: {
+				id: "kubejs:resonator"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					Damage: 0
+					Repair: 1b
+					Modifier: "forbidden_arcanus:eternal"
+					Enchantments: [{ }]
+				}
+			}
+			x: -2.2d
+			y: -11.3d
+			dependencies: ["3A10D0D5E8548C54"]
+			hide: true
+			id: "17FEA552B950FD37"
+			tasks: [
+				{
+					id: "4CA00E5C3B54F009"
+					type: "item"
+					item: "thermal:silver_coin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "564403D5D55F2A79"
+					type: "item"
+					item: {
+						id: "kubejs:resonator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "04F532D68D837745"
+				type: "item"
+				item: {
+					id: "kubejs:resonator"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						Damage: 0
+						Repair: 1b
+						Modifier: "forbidden_arcanus:eternal"
+						Enchantments: [{ }]
+					}
+				}
 			}]
 		}
 	]
