@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "d1212wsss",
+  "name": "asdasdadddddddddddd",
   "version": "0.3",
   "author": "",
   "files": [
@@ -207,6 +207,11 @@
     {
       "projectID": 398430,
       "fileID": 4377178,
+      "required": true
+    },
+    {
+      "projectID": 363363,
+      "fileID": 4033047,
       "required": true
     },
     {
