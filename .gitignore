@@ -87,7 +87,6 @@ overrides/fancymenu_data/last_world.fmdata
 overrides/fancymenu_instance_data/extensions/fmaudio/muted_audio_items.properties
 overrides/instance.json
 overrides/knownkeys.txt
-overrides/kubejs/assets/kubejs/textures/gears.png
 overrides/kubejs/assets/ponderjs_generated/lang/en_us.json
 overrides/kubejs/probe/cache/cachedEvents.json
 overrides/kubejs/probe/cache/cachedForgedEvents.json
