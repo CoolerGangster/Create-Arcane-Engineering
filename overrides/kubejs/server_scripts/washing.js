@@ -6,4 +6,7 @@ onEvent('recipes', event => {
   event.recipes.create.splashing(['minecraft:bowl', Item.of('kubejs:mage_leaf',1).withChance(0.35)],'kubejs:dirty_bowl')
   event.recipes.create.splashing('kubejs:rejuvinated_menril_shrub',['kubejs:menril_shrub'])
   event.recipes.create.splashing('10x minecraft:iron_nugget', 'create:crushed_raw_iron')
+  event.recipes.createSplashing([MC("exposed_copper")], [MC("copper_block")])
+	event.recipes.createSplashing([MC("weathered_copper")], [MC("exposed_copper")])
+	event.recipes.createSplashing([MC("oxidized_copper")], [MC("weathered_copper")])
 })
