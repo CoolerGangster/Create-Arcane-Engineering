@@ -68,4 +68,10 @@ disable_notifications = false
 #maximum time (in ticks) remaining on a chest before a notification for refreshing or decaying is sent to a player (default 30 seconds, -1 for no delay)
 #Range: > -1
 notification_delay = 600
+#allow the destruction of Lootr chests regardless. overrides `disable_break`
+enable_break = false
+#disregard chests and chunks that are outside of the world border; enable this option if you are using a world border and are suffering consistent TPS issues; if you change the world border, you will need to restart your client
+check_world_border = false
+#allows fake players to destroy Lootr chests without having to sneak, overrides the `disable_break` option for fake players
+enable_fake_player_break = false
 

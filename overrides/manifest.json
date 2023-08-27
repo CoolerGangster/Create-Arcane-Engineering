@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "asdasdadddddddddddd",
-  "version": "0.3",
+  "name": "Create Arcane Engineering",
+  "version": "2.0",
   "author": "",
   "files": [
     {
@@ -210,13 +210,13 @@
       "required": true
     },
     {
-      "projectID": 363363,
-      "fileID": 4033047,
+      "projectID": 495509,
+      "fileID": 3931224,
       "required": true
     },
     {
-      "projectID": 495509,
-      "fileID": 3931224,
+      "projectID": 363363,
+      "fileID": 4033047,
       "required": true
     },
     {
@@ -432,6 +432,11 @@
     {
       "projectID": 241895,
       "fileID": 3830926,
+      "required": true
+    },
+    {
+      "projectID": 619320,
+      "fileID": 4688288,
       "required": true
     },
     {
@@ -802,6 +807,11 @@
     {
       "projectID": 831663,
       "fileID": 4519961,
+      "required": true
+    },
+    {
+      "projectID": 552176,
+      "fileID": 3683373,
       "required": true
     },
     {
