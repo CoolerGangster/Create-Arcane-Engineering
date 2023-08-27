@@ -273,6 +273,52 @@
 				}
 			]
 		}
+		{
+			x: -4.5d
+			y: -3.5d
+			id: "2ABB3C0DCA7552CA"
+			tasks: [{
+				id: "26A9C079DB34F2DC"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			subtitle: "Crush Waystones"
+			dependencies: ["2ABB3C0DCA7552CA"]
+			id: "665C7E2993133154"
+			tasks: [{
+				id: "5A224C0FFBA20A2D"
+				type: "item"
+				item: "kubejs:warp_fragments"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["665C7E2993133154"]
+			id: "37362D3A67E8927A"
+			tasks: [{
+				id: "77E23226DB51A173"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: " "
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["37362D3A67E8927A"]
+			id: "363344F761BA3169"
+		}
 	]
 	quest_links: [ ]
 }

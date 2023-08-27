@@ -15,6 +15,6 @@ onEvent('recipes', event => {
         "waystones:mossy_waystone",
      "waystones:sandy_waystone" ]
      dumbshit.forEach(i => {
-      event.recipes.create.crushing(["5x kubejs:warp_fragments",Item.of("kubejs:warp_fragments").withChance(0.3333)],i)
+      event.recipes.create.crushing(["5x kubejs:warp_fragments",Item.of("kubejs:warp_fragments")],i)
      })
 })
