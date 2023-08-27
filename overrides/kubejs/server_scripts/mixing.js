@@ -11,4 +11,7 @@ onEvent('recipes', event => {
     event.recipes.createMixing(['2x kubejs:time_mechanism',"kubejs:empty_vial"], ['tiab:time_in_a_bottle','2x kubejs:radiant_mechanism']).superheated()
     event.recipes.createMixing(Fluid.of('pneumaticcraft:yeast_culture',200),['#forge:mushrooms',Fluid.of('minecraft:water',1000)]).heated()
     event.recipes.createMixing(Fluid.of('createaddition:bioethanol',50),['minecraft:sugar',Fluid.of('pneumaticcraft:yeast_culture',100)]).heated()
+    event.recipes.createMixing(["waystones:warp_stone","kubejs:empty_vial"],["5x kubejs:warp_fragments","tiab:time_in_a_bottle"])
+    
+    
 })  

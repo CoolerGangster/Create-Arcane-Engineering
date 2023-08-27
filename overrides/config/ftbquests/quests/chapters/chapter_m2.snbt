@@ -355,6 +355,65 @@
 				item: "kubejs:runic_tablet"
 			}]
 		}
+		{
+			title: "Don't be frustrated."
+			icon: {
+				id: "kubejs:source_candy_rock"
+				Count: 1b
+				tag: {
+					Enchantments: [{ }]
+				}
+			}
+			x: 0.5d
+			y: -8.0d
+			subtitle: "Positive Affirmations (totally not brainwashing)"
+			dependencies: ["07D1ED74C8A30306"]
+			hide: true
+			id: "5A6F9DE733759A51"
+			tasks: [
+				{
+					id: "67580E5282D9AF16"
+					type: "checkmark"
+					title: "I am loved"
+				}
+				{
+					id: "4E79696CC13F9886"
+					type: "checkmark"
+					title: "I accept, that this chapter seems simple."
+				}
+				{
+					id: "0A2F53B4A0196A13"
+					type: "checkmark"
+					title: "I embrace, that altough simple, this chapter needs a lot of infrastructure."
+				}
+				{
+					id: "6AA0C48F791FC1E5"
+					type: "checkmark"
+					title: "I will be wealthy with Source Gems"
+				}
+				{
+					id: "5DDD45D325280925"
+					type: "checkmark"
+					title: "I am a sane individual"
+				}
+				{
+					id: "577A4FDADAEBA724"
+					type: "checkmark"
+					title: "I am not crazy"
+				}
+				{
+					id: "7E7F176F1F2D7AD5"
+					type: "checkmark"
+					title: "crazy? I was crazy once"
+				}
+			]
+			rewards: [{
+				id: "529CC429D1300405"
+				type: "item"
+				item: "kubejs:source_candy_rock"
+				count: 10
+			}]
+		}
 	]
 	quest_links: [ ]
 }

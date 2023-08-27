@@ -38,7 +38,8 @@ onEvent('item.registry', (event) => {
         event.create(id + '_cluster').texture("kubejs:item/" + id + "_cluster").displayName(name + ' Seed Cluster')
         event.create('incomplete_' + id, 'create:sequenced_assembly').texture("kubejs:item/" + id + "_seed").displayName('Incomplete ' + name)
     }
-    event.create('leather_pocket')
+    event.create('leather_pocket')  
+    event.create('warp_fragments').rarity(RARITY_RARE).glow(true)
     event.create('radiant_coil').glow(true).texture("kubejs:item/radiant_coil").displayName('Radiant Induction Coil')
     event.create('radiant_sheet').glow(true).texture("kubejs:item/radiant_sheet").displayName('Radiant Sheet')
     event.create('petrified_sheet').texture("kubejs:item/petrified_sheet").displayName('Petrified Sheet')
@@ -49,6 +50,7 @@ onEvent('item.registry', (event) => {
     event.create('makeshift_kinetic_mechanism').tooltip("Without menril wood, the Mechanism isn't sturdy enough to support further tiers of mechanisms.")
     mechanism('Sealed') 
     mechanism('Sturdy')
+    event.create('track_tool').glow(true)
     mechanism('Plastic', RARITY_UNCOMMON)
     mechanism('Integrational', RARITY_UNCOMMON)
     event.create('radiant_mechanism').texture("kubejs:item/radiant_mechanism").displayName('Radiant Mechanism').rarity(RARITY_COMMON).glow(true)

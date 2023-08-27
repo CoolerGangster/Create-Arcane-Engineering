@@ -10,4 +10,11 @@ onEvent('recipes', event => {
   event.recipes.create.milling('3x thermal:blizz_powder', 'thermal:blizz_rod')
   event.recipes.create.milling('3x thermal:basalz_powder', 'thermal:basalz_rod')
   event.recipes.create.milling('3x thermal:blitz_powder', 'thermal:blitz_rod')
+  
+    let dumbshit = [ "waystones:waystone",
+        "waystones:mossy_waystone",
+     "waystones:sandy_waystone" ]
+     dumbshit.forEach(i => {
+      event.recipes.create.crushing(["5x kubejs:warp_fragments",Item.of("kubejs:warp_fragments").withChance(0.3333)],i)
+     })
 })

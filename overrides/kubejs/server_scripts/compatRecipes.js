@@ -785,11 +785,14 @@ onEvent('recipes', event => {
         ['integrateddynamics:squeezer','integrateddynamics:mechanical_squeezer'],
         ['integrateddynamics:variable','integrateddynamics:materializer'],
         ['integrateddynamics:variablestore','integrateddynamics:proxy'],
-        ['createaddition:modular_accumulator','integrateddynamics:energy_battery'],
         ['minecraft:chest','integrateddynamics:variablestore'],
         ['integrateddynamics:variable_transformer_input','integratednbt:nbt_extractor']
 
     ]
+    const integrational_manual = [
+        ['createaddition:modular_accumulator','integrateddynamics:energy_battery']
+    ]
+    machine_smithing(integrational_manual,'kubejs:integrational_machine',false)
     const radiant_cutting = [
         //Item.of('alloyedguns:complex_gun_kit')
     ]
@@ -837,6 +840,7 @@ onEvent('recipes', event => {
         ["waystones:warp_stone","waystones:mossy_waystone"],
         ["waystones:warp_stone","waystones:sandy_waystone"]
     ]
+    event.remove({id:"waystones:warp_stone"})
     
     const timecutting = [
         Item.of(AE2('formation_core'),4),

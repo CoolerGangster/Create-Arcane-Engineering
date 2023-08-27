@@ -92,15 +92,8 @@
 			x: -6.0d
 			y: -10.0d
 			description: [
-				"All ores can be found in every biome, but their rarity and deposit size are affected by the Biome. "
-				"Every Ore has one particular biome where it is found in the largest quantity and one biome where it has the highest vein spawn rates but only appears in small deposits (1k-7k ish). All other biomes just contain normal veins at the usual, low, frequency. "
+				"Check the Ore Excavation Chapter for more Info"
 				""
-				"All info on the Biomes and max vein sizes of a particular ore can be found in the recipe tab for the drilling machine."
-				""
-				"Gold is most commonly found in Dry biomes, and also appears in the nether, but these veins are more limited."
-				"Iron appears most commonly in Jungles, and secondarily in Rare biomes, such as the flower forest. The same goes for Tin, Lead, Nickel and Zinc."
-				"Copper is found most commonly in Mountains, and secondarily in Rare biomes."
-				"Lastly, Silver is most commonly found in Mountains, and appears secondarily in the End"
 			]
 			id: "51054C4D158084AD"
 			tasks: [{

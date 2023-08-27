@@ -31,6 +31,8 @@ onEvent('recipes', event => {
     event.remove({output: 'tconstruct:liquid_redstone_bucket'})
     event.remove({output: 'thermal:niter'})
     event.remove({id: 'pneumaticcraft:heat_frame_cooling/plastic'}) 
+    event.remove({id: 'thermal:compat/tconstruct/tree_extractor_tconstruct_ender_slime'}) 
+    event.remove({id: 'integrateddynamics:crafting/energy_battery'}) 
     event.remove({id: 'pneumaticcraft:printed_circuit_board'})      
     event.remove({type: 'ae2:inscriber'})
     event.remove({id: 'pneumaticcraft:amadron/oil_to_emerald'})
