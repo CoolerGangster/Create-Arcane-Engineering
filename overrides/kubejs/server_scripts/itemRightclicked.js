@@ -19,4 +19,10 @@ onEvent('block.right_click', event =>{
 		event.player.statusMessage = 'We\'ve prevented this item from interacting with Create components due to a possible Crash.'
 		event.cancel()
 	}
+	if (event.item.id.includes("gavel") && event.block.id == "forbidden_arcanus:hephaestus_forge") {
+        event.item.nbt.putInt("RemainingRitualUses", 256)
+        let data = event.block.entityData
+        data.Essences.Corruption = 0
+        event.block.mergeEntityData(data) //why do i have to merge the entire data :/
+    }
 })
