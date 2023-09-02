@@ -153,6 +153,10 @@ let dumbshitarray =  [
     "ae2:terminal",
     "2x entangled:block",
     "pneumaticcraft:aerial_interface",
+    "kubejs:zinc_casing",
+    "kubejs:gold_casing",
+    "kubejs:enderium_casing",
+    "kubejs:supercritical_casing"
 ]
 
 onEvent('block.right_click', event =>{
