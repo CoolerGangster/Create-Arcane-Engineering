@@ -178,7 +178,7 @@
 		{
 			title: "The Saw"
 			x: 2.0d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "Sawcon"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
@@ -436,10 +436,10 @@
 			}]
 		}
 		{
-			title: "Common Concerns"
+			title: "Welcome Engineer!"
 			icon: "architects_palette:hazard_sign"
 			x: 0.0d
-			y: -2.0d
+			y: -1.5d
 			shape: "gear"
 			description: ["While the early chapters look similar to Above \\& Beyond, the pack diverges wildly as you progress."]
 			dependencies: ["3BAD2CEF1245F202"]
@@ -466,8 +466,8 @@
 		}
 		{
 			title: "Cant find any Andesite or Diorite? We got you."
-			x: 1.0d
-			y: -2.0d
+			x: 0.5d
+			y: 0.0d
 			shape: "gear"
 			description: [
 				"Andesite is most commonly found in Forest biomes."
@@ -714,8 +714,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
+			x: -2.0d
+			y: 4.5d
 			shape: "pentagon"
 			dependencies: ["66CF869E554ADF06"]
 			id: "5EC51DF0F91C1C5E"
@@ -726,8 +726,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 2.5d
+			x: -4.0d
+			y: 3.0d
 			shape: "octagon"
 			dependencies: ["2D3F582CF81B08C7"]
 			id: "2B079ED92A265059"
@@ -738,8 +738,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.5d
+			x: -2.0d
+			y: 3.0d
 			shape: "hexagon"
 			dependencies: ["2B079ED92A265059"]
 			id: "66CF869E554ADF06"
@@ -849,7 +849,7 @@
 			id: "4E6D567989DB1215"
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
 			description: ["You can smelt Gravel into Andesite!"]
 			dependencies: ["0F2D17506A5B767D"]
@@ -896,7 +896,7 @@
 		}
 		{
 			x: 2.0d
-			y: -1.5d
+			y: -1.0d
 			shape: "diamond"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
@@ -909,7 +909,7 @@
 		}
 		{
 			x: 4.0d
-			y: -1.5d
+			y: -1.0d
 			shape: "diamond"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
@@ -921,7 +921,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 			description: ["Crush the Cobblestone into Gravel"]
 			dependencies: ["2B23E9988262E352"]
@@ -946,8 +946,8 @@
 		}
 		{
 			title: "Early game item filtering."
-			x: -1.0d
-			y: -2.0d
+			x: -0.5d
+			y: 0.0d
 			shape: "gear"
 			description: [
 				"Filtering items is possible, even without brass!"
@@ -990,8 +990,8 @@
 		}
 		{
 			icon: "minecraft:light"
-			x: -2.5d
-			y: -2.0d
+			x: -4.0d
+			y: -2.5d
 			subtitle: "If your sapling isn't growing, check for any unnatural blocks in a 5x15x5 area around it. Also check that it has enough light to grow."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
@@ -1015,8 +1015,8 @@
 					Enchantments: [{ }]
 				}
 			}
-			x: 0.0d
-			y: -3.0d
+			x: 2.0d
+			y: 3.5d
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "455CE1A58D8D524E"

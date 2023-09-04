@@ -47,6 +47,10 @@ onEvent('tags.items', event => {
         /^itemfilters:/,
         /^cae/,
         /^waystones:/,
-        "create:handheld_worldshaper"
+        "create:handheld_worldshaper",
+        "kubejs:finalpcb",
+        "randomium:randomium",
+        "kubejs:god_actuation_fluid_bucket",
+        "kubejs:fluid_actuation_fluid_bucket",
     ])
 })

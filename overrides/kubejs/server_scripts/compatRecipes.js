@@ -238,7 +238,7 @@ onEvent('recipes', event => {
     //dye automations
     let corundum = ["red", "orange", "yellow", "green", "blue", "white", "black"]
     corundum.forEach(Color => {
-        event.recipes.createPressing(Item.of('minecraft:' + Color + '_dye').withChance(0.33),'quark:' + Color + '_corundum_cluster')
+        event.recipes.createPressing(Item.of('minecraft:' + Color + '_dye'),'quark:' + Color + '_corundum_cluster')
     });
     /*event.shaped('8x create:cogwheel', [ //TODO: Check if ME controller is wrenchpickupable
         'GGG',

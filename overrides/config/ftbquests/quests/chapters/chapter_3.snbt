@@ -276,6 +276,17 @@
 				type: "item"
 				item: "kubejs:anthraquinone"
 			}]
+			rewards: [{
+				id: "78385925F09D7ABB"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_create_radiant"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			title: "The glowstone reactor"
@@ -560,8 +571,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -4.0d
+			x: -3.0d
+			y: -2.5d
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "25223990C329055B"
@@ -640,7 +651,6 @@
 							Damage: 0
 						}
 					}
-					count: 2
 				}
 			]
 		}
@@ -658,8 +668,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 2.5d
+			x: -5.0d
+			y: 1.5d
 			shape: "diamond"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -675,7 +685,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -1.0d
 			y: 3.5d
 			dependencies: [
 				"24C1844E85C471F9"
@@ -726,8 +736,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 4.5d
+			x: 1.0d
+			y: 3.5d
 			dependencies: ["6F59B705C4AC7E93"]
 			id: "7F668BCB6E7FED46"
 			tasks: [{
@@ -738,9 +748,9 @@
 		}
 		{
 			title: "Option 2: LPG Route"
-			x: 0.0d
-			y: 5.5d
-			shape: "rsquare"
+			x: 1.75d
+			y: 4.5d
+			shape: "square"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "6F59B705C4AC7E93"
@@ -763,8 +773,8 @@
 		}
 		{
 			title: "[Byproduct] All colors of fuel."
-			x: 1.0d
-			y: 4.5d
+			x: 2.5d
+			y: 3.5d
 			dependencies: ["6F59B705C4AC7E93"]
 			id: "01170F6AF97D2887"
 			tasks: [
@@ -798,8 +808,8 @@
 		}
 		{
 			title: "The Industrial Revolution"
-			x: 3.0d
-			y: 3.5d
+			x: 4.0d
+			y: 2.5d
 			subtitle: "Reprocess your output fuels to fuel your Factory."
 			dependencies: ["248443FB4003CD22"]
 			id: "5A4A535DF716F163"
@@ -810,8 +820,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.5d
+			x: 2.5d
+			y: 2.5d
 			dependencies: [
 				"01170F6AF97D2887"
 				"5CF7DD93DE302B8E"
@@ -866,6 +876,7 @@
 			y: 5.5d
 			shape: "gear"
 			dependencies: ["11B6AE2F61CB518A"]
+			size: 1.5d
 			id: "0B18125292828D4D"
 			tasks: [{
 				id: "0899A09E0003375C"
@@ -900,14 +911,15 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 4.5d
+			x: -5.0d
+			y: 5.5d
 			shape: "gear"
 			description: [
 				"Applied Energistics; I'm waiting for you. "
 				"A lot of machines are still gated behind a higher technology tier, but you should be able to set up a very basic ME system"
 			]
 			dependencies: ["1393B214AF417C06"]
+			size: 1.5d
 			id: "3070EC94FB14615C"
 			tasks: [{
 				id: "24D8C402AE782367"
@@ -1006,7 +1018,7 @@
 		}
 		{
 			title: "Option 1: Biodiesel Route"
-			x: -2.0d
+			x: -1.0d
 			y: -1.0d
 			shape: "rsquare"
 			dependencies: ["19232B8B77F86AF8"]
@@ -1063,15 +1075,10 @@
 				item: "kubejs:incomplete_anthraquinone"
 			}]
 			rewards: [{
-				id: "30731462C653984B"
+				id: "5D77DB9153E5C445"
 				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_radiant"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "kubejs:sushi"
+				count: 8
 			}]
 		}
 		{
@@ -1114,8 +1121,8 @@
 					Enchantments: [{ }]
 				}
 			}
-			x: -2.2d
-			y: -11.3d
+			x: -3.0d
+			y: -3.5d
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "17FEA552B950FD37"
