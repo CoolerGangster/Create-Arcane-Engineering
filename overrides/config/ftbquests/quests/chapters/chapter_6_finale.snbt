@@ -1056,7 +1056,7 @@
 		}
 		{
 			x: 0.0d
-			y: -1.0d
+			y: 0.0d
 			description: ["You have to fill the Source Crystal without damaging its structure. Maybe entangled blocks could help?"]
 			dependencies: ["33B884E7D9E5A820"]
 			hide: true

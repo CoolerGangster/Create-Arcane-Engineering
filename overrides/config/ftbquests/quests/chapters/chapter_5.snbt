@@ -303,6 +303,7 @@
 		}
 		{
 			title: "Arcane Washing"
+			icon: "cae:orb_spawn_egg"
 			x: 5.5d
 			y: -1.5d
 			description: ["Have the Entity pass through Liquid Space Time while on top of a black hole. Will Absorb both."]
@@ -313,12 +314,9 @@
 			]
 			id: "4BCEB0647E3CD6D6"
 			tasks: [{
-				id: "028F96A66845C0DB"
-				type: "observation"
-				icon: "cae:orb_spawn_egg"
-				timer: 0L
-				observe_type: 5
-				to_observe: "cae:essentialorb"
+				id: "1E3F07D9F605FCD9"
+				type: "checkmark"
+				title: "Done"
 			}]
 		}
 		{

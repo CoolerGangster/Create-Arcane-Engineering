@@ -30,6 +30,8 @@ onEvent('item.tooltip',tooltip => {
         ['forbidden_arcanus:pixie_utrem_jar','Wash a Corrupted Pixie Utrem Jar.'],
         ['forbidden_arcanus:aureal_bottle','Made by Filling a Glass Vial with Aureal Essence'],
         ['minecraft:glowstone_dust','Glow Fire is made by lighting Shimmer Sand on Fire'],
+        ['kubejs:dichromic_acid_bucket','Drop Chrome in Water'],
+        ['kubejs:sulfuric_acid_bucket','Drop Sulfur Dust in Water'],
         ["kubejs:source_bucket","Shapeless Craft it into a Ars Nouveau Source Bucket, which then can be rightclicked onto sourcejars..."],
         ["ars_nouveau:bucket_of_source","Right-Click Source Jars to insert the Source, can be made from Source Buckets from KubeJS"],
         ["cae:skystone_catalyst", "An alien Artifact found at the heart of a Meteorite. Right-Click it with redstone to make it create Skystone In a Cloud around it."],

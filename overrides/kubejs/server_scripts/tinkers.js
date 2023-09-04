@@ -96,6 +96,21 @@ onEvent('recipes', event => {
 		"cooling_time": 100
 	  }
 	  )
+	  event.custom({
+		"type": "tconstruct:casting_table",
+		"cast": {
+		  "tag": "forge:nuggets"
+		},
+		"cast_consumed": true,
+		"fluid": {
+		  "name": "tconstruct:molten_gold",
+		  "amount": 90	
+		},
+		"result": "tconstruct:nugget_cast",
+		"cooling_time": 40
+	  }
+	  )
+	  
 	event.custom({
 		"type": "tconstruct:melting_fuel",
 		"fluid": {

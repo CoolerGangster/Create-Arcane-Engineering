@@ -83,7 +83,7 @@
 			x: 2.5d
 			y: 1.5d
 			shape: "diamond"
-			subtitle: "Process an Experience Block under a press 10 times to produce an Xpetrified Orbs"
+			subtitle: "Process an Experience Block under a press 10 times to produce an Xpetrified Orb"
 			dependencies: ["46FE534E423684FD"]
 			hide: false
 			id: "28FC493A45BD131F"
@@ -641,6 +641,11 @@
 			y: -3.0d
 			dependencies: ["26EFD55243E3D198"]
 			id: "71384DD64BC880DE"
+			tasks: [{
+				id: "3421BD48D94D4ACE"
+				type: "checkmark"
+				title: "Understood"
+			}]
 		}
 		{
 			x: 5.5d
