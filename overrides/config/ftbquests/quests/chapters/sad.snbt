@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: -1.0d
-			y: 1.0d
+			x: -1.5d
+			y: 2.0d
 			width: 20.0d
 			height: 27.0d
 			rotation: 0.0d
@@ -37,7 +37,7 @@
 		{
 			title: "Chapter 2 Start!"
 			x: -1.5d
-			y: -6.75d
+			y: -6.0d
 			shape: "octagon"
 			subtitle: "Short tip, you can speedrun the majority of this chapter just by crafting rose quartz with quartz and redstone dust obtained from the world."
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -63,16 +63,16 @@
 		}
 		{
 			title: "Chapter 2"
-			x: -1.4d
-			y: 4.2d
-			shape: "rsquare"
+			x: -1.5d
+			y: 4.0d
+			shape: "gear"
 			dependencies: [
 				"0CEFD94EEE91DDE9"
 				"24B4AA7FE57740B1"
 				"7EA15D680D22F69B"
 			]
 			dependency_requirement: "one_completed"
-			size: 1.4d
+			size: 1.5d
 			id: "1CF1A735F77415F2"
 			tasks: [{
 				id: "178E2929328BE139"
@@ -119,9 +119,11 @@
 		}
 		{
 			x: -1.5d
-			y: 10.0d
-			shape: "square"
+			y: 10.5d
+			shape: "gear"
 			dependencies: ["48302F40D36471FB"]
+			hide: true
+			size: 1.5d
 			id: "730102EB2E56C6A1"
 			tasks: [{
 				id: "6F07F6CE635BB23A"
@@ -157,7 +159,7 @@
 		}
 		{
 			x: -1.5d
-			y: 9.0d
+			y: 8.5d
 			dependencies: [
 				"53F4A32746B719F2"
 				"25EE3A139473ED49"
@@ -189,8 +191,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 8.0d
+			x: 0.0d
+			y: 8.5d
 			subtitle: "Either make a lava farm. Or harvest it from the nether. Either way, this means get a way of infinite lava! I suggest heading to the Nether and using hose pulleys!"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
@@ -210,8 +212,9 @@
 		}
 		{
 			title: "Screwdrivin"
-			x: -0.5d
-			y: 2.0d
+			x: 0.0d
+			y: 4.0d
+			shape: "rsquare"
 			subtitle: "(the framedblocks screwdriver is 1 use only lmao)"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -230,8 +233,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 1.5d
+			x: -6.0d
+			y: 4.0d
 			dependencies: ["0158C3930229C41C"]
 			hide: true
 			id: "727A38A2922B49F6"
@@ -243,7 +246,7 @@
 		}
 		{
 			x: -4.5d
-			y: 2.5d
+			y: 4.0d
 			dependencies: ["727A38A2922B49F6"]
 			id: "5D36117177BCD37F"
 			tasks: [{
@@ -253,8 +256,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.5d
+			x: -3.0d
+			y: 2.0d
 			dependencies: ["4132AB6AF6FC3ED0"]
 			hide: true
 			id: "3E09633CF4F786AE"
@@ -272,7 +275,7 @@
 		{
 			title: "[optional] Variable Card"
 			x: -3.0d
-			y: 3.0d
+			y: 4.0d
 			subtitle: "As per usual, you can make your factory 2x as efficient by adding a simple extra step!"
 			dependencies: [
 				"5D36117177BCD37F"
@@ -299,8 +302,8 @@
 		}
 		{
 			title: "Unlock the Optional Route?"
-			x: -5.5d
-			y: 0.0d
+			x: -7.0d
+			y: 3.0d
 			subtitle: "Will double the rates by 2x. Requires some Menril Tree Work"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -339,8 +342,8 @@
 		{
 			title: "Skystone Tip"
 			icon: "railways:track_birch"
-			x: 1.0d
-			y: -6.0d
+			x: 1.5d
+			y: -5.0d
 			subtitle: "Meteorites can be shockingly far away from where your base is situated. Welcome to this pack, locational recources like these are a reoccuring theme. Now you either have the choice to Make a factory on the Skystone Catalyst, or make a rail line delivering the skystone to you, the choice is yours. Either way, youll need a rail line connecting the factories."
 			description: ["2nd Tip: If you rightclick the skystone catalyst with a wooden axe it will moove 10 blocks up in the air, this is so if your meteorite is in the ocean you can moove the catalyst out so you dont have to clear an entire ocean or mine out a cave..."]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -373,8 +376,8 @@
 		{
 			title: "The Obsidian Cycle!"
 			x: -1.5d
-			y: 6.0d
-			shape: "octagon"
+			y: 5.5d
+			shape: "gear"
 			subtitle: "You can Crush or Mill obsidian for Powdered Obsidian at a chance of getting 2 each time. You can reprocess 1 of the dusts using smelting back into Obsidian and use it again for crushing!"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
@@ -387,7 +390,7 @@
 		}
 		{
 			x: -1.5d
-			y: 8.0d
+			y: 7.5d
 			dependencies: ["1377A2D928C6A05A"]
 			id: "25EE3A139473ED49"
 			tasks: [{
@@ -398,8 +401,8 @@
 		}
 		{
 			title: "Smelt down Obsidian Dust for Obsidian!"
-			x: -2.0d
-			y: 7.0d
+			x: -1.5d
+			y: 6.5d
 			dependencies: ["25EE3A139473ED49"]
 			id: "216B9E1503960B6C"
 			tasks: [{
@@ -409,20 +412,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 6.0d
-			shape: "gear"
-			dependencies: ["216B9E1503960B6C"]
-			id: "49B84FBA3BA633E6"
-			tasks: [{
-				id: "53164A99FA166842"
-				type: "item"
-				item: "minecraft:obsidian"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -3.0d
+			x: 1.5d
+			y: -2.0d
 			subtitle: "Mix Skystone Dust with Water"
 			dependencies: [
 				"626B12C1D9AEC171"
@@ -448,8 +439,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.0d
+			x: 3.0d
+			y: -0.5d
 			subtitle: "Crush Gravel"
 			dependencies: ["587F4DF4DAE4FEA7"]
 			id: "68704916A38C450C"
@@ -461,8 +452,8 @@
 		}
 		{
 			title: "Discover the Skystone Catalyst"
-			x: 1.0d
-			y: -5.0d
+			x: 1.5d
+			y: -4.0d
 			shape: "square"
 			subtitle: "An Alien block, only found within Meteorites. Not much is known about this artifact, but what we have figured out, is that it is responsible for Transmuting everything up to 7 Blocks Away from it, when interacted with redstone dust, replacing it with Skystone, is this a form of alien allergy? Perhaps this is exploitable for infinite Skystone."
 			dependencies: ["44DC0A3FAA5645AB"]
@@ -488,8 +479,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -4.0d
+			x: 3.0d
+			y: -2.5d
 			subtitle: "Crush Skystone"
 			dependencies: ["6C157C90A109C62C"]
 			id: "626B12C1D9AEC171"
@@ -502,7 +493,7 @@
 		{
 			x: -1.5d
 			y: 2.0d
-			shape: "hexagon"
+			shape: "pentagon"
 			dependencies: [
 				"0EC86FFDFEDFDF96"
 				"608F9C97C746DA3A"
@@ -535,8 +526,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -3.0d
+			x: -5.0d
+			y: -0.5d
 			subtitle: "Wash Gravel"
 			dependencies: [
 				"183650453A13684A"
@@ -552,7 +543,7 @@
 		}
 		{
 			x: 1.5d
-			y: -2.0d
+			y: -0.5d
 			shape: "diamond"
 			subtitle: "Click for Info."
 			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
@@ -581,8 +572,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
+			x: 3.0d
+			y: -1.5d
 			shape: "rsquare"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -594,10 +585,11 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 10.0d
-			shape: "square"
+			x: -4.5d
+			y: 10.5d
+			shape: "gear"
 			dependencies: ["729FE7549853385E"]
+			size: 1.5d
 			id: "0CE0A2710D578A1A"
 			tasks: [{
 				id: "417893485473D373"
@@ -630,8 +622,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: 0.5d
+			x: -6.0d
+			y: 2.0d
 			dependencies: ["0158C3930229C41C"]
 			hide: true
 			id: "4132AB6AF6FC3ED0"
@@ -642,8 +634,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 6.0d
+			x: -4.5d
+			y: 7.5d
 			shape: "diamond"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
@@ -657,8 +649,8 @@
 		{
 			title: "Lets Speedrun some Machines once again!"
 			icon: "create:brass_ingot"
-			x: -7.0d
-			y: -6.0d
+			x: 3.0d
+			y: 3.0d
 			shape: "square"
 			subtitle: "Luckily, this chapter is easy to speedrun as you really just need redstone and skystone!"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -672,8 +664,8 @@
 		}
 		{
 			title: "4x Crushing Wheels"
-			x: -7.0d
-			y: -4.0d
+			x: 3.0d
+			y: 5.0d
 			subtitle: "For sand automation. But shh, you can also make sand with a millstone at less efficiency!"
 			dependencies: ["54866C6D8E7DD4D1"]
 			dependency_requirement: "one_started"
@@ -698,8 +690,8 @@
 		}
 		{
 			title: "21x Mechanical Crafters"
-			x: -7.0d
-			y: -5.0d
+			x: 3.0d
+			y: 4.0d
 			subtitle: "For Crushing Wheels"
 			dependencies: ["4BC7774659DA5996"]
 			id: "54866C6D8E7DD4D1"
@@ -711,8 +703,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -5.0d
+			x: 3.0d
+			y: -4.0d
 			dependencies: ["5D9D3025CB2DEEA4"]
 			id: "6C157C90A109C62C"
 			tasks: [{
@@ -725,7 +717,7 @@
 			title: "Cobblestone"
 			icon: "minecraft:cobblestone"
 			x: 3.0d
-			y: 2.0d
+			y: 1.5d
 			shape: "rsquare"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -739,7 +731,7 @@
 		{
 			title: "Gravel"
 			icon: "minecraft:gravel"
-			x: 2.5d
+			x: 3.0d
 			y: 0.5d
 			subtitle: "Crush Cobblestone"
 			dependencies: ["68C479C7186A272E"]
@@ -752,7 +744,7 @@
 		}
 		{
 			x: -1.5d
-			y: -5.0d
+			y: -4.0d
 			subtitle: "As you can see, Redstone is quite Central! Click for more Info."
 			description: ["Redstone will have to go to The Catalyst to make more Skystone. Redstone will also have to go to a Smeltery to make Destabilized Redstone. Lastly, you win back Redstone by Smelting Redstone Clusters."]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -765,8 +757,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
+			x: -3.5d
+			y: -2.0d
 			shape: "rsquare"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -778,8 +770,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -3.0d
+			x: -3.0d
+			y: -0.5d
 			dependencies: [
 				"1AB3B0F68A9C03CE"
 				"44DC0A3FAA5645AB"
@@ -793,7 +785,7 @@
 		}
 		{
 			x: -1.5d
-			y: -1.0d
+			y: -0.5d
 			dependencies: [
 				"630ECD0F8AB8AF0C"
 				"44DC0A3FAA5645AB"
@@ -808,7 +800,7 @@
 		}
 		{
 			x: 0.0d
-			y: -2.0d
+			y: -0.5d
 			subtitle: "Click for Info."
 			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
 			dependencies: ["0EC86FFDFEDFDF96"]
@@ -821,14 +813,14 @@
 		}
 		{
 			x: -1.5d
-			y: -5.0d
+			y: -4.0d
 			shape: "diamond"
 			dependencies: ["415F16AFB5FDC3FC"]
 			id: "449387DB0AC44B63"
 		}
 		{
-			x: -3.5d
-			y: -2.0d
+			x: -4.0d
+			y: -0.5d
 			dependencies: [
 				"1AB3B0F68A9C03CE"
 				"15AB5DED45C5B6E4"
@@ -841,8 +833,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -4.0d
+			x: -6.0d
+			y: -0.5d
 			subtitle: "From Crimsite Catalysts. See the the Chapter Automated Excavation for more info."
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -854,8 +846,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -4.5d
+			x: -5.0d
+			y: -2.0d
 			subtitle: "Crush Cobblestone"
 			dependencies: ["4BF0679BAD02D8AE"]
 			id: "183650453A13684A"
@@ -867,7 +859,7 @@
 		}
 		{
 			x: -5.0d
-			y: -6.0d
+			y: -3.0d
 			shape: "rsquare"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -891,8 +883,8 @@
 					Enchantments: [{ }]
 				}
 			}
-			x: -1.5d
-			y: -8.0d
+			x: 0.0d
+			y: 3.0d
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "4F6956BBD4CE7CCF"

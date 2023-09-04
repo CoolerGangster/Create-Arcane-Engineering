@@ -231,6 +231,7 @@ onEvent('recipes', event => {
     event.remove({id: 'create:mixing/coal_deepslate'})
     event.remove({id: 'create:mixing/charcoal_deepslate'})
     event.remove({id: 'tconstruct:smeltery/melting/metal/iron/chain'})
+    event.replaceInput({id:"chunkymcchunkface:chunk_loader"},"#forge:nether_stars","kubejs:integrational_machine")
     //making stuff renewable
     event.recipes.createMixing('8x minecraft:deepslate',['8x minecraft:cobblestone','#minecraft:coals']).id('renewabledeepslate')
     event.recipes.create.haunting('minecraft:tuff','minecraft:infested_deepslate').id('tufffromdeepslate')

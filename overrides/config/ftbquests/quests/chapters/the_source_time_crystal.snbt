@@ -276,6 +276,7 @@
 		{
 			x: -4.5d
 			y: -3.5d
+			size: 1.1d
 			id: "2ABB3C0DCA7552CA"
 			tasks: [{
 				id: "26A9C079DB34F2DC"

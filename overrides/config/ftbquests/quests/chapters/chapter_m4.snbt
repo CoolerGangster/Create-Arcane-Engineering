@@ -635,15 +635,12 @@
 			}]
 		}
 		{
+			title: "Source Bucket"
+			icon: "kubejs:source_bucket"
 			x: 1.0d
 			y: -3.0d
 			dependencies: ["26EFD55243E3D198"]
 			id: "71384DD64BC880DE"
-			tasks: [{
-				id: "7BB11A13B79C8748"
-				type: "item"
-				item: "kubejs:source_bucket"
-			}]
 		}
 		{
 			x: 5.5d

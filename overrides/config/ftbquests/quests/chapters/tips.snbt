@@ -515,7 +515,7 @@
 			]
 		}
 		{
-			x: 11.0d
+			x: 10.5d
 			y: -6.0d
 			subtitle: "Can be used to farm Fish..."
 			id: "3D7B34D45116567D"
@@ -674,7 +674,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 12.5d
 			y: -6.0d
 			description: ["You can heat Create Steam Engines with Pneumaticcraft!"]
 			id: "41474C57E044994B"
@@ -689,7 +689,11 @@
 			x: -5.5d
 			y: -15.0d
 			subtitle: "Don't know how to fix something? Call it a feature."
-			description: ["Item Vaults are a great way to store the bulk of your Items. \\nYou can even interact with their contents manually through a Tinkers crafting station."]
+			description: [
+				"Item Vaults are a great way to store the bulk of your Items. \\nYou can even interact with their contents manually through a Tinkers crafting station."
+				""
+				"Note: This is Buggy, a better alternative is using Sophisticated Storage Barrels."
+			]
 			id: "48D73F3A6C8C0203"
 			tasks: [
 				{
@@ -710,6 +714,18 @@
 					}
 				}
 			]
+		}
+		{
+			x: 11.5d
+			y: -6.0d
+			subtitle: "Another Chunkloader."
+			description: ["Right-Click to Activate. If the player is longer than 140 minutes offline, it will disable itself."]
+			id: "79A1DE90448ED2F4"
+			tasks: [{
+				id: "1C4067CE9D0886AC"
+				type: "item"
+				item: "chunkymcchunkface:chunk_loader"
+			}]
 		}
 	]
 	quest_links: [ ]

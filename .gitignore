@@ -3,6 +3,8 @@ ArcaneTrailer/*
 overrides/mods/*
 overrides/modernfix/*
 overrides/lightspeed/*
+overrides/backups/*
+overrides/local/*
 overrides/lightspeed-cache/*
 overrides/.vscode/probe.code-snippets
 overrides/backups/2023-8-23_22-0-0.zip

@@ -51,6 +51,6 @@ onEvent('tags.items', event => {
         "kubejs:finalpcb",
         "randomium:randomium",
         "kubejs:god_actuation_fluid_bucket",
-        "kubejs:fluid_actuation_fluid_bucket",
+        "kubejs:portal_actuation_fluid_bucket"
     ])
 })

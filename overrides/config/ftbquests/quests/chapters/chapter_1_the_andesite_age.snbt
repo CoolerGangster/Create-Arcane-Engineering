@@ -659,6 +659,7 @@
 		}
 		{
 			title: "Improbable Saplings"
+			icon: "integrateddynamics:menril_sapling"
 			x: -4.0d
 			y: 0.0d
 			shape: "square"
@@ -675,15 +676,14 @@
 			hide: true
 			id: "65EB6D888AE39417"
 			tasks: [{
-				id: "779958089C9591AA"
-				type: "item"
-				item: "integrateddynamics:menril_sapling"
+				id: "68D84E2BF7E8A4E8"
+				type: "checkmark"
+				title: "Okayyyy"
 			}]
 			rewards: [{
-				id: "422FEE7F6CA834A3"
+				id: "3E24D71D23148A59"
 				type: "item"
 				item: "integrateddynamics:menril_sapling"
-				count: 2
 			}]
 		}
 		{
@@ -714,39 +714,45 @@
 			}]
 		}
 		{
+			title: "Menril Slab"
+			icon: "integrateddynamics:menril_slab"
 			x: -2.0d
 			y: 4.5d
 			shape: "pentagon"
 			dependencies: ["66CF869E554ADF06"]
 			id: "5EC51DF0F91C1C5E"
 			tasks: [{
-				id: "456510FDCEEA1922"
+				id: "7936866843DF148C"
 				type: "item"
-				item: "integrateddynamics:menril_slab"
+				item: "integrateddynamics:menril_log"
 			}]
 		}
 		{
+			title: "Stripped Menril Log"
+			icon: "integrateddynamics:menril_log_stripped"
 			x: -4.0d
 			y: 3.0d
 			shape: "octagon"
 			dependencies: ["2D3F582CF81B08C7"]
 			id: "2B079ED92A265059"
 			tasks: [{
-				id: "791DDA5A857BD5EA"
+				id: "3A15B5ED5C30B238"
 				type: "item"
-				item: "integrateddynamics:menril_log_stripped"
+				item: "integrateddynamics:menril_log"
 			}]
 		}
 		{
+			title: "Menril Planks"
+			icon: "integrateddynamics:menril_planks"
 			x: -2.0d
 			y: 3.0d
 			shape: "hexagon"
 			dependencies: ["2B079ED92A265059"]
 			id: "66CF869E554ADF06"
 			tasks: [{
-				id: "7A7258400F676D77"
+				id: "2909A20123949943"
 				type: "item"
-				item: "integrateddynamics:menril_planks"
+				item: "integrateddynamics:menril_log"
 			}]
 		}
 		{
