@@ -29,6 +29,7 @@ onEvent('jei.hide.items', event => {
     event.hide('thermal:bronze_coin')
     event.hide('integrateddynamics:logic_director')
     event.hide('functionalstorage:ender_drawer')
+    event.hide(/^functionalstorage:fluid/)
     event.hide(/waystones\:.*sharestone/)
     event.hide(/waystone\:.*scroll/)
     event.hide("waystones:warp_plate")

@@ -2,6 +2,7 @@
 onEvent('block.right_click', event =>{
     let {block, item} = event
     if (event.hand != MAIN_HAND) {return}
+    if (event.player.crouching) {return}
     if (block.entityId != "sophisticatedbackpacks:backpack") {return}
 
     let data = block.getEntityData()
