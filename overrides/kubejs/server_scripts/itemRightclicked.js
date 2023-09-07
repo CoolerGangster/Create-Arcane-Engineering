@@ -25,4 +25,10 @@ onEvent('block.right_click', event =>{
         data.Essences.Corruption = 0
         event.block.mergeEntityData(data) //why do i have to merge the entire data :/
     }
+	// Prevent Straw duping because it's annoying!
+	if (event.item == "createaddition:straw" && event.block.id == 'create:blaze_burner') {
+		if (!event.player.creativeMode) {
+			event.item.count--
+		}
+	}
 })
