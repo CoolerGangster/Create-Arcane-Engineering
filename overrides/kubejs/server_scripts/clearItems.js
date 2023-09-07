@@ -13,8 +13,9 @@ function sectomin(sec){
 
     return sec;
 }
-if(activated){
+
 onEvent('level.tick', event => {
+    if(!activated) return
     function ReloadChest(){
         event.server.runCommandSilent(`execute in cae:clearlag run fill -6 61 -14 14 81 8 air`)
         event.server.runCommandSilent(`execute in cae:clearlag run setblock -2 64 -7 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:chest",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
@@ -80,6 +81,7 @@ onEvent('level.tick', event => {
     }
 })
 onEvent('level.tick',event => {
+    if(!activated) return
     if(event.level.dimension != 'cae:clearlag'){return}else{
         event.level.getEntities('@e[type=player]').forEach(player =>{
             if (player.fullNBT.getInt("playerGameType") == 2 && global.activelycounter < -1 * timeallowedinticks && player.level.dimension == "cae:clearlag"){
@@ -94,9 +96,10 @@ onEvent('level.tick',event => {
     if (global.minutestodeath == 20 * 60){event.server.tell(Text.darkRed("Items on the ground will be cleared in 1 Minute!"))}
     if (global.minutestodeath == 20 * 30){event.server.tell(Text.darkRed("Items on the ground will be cleared in 30 Seconds!"))}}
 })
-}
+
 if(global.activelycounter>0){
 onEvent('item.right_click',event =>{
+    if(!activated) return
     if(event.level.dimension != "cae:clearlag"){
     if(event.item.id == passageitem){
         let flooredx = Math.floor(event.player.x)
@@ -117,6 +120,7 @@ onEvent('item.right_click',event =>{
     
 })
 onEvent('level.tick',event => {
+    if(!activated) return
     if(event.level.dimension != 'minecraft:overworld'){return}
     else{
     global.activelycounter--;}
