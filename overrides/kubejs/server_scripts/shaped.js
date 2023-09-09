@@ -61,7 +61,7 @@ onEvent('recipes', event => {
     'AAA'  
   ], {
     S: 'thermal:steel_ingot',
-    A: 'forbidden_arcanus:golden_dragon_scale',
-    G: 'forbidden_arcanus:aquatic_dragon_scale'
+    G: 'forbidden_arcanus:golden_dragon_scale',
+    A: 'forbidden_arcanus:aquatic_dragon_scale'
   })
 })
