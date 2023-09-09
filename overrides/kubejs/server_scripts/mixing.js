@@ -1,6 +1,6 @@
 
 onEvent('recipes', event => {
-    event.recipes.createMixing(Fluid.of("kubejs:sky_solution", 500), ['ae2:sky_dust', Fluid.of(MC('water'), 500)])
+    event.recipes.createMixing(Fluid.of("kubejs:sky_solution", 100), ['ae2:sky_dust', Fluid.of(MC('water'), 100)])
     event.recipes.createMixing(Item.of("minecraft:gunpowder", 4), ['kubejs:powdered_flint','kubejs:powdered_flint','kubejs:powdered_flint','kubejs:powdered_flint', Fluid.of("thermal:refined_fuel", 800)])
     event.recipes.createMixing(Fluid.of("kubejs:green_anthraquinone", 108), [Fluid.of("kubejs:liquid_anthraquinone", 72),Fluid.of("minecraft:water", 500), "minecraft:green_dye"]).heated()
     event.recipes.createMixing(Fluid.of("kubejs:magebloom_sourceberry_smoothie", 200), [Fluid.of('kubejs:magebloom_juice', 100),Fluid.of('kubejs:sourceberry_juice', 100)])

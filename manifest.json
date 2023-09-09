@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Create Arcane Engineering",
-  "version": "Devv",
+  "name": "create_arcane_engineeringsdad",
+  "version": "0.3",
   "author": "",
   "files": [
     {
@@ -361,7 +361,7 @@
     },
     {
       "projectID": 890398,
-      "fileID": 4731177,
+      "fileID": 4739326,
       "required": true
     },
     {
@@ -525,6 +525,11 @@
       "required": true
     },
     {
+      "projectID": 276951,
+      "fileID": 4398246,
+      "required": true
+    },
+    {
       "projectID": 228525,
       "fileID": 4556713,
       "required": true
@@ -655,23 +660,13 @@
       "required": true
     },
     {
-      "projectID": 401955,
-      "fileID": 4543053,
-      "required": true
-    },
-    {
       "projectID": 222908,
       "fileID": 3888596,
       "required": true
     },
     {
-      "projectID": 606159,
-      "fileID": 3754865,
-      "required": true
-    },
-    {
-      "projectID": 261251,
-      "fileID": 3800660,
+      "projectID": 401955,
+      "fileID": 4543053,
       "required": true
     },
     {
@@ -680,13 +675,23 @@
       "required": true
     },
     {
-      "projectID": 513688,
-      "fileID": 4559078,
+      "projectID": 261251,
+      "fileID": 3800660,
+      "required": true
+    },
+    {
+      "projectID": 606159,
+      "fileID": 3754865,
       "required": true
     },
     {
       "projectID": 548115,
       "fileID": 3789218,
+      "required": true
+    },
+    {
+      "projectID": 513688,
+      "fileID": 4559078,
       "required": true
     },
     {
@@ -720,13 +725,13 @@
       "required": true
     },
     {
-      "projectID": 863330,
-      "fileID": 4570894,
+      "projectID": 309858,
+      "fileID": 4729924,
       "required": true
     },
     {
-      "projectID": 309858,
-      "fileID": 4729924,
+      "projectID": 863330,
+      "fileID": 4570894,
       "required": true
     },
     {
@@ -750,18 +755,18 @@
       "required": true
     },
     {
-      "projectID": 626676,
-      "fileID": 4386425,
-      "required": true
-    },
-    {
       "projectID": 238086,
       "fileID": 4377177,
       "required": true
     },
     {
-      "projectID": 532127,
-      "fileID": 4035921,
+      "projectID": 626676,
+      "fileID": 4386425,
+      "required": true
+    },
+    {
+      "projectID": 264353,
+      "fileID": 4030494,
       "required": true
     },
     {
@@ -770,8 +775,8 @@
       "required": true
     },
     {
-      "projectID": 264353,
-      "fileID": 4030494,
+      "projectID": 532127,
+      "fileID": 4035921,
       "required": true
     },
     {
@@ -850,13 +855,13 @@
       "required": true
     },
     {
-      "projectID": 324717,
-      "fileID": 4575623,
+      "projectID": 591686,
+      "fileID": 3822603,
       "required": true
     },
     {
-      "projectID": 591686,
-      "fileID": 3822603,
+      "projectID": 324717,
+      "fileID": 4575623,
       "required": true
     },
     {
@@ -895,13 +900,13 @@
       "required": true
     },
     {
-      "projectID": 438332,
-      "fileID": 4715404,
+      "projectID": 306770,
+      "fileID": 3846086,
       "required": true
     },
     {
-      "projectID": 306770,
-      "fileID": 3846086,
+      "projectID": 438332,
+      "fileID": 4715404,
       "required": true
     },
     {
@@ -930,23 +935,23 @@
       "required": true
     },
     {
-      "projectID": 250398,
-      "fileID": 4555742,
-      "required": true
-    },
-    {
       "projectID": 324973,
       "fileID": 4612221,
       "required": true
     },
     {
-      "projectID": 303657,
-      "fileID": 4596407,
+      "projectID": 250398,
+      "fileID": 4555742,
       "required": true
     },
     {
       "projectID": 649832,
       "fileID": 4578409,
+      "required": true
+    },
+    {
+      "projectID": 303657,
+      "fileID": 4596407,
       "required": true
     },
     {
