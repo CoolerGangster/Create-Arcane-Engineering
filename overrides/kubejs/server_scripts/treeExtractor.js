@@ -248,7 +248,7 @@ let treeRegistry = [
               {
                 trunk: 'minecraft:spruce_log',
                 leaf: 'byg:orange_spruce_leaves',
-                sap: 'thermal:sap',
+                sap: 'thermal:resin',
                 rate: { living: 25, dead: 4 }
               },
               {
@@ -266,7 +266,7 @@ let treeRegistry = [
               {
                 trunk: 'minecraft:spruce_log',
                 leaf: 'byg:red_spruce_leaves',
-                sap: 'thermal:sap',
+                sap: 'thermal:resin',
                 rate: { living: 25, dead: 4 }
               },
               {
@@ -314,7 +314,7 @@ let treeRegistry = [
               {
                 trunk: 'minecraft:spruce_log',
                 leaf: 'byg:yellow_spruce_leaves',
-                sap: 'thermal:sap',
+                sap: 'thermal:resin',
                 rate: { living: 25, dead: 4 }
               },
               {
