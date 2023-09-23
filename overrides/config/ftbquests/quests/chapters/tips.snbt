@@ -648,8 +648,11 @@
 			icon: "create:item_vault"
 			x: -5.5d
 			y: -15.0d
-			subtitle: "Don't know how to fix something? Call it a feature."
-			description: ["Item Vaults are a great way to store the bulk of your Items. \\nYou can even interact with their contents manually through a Tinkers crafting station."]
+			subtitle: "{tips.quest.39.subtitle}"
+			description: [
+				"{tips.quest.39.description.1}"
+				"{tips.quest.39.description.2}"
+			]
 			id: "48D73F3A6C8C0203"
 			tasks: [
 				{

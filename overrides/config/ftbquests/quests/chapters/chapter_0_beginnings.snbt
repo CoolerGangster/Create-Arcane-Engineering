@@ -424,7 +424,7 @@
 				"{chapter.0.quest.23.description.2}"
 				"{chapter.0.quest.23.description.3}"
 				""
-				"Rest assured that we provide comprehensive explanations for the mechanics and features when they come into play."
+				"{chapter.0.quest.23.description.4}"
 			]
 			dependencies: ["10DADBB2E6B7B7B5"]
 			id: "6FC749E2772DFD45"
@@ -537,7 +537,7 @@
 		{
 			x: -1.5d
 			y: -3.5d
-			subtitle: "Better results from Mixing!"
+			subtitle: "{chapter.0.quest.32.subtitle}"
 			dependencies: [
 				"4D32217601DA01D6"
 				"02EE7F0461B0DFBF"

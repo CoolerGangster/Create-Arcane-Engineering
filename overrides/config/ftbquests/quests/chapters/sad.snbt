@@ -35,11 +35,11 @@
 	]
 	quests: [
 		{
-			title: "Chapter 2 Start!"
+			title: "{chapter.2.quest.1.title}"
 			x: -1.5d
 			y: -9.0d
 			shape: "octagon"
-			subtitle: "Short tip, you can speedrun the majority of this chapter just by crafting rose quartz with quartz and redstone dust obtained from the world."
+			subtitle: "{chapter.2.quest.1.subtitle}"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			size: 1.5d
@@ -62,7 +62,7 @@
 			}]
 		}
 		{
-			title: "Chapter 2"
+			title: "{chapter.2.quest.2.title}"
 			x: -1.5d
 			y: 4.5d
 			shape: "rsquare"
@@ -191,7 +191,7 @@
 		{
 			x: -0.5d
 			y: 8.0d
-			subtitle: "Either make a lava farm. Or harvest it from the nether. Either way, this means get a way of infinite lava! I suggest heading to the Nether and using hose pulleys!"
+			subtitle: "{chapter.2.quest.5.subtitle}"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "53F4A32746B719F2"
@@ -209,10 +209,10 @@
 			]
 		}
 		{
-			title: "Screwdrivin"
+			title: "{chapter.2.quest.6.title}"
 			x: 0.0d
 			y: 4.5d
-			subtitle: "(the framedblocks screwdriver is 1 use only lmao)"
+			subtitle: "{chapter.2.quest.6.subtitle}"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "0CEFD94EEE91DDE9"
@@ -270,10 +270,10 @@
 			}]
 		}
 		{
-			title: "[optional] Variable Card"
+			title: "{chapter.2.quest.10.title}"
 			x: -3.0d
 			y: 4.0d
-			subtitle: "As per usual, you can make your factory 2x as efficient by adding a simple extra step!"
+			subtitle: "{chapter.2.quest.10.subtitle}"
 			dependencies: [
 				"5D36117177BCD37F"
 				"3E09633CF4F786AE"
@@ -297,10 +297,10 @@
 			}]
 		}
 		{
-			title: "Unlock the Optional Route?"
+			title: "{chapter.2.quest.11.title}"
 			x: -3.0d
 			y: 0.0d
-			subtitle: "Will double the rates by 2x. Requires some Menril Tree Work"
+			subtitle: "{chapter.2.quest.11.subtitle}"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "0158C3930229C41C"
@@ -336,12 +336,12 @@
 			]
 		}
 		{
-			title: "Skystone Tip"
+			title: "{chapter.2.quest.12.title}"
 			icon: "railways:track_birch"
 			x: -1.5d
 			y: -6.5d
-			subtitle: "Meteorites can be shockingly far away from where your base is situated. Welcome to this pack, locational recources like these are a reoccuring theme. Now you either have the choice to Make a factory on the Skystone Catalyst, or make a rail line delivering the skystone to you, the choice is yours. Either way, youll need a rail line connecting the factories."
-			description: ["2nd Tip: If you rightclick the skystone catalyst with a wooden axe it will moove 10 blocks up in the air, this is so if your meteorite is in the ocean you can moove the catalyst out so you dont have to clear an entire ocean or mine out a cave..."]
+			subtitle: "{chapter.2.quest.12.subtitle}"
+			description: ["{chapter.2.quest.12.description}"]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "323AEEF2915E79D2"
@@ -370,11 +370,11 @@
 			]
 		}
 		{
-			title: "The Obsidian Cycle!"
+			title: "{chapter.2.quest.13.title}"
 			x: -1.5d
 			y: 6.0d
 			shape: "octagon"
-			subtitle: "You can Crush or Mill obsidian for Powdered Obsidian at a chance of getting 2 each time. You can reprocess 1 of the dusts using smelting back into Obsidian and use it again for crushing!"
+			subtitle: "{chapter.2.quest.13.subtitle}"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "1377A2D928C6A05A"
@@ -396,7 +396,7 @@
 			}]
 		}
 		{
-			title: "Smelt down Obsidian Dust for Obsidian!"
+			title: "{chapter.2.quest.15.title}"
 			x: -2.0d
 			y: 7.0d
 			dependencies: ["25EE3A139473ED49"]
@@ -487,11 +487,11 @@
 			}]
 		}
 		{
-			title: "Discover the Skystone Catalyst"
+			title: "{chapter.2.quest.20.title}"
 			x: -1.5d
 			y: -7.5d
 			shape: "square"
-			subtitle: "An Alien block, only found within Meteorites. Not much is known about this artifact, but what we have figured out, is that it is responsible for Transmuting everything up to 7 Blocks Away from it, when interacted with redstone dust, replacing it with Skystone, is this a form of alien allergy? Perhaps this is exploitable for infinite Skystone."
+			subtitle: "{chapter.2.quest.20.subtitle}"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "5D9D3025CB2DEEA4"
@@ -627,7 +627,7 @@
 		{
 			x: -1.5d
 			y: -3.0d
-			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
+			description: ["{chapter.2.quest.27.description}"]
 			dependencies: [
 				"71204DE937D1B562"
 				"5FF85EC9DA06810F"
@@ -759,12 +759,12 @@
 			}]
 		}
 		{
-			title: "Lets Speedrun some Machines once again!"
+			title: "{chapter.2.quest.34.title}"
 			icon: "create:brass_ingot"
 			x: -7.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Luckily, this chapter is easy to speedrun as you really just need redstone and skystone!"
+			subtitle: "{chapter.2.quest.34.subtitle}"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "4BC7774659DA5996"
@@ -775,10 +775,10 @@
 			}]
 		}
 		{
-			title: "4x Crushing Wheels"
+			title: "{chapter.2.quest.35.title}"
 			x: -6.0d
 			y: 1.0d
-			subtitle: "For sand automation. But shh, you can also make sand with a millstone at less efficiency!"
+			subtitle: "{chapter.2.quest.35.subtitle}"
 			dependencies: ["4BC7774659DA5996"]
 			dependency_requirement: "one_started"
 			id: "0D2D800F4A49CA86"
@@ -803,7 +803,7 @@
 		{
 			x: -8.0d
 			y: 1.0d
-			subtitle: "Melting Iron and Redstone"
+			subtitle: "{chapter.2.quest.36.subtitle}"
 			dependencies: ["4BC7774659DA5996"]
 			id: "74A44C35A73EB298"
 			tasks: [{
@@ -813,10 +813,10 @@
 			}]
 		}
 		{
-			title: "27x Mechanical Crafters"
+			title: "{chapter.2.quest.37.title}"
 			x: -7.0d
 			y: 1.0d
-			subtitle: "For Crushing Wheels"
+			subtitle: "{chapter.2.quest.37.subtitle}"
 			dependencies: ["4BC7774659DA5996"]
 			id: "54866C6D8E7DD4D1"
 			tasks: [{
