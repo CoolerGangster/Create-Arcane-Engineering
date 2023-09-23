@@ -38,6 +38,8 @@ onEvent('jei.hide.items', event => {
     event.hide("integratedtunnels:part_player_simulator")
     event.hide("integrateddynamics:part_connector_omni_directional")
     event.hide("integratedterminals:terminal_storage_portable")
+    event.hide('integrateddynamics:part_interface_crafting') 
+    event.hide('integrateddynamics:part_crafting_writer') 
   })
   onEvent('jei.hide.fluids', event => {
     event.hide('tconstruct:liquid_redstone')

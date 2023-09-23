@@ -658,7 +658,6 @@ onEvent('recipes', event => {
         Item.of('create:smart_fluid_pipe', 2),
     	Item.of('create:hose_pulley', 1),
     	Item.of('create:portable_fluid_interface', 2),
-        Item.of('thermal:device_soil_infuser',1),
         //Item.of('alloyedguns:advanced_gun_kit'),
         Item.of('create:steam_engine',3),
        

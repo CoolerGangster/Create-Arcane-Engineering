@@ -28,6 +28,26 @@ onEvent('recipes', event => {
   ], {
     G: 'glassential:glass_ghostly'
   })
+
+  event.shaped('2x thermal:nuke_tnt', [
+    'WGW',
+    'GOG',
+    'WGW'
+  ], {
+    G: 'ae2:singularity',
+    W: 'kubejs:warp_fragments',
+    O: 'forbidden_arcanus:orb_of_temporary_flight'
+  })
+  event.shaped('8x thermal:nuke_grenade', [
+    'WGW',
+    'GOG',
+    'WGW'
+  ], {
+    G: 'ae2:singularity',
+    W: 'kubejs:warp_fragments',
+    O: 'forbidden_arcanus:orb_of_temporary_flight'
+  })
+
   event.shaped('kubejs:saw', [
     '  G',
     ' G ',

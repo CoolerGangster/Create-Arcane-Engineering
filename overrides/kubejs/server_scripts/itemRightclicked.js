@@ -1,3 +1,4 @@
+//priority: 1000
 onEvent('item.right_click', event =>{
 	if (event.item == 'forbidden_arcanus:orb_of_temporary_flight'){
 		if (!event.player.creativeMode) {
@@ -5,6 +6,7 @@ onEvent('item.right_click', event =>{
 		}
 	}
 })
+let arcaneblox = ['forbidden_arcanus:arcane_polished_darkstone',"forbidden_arcanus:arcane_crystal_block"]
 onEvent('block.right_click', event =>{
 	if (event.item.id == "kubejs:runic_tablet" && event.block.entityId == "minecraft:air" && event.block.id != "minecraft:crafting_table") {
 		if (!event.player.creativeMode) {event.item.count--}
@@ -32,4 +34,28 @@ onEvent('block.right_click', event =>{
 			event.item.count--
 		}
 	}
+	
+	if(event.item == "forbidden_arcanus:mundabitur_dust" && arcaneblox.includes(event.block.id)){
+		
+
+		if(event.block.id == arcaneblox[0]){
+			if (event.block.offset(0,1,0).id == arcaneblox[1] && event.block.offset(0,2,0).id == arcaneblox[1]){
+				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @p ${event.block.x} ${event.block.y} ${event.block.z}`)
+		
+			}
+		}
+		if(event.block.id == arcaneblox[1]){
+			if (event.block.offset(0,-1,0).id == arcaneblox[0] && event.block.offset(0,1,0).id == arcaneblox[1]){
+				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @p ${event.block.x} ${event.block.y} ${event.block.z}`)
+
+			}else if (event.block.offset(0,-1,0).id == arcaneblox[1] && event.block.offset(0,-2,0).id == arcaneblox[0]){
+				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @p ${event.block.x} ${event.block.y} ${event.block.z}`)
+
+			}
+		}
+
+	}
+
+
+
 })

@@ -99,7 +99,10 @@ onEvent('level.tick', event =>{
       global.tick20 = 0
       //event.server.tell("5 Seconds have passed!")
       event.level.getEntities('@e[type=quark:wraith]').forEach(Wraith =>{
-        if (Wraith.block.id == 'forbidden_arcanus:soulless_sand'){Wraith.block.set('minecraft:soul_sand')}
+        if (Wraith.block.id == 'forbidden_arcanus:soulless_sand'){
+          Wraith.block.set('minecraft:soul_sand')
+          event.server.runCommandSilent(`playsound cae:wraith_soulconvert block @p ${Wraith.block.x} ${Wraith.block.y} ${Wraith.block.z}`)
+      }
       })
   }
 })
