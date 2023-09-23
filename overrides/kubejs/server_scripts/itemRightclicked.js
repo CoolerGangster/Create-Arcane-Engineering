@@ -28,6 +28,7 @@ onEvent('block.right_click', event =>{
 	// Prevent Straw duping because it's annoying!
 	if (event.item == "createaddition:straw" && event.block.id == 'create:blaze_burner') {
 		if (!event.player.creativeMode) {
+			event.block.set('createaddition:liquid_blaze_burner')
 			event.item.count--
 		}
 	}
