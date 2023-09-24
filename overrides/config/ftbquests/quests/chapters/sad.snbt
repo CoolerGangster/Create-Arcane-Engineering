@@ -1,831 +1,893 @@
 {
-	id: "0918A9C44C07BDAB"
-	group: "42A213AA17D37DAF"
-	order_index: 2
-	filename: "sad"
-	title: "Chapter II: Extraterrestrial Expeditions"
-	icon: "create:brass_casing"
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "0918A9C44C07BDAB",
+	group: "42A213AA17D37DAF",
+	order_index: 2,
+	filename: "sad",
+	title: "Chapter II: Extraterrestrial Expeditions",
+	icon: "create:brass_casing",
+	default_quest_shape: "",
+	default_hide_dependency_lines: 0b,
 	images: [
 		{
-			x: -1.5d
-			y: 0.5d
-			width: 50.0d
-			height: 50.0d
-			rotation: 0.0d
-			image: "kubejs:textures/brass.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
+			x: -1.5d,
+			y: 0.5d,
+			width: 50.0d,
+			height: 50.0d,
+			rotation: 0.0d,
+			image: "kubejs:textures/brass.png",
+			hover: [],
+			click: "",
+			dev: 0b,
+			corner: 0b
+		},
 		{
-			x: -1.5d
-			y: 0.5d
-			width: 20.0d
-			height: 27.0d
-			rotation: 0.0d
-			image: "kubejs:textures/wow.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
+			x: -1.5d,
+			y: 0.5d,
+			width: 20.0d,
+			height: 27.0d,
+			rotation: 0.0d,
+			image: "kubejs:textures/wow.png",
+			hover: [],
+			click: "",
+			dev: 0b,
+			corner: 0b
 		}
-	]
+	],
 	quests: [
 		{
-			title: "{chapter.2.quest.1.title}"
-			x: -1.5d
-			y: -9.0d
-			shape: "octagon"
-			subtitle: "{chapter.2.quest.1.subtitle}"
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			size: 1.5d
-			id: "7984A735A2923DFB"
-			tasks: [{
-				id: "51DBF669670FA5DD"
-				type: "item"
-				item: "kubejs:kinetic_mechanism"
-			}]
-			rewards: [{
-				id: "2B0A259AF94D3224"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_brass"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "{chapter.2.quest.2.title}"
-			x: -1.5d
-			y: 4.5d
-			shape: "rsquare"
-			dependencies: [
-				"0CEFD94EEE91DDE9"
-				"24B4AA7FE57740B1"
-				"7EA15D680D22F69B"
-			]
-			dependency_requirement: "one_completed"
-			size: 1.4d
-			id: "1CF1A735F77415F2"
-			tasks: [{
-				id: "178E2929328BE139"
-				type: "item"
-				item: "create:precision_mechanism"
-			}]
-			rewards: [
-				{
-					id: "22A7E94E011A5182"
-					type: "item"
-					item: "create:precision_mechanism"
-					count: 32
-				}
-				{
-					id: "78F5A761CC82F7DF"
-					type: "item"
-					item: "create:brass_casing"
-					count: 8
-				}
-				{
-					id: "43494FF5AF13F11F"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_create_brass"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					count: 2
-				}
-				{
-					id: "68F6880D93469F19"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_create_radiant"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -1.5d
-			y: 10.0d
-			shape: "square"
-			dependencies: ["48302F40D36471FB"]
-			id: "730102EB2E56C6A1"
-			tasks: [{
-				id: "6F07F6CE635BB23A"
-				type: "item"
-				item: "kubejs:sturdy_mechanism"
-			}]
-			rewards: [
-				{
-					id: "7CD9D71BB87E66E5"
-					type: "item"
-					item: "kubejs:sturdy_mechanism"
-					count: 32
-				}
-				{
-					id: "3346A4FED9559736"
-					type: "item"
-					item: "create:railway_casing"
-					count: 8
-				}
-				{
-					id: "38E11DE211BBC778"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_create_brass"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					count: 2
-				}
-			]
-		}
-		{
-			x: -1.5d
-			y: 9.0d
-			dependencies: [
-				"53F4A32746B719F2"
-				"25EE3A139473ED49"
-			]
-			id: "48302F40D36471FB"
-			tasks: [{
-				id: "009737E18C49A365"
-				type: "item"
-				item: "create:sturdy_sheet"
-			}]
-			rewards: [
-				{
-					id: "611B4C22DBB32060"
-					type: "item"
-					item: "create:sturdy_sheet"
-					count: 12
-				}
-				{
-					id: "2D99E84E909D994A"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_create_brass"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -0.5d
-			y: 8.0d
-			subtitle: "{chapter.2.quest.5.subtitle}"
-			dependencies: ["3A10D0D5E8548C54"]
-			hide: true
-			id: "53F4A32746B719F2"
+			title: "{chapter.2.quest.1.title}",
+			x: -1.5d,
+			y: -9.0d,
+			shape: "octagon",
+			subtitle: "{chapter.2.quest.1.subtitle}",
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			size: 1.5d,
+			id: "7984A735A2923DFB",
 			tasks: [
 				{
-					id: "3BA328680C9FD1E6"
-					type: "item"
-					item: "minecraft:lava_bucket"
+					id: "51DBF669670FA5DD",
+					type: "item",
+					item: "kubejs:kinetic_mechanism"
 				}
+			],
+			rewards: [
 				{
-					id: "73AA7A169A46BE7D"
-					type: "item"
+					id: "2B0A259AF94D3224",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "{chapter.2.quest.2.title}",
+			x: -1.5d,
+			y: 4.5d,
+			shape: "rsquare",
+			dependencies: ["0CEFD94EEE91DDE9", "24B4AA7FE57740B1", "7EA15D680D22F69B"],
+			dependency_requirement: "one_completed",
+			size: 1.4d,
+			id: "1CF1A735F77415F2",
+			tasks: [
+				{
+					id: "178E2929328BE139",
+					type: "item",
+					item: "create:precision_mechanism"
+				}
+			],
+			rewards: [
+				{
+					id: "22A7E94E011A5182",
+					type: "item",
+					item: "create:precision_mechanism",
+					count: 32
+				},
+				{
+					id: "78F5A761CC82F7DF",
+					type: "item",
+					item: "create:brass_casing",
+					count: 8
+				},
+				{
+					id: "43494FF5AF13F11F",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					count: 2
+				},
+				{
+					id: "68F6880D93469F19",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_radiant",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 10.0d,
+			shape: "square",
+			dependencies: ["48302F40D36471FB"],
+			id: "730102EB2E56C6A1",
+			tasks: [
+				{
+					id: "6F07F6CE635BB23A",
+					type: "item",
+					item: "kubejs:sturdy_mechanism"
+				}
+			],
+			rewards: [
+				{
+					id: "7CD9D71BB87E66E5",
+					type: "item",
+					item: "kubejs:sturdy_mechanism",
+					count: 32
+				},
+				{
+					id: "3346A4FED9559736",
+					type: "item",
+					item: "create:railway_casing",
+					count: 8
+				},
+				{
+					id: "38E11DE211BBC778",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					count: 2
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 9.0d,
+			dependencies: ["53F4A32746B719F2", "25EE3A139473ED49"],
+			id: "48302F40D36471FB",
+			tasks: [
+				{
+					id: "009737E18C49A365",
+					type: "item",
+					item: "create:sturdy_sheet"
+				}
+			],
+			rewards: [
+				{
+					id: "611B4C22DBB32060",
+					type: "item",
+					item: "create:sturdy_sheet",
+					count: 12
+				},
+				{
+					id: "2D99E84E909D994A",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: 8.0d,
+			subtitle: "{chapter.2.quest.5.subtitle}",
+			dependencies: ["3A10D0D5E8548C54"],
+			hide: 1b,
+			id: "53F4A32746B719F2",
+			tasks: [
+				{
+					id: "3BA328680C9FD1E6",
+					type: "item",
+					item: "minecraft:lava_bucket"
+				},
+				{
+					id: "73AA7A169A46BE7D",
+					type: "item",
 					item: "create:hose_pulley"
 				}
 			]
-		}
+		},
 		{
-			title: "{chapter.2.quest.6.title}"
-			x: 0.0d
-			y: 4.5d
-			subtitle: "{chapter.2.quest.6.subtitle}"
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "0CEFD94EEE91DDE9"
-			tasks: [{
-				id: "0DE8513933778AAF"
-				type: "item"
-				title: "Any #forge:screwdrivers"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:screwdrivers"
-					}
-				}
-			}]
-		}
-		{
-			x: -4.0d
-			y: 1.0d
-			dependencies: ["0158C3930229C41C"]
-			hide: true
-			id: "727A38A2922B49F6"
-			tasks: [{
-				id: "097BA29DA3773FAE"
-				type: "item"
-				item: "minecraft:sugar_cane"
-			}]
-		}
-		{
-			x: -4.0d
-			y: 3.0d
-			dependencies: ["727A38A2922B49F6"]
-			id: "5D36117177BCD37F"
-			tasks: [{
-				id: "67A05C6A2E2099F6"
-				type: "item"
-				item: "minecraft:paper"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 2.5d
-			dependencies: ["4132AB6AF6FC3ED0"]
-			hide: true
-			id: "3E09633CF4F786AE"
-			tasks: [{
-				id: "444651F6899E0809"
-				type: "item"
-				item: "integrateddynamics:crystalized_menril_chunk"
-			}]
-			rewards: [{
-				id: "5122925AA971EEDA"
-				type: "item"
-				item: "integrateddynamics:crystalized_menril_block"
-			}]
-		}
-		{
-			title: "{chapter.2.quest.10.title}"
-			x: -3.0d
-			y: 4.0d
-			subtitle: "{chapter.2.quest.10.subtitle}"
-			dependencies: [
-				"5D36117177BCD37F"
-				"3E09633CF4F786AE"
-			]
-			id: "24B4AA7FE57740B1"
-			tasks: [{
-				id: "58A5E717210879EE"
-				type: "item"
-				item: "integrateddynamics:variable"
-			}]
-			rewards: [{
-				id: "2C94401543076216"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_brass"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "{chapter.2.quest.11.title}"
-			x: -3.0d
-			y: 0.0d
-			subtitle: "{chapter.2.quest.11.subtitle}"
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "0158C3930229C41C"
+			title: "{chapter.2.quest.6.title}",
+			x: 0.0d,
+			y: 4.5d,
+			subtitle: "{chapter.2.quest.6.subtitle}",
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			id: "0CEFD94EEE91DDE9",
 			tasks: [
 				{
-					id: "14F46264E33F6588"
+					id: "0DE8513933778AAF",
+					type: "item",
+					title: "{chapter.2.quest.6.task.1.title}",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:screwdrivers"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 1.0d,
+			dependencies: ["0158C3930229C41C"],
+			hide: 1b,
+			id: "727A38A2922B49F6",
+			tasks: [
+				{
+					id: "097BA29DA3773FAE",
+					type: "item",
+					item: "minecraft:sugar_cane"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 3.0d,
+			dependencies: ["727A38A2922B49F6"],
+			id: "5D36117177BCD37F",
+			tasks: [
+				{
+					id: "67A05C6A2E2099F6",
+					type: "item",
+					item: "minecraft:paper"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 2.5d,
+			dependencies: ["4132AB6AF6FC3ED0"],
+			hide: 1b,
+			id: "3E09633CF4F786AE",
+			tasks: [
+				{
+					id: "444651F6899E0809",
+					type: "item",
+					item: "integrateddynamics:crystalized_menril_chunk"
+				}
+			],
+			rewards: [
+				{
+					id: "5122925AA971EEDA",
+					type: "item",
+					item: "integrateddynamics:crystalized_menril_block"
+				}
+			]
+		},
+		{
+			title: "{chapter.2.quest.10.title}",
+			x: -3.0d,
+			y: 4.0d,
+			subtitle: "{chapter.2.quest.10.subtitle}",
+			dependencies: ["5D36117177BCD37F", "3E09633CF4F786AE"],
+			id: "24B4AA7FE57740B1",
+			tasks: [
+				{
+					id: "58A5E717210879EE",
+					type: "item",
+					item: "integrateddynamics:variable"
+				}
+			],
+			rewards: [
+				{
+					id: "2C94401543076216",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "{chapter.2.quest.11.title}",
+			x: -3.0d,
+			y: 0.0d,
+			subtitle: "{chapter.2.quest.11.subtitle}",
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			id: "0158C3930229C41C",
+			tasks: [
+				{
+					id: "14F46264E33F6588",
+					type: "checkmark",
+					title: "{chapter.2.quest.11.task.1.title}"
+				},
+				{
+					id: "30ADFE45157AF53D",
+					type: "item",
+					item: "integrateddynamics:menril_sapling"
+				}
+			],
+			rewards: [
+				{
+					id: "57DF8D5DD286839D",
+					type: "item",
+					item: "integrateddynamics:menril_sapling"
+				},
+				{
+					id: "45FD59D3AF86C5C2",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "{chapter.2.quest.12.title}",
+			icon: "railways:track_birch",
+			x: -1.5d,
+			y: -6.5d,
+			subtitle: "{chapter.2.quest.12.subtitle}",
+			description: ["{chapter.2.quest.12.description.1}"],
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			id: "323AEEF2915E79D2",
+			tasks: [
+				{
+					id: "3BEB89B503E84F30",
 					type: "checkmark"
-					title: "Yes!"
 				}
-				{
-					id: "30ADFE45157AF53D"
-					type: "item"
-					item: "integrateddynamics:menril_sapling"
-				}
-			]
+			],
 			rewards: [
 				{
-					id: "57DF8D5DD286839D"
-					type: "item"
-					item: "integrateddynamics:menril_sapling"
-				}
-				{
-					id: "45FD59D3AF86C5C2"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_create_brass"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "{chapter.2.quest.12.title}"
-			icon: "railways:track_birch"
-			x: -1.5d
-			y: -6.5d
-			subtitle: "{chapter.2.quest.12.subtitle}"
-			description: ["{chapter.2.quest.12.description}"]
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "323AEEF2915E79D2"
-			tasks: [{
-				id: "3BEB89B503E84F30"
-				type: "checkmark"
-			}]
-			rewards: [
-				{
-					id: "0B3217B8FECA149C"
-					type: "item"
-					item: "create:track"
+					id: "0B3217B8FECA149C",
+					type: "item",
+					item: "create:track",
 					count: 16
-				}
+				},
 				{
-					id: "5029E9812DCBFAE5"
-					type: "item"
+					id: "5029E9812DCBFAE5",
+					type: "item",
 					item: {
-						id: "minecraft:wooden_axe"
-						Count: 1b
+						id: "minecraft:wooden_axe",
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				}
 			]
-		}
+		},
 		{
-			title: "{chapter.2.quest.13.title}"
-			x: -1.5d
-			y: 6.0d
-			shape: "octagon"
-			subtitle: "{chapter.2.quest.13.subtitle}"
-			dependencies: ["3A10D0D5E8548C54"]
-			hide: true
-			id: "1377A2D928C6A05A"
-			tasks: [{
-				id: "52A923D9A4D06BFF"
-				type: "item"
-				item: "minecraft:obsidian"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 8.0d
-			dependencies: ["1377A2D928C6A05A"]
-			id: "25EE3A139473ED49"
-			tasks: [{
-				id: "430CD42A737B7768"
-				type: "item"
-				item: "create:powdered_obsidian"
-			}]
-		}
-		{
-			title: "{chapter.2.quest.15.title}"
-			x: -2.0d
-			y: 7.0d
-			dependencies: ["25EE3A139473ED49"]
-			id: "216B9E1503960B6C"
-			tasks: [{
-				id: "5A022B1B92FD5FEA"
-				type: "item"
-				item: "create:encased_fan"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 6.0d
-			shape: "gear"
-			dependencies: ["216B9E1503960B6C"]
-			id: "49B84FBA3BA633E6"
-			tasks: [{
-				id: "53164A99FA166842"
-				type: "item"
-				item: "minecraft:obsidian"
-			}]
-		}
-		{
-			x: -2.5d
-			y: -4.5d
-			dependencies: [
-				"626B12C1D9AEC171"
-				"3513058D64801DAF"
-			]
-			id: "5FF85EC9DA06810F"
-			tasks: [{
-				id: "5AB4FE27F8287432"
-				type: "item"
-				item: "kubejs:sky_solution_bucket"
-			}]
-			rewards: [{
-				id: "3B433DD548B15CBE"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_brass"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+			title: "{chapter.2.quest.13.title}",
+			x: -1.5d,
+			y: 6.0d,
+			shape: "octagon",
+			subtitle: "{chapter.2.quest.13.subtitle}",
+			dependencies: ["3A10D0D5E8548C54"],
+			hide: 1b,
+			id: "1377A2D928C6A05A",
+			tasks: [
+				{
+					id: "52A923D9A4D06BFF",
+					type: "item",
+					item: "minecraft:obsidian"
 				}
-			}]
-		}
+			]
+		},
 		{
-			x: -1.5d
-			y: -1.5d
-			shape: "diamond"
-			dependencies: ["71204DE937D1B562"]
-			id: "189DB93AC1830737"
-			tasks: [{
-				id: "070B0323EF8EA47B"
-				type: "item"
-				item: "minecraft:redstone"
-			}]
+			x: -1.5d,
+			y: 8.0d,
+			dependencies: ["1377A2D928C6A05A"],
+			id: "25EE3A139473ED49",
+			tasks: [
+				{
+					id: "430CD42A737B7768",
+					type: "item",
+					item: "create:powdered_obsidian"
+				}
+			]
+		},
+		{
+			title: "{chapter.2.quest.15.title}",
+			x: -2.0d,
+			y: 7.0d,
+			dependencies: ["25EE3A139473ED49"],
+			id: "216B9E1503960B6C",
+			tasks: [
+				{
+					id: "5A022B1B92FD5FEA",
+					type: "item",
+					item: "create:encased_fan"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 6.0d,
+			shape: "gear",
+			dependencies: ["216B9E1503960B6C"],
+			id: "49B84FBA3BA633E6",
+			tasks: [
+				{
+					id: "53164A99FA166842",
+					type: "item",
+					item: "minecraft:obsidian"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -4.5d,
+			dependencies: ["626B12C1D9AEC171", "3513058D64801DAF"],
+			id: "5FF85EC9DA06810F",
+			tasks: [
+				{
+					id: "5AB4FE27F8287432",
+					type: "item",
+					item: "kubejs:sky_solution_bucket"
+				}
+			],
 			rewards: [
 				{
-					id: "2F24B670EBAB520F"
-					type: "item"
+					id: "3B433DD548B15CBE",
+					type: "item",
 					item: {
-						id: "kubejs:lootbag_create_andesite"
-						Count: 1b
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -1.5d,
+			shape: "diamond",
+			dependencies: ["71204DE937D1B562"],
+			id: "189DB93AC1830737",
+			tasks: [
 				{
-					id: "1690D23D3EE16222"
-					type: "item"
+					id: "070B0323EF8EA47B",
+					type: "item",
+					item: "minecraft:redstone"
+				}
+			],
+			rewards: [
+				{
+					id: "2F24B670EBAB520F",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_andesite",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1690D23D3EE16222",
+					type: "item",
 					item: "minecraft:redstone_block"
 				}
 			]
-		}
+		},
 		{
-			x: -2.5d
-			y: -3.0d
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "68704916A38C450C"
-			tasks: [{
-				id: "0D5666E3AB5EC911"
-				type: "item"
-				item: "minecraft:sand"
-			}]
-		}
-		{
-			title: "{chapter.2.quest.20.title}"
-			x: -1.5d
-			y: -7.5d
-			shape: "square"
-			subtitle: "{chapter.2.quest.20.subtitle}"
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "5D9D3025CB2DEEA4"
-			tasks: [{
-				id: "79A64C87821EFB2A"
-				type: "observation"
-				icon: "kubejs:skystone_catalyst"
-				timer: 0L
-				observe_type: 0
-				to_observe: "cae:skystone_catalyst"
-			}]
-			rewards: [{
-				id: "078B6CD96D050783"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_brass"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+			x: -2.5d,
+			y: -3.0d,
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			id: "68704916A38C450C",
+			tasks: [
+				{
+					id: "0D5666E3AB5EC911",
+					type: "item",
+					item: "minecraft:sand"
 				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: -5.5d
-			dependencies: ["5D9D3025CB2DEEA4"]
-			id: "626B12C1D9AEC171"
-			tasks: [{
-				id: "78CB906AB0F3F67E"
-				type: "item"
-				item: "ae2:sky_dust"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 0.0d
-			shape: "pentagon"
-			dependencies: [
-				"0E1C18F07009AA94"
-				"189DB93AC1830737"
 			]
-			id: "5357ECF63E8DC401"
-			tasks: [{
-				id: "1D83E26B51891784"
-				type: "item"
-				item: "create:rose_quartz"
-			}]
-		}
+		},
 		{
-			x: -1.5d
-			y: 1.5d
-			shape: "hexagon"
-			dependencies: [
-				"5357ECF63E8DC401"
-				"262EF6D138DAB69F"
-			]
-			id: "7EA15D680D22F69B"
-			tasks: [{
-				id: "2BB5D6DD433926E8"
-				type: "item"
-				item: "create:electron_tube"
-			}]
+			title: "{chapter.2.quest.20.title}",
+			x: -1.5d,
+			y: -7.5d,
+			shape: "square",
+			subtitle: "{chapter.2.quest.20.subtitle}",
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			id: "5D9D3025CB2DEEA4",
+			tasks: [
+				{
+					id: "79A64C87821EFB2A",
+					type: "observation",
+					icon: "kubejs:skystone_catalyst",
+					timer: 0L,
+					observe_type: 0,
+					to_observe: "cae:skystone_catalyst"
+				}
+			],
 			rewards: [
 				{
-					id: "5A936E9835A2371F"
-					type: "item"
+					id: "078B6CD96D050783",
+					type: "item",
 					item: {
-						id: "kubejs:lootbag_create_brass"
-						Count: 1b
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -5.5d,
+			dependencies: ["5D9D3025CB2DEEA4"],
+			id: "626B12C1D9AEC171",
+			tasks: [
 				{
-					id: "71683E019FA5ED99"
-					type: "item"
+					id: "78CB906AB0F3F67E",
+					type: "item",
+					item: "ae2:sky_dust"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 0.0d,
+			shape: "pentagon",
+			dependencies: ["0E1C18F07009AA94", "189DB93AC1830737"],
+			id: "5357ECF63E8DC401",
+			tasks: [
+				{
+					id: "1D83E26B51891784",
+					type: "item",
+					item: "create:rose_quartz"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			shape: "hexagon",
+			dependencies: ["5357ECF63E8DC401", "262EF6D138DAB69F"],
+			id: "7EA15D680D22F69B",
+			tasks: [
+				{
+					id: "2BB5D6DD433926E8",
+					type: "item",
 					item: "create:electron_tube"
+				}
+			],
+			rewards: [
+				{
+					id: "5A936E9835A2371F",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "71683E019FA5ED99",
+					type: "item",
+					item: "create:electron_tube",
 					count: 2
 				}
 			]
-		}
+		},
 		{
-			x: 1.0d
-			y: -3.0d
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "15AB5DED45C5B6E4"
-			tasks: [{
-				id: "4E3B307B57E9174E"
-				type: "item"
-				item: "minecraft:iron_nugget"
-			}]
-		}
-		{
-			x: 1.0d
-			y: -1.5d
-			dependencies: [
-				"15AB5DED45C5B6E4"
-				"189DB93AC1830737"
-			]
-			id: "188BA56A5EBACDAF"
-			tasks: [{
-				id: "21325C2057DE4D58"
-				type: "item"
-				item: "tconstruct:seared_melter"
-			}]
-			rewards: [{
-				id: "0377837D0B554B56"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_brass"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+			x: 1.0d,
+			y: -3.0d,
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			id: "15AB5DED45C5B6E4",
+			tasks: [
+				{
+					id: "4E3B307B57E9174E",
+					type: "item",
+					item: "minecraft:iron_nugget"
 				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: -4.5d
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "71204DE937D1B562"
-			tasks: [{
-				id: "575DAFA044CF63F3"
-				type: "item"
-				item: "kubejs:redstone_seed"
-			}]
-		}
-		{
-			x: -1.5d
-			y: -3.0d
-			description: ["{chapter.2.quest.27.description}"]
-			dependencies: [
-				"71204DE937D1B562"
-				"5FF85EC9DA06810F"
-				"68704916A38C450C"
 			]
-			id: "415F16AFB5FDC3FC"
-			tasks: [{
-				id: "04DC18B63F99A744"
-				type: "item"
-				item: "kubejs:redstone_cluster"
-			}]
-			rewards: [{
-				id: "41698F936DE4927F"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_brass"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			dependencies: ["15AB5DED45C5B6E4", "189DB93AC1830737"],
+			id: "188BA56A5EBACDAF",
+			tasks: [
+				{
+					id: "21325C2057DE4D58",
+					type: "item",
+					item: "tconstruct:seared_melter"
 				}
-			}]
-		}
-		{
-			x: -2.5d
-			y: -6.5d
-			shape: "rsquare"
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "3513058D64801DAF"
-			tasks: [{
-				id: "452C7CD8E3C9F01A"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 10.0d
-			shape: "square"
-			dependencies: ["729FE7549853385E"]
-			id: "0CE0A2710D578A1A"
-			tasks: [{
-				id: "417893485473D373"
-				type: "item"
-				item: "kubejs:integrational_mechanism"
-			}]
+			],
 			rewards: [
 				{
-					id: "5B0B05FB1EB29EC3"
-					type: "item"
+					id: "0377837D0B554B56",
+					type: "item",
 					item: {
-						id: "kubejs:lootbag_arcane_3"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "548F6326A1A866C6"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_create_radiant"
-						Count: 1b
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				}
 			]
-		}
+		},
 		{
-			x: 0.5d
-			y: 0.0d
-			dependencies: ["188BA56A5EBACDAF"]
-			id: "0E1C18F07009AA94"
-			tasks: [{
-				id: "03A9E7FA6A6250A4"
-				type: "item"
-				item: "thermal:redstone_bucket"
-			}]
-			rewards: [{
-				id: "0F79ECDCDB2C1AFD"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_andesite"
-					Count: 1b
-					tag: {
-						Damage: 0
+			x: -1.5d,
+			y: -4.5d,
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			id: "71204DE937D1B562",
+			tasks: [
+				{
+					id: "575DAFA044CF63F3",
+					type: "item",
+					item: "kubejs:redstone_seed"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -3.0d,
+			description: ["{chapter.2.quest.27.description.1}"],
+			dependencies: ["71204DE937D1B562", "5FF85EC9DA06810F", "68704916A38C450C"],
+			id: "415F16AFB5FDC3FC",
+			tasks: [
+				{
+					id: "04DC18B63F99A744",
+					type: "item",
+					item: "kubejs:redstone_cluster"
+				}
+			],
+			rewards: [
+				{
+					id: "41698F936DE4927F",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		}
+			]
+		},
 		{
-			x: 0.0d
-			y: 1.5d
-			dependencies: ["188BA56A5EBACDAF"]
-			id: "262EF6D138DAB69F"
-			tasks: [{
-				id: "793D6FFAF859B575"
-				type: "item"
-				item: "tconstruct:molten_iron_bucket"
-			}]
-		}
+			x: -2.5d,
+			y: -6.5d,
+			shape: "rsquare",
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			id: "3513058D64801DAF",
+			tasks: [
+				{
+					id: "452C7CD8E3C9F01A",
+					type: "item",
+					item: "minecraft:water_bucket"
+				}
+			]
+		},
 		{
-			x: -3.0d
-			y: 1.5d
-			dependencies: ["0158C3930229C41C"]
-			hide: true
-			id: "4132AB6AF6FC3ED0"
-			tasks: [{
-				id: "1B849CB34B9505FC"
-				type: "item"
-				item: "integrateddynamics:bucket_menril_resin"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 6.0d
-			shape: "diamond"
-			dependencies: ["3A10D0D5E8548C54"]
-			hide: true
-			id: "729FE7549853385E"
-			tasks: [{
-				id: "211888E14F5E7001"
-				type: "item"
-				item: "ars_nouveau:source_gem"
-			}]
-		}
-		{
-			title: "{chapter.2.quest.34.title}"
-			icon: "create:brass_ingot"
-			x: -7.0d
-			y: 0.0d
-			shape: "square"
-			subtitle: "{chapter.2.quest.34.subtitle}"
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "4BC7774659DA5996"
-			tasks: [{
-				id: "6F7AF45FE21745CB"
-				type: "checkmark"
-				title: "ok"
-			}]
-		}
-		{
-			title: "{chapter.2.quest.35.title}"
-			x: -6.0d
-			y: 1.0d
-			subtitle: "{chapter.2.quest.35.subtitle}"
-			dependencies: ["4BC7774659DA5996"]
-			dependency_requirement: "one_started"
-			id: "0D2D800F4A49CA86"
-			tasks: [{
-				id: "164C0755E8405ECC"
-				type: "item"
-				item: "create:crushing_wheel"
-				count: 4L
-			}]
-			rewards: [{
-				id: "6D78CE82DC5FD3BF"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_brass"
-					Count: 1b
-					tag: {
-						Damage: 0
+			x: -3.5d,
+			y: 10.0d,
+			shape: "square",
+			dependencies: ["729FE7549853385E"],
+			id: "0CE0A2710D578A1A",
+			tasks: [
+				{
+					id: "417893485473D373",
+					type: "item",
+					item: "kubejs:integrational_mechanism"
+				}
+			],
+			rewards: [
+				{
+					id: "5B0B05FB1EB29EC3",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_arcane_3",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "548F6326A1A866C6",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_radiant",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		}
+			]
+		},
 		{
-			x: -8.0d
-			y: 1.0d
-			subtitle: "{chapter.2.quest.36.subtitle}"
-			dependencies: ["4BC7774659DA5996"]
-			id: "74A44C35A73EB298"
-			tasks: [{
-				id: "0DD47A4E704F719D"
-				type: "item"
-				item: "tconstruct:seared_melter"
-			}]
-		}
+			x: 0.5d,
+			y: 0.0d,
+			dependencies: ["188BA56A5EBACDAF"],
+			id: "0E1C18F07009AA94",
+			tasks: [
+				{
+					id: "03A9E7FA6A6250A4",
+					type: "item",
+					item: "thermal:redstone_bucket"
+				}
+			],
+			rewards: [
+				{
+					id: "0F79ECDCDB2C1AFD",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_andesite",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
 		{
-			title: "{chapter.2.quest.37.title}"
-			x: -7.0d
-			y: 1.0d
-			subtitle: "{chapter.2.quest.37.subtitle}"
-			dependencies: ["4BC7774659DA5996"]
-			id: "54866C6D8E7DD4D1"
-			tasks: [{
-				id: "0A8DF121E4AE9719"
-				type: "item"
-				item: "create:mechanical_crafter"
-				count: 27L
-			}]
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: ["188BA56A5EBACDAF"],
+			id: "262EF6D138DAB69F",
+			tasks: [
+				{
+					id: "793D6FFAF859B575",
+					type: "item",
+					item: "tconstruct:molten_iron_bucket"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 1.5d,
+			dependencies: ["0158C3930229C41C"],
+			hide: 1b,
+			id: "4132AB6AF6FC3ED0",
+			tasks: [
+				{
+					id: "1B849CB34B9505FC",
+					type: "item",
+					item: "integrateddynamics:bucket_menril_resin"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 6.0d,
+			shape: "diamond",
+			dependencies: ["3A10D0D5E8548C54"],
+			hide: 1b,
+			id: "729FE7549853385E",
+			tasks: [
+				{
+					id: "211888E14F5E7001",
+					type: "item",
+					item: "ars_nouveau:source_gem"
+				}
+			]
+		},
+		{
+			title: "{chapter.2.quest.34.title}",
+			icon: "create:brass_ingot",
+			x: -7.0d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "{chapter.2.quest.34.subtitle}",
+			dependencies: ["6EFF8BCEBC2E2AF2"],
+			hide: 1b,
+			id: "4BC7774659DA5996",
+			tasks: [
+				{
+					id: "6F7AF45FE21745CB",
+					type: "checkmark",
+					title: "{chapter.2.quest.34.task.1.title}"
+				}
+			]
+		},
+		{
+			title: "{chapter.2.quest.35.title}",
+			x: -6.0d,
+			y: 1.0d,
+			subtitle: "{chapter.2.quest.35.subtitle}",
+			dependencies: ["4BC7774659DA5996"],
+			dependency_requirement: "one_started",
+			id: "0D2D800F4A49CA86",
+			tasks: [
+				{
+					id: "164C0755E8405ECC",
+					type: "item",
+					item: "create:crushing_wheel",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: "6D78CE82DC5FD3BF",
+					type: "item",
+					item: {
+						id: "kubejs:lootbag_create_brass",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 1.0d,
+			subtitle: "{chapter.2.quest.36.subtitle}",
+			dependencies: ["4BC7774659DA5996"],
+			id: "74A44C35A73EB298",
+			tasks: [
+				{
+					id: "0DD47A4E704F719D",
+					type: "item",
+					item: "tconstruct:seared_melter"
+				}
+			]
+		},
+		{
+			title: "{chapter.2.quest.37.title}",
+			x: -7.0d,
+			y: 1.0d,
+			subtitle: "{chapter.2.quest.37.subtitle}",
+			dependencies: ["4BC7774659DA5996"],
+			id: "54866C6D8E7DD4D1",
+			tasks: [
+				{
+					id: "0A8DF121E4AE9719",
+					type: "item",
+					item: "create:mechanical_crafter",
+					count: 27L
+				}
+			]
 		}
-	]
-	quest_links: [ ]
+	],
+	quest_links: []
 }
