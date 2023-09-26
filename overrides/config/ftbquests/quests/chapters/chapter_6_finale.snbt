@@ -1,1088 +1,1113 @@
 {
-	id: "087EABA1209B88CF"
-	group: "42A213AA17D37DAF"
-	order_index: 10
-	filename: "chapter_6_finale"
-	title: "Chapter X: The End."
-	icon: "supplementaries:globe_sepia"
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "087EABA1209B88CF", 
+	group: "42A213AA17D37DAF", 
+	order_index: 10, 
+	filename: "chapter_6_finale", 
+	title: "{chapter.6_finale.quest.title}", 
+	icon: "supplementaries:globe_sepia", 
+	default_quest_shape: "", 
+	default_hide_dependency_lines: 0b, 
 	images: [
 		{
-			x: -1.0d
-			y: 10.5d
-			width: 60.0d
-			height: 60.0d
-			rotation: 0.0d
-			image: "kubejs:textures/end.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
+			x: -1.0d, 
+			y: 10.5d, 
+			width: 60.0d, 
+			height: 60.0d, 
+			rotation: 0.0d, 
+			image: "kubejs:textures/end.png", 
+			hover: [], 
+			click: "", 
+			dev: 0b, 
+			corner: 0b
+		}, 
 		{
-			x: 0.0d
-			y: 10.5d
-			width: 33.0d
-			height: 33.0d
-			rotation: 0.0d
-			image: "kubejs:textures/wow.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
+			x: 0.0d, 
+			y: 10.5d, 
+			width: 33.0d, 
+			height: 33.0d, 
+			rotation: 0.0d, 
+			image: "kubejs:textures/wow.png", 
+			hover: [], 
+			click: "", 
+			dev: 0b, 
+			corner: 0b
 		}
-	]
+	], 
 	quests: [
 		{
-			x: 0.0d
-			y: 1.0d
-			dependencies: ["33B884E7D9E5A820"]
-			hide: true
-			id: "133178A238B859C1"
-			tasks: [{
-				id: "01C8B90F875494CC"
-				type: "dimension"
-				dimension: "cae:arcane"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 0.0d
-			dependencies: ["33B884E7D9E5A820"]
-			hide: true
-			id: "2063E17A2AB0D56B"
-			tasks: [{
-				id: "71C38F4231946750"
-				type: "item"
-				item: {
-					id: "pneumaticcraft:amadron_tablet"
-					Count: 1b
-					tag: {
-						"pneumaticcraft:air": 30000
-					}
-				}
-			}]
-		}
-		{
-			x: -2.0d
-			y: 5.5d
-			dependencies: ["12D4F65D7254E7E2"]
-			id: "3BEB60532CEFEB32"
-			tasks: [{
-				id: "3040E0D4A5779075"
-				type: "item"
-				item: "kubejs:source_essence_bucket"
-			}]
-		}
-		{
-			x: -1.0d
-			y: 7.0d
-			dependencies: [
-				"12D4F65D7254E7E2"
-				"3BEB60532CEFEB32"
-			]
-			id: "03C4460B9D959011"
-			tasks: [{
-				id: "768202B366672D50"
-				type: "item"
-				item: "kubejs:ice_essence_bucket"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 8.5d
-			dependencies: [
-				"03C4460B9D959011"
-				"12D4F65D7254E7E2"
-			]
-			id: "7F1F6618C957CE41"
-			tasks: [{
-				id: "69AF46A33EA8D398"
-				type: "item"
-				item: "kubejs:dry_essence_bucket"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 7.0d
-			dependencies: [
-				"7F1F6618C957CE41"
-				"12D4F65D7254E7E2"
-			]
-			id: "5A2CCF2F6771B527"
-			tasks: [{
-				id: "6F630DF675E9933E"
-				type: "item"
-				item: "kubejs:nature_essence_bucket"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 5.5d
-			dependencies: [
-				"5A2CCF2F6771B527"
-				"12D4F65D7254E7E2"
-			]
-			id: "3A58BDE6B24B3C12"
-			tasks: [{
-				id: "24755B728CD0B020"
-				type: "item"
-				item: "kubejs:soul_essence_bucket"
-			}]
-		}
-		{
-			title: "Trains all the way through the Arcane"
-			x: 0.0d
-			y: 5.5d
-			shape: "diamond"
-			subtitle: "Each biome has essences to extract, however every other than the source essence requires another essence to cultivate it. You'll need an extensive logistics network to handle them."
-			dependencies: ["33B884E7D9E5A820"]
-			hide: true
-			id: "12D4F65D7254E7E2"
-			tasks: [{
-				id: "48D52CB3517D2A91"
-				type: "item"
-				item: "create:track"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 7.0d
-			dependencies: ["33B884E7D9E5A820"]
-			hide: true
-			id: "3C89DBE6B9F2B2CF"
-			tasks: [{
-				id: "01B0A81E07E66C32"
-				type: "item"
-				item: "cae:essence_extractor"
-			}]
-		}
-		{
-			title: "Crush the Whirlisprig"
-			x: 10.0d
-			y: 13.5d
-			dependencies: ["2FA09AA8196F2027"]
-			id: "090527275F758F84"
-			tasks: [{
-				id: "40BFE63AAB361A55"
-				type: "item"
-				item: "create:crushing_wheel"
-			}]
-		}
-		{
-			title: "The Whirlisprig Crusher"
-			x: 10.0d
-			y: 12.5d
-			shape: "square"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "2FA09AA8196F2027"
-			tasks: [{
-				id: "1A100F980078E3BC"
-				type: "observation"
-				icon: "ars_nouveau:whirlisprig_charm"
-				timer: 0L
-				observe_type: 5
-				to_observe: "ars_nouveau:whirlisprig"
-			}]
-		}
-		{
-			x: 10.0d
-			y: 20.5d
-			shape: "diamond"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "6F2670BBF229FB05"
-			tasks: [{
-				id: "3E958FDC62638E8E"
-				type: "item"
-				item: "kubejs:nature_essence_bucket"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 14.5d
-			dependencies: ["090527275F758F84"]
-			hide: false
-			id: "434ED39992878929"
-			tasks: [{
-				id: "6420AD6A6EF058A2"
-				type: "item"
-				item: "reliquary:fertile_essence"
-			}]
-		}
-		{
-			x: 11.0d
-			y: 14.5d
-			dependencies: ["090527275F758F84"]
-			id: "6AB3810C9237D222"
-			tasks: [{
-				id: "0AB0DF17838E84BC"
-				type: "item"
-				item: "byg:ether_grass"
-			}]
-		}
-		{
-			x: 9.0d
-			y: 14.5d
-			dependencies: ["090527275F758F84"]
-			id: "586CA97DA414F04B"
-			tasks: [{
-				id: "433C950A95C8072A"
-				type: "item"
-				item: "minecraft:grass"
-			}]
-		}
-		{
-			x: 10.0d
-			y: 14.5d
-			dependencies: ["090527275F758F84"]
-			id: "3C5F60478745CA8B"
-			tasks: [{
-				id: "4F9070A159C9A56E"
-				type: "item"
-				item: "byg:protea_flower"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 16.5d
-			dependencies: [
-				"586CA97DA414F04B"
-				"434ED39992878929"
-			]
-			id: "7D48C82BD965DA6C"
+			x: 0.0d, 
+			y: 1.0d, 
+			dependencies: ["33B884E7D9E5A820"], 
+			hide: 1b, 
+			id: "133178A238B859C1", 
 			tasks: [
 				{
-					id: "24ABC93457695146"
-					type: "item"
-					item: "byg:pine_sapling"
+					id: "01C8B90F875494CC", 
+					type: "dimension", 
+					dimension: "cae:arcane"
 				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: 0.0d, 
+			dependencies: ["33B884E7D9E5A820"], 
+			hide: 1b, 
+			id: "2063E17A2AB0D56B", 
+			tasks: [
 				{
-					id: "513E935BFE17E784"
-					type: "item"
+					id: "71C38F4231946750", 
+					type: "item", 
+					item: {
+						id: "pneumaticcraft:amadron_tablet", 
+						Count: 1b, 
+						tag: {
+							"pneumaticcraft:air": 30000
+						}
+					}
+				}
+			]
+		}, 
+		{
+			x: -2.0d, 
+			y: 5.5d, 
+			dependencies: ["12D4F65D7254E7E2"], 
+			id: "3BEB60532CEFEB32", 
+			tasks: [
+				{
+					id: "3040E0D4A5779075", 
+					type: "item", 
+					item: "kubejs:source_essence_bucket"
+				}
+			]
+		}, 
+		{
+			x: -1.0d, 
+			y: 7.0d, 
+			dependencies: ["12D4F65D7254E7E2", "3BEB60532CEFEB32"], 
+			id: "03C4460B9D959011", 
+			tasks: [
+				{
+					id: "768202B366672D50", 
+					type: "item", 
+					item: "kubejs:ice_essence_bucket"
+				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: 8.5d, 
+			dependencies: ["03C4460B9D959011", "12D4F65D7254E7E2"], 
+			id: "7F1F6618C957CE41", 
+			tasks: [
+				{
+					id: "69AF46A33EA8D398", 
+					type: "item", 
+					item: "kubejs:dry_essence_bucket"
+				}
+			]
+		}, 
+		{
+			x: 1.0d, 
+			y: 7.0d, 
+			dependencies: ["7F1F6618C957CE41", "12D4F65D7254E7E2"], 
+			id: "5A2CCF2F6771B527", 
+			tasks: [
+				{
+					id: "6F630DF675E9933E", 
+					type: "item", 
+					item: "kubejs:nature_essence_bucket"
+				}
+			]
+		}, 
+		{
+			x: 2.0d, 
+			y: 5.5d, 
+			dependencies: ["5A2CCF2F6771B527", "12D4F65D7254E7E2"], 
+			id: "3A58BDE6B24B3C12", 
+			tasks: [
+				{
+					id: "24755B728CD0B020", 
+					type: "item", 
+					item: "kubejs:soul_essence_bucket"
+				}
+			]
+		}, 
+		{
+			title: "{chapter.6_finale.quest.8.title}", 
+			x: 0.0d, 
+			y: 5.5d, 
+			shape: "diamond", 
+			subtitle: "{chapter.6_finale.quest.8.subtitle}", 
+			dependencies: ["33B884E7D9E5A820"], 
+			hide: 1b, 
+			id: "12D4F65D7254E7E2", 
+			tasks: [
+				{
+					id: "48D52CB3517D2A91", 
+					type: "item", 
+					item: "create:track"
+				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: 7.0d, 
+			dependencies: ["33B884E7D9E5A820"], 
+			hide: 1b, 
+			id: "3C89DBE6B9F2B2CF", 
+			tasks: [
+				{
+					id: "01B0A81E07E66C32", 
+					type: "item", 
+					item: "cae:essence_extractor"
+				}
+			]
+		}, 
+		{
+			title: "{chapter.6_finale.quest.10.title}", 
+			x: 10.0d, 
+			y: 13.5d, 
+			dependencies: ["2FA09AA8196F2027"], 
+			id: "090527275F758F84", 
+			tasks: [
+				{
+					id: "40BFE63AAB361A55", 
+					type: "item", 
+					item: "create:crushing_wheel"
+				}
+			]
+		}, 
+		{
+			title: "{chapter.6_finale.quest.11.title}", 
+			x: 10.0d, 
+			y: 12.5d, 
+			shape: "square", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "2FA09AA8196F2027", 
+			tasks: [
+				{
+					id: "1A100F980078E3BC", 
+					type: "observation", 
+					icon: "ars_nouveau:whirlisprig_charm", 
+					timer: 0L, 
+					observe_type: 5, 
+					to_observe: "ars_nouveau:whirlisprig"
+				}
+			]
+		}, 
+		{
+			x: 10.0d, 
+			y: 20.5d, 
+			shape: "diamond", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "6F2670BBF229FB05", 
+			tasks: [
+				{
+					id: "3E958FDC62638E8E", 
+					type: "item", 
+					item: "kubejs:nature_essence_bucket"
+				}
+			]
+		}, 
+		{
+			x: 8.0d, 
+			y: 14.5d, 
+			dependencies: ["090527275F758F84"], 
+			hide: 0b, 
+			id: "434ED39992878929", 
+			tasks: [
+				{
+					id: "6420AD6A6EF058A2", 
+					type: "item", 
+					item: "reliquary:fertile_essence"
+				}
+			]
+		}, 
+		{
+			x: 11.0d, 
+			y: 14.5d, 
+			dependencies: ["090527275F758F84"], 
+			id: "6AB3810C9237D222", 
+			tasks: [
+				{
+					id: "0AB0DF17838E84BC", 
+					type: "item", 
+					item: "byg:ether_grass"
+				}
+			]
+		}, 
+		{
+			x: 9.0d, 
+			y: 14.5d, 
+			dependencies: ["090527275F758F84"], 
+			id: "586CA97DA414F04B", 
+			tasks: [
+				{
+					id: "433C950A95C8072A", 
+					type: "item", 
+					item: "minecraft:grass"
+				}
+			]
+		}, 
+		{
+			x: 10.0d, 
+			y: 14.5d, 
+			dependencies: ["090527275F758F84"], 
+			id: "3C5F60478745CA8B", 
+			tasks: [
+				{
+					id: "4F9070A159C9A56E", 
+					type: "item", 
+					item: "byg:protea_flower"
+				}
+			]
+		}, 
+		{
+			x: 8.5d, 
+			y: 16.5d, 
+			dependencies: ["586CA97DA414F04B", "434ED39992878929"], 
+			id: "7D48C82BD965DA6C", 
+			tasks: [
+				{
+					id: "24ABC93457695146", 
+					type: "item", 
+					item: "byg:pine_sapling"
+				}, 
+				{
+					id: "513E935BFE17E784", 
+					type: "item", 
 					item: "byg:pine_leaves"
 				}
 			]
-		}
+		}, 
 		{
-			x: 10.5d
-			y: 16.5d
-			dependencies: [
-				"6AB3810C9237D222"
-				"3C5F60478745CA8B"
-			]
-			id: "7FB74132632C9FBE"
+			x: 10.5d, 
+			y: 16.5d, 
+			dependencies: ["6AB3810C9237D222", "3C5F60478745CA8B"], 
+			id: "7FB74132632C9FBE", 
 			tasks: [
 				{
-					id: "39FCC63A4F2DDB6E"
-					type: "item"
+					id: "39FCC63A4F2DDB6E", 
+					type: "item", 
 					item: "byg:green_enchanted_sapling"
-				}
+				}, 
 				{
-					id: "13C5DA72CF7E1761"
-					type: "item"
+					id: "13C5DA72CF7E1761", 
+					type: "item", 
 					item: "byg:green_enchanted_leaves"
 				}
 			]
-		}
+		}, 
 		{
-			x: 9.5d
-			y: 16.5d
-			dependencies: [
-				"586CA97DA414F04B"
-				"3C5F60478745CA8B"
-			]
-			id: "62D8BCF85DDBD537"
+			x: 9.5d, 
+			y: 16.5d, 
+			dependencies: ["586CA97DA414F04B", "3C5F60478745CA8B"], 
+			id: "62D8BCF85DDBD537", 
 			tasks: [
 				{
-					id: "1C4634C6824EBEBF"
-					type: "item"
+					id: "1C4634C6824EBEBF", 
+					type: "item", 
 					item: "byg:palo_verde_sapling"
-				}
+				}, 
 				{
-					id: "7B696D2DC9B5A387"
-					type: "item"
+					id: "7B696D2DC9B5A387", 
+					type: "item", 
 					item: "byg:flowering_palo_verde_leaves"
 				}
 			]
-		}
+		}, 
 		{
-			x: 11.5d
-			y: 16.5d
-			dependencies: [
-				"6AB3810C9237D222"
-				"1B2BF9B84EDA1967"
-			]
-			id: "7A3796362A6F0917"
+			x: 11.5d, 
+			y: 16.5d, 
+			dependencies: ["6AB3810C9237D222", "1B2BF9B84EDA1967"], 
+			id: "7A3796362A6F0917", 
 			tasks: [
 				{
-					id: "6F7F4AC64D1B0716"
-					type: "item"
+					id: "6F7F4AC64D1B0716", 
+					type: "item", 
 					item: "integrateddynamics:menril_sapling"
-				}
+				}, 
 				{
-					id: "66D2E6A20387E513"
-					type: "item"
+					id: "66D2E6A20387E513", 
+					type: "item", 
 					item: "integrateddynamics:menril_leaves"
-				}
+				}, 
 				{
-					id: "702C087827DB4E83"
-					type: "item"
+					id: "702C087827DB4E83", 
+					type: "item", 
 					item: "integrateddynamics:crystalized_menril_chunk"
 				}
 			]
-		}
+		}, 
 		{
-			x: 10.0d
-			y: 17.5d
-			dependencies: [
-				"7D48C82BD965DA6C"
-				"62D8BCF85DDBD537"
-				"22A769C35306DF79"
-				"7FB74132632C9FBE"
-				"7A3796362A6F0917"
-			]
-			id: "5534960D408A19F6"
-			tasks: [{
-				id: "41A0DDA3FD0CFF24"
-				type: "item"
-				item: "cae:stem_cell"
-			}]
-		}
-		{
-			x: 12.0d
-			y: 14.5d
-			dependencies: ["090527275F758F84"]
-			id: "1B2BF9B84EDA1967"
-			tasks: [{
-				id: "479E5B220DC0075E"
-				type: "item"
-				item: "minecraft:lily_pad"
-			}]
-		}
-		{
-			x: 10.0d
-			y: 15.5d
-			dependencies: [
-				"434ED39992878929"
-				"1B2BF9B84EDA1967"
-			]
-			dependency_requirement: "one_started"
-			id: "22A769C35306DF79"
-			tasks: [{
-				id: "5E71D0EDC7A2FDBD"
-				type: "item"
-				item: "reliquary:fertile_lily_pad"
-			}]
-		}
-		{
-			x: 10.0d
-			y: 19.0d
-			shape: "gear"
-			dependencies: [
-				"6F2670BBF229FB05"
-				"5534960D408A19F6"
-			]
-			id: "391805191E5EF51E"
-			tasks: [{
-				id: "6158B9C6F59FBD8E"
-				type: "item"
-				item: "cae:nature_keystone"
-			}]
-		}
-		{
-			title: "The Egginator"
-			x: -10.0d
-			y: 12.5d
-			shape: "square"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "4C8D61C0A4E4828A"
-			tasks: [{
-				id: "6737A4E16C4BBEB1"
-				type: "item"
-				item: "minecraft:egg"
-			}]
-		}
-		{
-			x: -10.0d
-			y: 13.5d
-			dependencies: ["4C8D61C0A4E4828A"]
-			id: "723304BC6A469BB9"
-			tasks: [{
-				id: "6A3483D9BDD51AAC"
-				type: "item"
-				item: "kubejs:liquid_egg_bucket"
-			}]
-		}
-		{
-			x: -9.0d
-			y: 13.5d
-			dependencies: ["4C8D61C0A4E4828A"]
-			id: "56868A923434C66B"
-			tasks: [{
-				id: "6CF77C6C9CDBB4D6"
-				type: "item"
-				item: "kubejs:broken_arcane_egg"
-			}]
-		}
-		{
-			x: -9.0d
-			y: 15.0d
-			dependencies: ["723304BC6A469BB9"]
-			id: "3EA2B36D73B7C7F6"
-			tasks: [{
-				id: "07931418033D1C0D"
-				type: "item"
-				item: "kubejs:arcane_unscrambled_egg"
-			}]
-		}
-		{
-			x: -10.5d
-			y: 15.5d
-			dependencies: ["723304BC6A469BB9"]
-			id: "7DAD3C95A70D6A3F"
-			tasks: [{
-				id: "501AF8C9A02D569E"
-				type: "item"
-				item: "kubejs:liquid_omlett_bucket"
-			}]
-		}
-		{
-			x: -9.5d
-			y: 16.5d
-			dependencies: ["7DAD3C95A70D6A3F"]
-			id: "6633BC006C8A7C8B"
-			tasks: [{
-				id: "5323D040E9E1A871"
-				type: "item"
-				item: "kubejs:omlett_block"
-			}]
-		}
-		{
-			x: -10.0d
-			y: 17.5d
-			subtitle: "Left click the omelett block with a knife to obtain Arcane Omelett Sheets"
-			dependencies: ["6633BC006C8A7C8B"]
-			id: "792896D6601E25B2"
-			tasks: [{
-				id: "7150623AB6DB4F6A"
-				type: "item"
-				item: "kubejs:arcane_omelett_sheet"
-			}]
-		}
-		{
-			x: -10.0d
-			y: 19.0d
-			shape: "gear"
-			dependencies: [
-				"792896D6601E25B2"
-				"4B9F6341222E3370"
-			]
-			id: "3D3BDC9C928DB6C2"
-			tasks: [{
-				id: "47C269FD4DC3EE52"
-				type: "item"
-				item: "cae:soul_keystone"
-			}]
-		}
-		{
-			x: -10.0d
-			y: 20.5d
-			shape: "diamond"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "4B9F6341222E3370"
-			tasks: [{
-				id: "57E78906508262DE"
-				type: "item"
-				item: "kubejs:soul_essence_bucket"
-			}]
-		}
-		{
-			title: "Tactical Sponge Fishing"
-			x: 0.0d
-			y: 12.5d
-			shape: "square"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "3CD3DB2325BF570E"
-			tasks: [{
-				id: "37E2F0B06C069D69"
-				type: "item"
-				item: "minecraft:sponge"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 14.5d
-			dependencies: [
-				"2DB1F276B367383B"
-				"3CD3DB2325BF570E"
-			]
-			id: "4E4B3C9CE9C81937"
-			tasks: [{
-				id: "36B4534441E72BE1"
-				type: "item"
-				item: "minecraft:wet_sponge"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 13.5d
-			dependencies: [
-				"33B884E7D9E5A820"
-				"3CD3DB2325BF570E"
-			]
-			hide: true
-			id: "2DB1F276B367383B"
-			tasks: [{
-				id: "5C0A1AA64721EAF3"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 16.0d
-			dependencies: ["4E4B3C9CE9C81937"]
-			id: "2DE90F03D8C25736"
-			tasks: [{
-				id: "427E7ACD238533E7"
-				type: "item"
-				item: "minecraft:pufferfish"
-			}]
-		}
-		{
-			x: -0.5d
-			y: 16.0d
-			dependencies: ["4E4B3C9CE9C81937"]
-			id: "6053B2905F1B81EA"
-			tasks: [{
-				id: "748AA04AE514F64C"
-				type: "item"
-				item: "minecraft:tropical_fish"
-			}]
-		}
-		{
-			x: 0.5d
-			y: 16.0d
-			dependencies: ["4E4B3C9CE9C81937"]
-			id: "04BCD05BA55B7B19"
-			tasks: [{
-				id: "560378E9C0DE7F5C"
-				type: "item"
-				item: "minecraft:cod"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 16.0d
-			dependencies: ["4E4B3C9CE9C81937"]
-			id: "5835FDC694B85D06"
-			tasks: [{
-				id: "5535AB628C24DB5A"
-				type: "item"
-				item: "minecraft:salmon"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 15.0d
-			dependencies: ["2DB1F276B367383B"]
-			id: "5B4D57C569435B59"
-			tasks: [{
-				id: "5434B19F1D2DBB3C"
-				type: "item"
-				item: "minecraft:kelp"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 15.0d
-			dependencies: ["2DB1F276B367383B"]
-			id: "24BFC0D4237DE32F"
-			tasks: [{
-				id: "456831DE95C167DF"
-				type: "item"
-				item: "farmersdelight:rice_panicle"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 17.5d
-			dependencies: [
-				"716880007999129B"
-				"58C7C0A98CAACE8B"
-				"2DE90F03D8C25736"
-				"6053B2905F1B81EA"
-				"04BCD05BA55B7B19"
-				"5835FDC694B85D06"
-			]
-			dependency_requirement: "one_completed"
-			id: "249E855D471D33AB"
-			tasks: [{
-				id: "181C7A942A05877F"
-				type: "item"
-				item: "kubejs:sushi"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 17.0d
-			dependencies: ["24BFC0D4237DE32F"]
-			id: "716880007999129B"
-			tasks: [{
-				id: "65FE22C719A5DE20"
-				type: "item"
-				item: "farmersdelight:rice"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 17.0d
-			dependencies: ["5B4D57C569435B59"]
-			id: "58C7C0A98CAACE8B"
-			tasks: [{
-				id: "09D66E8DB9E72235"
-				type: "item"
-				item: "minecraft:dried_kelp"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 19.0d
-			shape: "gear"
-			dependencies: [
-				"249E855D471D33AB"
-				"6BF4B8DD3BA40F12"
-			]
-			dependency_requirement: "one_completed"
-			id: "6C8FB5F3C3554517"
-			tasks: [{
-				id: "364850AEBC6DE31A"
-				type: "item"
-				item: "cae:dry_keystone"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 20.5d
-			shape: "diamond"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "6BF4B8DD3BA40F12"
-			tasks: [{
-				id: "6953A8F43FE5A2E5"
-				type: "item"
-				item: "kubejs:dry_essence_bucket"
-			}]
-		}
-		{
-			title: "Dont spoil yourself this questline in creative. Thanks :D"
-			x: 0.0d
-			y: 3.0d
-			dependencies: ["33B884E7D9E5A820"]
-			hide: true
-			size: 3.0d
-			id: "633DBAAE20AE0446"
-			tasks: [{
-				id: "7E5908AB39259191"
-				type: "item"
-				item: "davebuildingmod:alarm_sign"
-			}]
-		}
-		{
-			title: "I thought this was supposed to be an icy chapter?"
-			x: -5.0d
-			y: 12.5d
-			shape: "square"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "5020FCDDC95BB62A"
-			tasks: [{
-				id: "2A185B251FC0579F"
-				type: "item"
-				item: "minecraft:stone"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 13.5d
-			subtitle: "Exploding stone with Inferno TNT will grant magma blocks"
-			dependencies: ["5020FCDDC95BB62A"]
-			id: "477B115121FF45A2"
-			tasks: [{
-				id: "6A116518B8AD85CC"
-				type: "item"
-				item: "thermal:fire_tnt"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 14.5d
-			dependencies: ["477B115121FF45A2"]
-			id: "476D9B8E02B0331E"
-			tasks: [{
-				id: "6AF70C79A0F40967"
-				type: "item"
-				item: "minecraft:magma_block"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 15.5d
-			subtitle: "Exploding magma with Glacial TNT will grant Blue Ice. Be warned, having this too close to your cobble gen will transmute the lava to obsidian"
-			dependencies: ["476D9B8E02B0331E"]
-			id: "33A1044328EB0748"
-			tasks: [{
-				id: "69A359EA72E32AA0"
-				type: "item"
-				item: "thermal:ice_tnt"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 16.5d
-			dependencies: ["33A1044328EB0748"]
-			id: "212528D80ED39096"
-			tasks: [{
-				id: "5A26962D0F20B66E"
-				type: "item"
-				item: "minecraft:blue_ice"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 17.5d
-			dependencies: ["212528D80ED39096"]
-			id: "32B1EB76E0C39720"
-			tasks: [{
-				id: "06EA9694F4311EF3"
-				type: "item"
-				item: "kubejs:magical_ice"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 19.0d
-			shape: "gear"
-			dependencies: [
-				"6F14D562269E7DD2"
-				"32B1EB76E0C39720"
-			]
-			id: "1684FC404559618C"
-			tasks: [{
-				id: "146AD549F0850711"
-				type: "item"
-				item: "cae:ice_keystone"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 20.5d
-			shape: "diamond"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "6F14D562269E7DD2"
-			tasks: [{
-				id: "500B8F3EC2543E6F"
-				type: "item"
-				item: "kubejs:ice_essence_bucket"
-			}]
-		}
-		{
-			title: "The Source Time Crystal"
-			x: 5.0d
-			y: 12.5d
-			shape: "square"
-			subtitle: "Right click the Source Time Block for saplings."
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "2E2490343C3A854A"
-			tasks: [{
-				id: "5118BD516C9146A4"
-				type: "item"
-				item: "kubejs:source_time_crystal"
-			}]
-		}
-		{
-			x: 3.5d
-			y: 13.5d
-			dependencies: ["2E2490343C3A854A"]
-			dependency_requirement: "one_completed"
-			id: "6AE45DA328059B1C"
-			tasks: [{
-				id: "6E25EAAECFDC90BB"
-				type: "item"
-				item: "ars_nouveau:blue_archwood_sapling"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 13.5d
-			dependencies: ["2E2490343C3A854A"]
-			id: "5DDD9C63929E9186"
-			tasks: [{
-				id: "76EBFE8E92BCD5C4"
-				type: "item"
-				item: "ars_nouveau:green_archwood_sapling"
-			}]
-		}
-		{
-			x: 5.5d
-			y: 13.5d
-			dependencies: ["2E2490343C3A854A"]
-			id: "51D0E3FF82128F07"
-			tasks: [{
-				id: "2F1D1510A869DACC"
-				type: "item"
-				item: "ars_nouveau:purple_archwood_sapling"
-			}]
-		}
-		{
-			x: 6.5d
-			y: 13.5d
-			dependencies: ["2E2490343C3A854A"]
-			id: "5D6942F4AF46788C"
-			tasks: [{
-				id: "3D0BE1880F0D721E"
-				type: "item"
-				item: "ars_nouveau:red_archwood_sapling"
-			}]
-		}
-		{
-			x: 3.5d
-			y: 15.5d
-			subtitle: "Spout Cascading Juice onto placed Cascading Saplings"
-			dependencies: [
-				"20CD12C610E188C3"
-				"6AE45DA328059B1C"
-			]
-			id: "2DE40993FD63C908"
-			tasks: [{
-				id: "433339CC667284B0"
-				type: "item"
-				item: "chipped:moss_block_1"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 16.5d
-			subtitle: "Spout Flourishing Juice onto placed Flourishing Saplings"
-			dependencies: [
-				"5DDD9C63929E9186"
-				"72A7613CFB680DD1"
-			]
-			id: "1D9BCF9F3979C5A0"
-			tasks: [{
-				id: "456159A572839ECF"
-				type: "item"
-				item: "minecraft:rooted_dirt"
-			}]
-		}
-		{
-			x: 5.5d
-			y: 16.5d
-			subtitle: "Spout Vexing Juice onto placed Vexing Saplings"
-			dependencies: [
-				"51D0E3FF82128F07"
-				"7D240D7B4265CD67"
-			]
-			id: "3BE4D482EC2DE8D3"
-			tasks: [{
-				id: "4A5E1DC606F8F692"
-				type: "item"
-				item: "chipped:amethyst_block_30"
-			}]
-		}
-		{
-			x: 6.5d
-			y: 15.5d
-			subtitle: "Spout Blazing Juice onto placed Blazing Saplings"
-			dependencies: [
-				"5D6942F4AF46788C"
-				"51E9C074E51C08A3"
-			]
-			id: "2CCACFA0637A308C"
-			tasks: [{
-				id: "7FEB5547CE0DAF6E"
-				type: "item"
-				item: "minecraft:netherrack"
-			}]
-		}
-		{
-			x: 6.5d
-			y: 14.5d
-			dependencies: ["5D6942F4AF46788C"]
-			id: "51E9C074E51C08A3"
-			tasks: [{
-				id: "0CB67AA9B2E834F5"
-				type: "item"
-				item: "kubejs:blazing_juice_bucket"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 14.5d
-			dependencies: ["5DDD9C63929E9186"]
-			id: "72A7613CFB680DD1"
-			tasks: [{
-				id: "4CF56368C76186BB"
-				type: "item"
-				item: "kubejs:flourishing_juice_bucket"
-			}]
-		}
-		{
-			x: 3.5d
-			y: 14.5d
-			dependencies: ["6AE45DA328059B1C"]
-			id: "20CD12C610E188C3"
-			tasks: [{
-				id: "3CD6A37C31DB9710"
-				type: "item"
-				item: "kubejs:cascading_juice_bucket"
-			}]
-		}
-		{
-			x: 5.5d
-			y: 14.5d
-			dependencies: ["51D0E3FF82128F07"]
-			id: "7D240D7B4265CD67"
-			tasks: [{
-				id: "2AECFF9A13B994A6"
-				type: "item"
-				item: "kubejs:vexing_juice_bucket"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 17.5d
-			dependencies: [
-				"06FF20D71095B5A7"
-				"2DE40993FD63C908"
-				"2CCACFA0637A308C"
-				"1D9BCF9F3979C5A0"
-				"3BE4D482EC2DE8D3"
-			]
-			id: "327762DAC1E18A13"
-			tasks: [{
-				id: "0FB813C12DD1D01E"
-				type: "item"
-				item: "kubejs:source_candy_rock"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 15.5d
-			dependencies: ["2E2490343C3A854A"]
-			id: "06FF20D71095B5A7"
-			tasks: [{
-				id: "3FB5EC47F64E0B47"
-				type: "item"
-				item: "ars_nouveau:source_gem"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 19.0d
-			shape: "gear"
-			dependencies: [
-				"78A7D551721251CE"
-				"327762DAC1E18A13"
-			]
-			id: "2511B079D7681179"
-			tasks: [{
-				id: "1DBD9231D15CEF02"
-				type: "item"
-				item: "cae:source_keystone"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 20.5d
-			shape: "diamond"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"2022E1E6F13CCFCB"
-			]
-			hide: true
-			id: "78A7D551721251CE"
-			tasks: [{
-				id: "21A838EC59E0ED3B"
-				type: "item"
-				item: "kubejs:source_essence_bucket"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 10.5d
-			shape: "gear"
-			dependencies: [
-				"33B884E7D9E5A820"
-				"12D4F65D7254E7E2"
-				"7F1F6618C957CE41"
-				"03C4460B9D959011"
-				"5A2CCF2F6771B527"
-				"3A58BDE6B24B3C12"
-				"3BEB60532CEFEB32"
-			]
-			hide: true
-			size: 1.5d
-			id: "2022E1E6F13CCFCB"
-			tasks: [{
-				id: "4030C2CED9A95884"
-				type: "advancement"
-				advancement: "cae:verycool"
-				criterion: ""
-			}]
-		}
-		{
-			x: 0.0d
-			y: -1.0d
-			subtitle: "You have to fill the Source Crystal without damaging its structure. Maybe entangled blocks could help?"
-			dependencies: ["33B884E7D9E5A820"]
-			hide: true
-			id: "5EEB1B8FCD2C1830"
-			tasks: [{
-				id: "69FDA38B7CE72B2F"
-				type: "item"
-				item: {
-					id: "entangled:block"
-					Count: 1b
-					tag: { }
+			x: 10.0d, 
+			y: 17.5d, 
+			dependencies: ["7D48C82BD965DA6C", "62D8BCF85DDBD537", "22A769C35306DF79", "7FB74132632C9FBE", "7A3796362A6F0917"], 
+			id: "5534960D408A19F6", 
+			tasks: [
+				{
+					id: "41A0DDA3FD0CFF24", 
+					type: "item", 
+					item: "cae:stem_cell"
 				}
-			}]
+			]
+		}, 
+		{
+			x: 12.0d, 
+			y: 14.5d, 
+			dependencies: ["090527275F758F84"], 
+			id: "1B2BF9B84EDA1967", 
+			tasks: [
+				{
+					id: "479E5B220DC0075E", 
+					type: "item", 
+					item: "minecraft:lily_pad"
+				}
+			]
+		}, 
+		{
+			x: 10.0d, 
+			y: 15.5d, 
+			dependencies: ["434ED39992878929", "1B2BF9B84EDA1967"], 
+			dependency_requirement: "one_started", 
+			id: "22A769C35306DF79", 
+			tasks: [
+				{
+					id: "5E71D0EDC7A2FDBD", 
+					type: "item", 
+					item: "reliquary:fertile_lily_pad"
+				}
+			]
+		}, 
+		{
+			x: 10.0d, 
+			y: 19.0d, 
+			shape: "gear", 
+			dependencies: ["6F2670BBF229FB05", "5534960D408A19F6"], 
+			id: "391805191E5EF51E", 
+			tasks: [
+				{
+					id: "6158B9C6F59FBD8E", 
+					type: "item", 
+					item: "cae:nature_keystone"
+				}
+			]
+		}, 
+		{
+			title: "{chapter.6_finale.quest.25.title}", 
+			x: -10.0d, 
+			y: 12.5d, 
+			shape: "square", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "4C8D61C0A4E4828A", 
+			tasks: [
+				{
+					id: "6737A4E16C4BBEB1", 
+					type: "item", 
+					item: "minecraft:egg"
+				}
+			]
+		}, 
+		{
+			x: -10.0d, 
+			y: 13.5d, 
+			dependencies: ["4C8D61C0A4E4828A"], 
+			id: "723304BC6A469BB9", 
+			tasks: [
+				{
+					id: "6A3483D9BDD51AAC", 
+					type: "item", 
+					item: "kubejs:liquid_egg_bucket"
+				}
+			]
+		}, 
+		{
+			x: -9.0d, 
+			y: 13.5d, 
+			dependencies: ["4C8D61C0A4E4828A"], 
+			id: "56868A923434C66B", 
+			tasks: [
+				{
+					id: "6CF77C6C9CDBB4D6", 
+					type: "item", 
+					item: "kubejs:broken_arcane_egg"
+				}
+			]
+		}, 
+		{
+			x: -9.0d, 
+			y: 15.0d, 
+			dependencies: ["723304BC6A469BB9"], 
+			id: "3EA2B36D73B7C7F6", 
+			tasks: [
+				{
+					id: "07931418033D1C0D", 
+					type: "item", 
+					item: "kubejs:arcane_unscrambled_egg"
+				}
+			]
+		}, 
+		{
+			x: -10.5d, 
+			y: 15.5d, 
+			dependencies: ["723304BC6A469BB9"], 
+			id: "7DAD3C95A70D6A3F", 
+			tasks: [
+				{
+					id: "501AF8C9A02D569E", 
+					type: "item", 
+					item: "kubejs:liquid_omlett_bucket"
+				}
+			]
+		}, 
+		{
+			x: -9.5d, 
+			y: 16.5d, 
+			dependencies: ["7DAD3C95A70D6A3F"], 
+			id: "6633BC006C8A7C8B", 
+			tasks: [
+				{
+					id: "5323D040E9E1A871", 
+					type: "item", 
+					item: "kubejs:omlett_block"
+				}
+			]
+		}, 
+		{
+			x: -10.0d, 
+			y: 17.5d, 
+			subtitle: "{chapter.6_finale.quest.31.subtitle}", 
+			dependencies: ["6633BC006C8A7C8B"], 
+			id: "792896D6601E25B2", 
+			tasks: [
+				{
+					id: "7150623AB6DB4F6A", 
+					type: "item", 
+					item: "kubejs:arcane_omelett_sheet"
+				}
+			]
+		}, 
+		{
+			x: -10.0d, 
+			y: 19.0d, 
+			shape: "gear", 
+			dependencies: ["792896D6601E25B2", "4B9F6341222E3370"], 
+			id: "3D3BDC9C928DB6C2", 
+			tasks: [
+				{
+					id: "47C269FD4DC3EE52", 
+					type: "item", 
+					item: "cae:soul_keystone"
+				}
+			]
+		}, 
+		{
+			x: -10.0d, 
+			y: 20.5d, 
+			shape: "diamond", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "4B9F6341222E3370", 
+			tasks: [
+				{
+					id: "57E78906508262DE", 
+					type: "item", 
+					item: "kubejs:soul_essence_bucket"
+				}
+			]
+		}, 
+		{
+			title: "{chapter.6_finale.quest.34.title}", 
+			x: 0.0d, 
+			y: 12.5d, 
+			shape: "square", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "3CD3DB2325BF570E", 
+			tasks: [
+				{
+					id: "37E2F0B06C069D69", 
+					type: "item", 
+					item: "minecraft:sponge"
+				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: 14.5d, 
+			dependencies: ["2DB1F276B367383B", "3CD3DB2325BF570E"], 
+			id: "4E4B3C9CE9C81937", 
+			tasks: [
+				{
+					id: "36B4534441E72BE1", 
+					type: "item", 
+					item: "minecraft:wet_sponge"
+				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: 13.5d, 
+			dependencies: ["33B884E7D9E5A820", "3CD3DB2325BF570E"], 
+			hide: 1b, 
+			id: "2DB1F276B367383B", 
+			tasks: [
+				{
+					id: "5C0A1AA64721EAF3", 
+					type: "item", 
+					item: "minecraft:water_bucket"
+				}
+			]
+		}, 
+		{
+			x: -1.5d, 
+			y: 16.0d, 
+			dependencies: ["4E4B3C9CE9C81937"], 
+			id: "2DE90F03D8C25736", 
+			tasks: [
+				{
+					id: "427E7ACD238533E7", 
+					type: "item", 
+					item: "minecraft:pufferfish"
+				}
+			]
+		}, 
+		{
+			x: -0.5d, 
+			y: 16.0d, 
+			dependencies: ["4E4B3C9CE9C81937"], 
+			id: "6053B2905F1B81EA", 
+			tasks: [
+				{
+					id: "748AA04AE514F64C", 
+					type: "item", 
+					item: "minecraft:tropical_fish"
+				}
+			]
+		}, 
+		{
+			x: 0.5d, 
+			y: 16.0d, 
+			dependencies: ["4E4B3C9CE9C81937"], 
+			id: "04BCD05BA55B7B19", 
+			tasks: [
+				{
+					id: "560378E9C0DE7F5C", 
+					type: "item", 
+					item: "minecraft:cod"
+				}
+			]
+		}, 
+		{
+			x: 1.5d, 
+			y: 16.0d, 
+			dependencies: ["4E4B3C9CE9C81937"], 
+			id: "5835FDC694B85D06", 
+			tasks: [
+				{
+					id: "5535AB628C24DB5A", 
+					type: "item", 
+					item: "minecraft:salmon"
+				}
+			]
+		}, 
+		{
+			x: 1.5d, 
+			y: 15.0d, 
+			dependencies: ["2DB1F276B367383B"], 
+			id: "5B4D57C569435B59", 
+			tasks: [
+				{
+					id: "5434B19F1D2DBB3C", 
+					type: "item", 
+					item: "minecraft:kelp"
+				}
+			]
+		}, 
+		{
+			x: -1.5d, 
+			y: 15.0d, 
+			dependencies: ["2DB1F276B367383B"], 
+			id: "24BFC0D4237DE32F", 
+			tasks: [
+				{
+					id: "456831DE95C167DF", 
+					type: "item", 
+					item: "farmersdelight:rice_panicle"
+				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: 17.5d, 
+			dependencies: ["716880007999129B", "58C7C0A98CAACE8B", "2DE90F03D8C25736", "6053B2905F1B81EA", "04BCD05BA55B7B19", "5835FDC694B85D06"], 
+			dependency_requirement: "one_completed", 
+			id: "249E855D471D33AB", 
+			tasks: [
+				{
+					id: "181C7A942A05877F", 
+					type: "item", 
+					item: "kubejs:sushi"
+				}
+			]
+		}, 
+		{
+			x: -1.5d, 
+			y: 17.0d, 
+			dependencies: ["24BFC0D4237DE32F"], 
+			id: "716880007999129B", 
+			tasks: [
+				{
+					id: "65FE22C719A5DE20", 
+					type: "item", 
+					item: "farmersdelight:rice"
+				}
+			]
+		}, 
+		{
+			x: 1.5d, 
+			y: 17.0d, 
+			dependencies: ["5B4D57C569435B59"], 
+			id: "58C7C0A98CAACE8B", 
+			tasks: [
+				{
+					id: "09D66E8DB9E72235", 
+					type: "item", 
+					item: "minecraft:dried_kelp"
+				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: 19.0d, 
+			shape: "gear", 
+			dependencies: ["249E855D471D33AB", "6BF4B8DD3BA40F12"], 
+			dependency_requirement: "one_completed", 
+			id: "6C8FB5F3C3554517", 
+			tasks: [
+				{
+					id: "364850AEBC6DE31A", 
+					type: "item", 
+					item: "cae:dry_keystone"
+				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: 20.5d, 
+			shape: "diamond", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "6BF4B8DD3BA40F12", 
+			tasks: [
+				{
+					id: "6953A8F43FE5A2E5", 
+					type: "item", 
+					item: "kubejs:dry_essence_bucket"
+				}
+			]
+		}, 
+		{
+			title: "{chapter.6_finale.quest.48.title}", 
+			x: 0.0d, 
+			y: 3.0d, 
+			dependencies: ["33B884E7D9E5A820"], 
+			hide: 1b, 
+			size: 3.0d, 
+			id: "633DBAAE20AE0446", 
+			tasks: [
+				{
+					id: "7E5908AB39259191", 
+					type: "item", 
+					item: "davebuildingmod:alarm_sign"
+				}
+			]
+		}, 
+		{
+			title: "{chapter.6_finale.quest.49.title}", 
+			x: -5.0d, 
+			y: 12.5d, 
+			shape: "square", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "5020FCDDC95BB62A", 
+			tasks: [
+				{
+					id: "2A185B251FC0579F", 
+					type: "item", 
+					item: "minecraft:stone"
+				}
+			]
+		}, 
+		{
+			x: -5.0d, 
+			y: 13.5d, 
+			subtitle: "{chapter.6_finale.quest.50.subtitle}", 
+			dependencies: ["5020FCDDC95BB62A"], 
+			id: "477B115121FF45A2", 
+			tasks: [
+				{
+					id: "6A116518B8AD85CC", 
+					type: "item", 
+					item: "thermal:fire_tnt"
+				}
+			]
+		}, 
+		{
+			x: -5.0d, 
+			y: 14.5d, 
+			dependencies: ["477B115121FF45A2"], 
+			id: "476D9B8E02B0331E", 
+			tasks: [
+				{
+					id: "6AF70C79A0F40967", 
+					type: "item", 
+					item: "minecraft:magma_block"
+				}
+			]
+		}, 
+		{
+			x: -5.0d, 
+			y: 15.5d, 
+			subtitle: "{chapter.6_finale.quest.52.subtitle}", 
+			dependencies: ["476D9B8E02B0331E"], 
+			id: "33A1044328EB0748", 
+			tasks: [
+				{
+					id: "69A359EA72E32AA0", 
+					type: "item", 
+					item: "thermal:ice_tnt"
+				}
+			]
+		}, 
+		{
+			x: -5.0d, 
+			y: 16.5d, 
+			dependencies: ["33A1044328EB0748"], 
+			id: "212528D80ED39096", 
+			tasks: [
+				{
+					id: "5A26962D0F20B66E", 
+					type: "item", 
+					item: "minecraft:blue_ice"
+				}
+			]
+		}, 
+		{
+			x: -5.0d, 
+			y: 17.5d, 
+			dependencies: ["212528D80ED39096"], 
+			id: "32B1EB76E0C39720", 
+			tasks: [
+				{
+					id: "06EA9694F4311EF3", 
+					type: "item", 
+					item: "kubejs:magical_ice"
+				}
+			]
+		}, 
+		{
+			x: -5.0d, 
+			y: 19.0d, 
+			shape: "gear", 
+			dependencies: ["6F14D562269E7DD2", "32B1EB76E0C39720"], 
+			id: "1684FC404559618C", 
+			tasks: [
+				{
+					id: "146AD549F0850711", 
+					type: "item", 
+					item: "cae:ice_keystone"
+				}
+			]
+		}, 
+		{
+			x: -5.0d, 
+			y: 20.5d, 
+			shape: "diamond", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "6F14D562269E7DD2", 
+			tasks: [
+				{
+					id: "500B8F3EC2543E6F", 
+					type: "item", 
+					item: "kubejs:ice_essence_bucket"
+				}
+			]
+		}, 
+		{
+			title: "{chapter.6_finale.quest.57.title}", 
+			x: 5.0d, 
+			y: 12.5d, 
+			shape: "square", 
+			subtitle: "{chapter.6_finale.quest.57.subtitle}", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "2E2490343C3A854A", 
+			tasks: [
+				{
+					id: "5118BD516C9146A4", 
+					type: "item", 
+					item: "kubejs:source_time_crystal"
+				}
+			]
+		}, 
+		{
+			x: 3.5d, 
+			y: 13.5d, 
+			dependencies: ["2E2490343C3A854A"], 
+			dependency_requirement: "one_completed", 
+			id: "6AE45DA328059B1C", 
+			tasks: [
+				{
+					id: "6E25EAAECFDC90BB", 
+					type: "item", 
+					item: "ars_nouveau:blue_archwood_sapling"
+				}
+			]
+		}, 
+		{
+			x: 4.5d, 
+			y: 13.5d, 
+			dependencies: ["2E2490343C3A854A"], 
+			id: "5DDD9C63929E9186", 
+			tasks: [
+				{
+					id: "76EBFE8E92BCD5C4", 
+					type: "item", 
+					item: "ars_nouveau:green_archwood_sapling"
+				}
+			]
+		}, 
+		{
+			x: 5.5d, 
+			y: 13.5d, 
+			dependencies: ["2E2490343C3A854A"], 
+			id: "51D0E3FF82128F07", 
+			tasks: [
+				{
+					id: "2F1D1510A869DACC", 
+					type: "item", 
+					item: "ars_nouveau:purple_archwood_sapling"
+				}
+			]
+		}, 
+		{
+			x: 6.5d, 
+			y: 13.5d, 
+			dependencies: ["2E2490343C3A854A"], 
+			id: "5D6942F4AF46788C", 
+			tasks: [
+				{
+					id: "3D0BE1880F0D721E", 
+					type: "item", 
+					item: "ars_nouveau:red_archwood_sapling"
+				}
+			]
+		}, 
+		{
+			x: 3.5d, 
+			y: 15.5d, 
+			subtitle: "{chapter.6_finale.quest.62.subtitle}", 
+			dependencies: ["20CD12C610E188C3", "6AE45DA328059B1C"], 
+			id: "2DE40993FD63C908", 
+			tasks: [
+				{
+					id: "433339CC667284B0", 
+					type: "item", 
+					item: "chipped:moss_block_1"
+				}
+			]
+		}, 
+		{
+			x: 4.5d, 
+			y: 16.5d, 
+			subtitle: "{chapter.6_finale.quest.63.subtitle}", 
+			dependencies: ["5DDD9C63929E9186", "72A7613CFB680DD1"], 
+			id: "1D9BCF9F3979C5A0", 
+			tasks: [
+				{
+					id: "456159A572839ECF", 
+					type: "item", 
+					item: "minecraft:rooted_dirt"
+				}
+			]
+		}, 
+		{
+			x: 5.5d, 
+			y: 16.5d, 
+			subtitle: "{chapter.6_finale.quest.64.subtitle}", 
+			dependencies: ["51D0E3FF82128F07", "7D240D7B4265CD67"], 
+			id: "3BE4D482EC2DE8D3", 
+			tasks: [
+				{
+					id: "4A5E1DC606F8F692", 
+					type: "item", 
+					item: "chipped:amethyst_block_30"
+				}
+			]
+		}, 
+		{
+			x: 6.5d, 
+			y: 15.5d, 
+			subtitle: "{chapter.6_finale.quest.65.subtitle}", 
+			dependencies: ["5D6942F4AF46788C", "51E9C074E51C08A3"], 
+			id: "2CCACFA0637A308C", 
+			tasks: [
+				{
+					id: "7FEB5547CE0DAF6E", 
+					type: "item", 
+					item: "minecraft:netherrack"
+				}
+			]
+		}, 
+		{
+			x: 6.5d, 
+			y: 14.5d, 
+			dependencies: ["5D6942F4AF46788C"], 
+			id: "51E9C074E51C08A3", 
+			tasks: [
+				{
+					id: "0CB67AA9B2E834F5", 
+					type: "item", 
+					item: "kubejs:blazing_juice_bucket"
+				}
+			]
+		}, 
+		{
+			x: 4.5d, 
+			y: 14.5d, 
+			dependencies: ["5DDD9C63929E9186"], 
+			id: "72A7613CFB680DD1", 
+			tasks: [
+				{
+					id: "4CF56368C76186BB", 
+					type: "item", 
+					item: "kubejs:flourishing_juice_bucket"
+				}
+			]
+		}, 
+		{
+			x: 3.5d, 
+			y: 14.5d, 
+			dependencies: ["6AE45DA328059B1C"], 
+			id: "20CD12C610E188C3", 
+			tasks: [
+				{
+					id: "3CD6A37C31DB9710", 
+					type: "item", 
+					item: "kubejs:cascading_juice_bucket"
+				}
+			]
+		}, 
+		{
+			x: 5.5d, 
+			y: 14.5d, 
+			dependencies: ["51D0E3FF82128F07"], 
+			id: "7D240D7B4265CD67", 
+			tasks: [
+				{
+					id: "2AECFF9A13B994A6", 
+					type: "item", 
+					item: "kubejs:vexing_juice_bucket"
+				}
+			]
+		}, 
+		{
+			x: 5.0d, 
+			y: 17.5d, 
+			dependencies: ["06FF20D71095B5A7", "2DE40993FD63C908", "2CCACFA0637A308C", "1D9BCF9F3979C5A0", "3BE4D482EC2DE8D3"], 
+			id: "327762DAC1E18A13", 
+			tasks: [
+				{
+					id: "0FB813C12DD1D01E", 
+					type: "item", 
+					item: "kubejs:source_candy_rock"
+				}
+			]
+		}, 
+		{
+			x: 5.0d, 
+			y: 15.5d, 
+			dependencies: ["2E2490343C3A854A"], 
+			id: "06FF20D71095B5A7", 
+			tasks: [
+				{
+					id: "3FB5EC47F64E0B47", 
+					type: "item", 
+					item: "ars_nouveau:source_gem"
+				}
+			]
+		}, 
+		{
+			x: 5.0d, 
+			y: 19.0d, 
+			shape: "gear", 
+			dependencies: ["78A7D551721251CE", "327762DAC1E18A13"], 
+			id: "2511B079D7681179", 
+			tasks: [
+				{
+					id: "1DBD9231D15CEF02", 
+					type: "item", 
+					item: "cae:source_keystone"
+				}
+			]
+		}, 
+		{
+			x: 5.0d, 
+			y: 20.5d, 
+			shape: "diamond", 
+			dependencies: ["33B884E7D9E5A820", "2022E1E6F13CCFCB"], 
+			hide: 1b, 
+			id: "78A7D551721251CE", 
+			tasks: [
+				{
+					id: "21A838EC59E0ED3B", 
+					type: "item", 
+					item: "kubejs:source_essence_bucket"
+				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: 10.5d, 
+			shape: "gear", 
+			dependencies: ["33B884E7D9E5A820", "12D4F65D7254E7E2", "7F1F6618C957CE41", "03C4460B9D959011", "5A2CCF2F6771B527", "3A58BDE6B24B3C12", "3BEB60532CEFEB32"], 
+			hide: 1b, 
+			size: 1.5d, 
+			id: "2022E1E6F13CCFCB", 
+			tasks: [
+				{
+					id: "4030C2CED9A95884", 
+					type: "advancement", 
+					advancement: "cae:verycool", 
+					criterion: ""
+				}
+			]
+		}, 
+		{
+			x: 0.0d, 
+			y: -1.0d, 
+			subtitle: "{chapter.6_finale.quest.75.subtitle}", 
+			dependencies: ["33B884E7D9E5A820"], 
+			hide: 1b, 
+			id: "5EEB1B8FCD2C1830", 
+			tasks: [
+				{
+					id: "69FDA38B7CE72B2F", 
+					type: "item", 
+					item: {
+						id: "entangled:block", 
+						Count: 1b, 
+						tag: {}
+					}
+				}
+			]
 		}
-	]
-	quest_links: [ ]
+	], 
+	quest_links: []
 }
