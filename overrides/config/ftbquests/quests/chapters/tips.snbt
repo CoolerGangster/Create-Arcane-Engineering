@@ -1,669 +1,729 @@
 {
-	id: "32AC7585758C60EA"
-	group: ""
-	order_index: 1
-	filename: "tips"
-	title: "Tips"
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "32AC7585758C60EA", 
+	group: "", 
+	order_index: 1, 
+	filename: "tips", 
+	title: "{tips.quest.title}", 
+	default_quest_shape: "", 
+	default_hide_dependency_lines: 0b, 
 	images: [
 		{
-			x: 2.0d
-			y: -8.5d
-			width: 28.0d
-			height: 28.0d
-			rotation: 0.0d
-			image: "kubejs:textures/tips.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
+			x: 2.0d, 
+			y: -8.5d, 
+			width: 28.0d, 
+			height: 28.0d, 
+			rotation: 0.0d, 
+			image: "kubejs:textures/tips.png", 
+			hover: [], 
+			click: "", 
+			dev: 0b, 
+			corner: 0b
+		}, 
 		{
-			x: -6.0d
-			y: -9.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "davebuildingmod:textures/blocks/arrow_right_sign.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
+			x: -6.0d, 
+			y: -9.0d, 
+			width: 1.0d, 
+			height: 1.0d, 
+			rotation: 0.0d, 
+			image: "davebuildingmod:textures/blocks/arrow_right_sign.png", 
+			hover: [], 
+			click: "", 
+			dev: 0b, 
+			corner: 0b
+		}, 
 		{
-			x: 11.5d
-			y: -5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "davebuildingmod:textures/blocks/arrow_left_sign.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
+			x: 11.5d, 
+			y: -5.0d, 
+			width: 1.0d, 
+			height: 1.0d, 
+			rotation: 0.0d, 
+			image: "davebuildingmod:textures/blocks/arrow_left_sign.png", 
+			hover: [], 
+			click: "", 
+			dev: 0b, 
+			corner: 0b
+		}, 
 		{
-			x: -6.0d
-			y: -17.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "davebuildingmod:textures/blocks/arrow_down_sign.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
+			x: -6.0d, 
+			y: -17.0d, 
+			width: 1.0d, 
+			height: 1.0d, 
+			rotation: 0.0d, 
+			image: "davebuildingmod:textures/blocks/arrow_down_sign.png", 
+			hover: [], 
+			click: "", 
+			dev: 0b, 
+			corner: 0b
 		}
-	]
+	], 
 	quests: [
 		{
-			x: -5.5d
-			y: -12.0d
-			subtitle: "There are many locational recources. The motive behind those is for you to use the new 1.18 trains :) Train Tracks have been made SIXTEEN TIMES cheaper than normal, so your train building adventures are as easy as they can be!"
-			id: "2DF25740BF8AF0F2"
-			tasks: [{
-				id: "7BB8B3A8548C9213"
-				type: "item"
-				item: "create:track"
-			}]
-		}
-		{
-			title: "Iron Farms"
-			x: -6.5d
-			y: -11.0d
-			subtitle: "This pack demands a good supply of iron...."
-			id: "14FC19629B01ACFF"
-			tasks: [{
-				id: "26D4C20DB80ADEFD"
-				type: "item"
-				item: "minecraft:iron_block"
-			}]
-		}
-		{
-			title: "Ore Deposit Guide"
-			x: -6.0d
-			y: -10.0d
-			subtitle: "All ores can be found in every biome, but they differ in rarity and plentyness depending on Biome. In particular, every Ore has 1 biome where it is found in plentyfull quality, then theres a secondary biome which has very high vein spawn rates, but very miniscule deposits (1k-7k ish), lastly there are normal veins in every overworld biome that are very rare.You can see all the info on the Biomes and max vein sizes in the recipe tabs for the drilling machine.Gold is most common in Dry biomes, while it also has remnants in the nether, but these veins are more limited.Iron is most commonly found in Jungles, and secondarily in Rare biomes, such as the flower forest.Tin, lead,nickel,and Zinc are found like Iron.Copper is found most commonly in Mountains, and secondarily in Rare biomes.Lastly, Silver is most commonly found in Mountains, and secondarily in the End"
-			id: "51054C4D158084AD"
-			tasks: [{
-				id: "27EA85318341928B"
-				type: "item"
-				item: "createoreexcavation:drilling_machine"
-			}]
-		}
-		{
-			title: "Trains in every Dimension!"
-			x: -4.5d
-			y: -13.5d
-			subtitle: "Rightclicking a Diamond Block with Flint and Steel will Grant portals in every dimension, as an extension you can make trains in every dimension, just place a track into that generated portal."
-			id: "0C07D49BEDE78634"
+			x: -5.5d, 
+			y: -12.0d, 
+			subtitle: "{tips.quest.1.subtitle}", 
+			id: "2DF25740BF8AF0F2", 
 			tasks: [
 				{
-					id: "1F6BEB60E87ABAEE"
-					type: "item"
+					id: "7BB8B3A8548C9213", 
+					type: "item", 
+					item: "create:track"
+				}
+			]
+		}, 
+		{
+			title: "{tips.quest.2.title}", 
+			x: -6.5d, 
+			y: -11.0d, 
+			subtitle: "{tips.quest.2.subtitle}", 
+			id: "14FC19629B01ACFF", 
+			tasks: [
+				{
+					id: "26D4C20DB80ADEFD", 
+					type: "item", 
+					item: "minecraft:iron_block"
+				}
+			]
+		}, 
+		{
+			title: "{tips.quest.3.title}", 
+			x: -6.0d, 
+			y: -10.0d, 
+			subtitle: "{tips.quest.3.subtitle}", 
+			id: "51054C4D158084AD", 
+			tasks: [
+				{
+					id: "27EA85318341928B", 
+					type: "item", 
+					item: "createoreexcavation:drilling_machine"
+				}
+			]
+		}, 
+		{
+			title: "{tips.quest.4.title}", 
+			x: -4.5d, 
+			y: -13.5d, 
+			subtitle: "{tips.quest.4.subtitle}", 
+			id: "0C07D49BEDE78634", 
+			tasks: [
+				{
+					id: "1F6BEB60E87ABAEE", 
+					type: "item", 
 					item: {
-						id: "minecraft:flint_and_steel"
-						Count: 1b
+						id: "minecraft:flint_and_steel", 
+						Count: 1b, 
 						tag: {
 							Damage: 0
 						}
 					}
-				}
+				}, 
 				{
-					id: "7D25919C6D578832"
-					type: "item"
+					id: "7D25919C6D578832", 
+					type: "item", 
 					item: "minecraft:diamond_block"
 				}
 			]
-		}
+		}, 
 		{
-			x: 13.0d
-			y: -8.0d
-			subtitle: "This is a create chunkloader, it also works on contraptions. But it doesnt simulate randomticks, which is the stuff you need to grow crops. But another tool allows for randomtick chunkloading, which is the FTBchunks force load. It is more or less required to complete this pack."
-			id: "3147CC1F634EF8E7"
-			tasks: [{
-				id: "00D0B84159CDC1CE"
-				type: "item"
-				item: "createchunkloading:chunk_loader"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -2.5d
-			id: "5296043AF72D58DD"
-			tasks: [{
-				id: "113D19B9D0E0D469"
-				type: "item"
-				item: "sophisticatedbackpacks:backpack"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -1.5d
-			id: "7CE214F701140C6B"
-			tasks: [{
-				id: "4E581D58C0A5B113"
-				type: "item"
-				item: {
-					id: "naturescompass:naturescompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -5.5d
-			y: -14.0d
-			subtitle: "Find Any Structure at the click of a Button"
-			id: "39417A51292D3544"
-			tasks: [{
-				id: "004F74707B04D4E7"
-				type: "item"
-				item: {
-					id: "explorerscompass:explorerscompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -6.0d
-			y: -3.0d
-			subtitle: "Saddles are craftable!"
-			id: "00A12D9476F67645"
-			tasks: [{
-				id: "65BF0B4D1A86B085"
-				type: "item"
-				item: "minecraft:saddle"
-			}]
-		}
-		{
-			title: "CT Mills"
-			x: 12.0d
-			y: -7.0d
-			subtitle: "Windmills Only need 1 Sail to work! (assuming I didnt mess up configs)"
-			id: "6BE95A5BCF9527ED"
+			x: 13.0d, 
+			y: -8.0d, 
+			subtitle: "{tips.quest.5.subtitle}", 
+			id: "3147CC1F634EF8E7", 
 			tasks: [
 				{
-					id: "5380AF445265BC22"
-					type: "item"
-					item: "create:windmill_bearing"
+					id: "00D0B84159CDC1CE", 
+					type: "item", 
+					item: "createchunkloading:chunk_loader"
 				}
+			]
+		}, 
+		{
+			x: -5.0d, 
+			y: -2.5d, 
+			id: "5296043AF72D58DD", 
+			tasks: [
 				{
-					id: "4931615850FA47A1"
-					type: "item"
+					id: "113D19B9D0E0D469", 
+					type: "item", 
+					item: "sophisticatedbackpacks:backpack"
+				}
+			]
+		}, 
+		{
+			x: -5.0d, 
+			y: -1.5d, 
+			id: "7CE214F701140C6B", 
+			tasks: [
+				{
+					id: "4E581D58C0A5B113", 
+					type: "item", 
+					item: {
+						id: "naturescompass:naturescompass", 
+						Count: 1b, 
+						tag: {}
+					}
+				}
+			]
+		}, 
+		{
+			x: -5.5d, 
+			y: -14.0d, 
+			subtitle: "{tips.quest.8.subtitle}", 
+			id: "39417A51292D3544", 
+			tasks: [
+				{
+					id: "004F74707B04D4E7", 
+					type: "item", 
+					item: {
+						id: "explorerscompass:explorerscompass", 
+						Count: 1b, 
+						tag: {}
+					}
+				}
+			]
+		}, 
+		{
+			x: -6.0d, 
+			y: -3.0d, 
+			subtitle: "{tips.quest.9.subtitle}", 
+			id: "00A12D9476F67645", 
+			tasks: [
+				{
+					id: "65BF0B4D1A86B085", 
+					type: "item", 
+					item: "minecraft:saddle"
+				}
+			]
+		}, 
+		{
+			title: "{tips.quest.10.title}", 
+			x: 12.0d, 
+			y: -7.0d, 
+			subtitle: "{tips.quest.10.subtitle}", 
+			id: "6BE95A5BCF9527ED", 
+			tasks: [
+				{
+					id: "5380AF445265BC22", 
+					type: "item", 
+					item: "create:windmill_bearing"
+				}, 
+				{
+					id: "4931615850FA47A1", 
+					type: "item", 
 					item: "create:white_sail"
 				}
 			]
-		}
+		}, 
 		{
-			title: "Orestones are now Renewable!"
-			x: 13.0d
-			y: -7.0d
-			subtitle: "Molten Geodes of Orestones now spawn all around the world, find the Geode Block in those and rightclick it with a redstone dust item. This way, orestones and their recources are fully automatable!"
-			id: "520888735E13CA2E"
-			tasks: [{
-				id: "00B80DE0D3B744F1"
-				type: "item"
-				item: "create:veridium"
-			}]
-		}
-		{
-			x: -6.5d
-			y: -12.0d
-			subtitle: "After Chapter M1 you will have unlocked the Runic Tablet. It allows transmuting various things into their counterpart, such as empty blaze burners into blaze burners, and mobdrops into their super rare reliquary counterpart"
-			id: "52EE3B7F60A5C0F4"
-			tasks: [{
-				id: "0D57135F3938BE15"
-				type: "item"
-				item: "kubejs:runic_tablet"
-			}]
-		}
-		{
-			title: "Item filtering in the early game!"
-			x: -6.5d
-			y: -13.0d
-			subtitle: "Locking Drawers and attaching a Andesite Funnel works suprisingly well as an early game Item filtering method!"
-			id: "45D36D1DEB856A0F"
+			title: "{tips.quest.11.title}", 
+			x: 13.0d, 
+			y: -7.0d, 
+			subtitle: "{tips.quest.11.subtitle}", 
+			id: "520888735E13CA2E", 
 			tasks: [
 				{
-					id: "486190264337B29E"
-					type: "item"
-					item: "create:andesite_funnel"
+					id: "00B80DE0D3B744F1", 
+					type: "item", 
+					item: "create:veridium"
 				}
+			]
+		}, 
+		{
+			x: -6.5d, 
+			y: -12.0d, 
+			subtitle: "{tips.quest.12.subtitle}", 
+			id: "52EE3B7F60A5C0F4", 
+			tasks: [
 				{
-					id: "2E5246C07F3C63B7"
-					type: "item"
-					title: "Any #functionalstorage:drawer"
+					id: "0D57135F3938BE15", 
+					type: "item", 
+					item: "kubejs:runic_tablet"
+				}
+			]
+		}, 
+		{
+			title: "{tips.quest.13.title}", 
+			x: -6.5d, 
+			y: -13.0d, 
+			subtitle: "{tips.quest.13.subtitle}", 
+			id: "45D36D1DEB856A0F", 
+			tasks: [
+				{
+					id: "486190264337B29E", 
+					type: "item", 
+					item: "create:andesite_funnel"
+				}, 
+				{
+					id: "2E5246C07F3C63B7", 
+					type: "item", 
+					title: "Any #functionalstorage:drawer", 
 					item: {
-						id: "itemfilters:tag"
-						Count: 1b
+						id: "itemfilters:tag", 
+						Count: 1b, 
 						tag: {
 							value: "functionalstorage:drawer"
 						}
 					}
 				}
-			]
+			], 
 			rewards: [
 				{
-					id: "3A9F2053E280825B"
-					type: "item"
+					id: "3A9F2053E280825B", 
+					type: "item", 
 					item: {
-						id: "functionalstorage:configuration_tool"
-						Count: 1b
+						id: "functionalstorage:configuration_tool", 
+						Count: 1b, 
 						tag: {
 							Mode: "LOCKING"
 						}
 					}
-				}
+				}, 
 				{
-					id: "3EB657895BA3DD31"
-					type: "item"
+					id: "3EB657895BA3DD31", 
+					type: "item", 
 					item: "create:brass_funnel"
 				}
 			]
-		}
+		}, 
 		{
-			title: "Pre Brass Item Stacking!"
-			x: -7.5d
-			y: -13.5d
-			subtitle: "You can group items into stacks by using Weighted Ejectors, simply scroll with a wrench on a Weighted Ejector to configure the desired Stack amount!"
-			id: "392207368024751B"
-			tasks: [{
-				id: "0558024E34F02416"
-				type: "item"
-				item: "create:weighted_ejector"
-			}]
-		}
-		{
-			x: -6.0d
-			y: 0.0d
-			subtitle: "Easy Placing and Breaking. The Construction Wand is absolutely overpowered."
-			id: "39BEA048AB996A02"
+			title: "{tips.quest.14.title}", 
+			x: -7.5d, 
+			y: -13.5d, 
+			subtitle: "{tips.quest.14.subtitle}", 
+			id: "392207368024751B", 
 			tasks: [
 				{
-					id: "629DC4CD7863C1AC"
-					type: "item"
+					id: "0558024E34F02416", 
+					type: "item", 
+					item: "create:weighted_ejector"
+				}
+			]
+		}, 
+		{
+			x: -6.0d, 
+			y: 0.0d, 
+			subtitle: "{tips.quest.15.subtitle}", 
+			id: "39BEA048AB996A02", 
+			tasks: [
+				{
+					id: "629DC4CD7863C1AC", 
+					type: "item", 
 					item: {
-						id: "constructionwand:infinity_wand"
-						Count: 1b
+						id: "constructionwand:infinity_wand", 
+						Count: 1b, 
 						tag: {
-							wand_options: { }
+							wand_options: {}
 						}
 					}
-				}
+				}, 
 				{
-					id: "561DAE4418AE7671"
-					type: "item"
+					id: "561DAE4418AE7671", 
+					type: "item", 
 					item: "constructionwand:core_destruction"
 				}
 			]
-		}
+		}, 
 		{
-			x: 11.0d
-			y: -8.0d
-			subtitle: "Will Make any Item Indestructible."
-			id: "071AE83CC302169D"
-			tasks: [{
-				id: "3A1D25CC549EE8DE"
-				type: "item"
-				item: {
-					id: "forbidden_arcanus:eternal_stella"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			title: "Vein Mining Enchantment"
-			x: -6.0d
-			y: -1.0d
-			id: "1F8010E246DBE7D2"
-			tasks: [{
-				id: "7322A96D72857116"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 1s
-							id: "veinmining:vein_mining"
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: -4.5d
-			y: -12.5d
-			subtitle: "Blaze Burners can now Accept Liquids if you give them a Straw! Bypasses blaze cakes"
-			id: "0403135BEBFF8693"
+			x: 11.0d, 
+			y: -8.0d, 
+			subtitle: "{tips.quest.16.subtitle}", 
+			id: "071AE83CC302169D", 
 			tasks: [
 				{
-					id: "39D15F9F818B5B8F"
-					type: "item"
-					item: "create:blaze_burner"
+					id: "3A1D25CC549EE8DE", 
+					type: "item", 
+					item: {
+						id: "forbidden_arcanus:eternal_stella", 
+						Count: 1b, 
+						tag: {}
+					}
 				}
+			]
+		}, 
+		{
+			title: "{tips.quest.17.title}", 
+			x: -6.0d, 
+			y: -1.0d, 
+			id: "1F8010E246DBE7D2", 
+			tasks: [
 				{
-					id: "68B820E084B71AD4"
-					type: "item"
+					id: "7322A96D72857116", 
+					type: "item", 
+					item: {
+						id: "minecraft:enchanted_book", 
+						Count: 1b, 
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 1s, 
+									id: "veinmining:vein_mining"
+								}
+							]
+						}
+					}
+				}
+			]
+		}, 
+		{
+			x: -4.5d, 
+			y: -12.5d, 
+			subtitle: "{tips.quest.18.subtitle}", 
+			id: "0403135BEBFF8693", 
+			tasks: [
+				{
+					id: "39D15F9F818B5B8F", 
+					type: "item", 
+					item: "create:blaze_burner"
+				}, 
+				{
+					id: "68B820E084B71AD4", 
+					type: "item", 
 					item: "createaddition:straw"
 				}
 			]
-		}
+		}, 
 		{
-			x: -5.0d
-			y: -3.5d
-			id: "514DF30DE10444A1"
-			tasks: [{
-				id: "4FD18470D3FC9859"
-				type: "item"
-				item: "magicfeather:magicfeather"
-			}]
-		}
-		{
-			x: -7.0d
-			y: -1.5d
-			id: "2871D10E1E289B18"
-			tasks: [{
-				id: "062BA226461B1EB3"
-				type: "item"
-				item: {
-					id: "reliquary:alkahestry_tome"
-					Count: 1b
-					tag: {
-						Damage: 1001
-					}
-				}
-			}]
-		}
-		{
-			x: -6.0d
-			y: -2.0d
-			subtitle: "Still to be implemented"
-			id: "10F2426EC2ABA865"
+			x: -5.0d, 
+			y: -3.5d, 
+			id: "514DF30DE10444A1", 
 			tasks: [
 				{
-					id: "7707902B0A29DFA6"
-					type: "item"
+					id: "4FD18470D3FC9859", 
+					type: "item", 
+					item: "magicfeather:magicfeather"
+				}
+			]
+		}, 
+		{
+			x: -7.0d, 
+			y: -1.5d, 
+			id: "2871D10E1E289B18", 
+			tasks: [
+				{
+					id: "062BA226461B1EB3", 
+					type: "item", 
 					item: {
-						id: "thermal:nuke_tnt"
-						Count: 1b
-						tag: { }
+						id: "reliquary:alkahestry_tome", 
+						Count: 1b, 
+						tag: {
+							Damage: 1001
+						}
 					}
 				}
+			]
+		}, 
+		{
+			x: -6.0d, 
+			y: -2.0d, 
+			subtitle: "{tips.quest.21.subtitle}", 
+			id: "10F2426EC2ABA865", 
+			tasks: [
 				{
-					id: "789B2DD5851C845C"
-					type: "item"
+					id: "7707902B0A29DFA6", 
+					type: "item", 
+					item: {
+						id: "thermal:nuke_tnt", 
+						Count: 1b, 
+						tag: {}
+					}
+				}, 
+				{
+					id: "789B2DD5851C845C", 
+					type: "item", 
 					item: "thermal:nuke_grenade"
 				}
 			]
-		}
+		}, 
 		{
-			title: "Witherproof glass"
-			x: -5.5d
-			y: -11.0d
-			subtitle: "Completely Indestructible by Withers"
-			id: "5CFBF9DB3C810E70"
+			title: "{tips.quest.22.title}", 
+			x: -5.5d, 
+			y: -11.0d, 
+			subtitle: "{tips.quest.22.subtitle}", 
+			id: "5CFBF9DB3C810E70", 
 			tasks: [
 				{
-					id: "206D739289677E82"
-					type: "item"
+					id: "206D739289677E82", 
+					type: "item", 
 					item: "thermal:obsidian_glass"
-				}
+				}, 
 				{
-					id: "6396B2EE94394575"
-					type: "item"
+					id: "6396B2EE94394575", 
+					type: "item", 
 					item: "thermal:lumium_glass"
 				}
 			]
-		}
+		}, 
 		{
-			x: -7.0d
-			y: -2.5d
-			id: "52E70CAD0E90E8E3"
-			tasks: [{
-				id: "07618CC7C276AE29"
-				type: "item"
-				item: "pneumaticcraft:amadron_tablet"
-			}]
-		}
-		{
-			title: "Portable Energy? YES PLEASE"
-			x: -7.0d
-			y: -3.5d
-			id: "640704ED253016CA"
+			x: -7.0d, 
+			y: -2.5d, 
+			id: "52E70CAD0E90E8E3", 
 			tasks: [
 				{
-					id: "74EBE0CFDE21BEE1"
-					type: "item"
-					item: "createaddition:modular_accumulator"
+					id: "07618CC7C276AE29", 
+					type: "item", 
+					item: "pneumaticcraft:amadron_tablet"
 				}
+			]
+		}, 
+		{
+			title: "{tips.quest.24.title}", 
+			x: -7.0d, 
+			y: -3.5d, 
+			id: "640704ED253016CA", 
+			tasks: [
 				{
-					id: "773D82B45453C074"
-					type: "item"
+					id: "74EBE0CFDE21BEE1", 
+					type: "item", 
+					item: "createaddition:modular_accumulator"
+				}, 
+				{
+					id: "773D82B45453C074", 
+					type: "item", 
 					item: "createaddition:portable_energy_interface"
 				}
 			]
-		}
+		}, 
 		{
-			title: "Harvesting Leaves in STYLE"
-			x: -6.5d
-			y: -14.0d
-			subtitle: "Harvesters can harvest leaves."
-			id: "39726A3AB587CB01"
+			title: "{tips.quest.25.title}", 
+			x: -6.5d, 
+			y: -14.0d, 
+			subtitle: "{tips.quest.25.subtitle}", 
+			id: "39726A3AB587CB01", 
 			tasks: [
 				{
-					id: "0EF7E9094C85C84C"
-					type: "item"
+					id: "0EF7E9094C85C84C", 
+					type: "item", 
 					item: "create:mechanical_harvester"
-				}
+				}, 
 				{
-					id: "533B36B9933BDE54"
-					type: "item"
-					title: "Any #minecraft:leaves"
+					id: "533B36B9933BDE54", 
+					type: "item", 
+					title: "Any #minecraft:leaves", 
 					item: {
-						id: "itemfilters:tag"
-						Count: 1b
+						id: "itemfilters:tag", 
+						Count: 1b, 
 						tag: {
 							value: "minecraft:leaves"
 						}
 					}
 				}
 			]
-		}
+		}, 
 		{
-			x: 11.0d
-			y: -6.0d
-			subtitle: "Can be used to farm Fish..."
-			id: "3D7B34D45116567D"
-			tasks: [{
-				id: "600FE95A2CB0913B"
-				type: "item"
-				item: "minecraft:wet_sponge"
-			}]
-		}
-		{
-			x: -6.0d
-			y: -4.0d
-			id: "5E6870E5C7A79754"
-			tasks: [{
-				id: "13AEBDA3DAE701F1"
-				type: "item"
-				item: "create:wand_of_symmetry"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -13.0d
-			subtitle: "Scans a chunk for Andesite and Diorite"
-			id: "433CCF86EBF39A8E"
-			tasks: [{
-				id: "3D478FAFAF8DACFC"
-				type: "item"
-				item: "kubejs:alloy_radar"
-			}]
-		}
-		{
-			x: 11.0d
-			y: -7.0d
-			subtitle: "Netherack is now renewable!!!! WOOOO (Dont you dare try and automate it) (I MADE IT AS PAINFULL AS POSSIBLE SO NO ONE WILL DO IT)"
-			id: "6425BC0E551581F5"
-			tasks: [{
-				id: "4C2519536CDF599D"
-				type: "item"
-				item: "minecraft:netherrack"
-			}]
-		}
-		{
-			x: -7.5d
-			y: -12.5d
-			subtitle: "Collect some, will ya?"
-			id: "223B1CB805849D44"
+			x: 11.0d, 
+			y: -6.0d, 
+			subtitle: "{tips.quest.26.subtitle}", 
+			id: "3D7B34D45116567D", 
 			tasks: [
 				{
-					id: "6600862F7A08FD82"
-					type: "item"
-					item: "forbidden_arcanus:arcane_crystal"
+					id: "600FE95A2CB0913B", 
+					type: "item", 
+					item: "minecraft:wet_sponge"
 				}
+			]
+		}, 
+		{
+			x: -6.0d, 
+			y: -4.0d, 
+			id: "5E6870E5C7A79754", 
+			tasks: [
 				{
-					id: "3BF8D1BB098F29DB"
-					type: "item"
+					id: "13AEBDA3DAE701F1", 
+					type: "item", 
+					item: "create:wand_of_symmetry"
+				}
+			]
+		}, 
+		{
+			x: -5.5d, 
+			y: -13.0d, 
+			subtitle: "{tips.quest.28.subtitle}", 
+			id: "433CCF86EBF39A8E", 
+			tasks: [
+				{
+					id: "3D478FAFAF8DACFC", 
+					type: "item", 
+					item: "kubejs:alloy_radar"
+				}
+			]
+		}, 
+		{
+			x: 11.0d, 
+			y: -7.0d, 
+			subtitle: "{tips.quest.29.subtitle}", 
+			id: "6425BC0E551581F5", 
+			tasks: [
+				{
+					id: "4C2519536CDF599D", 
+					type: "item", 
+					item: "minecraft:netherrack"
+				}
+			]
+		}, 
+		{
+			x: -7.5d, 
+			y: -12.5d, 
+			subtitle: "{tips.quest.30.subtitle}", 
+			id: "223B1CB805849D44", 
+			tasks: [
+				{
+					id: "6600862F7A08FD82", 
+					type: "item", 
+					item: "forbidden_arcanus:arcane_crystal"
+				}, 
+				{
+					id: "3BF8D1BB098F29DB", 
+					type: "item", 
 					item: "forbidden_arcanus:arcane_crystal_block"
 				}
 			]
-		}
+		}, 
 		{
-			title: "Plates through Anvils"
-			x: 10.0d
-			y: -7.0d
-			subtitle: "Drop an Anvil on an Ingot, and sure enough, itll get pressed down into a plate. (A bit lossy)"
-			id: "2A80651B5135AB01"
+			title: "{tips.quest.31.title}", 
+			x: 10.0d, 
+			y: -7.0d, 
+			subtitle: "{tips.quest.31.subtitle}", 
+			id: "2A80651B5135AB01", 
 			tasks: [
 				{
-					id: "53B386709076D690"
-					type: "item"
+					id: "53B386709076D690", 
+					type: "item", 
 					item: "minecraft:anvil"
-				}
+				}, 
 				{
-					id: "5BD24411D62BB59B"
-					type: "item"
+					id: "5BD24411D62BB59B", 
+					type: "item", 
 					item: "create:iron_sheet"
 				}
+			], 
+			rewards: [
+				{
+					id: "7135331C7BA72B0F", 
+					type: "item", 
+					item: "create:iron_sheet", 
+					count: 2
+				}
 			]
-			rewards: [{
-				id: "7135331C7BA72B0F"
-				type: "item"
-				item: "create:iron_sheet"
-				count: 2
-			}]
-		}
+		}, 
 		{
-			icon: "kubejs:fragment_of_patience"
-			x: 12.0d
-			y: -8.0d
-			id: "4C457CC907F4CAA5"
-			tasks: [{
-				id: "6F46BA932D39FE72"
-				type: "checkmark"
-				title: "Do the Test of Patience."
-			}]
-			rewards: [{
-				id: "2EC22C98DF0C43CE"
-				type: "item"
-				item: "kubejs:fragment_of_patience"
-			}]
-		}
-		{
-			title: "The most Important Tips:"
-			x: -6.0d
-			y: -16.0d
-			id: "280B58649F0CB8C9"
-			tasks: [{
-				id: "468BB1C3DA5FEB88"
-				type: "item"
-				item: "davebuildingmod:alarm_sign"
-			}]
-		}
-		{
-			title: "Less Important Tips:"
-			x: 11.5d
-			y: -9.0d
-			id: "654993F745FC29F0"
-			tasks: [{
-				id: "638064ADFA699D9E"
-				type: "item"
-				item: "davebuildingmod:alarm_sign"
-			}]
-		}
-		{
-			title: "Misc Tips"
-			x: -6.0d
-			y: -5.0d
-			id: "3799508D7DECC323"
-			tasks: [{
-				id: "5FAD817B1557E963"
-				type: "item"
-				item: "davebuildingmod:alarm_sign"
-			}]
-		}
-		{
-			x: 10.0d
-			y: -8.0d
-			subtitle: "Will Generate the block placed below it."
-			id: "686971D4F5FC320E"
-			tasks: [{
-				id: "0D6C3F32723A2F16"
-				type: "item"
-				item: "thermal:device_rock_gen"
-			}]
-		}
-		{
-			title: "Search for Items in Chests"
-			icon: "quark:warped_chest"
-			x: -6.5d
-			y: -15.0d
-			subtitle: "Hover over a item in JEI and Press Y to show all chests with that item."
-			id: "1BDC8F965F8B7DA7"
-			tasks: [{
-				id: "0A0883A23A9D8436"
-				type: "checkmark"
-				title: "Hover over a item in JEI and Press Y to show all chests with that item."
-			}]
-		}
-		{
-			x: 12.0d
-			y: -6.0d
-			subtitle: "Heat Create Steam Engines with Pneumaticcraft!"
-			id: "41474C57E044994B"
-			tasks: [{
-				id: "63EC1E041F8BFE36"
-				type: "item"
-				item: "compressedcreativity:heater"
-			}]
-		}
-		{
-			icon: "create:item_vault"
-			x: -5.5d
-			y: -15.0d
-			subtitle: "Don't know how to fix something? Call it a feature."
-			description: ["Item Vaults are a great way to store the bulk of your Items. \\nYou can even interact with their contents manually through a Tinkers crafting station."]
-			id: "48D73F3A6C8C0203"
+			icon: "kubejs:fragment_of_patience", 
+			x: 12.0d, 
+			y: -8.0d, 
+			id: "4C457CC907F4CAA5", 
 			tasks: [
 				{
-					id: "078DD2C7D6303FD7"
-					type: "item"
-					item: "create:item_vault"
+					id: "6F46BA932D39FE72", 
+					type: "checkmark", 
+					title: "{tips.quest.32.task.1.title}"
 				}
+			], 
+			rewards: [
 				{
-					id: "6D69399EBF8FBC41"
-					type: "item"
-					title: "Any Crafting Station"
+					id: "2EC22C98DF0C43CE", 
+					type: "item", 
+					item: "kubejs:fragment_of_patience"
+				}
+			]
+		}, 
+		{
+			title: "{tips.quest.33.title}", 
+			x: -6.0d, 
+			y: -16.0d, 
+			id: "280B58649F0CB8C9", 
+			tasks: [
+				{
+					id: "468BB1C3DA5FEB88", 
+					type: "item", 
+					item: "davebuildingmod:alarm_sign"
+				}
+			]
+		}, 
+		{
+			title: "{tips.quest.34.title}", 
+			x: 11.5d, 
+			y: -9.0d, 
+			id: "654993F745FC29F0", 
+			tasks: [
+				{
+					id: "638064ADFA699D9E", 
+					type: "item", 
+					item: "davebuildingmod:alarm_sign"
+				}
+			]
+		}, 
+		{
+			title: "{tips.quest.35.title}", 
+			x: -6.0d, 
+			y: -5.0d, 
+			id: "3799508D7DECC323", 
+			tasks: [
+				{
+					id: "5FAD817B1557E963", 
+					type: "item", 
+					item: "davebuildingmod:alarm_sign"
+				}
+			]
+		}, 
+		{
+			x: 10.0d, 
+			y: -8.0d, 
+			subtitle: "{tips.quest.36.subtitle}", 
+			id: "686971D4F5FC320E", 
+			tasks: [
+				{
+					id: "0D6C3F32723A2F16", 
+					type: "item", 
+					item: "thermal:device_rock_gen"
+				}
+			]
+		}, 
+		{
+			title: "{tips.quest.37.title}", 
+			icon: "quark:warped_chest", 
+			x: -6.5d, 
+			y: -15.0d, 
+			subtitle: "{tips.quest.37.subtitle}", 
+			id: "1BDC8F965F8B7DA7", 
+			tasks: [
+				{
+					id: "0A0883A23A9D8436", 
+					type: "checkmark", 
+					title: "{tips.quest.37.task.1.title}"
+				}
+			]
+		}, 
+		{
+			x: 12.0d, 
+			y: -6.0d, 
+			subtitle: "{tips.quest.38.subtitle}", 
+			id: "41474C57E044994B", 
+			tasks: [
+				{
+					id: "63EC1E041F8BFE36", 
+					type: "item", 
+					item: "compressedcreativity:heater"
+				}
+			]
+		}, 
+		{
+			icon: "create:item_vault", 
+			x: -5.5d, 
+			y: -15.0d, 
+			subtitle: "{tips.quest.39.subtitle}", 
+			description: ["{tips.quest.39.description.1}"], 
+			id: "48D73F3A6C8C0203", 
+			tasks: [
+				{
+					id: "078DD2C7D6303FD7", 
+					type: "item", 
+					item: "create:item_vault"
+				}, 
+				{
+					id: "6D69399EBF8FBC41", 
+					type: "item", 
+					title: "Any Crafting Station", 
 					item: {
-						id: "itemfilters:tag"
-						Count: 1b
+						id: "itemfilters:tag", 
+						Count: 1b, 
 						tag: {
 							value: "forge:workbenches"
 						}
@@ -671,6 +731,6 @@
 				}
 			]
 		}
-	]
-	quest_links: [ ]
+	], 
+	quest_links: []
 }

@@ -1,356 +1,380 @@
 {
-	id: "43DDE8F2EDA941A9"
-	group: "42A213AA17D37DAF"
-	order_index: 6
-	filename: "chapter_m2"
-	title: "Chapter MII: Herbalists Heritage"
-	icon: "ars_nouveau:as_gold_stone"
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "43DDE8F2EDA941A9", 
+	group: "42A213AA17D37DAF", 
+	order_index: 6, 
+	filename: "chapter_m2", 
+	title: "{chapter.m2.quest.title}", 
+	icon: "ars_nouveau:as_gold_stone", 
+	default_quest_shape: "", 
+	default_hide_dependency_lines: 0b, 
 	images: [
 		{
-			x: 0.0d
-			y: -3.5d
-			width: 50.0d
-			height: 50.0d
-			rotation: 0.0d
-			image: "kubejs:textures/source.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
+			x: 0.0d, 
+			y: -3.5d, 
+			width: 50.0d, 
+			height: 50.0d, 
+			rotation: 0.0d, 
+			image: "kubejs:textures/source.png", 
+			hover: [], 
+			click: "", 
+			dev: 0b, 
+			corner: 0b
+		}, 
 		{
-			x: 0.5d
-			y: -5.0d
-			width: 13.0d
-			height: 15.0d
-			rotation: 0.0d
-			image: "kubejs:textures/wowarcane.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
+			x: 0.5d, 
+			y: -5.0d, 
+			width: 13.0d, 
+			height: 15.0d, 
+			rotation: 0.0d, 
+			image: "kubejs:textures/wowarcane.png", 
+			hover: [], 
+			click: "", 
+			dev: 0b, 
+			corner: 0b
 		}
-	]
+	], 
 	quests: [
 		{
-			title: "Sourceberry"
-			x: -2.0d
-			y: -7.5d
-			shape: "square"
-			subtitle: "Found all around the world."
-			dependencies: ["07D1ED74C8A30306"]
-			hide: true
-			id: "4FCF36E9502773E2"
-			tasks: [{
-				id: "247C4CD8805980C2"
-				type: "item"
-				item: "ars_nouveau:source_berry"
-			}]
-			rewards: [
+			title: "{chapter.m2.quest.1.title}", 
+			x: -2.0d, 
+			y: -7.5d, 
+			shape: "square", 
+			subtitle: "{chapter.m2.quest.1.subtitle}", 
+			dependencies: ["07D1ED74C8A30306"], 
+			hide: 1b, 
+			id: "4FCF36E9502773E2", 
+			tasks: [
 				{
-					id: "561023DAC5BC8E9E"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_arcane_1"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "444B4DB0143C3743"
-					type: "item"
+					id: "247C4CD8805980C2", 
+					type: "item", 
 					item: "ars_nouveau:source_berry"
+				}
+			], 
+			rewards: [
+				{
+					id: "561023DAC5BC8E9E", 
+					type: "item", 
+					item: {
+						id: "kubejs:lootbag_arcane_1", 
+						Count: 1b, 
+						tag: {
+							Damage: 0
+						}
+					}
+				}, 
+				{
+					id: "444B4DB0143C3743", 
+					type: "item", 
+					item: "ars_nouveau:source_berry", 
 					count: 3
 				}
 			]
-		}
+		}, 
 		{
-			title: "Sourceberry Juice"
-			x: -0.5d
-			y: -8.0d
-			subtitle: "Stamp down Sourceberries"
-			dependencies: ["4FCF36E9502773E2"]
-			id: "77CEF8A4D9FBB5E2"
-			tasks: [{
-				id: "3EA7926439C1C143"
-				type: "item"
-				item: "kubejs:sourceberry_juice_bucket"
-			}]
-		}
-		{
-			title: "Magebloom Sourceberry Smoothie Bowl"
-			x: 0.5d
-			y: -6.0d
-			subtitle: "Spout Magebloom Sourceberry Smoothie onto a Bowl"
-			dependencies: ["2ADEBF32DFED9BAC"]
-			id: "5E8190EE24211A08"
-			tasks: [{
-				id: "6F35E8CA9C0A4294"
-				type: "item"
-				item: "kubejs:magebloom_sourceberry_smoothie_bowl"
-			}]
-			rewards: [
+			title: "{chapter.m2.quest.2.title}", 
+			x: -0.5d, 
+			y: -8.0d, 
+			subtitle: "{chapter.m2.quest.2.subtitle}", 
+			dependencies: ["4FCF36E9502773E2"], 
+			id: "77CEF8A4D9FBB5E2", 
+			tasks: [
 				{
-					id: "1D93342BC800E2EE"
-					type: "item"
+					id: "3EA7926439C1C143", 
+					type: "item", 
+					item: "kubejs:sourceberry_juice_bucket"
+				}
+			]
+		}, 
+		{
+			title: "{chapter.m2.quest.3.title}", 
+			x: 0.5d, 
+			y: -6.0d, 
+			subtitle: "{chapter.m2.quest.3.subtitle}", 
+			dependencies: ["2ADEBF32DFED9BAC"], 
+			id: "5E8190EE24211A08", 
+			tasks: [
+				{
+					id: "6F35E8CA9C0A4294", 
+					type: "item", 
 					item: "kubejs:magebloom_sourceberry_smoothie_bowl"
-					count: 3
 				}
+			], 
+			rewards: [
 				{
-					id: "04B1508F1B5EF9C7"
-					type: "item"
+					id: "1D93342BC800E2EE", 
+					type: "item", 
+					item: "kubejs:magebloom_sourceberry_smoothie_bowl", 
+					count: 3
+				}, 
+				{
+					id: "04B1508F1B5EF9C7", 
+					type: "item", 
 					item: {
-						id: "kubejs:lootbag_arcane_2"
-						Count: 1b
+						id: "kubejs:lootbag_arcane_2", 
+						Count: 1b, 
 						tag: {
 							Damage: 0
 						}
 					}
 				}
 			]
-		}
+		}, 
 		{
-			title: "Magically Blooming Leaves"
-			x: -0.5d
-			y: -5.0d
-			subtitle: "Roll a Impure Source Bowl over a item drain"
-			dependencies: ["5E8190EE24211A08"]
-			id: "7DC257849AB71246"
-			tasks: [{
-				id: "4AF443C156B04946"
-				type: "item"
-				item: "kubejs:mage_leaf"
-			}]
-			rewards: [{
-				id: "1A298141DCBB8CD5"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_arcane_1"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+			title: "{chapter.m2.quest.4.title}", 
+			x: -0.5d, 
+			y: -5.0d, 
+			subtitle: "{chapter.m2.quest.4.subtitle}", 
+			dependencies: ["5E8190EE24211A08"], 
+			id: "7DC257849AB71246", 
+			tasks: [
+				{
+					id: "4AF443C156B04946", 
+					type: "item", 
+					item: "kubejs:mage_leaf"
 				}
-			}]
-		}
-		{
-			title: "Impure Source Bucket"
-			x: 2.0d
-			y: -4.5d
-			subtitle: "Roll a Magebloom Source Smoothie Bowl over a item drain"
-			dependencies: ["5E8190EE24211A08"]
-			id: "09BFC11F9574430E"
-			tasks: [{
-				id: "49CD6687B4A54965"
-				type: "item"
-				item: "kubejs:impure_source_bucket"
-			}]
-		}
-		{
-			x: 0.5d
-			y: -1.5d
-			shape: "diamond"
-			subtitle: "Cast Source into a gem cast"
-			dependencies: ["640F176B95D8B880"]
-			dependency_requirement: "one_started"
-			size: 1.2d
-			id: "13DB66C24AD6C498"
-			tasks: [{
-				id: "1120F4F148E7CCCA"
-				type: "item"
-				item: "ars_nouveau:source_gem"
-			}]
+			], 
 			rewards: [
 				{
-					id: "18191B53401D5D59"
-					type: "item"
+					id: "1A298141DCBB8CD5", 
+					type: "item", 
 					item: {
-						id: "kubejs:lootbag_arcane_3"
-						Count: 1b
+						id: "kubejs:lootbag_arcane_1", 
+						Count: 1b, 
 						tag: {
 							Damage: 0
 						}
 					}
-					count: 2
 				}
+			]
+		}, 
+		{
+			title: "{chapter.m2.quest.5.title}", 
+			x: 2.0d, 
+			y: -4.5d, 
+			subtitle: "{chapter.m2.quest.5.subtitle}", 
+			dependencies: ["5E8190EE24211A08"], 
+			id: "09BFC11F9574430E", 
+			tasks: [
 				{
-					id: "4154CABE916D26AF"
-					type: "item"
+					id: "49CD6687B4A54965", 
+					type: "item", 
+					item: "kubejs:impure_source_bucket"
+				}
+			]
+		}, 
+		{
+			x: 0.5d, 
+			y: -1.5d, 
+			shape: "diamond", 
+			subtitle: "{chapter.m2.quest.6.subtitle}", 
+			dependencies: ["640F176B95D8B880"], 
+			dependency_requirement: "one_started", 
+			size: 1.2d, 
+			id: "13DB66C24AD6C498", 
+			tasks: [
+				{
+					id: "1120F4F148E7CCCA", 
+					type: "item", 
 					item: "ars_nouveau:source_gem"
+				}
+			], 
+			rewards: [
+				{
+					id: "18191B53401D5D59", 
+					type: "item", 
+					item: {
+						id: "kubejs:lootbag_arcane_3", 
+						Count: 1b, 
+						tag: {
+							Damage: 0
+						}
+					}, 
+					count: 2
+				}, 
+				{
+					id: "4154CABE916D26AF", 
+					type: "item", 
+					item: "ars_nouveau:source_gem", 
 					count: 16
 				}
 			]
-		}
+		}, 
 		{
-			x: 0.0d
-			y: -4.0d
-			subtitle: "The Ssring woven together will reveal an ancient parchment."
-			dependencies: ["0D60C3E9ADF653D5"]
-			id: "2F4BE8EF99F2622B"
-			tasks: [{
-				id: "0191E8D0CF28664F"
-				type: "item"
-				item: {
-					id: "ars_nouveau:spell_parchment"
-					Count: 1b
-					tag: { }
+			x: 0.0d, 
+			y: -4.0d, 
+			subtitle: "{chapter.m2.quest.7.subtitle}", 
+			dependencies: ["0D60C3E9ADF653D5"], 
+			id: "2F4BE8EF99F2622B", 
+			tasks: [
+				{
+					id: "0191E8D0CF28664F", 
+					type: "item", 
+					item: {
+						id: "ars_nouveau:spell_parchment", 
+						Count: 1b, 
+						tag: {}
+					}
 				}
-			}]
+			], 
 			rewards: [
 				{
-					id: "6644BFEF6F8F0C9E"
-					type: "item"
+					id: "6644BFEF6F8F0C9E", 
+					type: "item", 
 					item: {
-						id: "kubejs:lootbag_arcane_2"
-						Count: 1b
+						id: "kubejs:lootbag_arcane_2", 
+						Count: 1b, 
 						tag: {
 							Damage: 0
 						}
 					}
-				}
+				}, 
 				{
-					id: "22218EBCA32AB1F0"
-					type: "item"
+					id: "22218EBCA32AB1F0", 
+					type: "item", 
 					item: {
-						id: "ars_nouveau:spell_parchment"
-						Count: 1b
-						tag: { }
-					}
+						id: "ars_nouveau:spell_parchment", 
+						Count: 1b, 
+						tag: {}
+					}, 
 					count: 2
 				}
 			]
-		}
+		}, 
 		{
-			x: 0.5d
-			y: -3.0d
-			subtitle: "Boil down Impure Source in a Mixer for a 75% source loss. Or purify the source with the confined Source of Scroll Parchment to create Source with 100% efficiency"
-			dependencies: [
-				"2F4BE8EF99F2622B"
-				"09BFC11F9574430E"
-			]
-			id: "640F176B95D8B880"
-			tasks: [{
-				id: "5B3EA02C0A5CEBC1"
-				type: "item"
-				item: "kubejs:source_bucket"
-			}]
-			rewards: [{
-				id: "07AE90E8FEFD3CB8"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_arcane_2"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "Magebloom Fiber"
-			x: -1.0d
-			y: -3.5d
-			subtitle: "Cut down Arcane Leaves using a Deployer"
-			dependencies: ["7DC257849AB71246"]
-			id: "0D60C3E9ADF653D5"
-			tasks: [{
-				id: "23E37134E7BDF5D1"
-				type: "item"
-				item: "ars_nouveau:magebloom_fiber"
-			}]
-			rewards: [{
-				id: "73EE9C7778527934"
-				type: "item"
-				item: "ars_nouveau:magebloom_fiber"
-				count: 8
-			}]
-		}
-		{
-			x: 3.0d
-			y: -7.5d
-			shape: "square"
-			subtitle: "Sighted on islands high up in the Sky. Some of the Ancients used to store this."
-			dependencies: ["07D1ED74C8A30306"]
-			hide: true
-			id: "672C2DF08E4C5B8A"
+			x: 0.5d, 
+			y: -3.0d, 
+			subtitle: "{chapter.m2.quest.8.subtitle}", 
+			dependencies: ["2F4BE8EF99F2622B", "09BFC11F9574430E"], 
+			id: "640F176B95D8B880", 
 			tasks: [
 				{
-					id: "17149B060C8E44AE"
-					type: "item"
-					item: "ars_nouveau:magebloom"
+					id: "5B3EA02C0A5CEBC1", 
+					type: "item", 
+					item: "kubejs:source_bucket"
 				}
-				{
-					id: "2C2A4163BA611DE6"
-					type: "item"
-					item: "ars_nouveau:magebloom_crop"
-				}
-			]
+			], 
 			rewards: [
 				{
-					id: "5A5E0943E8BCC80D"
-					type: "item"
+					id: "07AE90E8FEFD3CB8", 
+					type: "item", 
 					item: {
-						id: "kubejs:lootbag_arcane_1"
-						Count: 1b
+						id: "kubejs:lootbag_arcane_2", 
+						Count: 1b, 
 						tag: {
 							Damage: 0
 						}
 					}
 				}
+			]
+		}, 
+		{
+			title: "{chapter.m2.quest.9.title}", 
+			x: -1.0d, 
+			y: -3.5d, 
+			subtitle: "{chapter.m2.quest.9.subtitle}", 
+			dependencies: ["7DC257849AB71246"], 
+			id: "0D60C3E9ADF653D5", 
+			tasks: [
 				{
-					id: "112D0C8337989FA0"
-					type: "item"
+					id: "23E37134E7BDF5D1", 
+					type: "item", 
+					item: "ars_nouveau:magebloom_fiber"
+				}
+			], 
+			rewards: [
+				{
+					id: "73EE9C7778527934", 
+					type: "item", 
+					item: "ars_nouveau:magebloom_fiber", 
+					count: 8
+				}
+			]
+		}, 
+		{
+			x: 3.0d, 
+			y: -7.5d, 
+			shape: "square", 
+			subtitle: "{chapter.m2.quest.10.subtitle}", 
+			dependencies: ["07D1ED74C8A30306"], 
+			hide: 1b, 
+			id: "672C2DF08E4C5B8A", 
+			tasks: [
+				{
+					id: "17149B060C8E44AE", 
+					type: "item", 
+					item: "ars_nouveau:magebloom"
+				}, 
+				{
+					id: "2C2A4163BA611DE6", 
+					type: "item", 
 					item: "ars_nouveau:magebloom_crop"
+				}
+			], 
+			rewards: [
+				{
+					id: "5A5E0943E8BCC80D", 
+					type: "item", 
+					item: {
+						id: "kubejs:lootbag_arcane_1", 
+						Count: 1b, 
+						tag: {
+							Damage: 0
+						}
+					}
+				}, 
+				{
+					id: "112D0C8337989FA0", 
+					type: "item", 
+					item: "ars_nouveau:magebloom_crop", 
 					count: 3
 				}
 			]
-		}
+		}, 
 		{
-			title: "Magebloom Juice"
-			x: 1.5d
-			y: -8.0d
-			subtitle: "Stamp down Mageblooms"
-			dependencies: ["672C2DF08E4C5B8A"]
-			id: "13FAE8977206B874"
-			tasks: [{
-				id: "43D390230730F70A"
-				type: "item"
-				item: "kubejs:magebloom_juice_bucket"
-			}]
-		}
-		{
-			title: "Magebloom Sourceberry Smoothie"
-			x: 0.5d
-			y: -7.0d
-			subtitle: "Mix Sourceberry and Magebloom Juice"
-			dependencies: [
-				"77CEF8A4D9FBB5E2"
-				"13FAE8977206B874"
+			title: "{chapter.m2.quest.11.title}", 
+			x: 1.5d, 
+			y: -8.0d, 
+			subtitle: "{chapter.m2.quest.11.subtitle}", 
+			dependencies: ["672C2DF08E4C5B8A"], 
+			id: "13FAE8977206B874", 
+			tasks: [
+				{
+					id: "43D390230730F70A", 
+					type: "item", 
+					item: "kubejs:magebloom_juice_bucket"
+				}
 			]
-			id: "2ADEBF32DFED9BAC"
-			tasks: [{
-				id: "4E00D4380963781E"
-				type: "item"
-				item: "kubejs:magebloom_sourceberry_smoothie_bucket"
-			}]
-		}
+		}, 
 		{
-			x: 0.5d
-			y: -9.0d
-			dependencies: ["07D1ED74C8A30306"]
-			hide: true
-			size: 1.2d
-			id: "6DC937B7DDC7E181"
-			tasks: [{
-				id: "3655F725B8BB8054"
-				type: "item"
-				item: "kubejs:runic_tablet"
-			}]
+			title: "{chapter.m2.quest.12.title}", 
+			x: 0.5d, 
+			y: -7.0d, 
+			subtitle: "{chapter.m2.quest.12.subtitle}", 
+			dependencies: ["77CEF8A4D9FBB5E2", "13FAE8977206B874"], 
+			id: "2ADEBF32DFED9BAC", 
+			tasks: [
+				{
+					id: "4E00D4380963781E", 
+					type: "item", 
+					item: "kubejs:magebloom_sourceberry_smoothie_bucket"
+				}
+			]
+		}, 
+		{
+			x: 0.5d, 
+			y: -9.0d, 
+			dependencies: ["07D1ED74C8A30306"], 
+			hide: 1b, 
+			size: 1.2d, 
+			id: "6DC937B7DDC7E181", 
+			tasks: [
+				{
+					id: "3655F725B8BB8054", 
+					type: "item", 
+					item: "kubejs:runic_tablet"
+				}
+			]
 		}
-	]
-	quest_links: [ ]
+	], 
+	quest_links: []
 }
