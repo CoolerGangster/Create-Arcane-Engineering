@@ -41,6 +41,17 @@ let integrated_parts = [
     'integratedcrafting:part_crafting_writer'
 ]
 onEvent('recipes', event => {
+    event.remove({output: 'integrateddynamics:logic_director'})
+    event.remove({output: 'integrateddynamics:energy_battery'})
+    event.remove({output: 'integratedcrafting:part_interface_crafting'})
+    event.remove({output: 'integratedcrafting:part_crafting_writer'})
+    event.remove({output: /integrateddynamics\:part.*porter_world/})
+    event.remove({output: /integratedtunnels\:part.*porter_world/})
+    event.remove({output: "integratedtunnels:part_player_simulator"})
+    event.remove({output: 'integrateddynamics:part_connector_mono_directional'})
+    event.remove({output: "integrateddynamics:part_connector_omni_directional"})
+    event.remove({output: "integratedterminals:terminal_storage_portable"})
+    event.remove({output: 'integrateddynamics:coal_generator'})
 
     integrated_parts.forEach(part => {
         event.shapeless(part, [part])
