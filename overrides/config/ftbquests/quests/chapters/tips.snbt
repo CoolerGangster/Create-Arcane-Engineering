@@ -514,7 +514,7 @@
 			]
 		}
 		{
-			x: 10.5d
+			x: 10.0d
 			y: -6.0d
 			subtitle: "Can be used to farm Fish..."
 			id: "3D7B34D45116567D"
@@ -673,7 +673,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 13.0d
 			y: -6.0d
 			description: ["You can heat Create Steam Engines with Pneumaticcraft!"]
 			id: "41474C57E044994B"
@@ -715,7 +715,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 11.0d
 			y: -6.0d
 			subtitle: "Another Chunkloader."
 			description: ["Right-Click to Activate. If the player is longer than 140 minutes offline, it will disable itself."]
@@ -724,6 +724,18 @@
 				id: "1C4067CE9D0886AC"
 				type: "item"
 				item: "chunkymcchunkface:chunk_loader"
+			}]
+		}
+		{
+			title: "Mob Yoinking, like a BOSS"
+			x: 12.0d
+			y: -6.0d
+			subtitle: "Right-Click to Imprison a Mob, Right-Click again to release it."
+			id: "778B02DD79D525D2"
+			tasks: [{
+				id: "741700582CFD8D1F"
+				type: "item"
+				item: "forbidden_arcanus:quantum_catcher"
 			}]
 		}
 	]

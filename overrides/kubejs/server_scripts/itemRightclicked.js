@@ -28,7 +28,7 @@ onEvent('block.right_click', event =>{
         event.block.mergeEntityData(data) //why do i have to merge the entire data :/
     }
 	// Prevent Straw duping because it's annoying!
-	if (event.item == "createaddition:straw" && event.block.id == 'create:blaze_burner') {
+	if (event.item.id == "createaddition:straw" && event.block.id == 'create:blaze_burner' && event.level.dimension != 'cae:void') {
 		if (!event.player.creativeMode) {
 			event.block.set('createaddition:liquid_blaze_burner')
 			event.item.count--
@@ -40,16 +40,16 @@ onEvent('block.right_click', event =>{
 
 		if(event.block.id == arcaneblox[0]){
 			if (event.block.offset(0,1,0).id == arcaneblox[1] && event.block.offset(0,2,0).id == arcaneblox[1]){
-				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @p ${event.block.x} ${event.block.y} ${event.block.z}`)
+				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @e[type=player] ${event.block.x} ${event.block.y} ${event.block.z}`)
 		
 			}
 		}
 		if(event.block.id == arcaneblox[1]){
 			if (event.block.offset(0,-1,0).id == arcaneblox[0] && event.block.offset(0,1,0).id == arcaneblox[1]){
-				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @p ${event.block.x} ${event.block.y} ${event.block.z}`)
+				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @e[type=player] ${event.block.x} ${event.block.y} ${event.block.z}`)
 
 			}else if (event.block.offset(0,-1,0).id == arcaneblox[1] && event.block.offset(0,-2,0).id == arcaneblox[0]){
-				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @p ${event.block.x} ${event.block.y} ${event.block.z}`)
+				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @e[type=player] ${event.block.x} ${event.block.y} ${event.block.z}`)
 
 			}
 		}

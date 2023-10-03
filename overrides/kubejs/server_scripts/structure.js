@@ -324,9 +324,7 @@ let forbidden = [
     'minecraft:stone',
     'minecraft:water',
     'minecraft:dirt',
-    'minecraft:green_concrete_powder',
     'minecraft:moss_block',
-    'minecraft:green_concrete',
     'chipped:green_terracotta_52',
     'byg:palm_log',
     'minecraft:deepslate',
@@ -355,7 +353,7 @@ let forbidden = [
     'chipped:mossy_stone_bricks_7',
     'byg:tiny_lilypads',
     'minecraft:seagrass',
-    'minecraft:green_concrete','chipped:andesite_66',
+    'chipped:andesite_66',
     'chipped:andesite_67',
     'chipped:green_terracotta_52',
     'waystones:sharestone',
@@ -393,7 +391,6 @@ let forbidden = [
     'decorative_blocks:soul_brazier',
     'minecraft:light_blue_wool',
     'chipped:blue_ice_47',
-    'minecraft:light_blue_concrete',
     'chipped:light_blue_wool_16',
     'chipped:quartz_block_44',
     'chipped:quartz_block_45',
@@ -428,7 +425,6 @@ let forbidden = [
     'minecraft:snow_block',
     'chipped:pointed_dripstone_4',
     'minecraft:diorite',
-    
     'minecraft:calcite',
     'minecraft:smooth_basalt',
     'chipped:sand_7',
@@ -463,7 +459,6 @@ let forbidden = [
     'create:creative_motor',
     'create:clutch',
     'ars_nouveau:archwood_trapdoor',
-    
     'minecraft:dispenser',
     'create:redstone_link',
     'minecraft:oak_sign',
@@ -525,7 +520,6 @@ let forbidden = [
     'framedblocks:framed_slab_edge',
     'minecraft:spruce_stairs',
     'minecraft:bookshelf',
-    
     'chipped:bookshelf_1',
     'chipped:bookshelf_4',
     'davebuildingmod:stars',
@@ -557,7 +551,6 @@ let forbidden = [
     'create:creative_fluid_tank',
     'create:creative_crate',
     'minecraft:structure_block',
-
     'ae2:sky_stone_tank',
     'pneumaticcraft:pressurized_spawner'
 
