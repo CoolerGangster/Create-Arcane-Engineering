@@ -67,7 +67,7 @@
 		{
 			x: -5.5d
 			y: -12.0d
-			description: ["There are many locational recources. The motive behind those is for you to use the new 1.18 trains :) Train Tracks have been made SIXTEEN TIMES cheaper than normal, so your train building adventures are as easy as they can be!"]
+			description: ["There are many locational resources. The motive behind those is for you to use the new 1.18 trains :) Train Tracks have been made SIXTEEN TIMES cheaper than normal, so your train building adventures are as easy as they can be!"]
 			id: "2DF25740BF8AF0F2"
 			tasks: [{
 				id: "7BB8B3A8548C9213"
@@ -227,7 +227,7 @@
 			description: [
 				"Geodes of Orestones now spawn all around the world. "
 				"rightclick the Geode Block in those with a redstone dust item, and it will spawn in Orestone blocks! "
-				"This way, orestones and their recources are fully automatable!"
+				"This way, orestones and their resources are fully automatable!"
 			]
 			id: "520888735E13CA2E"
 			tasks: [{

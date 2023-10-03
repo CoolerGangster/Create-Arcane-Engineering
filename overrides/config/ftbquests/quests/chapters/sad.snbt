@@ -344,7 +344,7 @@
 			icon: "railways:track_birch"
 			x: 1.5d
 			y: -5.0d
-			subtitle: "Meteorites can be shockingly far away from where your base is situated. Welcome to this pack, locational recources like these are a reoccuring theme. Now you either have the choice to Make a factory on the Skystone Catalyst, or make a rail line delivering the skystone to you, the choice is yours. Either way, youll need a rail line connecting the factories."
+			subtitle: "Meteorites can be shockingly far away from where your base is situated. Welcome to this pack, locational resources like these are a reoccuring theme. Now you either have the choice to Make a factory on the Skystone Catalyst, or make a rail line delivering the skystone to you, the choice is yours. Either way, youll need a rail line connecting the factories."
 			description: ["2nd Tip: If you rightclick the skystone catalyst with a wooden axe it will moove 10 blocks up in the air, this is so if your meteorite is in the ocean you can moove the catalyst out so you dont have to clear an entire ocean or mine out a cave..."]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
