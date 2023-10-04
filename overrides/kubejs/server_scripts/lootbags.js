@@ -2,10 +2,9 @@ function lootbag(lootbag, lootable) {
     if (event.item == lootbag) {
         event.cancel();
         event.player.swingArm(event.hand);
-        event.server.runCommandSilent(`execute in ${event.level.dimension} run loot spawn ${event.player.x} ${event.player.y} ${event.player.z} loot ${lootable}`);
         event.player.playSound('minecraft:entity.experience_orb.pickup');
 
-        for (let i = 1; i <= 256; i++) {
+        for (let i = 0; i <= 256; i++) {
             if (event.item.hasEnchantment('minecraft:fortune', i)) {
                 event.server.runCommandSilent(`execute in ${event.level.dimension} run loot spawn ${event.player.x} ${event.player.y} ${event.player.z} loot ${lootable}`);
             } else break
