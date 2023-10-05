@@ -115,7 +115,7 @@
 			subtitle: "Click Quest for Catalyst Explanation"
 			description: [
 				"Catalysts spawn underground everywhere in the world. You can spot them easily in oceans, or find them using the Structures Compass"
-				"Simply Right-Click a Catalyst with Redstone, and 5 Blocks around it will get transformed to its corresponding Recource. Veridium Catalysts => Veridium"
+				"Simply Right-Click a Catalyst with Redstone, and 5 Blocks around it will get transformed to its corresponding Resource. Veridium Catalysts => Veridium"
 			]
 			id: "00082526A88C36D7"
 			tasks: [{
@@ -384,10 +384,10 @@
 			description: [
 				"Firstly, to find an Ore Deposit simply rightclick the ground with the Vein Finder. And it will tell you if you are near one. "
 				"But theres more to it, randomly rightclicking chunks will only get you so far. You see, Ore deposits werent lazily implemented. They have LORE. And here follows the Explanation:"
-				"Each Recource has 3 Tiers of Ore Deposits. "
+				"Each Resource has 3 Tiers of Ore Deposits. "
 				"Tier 1: Found in the overworld. Iron Drills Suffice. These Veins are small in size, and not plentiful."
 				"Tier 2: Tier 2 is special. It is found in special biomes that fit the lore of the ore. E.g Gold in the Nether. most other deposits are in rare biomes like mushroom plains. Now, how does this vein work? Well its very commonly found in the special biomes, and more plentiful. These require Diamond Drills. But they still arent the best yet."
-				"Tier 3: The final frontier of Deposits. The Biomes of these Deposits are based on the places in the world, that have most of that Recource. These Veins are Infinite, but require Netherite Drills, and a Steady Supply of Lava to function. (this might be oil if I didnt forget to change it)"
+				"Tier 3: The final frontier of Deposits. The Biomes of these Deposits are based on the places in the world, that have most of that Resource. These Veins are Infinite, but require Netherite Drills, and a Steady Supply of Lava to function. (this might be oil if I didnt forget to change it)"
 			]
 			id: "3EA36059A00F4BEE"
 			tasks: [
