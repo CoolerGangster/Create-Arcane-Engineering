@@ -36,7 +36,7 @@ onEvent('recipes', event => {
     ], {
         C: 'forbidden_arcanus:arcane_crystal_block',
         P: 'forbidden_arcanus:dark_runic_glass_pane',
-        Z: 'ars_nouveau:orange_sbed',
+        B: 'ars_nouveau:orange_sbed',
         R: 'kubejs:runic_tablet'
     })
 
