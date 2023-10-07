@@ -74,7 +74,7 @@ onEvent('recipes', event => {
     event.remove({output: /integratedtunnels\:part.*porter_world/})
     event.remove({output: "integratedtunnels:part_player_simulator"})
     event.remove({output: "integrateddynamics:part_connector_omni_directional"})
-    event.remove({output: "integrateddynamics:part_connector_mono_directional"})
+    //event.remove({output: "integrateddynamics:part_connector_mono_directional"})
     event.remove({id: "integratedterminals:crafting/terminal_storage_portable"})
     //event.remove({output: 'forbidden_arcanus:eternal_stella'})
     //Cast Iron Removal
