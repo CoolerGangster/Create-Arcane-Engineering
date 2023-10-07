@@ -4,6 +4,8 @@
         "minecraft:item",
         "create:carriage_contraption",
         "create:contraption",
+        "ars_nouveau:spell_proj",
+        "minecraft:minecart",
         "create:stationary_contraption",
         "minecraft:hopper_minecart",
         "minecraft:chest_minecart",
