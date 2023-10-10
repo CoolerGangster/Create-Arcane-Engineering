@@ -35,7 +35,7 @@ onEvent('recipes',event => {
     ]).transitionalItem(t).loops(1)
     t = KJ("incomplete_pcb_blueprint")
   event.recipes.createSequencedAssembly([
-    'pneumaticcraft:pcb_blueprint',
+    '3x pneumaticcraft:pcb_blueprint',
   ], 'create:empty_schematic', [
     event.recipes.createDeploying(t, [t, 'ae2:printed_calculation_processor']),
     event.recipes.createDeploying(t, [t, 'ae2:printed_logic_processor']),

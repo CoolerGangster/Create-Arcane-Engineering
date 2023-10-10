@@ -99,7 +99,7 @@
 
 	[machine.general]
 		#The maximum offset in blocks a directional connector can look for its target.
-		maxDirectionalConnectorOffset = 48
+		maxDirectionalConnectorOffset = 96
 		#Priority list of mod id's when determining tag-based recipe outputs.
 		recipeTagOutputModPriorities = []
 		#The default update frequency in ticks to use for new parts.
