@@ -102,14 +102,20 @@
 			id: "6EFF8BCEBC2E2AF2"
 			tasks: [
 				{
-					id: "075CF9BE7A363B2D"
-					type: "item"
-					item: "kubejs:andesite_machine"
-				}
-				{
 					id: "69A69B5061736432"
 					type: "checkmark"
 					title: "Yis I wanna do the next chapter."
+				}
+				{
+					id: "51634362D7550FBC"
+					type: "item"
+					item: "kubejs:kinetic_mechanism"
+					count: 64L
+				}
+				{
+					id: "1CD034E3AED8E198"
+					type: "item"
+					item: "kubejs:andesite_machine"
 				}
 			]
 		}
@@ -178,6 +184,12 @@
 					id: "73BB42050BFC9FA6"
 					type: "checkmark"
 					title: "Gimme more chapters!"
+				}
+				{
+					id: "40D21620E9D2FEE6"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 64L
 				}
 			]
 		}
@@ -259,6 +271,12 @@
 					id: "7148E1E85BDF49D9"
 					type: "checkmark"
 					title: "Give me harder demons"
+				}
+				{
+					id: "385DF4C6DF98BCCE"
+					type: "item"
+					item: "kubejs:radiant_mechanism"
+					count: 32L
 				}
 			]
 		}

@@ -79,9 +79,9 @@ t = KJ('incomplete_quartz')
 
   t = KJ('redstone_seed')
   event.recipes.createSequencedAssembly([
-  	Item.of('kubejs:redstone_cluster').withChance(30), Item.of(t).withChance(70)
+  	Item.of('kubejs:redstone_cluster').withChance(45), Item.of(t).withChance(70)
   ], t, [
-  	event.recipes.createFilling(t, [t, Fluid.of(KJ("sky_solution"), 100)]),
+  	event.recipes.createFilling(t, [t, Fluid.of(KJ("sky_solution"), 150)]),
     event.recipes.createDeploying(t, [t, 'minecraft:sand'])
   ]).transitionalItem(t)
   	.loops(1)

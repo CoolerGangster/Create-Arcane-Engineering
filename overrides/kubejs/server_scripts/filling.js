@@ -9,7 +9,7 @@ onEvent('recipes', event => {
   ])
   event.recipes.createFilling(CR('rose_quartz'), [
     'minecraft:redstone',
-    Fluid.of('thermal:redstone', 33)
+    Fluid.of('thermal:redstone', 25)
   ])
   event.recipes.create.filling('quark:soul_bead', ['forbidden_arcanus:soul', Fluid.of('kubejs:liquid_resent', 200)])
   event.recipes.create.filling('kubejs:anthracene', ['kubejs:empty_vial', Fluid.of('kubejs:superheated_anthracene', 144)])
