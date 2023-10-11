@@ -55,4 +55,13 @@ onEvent('recipes',event => {
       event.recipes.thermal.crystallizer(`2x quark:${i}_corundum_cluster`,[`quark:${i}_corundum_cluster`,Fluid.of('minecraft:water',1000)])
       event.recipes.thermal.crystallizer(`2x quark:${i}_corundum`,[`quark:${i}_corundum`,Fluid.of('minecraft:water',1000)])
   });
+
+  event.recipes.createMechanicalCrafting("cae:advassembly", [
+    'PZP',
+    'ZZZ',
+    'PZP'
+  ], {
+    P: "kubejs:supercritical_mechanism",
+    Z: "kubejs:finalpcb"
+})
 })

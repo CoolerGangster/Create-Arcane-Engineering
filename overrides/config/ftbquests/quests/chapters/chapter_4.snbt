@@ -1125,7 +1125,7 @@
 			x: 4.5d
 			y: 4.0d
 			shape: "diamond"
-			subtitle: "How am I gonna get all of those Materials renewably? You might ask, well fear not. The Drilling Machine is Here! Create a vast network of Trains to unify into your Factory."
+			subtitle: "How am I gonna get all of those Materials renewably? You might ask, well fear not. The Drilling Machine is here! Create a vast network of Trains to unify into your Factory."
 			dependencies: ["3CB202406B401D8B"]
 			hide: true
 			id: "675C4C0F98A750CC"
@@ -1244,6 +1244,36 @@
 				id: "64C2845B921903DE"
 				type: "item"
 				item: "thermal:machine_insolator"
+			}]
+		}
+		{
+			title: "Advanced Assembler"
+			x: 4.5d
+			y: 3.0d
+			shape: "pentagon"
+			subtitle: "Your PCB line is too Slow? Well, Ive got something for you :)"
+			description: [
+				"The Advanced Assembler is a Multiblock that works faster than normal Assembly Tables."
+				"Note: If it doesnt work, try adding a Energy Battery with more Storage."
+			]
+			dependencies: ["19232B8B77F86AF8"]
+			hide: true
+			id: "24D2EEF987DADF98"
+			tasks: [{
+				id: "0830DF5AD4B5BB46"
+				type: "item"
+				item: "cae:advassembly"
+			}]
+			rewards: [{
+				id: "700C07D6F505CD13"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_pcb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

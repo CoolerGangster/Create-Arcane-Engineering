@@ -45,7 +45,7 @@ onEvent('recipes', event => {
     event.recipes.createFilling(t, [t, Fluid.of("kubejs:source", 144)]),
     event.recipes.create.pressing(t, t)
     ]).transitionalItem(t).loops(1)
-    event.recipes.create.crushing(Item.of('kubejs:sourcegem_fragments', 1).withChance(0.20), 'ars_nouveau:source_gem')
+    event.recipes.create.crushing(Item.of('kubejs:sourcegem_fragments', 1).withChance(0.4), 'ars_nouveau:source_gem')
 
 
     event.custom({

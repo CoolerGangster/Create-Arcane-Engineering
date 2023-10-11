@@ -373,6 +373,9 @@ onEvent('recipes', event => {
             'tin',
             'lead',
             'silver',
+            "gold",
+            "netherite",
+            "copper",
             'nickel']
 
             function crush2dust(In) {event.recipes.create.crushing("thermal:"+ In + "_dust", "#forge:ingots/" + In)}
@@ -508,14 +511,13 @@ onEvent('recipes', event => {
 
 
 
-
     event.custom({
         "type":"createaddition:liquid_burning",
         "input": {
               "fluidTag": "forge:kerosene",
               "amount": 1000
         },
-        "burnTime": 51200,
+        "burnTime": 15000,
         "superheated": true,
         "conditions": [
             {
@@ -530,7 +532,7 @@ onEvent('recipes', event => {
               "fluidTag": "forge:lpg",
               "amount": 1000
         },
-        "burnTime": 51200,
+        "burnTime": 15000,
         "superheated": true,
         "conditions": [
             {
@@ -780,6 +782,7 @@ onEvent('recipes', event => {
         ['integrateddynamics:variable','integrateddynamics:materializer'],
         ['integrateddynamics:variablestore','integrateddynamics:proxy'],
         ['minecraft:chest','integrateddynamics:variablestore'],
+        ['#functionalstorage:drawer',"functionalstorage:controller_extension"],
         ['integrateddynamics:variable_transformer_input','integratednbt:nbt_extractor']
 
     ]
