@@ -94,6 +94,7 @@
 			description: [
 				"Check the Ore Excavation Chapter for more Info"
 				""
+				"Note: Make sure they always have somewhere to deposit too. Or else they will store to many items which will cause a lot of lag."
 			]
 			id: "51054C4D158084AD"
 			tasks: [{

@@ -760,6 +760,7 @@ onEvent('recipes', event => {
         [MC('brewing_stand'),TE('machine_brewer')],
         [MC('dirt'),TE('machine_insolator')],
         [MC('quartz'),TE('machine_crystallizer')],
+        ['#functionalstorage:drawer',"functionalstorage:controller_extension"],
         [CR('mechanical_press'),TE('machine_press')],
         [MC('crafting_table'),TE('machine_crafter')],
         ['create:precision_mechanism','pneumaticcraft:assembly_controller'],
@@ -782,7 +783,7 @@ onEvent('recipes', event => {
         ['integrateddynamics:variable','integrateddynamics:materializer'],
         ['integrateddynamics:variablestore','integrateddynamics:proxy'],
         ['minecraft:chest','integrateddynamics:variablestore'],
-        ['#functionalstorage:drawer',"functionalstorage:controller_extension"],
+     
         ['integrateddynamics:variable_transformer_input','integratednbt:nbt_extractor']
 
     ]

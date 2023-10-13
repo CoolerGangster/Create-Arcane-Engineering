@@ -58,10 +58,11 @@ onEvent('recipes',event => {
 
   event.recipes.createMechanicalCrafting("cae:advassembly", [
     'PZP',
-    'ZZZ',
+    'DDD',
     'PZP'
   ], {
     P: "kubejs:supercritical_mechanism",
-    Z: "kubejs:finalpcb"
+    Z: "kubejs:finalpcb",
+    D: "kubejs:supercritical_casing"
 })
 })

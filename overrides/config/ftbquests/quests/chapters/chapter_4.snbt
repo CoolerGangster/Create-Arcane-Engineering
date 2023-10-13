@@ -1126,6 +1126,7 @@
 			y: 4.0d
 			shape: "diamond"
 			subtitle: "How am I gonna get all of those Materials renewably? You might ask, well fear not. The Drilling Machine is here! Create a vast network of Trains to unify into your Factory."
+			description: ["Note: Make sure they always have somewhere to deposit too. Or else they will store to many items which will cause a lot of lag."]
 			dependencies: ["3CB202406B401D8B"]
 			hide: true
 			id: "675C4C0F98A750CC"
@@ -1251,7 +1252,7 @@
 			x: 4.5d
 			y: 3.0d
 			shape: "pentagon"
-			subtitle: "Your PCB line is too Slow? Well, Ive got something for you :)"
+			subtitle: "Your PCB line is too slooooow? Well, Ive got something for you :)"
 			description: [
 				"The Advanced Assembler is a Multiblock that works faster than normal Assembly Tables."
 				"Note: If it doesnt work, try adding a Energy Battery with more Storage."

@@ -47,7 +47,6 @@ onEvent('recipes', event => {
     ]).transitionalItem(t).loops(1)
     event.recipes.create.crushing(Item.of('kubejs:sourcegem_fragments', 1).withChance(0.4), 'ars_nouveau:source_gem')
 
-
     event.custom({
       "type": "ars_nouveau:enchanting_apparatus",
       "reagent": [

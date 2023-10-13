@@ -11,7 +11,7 @@
           {
             "content": {
               "type": "multiblocked:sized",
-              "count": 3,
+              "count": 12,
               "ingredient": {
                 "item": "kubejs:pcb_assembly_2"
               }
@@ -25,7 +25,7 @@
           {
             "content": {
               "type": "multiblocked:sized",
-              "count": 9,
+              "count": 36,
               "ingredient": {
                 "item": "kubejs:dryed_board"
               }
@@ -44,6 +44,56 @@
       }
     },
     {
+      "uid": "8b69a57d-e600-4cd9-8112-c4aa3aea9b98",
+      "duration": 290,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "ars_nouveau:source_gem"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:sourcegem_fragments"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:sourcegem_fragments"
+              }
+            },
+            "chance": 0.6
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "content": 2000,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
       "uid": "c3e9ed16-acf1-43c5-a7fb-1a4e50c1d552",
       "duration": 290,
       "inputs": {
@@ -51,7 +101,7 @@
           {
             "content": {
               "type": "multiblocked:sized",
-              "count": 5,
+              "count": 7,
               "ingredient": {
                 "item": "kubejs:untested_pcb"
               }
@@ -65,7 +115,7 @@
           {
             "content": {
               "type": "multiblocked:sized",
-              "count": 5,
+              "count": 7,
               "ingredient": {
                 "item": "kubejs:mystery_pcb"
               }
@@ -91,7 +141,7 @@
           {
             "content": {
               "type": "multiblocked:sized",
-              "count": 3,
+              "count": 12,
               "ingredient": {
                 "item": "kubejs:pcb_assembly"
               }
@@ -105,7 +155,7 @@
           {
             "content": {
               "type": "multiblocked:sized",
-              "count": 9,
+              "count": 36,
               "ingredient": {
                 "item": "pneumaticcraft:empty_pcb"
               }
