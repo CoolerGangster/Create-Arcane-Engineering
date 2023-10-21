@@ -77,7 +77,7 @@
 		}
 		{
 			title: "Iron Farms"
-			x: -6.5d
+			x: -7.0d
 			y: -11.0d
 			subtitle: "This pack demands a good supply of iron...."
 			id: "14FC19629B01ACFF"
@@ -439,7 +439,7 @@
 		}
 		{
 			title: "Witherproof glass"
-			x: -5.5d
+			x: -5.0d
 			y: -11.0d
 			subtitle: "Completely Indestructible to Withers"
 			id: "5CFBF9DB3C810E70"
@@ -737,6 +737,22 @@
 				id: "741700582CFD8D1F"
 				type: "item"
 				item: "forbidden_arcanus:quantum_catcher"
+			}]
+		}
+		{
+			title: "For Server Admins: ClearItems.js"
+			x: -6.0d
+			y: -11.0d
+			subtitle: "Click for Info."
+			description: [
+				"Did you know this pack has an inbuilt clear items system? (that is superior to other ones I might add)"
+				"To activate, simply go into your server files and go into kubejs/server_scripts/ClearItems.js Now, acces the file and change the first line (let activated = false) to (let activated = true)"
+			]
+			id: "442079A1265BAFD5"
+			tasks: [{
+				id: "65D47CE2C836CE9A"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 	]

@@ -82,7 +82,7 @@ onEvent('level.tick', event => {
 })
 onEvent('level.tick',event => {
     if(!activated) return
-    if(event.level.dimension -= 'cae:clearlag'){
+    if(event.level.dimension == 'cae:clearlag'){
         event.level.getEntities('@e[type=player]').forEach(player =>{
             if (global.activelycounter < -1 * timeallowedinticks && player.level.dimension == "cae:clearlag"){
                 event.server.runCommandSilent(`execute in minecraft:overworld run tp ${player.name.text} 0 100 0`)
