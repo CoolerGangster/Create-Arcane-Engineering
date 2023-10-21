@@ -10,10 +10,22 @@
     },
     {
       "structure": "cae:stargazing",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "cae:warped_cottage",
+      "weight": 2
+    },
+    {
+      "structure": "cae:arstower",
+      "weight": 2
+    },
+    {
+      "structure": "cae:arstowersky",
+      "weight": 2
+    },
+    {
+      "structure": "cae:corrundshroom",
       "weight": 2
     }
   ],

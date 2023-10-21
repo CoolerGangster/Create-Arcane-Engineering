@@ -41,3 +41,13 @@ onEvent('block.right_click', event => {
         console.log(integrated)
     }
 })*/
+onEvent('block.right_click', event => {
+    if(event.item.id == "kubejs:petrified_sheet"&& event.player.isCreativeMode()){
+    let x = event.block.x
+    let y = event.block.y
+    let z = event.block.z
+    let playerdim = event.level.dimension.toString()
+
+    event.server.runCommandSilent(`execute in ${playerdim} run data merge block ${x} ${y} ${z} {LootTable:"cae:arcaneweak"}`)
+        }
+})

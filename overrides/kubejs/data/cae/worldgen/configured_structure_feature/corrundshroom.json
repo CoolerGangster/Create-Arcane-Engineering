@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#minecraft:has_structure/igloo",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "cae:corrundshroom",
+    "size": 7
+  }
+}

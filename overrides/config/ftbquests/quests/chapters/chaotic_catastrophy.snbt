@@ -1,0 +1,117 @@
+{
+	id: "78985403BA4C7CAC"
+	group: "73266C3574BDAE4C"
+	order_index: 3
+	filename: "chaotic_catastrophy"
+	title: "Chaotic Catastrophy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Singularity"
+			x: 0.0d
+			y: -0.5d
+			id: "284C79422EDA63EE"
+			tasks: [{
+				id: "50958FA01CBCDA90"
+				type: "item"
+				item: "minecraft:crying_obsidian"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			subtitle: "Deployers Build a structure that gets consumed and drops a specific item. Spirit most likely?"
+			description: ["Variety could be introduced by making the singularity core ask for random items, and only giving you one chance..."]
+			id: "2F70DA2A73B82B9B"
+			tasks: [{
+				id: "02BAAC003A93CC1E"
+				type: "custom"
+				title: "Automation idea 1: Cataclysmic Creation"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Simulate Fibonacci Sequences on the fly?"
+			description: ["The singularity will ask for random mathematical sequences which you are tasked to computue on the fly"]
+			id: "58121DDB66A1E56B"
+			tasks: [{
+				id: "7E7D926A59FEAD70"
+				type: "custom"
+				title: "Idea 2: Computational Analysis"
+			}]
+		}
+		{
+			title: "Predicted Randomness. You farm randomium with the cycle"
+			x: 0.0d
+			y: 4.0d
+			id: "3876C55C35D3E574"
+			tasks: [{
+				id: "67F2B0CC15C3CDF7"
+				type: "item"
+				item: "randomium:randomium"
+			}]
+		}
+		{
+			title: "Dragon Egg Makes 1 Singularity"
+			x: 0.0d
+			y: -2.5d
+			id: "2126D34B56C207CD"
+			tasks: [{
+				id: "5E66E36171D5067A"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
+		}
+		{
+			title: "Singularic Antidote"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "You get randomium, but dont be greedy. keep the singularity alive and it will mean doom"
+			dependencies: ["3876C55C35D3E574"]
+			id: "6F189525975C2847"
+			tasks: [{
+				id: "35CBC88F12A9B9D4"
+				type: "item"
+				item: "minecraft:polished_deepslate"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			subtitle: "Theres gonna be a pool of 5 lists of 5 random items it wants... Maybe this can be merged with other ideas?"
+			description: ["Each Item gets made from the same base compponents. but you only get X materials of those base components. and the singularity will requuest different items. So you have to rearange the automation lines for them to process into what the singularity needs"]
+			id: "4B7AEC4AA0D7BB76"
+			tasks: [{
+				id: "000605AC5D41D77B"
+				type: "custom"
+				title: "Idea 3 Shifting automations"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			id: "06910875C8D2C006"
+			tasks: [{
+				id: "6ACE612FBB73BC8B"
+				type: "custom"
+				title: "Idea 4: Tiab can restart the timer of the Singularity to buy time"
+			}]
+		}
+		{
+			title: "Idea 5: Multiversal Entanglement"
+			x: 2.0d
+			y: 3.5d
+			subtitle: "Trains throughout every dimension."
+			description: ["nether,end,overworld Rightclicking singularity shards onto a block per dimension transforms it into its entangled counterpart"]
+			id: "54304608B30894E9"
+			tasks: [{
+				id: "4F5F665E51878776"
+				type: "custom"
+				title: "Multiversal Entanglement"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

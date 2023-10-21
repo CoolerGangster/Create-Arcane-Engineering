@@ -30,7 +30,7 @@ onEvent('level.tick', event => {
     if (global.minutestodeath > 0){return}else{
         ReloadChest()
     let Kaunt = 0;
-    event.level.getEntities('@e{type=item]').forEach(item => {
+    event.level.getEntities('@e[type=item]').forEach(item => {
         if(item.fullNBT.getInt("Age") >= minAgeinTicks){
             
             let id = item.fullNBT.getCompound("Item").getString("id")
@@ -82,9 +82,9 @@ onEvent('level.tick', event => {
 })
 onEvent('level.tick',event => {
     if(!activated) return
-    if(event.level.dimension != 'cae:clearlag'){return}else{
+    if(event.level.dimension -= 'cae:clearlag'){
         event.level.getEntities('@e[type=player]').forEach(player =>{
-            if (player.fullNBT.getInt("playerGameType") == 2 && global.activelycounter < -1 * timeallowedinticks && player.level.dimension == "cae:clearlag"){
+            if (global.activelycounter < -1 * timeallowedinticks && player.level.dimension == "cae:clearlag"){
                 event.server.runCommandSilent(`execute in minecraft:overworld run tp ${player.name.text} 0 100 0`)
                 event.server.runCommandSilent(`execute in minecraft:overworld run tp ${player.name.text} 0 100 0`)
                 player.tell("The Enigmatic Essence of a Dimension filled with nothingness, made you transmute space and time, as to where you ended up in the overworld!")
