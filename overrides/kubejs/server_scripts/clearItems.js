@@ -85,9 +85,11 @@ onEvent('level.tick',event => {
     if(event.level.dimension == 'cae:clearlag'){
         event.level.getEntities('@e[type=player]').forEach(player =>{
             if (global.activelycounter < -1 * timeallowedinticks && player.level.dimension == "cae:clearlag"){
+                event.server.runCommandSilent(`effect give ${player.name.text} minecraft:slow_falling 50 100 true`)
+                event.server.runCommandSilent(`effect give ${player.name.text} minecraft:absorption 100 100 true`)
                 event.server.runCommandSilent(`execute in minecraft:overworld run tp ${player.name.text} 0 100 0`)
                 event.server.runCommandSilent(`execute in minecraft:overworld run tp ${player.name.text} 0 100 0`)
-                player.tell("The Enigmatic Essence of a Dimension filled with nothingness, made you transmute space and time, as to where you ended up in the overworld!")
+                event.player.tell("The Enigmatic Essence of a Dimension filled with nothingness, made you transmute space and time, as to where you ended up in the overworld!")
             }
             
         })
@@ -100,7 +102,7 @@ onEvent('level.tick',event => {
 if(global.activelycounter>0){
 onEvent('item.right_click',event =>{
     if(!activated) return
-    if(event.level.dimension != "cae:clearlag"){
+    if(event.level.dimension != "cae:clearlag" && !(global.activelycounter < -1 * timeallowedinticks)){
     if(event.item.id == passageitem){
         let flooredx = Math.floor(event.player.x)
         let flooredy = Math.floor(event.player.y)
