@@ -32,7 +32,6 @@ onEvent('tags.items', event => {
 });
 
 onEvent('recipes', event => {
-
   let t = 'kubejs:incomplete_kinetic_mechanism'
   event.recipes.createSequencedAssembly([
     'kubejs:kinetic_mechanism',

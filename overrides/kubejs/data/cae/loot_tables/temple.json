@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "minecraft:exploration_map",
+                            "decoration": "red_x",
+                            "skip_existing_chunks": true,
+                            "search_radius": 5000,
+                            "destination": "cae:arcane_temple",
+                            "zoom": 2
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Arcane Temple Map"
+                        }
+                    ]   
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}

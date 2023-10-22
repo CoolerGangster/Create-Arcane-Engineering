@@ -820,11 +820,17 @@ onEvent('recipes', event => {
         Item.of('integrateddynamics:portable_logic_programmer'),
         Item.of('integrateddynamics:cable',4)
     ]
-    
-    multicut(integrational_cutting,"kubejs:integrational_machine",true)
 
+    multicut(integrational_cutting,"kubejs:integrational_machine",true)
+    event.remove({id:"create_sa:quartz_gem_crushing"})
+    event.remove({id:"create_sa:magma_cream_recipe"})
+    event.remove({id:"create_sa:netherrack_recipe"})
+    event.remove({id:"create_sa:incomplete_web_recipe"})
+    event.remove({id:"create_sa:incomplete_book_recipe"})
     event.replaceInput({id:'create:mechanical_crafting/wand_of_symmetry'},'minecraft:ender_pearl',"create:refined_radiance")
-    
+    event.replaceInput({},"create_sa:hydraulic_engine","kubejs:sealed_mechanism")
+    event.replaceInput({},"create_sa:steam_engine","create:precision_mechanism")
+    event.replaceInput({},"create_sa:heat_engine","#create:kinetic_mechanisms")
     event.replaceInput({id:'create:mechanical_crafting/wand_of_symmetry'},'create:precision_mechanism',"kubejs:radiant_mechanism")
     
     event.remove({id: 'integrateddynamics:crafting/coal_generator'})

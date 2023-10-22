@@ -463,13 +463,21 @@
 		{
 			x: 9.5d
 			y: -1.5d
+			subtitle: "Right-Click a Cartographers Table with Portal Actuation Fluid, to obtain a map that leads to the Arcane Temple."
 			dependencies: ["384BA5BB43FE6F50"]
 			id: "366D7A329E87A0EB"
-			tasks: [{
-				id: "336C8317B35F2A07"
-				type: "item"
-				item: "kubejs:portal_actuation_fluid_bucket"
-			}]
+			tasks: [
+				{
+					id: "336C8317B35F2A07"
+					type: "item"
+					item: "kubejs:portal_actuation_fluid_bucket"
+				}
+				{
+					id: "766EDEFD8F6521B5"
+					type: "item"
+					item: "minecraft:cartography_table"
+				}
+			]
 		}
 		{
 			x: 7.0d
