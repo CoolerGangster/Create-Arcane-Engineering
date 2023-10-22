@@ -27,7 +27,7 @@
               "type": "multiblocked:sized",
               "count": 36,
               "ingredient": {
-                "item": "kubejs:dryed_board"
+                "item": "kubejs:legend_pcb"
               }
             },
             "chance": 1.0
