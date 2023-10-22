@@ -80,7 +80,7 @@ onEvent('item.registry', (event) => {
     event.create('incomplete_masked_pcb', 'create:sequenced_assembly').displayName('Incomplete Unassembled PCB')
     event.create('pcb_assembly').displayName('PCB Assembly Package')
     event.create('incomplete_pcb_assembly', 'create:sequenced_assembly').displayName('Incomplete PCB assembly package').texture("pneumaticcraft:item/plastic")
-    event.create('pcb_assembly_2').displayName('PCB Legend Assembly Package')
+    event.create('pcb_assembly_2').displayName('PCB Legend Assembly Package').rarity(RARITY_COMMON).glow(true)
     event.create('incomplete_pcb_assembly_2', 'create:sequenced_assembly').displayName('Incomplete PCB Legend Assembly Package').texture("kubejs:item/pcb_assembly")
     event.create('legend_pcb').displayName(k).tooltip("Next: Apply ENIG surface treatment")
     event.create('incomplete_tested_pcb', 'create:sequenced_assembly').displayName('Incomplete Unassembled PCB').texture("kubejs:item/legend_pcb")
