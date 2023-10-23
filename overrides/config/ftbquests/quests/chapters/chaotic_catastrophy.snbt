@@ -31,7 +31,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -1.0d
 			y: 2.0d
 			subtitle: "Simulate Fibonacci Sequences on the fly?"
 			description: ["The singularity will ask for random mathematical sequences which you are tasked to computue on the fly"]
@@ -90,13 +90,18 @@
 			}]
 		}
 		{
+			title: "Time in a bottle can set the singularity cooldown back"
 			x: -4.5d
 			y: 1.5d
 			id: "06910875C8D2C006"
 			tasks: [{
-				id: "6ACE612FBB73BC8B"
-				type: "custom"
-				title: "Idea 4: Tiab can restart the timer of the Singularity to buy time"
+				id: "015466367B59F49F"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -113,13 +118,36 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.5d
+			title: "Idea 4. Reconstruction of chaos fragments with weird to automate plants"
+			x: 1.0d
+			y: 2.0d
 			id: "33CCE3853D1AB805"
 			tasks: [{
 				id: "231334E97E40DF41"
 				type: "item"
 				item: "minecraft:chorus_fruit"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			subtitle: "rightclick near singularity to get info on the stage and stuff"
+			id: "716A734C7A6AE1A9"
+			tasks: [{
+				id: "5D1DC2BF02AEED89"
+				type: "item"
+				item: "forbidden_arcanus:lens_of_veritatis"
+			}]
+		}
+		{
+			title: "Have 1 step take progression items"
+			x: 0.0d
+			y: 1.0d
+			id: "3826ABA9DAA62E47"
+			tasks: [{
+				id: "2B5218F64CE08B62"
+				type: "item"
+				item: "kubejs:radiant_mechanism"
 			}]
 		}
 	]

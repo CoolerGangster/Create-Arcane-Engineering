@@ -27,7 +27,7 @@
     },
     "idle": {
       "renderer": {
-        "modelName": "void2",
+        "modelName": "end",
         "isGlobal": true,
         "type": "geo",
         "postRenderer": false
