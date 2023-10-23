@@ -43,7 +43,7 @@
 
 [automation]
 	"Redstone Randomizer" = true
-	"Pistons Move Tile Entities" = true
+	"Pistons Move Tile Entities" = false
 	"Obsidian Plate" = true
 	"Metal Buttons" = true
 	"Jukebox Automation" = true
@@ -56,7 +56,7 @@
 	"Chains Connect Blocks" = true
 
 	[automation.pistons_move_tile_entities]
-		"Enable Chests Moving Together" = true
+		"Enable Chests Moving Together" = false
 		"Render Blacklist" = ["psi:programmer", "botania:starfield"]
 		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
@@ -396,7 +396,7 @@
 	"Lock Rotation" = true
 	"Hoe Harvesting" = true
 	"Grab Chickens" = true
-	"Glass Shard" = true
+	"Glass Shard" = false
 	"Enhanced Ladders" = true
 	Emotes = true
 	"Dragon Scales" = true
@@ -551,7 +551,7 @@
 	Corundum = true
 	"Chorus Vegetation" = true
 	"Blossom Trees" = true
-	"Big Stone Clusters" = true
+	"Big Stone Clusters" = false
 	"Big Dungeon" = true
 	"Azalea Wood" = true
 

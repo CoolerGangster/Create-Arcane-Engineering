@@ -112,6 +112,16 @@
 				title: "Multiversal Entanglement"
 			}]
 		}
+		{
+			x: 4.5d
+			y: 1.5d
+			id: "33CCE3853D1AB805"
+			tasks: [{
+				id: "231334E97E40DF41"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
