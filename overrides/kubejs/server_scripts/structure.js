@@ -47,6 +47,17 @@ onEvent('player.advancement', event => {
             c.server.runCommandSilent(`execute in cae:void run tp ${d.name} ${10026} ${70} ${10028}`) //these numbers should be half the size of the structure, so the player and spawn ends up in the middle. will need tweaking for your structure.
             c.server.runCommandSilent(`execute in cae:void run spawnpoint ${d.name} ${d.x + 10} ${d.y + 4} ${d.z + 140}`)
         })
+
+        // As soon as player enters the Arcane Altar, let them see the recipes and items/fluids for automating Keystones
+        if (event.player.stages.has('keystone_crafting')) {
+            event.player.sendData('jei_show_stage_two', {})
+        } else {
+            event.player.stages.add('keystone_crafting');
+            event.player.sendData('jei_show_stage_two', {})
+            event.player.tell("§6New Recipes have been unlocked!")
+            event.server.runCommand('/title @p subtitle ["",{"text":"Your adventure into the Arcane is reaching the end!","color":"dark_aqua"}]')
+            event.server.runCommand('/title @p title ["",{"text":"Congratulations Engineer!","bold":true,"underlined":true,"color":"dark_green"}]')
+        }
     }
     if (event.advancement.toString() == "cae:start"){
         let d = { //this defines the position the strucututre will spawn at.
@@ -96,6 +107,17 @@ onEvent('player.advancement', event => {
         event.player.tell("§4 §n §l BEFORE ENTERING THE SUN PORTAL PUT ALL ITEMS AWAY, THEY WILL GET DESTROYED")
         event.player.tell("§4 §n §l BEFORE ENTERING THE SUN PORTAL PUT ALL ITEMS AWAY, THEY WILL GET DESTROYED")
         event.player.tell("§4 §n §l BEFORE ENTERING THE SUN PORTAL PUT ALL ITEMS AWAY, THEY WILL GET DESTROYED")
+
+        // As soon as player enters the Arcane dimension, let them see the recipes and items/fluids for God Actuation Fluid
+        if (event.player.stages.has('arcane_crafting')) {
+            event.player.sendData('jei_show_stage_one', {})
+        } else {
+            event.player.stages.add('arcane_crafting');
+            event.player.sendData('jei_show_stage_one', {})
+            event.player.tell("§6New Recipes have been unlocked!")
+            event.server.runCommand('/title @p subtitle ["",{"text":"Your adventure into the Arcane is just beginning.","color":"dark_aqua"}]')
+            event.server.runCommand('/title @p title ["",{"text":"Congratulations Engineer!","bold":true,"underlined":true,"color":"dark_green"}]')
+        }
         
         event.server.scheduleInTicks(40, c => { //make sure the chunks are loaded before trying to set the block
             c.server.runCommandSilent(`execute in cae:arcane run setblock ${d.x} ${d.y} ${d.z} minecraft:water`)
