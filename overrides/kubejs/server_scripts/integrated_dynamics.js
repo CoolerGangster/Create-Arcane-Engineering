@@ -48,7 +48,6 @@ onEvent('recipes', event => {
     event.remove({output: /integrateddynamics\:part.*porter_world/})
     event.remove({output: /integratedtunnels\:part.*porter_world/})
     event.remove({output: "integratedtunnels:part_player_simulator"})
-    event.remove({output: 'integrateddynamics:part_connector_mono_directional'})
     event.remove({output: "integrateddynamics:part_connector_omni_directional"})
     event.remove({output: "integratedterminals:terminal_storage_portable"})
     event.remove({output: 'integrateddynamics:coal_generator'})
