@@ -1,13 +1,17 @@
 
 onEvent('recipes', event => {
     event.recipes.createMechanicalCrafting("cae:essence_extractor", [
-        'PZP',
-        'ZZZ',
-        'PZP'
+        'ASA',
+        'ZEZ',
+        'ADA'
       ], {
-        P: "pneumaticcraft:spawner_extractor",
-        Z: "kubejs:finalpcb" 
+        S: "pneumaticcraft:spawner_extractor",
+        Z: "kubejs:finalpcb",
+        D: "createoreexcavation:netherite_drill",
+        E: "createoreexcavation:extractor",
+        A: "forbidden_arcanus:arcane_polished_darkstone"
     })
+	
     event.recipes.createMechanicalCrafting("cae:stem_cell", [
         'CAAAC',
         'DOLKH',
