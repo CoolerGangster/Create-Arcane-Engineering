@@ -54,6 +54,8 @@ onEvent('jei.hide.items', event => {
     event.hide('cae:dry_keystone')
     event.hide('cae:nature_keystone')
     event.hide('cae:ice_keystone')
+    event.hide('avaritia:zizz')
+    event.hide('avaritia:zyzzium_ingot')
   })
   onEvent('jei.hide.fluids', event => {
     event.hide('tconstruct:liquid_redstone')

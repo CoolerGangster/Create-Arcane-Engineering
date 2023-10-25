@@ -1,7 +1,7 @@
 function advRound (number, digits) {
     let multiplier = digits ? 10 ** digits : 100
     return Math.round(number*multiplier)/multiplier
-} 
+}
 onEvent('player.advancement', event => {
     if (event.advancement.toString() == "cae:end"){
         event.server.runCommandSilent(`execute in minecraft:overworld run tp ${event.player.name.text} 0 200 0`)
@@ -42,22 +42,20 @@ onEvent('player.advancement', event => {
         })
         event.server.scheduleInTicks(50, c => { //make sure the chunks are loaded before trying to set the block
             c.server.tell("<"+ d.name +">"+  " §4...Where am §k§m§dI?")
-    
+
             c.server.runCommandSilent(`execute in cae:void run tp ${d.name} ${10026} ${70} ${10028}`)
             c.server.runCommandSilent(`execute in cae:void run tp ${d.name} ${10026} ${70} ${10028}`) //these numbers should be half the size of the structure, so the player and spawn ends up in the middle. will need tweaking for your structure.
             c.server.runCommandSilent(`execute in cae:void run spawnpoint ${d.name} ${d.x + 10} ${d.y + 4} ${d.z + 140}`)
         })
 
         // As soon as player enters the Arcane Altar, let them see the recipes and items/fluids for automating Keystones
-        if (event.player.stages.has('keystone_crafting')) {
-            event.player.sendData('jei_show_stage_two', {})
-        } else {
+        if (! event.player.stages.has('keystone_crafting')) {
             event.player.stages.add('keystone_crafting');
-            event.player.sendData('jei_show_stage_two', {})
             event.player.tell("§6New Recipes have been unlocked!")
             event.server.runCommand('/title @p subtitle ["",{"text":"Your adventure into the Arcane is reaching the end!","color":"dark_aqua"}]')
             event.server.runCommand('/title @p title ["",{"text":"Congratulations Engineer!","bold":true,"underlined":true,"color":"dark_green"}]')
         }
+        event.player.sendData('jei_show_stage_two', {})
     }
     if (event.advancement.toString() == "cae:start"){
         let d = { //this defines the position the strucututre will spawn at.
@@ -67,7 +65,7 @@ onEvent('player.advancement', event => {
             id: event.player.id,
             name: event.player.name.text
         }
-        
+
         event.level.getEntities('@e[type=minecraft:player]').forEach(player => {
             if(player.level.dimension != "cae:void"){return;}
             event.server.runCommandSilent(`execute in cae:void run gamemode survival ${player.name.text}`)
@@ -79,18 +77,24 @@ onEvent('player.advancement', event => {
             event.server.runCommandSilent(`tell ${player.name.text} §6 §l You are being Watched. Automate The Keystone. And once you have a stack. Rightclick it.`)
             event.server.runCommandSilent(`execute in cae:void run spawnpoint ${player.name.text} -31985 103 32293`)
             event.server.scheduleInTicks(2, c => { c.server.runCommandSilent(`execute in cae:void run tp ${player.name.text} -31985 103 32293`);})
-        
+
             event.server.scheduleInTicks(1, cb => {
                 cb.server.runCommandSilent(`execute in cae:void run setblock -31998 92 32279 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:eggroom",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                cb.server.runCommandSilent(`execute in cae:void run setblock -31998 91 32279 minecraft:redstone_block`) 
+                cb.server.runCommandSilent(`execute in cae:void run setblock -31998 91 32279 minecraft:redstone_block`)
                 cb.server.runCommandSilent(`execute in cae:void run fill -31998 92 32279 -31998 91 32279 air`)
-                cb.server.runCommandSilent(`execute in cae:void run tp ${d.name} -31985 103 32293`) 
+                cb.server.runCommandSilent(`execute in cae:void run tp ${d.name} -31985 103 32293`)
                 cb.server.runCommandSilent(`execute in cae:void run tp ${d.name} -31985 103 32293`) //these numbers should be half the size of the structure, so the player and spawn ends up in the middle. will need tweaking for your structure.
                 cb.server.runCommandSilent(`execute in cae:void run spawnpoint ${d.name} -31985 103 32293`)
                 cb.server.runCommandSilent(`execute in cae:void run kill @e[type=item]`)
             })
         })
-    } 
+
+        // As soon as player enters the Arcane Dungeon, there's no going back, may as well see the zyzzium
+        if (! event.player.stages.has('zyzzium')) {
+            event.player.stages.add('zyzzium');
+        }
+        event.player.sendData('jei_show_stage_three', {})
+    }
     if (event.advancement.toString() == "cae:arcane"){
         let d = { //this defines the position the strucututre will spawn at.
             x: 8039,
@@ -109,16 +113,14 @@ onEvent('player.advancement', event => {
         event.player.tell("§4 §n §l BEFORE ENTERING THE SUN PORTAL PUT ALL ITEMS AWAY, THEY WILL GET DESTROYED")
 
         // As soon as player enters the Arcane dimension, let them see the recipes and items/fluids for God Actuation Fluid
-        if (event.player.stages.has('arcane_crafting')) {
-            event.player.sendData('jei_show_stage_one', {})
-        } else {
+        if (! event.player.stages.has('arcane_crafting')) {
             event.player.stages.add('arcane_crafting');
-            event.player.sendData('jei_show_stage_one', {})
             event.player.tell("§6New Recipes have been unlocked!")
             event.server.runCommand('/title @p subtitle ["",{"text":"Your adventure into the Arcane is just beginning.","color":"dark_aqua"}]')
             event.server.runCommand('/title @p title ["",{"text":"Congratulations Engineer!","bold":true,"underlined":true,"color":"dark_green"}]')
         }
-        
+        event.player.sendData('jei_show_stage_one', {})
+
         event.server.scheduleInTicks(40, c => { //make sure the chunks are loaded before trying to set the block
             c.server.runCommandSilent(`execute in cae:arcane run setblock ${d.x} ${d.y} ${d.z} minecraft:water`)
             c.server.runCommandSilent(`execute in cae:arcane run setblock ${d.x} ${d.y-1} ${d.z} minecraft:soul_sand`)
@@ -129,13 +131,13 @@ onEvent('player.advancement', event => {
 
         })
     }
-  
+
 
 })
 
 global.f = 300;
 onEvent('level.tick', event => {
-    
+
     if (event.level.dimension == 'cae:arcane'){
         event.level.getBlock(8117,114,10073).set("cae:stc")
         if(global.f >=1){
@@ -147,18 +149,18 @@ onEvent('level.tick', event => {
                 y: 64, //this is constant, but it doesnt have to be
                 z: 10000
             }
-           
-            
+
+
             event.server.runCommandSilent(`execute in cae:void run forceload add 9990 10053 10065 9982`)
             event.server.runCommandSilent(`execute in cae:arcane run forceload add 8043 10135 8270 9968`)
             event.server.runCommandSilent(`execute in cae:arcane run setblock 8040 23 9985 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:sun_temple",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
             event.server.runCommandSilent(`execute in cae:arcane run setblock 8040 22 9985 minecraft:redstone_block`)
             event.server.runCommandSilent(`execute in cae:arcane run fill 8040 23 9985 8040 22 9985 air`)//get rid of the structure and redstone block
             event.level.getBlock(8117,114,10073).set("cae:stc")
-            
+
             global.f = 400;
-        }  
-    }  
+        }
+    }
 })
 
 
@@ -167,7 +169,7 @@ onEvent('block.right_click', event =>{
     if(event.block.id == "cae:stc"){
         if(pressed != 0){event.player.tell("The STC might be bugged. rightclick onto it "+ pressed +" times more to replace it! If you wish to reset this counter, right-click any other block"); pressed--}
         else{event.block.set("air"); pressed = 8}
-        
+
     }
     else{if(event.level.dimension == "cae:arcane"){pressed = 8}}
     if(event.item.id == 'kubejs:portal_actuation_fluid_bucket'&& event.block.id == "cae:portal_core"){
@@ -175,7 +177,7 @@ onEvent('block.right_click', event =>{
         let y = event.block.y
         let z = event.block.z
         event.server.runCommandSilent(`execute in ${event.level.dimension} run fill ${x-7} ${y+1} ${z} ${x+7} ${y+11} ${z} cae:arcane_portal replace air`)
-        
+
         event.item.setCount(0)
         event.cancel()
     }
@@ -213,24 +215,24 @@ onEvent('item.right_click', event =>{ //generating new rooms
             })
             event.server.scheduleInTicks(1, c => {
                 c.server.runCommandSilent(`execute in cae:void run setblock -31998 92 32279 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:eggroom",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -31998 91 32279 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -31998 91 32279 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -31998 92 32279 -31998 91 32279 air`)
                 c.server.runCommandSilent(`execute in cae:void run kill @e[type=item]`)
             })
         }
 
-        if(event.item.id == "cae:soul_keystone"){ 
+        if(event.item.id == "cae:soul_keystone"){
             event.level.getEntities('@e[type=minecraft:player]').forEach(player => {
                 if(player.level.dimension != "cae:void"){return;}
-                playerEntry(event, player.name.text, {x: -31995, y: 121, z: 32255})    
+                playerEntry(event, player.name.text, {x: -31995, y: 121, z: 32255})
             })
             event.server.scheduleInTicks(1, c => {
                 c.server.runCommandSilent(`execute in cae:void run setblock -32006 87 32227 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:iceroom",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -32006 86 32227 minecraft:redstone_block`) 
-                c.server.runCommandSilent(`execute in cae:void run fill -32006 87 32227 -32006 86 32227 air`)                
+                c.server.runCommandSilent(`execute in cae:void run setblock -32006 86 32227 minecraft:redstone_block`)
+                c.server.runCommandSilent(`execute in cae:void run fill -32006 87 32227 -32006 86 32227 air`)
 
                 c.server.runCommandSilent(`execute in cae:void run setblock -31998 92 32279 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:eggroom",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -31998 91 32279 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -31998 91 32279 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -31998 92 32279 -31998 91 32279 air`)
 
                 c.server.runCommandSilent(`execute in cae:void run kill @e[type=item]`)
@@ -242,11 +244,11 @@ onEvent('item.right_click', event =>{ //generating new rooms
             })
              event.server.scheduleInTicks(1, c => {
                 c.server.runCommandSilent(`execute in cae:void run setblock -32067 93 32229 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:dryroom",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -32067 92 32229 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -32067 92 32229 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -32067 93 32229 -32067 92 32229 air`)
 
                 c.server.runCommandSilent(`execute in cae:void run setblock -32006 87 32227 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:iceroom",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -32006 86 32227 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -32006 86 32227 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -32006 87 32227 -32006 86 32227 air`)
 
                 c.server.runCommandSilent(`execute in cae:void run kill @e[type=item]`)
@@ -255,16 +257,16 @@ onEvent('item.right_click', event =>{ //generating new rooms
             event.level.getEntities('@e[type=minecraft:player]').forEach(player => {
                 if(player.level.dimension != "cae:void"){return;}
                 playerEntry(event, player.name.text, {x: -32035, y: 112, z: 32204})
-            })  
+            })
             event.server.scheduleInTicks(1, c => {
                 c.server.runCommandSilent(`execute in cae:void run setblock -32067 93 32229 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:dryroom",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -32067 92 32229 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -32067 92 32229 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -32067 93 32229 -32067 92 32229 air`)
 
                 c.server.runCommandSilent(`execute in cae:void run setblock -32058 97 32188 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:sourceroom",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -32058 96 32188 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -32058 96 32188 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -32058 97 32188 -32058 96 32188 air`)
-            
+
                 c.server.runCommandSilent(`execute in cae:void run kill @e[type=item]`)
             })
         } else if (event.item.id == "cae:source_keystone"){
@@ -274,11 +276,11 @@ onEvent('item.right_click', event =>{ //generating new rooms
             })
             event.server.scheduleInTicks(1, c => {
                 c.server.runCommandSilent(`execute in cae:void run setblock -32049 94 32105 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:insanity",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -32049 93 32105 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -32049 93 32105 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -32049 94 32105 -32049 93 32105 air`)
 
                 c.server.runCommandSilent(`execute in cae:void run setblock -32058 97 32188 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:sourceroom",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -32058 96 32188 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -32058 96 32188 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -32058 97 32188 -32058 96 32188 air`)
 
                 c.server.runCommandSilent(`execute in cae:void run kill @e[type=item]`)
@@ -286,24 +288,24 @@ onEvent('item.right_click', event =>{ //generating new rooms
         } else if (event.item.id == "cae:nature_keystone"){
             event.level.getEntities('@e[type=minecraft:player]').forEach(player => {
                 if(player.level.dimension != "cae:void"){return;}
-                
+
                 playerEntry(event, player.name.text, {x: -32065, y: 119, z: 32118})
                 event.server.runCommandSilent(`execute in cae:void run gamemode adventure ${player.name.text}`)
             })
             event.server.scheduleInTicks(1, c => {
-                
+
                 c.server.runCommandSilent(`execute in cae:void run setblock -32049 94 32105 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:insanity",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -32049 93 32105 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -32049 93 32105 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -32049 94 32105 -32049 93 32105 air`)
-                
+
                 c.server.runCommandSilent(`execute in cae:void run setblock -32091 103 32068 minecraft:structure_block{ignoreEntities:1b,powered:0b,seed:0L,posX:0,mode:"LOAD",posY:1,sizeX:12,posZ:0,integrity:1.0f,showair:0b,name:"cae:end",id:"minecraft:structure_block",sizeY:10,sizeZ:12,showboundingbox:0b}`)
-                c.server.runCommandSilent(`execute in cae:void run setblock -32091 102 32068 minecraft:redstone_block`) 
+                c.server.runCommandSilent(`execute in cae:void run setblock -32091 102 32068 minecraft:redstone_block`)
                 c.server.runCommandSilent(`execute in cae:void run fill -32091 103 32068 -32091 102 32068 air`)
-                
+
                 c.server.runCommandSilent(`execute in cae:void run kill @e[type=item]`)
-                
+
                 c.server.runCommandSilent(`execute in cae:void run setblock -32057 123 32083 air`)
-                event.server.scheduleInTicks(1, c => { 
+                event.server.scheduleInTicks(1, c => {
                     c.server.runCommandSilent(`execute in cae:void run setblock -32057 123 32083 cae:end_port[facing=south]`)
                 })
             })
@@ -610,7 +612,7 @@ let wrenchBlockCoords = [ //needs coordinates of every single create block
     "-31978, 94, 32245",
     "-31978, 95, 32245",
     "-31978, 96, 32245",
-    
+
     "-31978, 93, 32244",
     "-31978, 94, 32244",
     "-31978, 95, 32244",
@@ -715,7 +717,7 @@ let wrenchBlockCoords = [ //needs coordinates of every single create block
     "-32037, 101, 32243",
     "-32037, 102, 32243",
     "-32037, 103, 32243",
-    
+
     "-32037, 104, 32243",
     "-32037, 105, 32243",
     "-32037, 106, 32243",
