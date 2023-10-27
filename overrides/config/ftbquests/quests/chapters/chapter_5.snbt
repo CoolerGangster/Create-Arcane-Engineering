@@ -481,7 +481,7 @@
 			rewards: [{
 				id: "1DD0CF2ABE194960"
 				type: "item"
-				title: "Note: This think is more than 40k blocks away on average. So I recommend you use the Nether."
+				title: "Note: The Temple is more than 40k blocks away on average. So I recommend you use the Nether."
 				item: "minecraft:paper"
 			}]
 		}
