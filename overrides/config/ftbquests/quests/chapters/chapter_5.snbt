@@ -478,6 +478,12 @@
 					item: "minecraft:cartography_table"
 				}
 			]
+			rewards: [{
+				id: "1DD0CF2ABE194960"
+				type: "item"
+				title: "Note: This think is more than 40k blocks away on average. So I recommend you use the Nether."
+				item: "minecraft:paper"
+			}]
 		}
 		{
 			x: 7.0d

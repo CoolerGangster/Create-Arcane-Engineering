@@ -197,6 +197,7 @@ function playerEntry (event, playerName, pos) {
     event.server.runCommandSilent(`execute in cae:void run curios clear ${playerName}`)
     event.server.runCommandSilent(`effect give ${playerName} minecraft:absorption 100 100 true`)
     event.server.runCommandSilent(`effect give ${playerName} minecraft:slow_falling 20 100 true`)
+    event.server.runCommandSilent(`give ${playerName} forbidden_arcanus:slimec_pickaxe`)
     event.server.runCommandSilent(`execute in cae:void run tp ${playerName} ${pos.x} ${pos.y} ${pos.z}`)
     event.server.runCommandSilent(`execute in cae:void run spawnpoint ${playerName} ${pos.x} ${pos.y} ${pos.z}`)
     event.server.scheduleInTicks(2, c=>{

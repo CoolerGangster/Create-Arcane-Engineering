@@ -8,5 +8,28 @@
     "block.cae.void_portal": "Final Portal",
     "block.cae.arcane_portal": "Arcane Portal",
     "block.cae.sky_stone": "Sky Stone",
-    "block.cae.advassembly": "Advanced Assembly Core"
+    "block.cae.advassembly": "Advanced Assembly Core",
+    
+    "item.cae.orb_spawn_egg": "Arcane Space Time Construct Spawn Egg",
+    "block.cae.skystone_catalyst": "Skystone Catalyst",
+    "block.cae.veridium_catalyst": "Veridium Catalyst",
+    "block.cae.ochrum_catalyst": "Ochrum Catalyst",
+    "block.cae.asurine_catalyst": "Asurine Catalyst",
+    "block.cae.crimsite_catalyst": "Crimsite Catalyst",
+    "entity.cae.essentialorb": "Arcane Space Time Construct",
+    "block.cae.source_time_crystal": "Source Time Crystal",
+    "curios.identifier.gem": "Source Amulet Slot",
+    "sounds.cae.arcane_obelisk_creation": "Arcane Obelisk Created",
+    "sounds.cae.wraith_soulconvert": "Wraith infusing Soul Sand",
+    "sounds.cae.obelisk_break": "Obelisk is Broken",
+    "sounds.cae.obelisk_place": "Obelisk is Placed",
+    "sounds.cae.developer": "Developer nearby is enjoying NCS Music (Superhero by Unknown Brian)",
+    "block.cae.singularity_vein": "Singularity Vein",
+    "block.cae.singularity_core": "Singularity",
+    "sounds.cae.forge_start": "Ritual is initialized",
+    "sounds.cae.forge_create": "Forge has been created",
+    "sounds.cae.skeleton_convert": "Skeleton is Summoned",
+    "itemGroup.Create Arcane Engineering": "Create Arcane Engineering"      
+      
+
 }

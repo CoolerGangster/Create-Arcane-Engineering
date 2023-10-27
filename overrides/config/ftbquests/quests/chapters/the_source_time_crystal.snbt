@@ -274,8 +274,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -3.5d
+			x: -4.4d
+			y: -3.3000000000000003d
 			size: 1.1d
 			id: "2ABB3C0DCA7552CA"
 			tasks: [{
@@ -315,10 +315,16 @@
 		}
 		{
 			title: " "
+			icon: "waystones:waystone"
 			x: -4.5d
 			y: -3.5d
 			dependencies: ["37362D3A67E8927A"]
 			id: "363344F761BA3169"
+			tasks: [{
+				id: "6D088E6DF47F255D"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
 		}
 	]
 	quest_links: [ ]
