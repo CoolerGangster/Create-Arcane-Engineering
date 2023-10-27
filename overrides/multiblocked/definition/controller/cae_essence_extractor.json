@@ -44,7 +44,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "thething",
+  "recipeMap": "essence_extractor",
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -61,7 +61,7 @@
       [
         "A@A",
         " C ",
-        " D ",
+        "BDB",
         " E "
       ],
       [
@@ -95,7 +95,7 @@
       "A": {
         "blocks": [
           {
-            "id": "minecraft:waxed_cut_copper_slab"
+            "id": "createdeco:netherite_catwalk_stair"
           }
         ],
         "type": "blocks",
@@ -108,7 +108,7 @@
       "B": {
         "blocks": [
           {
-            "id": "minecraft:end_rod"
+            "id": "createdeco:netherite_bars"
           }
         ],
         "type": "blocks",
@@ -126,7 +126,7 @@
       "D": {
         "blocks": [
           {
-            "id": "minecraft:spore_blossom"
+            "id": "forbidden_arcanus:corrupted_pixie_utrem_jar"
           }
         ],
         "type": "blocks",
