@@ -1,6 +1,6 @@
 let wrencharray = []
 let dumbshitarray =  [
-    "kubejs:gold_casing",
+    "cae:gold_casing",
     "2x create:portable_storage_interface",
     "2x create:mechanical_harvester",
     "2x create:mechanical_plough",
@@ -153,10 +153,10 @@ let dumbshitarray =  [
     "ae2:terminal",
     "2x entangled:block",
     "pneumaticcraft:aerial_interface",
-    "kubejs:zinc_casing",
-    "kubejs:gold_casing",
-    "kubejs:enderium_casing",
-    "kubejs:supercritical_casing"
+    "cae:zinc_casing",
+    "cae:gold_casing",
+    "cae:enderium_casing",
+    "cae:supercritical_casing"
 ]
 
 onEvent('block.right_click', event =>{
@@ -1333,22 +1333,22 @@ onEvent('recipes', event => {
     event.remove({mod:'integrateddynamics',output: "minecraft:netherrack"})
     event.remove({output: 'functionalstorage:ender_drawer'})
     event.remove({output: /^functionalstorage\:fluid_/})
-    machineration('integrational','kubejs:gold_casing')
-    machineration('plastic','kubejs:zinc_casing')
-    machineration('time','kubejs:enderium_casing')
-    machineration('supercritical','kubejs:supercritical_casing')
+    machineration('integrational','cae:gold_casing')
+    machineration('plastic','cae:zinc_casing')
+    machineration('time','cae:enderium_casing')
+    machineration('supercritical','cae:supercritical_casing')
 
-    event.recipes.create.itemApplication('kubejs:enderium_casing',['#forge:stripped_logs',TE('enderium_ingot')])
+    event.recipes.create.itemApplication('cae:enderium_casing',['#forge:stripped_logs',TE('enderium_ingot')])
 
     
-    event.recipes.create.deploying('kubejs:enderium_casing',['#forge:stripped_logs',TE('enderium_ingot')])
-    event.recipes.create.itemApplication('kubejs:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
-    event.recipes.create.deploying('kubejs:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
+    event.recipes.create.deploying('cae:enderium_casing',['#forge:stripped_logs',TE('enderium_ingot')])
+    event.recipes.create.itemApplication('cae:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
+    event.recipes.create.deploying('cae:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
     //event.recipes.thermal.rockGen('minecraft:andesite',[Fluid.of('create:honey'),Fluid.of('minecraft:water')])
-    event.recipes.create.itemApplication('kubejs:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
-    event.recipes.create.deploying('kubejs:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
-    event.recipes.create.itemApplication('kubejs:zinc_casing',['#forge:stripped_wood','#forge:plates/zinc'])
-    event.recipes.create.deploying('kubejs:zinc_casing',['#forge:stripped_wood','#forge:plates/zinc']) 
+    event.recipes.create.itemApplication('cae:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
+    event.recipes.create.deploying('cae:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
+    event.recipes.create.itemApplication('cae:zinc_casing',['#forge:stripped_wood','#forge:plates/zinc'])
+    event.recipes.create.deploying('cae:zinc_casing',['#forge:stripped_wood','#forge:plates/zinc']) 
 
     function casineration(o,I,i){
         event.recipes.create.itemApplication(o,[i,I])
@@ -1359,12 +1359,12 @@ onEvent('recipes', event => {
     casineration("create:refined_radiance_casing",'create:refined_radiance','#forge:stripped_logs')
     casineration("create:shadow_steel_casing",'create:shadow_steel','#forge:stripped_wood')
     casineration("create:shadow_steel_casing",'create:shadow_steel','#forge:stripped_logs')
-    casineration("kubejs:supercritical_casing","create:refined_radiance_casing","create:shadow_steel_casing")
+    casineration("cae:supercritical_casing","create:refined_radiance_casing","create:shadow_steel_casing")
 
-    event.recipes.create.itemApplication('kubejs:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
-    event.recipes.create.deploying('kubejs:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
-    event.recipes.create.itemApplication('kubejs:gold_casing',['#forge:stripped_wood','#forge:plates/gold'])
-    event.recipes.create.deploying('kubejs:gold_casing',['#forge:stripped_wood','#forge:plates/gold']) 
+    event.recipes.create.itemApplication('cae:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
+    event.recipes.create.deploying('cae:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
+    event.recipes.create.itemApplication('cae:gold_casing',['#forge:stripped_wood','#forge:plates/gold'])
+    event.recipes.create.deploying('cae:gold_casing',['#forge:stripped_wood','#forge:plates/gold']) 
     //machineration('radiant','thermal:machine_frame')
     event.remove({output: 'createaddition:zinc_sheet'})
 
