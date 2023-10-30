@@ -434,7 +434,6 @@ let forbidden = [
     'chipped:raw_gold_block_47','chipped:lodestone_40',
     'chipped:lodestone_24',
     'chipped:stone_7',
-    'minecraft:hopper',
     'entangled:block',
     'create:creative_crate',
     'create:creative_fluid_tank',

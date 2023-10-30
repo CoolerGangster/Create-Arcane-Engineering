@@ -1,4 +1,10 @@
 onEvent('jei.hide.items', event => {
+  let removalObj = {
+    Shafts: ["birch","oak","spruce","jungle","acacia","dark_oak","crimson","warped","glass","brass"]
+    } 
+    removalObj.Shafts.forEach(mixer => {
+      event.hide(`createcasing:${mixer}_shaft`)
+})
     event.hide('thermal:rose_gold_ingot')
     event.hide('thermal:rose_gold_dust')
     event.hide('thermal:rose_gold_nugget')
