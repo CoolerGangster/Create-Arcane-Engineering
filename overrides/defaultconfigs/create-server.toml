@@ -332,8 +332,11 @@
 	#Allowed Values: ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG
 	bottomlessFluidMode = "ALLOW_BY_TAG"
 	#.
-	#Whether open-ended pipes and hose pulleys should be allowed to place fluid sources.
-	placeFluidSourceBlocks = true
+	#Whether hose pulleys should be allowed to place fluid sources.
+	fluidFillPlaceFluidSourceBlocks = true
+	#.
+	#Whether open-ended pipes should be allowed to place fluid sources.
+	pipesPlaceFluidSourceBlocks = true
 
 #.
 #Tweaks for logistical components
@@ -357,7 +360,7 @@
 	#.
 	#Maximum possible distance in blocks between data gatherers and their target.
 	#Range: > 1
-	displayLinkRange = 64
+	displayLinkRange = 256
 	#.
 	#The total amount of stacks a vault can hold per block in size.
 	#Range: > 1
@@ -366,6 +369,9 @@
 	#The amount of ticks a brass tunnel waits between distributions.
 	#Range: 1 ~ 10
 	brassTunnelTimer = 10
+	#.
+	#Whether hostile mobs walking near a seat will start riding it.
+	seatHostileMobs = true
 
 #.
 #Everything related to Schematic tools
@@ -466,7 +472,7 @@
 		#[in Blocks/Second]
 		#The top speed of any assembled Train.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 28.0
+		trainTopSpeed = 40.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.
