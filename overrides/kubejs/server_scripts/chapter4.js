@@ -63,6 +63,6 @@ onEvent('recipes',event => {
   ], {
     P: "kubejs:supercritical_mechanism",
     Z: "kubejs:finalpcb",
-    D: "kubejs:supercritical_casing"
+    D: "cae:supercritical_casing"
 })
 })
