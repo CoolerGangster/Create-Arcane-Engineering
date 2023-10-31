@@ -583,18 +583,18 @@ onEvent('recipes', event => {
             if (remove_old) {
                 event.remove({output: entry[1]})
             };
-            event.smithing(entry[1], machine, entry[0])
+            event.smithing(entry[1], machine, Item.of(entry[0]).ignoreNBT())
             if(remove_old){
             event.recipes.createCompacting([machine,Item.of(entry[0]).withChance(0.4)],[entry[1],"kubejs:radiant_mechanism"])
             }
             if (!entry[1].toString().startsWith("x ",1) && !entry[1].toString().startsWith("x ", 2)){
                 if(Item.of(entry[1]).isBlock()){
-                event.recipes.create.itemApplication(entry[1],[machine,entry[0]])
+                event.recipes.create.itemApplication(entry[1],[machine,Item.of(entry[0]).ignoreNBT()])
                 } 
             }  
             if (entry[1].toString().startsWith("x ",1) || entry[1].toString().startsWith("x ", 2)){
                 
-                event.recipes.create.deploying(entry[1],[machine,entry[0]])
+                event.recipes.create.deploying(entry[1],[machine,Item.of(entry[0]).ignoreNBT()])
              
             }
             
