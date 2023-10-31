@@ -521,6 +521,7 @@
 			x: -0.99d
 			y: -2.5d
 			shape: "gear"
+			description: ["You can now Craft a Super Basic AE2 System, and have unlocked Thermal!"]
 			dependencies: [
 				"25223990C329055B"
 				"76F116CCDB324A7E"
@@ -893,7 +894,7 @@
 				{
 					id: "18B5F7C72061CF2B"
 					type: "item"
-					item: "kubejs:zinc_casing"
+					item: "cae:zinc_casing"
 					count: 8
 				}
 				{
@@ -930,7 +931,7 @@
 				{
 					id: "6A54A3D364A2DD5C"
 					type: "item"
-					item: "kubejs:enderium_casing"
+					item: "cae:enderium_casing"
 					count: 8
 				}
 				{

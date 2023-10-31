@@ -366,6 +366,7 @@
 			}]
 		}
 		{
+			title: "Master your AE2 Network"
 			icon: "kubejs:time_machine"
 			x: 4.5d
 			y: 0.0d

@@ -550,6 +550,7 @@ onEvent('recipes', event => {
     //start of the multicut shit
         let multicut = (outputs, input, remove_old) =>{
         outputs.forEach(output =>{
+            console.log(`${Item.of(input)} to ${Item.of(output)}`)
             if (remove_old) {
             event.remove({output: output})
             };
@@ -578,6 +579,7 @@ onEvent('recipes', event => {
     //smithin
     let machine_smithing = (recipes, machine, remove_old) =>{
         recipes.forEach(entry => {
+            console.log(`Attempting to Create ${Item.of(entry[0])} to ${Item.of(entry[1])} from ${machine}`)
             if (remove_old) {
                 event.remove({output: entry[1]})
             };
@@ -718,7 +720,6 @@ onEvent('recipes', event => {
     multicut(sturdy_cutting2, "kubejs:sturdy_machine",false)
     const plastic_machines_smithing = [
         ['minecraft:glass_bottle','thermal:device_potion_diffuser'],
-        ['minecraft:cactus','thermal:device_nullifier'],
         ['minecraft:ender_pearl','thermal:device_collector'],
         ['minecraft:piston','thermal:device_rock_gen'],
         ['minecraft:redstone','thermal:upgrade_augment_3'],
@@ -743,10 +744,25 @@ onEvent('recipes', event => {
     const plastic_cutting = [
         Item.of("pneumaticcraft:charging_station")
     ]
+    event.remove({id:"ae2:vibration_chamber"})
+    event.remove({id:"ae2:quartz_growth_accelerator"})
+    event.replaceInput({id:"forbidden_arcanus:utrem_jar"},"#forge:glass/colorless","glassential:glass_ghostly")
+
+    
     multicut(plastic_cutting,'kubejs:plastic_machine',true)
     machine_smithing(plastic_machines_smithing, "kubejs:plastic_machine", true)
     const invar_machines_smithing = [
+        ['minecraft:glowstone_dust','ae2:semi_dark_monitor'],
+        ['minecraft:redstone_block','ae2:energy_acceptor'],
+        [TE("machine_crafter"),'ae2:crafting_terminal'],
+        ['ae2:crafting_terminal','ae2:wireless_crafting_terminal'],
+        ['ae2:terminal','ae2:wireless_terminal'],
+        ['ae2:wireless_terminal','ae2:wireless_crafting_terminal'],
+        [AE2("fluix_pearl"),AE2('condenser')],
+        [MC("chest"),AE2('chest')],
+        ['integratedterminals:part_terminal_storage','ae2:terminal'],
         [TE('rf_coil'), TE("dynamo_compression")],
+        ['minecraft:cactus','thermal:device_nullifier'],
         [MC('nether_bricks'),TE('machine_crucible')],
         [MC('bricks'),TE('machine_furnace')],
         [MC('packed_ice'), TE('machine_chiller')],
@@ -771,8 +787,18 @@ onEvent('recipes', event => {
         ['create:depot','pneumaticcraft:assembly_platform']
     ]
     event.remove({id: 'integrateddynamics:crafting/logic_director'})
+    event.remove({id:"ae2:network/cables/glass_fluix"})
+    event.remove({id:"ae2:network/cables/covered_fluix"})
+    event.remove({id:"ae2:network/cables/smart_fluix"})
+    event.shapeless("3x ae2:fluix_smart_cable" ,["ae2:fluix_covered_cable","redstone","glowstone_dust"])
+    event.remove({id:"ae2:network/cables/dense_smart_fluix"})
+    event.shapeless("3x ae2:fluix_smart_dense_cable" ,["ae2:fluix_covered_dense_cable","redstone","glowstone_dust"])
+    
+    event.shapeless("12x ae2:fluix_glass_cable",["2x ae2:fluix_crystal","ae2:quartz_fiber"])
+    event.recipes.create.filling(Item.of("ae2:fluix_covered_cable"),[Item.of("ae2:fluix_glass_cable"),Fluid.of("pneumaticcraft:plastic",90)])
     machine_smithing(invar_machines_smithing, "kubejs:radiant_machine", true)
     const integrational_smithing = [
+
         ['thermal:rf_coil','thermal:dynamo_gourmand'],
         ['integrateddynamics:part_display_panel','integratedterminals:part_terminal_storage'],
         ['minecraft:crafting_table','integratedterminals:part_terminal_crafting_job'],
@@ -834,12 +860,23 @@ onEvent('recipes', event => {
     event.replaceInput({id:'create:mechanical_crafting/wand_of_symmetry'},'create:precision_mechanism',"kubejs:radiant_mechanism")
     
     event.remove({id: 'integrateddynamics:crafting/coal_generator'})
-    
+    event.replaceInput({id:"ae2:network/cells/item_storage_components_cell_1k_part"},AE2("logic_processor"),"kubejs:time_mechanism")
+    event.replaceInput({id:"ae2:network/cells/item_storage_components_cell_4k_part"},AE2("calculation_processor"),"kubejs:time_mechanism")
+
+    event.remove({id:"ae2:network/parts/terminals_pattern_encoding"})
+    event.shapeless("ae2:pattern_encoding_terminal",["ae2:crafting_terminal","4x pneumaticcraft:printed_circuit_board"])
     const timesmithing = [
         ['thermal:rf_coil','thermal:dynamo_disenchantment'],
-        ['minecraft:glowstone_dust','ae2:semi_dark_monitor'],
-        [AE2("fluix_pearl"),AE2('condenser')],
-        ['integratedterminals:part_terminal_storage','ae2:terminal'],
+        ['ae2:chest','ae2:drive'],
+        ['pneumaticcraft:printed_circuit_board','ae2:pattern_provider'],
+        ['ae2:engineering_processor','ae2:molecular_assembler'],
+        ['ae2:calculation_processor','ae2:advanced_card'],
+        ['minecraft:piston','ae2:storage_bus'],
+        ['create:portable_storage_interface','ae2:io_port'],
+        ['ae2:logic_processor','ae2:crafting_unit'],
+        ['create:brass_funnel','ae2:interface'],
+        ['minecraft:smithing_table','ae2:cell_workbench'],
+        ['ae2:wireless_receiver','ae2:wireless_access_point'],
         ["waystones:warp_stone","waystones:waystone"],
         ["waystones:warp_stone","waystones:mossy_waystone"],
         ["waystones:warp_stone","waystones:sandy_waystone"]
@@ -848,7 +885,9 @@ onEvent('recipes', event => {
     
     const timecutting = [
         Item.of(AE2('formation_core'),4),
-        
+        Item.of(AE2("wireless_booster")),
+        Item.of(AE2("cell_workbench")),
+        Item.of(AE2("basic_card"),6),
         Item.of(AE2('annihilation_core'),4),
         
         "ae2:controller",

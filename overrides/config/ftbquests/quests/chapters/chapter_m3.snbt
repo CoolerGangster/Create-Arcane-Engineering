@@ -21,7 +21,7 @@
 			corner: false
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: -1.0d
 			width: 20.0d
 			height: 18.0d
@@ -35,20 +35,30 @@
 	]
 	quests: [
 		{
-			x: -6.5d
-			y: -2.5d
+			x: -8.5d
+			y: -4.5d
 			subtitle: "Haunt Blackstone, Polish it, and apply arcane gold ingots."
 			dependencies: [
 				"45F57414659E044E"
 				"15C83F2E7CA1E295"
-				"43DDE8F2EDA941A9"
 			]
-			dependency_requirement: "one_completed"
+			hide: true
 			id: "6D2C48974003D539"
 			tasks: [{
 				id: "10EF2DD09190A293"
 				type: "item"
 				item: "forbidden_arcanus:arcane_polished_darkstone"
+			}]
+			rewards: [{
+				id: "2744CE44F517A9A0"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_arcane_2"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -59,6 +69,7 @@
 				"3E7D072F1C7A0B14"
 				"191EE221A8EEE8F3"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "69F021C402A96487"
 			tasks: [{
@@ -68,19 +79,28 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -8.5d
 			y: 1.5d
-			dependencies: ["43DDE8F2EDA941A9"]
-			dependency_requirement: "all_started"
+			dependencies: [
+				"43DDE8F2EDA941A9"
+				"7E9E78A1997AB84E"
+			]
 			id: "6736E5C9F772788F"
 			tasks: [{
 				id: "1C43E5CE6F5DD8D5"
 				type: "item"
 				item: "forbidden_arcanus:arcane_crystal_block"
+				count: 2L
+			}]
+			rewards: [{
+				id: "185A906BC1AAF1F8"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_block"
+				count: 2
 			}]
 		}
 		{
-			x: -8.5d
+			x: -7.5d
 			y: 1.5d
 			subtitle: "You need about 18 Dust Specs to be processed back into Arcane Crystal Blocks, where the rest needs to go into the Dust Processing to fully Sustain a Arcane Obilisk Cycle"
 			dependencies: ["09E4D27B89F783CF"]
@@ -100,6 +120,7 @@
 				"1FAEF479BCF83D6F"
 				"19EAE1780E1BAB55"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "3E7D072F1C7A0B14"
 			tasks: [{
@@ -115,14 +136,14 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 5.0d
+			x: -8.5d
+			y: 4.5d
 			subtitle: "Spout and press Aureal Essence onto Arcane Crystal Dust to form precious Arcane Crystals."
 			dependencies: [
-				"718F45CF4E3C8A7E"
 				"19EAE1780E1BAB55"
 				"1FAEF479BCF83D6F"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "7E9E78A1997AB84E"
 			tasks: [{
@@ -132,76 +153,20 @@
 			}]
 		}
 		{
+			title: "Gotta crush 'em"
+			icon: "create:crushing_wheel"
 			x: -7.5d
-			y: -2.5d
+			y: -0.5d
 			shape: "diamond"
-			subtitle: "Open Quest for Info."
-			description: [
-				"You can place these on Hephaesthus forge pedestal spots, and they'll passively make Aureal for the Forge."
-				"If you want to know, how to make these Obelisks, check their Ponder."
-			]
-			dependencies: ["10190AA2A7C13277"]
+			description: ["By crushing the Obelisks you can get Arcane Crystal Dust Specks, and the cycle continues."]
+			dependencies: ["066CA4A66DD316F3"]
 			hide: true
 			dependency_requirement: "one_completed"
 			id: "09E4D27B89F783CF"
-			tasks: [{
-				id: "53FB3D90B3B612DA"
-				type: "item"
-				item: "forbidden_arcanus:arcane_crystal_obelisk"
-			}]
-			rewards: [
-				{
-					id: "6C6FC3D80FD8DB69"
-					type: "item"
-					item: "forbidden_arcanus:arcane_crystal_obelisk"
-				}
-				{
-					id: "2986F8195F2C466C"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_arcane_3"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "The Arcane Crystal Obelisk Cycle"
-			x: -7.5d
-			y: -2.5d
-			dependencies: ["69F021C402A96487"]
-			dependency_requirement: "all_started"
-			id: "6184C8A1D38C1DBF"
-			tasks: [{
-				id: "260B2F0CBD864192"
-				type: "item"
-				item: "forbidden_arcanus:arcane_crystal_obelisk"
-			}]
-			rewards: [
-				{
-					id: "56E7FBFF9F589DEE"
-					type: "item"
-					item: "forbidden_arcanus:arcane_crystal_obelisk"
-				}
-				{
-					id: "4352D876209C7ED5"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_arcane_3"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 		}
 		{
 			title: "By bulk-haunting cobblestone, you get blackstone!"
-			x: -6.5d
+			x: -6.0d
 			y: -6.5d
 			dependencies: ["71A1D228DFD9F180"]
 			id: "45F57414659E044E"
@@ -212,12 +177,16 @@
 			}]
 		}
 		{
-			title: "Cobble generator, wow!"
+			title: "Your good ol pal, the Cobble Generator."
 			x: -3.0d
 			y: -6.5d
 			shape: "gear"
+			subtitle: "You know the drill :)"
 			description: ["It all starts with cobblestone, aint it?"]
-			dependencies: ["43DDE8F2EDA941A9"]
+			dependencies: [
+				"43DDE8F2EDA941A9"
+				"3A10D0D5E8548C54"
+			]
 			hide: true
 			size: 1.5d
 			id: "71A1D228DFD9F180"
@@ -228,24 +197,34 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -3.0d
 			y: 1.5d
 			subtitle: "By deploying Arcane Dust onto a Dark Soul, one shall obtain a Corrupted Pixie"
 			dependencies: [
 				"343F18E9136A3324"
 				"3E7D072F1C7A0B14"
 			]
-			dependency_requirement: "one_completed"
 			id: "3D65558184A6EA1E"
 			tasks: [{
 				id: "0D5242AFD1B5B0C9"
 				type: "item"
 				item: "forbidden_arcanus:corrupted_pixie"
 			}]
+			rewards: [{
+				id: "4E09B6A4EC70C594"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_arcane_3"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
-			x: -5.5d
-			y: -2.5d
+			x: -6.5d
+			y: -4.5d
 			dependencies: [
 				"69F021C402A96487"
 				"66B319ACF0228A32"
@@ -258,21 +237,31 @@
 				type: "item"
 				item: "forbidden_arcanus:arcane_gold_ingot"
 			}]
-			rewards: [{
-				id: "0713404E188B2A52"
-				type: "item"
-				item: "forbidden_arcanus:arcane_gold_ingot"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "0713404E188B2A52"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+					count: 3
+				}
+				{
+					id: "4B2EE4139181884E"
+					type: "item"
+					item: {
+						id: "kubejs:lootbag_arcane_2"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
-			x: 0.0d
-			y: -0.5d
+			x: -4.5d
+			y: 0.0d
 			subtitle: "By right clicking or using a Deployer on Soul Sand Block with a Soul Extractor, the sand will be relieved of its soul, returning it into its Soulless state"
-			dependencies: [
-				"76D6D1770639319E"
-				"5447CED39DFE8E23"
-			]
+			dependencies: ["76D6D1770639319E"]
 			dependency_requirement: "one_completed"
 			id: "57AFEA6EFF00F4FB"
 			tasks: [{
@@ -282,8 +271,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 0.5d
+			x: -3.0d
+			y: 0.0d
 			subtitle: "Simply Haunt a Soul"
 			dependencies: ["57AFEA6EFF00F4FB"]
 			dependency_requirement: "all_started"
@@ -296,7 +285,7 @@
 		}
 		{
 			title: "Corrupted Pixie Jar"
-			x: 1.0d
+			x: 0.5d
 			y: 1.5d
 			subtitle: "Rightclick with a corrupted pixie onto a Utrem Jar. Also works with deployers."
 			dependencies: [
@@ -312,8 +301,8 @@
 		}
 		{
 			title: "Pixie Jar"
-			x: 1.0d
-			y: 4.0d
+			x: 0.5d
+			y: 3.0d
 			subtitle: "Washing a Corrupted Pixie Jar will purify it, leaving behind a jar with a normal pixie."
 			dependencies: ["3F0798A77108E733"]
 			id: "7614A2AE1D024BF4"
@@ -326,10 +315,13 @@
 		{
 			title: "Get a Wraith"
 			x: -3.0d
-			y: -2.5d
+			y: -4.5d
 			shape: "square"
 			subtitle: "*you should probably get more than just one* (and you should nametag your wraiths)"
-			dependencies: ["43DDE8F2EDA941A9"]
+			dependencies: [
+				"43DDE8F2EDA941A9"
+				"7FC6F7E88224DA53"
+			]
 			hide: false
 			id: "79B2BD8F7999E19F"
 			tasks: [{
@@ -349,43 +341,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.5d
-			subtitle: "A Wraith standing on Soulless Sand will convert the block into Soul Sand (the wraith is unaffected)"
-			dependencies: [
-				"7FC6F7E88224DA53"
-				"79B2BD8F7999E19F"
-			]
-			dependency_requirement: "all_started"
-			id: "7D833DBB735C2FEC"
-			tasks: [{
-				id: "4E10ABF4B91A5E7E"
-				type: "item"
-				item: "minecraft:soul_sand"
-			}]
-			rewards: [
-				{
-					id: "786EE402E52842A9"
-					type: "item"
-					item: "minecraft:soul_sand"
-					count: 64
-				}
-				{
-					id: "1C2399D0C5D947C4"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_arcane_2"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
 			title: "Bulk-haunting sand makes Soulless Sand"
-			x: -1.0d
+			x: 0.0d
 			y: -4.5d
 			dependencies: ["41EE2F2DB114D74A"]
 			id: "7FC6F7E88224DA53"
@@ -396,13 +353,11 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 0.5d
-			dependencies: ["3A10D0D5E8548C54"]
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["5447CED39DFE8E23"]
 			hide: true
 			dependency_requirement: "one_completed"
-			optional: true
-			can_repeat: true
 			id: "76D6D1770639319E"
 			tasks: [{
 				id: "09A2515627FDCD8D"
@@ -420,7 +375,7 @@
 			x: -5.5d
 			y: -4.5d
 			subtitle: "Bulk Wash Soulsand for GOLD!"
-			dependencies: ["7D833DBB735C2FEC"]
+			dependencies: ["5447CED39DFE8E23"]
 			id: "66B319ACF0228A32"
 			tasks: [{
 				id: "70408ED4B829805A"
@@ -429,7 +384,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 0.0d
 			y: -6.5d
 			dependencies: ["71A1D228DFD9F180"]
 			id: "41EE2F2DB114D74A"
@@ -440,7 +395,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: -3.0d
 			y: -1.5d
 			dependencies: [
 				"60F4CA04E216B7C3"
@@ -455,8 +410,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.5d
+			x: -3.0d
+			y: -3.0d
 			dependencies: ["79B2BD8F7999E19F"]
 			id: "60F4CA04E216B7C3"
 			tasks: [{
@@ -466,8 +421,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: 2.5d
+			y: 4.5d
 			subtitle: "By Draining a Pure Pixie Jar, you will obtain Aureal Essence"
 			dependencies: [
 				"783A2252E79DF746"
@@ -488,8 +443,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 4.0d
+			x: 2.5d
+			y: 1.5d
 			dependencies: ["0DE2BB9AD6FF9D32"]
 			id: "783A2252E79DF746"
 			tasks: [{
@@ -499,8 +454,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 2.5d
+			y: -1.5d
 			dependencies: [
 				"191EE221A8EEE8F3"
 				"2B065D0DA822D196"
@@ -514,7 +469,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: -4.5d
 			dependencies: ["41EE2F2DB114D74A"]
 			id: "2B065D0DA822D196"
@@ -547,7 +502,7 @@
 		}
 		{
 			x: -3.0d
-			y: 5.0d
+			y: 4.5d
 			shape: "gear"
 			subtitle: "Very Epic Thing"
 			dependencies: [
@@ -575,27 +530,52 @@
 						Damage: 0
 					}
 				}
-				count: 6
+				count: 4
 			}]
 		}
 		{
-			x: -7.5d
-			y: -2.5d
+			title: "The Arcane Crystal Obelisk Cycle"
+			x: -8.5d
+			y: -1.5d
+			subtitle: "Open this quest for info"
+			description: ["You can place this on the Hephaestus Forge pedestal slots to generate passive Aureal, if you want to know how Obelisks work and how they're made, check their ponder"]
 			dependencies: [
 				"6D2C48974003D539"
 				"6736E5C9F772788F"
 				"10190AA2A7C13277"
+				"69F021C402A96487"
 			]
 			hide: true
 			id: "066CA4A66DD316F3"
+			tasks: [{
+				id: "0D40EE974403EB09"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_obelisk"
+			}]
+			rewards: [
+				{
+					id: "6317D124848D62B9"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_obelisk"
+				}
+				{
+					id: "2EC6A1610E32357E"
+					type: "item"
+					item: {
+						id: "kubejs:lootbag_arcane_3"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -3.0d
-			y: -0.5d
-			dependencies: [
-				"7FC6F7E88224DA53"
-				"79B2BD8F7999E19F"
-			]
+			x: -4.5d
+			y: -4.5d
+			subtitle: "A Wraith standing on Soulless Sand converts the block into Soul Sand (the Wraith is unaffected)"
+			dependencies: ["79B2BD8F7999E19F"]
 			id: "5447CED39DFE8E23"
 			tasks: [{
 				id: "7AE7F46143391AA6"
@@ -604,8 +584,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -0.5d
+			x: 0.5d
+			y: 0.0d
 			min_required_dependencies: 1
 			dependencies: ["0DE2BB9AD6FF9D32"]
 			dependency_requirement: "one_completed"
@@ -617,25 +597,20 @@
 			}]
 		}
 		{
+			title: "Source of Crystals: Arcane Crystal Ore"
+			icon: "forbidden_arcanus:deepslate_arcane_crystal_ore"
 			x: -6.5d
-			y: 3.5d
-			dependencies: ["43DDE8F2EDA941A9"]
+			y: 3.0d
+			dependencies: [
+				"43DDE8F2EDA941A9"
+				"3A10D0D5E8548C54"
+			]
+			hide: true
 			id: "1FAEF479BCF83D6F"
 			tasks: [{
-				id: "57BFB5CBCFA1459D"
-				type: "item"
-				item: "forbidden_arcanus:deepslate_arcane_crystal_ore"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 1.5d
-			dependencies: ["7E9E78A1997AB84E"]
-			id: "5FA9E765E8330E71"
-			tasks: [{
-				id: "0FFF23E600826A25"
-				type: "item"
-				item: "forbidden_arcanus:arcane_crystal_block"
+				id: "5A7AE1D30FAAE518"
+				type: "checkmark"
+				title: "Okeyyyy"
 			}]
 		}
 	]
