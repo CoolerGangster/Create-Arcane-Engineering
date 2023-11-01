@@ -128,7 +128,13 @@ onEvent('player.advancement', event => {
             c.server.runCommandSilent(`execute in cae:arcane run tp ${d.name} ${d.x} ${d.y+1} ${d.z}`)
             c.server.runCommandSilent(`execute in cae:arcane run tp ${d.name} ${d.x} ${d.y+1} ${d.z}`)
 
-
+            if (c.getServer().getLevel('cae:arcane').getBlock(8090, 110, 10047) === 'create:creative_fluid_tank') {
+                c.server.runCommandSilent('execute in cae:arcane run fill 8096 105 10099 8094 105 10097 kubejs:dry_essence')
+                c.server.runCommandSilent('execute in cae:arcane run fill 8089 110 10046 8089 110 10047 kubejs:soul_essence replace')
+                c.server.runCommandSilent('execute in cae:arcane run setblock 8090 110 10047 create:fluid_tank{Window: 1b, Size: 1, Luminosity: 6, Boiler: {ActiveHeat: 0, Whistles: 0, Supply: 0.0f, PassiveHeat: 0b, Update: 1b, Engines: 0}, LastKnownPos: {X: 8092, Y: 110, Z: 10042}, x: 8092, ForgeCaps: {}, y: 110, Height: 1, z: 10042, id: "create:fluid_tank", TankContent: {FluidName: "kubejs:soul_essence", Amount: 2000}} replace')
+                c.server.runCommandSilent('execute in cae:arcane run setblock 8145 109 10047 create:fluid_tank{Window: 1b, Size: 1, Luminosity: 6, Boiler: {ActiveHeat: 0, Whistles: 0, Supply: 0.0f, PassiveHeat: 0b, Update: 0b, Engines: 0}, LastKnownPos: {X: 8145, Y: 109, Z: 10047}, x: 8145, ForgeCaps: {}, y: 109, Height: 1, z: 10047, id: "create:fluid_tank", TankContent: {FluidName: "kubejs:ice_essence", Amount: 4000}} replace')
+                c.server.runCommandSilent('execute in cae:arcane run setblock 8146 114 10098 create:fluid_tank{Window: 1b, Size: 1, Luminosity: 6, Boiler: {ActiveHeat: 0, Whistles: 0, Supply: 0.0f, PassiveHeat: 0b, Update: 0b, Engines: 0}, LastKnownPos: {X: 8146, Y: 114, Z: 10098}, x: 8146, ForgeCaps: {}, y: 114, Height: 1, z: 10098, id: "create:fluid_tank", TankContent: {FluidName: "kubejs:nature_essence", Amount: 4000}} replace')
+            }
         })
     }
 
