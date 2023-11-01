@@ -215,6 +215,7 @@
 			title: "Processing Pandemonium"
 			x: 5.5d
 			y: -1.0d
+			description: ["AE2 is now fully unlocked."]
 			dependencies: [
 				"19232B8B77F86AF8"
 				"5226F9B2150E20FF"
