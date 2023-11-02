@@ -334,7 +334,7 @@
 		{
 			x: -2.5d
 			y: 2.0d
-			description: ["Burning a Skeleton in Soul Fire and moving it into a wither rose will convert it to a boosted Wither Skeleton that drops extra Wither Skulls"]
+			description: ["Burning a Skeleton in Soul Fire (Actually having it be lit on fire by a Soul Fire) while its inside a wither rose will convert it to a boosted Wither Skeleton that drops extra Wither Skulls"]
 			dependencies: [
 				"7F7E6735DDC3712F"
 				"6988B2238F02E9EB"
