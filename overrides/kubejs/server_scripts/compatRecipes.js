@@ -175,7 +175,7 @@ onEvent('block.right_click', event =>{
 onEvent('block.break', event => {
 
    if (event.player.isCreativeMode()) {return}
-    if (event.player.mainHandItem.toString().includes("gavel") && event.player.mainHandItem.toString().includes("silk_touch")){
+    if (event.player.mainHandItem.toString().includes("gavel") && event.player.mainHandItem.toString().includes("silk_touch") || event.block.id == "minecraft:ancient_debris"){
         event.player.setStatusMessage(Text.darkRed("Thou Shall not mine stuff with a Gavel and Silk Touch"))
         event.cancel()
     }
