@@ -56,7 +56,7 @@ onEvent('recipes', event => {
     event.recipes.createFilling(t, [t, Fluid.of('minecraft:water')])
   ]).transitionalItem(t).loops(200)
 
-t = KJ('incomplete_quartz')
+t = KJ('kubejs:quartz_seed')
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:quartz_cluster').withChance(30), Item.of('kubejs:quartz_seed').withChance(70),
 	], KJ('quartz_seed'), [
@@ -66,7 +66,7 @@ t = KJ('incomplete_quartz')
 		.loops(1)
 		.id('minecraft:quartz')
 
-  t = KJ('incomplete_certus_quartz_cluster')
+  t = KJ('ae2:certus_crystal_seed')
   event.recipes.createSequencedAssembly([
   	Item.of('kubejs:certus_quartz_seed_cluster').withChance(30), Item.of('ae2:certus_crystal_seed').withChance(70),
   ], 'ae2:certus_crystal_seed', [
