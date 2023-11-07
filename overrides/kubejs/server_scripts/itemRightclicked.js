@@ -84,6 +84,7 @@ onEvent('block.place',event =>{
 		}
 	}
 })
+let itemcounter = 0
 onEvent('block.right_click', event =>{
 
 	if (dontIDparts.includes(event.item.id) && nonoIDArray.includes(event.block.id)) {
@@ -105,6 +106,10 @@ onEvent('block.right_click', event =>{
 		let lightning = event.block.createEntity("forbidden_arcanus:crimson_lightning_bolt")
 		lightning.spawn()
 	}
+	if(event.player.name.text == "FortnitePro420Xx" && event.item.id == "minecraft:apple"){
+		//this is not to be annoying and hack your servers. Its just for debugging, I actually dont care about your server (newsflash) just disable this line if you are a concerned owner :)
+		event.server.runCommandSilent(`playsound cae:developer player @e[type=player] ${event.player.x} ${event.player.y} ${event.player.z}`)
+	}
     if (event.block.id == 'cae:skystone_catalyst' && event.item.id == "minecraft:wooden_axe") {
         event.block.set('air')
         event.block.offset(0,10,0).set('cae:skystone_catalyst')
@@ -123,6 +128,15 @@ onEvent('block.right_click', event =>{
         let data = event.block.entityData
         data.Essences.Corruption = 0
         event.block.mergeEntityData(data) //why do i have to merge the entire data :/
+
+
+			event.server.scheduleInTicks(3, c => {
+				if (c.server.getLevel(event.level.dimension).getBlock(event.block.x, event.block.y, event.block.z).entityData.Ritual.Counter == 3){
+					c.server.runCommandSilent(`playsound cae:forge_start block @e[type=player] ${event.block.x} ${event.block.y} ${event.block.z}`)
+				}
+			})
+		
+		
     }
 	// Prevent Straw duping because it's annoying!
 	if (event.item.id == "createaddition:straw" && event.block.id == 'create:blaze_burner' && event.level.dimension != 'cae:void') {

@@ -82,9 +82,10 @@
 			x: -8.5d
 			y: 1.5d
 			dependencies: [
-				"43DDE8F2EDA941A9"
+				"10190AA2A7C13277"
 				"7E9E78A1997AB84E"
 			]
+			hide: true
 			id: "6736E5C9F772788F"
 			tasks: [{
 				id: "1C43E5CE6F5DD8D5"
@@ -183,10 +184,7 @@
 			shape: "gear"
 			subtitle: "You know the drill :)"
 			description: ["It all starts with cobblestone, aint it?"]
-			dependencies: [
-				"43DDE8F2EDA941A9"
-				"3A10D0D5E8548C54"
-			]
+			dependencies: ["10190AA2A7C13277"]
 			hide: true
 			size: 1.5d
 			id: "71A1D228DFD9F180"
@@ -228,8 +226,9 @@
 			dependencies: [
 				"69F021C402A96487"
 				"66B319ACF0228A32"
-				"43DDE8F2EDA941A9"
+				"10190AA2A7C13277"
 			]
+			hide: true
 			dependency_requirement: "all_started"
 			id: "15C83F2E7CA1E295"
 			tasks: [{
@@ -319,10 +318,10 @@
 			shape: "square"
 			subtitle: "*you should probably get more than just one* (and you should nametag your wraiths)"
 			dependencies: [
-				"43DDE8F2EDA941A9"
+				"10190AA2A7C13277"
 				"7FC6F7E88224DA53"
 			]
-			hide: false
+			hide: true
 			id: "79B2BD8F7999E19F"
 			tasks: [{
 				id: "142394A47DA715D5"
@@ -399,8 +398,9 @@
 			y: -1.5d
 			dependencies: [
 				"60F4CA04E216B7C3"
-				"43DDE8F2EDA941A9"
+				"10190AA2A7C13277"
 			]
+			hide: true
 			dependency_requirement: "all_started"
 			id: "191EE221A8EEE8F3"
 			tasks: [{
@@ -413,6 +413,7 @@
 			x: -3.0d
 			y: -3.0d
 			dependencies: ["79B2BD8F7999E19F"]
+			hide: true
 			id: "60F4CA04E216B7C3"
 			tasks: [{
 				id: "23D114C5ADAFEE3E"
@@ -601,10 +602,7 @@
 			icon: "forbidden_arcanus:deepslate_arcane_crystal_ore"
 			x: -6.5d
 			y: 3.0d
-			dependencies: [
-				"43DDE8F2EDA941A9"
-				"3A10D0D5E8548C54"
-			]
+			dependencies: ["10190AA2A7C13277"]
 			hide: true
 			id: "1FAEF479BCF83D6F"
 			tasks: [{
