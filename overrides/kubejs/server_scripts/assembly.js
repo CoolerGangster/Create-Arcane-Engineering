@@ -32,7 +32,6 @@ onEvent('tags.items', event => {
 });
 
 onEvent('recipes', event => {
-
   let t = 'kubejs:incomplete_kinetic_mechanism'
   event.recipes.createSequencedAssembly([
     'kubejs:kinetic_mechanism',
@@ -57,7 +56,7 @@ onEvent('recipes', event => {
     event.recipes.createFilling(t, [t, Fluid.of('minecraft:water')])
   ]).transitionalItem(t).loops(200)
 
-  t = KJ('incomplete_quartz')
+t = KJ('quartz_seed')
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:quartz_cluster').withChance(30), Item.of('kubejs:quartz_seed').withChance(70),
 	], KJ('quartz_seed'), [
@@ -67,7 +66,7 @@ onEvent('recipes', event => {
 		.loops(1)
 		.id('minecraft:quartz')
 
-  t = KJ('incomplete_certus_quartz_cluster')
+  t = 'ae2:certus_crystal_seed'
   event.recipes.createSequencedAssembly([
   	Item.of('kubejs:certus_quartz_seed_cluster').withChance(30), Item.of('ae2:certus_crystal_seed').withChance(70),
   ], 'ae2:certus_crystal_seed', [
@@ -79,13 +78,14 @@ onEvent('recipes', event => {
 
   t = KJ('redstone_seed')
   event.recipes.createSequencedAssembly([
-  	Item.of('kubejs:redstone_cluster').withChance(30), Item.of(t).withChance(70)
+  	Item.of('kubejs:redstone_cluster').withChance(45), Item.of(t).withChance(70)
   ], t, [
-  	event.recipes.createFilling(t, [t, Fluid.of(KJ("sky_solution"), 100)]),
+  	event.recipes.createFilling(t, [t, Fluid.of(KJ("sky_solution"), 150)]),
     event.recipes.createDeploying(t, [t, 'minecraft:sand'])
   ]).transitionalItem(t)
   	.loops(1)
   	.id('cae:redstonequartz')
+
 
   t = CR('incomplete_precision_mechanism')
   event.recipes.createSequencedAssembly([

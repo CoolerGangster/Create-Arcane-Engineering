@@ -1,0 +1,301 @@
+{
+	id: "0D1EC197EA43A93A"
+	group: "73266C3574BDAE4C"
+	order_index: 1
+	filename: "the_netherrack_chapter"
+	title: "The Netherrack Chapter"
+	icon: {
+		id: "minecraft:netherrack"
+		Count: 1b
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.5d
+			y: -5.5d
+			width: 30.0d
+			height: 30.0d
+			rotation: 0.0d
+			image: "kubejs:textures/nether.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			width: 18.0d
+			height: 18.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wowcursed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.5d
+			y: -2.5d
+			shape: "pentagon"
+			dependencies: [
+				"09D79A187252FDC0"
+				"576465FDCFB7E903"
+				"19AF40F2A79F4C95"
+				"14F00B1B5ADABFC9"
+				"4E54890AD1124F32"
+				"51D782B21C7F778F"
+				"67621783FE002654"
+				"2B19FB06932D3DA7"
+			]
+			id: "5829C8C4AB96D354"
+			tasks: [{
+				id: "6386715C8D4A586A"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			dependencies: [
+				"2FB5128A26C83932"
+				"7FD3160297088D95"
+				"0F72524730FB56A0"
+				"58BC1ACDD4907A4F"
+				"28E23518C74214D0"
+				"2ED9F5041815AAC7"
+				"67FB265EB1DAE9C4"
+			]
+			id: "09D79A187252FDC0"
+			tasks: [{
+				id: "159F31F484F50F73"
+				type: "item"
+				item: "architects_palette:ancient_plating_slab"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.5d
+			id: "2FB5128A26C83932"
+			tasks: [{
+				id: "56E3FBABD2C41A78"
+				type: "item"
+				item: "create:cinder_flour"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			id: "67FB265EB1DAE9C4"
+			tasks: [{
+				id: "27636EE134C009EC"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			id: "19AF40F2A79F4C95"
+			tasks: [{
+				id: "6F386F1ACCE86BBD"
+				type: "item"
+				item: "tconstruct:blood_slime_ball"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			id: "576465FDCFB7E903"
+			tasks: [{
+				id: "2411A60556D787D4"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			id: "2ED9F5041815AAC7"
+			tasks: [{
+				id: "4693274ED419959C"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -10.0d
+			id: "7FD3160297088D95"
+			tasks: [{
+				id: "312B7C76DD704EE7"
+				type: "item"
+				item: "kubejs:runic_tablet"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.5d
+			id: "0F72524730FB56A0"
+			tasks: [{
+				id: "588D849BB174F587"
+				type: "item"
+				title: "Any #forge:sand"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sand"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.5d
+			id: "28E23518C74214D0"
+			tasks: [{
+				id: "3607730F5489F90C"
+				type: "item"
+				item: "forbidden_arcanus:soul"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.0d
+			id: "58BC1ACDD4907A4F"
+			tasks: [{
+				id: "593222541E4ADB75"
+				type: "item"
+				item: "minecraft:red_dye"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			id: "14F00B1B5ADABFC9"
+			tasks: [{
+				id: "33D377B5E306AD7F"
+				type: "item"
+				item: "minecraft:pink_terracotta"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			id: "4E54890AD1124F32"
+			tasks: [{
+				id: "50F66C8005B35E4E"
+				type: "item"
+				item: "minecraft:nether_bricks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			id: "51D782B21C7F778F"
+			tasks: [{
+				id: "56F6B3C4B4A0643C"
+				type: "item"
+				item: "minecraft:red_sand"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			id: "67621783FE002654"
+			tasks: [{
+				id: "6A03E80157FAA99A"
+				type: "item"
+				item: "quark:red_corundum_cluster"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			id: "2B19FB06932D3DA7"
+			tasks: [{
+				id: "4938C5FC91CF0E8F"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			title: " "
+			icon: "supplementaries:candle_holder_black"
+			x: 4.5d
+			y: -12.5d
+			dependencies: ["75734C3CF0FF9B35"]
+			id: "287CB5C403152239"
+		}
+		{
+			title: " "
+			icon: "supplementaries:candle_holder_black"
+			x: 7.5d
+			y: -4.5d
+			dependencies: ["215CE7B2706223F2"]
+			id: "4087EB2256B47CAE"
+		}
+		{
+			title: " "
+			icon: "supplementaries:candle_holder_black"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["26D20482FFB84539"]
+			id: "75734C3CF0FF9B35"
+		}
+		{
+			title: " "
+			icon: "supplementaries:candle_holder_black"
+			x: -6.5d
+			y: -4.5d
+			dependencies: ["287CB5C403152239"]
+			dependency_requirement: "one_completed"
+			id: "215CE7B2706223F2"
+			tasks: [{
+				id: "2B8B47CD17965E07"
+				type: "item"
+				item: "supplementaries:candle_holder_black"
+			}]
+		}
+		{
+			title: " "
+			icon: "supplementaries:candle_holder_black"
+			x: -3.5d
+			y: -12.5d
+			id: "26D20482FFB84539"
+			tasks: [{
+				id: "64A01218253ADD55"
+				type: "checkmark"
+				title: " "
+			}]
+		}
+		{
+			x: -3.5d
+			y: -12.5d
+			dependencies: ["4087EB2256B47CAE"]
+			id: "56A528714AB6AFEF"
+		}
+		{
+			title: "||You want infinite Netherrack? FINE GO FOR IT! ITS ALL THERE! JUST WAITING TO BE AUTOMATED BY YOU!"
+			x: 0.5d
+			y: -2.5d
+			shape: "diamond"
+			size: 2.0d
+			id: "55FA4763F3F897AD"
+			tasks: [{
+				id: "2C21B76B965A03AF"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

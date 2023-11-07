@@ -1,0 +1,41 @@
+{
+  "name": "oil",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "fb63edee-d643-486a-a17e-b1c100e19d4c",
+      "duration": 100,
+      "inputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "kubejs:sky_solution",
+              "amount": 100
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {
+        "create_stress": [
+          {
+            "content": 1024.0,
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "content": {
+              "fluid": "thermal:crude_oil",
+              "amount": 20
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

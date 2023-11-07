@@ -45,8 +45,7 @@ onEvent('recipes', event => {
     event.recipes.createFilling(t, [t, Fluid.of("kubejs:source", 144)]),
     event.recipes.create.pressing(t, t)
     ]).transitionalItem(t).loops(1)
-    event.recipes.create.crushing(Item.of('kubejs:sourcegem_fragments', 1).withChance(0.20), 'ars_nouveau:source_gem')
-
+    event.recipes.create.crushing(Item.of('kubejs:sourcegem_fragments', 1).withChance(0.4), 'ars_nouveau:source_gem')
 
     event.custom({
       "type": "ars_nouveau:enchanting_apparatus",
@@ -99,15 +98,10 @@ onEvent('level.tick', event =>{
       global.tick20 = 0
       //event.server.tell("5 Seconds have passed!")
       event.level.getEntities('@e[type=quark:wraith]').forEach(Wraith =>{
-          if (Wraith.block.id == 'forbidden_arcanus:soulless_sand'){Wraith.block.set('minecraft:soul_sand')}
-      })
+        if (Wraith.block.id == 'forbidden_arcanus:soulless_sand'){
+          Wraith.block.set('minecraft:soul_sand')
+          event.server.runCommandSilent(`playsound cae:wraith_soulconvert block @e[type=player] ${Wraith.block.x} ${Wraith.block.y} ${Wraith.block.z}`)
       }
-})
-onEvent('block.right_click', event =>{
-  if (event.item.id == "kubejs:runic_tablet") {
-     event.item.setCount(event.item.getCount()-1)
-     let lightning = event.block.createEntity("forbidden_arcanus:crimson_lightning_bolt")
-     lightning.spawn()
+      })
   }
 })
-    

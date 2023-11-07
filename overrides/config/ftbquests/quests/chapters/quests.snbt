@@ -4,6 +4,13 @@
 	order_index: 2
 	filename: "quests"
 	title: "The Trade Market"
+	icon: {
+		id: "quests:task"
+		Count: 1b
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [

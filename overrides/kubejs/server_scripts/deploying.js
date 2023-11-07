@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-    event.recipes.create.deploying('glassential:glass_ghostly', ['quark:soul_bead','#forge:glass/colorless'])
+    event.recipes.create.deploying('glassential:glass_ghostly', ['#forge:glass/colorless','quark:soul_bead'])
     
     event.recipes.create.deploying('ars_nouveau:magebloom_fiber', ['kubejs:mage_leaf', '#forge:tools/knives'])
     event.recipes.create.deploying('kubejs:runic_tablet', ['minecraft:smooth_stone_slab', 'forbidden_arcanus:rune'])

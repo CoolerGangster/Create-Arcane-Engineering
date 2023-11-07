@@ -1,0 +1,331 @@
+{
+	id: "7376CCBBD5425C70"
+	group: "73266C3574BDAE4C"
+	order_index: 2
+	filename: "the_source_time_crystal"
+	title: "Arcane Automations"
+	icon: {
+		id: "cae:source_time_crystal"
+		Count: 1b
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.5d
+			width: 20.0d
+			height: 20.0d
+			rotation: 0.0d
+			image: "kubejs:textures/gears.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 14.0d
+			height: 14.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wowcursed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Drops in the Overworld"
+			dependencies: ["1FB2C6D04D76EA5E"]
+			id: "5DE294FA19C90D46"
+			tasks: [{
+				id: "5F3E25979088242B"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Drops in The Nether"
+			dependencies: ["1FB2C6D04D76EA5E"]
+			id: "50D9B305CA2F13E9"
+			tasks: [{
+				id: "4CB774C402E9EF32"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Drops in The End"
+			dependencies: ["1FB2C6D04D76EA5E"]
+			id: "44C5939C525B78C8"
+			tasks: [{
+				id: "51F57B75957BA2C6"
+				type: "item"
+				item: "minecraft:firework_rocket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "Check the Ponder"
+			size: 2.0d
+			id: "1FB2C6D04D76EA5E"
+			tasks: [{
+				id: "104F73EFE8DBE035"
+				type: "item"
+				item: "cae:source_time_crystal"
+			}]
+		}
+		{
+			title: "Any Daves BE Skeleton"
+			x: 2.0d
+			y: 2.5d
+			shape: "rsquare"
+			id: "27175BB17C070A1F"
+			tasks: [{
+				id: "599BFD1264B063BE"
+				type: "item"
+				item: "davebuildingmod:skeleton_3"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "rsquare"
+			id: "646BA6833B4373CF"
+			tasks: [{
+				id: "381B4E880DC8009B"
+				type: "item"
+				item: "forbidden_arcanus:soul"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "Click for Info."
+			description: ["Right-Click a Daves BE Skeleton Block with a Soul from Forbidden and Arcanus. That will make a Skeleton with Extra op Skull drops!"]
+			dependencies: [
+				"27175BB17C070A1F"
+				"646BA6833B4373CF"
+			]
+			id: "24561F85983A16EB"
+			tasks: [{
+				id: "2E276DE658B16387"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "Click for Info."
+			description: ["Have a Skeleton be lit on Soul Fire, and stand inside a Wither Rose. To make a Wither Skeleton with Ultra Buffed Skull Drops"]
+			dependencies: [
+				"24561F85983A16EB"
+				"310C10FF294A195E"
+				"6007172A958E4A3B"
+			]
+			id: "1B5CA81D9477E1F2"
+			tasks: [{
+				id: "6722AC2A6140A656"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			shape: "diamond"
+			id: "6007172A958E4A3B"
+			tasks: [{
+				id: "0CD8018F3E654ADD"
+				type: "item"
+				item: "minecraft:wither_rose"
+			}]
+		}
+		{
+			title: "Soul Fire"
+			x: 4.5d
+			y: 0.5d
+			shape: "diamond"
+			id: "310C10FF294A195E"
+			tasks: [{
+				id: "16D333E60F0CB365"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "Click for Info."
+			description: ["A Wraith Standing on top of Soulless Sand will transform the Soulless Sand into Soulsand!"]
+			dependencies: [
+				"0F03A0E8ED118E00"
+				"1454233FC648EEA7"
+			]
+			id: "57BC307EA1CD583A"
+			tasks: [{
+				id: "5E06535EEF064E24"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make sure to Nametag them!"
+			id: "0F03A0E8ED118E00"
+			tasks: [{
+				id: "24AC793530CE8C9E"
+				type: "observation"
+				title: "Get a Wraith"
+				icon: "quark:wraith_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "quark:wraith"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["5CFFAA427B49D6FF"]
+			id: "1454233FC648EEA7"
+			tasks: [{
+				id: "247633003F9A52A5"
+				type: "item"
+				item: "forbidden_arcanus:soulless_sand"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			id: "5CFFAA427B49D6FF"
+			tasks: [{
+				id: "17DA4190C8C043E0"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Crushing a Silverfish, will make XP Nuggets!"
+			dependencies: ["26471D6D7EF98BFD"]
+			id: "020DF0D142C9EFAB"
+			tasks: [{
+				id: "09F5265B8DAD23E2"
+				type: "item"
+				item: "create:experience_nugget"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Crush the Silverfish"
+			dependencies: ["2B836E8DC0E24294"]
+			id: "26471D6D7EF98BFD"
+			tasks: [{
+				id: "4B60B83DEA65DBCB"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			subtitle: "Mine Infested Stone, to spawn a Silverfish"
+			id: "2B836E8DC0E24294"
+			tasks: [
+				{
+					id: "40EC452FEBA6E0B4"
+					type: "item"
+					item: "minecraft:infested_stone"
+				}
+				{
+					id: "149415AB08352A0D"
+					type: "observation"
+					title: "Observe a Silverfish"
+					icon: "minecraft:silverfish_spawn_egg"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:silverfish"
+				}
+			]
+		}
+		{
+			x: -4.4d
+			y: -3.3000000000000003d
+			size: 1.1d
+			id: "2ABB3C0DCA7552CA"
+			tasks: [{
+				id: "26A9C079DB34F2DC"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			subtitle: "Crush Waystones"
+			dependencies: ["2ABB3C0DCA7552CA"]
+			id: "665C7E2993133154"
+			tasks: [{
+				id: "5A224C0FFBA20A2D"
+				type: "item"
+				item: "kubejs:warp_fragments"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["665C7E2993133154"]
+			id: "37362D3A67E8927A"
+			tasks: [{
+				id: "77E23226DB51A173"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: " "
+			icon: "waystones:waystone"
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["37362D3A67E8927A"]
+			id: "363344F761BA3169"
+			tasks: [{
+				id: "6D088E6DF47F255D"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

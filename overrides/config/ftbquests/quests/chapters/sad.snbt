@@ -1,7 +1,7 @@
 {
 	id: "0918A9C44C07BDAB"
-	group: "42A213AA17D37DAF"
-	order_index: 2
+	group: "65FB4ECE344979A8"
+	order_index: 1
 	filename: "sad"
 	title: "Chapter II: Extraterrestrial Expeditions"
 	icon: "create:brass_casing"
@@ -22,7 +22,7 @@
 		}
 		{
 			x: -1.5d
-			y: 0.5d
+			y: 2.0d
 			width: 20.0d
 			height: 27.0d
 			rotation: 0.0d
@@ -37,7 +37,7 @@
 		{
 			title: "Chapter 2 Start!"
 			x: -1.5d
-			y: -9.0d
+			y: -6.0d
 			shape: "octagon"
 			subtitle: "Short tip, you can speedrun the majority of this chapter just by crafting rose quartz with quartz and redstone dust obtained from the world."
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -64,15 +64,15 @@
 		{
 			title: "Chapter 2"
 			x: -1.5d
-			y: 4.5d
-			shape: "rsquare"
+			y: 4.0d
+			shape: "gear"
 			dependencies: [
 				"0CEFD94EEE91DDE9"
 				"24B4AA7FE57740B1"
 				"7EA15D680D22F69B"
 			]
 			dependency_requirement: "one_completed"
-			size: 1.4d
+			size: 1.5d
 			id: "1CF1A735F77415F2"
 			tasks: [{
 				id: "178E2929328BE139"
@@ -119,9 +119,11 @@
 		}
 		{
 			x: -1.5d
-			y: 10.0d
-			shape: "square"
+			y: 10.5d
+			shape: "gear"
 			dependencies: ["48302F40D36471FB"]
+			hide: true
+			size: 1.5d
 			id: "730102EB2E56C6A1"
 			tasks: [{
 				id: "6F07F6CE635BB23A"
@@ -157,7 +159,7 @@
 		}
 		{
 			x: -1.5d
-			y: 9.0d
+			y: 8.5d
 			dependencies: [
 				"53F4A32746B719F2"
 				"25EE3A139473ED49"
@@ -189,8 +191,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 8.0d
+			x: 0.0d
+			y: 8.5d
 			subtitle: "Either make a lava farm. Or harvest it from the nether. Either way, this means get a way of infinite lava! I suggest heading to the Nether and using hose pulleys!"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
@@ -211,7 +213,8 @@
 		{
 			title: "Screwdrivin"
 			x: 0.0d
-			y: 4.5d
+			y: 4.0d
+			shape: "rsquare"
 			subtitle: "(the framedblocks screwdriver is 1 use only lmao)"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -230,8 +233,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.0d
+			x: -6.0d
+			y: 4.0d
 			dependencies: ["0158C3930229C41C"]
 			hide: true
 			id: "727A38A2922B49F6"
@@ -242,8 +245,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 3.0d
+			x: -4.5d
+			y: 4.0d
 			dependencies: ["727A38A2922B49F6"]
 			id: "5D36117177BCD37F"
 			tasks: [{
@@ -254,7 +257,7 @@
 		}
 		{
 			x: -3.0d
-			y: 2.5d
+			y: 2.0d
 			dependencies: ["4132AB6AF6FC3ED0"]
 			hide: true
 			id: "3E09633CF4F786AE"
@@ -278,6 +281,7 @@
 				"5D36117177BCD37F"
 				"3E09633CF4F786AE"
 			]
+			dependency_requirement: "one_completed"
 			id: "24B4AA7FE57740B1"
 			tasks: [{
 				id: "58A5E717210879EE"
@@ -298,8 +302,8 @@
 		}
 		{
 			title: "Unlock the Optional Route?"
-			x: -3.0d
-			y: 0.0d
+			x: -7.0d
+			y: 3.0d
 			subtitle: "Will double the rates by 2x. Requires some Menril Tree Work"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -338,9 +342,9 @@
 		{
 			title: "Skystone Tip"
 			icon: "railways:track_birch"
-			x: -1.5d
-			y: -6.5d
-			subtitle: "Meteorites can be shockingly far away from where your base is situated. Welcome to this pack, locational recources like these are a reoccuring theme. Now you either have the choice to Make a factory on the Skystone Catalyst, or make a rail line delivering the skystone to you, the choice is yours. Either way, youll need a rail line connecting the factories."
+			x: 1.5d
+			y: -5.0d
+			subtitle: "Meteorites can be shockingly far away from where your base is situated. Welcome to this pack, locational resources like these are a reoccuring theme. Now you either have the choice to Make a factory on the Skystone Catalyst, or make a rail line delivering the skystone to you, the choice is yours. Either way, youll need a rail line connecting the factories."
 			description: ["2nd Tip: If you rightclick the skystone catalyst with a wooden axe it will moove 10 blocks up in the air, this is so if your meteorite is in the ocean you can moove the catalyst out so you dont have to clear an entire ocean or mine out a cave..."]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -372,8 +376,8 @@
 		{
 			title: "The Obsidian Cycle!"
 			x: -1.5d
-			y: 6.0d
-			shape: "octagon"
+			y: 5.5d
+			shape: "gear"
 			subtitle: "You can Crush or Mill obsidian for Powdered Obsidian at a chance of getting 2 each time. You can reprocess 1 of the dusts using smelting back into Obsidian and use it again for crushing!"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
@@ -386,7 +390,7 @@
 		}
 		{
 			x: -1.5d
-			y: 8.0d
+			y: 7.5d
 			dependencies: ["1377A2D928C6A05A"]
 			id: "25EE3A139473ED49"
 			tasks: [{
@@ -397,8 +401,8 @@
 		}
 		{
 			title: "Smelt down Obsidian Dust for Obsidian!"
-			x: -2.0d
-			y: 7.0d
+			x: -1.5d
+			y: 6.5d
 			dependencies: ["25EE3A139473ED49"]
 			id: "216B9E1503960B6C"
 			tasks: [{
@@ -408,24 +412,14 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 6.0d
-			shape: "gear"
-			dependencies: ["216B9E1503960B6C"]
-			id: "49B84FBA3BA633E6"
-			tasks: [{
-				id: "53164A99FA166842"
-				type: "item"
-				item: "minecraft:obsidian"
-			}]
-		}
-		{
-			x: -2.5d
-			y: -4.5d
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Mix Skystone Dust with Water"
 			dependencies: [
 				"626B12C1D9AEC171"
 				"3513058D64801DAF"
 			]
+			dependency_requirement: "one_completed"
 			id: "5FF85EC9DA06810F"
 			tasks: [{
 				id: "5AB4FE27F8287432"
@@ -445,40 +439,10 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
-			shape: "diamond"
-			dependencies: ["71204DE937D1B562"]
-			id: "189DB93AC1830737"
-			tasks: [{
-				id: "070B0323EF8EA47B"
-				type: "item"
-				item: "minecraft:redstone"
-			}]
-			rewards: [
-				{
-					id: "2F24B670EBAB520F"
-					type: "item"
-					item: {
-						id: "kubejs:lootbag_create_andesite"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "1690D23D3EE16222"
-					type: "item"
-					item: "minecraft:redstone_block"
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: -3.0d
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
+			x: 3.0d
+			y: -0.5d
+			subtitle: "Crush Gravel"
+			dependencies: ["587F4DF4DAE4FEA7"]
 			id: "68704916A38C450C"
 			tasks: [{
 				id: "0D5666E3AB5EC911"
@@ -488,17 +452,16 @@
 		}
 		{
 			title: "Discover the Skystone Catalyst"
-			x: -1.5d
-			y: -7.5d
+			x: 1.5d
+			y: -4.0d
 			shape: "square"
 			subtitle: "An Alien block, only found within Meteorites. Not much is known about this artifact, but what we have figured out, is that it is responsible for Transmuting everything up to 7 Blocks Away from it, when interacted with redstone dust, replacing it with Skystone, is this a form of alien allergy? Perhaps this is exploitable for infinite Skystone."
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
+			dependencies: ["44DC0A3FAA5645AB"]
 			id: "5D9D3025CB2DEEA4"
 			tasks: [{
 				id: "79A64C87821EFB2A"
 				type: "observation"
-				icon: "kubejs:skystone_catalyst"
+				icon: "cae:skystone_catalyst"
 				timer: 0L
 				observe_type: 0
 				to_observe: "cae:skystone_catalyst"
@@ -516,9 +479,10 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -5.5d
-			dependencies: ["5D9D3025CB2DEEA4"]
+			x: 3.0d
+			y: -2.5d
+			subtitle: "Crush Skystone"
+			dependencies: ["6C157C90A109C62C"]
 			id: "626B12C1D9AEC171"
 			tasks: [{
 				id: "78CB906AB0F3F67E"
@@ -528,27 +492,13 @@
 		}
 		{
 			x: -1.5d
-			y: 0.0d
+			y: 2.0d
 			shape: "pentagon"
 			dependencies: [
-				"0E1C18F07009AA94"
-				"189DB93AC1830737"
+				"0EC86FFDFEDFDF96"
+				"608F9C97C746DA3A"
 			]
-			id: "5357ECF63E8DC401"
-			tasks: [{
-				id: "1D83E26B51891784"
-				type: "item"
-				item: "create:rose_quartz"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 1.5d
-			shape: "hexagon"
-			dependencies: [
-				"5357ECF63E8DC401"
-				"262EF6D138DAB69F"
-			]
+			dependency_requirement: "one_completed"
 			id: "7EA15D680D22F69B"
 			tasks: [{
 				id: "2BB5D6DD433926E8"
@@ -576,10 +526,14 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -3.0d
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
+			x: -5.0d
+			y: -0.5d
+			subtitle: "Wash Gravel"
+			dependencies: [
+				"183650453A13684A"
+				"472F3F99F006C58B"
+			]
+			dependency_requirement: "one_completed"
 			id: "15AB5DED45C5B6E4"
 			tasks: [{
 				id: "4E3B307B57E9174E"
@@ -588,51 +542,17 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.5d
-			dependencies: [
-				"15AB5DED45C5B6E4"
-				"189DB93AC1830737"
-			]
-			id: "188BA56A5EBACDAF"
-			tasks: [{
-				id: "21325C2057DE4D58"
-				type: "item"
-				item: "tconstruct:seared_melter"
-			}]
-			rewards: [{
-				id: "0377837D0B554B56"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_brass"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: -4.5d
-			dependencies: ["6EFF8BCEBC2E2AF2"]
-			hide: true
-			id: "71204DE937D1B562"
-			tasks: [{
-				id: "575DAFA044CF63F3"
-				type: "item"
-				item: "kubejs:redstone_seed"
-			}]
-		}
-		{
-			x: -1.5d
-			y: -3.0d
+			x: 1.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Click for Info."
 			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
 			dependencies: [
-				"71204DE937D1B562"
 				"5FF85EC9DA06810F"
 				"68704916A38C450C"
+				"28F41BBD84F43AAB"
 			]
+			dependency_requirement: "one_completed"
 			id: "415F16AFB5FDC3FC"
 			tasks: [{
 				id: "04DC18B63F99A744"
@@ -652,8 +572,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -6.5d
+			x: 3.0d
+			y: -1.5d
 			shape: "rsquare"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
@@ -665,10 +585,11 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 10.0d
-			shape: "square"
+			x: -4.5d
+			y: 10.5d
+			shape: "gear"
 			dependencies: ["729FE7549853385E"]
+			size: 1.5d
 			id: "0CE0A2710D578A1A"
 			tasks: [{
 				id: "417893485473D373"
@@ -701,41 +622,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 0.0d
-			dependencies: ["188BA56A5EBACDAF"]
-			id: "0E1C18F07009AA94"
-			tasks: [{
-				id: "03A9E7FA6A6250A4"
-				type: "item"
-				item: "thermal:redstone_bucket"
-			}]
-			rewards: [{
-				id: "0F79ECDCDB2C1AFD"
-				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_andesite"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 0.0d
-			y: 1.5d
-			dependencies: ["188BA56A5EBACDAF"]
-			id: "262EF6D138DAB69F"
-			tasks: [{
-				id: "793D6FFAF859B575"
-				type: "item"
-				item: "tconstruct:molten_iron_bucket"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 1.5d
+			x: -6.0d
+			y: 2.0d
 			dependencies: ["0158C3930229C41C"]
 			hide: true
 			id: "4132AB6AF6FC3ED0"
@@ -746,8 +634,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 6.0d
+			x: -4.5d
+			y: 7.5d
 			shape: "diamond"
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
@@ -761,8 +649,8 @@
 		{
 			title: "Lets Speedrun some Machines once again!"
 			icon: "create:brass_ingot"
-			x: -7.0d
-			y: 0.0d
+			x: 3.0d
+			y: 3.0d
 			shape: "square"
 			subtitle: "Luckily, this chapter is easy to speedrun as you really just need redstone and skystone!"
 			dependencies: ["6EFF8BCEBC2E2AF2"]
@@ -776,10 +664,10 @@
 		}
 		{
 			title: "4x Crushing Wheels"
-			x: -6.0d
-			y: 1.0d
+			x: 3.0d
+			y: 5.0d
 			subtitle: "For sand automation. But shh, you can also make sand with a millstone at less efficiency!"
-			dependencies: ["4BC7774659DA5996"]
+			dependencies: ["54866C6D8E7DD4D1"]
 			dependency_requirement: "one_started"
 			id: "0D2D800F4A49CA86"
 			tasks: [{
@@ -801,21 +689,9 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 1.0d
-			subtitle: "Melting Iron and Redstone"
-			dependencies: ["4BC7774659DA5996"]
-			id: "74A44C35A73EB298"
-			tasks: [{
-				id: "0DD47A4E704F719D"
-				type: "item"
-				item: "tconstruct:seared_melter"
-			}]
-		}
-		{
-			title: "27x Mechanical Crafters"
-			x: -7.0d
-			y: 1.0d
+			title: "21x Mechanical Crafters"
+			x: 3.0d
+			y: 4.0d
 			subtitle: "For Crushing Wheels"
 			dependencies: ["4BC7774659DA5996"]
 			id: "54866C6D8E7DD4D1"
@@ -823,7 +699,230 @@
 				id: "0A8DF121E4AE9719"
 				type: "item"
 				item: "create:mechanical_crafter"
-				count: 27L
+				count: 21L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["5D9D3025CB2DEEA4"]
+			id: "6C157C90A109C62C"
+			tasks: [{
+				id: "648FCD08F3DE9ECB"
+				type: "item"
+				item: "ae2:sky_stone_block"
+			}]
+		}
+		{
+			title: "Cobblestone"
+			icon: "minecraft:cobblestone"
+			x: 3.0d
+			y: 1.5d
+			shape: "rsquare"
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "68C479C7186A272E"
+			tasks: [{
+				id: "59BA3378413E26D7"
+				type: "checkmark"
+				title: "Make a Cobble Gen"
+			}]
+		}
+		{
+			title: "Gravel"
+			icon: "minecraft:gravel"
+			x: 3.0d
+			y: 0.5d
+			subtitle: "Crush Cobblestone"
+			dependencies: ["68C479C7186A272E"]
+			id: "587F4DF4DAE4FEA7"
+			tasks: [{
+				id: "731625C1D0DBD738"
+				type: "checkmark"
+				title: "Crush Cobblestone"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			subtitle: "As you can see, Redstone is quite Central! Click for more Info."
+			description: ["Redstone will have to go to The Catalyst to make more Skystone. Redstone will also have to go to a Smeltery to make Destabilized Redstone. Lastly, you win back Redstone by Smelting Redstone Clusters."]
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "44DC0A3FAA5645AB"
+			tasks: [{
+				id: "150B36A2AF20D48D"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			shape: "rsquare"
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "1AB3B0F68A9C03CE"
+			tasks: [{
+				id: "7B311DF874E9F6CF"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: [
+				"1AB3B0F68A9C03CE"
+				"44DC0A3FAA5645AB"
+			]
+			id: "630ECD0F8AB8AF0C"
+			tasks: [{
+				id: "4F8E2C92A1632FAA"
+				type: "item"
+				item: "thermal:redstone_bucket"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: [
+				"630ECD0F8AB8AF0C"
+				"44DC0A3FAA5645AB"
+			]
+			dependency_requirement: "one_completed"
+			id: "0EC86FFDFEDFDF96"
+			tasks: [{
+				id: "4928E8FC05FCF196"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Click for Info."
+			description: ["The Sequenced Assembly will only return Redstone Seeds as salvage."]
+			dependencies: ["0EC86FFDFEDFDF96"]
+			id: "28F41BBD84F43AAB"
+			tasks: [{
+				id: "559108A26CC73C87"
+				type: "item"
+				item: "kubejs:redstone_seed"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["415F16AFB5FDC3FC"]
+			id: "449387DB0AC44B63"
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: [
+				"1AB3B0F68A9C03CE"
+				"15AB5DED45C5B6E4"
+			]
+			id: "608F9C97C746DA3A"
+			tasks: [{
+				id: "017671F75778E46F"
+				type: "item"
+				item: "tconstruct:molten_iron_bucket"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			subtitle: "From Crimsite Catalysts. See the the Chapter Automated Excavation for more info."
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "472F3F99F006C58B"
+			tasks: [{
+				id: "5F4888E0B611709A"
+				type: "item"
+				item: "create:crushed_raw_iron"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			subtitle: "Crush Cobblestone"
+			dependencies: ["4BF0679BAD02D8AE"]
+			id: "183650453A13684A"
+			tasks: [{
+				id: "718D4C41D77F08F6"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			shape: "rsquare"
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "4BF0679BAD02D8AE"
+			tasks: [{
+				id: "5227F6047A422F41"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			title: "Eternal Screwdriver"
+			icon: {
+				id: "kubejs:screwdriver"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					Damage: 0
+					Repair: 1b
+					Modifier: "forbidden_arcanus:eternal"
+					Enchantments: [{ }]
+				}
+			}
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["6EFF8BCEBC2E2AF2"]
+			hide: true
+			id: "4F6956BBD4CE7CCF"
+			tasks: [
+				{
+					id: "0A008155B6EA02F3"
+					type: "item"
+					item: "thermal:silver_coin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "0ABF89723D2340A1"
+					type: "item"
+					item: {
+						id: "kubejs:screwdriver"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "72EFCB2BD99F66C1"
+				type: "item"
+				item: {
+					id: "kubejs:screwdriver"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						Damage: 0
+						Repair: 1b
+						Modifier: "forbidden_arcanus:eternal"
+						Enchantments: [{ }]
+					}
+				}
 			}]
 		}
 	]

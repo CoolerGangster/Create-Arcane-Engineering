@@ -1,10 +1,16 @@
 {
 	id: "087EABA1209B88CF"
-	group: "42A213AA17D37DAF"
-	order_index: 10
+	group: "595B2B01CFB4E702"
+	order_index: 1
 	filename: "chapter_6_finale"
 	title: "Chapter X: The End."
-	icon: "supplementaries:globe_sepia"
+	icon: {
+		id: "supplementaries:globe_sepia"
+		Count: 1b
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -44,24 +50,6 @@
 				id: "01C8B90F875494CC"
 				type: "dimension"
 				dimension: "cae:arcane"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 0.0d
-			dependencies: ["33B884E7D9E5A820"]
-			hide: true
-			id: "2063E17A2AB0D56B"
-			tasks: [{
-				id: "71C38F4231946750"
-				type: "item"
-				item: {
-					id: "pneumaticcraft:amadron_tablet"
-					Count: 1b
-					tag: {
-						"pneumaticcraft:air": 30000
-					}
-				}
 			}]
 		}
 		{
@@ -136,7 +124,7 @@
 			x: 0.0d
 			y: 5.5d
 			shape: "diamond"
-			subtitle: "Each biome has essences to extract, however every other than the source essence requires another essence to cultivate it. You'll need an extensive logistics network to handle them."
+			description: ["Each biome has essences to extract, however every other than the source essence requires another essence to cultivate it. You'll need an extensive logistics network to handle them."]
 			dependencies: ["33B884E7D9E5A820"]
 			hide: true
 			id: "12D4F65D7254E7E2"
@@ -473,7 +461,7 @@
 		{
 			x: -10.0d
 			y: 17.5d
-			subtitle: "Left click the omelett block with a knife to obtain Arcane Omelett Sheets"
+			description: ["Left click the omelett block with a knife to obtain Arcane Omelett Sheets"]
 			dependencies: ["6633BC006C8A7C8B"]
 			id: "792896D6601E25B2"
 			tasks: [{
@@ -732,7 +720,7 @@
 		{
 			x: -5.0d
 			y: 13.5d
-			subtitle: "Exploding stone with Inferno TNT will grant magma blocks"
+			description: ["Exploding stone with Inferno TNT will grant magma blocks"]
 			dependencies: ["5020FCDDC95BB62A"]
 			id: "477B115121FF45A2"
 			tasks: [{
@@ -755,7 +743,7 @@
 		{
 			x: -5.0d
 			y: 15.5d
-			subtitle: "Exploding magma with Glacial TNT will grant Blue Ice. Be warned, having this too close to your cobble gen will transmute the lava to obsidian"
+			description: ["Exploding magma with Glacial TNT will grant Blue Ice. Be warned, having this too close to your cobble gen will transmute the lava to obsidian"]
 			dependencies: ["476D9B8E02B0331E"]
 			id: "33A1044328EB0748"
 			tasks: [{
@@ -883,7 +871,7 @@
 		{
 			x: 3.5d
 			y: 15.5d
-			subtitle: "Spout Cascading Juice onto placed Cascading Saplings"
+			description: ["Spout Cascading Juice onto placed Cascading Saplings"]
 			dependencies: [
 				"20CD12C610E188C3"
 				"6AE45DA328059B1C"
@@ -898,7 +886,7 @@
 		{
 			x: 4.5d
 			y: 16.5d
-			subtitle: "Spout Flourishing Juice onto placed Flourishing Saplings"
+			description: ["Spout Flourishing Juice onto placed Flourishing Saplings"]
 			dependencies: [
 				"5DDD9C63929E9186"
 				"72A7613CFB680DD1"
@@ -913,7 +901,7 @@
 		{
 			x: 5.5d
 			y: 16.5d
-			subtitle: "Spout Vexing Juice onto placed Vexing Saplings"
+			description: ["Spout Vexing Juice onto placed Vexing Saplings"]
 			dependencies: [
 				"51D0E3FF82128F07"
 				"7D240D7B4265CD67"
@@ -928,7 +916,7 @@
 		{
 			x: 6.5d
 			y: 15.5d
-			subtitle: "Spout Blazing Juice onto placed Blazing Saplings"
+			description: ["Spout Blazing Juice onto placed Blazing Saplings"]
 			dependencies: [
 				"5D6942F4AF46788C"
 				"51E9C074E51C08A3"
@@ -1068,8 +1056,8 @@
 		}
 		{
 			x: 0.0d
-			y: -1.0d
-			subtitle: "You have to fill the Source Crystal without damaging its structure. Maybe entangled blocks could help?"
+			y: 0.0d
+			description: ["You have to fill the Source Crystal without damaging its structure. Maybe entangled blocks could help?"]
 			dependencies: ["33B884E7D9E5A820"]
 			hide: true
 			id: "5EEB1B8FCD2C1830"

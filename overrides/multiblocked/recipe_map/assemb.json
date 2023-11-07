@@ -1,0 +1,177 @@
+{
+  "name": "assemb",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "4f1a2e04-654a-435a-b7c0-dfc5440aed28",
+      "duration": 290,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 12,
+              "ingredient": {
+                "item": "kubejs:pcb_assembly_2"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 36,
+              "ingredient": {
+                "item": "kubejs:legend_pcb"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "content": 1000,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8b69a57d-e600-4cd9-8112-c4aa3aea9b98",
+      "duration": 290,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "ars_nouveau:source_gem"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:sourcegem_fragments"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:sourcegem_fragments"
+              }
+            },
+            "chance": 0.6
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "content": 2000,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c3e9ed16-acf1-43c5-a7fb-1a4e50c1d552",
+      "duration": 290,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 7,
+              "ingredient": {
+                "item": "kubejs:untested_pcb"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 7,
+              "ingredient": {
+                "item": "kubejs:mystery_pcb"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "content": 1000,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c3e9ed16-acf1-43c5-a7fb-1a4e50c1d612",
+      "duration": 290,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 12,
+              "ingredient": {
+                "item": "kubejs:pcb_assembly"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 36,
+              "ingredient": {
+                "item": "pneumaticcraft:empty_pcb"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "content": 1000,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

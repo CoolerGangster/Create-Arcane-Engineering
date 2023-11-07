@@ -1,7 +1,7 @@
 {
 	id: "23E704844FBC1F13"
-	group: "42A213AA17D37DAF"
-	order_index: 0
+	group: ""
+	order_index: 3
 	filename: "chapter_0_beginnings"
 	title: "Chapter 0: Beginnings"
 	icon: "minecraft:crafting_table"
@@ -37,7 +37,11 @@
 		{
 			x: 1.5d
 			y: 0.5d
-			subtitle: "You know how to punch trees, right? Before you get too invested in all the mods, if you're not sure what you're doing, just play some Minecraft. Build a house, build a farm, do the usual."
+			description: [
+				"You know how to punch trees, right? "
+				"Before you get too invested in all the mods, if you're unsure of what to do, just play some Minecraft. "
+				"Build a house, build a farm, do the usual."
+			]
 			id: "2F63FB9E8EAC18BD"
 			tasks: [{
 				id: "4C7985B45293CFD6"
@@ -49,7 +53,7 @@
 			title: "I can't wait to be an engineer!"
 			x: 1.5d
 			y: -2.5d
-			subtitle: "Fair enough, here is some stuff to gather."
+			description: ["Fair enough, here is some stuff to gather!"]
 			dependencies: ["2F63FB9E8EAC18BD"]
 			id: "4DCF01FE026F9FE5"
 			tasks: [{
@@ -89,7 +93,7 @@
 			]
 		}
 		{
-			title: "Item grinding, useful for a variety of things."
+			title: "Early Crushing"
 			x: -2.0d
 			y: 2.0d
 			dependencies: ["69C0AE6714182D7F"]
@@ -164,7 +168,7 @@
 		{
 			x: 2.5d
 			y: -4.5d
-			subtitle: "Lots of iron."
+			subtitle: "Lots of Iron."
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "769ACE88C21CA4F9"
 			tasks: [{
@@ -287,7 +291,7 @@
 		{
 			x: 0.5d
 			y: -4.5d
-			subtitle: "You can make Andesite Alloy with it"
+			subtitle: "Better Andesite Alloy rates than Diorite"
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "227004D221260FC2"
 			tasks: [{
@@ -299,7 +303,10 @@
 		{
 			x: 1.5d
 			y: 2.5d
-			subtitle: "Here are the items you'll need to get started, and once you begin, there's no turning back! 12121!!"
+			description: [
+				"Here are the items you'll need to get started."
+				"Once you begin, there's no turning back!"
+			]
 			dependencies: ["2F63FB9E8EAC18BD"]
 			id: "749112B711CAB183"
 			tasks: [{
@@ -409,7 +416,7 @@
 			}]
 		}
 		{
-			title: "EZ Tree Chopping"
+			title: "Easy Tree Chopping"
 			x: -3.0d
 			y: 2.0d
 			dependencies: ["69C0AE6714182D7F"]
@@ -432,9 +439,10 @@
 			}]
 		}
 		{
-			title: "Doubling Andesite Alloy rates."
+			title: "Mixing"
 			x: -4.5d
 			y: -0.5d
+			subtitle: "Doubles Andesite Alloy rates."
 			dependencies: ["69C0AE6714182D7F"]
 			id: "7B1516AB858E84A1"
 			tasks: [{
@@ -446,7 +454,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			subtitle: "You can make Andesite Alloy with it"
+			subtitle: "Early Andesite Alloy compound"
 			dependencies: ["4DCF01FE026F9FE5"]
 			id: "02EE7F0461B0DFBF"
 			tasks: [{

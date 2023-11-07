@@ -35,7 +35,7 @@ onEvent('recipes',event => {
     ]).transitionalItem(t).loops(1)
     t = KJ("incomplete_pcb_blueprint")
   event.recipes.createSequencedAssembly([
-    'pneumaticcraft:pcb_blueprint',
+    '3x pneumaticcraft:pcb_blueprint',
   ], 'create:empty_schematic', [
     event.recipes.createDeploying(t, [t, 'ae2:printed_calculation_processor']),
     event.recipes.createDeploying(t, [t, 'ae2:printed_logic_processor']),
@@ -55,4 +55,14 @@ onEvent('recipes',event => {
       event.recipes.thermal.crystallizer(`2x quark:${i}_corundum_cluster`,[`quark:${i}_corundum_cluster`,Fluid.of('minecraft:water',1000)])
       event.recipes.thermal.crystallizer(`2x quark:${i}_corundum`,[`quark:${i}_corundum`,Fluid.of('minecraft:water',1000)])
   });
+
+  event.recipes.createMechanicalCrafting("cae:advassembly", [
+    'PZP',
+    'DDD',
+    'PZP'
+  ], {
+    P: "kubejs:supercritical_mechanism",
+    Z: "kubejs:finalpcb",
+    D: "cae:supercritical_casing"
+})
 })

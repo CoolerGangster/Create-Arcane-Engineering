@@ -1,0 +1,175 @@
+{
+  "version": 3,
+  "location": "cae:oiltower",
+  "traits": {},
+  "properties": {
+    "rotationState": "NONE",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 2.0E7,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 100,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "type": "gregtech",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "formedAsController": true,
+        "type": "gregtech",
+        "postRenderer": false
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "oil",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "AFA",
+        "A A",
+        "A A",
+        " A ",
+        " A ",
+        "   ",
+        "   "
+      ],
+      [
+        "CD@",
+        " E ",
+        "AEA",
+        "AEA",
+        "AAA",
+        " A ",
+        " A "
+      ],
+      [
+        "AGA",
+        "AAA",
+        "AAA",
+        " A ",
+        " A ",
+        "   ",
+        "   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "davebuildingmod:steel_frame"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cae:oiltower",
+        "type": "component"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "multiblocked:create_input"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "minecraft:command_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:drill_pipe"
+          }
+        ],
+        "type": "blocks"
+      },
+      "fout": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "fin": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "fout"
+      ],
+      "G": [
+        "fin"
+      ]
+    }
+  }
+}

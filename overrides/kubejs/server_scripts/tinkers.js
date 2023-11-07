@@ -90,12 +90,27 @@ onEvent('recipes', event => {
 		"cast_consumed": true,
 		"fluid": {
 		  "name": "kubejs:source",
-		  "amount": 144	
+		  "amount": 200	
 		},
 		"result": "ars_nouveau:source_gem",
-		"cooling_time": 666
+		"cooling_time": 100
 	  }
 	  )
+	  event.custom({
+		"type": "tconstruct:casting_table",
+		"cast": {
+		  "tag": "forge:nuggets"
+		},
+		"cast_consumed": true,
+		"fluid": {
+		  "name": "tconstruct:molten_gold",
+		  "amount": 90	
+		},
+		"result": "tconstruct:nugget_cast",
+		"cooling_time": 40
+	  }
+	  )
+	  
 	event.custom({
 		"type": "tconstruct:melting_fuel",
 		"fluid": {

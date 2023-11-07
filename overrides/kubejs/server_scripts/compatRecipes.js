@@ -1,6 +1,6 @@
 let wrencharray = []
 let dumbshitarray =  [
-    "kubejs:gold_casing",
+    "cae:gold_casing",
     "2x create:portable_storage_interface",
     "2x create:mechanical_harvester",
     "2x create:mechanical_plough",
@@ -153,6 +153,10 @@ let dumbshitarray =  [
     "ae2:terminal",
     "2x entangled:block",
     "pneumaticcraft:aerial_interface",
+    "cae:zinc_casing",
+    "cae:gold_casing",
+    "cae:enderium_casing",
+    "cae:supercritical_casing"
 ]
 
 onEvent('block.right_click', event =>{
@@ -167,10 +171,18 @@ onEvent('block.right_click', event =>{
         
     }
 
-  })
+})
+onEvent('block.break', event => {
+
+   if (event.player.isCreativeMode()) {return}
+    if (event.player.mainHandItem.toString().includes("gavel") && event.player.mainHandItem.toString().includes("silk_touch") || event.block.id == "minecraft:ancient_debris"){
+        event.player.setStatusMessage(Text.darkRed("Thou Shall not mine stuff with a Gavel and Silk Touch"))
+        event.cancel()
+    }
+})
 
 onEvent('recipes', event => {
-
+    event.recipes.create.mixing("thermal:steel_ingot",["thermal:coal_coke","thermal:iron_dust"])
     let t = 'kubejs:incomplete_cogwheel'
     
     event.recipes.createSequencedAssembly([
@@ -179,8 +191,25 @@ onEvent('recipes', event => {
       event.recipes.createDeploying(t, [t, '#minecraft:wooden_buttons']),
       event.recipes.createCutting(t,t)
     ]).transitionalItem('kubejs:incomplete_cogwheel').loops(4)
-    
-    //event.remove({id: 'create:crafting/kinetics/large_cogwheelfrom_little'})
+    function nineitemstoitem(o,i) {
+        event.shaped(o, [
+            'SSS',
+            'SSS',
+            'SSS'
+          ], {
+            S: i
+        })
+    }
+    function itemtoninetimes(o,i){
+        event.shapeless(Item.of(o,9),Item.of(i))
+    }
+    event.shapeless(Item.of("ars_nouveau:source_gem",4),"ars_nouveau:source_gem_block")
+    itemtoninetimes("forbidden_arcanus:arcane_crystal","forbidden_arcanus:arcane_crystal_block")
+    itemtoninetimes("create:andesite_alloy","create:andesite_alloy_block")
+    itemtoninetimes("thermal:invar_ingot","thermal:invar_block")
+    nineitemstoitem("thermal:invar_ingot","thermal:invar_nugget")
+    event.remove({id: 'forbidden_arcanus:golden_orchid_seeds'})
+    event.remove({output: 'architects_palette:ancient_plating_slab'})
     event.remove({id: 'create:crafting/kinetics/belt_connector'})
     //event.shapeless('create:large_cogwheel',['create:cogwheel','#minecraft:planks'])
     event.remove({id: 'tinkers_reforged:smeltery/melting/redstone'})
@@ -201,6 +230,8 @@ onEvent('recipes', event => {
     event.smelting('ae2:certus_quartz_crystal','ae2:certus_quartz_dust')
     event.remove({id: 'create:mixing/coal_deepslate'})
     event.remove({id: 'create:mixing/charcoal_deepslate'})
+    event.remove({id: 'tconstruct:smeltery/melting/metal/iron/chain'})
+    event.replaceInput({id:"chunkymcchunkface:chunk_loader"},"#forge:nether_stars","kubejs:integrational_machine")
     //making stuff renewable
     event.recipes.createMixing('8x minecraft:deepslate',['8x minecraft:cobblestone','#minecraft:coals']).id('renewabledeepslate')
     event.recipes.create.haunting('minecraft:tuff','minecraft:infested_deepslate').id('tufffromdeepslate')
@@ -208,7 +239,7 @@ onEvent('recipes', event => {
     //dye automations
     let corundum = ["red", "orange", "yellow", "green", "blue", "white", "black"]
     corundum.forEach(Color => {
-        event.recipes.createPressing(Item.of('minecraft:' + Color + '_dye').withChance(0.33),'quark:' + Color + '_corundum_cluster')
+        event.recipes.createPressing(Item.of('minecraft:' + Color + '_dye'),'quark:' + Color + '_corundum_cluster')
     });
     /*event.shaped('8x create:cogwheel', [ //TODO: Check if ME controller is wrenchpickupable
         'GGG',
@@ -342,6 +373,9 @@ onEvent('recipes', event => {
             'tin',
             'lead',
             'silver',
+            "gold",
+            "netherite",
+            "copper",
             'nickel']
 
             function crush2dust(In) {event.recipes.create.crushing("thermal:"+ In + "_dust", "#forge:ingots/" + In)}
@@ -477,14 +511,13 @@ onEvent('recipes', event => {
 
 
 
-
     event.custom({
         "type":"createaddition:liquid_burning",
         "input": {
               "fluidTag": "forge:kerosene",
               "amount": 1000
         },
-        "burnTime": 51200,
+        "burnTime": 15000,
         "superheated": true,
         "conditions": [
             {
@@ -499,7 +532,7 @@ onEvent('recipes', event => {
               "fluidTag": "forge:lpg",
               "amount": 1000
         },
-        "burnTime": 51200,
+        "burnTime": 15000,
         "superheated": true,
         "conditions": [
             {
@@ -517,6 +550,7 @@ onEvent('recipes', event => {
     //start of the multicut shit
         let multicut = (outputs, input, remove_old) =>{
         outputs.forEach(output =>{
+            console.log(`${Item.of(input)} to ${Item.of(output)}`)
             if (remove_old) {
             event.remove({output: output})
             };
@@ -545,6 +579,7 @@ onEvent('recipes', event => {
     //smithin
     let machine_smithing = (recipes, machine, remove_old) =>{
         recipes.forEach(entry => {
+            console.log(`Attempting to Create ${Item.of(entry[0])} to ${Item.of(entry[1])} from ${machine}`)
             if (remove_old) {
                 event.remove({output: entry[1]})
             };
@@ -555,7 +590,12 @@ onEvent('recipes', event => {
             if (!entry[1].toString().startsWith("x ",1) && !entry[1].toString().startsWith("x ", 2)){
                 if(Item.of(entry[1]).isBlock()){
                 event.recipes.create.itemApplication(entry[1],[machine,entry[0]])
-            }   
+                } 
+            }  
+            if (entry[1].toString().startsWith("x ",1) || entry[1].toString().startsWith("x ", 2)){
+                
+                event.recipes.create.deploying(entry[1],[machine,entry[0]])
+             
             }
             
             if (entry[1].toString().startsWith("x ", 1)) {entry[1] = entry[1].slice(3)}
@@ -622,7 +662,6 @@ onEvent('recipes', event => {
         Item.of('create:smart_fluid_pipe', 2),
     	Item.of('create:hose_pulley', 1),
     	Item.of('create:portable_fluid_interface', 2),
-        Item.of('thermal:device_soil_infuser',1),
         //Item.of('alloyedguns:advanced_gun_kit'),
         Item.of('create:steam_engine',3),
        
@@ -647,7 +686,6 @@ onEvent('recipes', event => {
     multicut(copper_machines_cutting,"kubejs:sealed_machine",true)
     machine_smithing(copper_smithing, "kubejs:sealed_machine",true)
     const sturdy_smithing = [
-        [MC('redstone'),'2x railways:track_coupler'],
         [MC('lever'), 'create:controls'],
         [MC("observer"),'2x create:track_observer'],
         ['thermal:energy_cell_frame','thermal:energy_cell'],
@@ -669,7 +707,8 @@ onEvent('recipes', event => {
     ];
     const sturdy_cutting =[
         Item.of('pneumaticcraft:turbine_blade',4),
-        Item.of("pneumaticcraft:heat_pipe",8)
+        Item.of("pneumaticcraft:heat_pipe",8),
+        "2x railways:track_coupler"
 
     ]
     const sturdy_cutting2 =[
@@ -681,7 +720,6 @@ onEvent('recipes', event => {
     multicut(sturdy_cutting2, "kubejs:sturdy_machine",false)
     const plastic_machines_smithing = [
         ['minecraft:glass_bottle','thermal:device_potion_diffuser'],
-        ['minecraft:cactus','thermal:device_nullifier'],
         ['minecraft:ender_pearl','thermal:device_collector'],
         ['minecraft:piston','thermal:device_rock_gen'],
         ['minecraft:redstone','thermal:upgrade_augment_3'],
@@ -706,10 +744,25 @@ onEvent('recipes', event => {
     const plastic_cutting = [
         Item.of("pneumaticcraft:charging_station")
     ]
+    event.remove({id:"ae2:vibration_chamber"})
+    event.remove({id:"ae2:quartz_growth_accelerator"})
+    event.replaceInput({id:"forbidden_arcanus:utrem_jar"},"#forge:glass/colorless","glassential:glass_ghostly")
+
+    
     multicut(plastic_cutting,'kubejs:plastic_machine',true)
     machine_smithing(plastic_machines_smithing, "kubejs:plastic_machine", true)
     const invar_machines_smithing = [
+        ['minecraft:glowstone_dust','ae2:semi_dark_monitor'],
+        ['minecraft:redstone_block','ae2:energy_acceptor'],
+        [TE("machine_crafter"),'ae2:crafting_terminal'],
+        ['ae2:crafting_terminal','ae2:wireless_crafting_terminal'],
+        ['ae2:terminal','ae2:wireless_terminal'],
+        ['ae2:wireless_terminal','ae2:wireless_crafting_terminal'],
+        [AE2("fluix_pearl"),AE2('condenser')],
+        [MC("chest"),AE2('chest')],
+        ['integratedterminals:part_terminal_storage','ae2:terminal'],
         [TE('rf_coil'), TE("dynamo_compression")],
+        ['minecraft:cactus','thermal:device_nullifier'],
         [MC('nether_bricks'),TE('machine_crucible')],
         [MC('bricks'),TE('machine_furnace')],
         [MC('packed_ice'), TE('machine_chiller')],
@@ -723,6 +776,7 @@ onEvent('recipes', event => {
         [MC('brewing_stand'),TE('machine_brewer')],
         [MC('dirt'),TE('machine_insolator')],
         [MC('quartz'),TE('machine_crystallizer')],
+        ['#functionalstorage:drawer',"functionalstorage:controller_extension"],
         [CR('mechanical_press'),TE('machine_press')],
         [MC('crafting_table'),TE('machine_crafter')],
         ['create:precision_mechanism','pneumaticcraft:assembly_controller'],
@@ -733,8 +787,18 @@ onEvent('recipes', event => {
         ['create:depot','pneumaticcraft:assembly_platform']
     ]
     event.remove({id: 'integrateddynamics:crafting/logic_director'})
+    event.remove({id:"ae2:network/cables/glass_fluix"})
+    event.remove({id:"ae2:network/cables/covered_fluix"})
+    event.remove({id:"ae2:network/cables/smart_fluix"})
+    event.shapeless("3x ae2:fluix_smart_cable" ,["ae2:fluix_covered_cable","redstone","glowstone_dust"])
+    event.remove({id:"ae2:network/cables/dense_smart_fluix"})
+    event.shapeless("3x ae2:fluix_smart_dense_cable" ,["ae2:fluix_covered_dense_cable","redstone","glowstone_dust"])
+    
+    event.shapeless("12x ae2:fluix_glass_cable",["2x ae2:fluix_crystal","ae2:quartz_fiber"])
+    event.recipes.create.filling(Item.of("ae2:fluix_covered_cable"),[Item.of("ae2:fluix_glass_cable"),Fluid.of("pneumaticcraft:plastic",90)])
     machine_smithing(invar_machines_smithing, "kubejs:radiant_machine", true)
     const integrational_smithing = [
+
         ['thermal:rf_coil','thermal:dynamo_gourmand'],
         ['integrateddynamics:part_display_panel','integratedterminals:part_terminal_storage'],
         ['minecraft:crafting_table','integratedterminals:part_terminal_crafting_job'],
@@ -744,11 +808,15 @@ onEvent('recipes', event => {
         ['integrateddynamics:squeezer','integrateddynamics:mechanical_squeezer'],
         ['integrateddynamics:variable','integrateddynamics:materializer'],
         ['integrateddynamics:variablestore','integrateddynamics:proxy'],
-        ['createaddition:modular_accumulator','integrateddynamics:energy_battery'],
         ['minecraft:chest','integrateddynamics:variablestore'],
+     
         ['integrateddynamics:variable_transformer_input','integratednbt:nbt_extractor']
 
     ]
+    const integrational_manual = [
+        ['createaddition:modular_accumulator','integrateddynamics:energy_battery']
+    ]
+    machine_smithing(integrational_manual,'kubejs:integrational_machine',false)
     const radiant_cutting = [
         //Item.of('alloyedguns:complex_gun_kit')
     ]
@@ -757,6 +825,9 @@ onEvent('recipes', event => {
     event.remove({id: "ars_creo:starbuncle_wheel"})
     event.shaped("ars_creo:starbuncle_wheel", ["XXX", "XWX", "XXX"], {X:"ars_nouveau:starbuncle_shards", W:"create:water_wheel"})
     event.replaceInput({id: "create:crafting/kinetics/train_trapdoor"},"create:brass_sheet","create:sturdy_sheet")
+
+	event.replaceInput({},"ae2:sky_stone_block","#cae:skystone")
+	
     //event.recipes.create.deploying('ars_nouveau:magebloom_crop',['#forge:seeds','kubejs:runic_tablet'])
     multicut(radiant_cutting,"kubejs:radiant_machine",true)
     let containercolors = [
@@ -775,25 +846,48 @@ onEvent('recipes', event => {
         Item.of('integrateddynamics:portable_logic_programmer'),
         Item.of('integrateddynamics:cable',4)
     ]
-    
-    multicut(integrational_cutting,"kubejs:integrational_machine",true)
 
+    multicut(integrational_cutting,"kubejs:integrational_machine",true)
+    event.remove({id:"create_sa:quartz_gem_crushing"})
+    event.remove({id:"create_sa:magma_cream_recipe"})
+    event.remove({id:"create_sa:netherrack_recipe"})
+    event.remove({id:"create_sa:incomplete_web_recipe"})
+    event.remove({id:"create_sa:incomplete_book_recipe"})
     event.replaceInput({id:'create:mechanical_crafting/wand_of_symmetry'},'minecraft:ender_pearl',"create:refined_radiance")
-    
+    event.replaceInput({},"create_sa:hydraulic_engine","kubejs:sealed_mechanism")
+    event.replaceInput({},"create_sa:steam_engine","create:precision_mechanism")
+    event.replaceInput({},"create_sa:heat_engine","#create:kinetic_mechanisms")
     event.replaceInput({id:'create:mechanical_crafting/wand_of_symmetry'},'create:precision_mechanism',"kubejs:radiant_mechanism")
     
     event.remove({id: 'integrateddynamics:crafting/coal_generator'})
-    
+    event.replaceInput({id:"ae2:network/cells/item_storage_components_cell_1k_part"},AE2("logic_processor"),"kubejs:time_mechanism")
+    event.replaceInput({id:"ae2:network/cells/item_storage_components_cell_4k_part"},AE2("calculation_processor"),"kubejs:time_mechanism")
+
+    event.remove({id:"ae2:network/parts/terminals_pattern_encoding"})
+    event.shapeless("ae2:pattern_encoding_terminal",["ae2:crafting_terminal","4x pneumaticcraft:printed_circuit_board"])
     const timesmithing = [
         ['thermal:rf_coil','thermal:dynamo_disenchantment'],
-        ['minecraft:glowstone_dust','ae2:semi_dark_monitor'],
-        [AE2("fluix_pearl"),AE2('condenser')],
-        ['integratedterminals:part_terminal_storage','ae2:terminal']
+        ['ae2:chest','ae2:drive'],
+        ['pneumaticcraft:printed_circuit_board','ae2:pattern_provider'],
+        ['ae2:engineering_processor','ae2:molecular_assembler'],
+        ['ae2:calculation_processor','ae2:advanced_card'],
+        ['minecraft:piston','ae2:storage_bus'],
+        ['create:portable_storage_interface','ae2:io_port'],
+        ['ae2:logic_processor','ae2:crafting_unit'],
+        ['create:brass_funnel','ae2:interface'],
+        ['minecraft:smithing_table','ae2:cell_workbench'],
+        ['ae2:wireless_receiver','ae2:wireless_access_point'],
+        ["waystones:warp_stone","waystones:waystone"],
+        ["waystones:warp_stone","waystones:mossy_waystone"],
+        ["waystones:warp_stone","waystones:sandy_waystone"]
     ]
+    event.remove({id:"waystones:warp_stone"})
     
     const timecutting = [
         Item.of(AE2('formation_core'),4),
-        
+        Item.of(AE2("wireless_booster")),
+        Item.of(AE2("cell_workbench")),
+        Item.of(AE2("basic_card"),6),
         Item.of(AE2('annihilation_core'),4),
         
         "ae2:controller",
@@ -1278,38 +1372,38 @@ onEvent('recipes', event => {
     event.remove({mod:'integrateddynamics',output: "minecraft:netherrack"})
     event.remove({output: 'functionalstorage:ender_drawer'})
     event.remove({output: /^functionalstorage\:fluid_/})
-    machineration('integrational','kubejs:gold_casing')
-    machineration('plastic','kubejs:zinc_casing')
-    machineration('time','kubejs:enderium_casing')
-    machineration('supercritical','kubejs:supercritical_casing')
+    machineration('integrational','cae:gold_casing')
+    machineration('plastic','cae:zinc_casing')
+    machineration('time','cae:enderium_casing')
+    machineration('supercritical','cae:supercritical_casing')
 
-    event.recipes.create.itemApplication('kubejs:enderium_casing',['#forge:stripped_logs',TE('enderium_ingot')])
+    event.recipes.create.itemApplication('cae:enderium_casing',['#forge:stripped_logs',TE('enderium_ingot')])
 
     
-    event.recipes.create.deploying('kubejs:enderium_casing',['#forge:stripped_logs',TE('enderium_ingot')])
-    event.recipes.create.itemApplication('kubejs:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
-    event.recipes.create.deploying('kubejs:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
+    event.recipes.create.deploying('cae:enderium_casing',['#forge:stripped_logs',TE('enderium_ingot')])
+    event.recipes.create.itemApplication('cae:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
+    event.recipes.create.deploying('cae:enderium_casing',['#forge:stripped_wood',TE('enderium_ingot')])
     //event.recipes.thermal.rockGen('minecraft:andesite',[Fluid.of('create:honey'),Fluid.of('minecraft:water')])
-    event.recipes.create.itemApplication('kubejs:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
-    event.recipes.create.deploying('kubejs:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
-    event.recipes.create.itemApplication('kubejs:zinc_casing',['#forge:stripped_wood','#forge:plates/zinc'])
-    event.recipes.create.deploying('kubejs:zinc_casing',['#forge:stripped_wood','#forge:plates/zinc']) 
+    event.recipes.create.itemApplication('cae:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
+    event.recipes.create.deploying('cae:zinc_casing',['#forge:stripped_logs','#forge:plates/zinc'])
+    event.recipes.create.itemApplication('cae:zinc_casing',['#forge:stripped_wood','#forge:plates/zinc'])
+    event.recipes.create.deploying('cae:zinc_casing',['#forge:stripped_wood','#forge:plates/zinc']) 
 
     function casineration(o,I,i){
         event.recipes.create.itemApplication(o,[i,I])
         event.recipes.create.deploying(o,[i,I]) 
     }
     
-    casineration("create:refined_radiance_casing",'#forge:stripped_wood','create:refined_radiance')
-    casineration("create:refined_radiance_casing",'#forge:stripped_logs','create:refined_radiance')
-    casineration("create:shadow_steel_casing",'#forge:stripped_wood','create:shadow_steel')
-    casineration("create:shadow_steel_casing",'#forge:stripped_logs','create:shadow_steel')
-    casineration("kubejs:supercritical_casing","create:shadow_steel_casing","create:refined_radiance_casing")
+    casineration("create:refined_radiance_casing",'create:refined_radiance','#forge:stripped_wood')
+    casineration("create:refined_radiance_casing",'create:refined_radiance','#forge:stripped_logs')
+    casineration("create:shadow_steel_casing",'create:shadow_steel','#forge:stripped_wood')
+    casineration("create:shadow_steel_casing",'create:shadow_steel','#forge:stripped_logs')
+    casineration("cae:supercritical_casing","create:refined_radiance_casing","create:shadow_steel_casing")
 
-    event.recipes.create.itemApplication('kubejs:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
-    event.recipes.create.deploying('kubejs:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
-    event.recipes.create.itemApplication('kubejs:gold_casing',['#forge:stripped_wood','#forge:plates/gold'])
-    event.recipes.create.deploying('kubejs:gold_casing',['#forge:stripped_wood','#forge:plates/gold']) 
+    event.recipes.create.itemApplication('cae:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
+    event.recipes.create.deploying('cae:gold_casing',['#forge:stripped_logs','#forge:plates/gold'])
+    event.recipes.create.itemApplication('cae:gold_casing',['#forge:stripped_wood','#forge:plates/gold'])
+    event.recipes.create.deploying('cae:gold_casing',['#forge:stripped_wood','#forge:plates/gold']) 
     //machineration('radiant','thermal:machine_frame')
     event.remove({output: 'createaddition:zinc_sheet'})
 

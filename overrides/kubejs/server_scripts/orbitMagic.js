@@ -7,17 +7,26 @@ let delay = 1
 
 onEvent('level.tick', event =>{
 	if (event.level.getDimension() != 'minecraft:overworld') {return}
-	event.level.getEntities('@e[type=ars_nouveau:spell_proj]').forEach(spell => {
-		if (spell.fullNBT.ForgeCaps['cae:properties'].kubejsdoshit  == "dontdoit") {
+	event.level.getEntities('@e[type=minecraft:area_effect_cloud]').forEach(spell => {
+		if (spell.fullNBT.ForgeCaps['cae:properties'].kubejsdoshit  == "IM ALIVE") {
 			let random2 = Math.random();
-			spell.block.popItem("minecraft:ancient_debris")
-			spell.block.popItem("minecraft:ancient_debris")
-			spell.block.popItem("minecraft:ancient_debris")
-			spell.block.popItem("minecraft:ancient_debris")
+			spell.block.set('air')
+			let d = "minecraft:ancient_debris"
+			if(spell.level.dimension == 'minecraft:overworld'){d = "minecraft:diamond"}
+			if(spell.level.dimension == 'minecraft:the_nether'){d = "minecraft:ancient_debris"}
+			if(spell.level.dimension == 'minecraft:the_end'){d = "minecraft:firework_rocket"}
+			for (let i = 0; i < 3; i++) {
+
+				spell.block.popItem(d)
+			}
+		
+
 			spell.remove()
 			return
-		   }
+		   }})
+		event.level.getEntities('@e[type=ars_nouveau:spell_proj]').forEach(spell => {
 		if (spell.fullNBT.ForgeCaps['cae:properties'].kubejsdoshit  != "doit") {
+			if(spell.fullNBT.ForgeCaps['cae:properties'].kubejsdoshit  == "dontdoit"){spell.remove()}
 			return
 			}
 
@@ -69,7 +78,7 @@ onEvent('level.tick', event =>{
 				else {blck = blck.offset("south", -1); yPos = 0.25; zPos = 0.6; mY = -0.3; mZ = 0; circleX = false}
 
 				spell.setPosition((blck.getX() + xPos), (blck.getY() + yPos), (blck.getZ() + zPos));
-				spell.mergeFullNBT('{nothing: 1}') //otherwise the client doesnt properly get updated on the new position of the spell
+				spell.mergeFullNBT('{pierce: 600}') //otherwise the client doesnt properly get updated on the new position of the spell
 				spell.minecraftEntity.addTag("orbit");
 				spell.nbt.putBoolean("circleX", circleX);
 				spell.nbt.putBoolean("circleY", circleY);

@@ -27,7 +27,7 @@
     },
     "idle": {
       "renderer": {
-        "modelName": "void",
+        "modelName": "void2",
         "isGlobal": true,
         "type": "geo",
         "postRenderer": false
@@ -41,7 +41,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "e74b5f1f-9279-4f05-802d-736bc0f9615d",
+  "recipeMap": "nothing",
   "basePattern": {
     "structureDir": [
       "LEFT",

@@ -34,6 +34,7 @@ onEvent("create.spout.special", event => {
     spoutInteraction("ars_nouveau:green_archwood_sapling", "kubejs:flourishing_juice", 1000, "immersive_weathering:rooted_grass_block")
     spoutInteraction("ars_nouveau:purple_archwood_sapling", "kubejs:vexing_juice", 1000, "chipped:amethyst_block_30")
     spoutInteraction("ars_nouveau:red_archwood_sapling", "kubejs:blazing_juice", 1000, "minecraft:netherrack")
+    spoutInteraction("ars_nouveau:yellow_archwood_sapling", "kubejs:flashing_juice", 1000, "quark:yellow_shingles")
     let corundum = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "white", "black"]
     corundum.forEach(Color => {
         spoutInteraction("quark:" + Color + "_corundum", "minecraft:water", 100)

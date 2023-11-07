@@ -106,6 +106,9 @@
 	manual_compressor_hunger_drain_per_cycle_step = 0.1
 	#Whether to allow fake players to use the manual compressor
 	manual_compressor_allow_fake_players = false
+	#Minimum interval in ticks which the player can use the Vortex Cannon to boost their own speed
+	#Range: > 1
+	vortex_cannon_player_boost_rate = 10
 
 ["Pneumatic Armor"]
 	#Jetboots air usage in mL/tick (per Jet Boots Upgrade)

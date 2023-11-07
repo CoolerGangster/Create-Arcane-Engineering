@@ -34,7 +34,7 @@
 		url = "https://discord.gg/h4m7mvZHaC"
 
 	[[init.buttons]]
-		label = "Trailer"
+		label = "CurseForge Page"
 		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
 
 
@@ -60,8 +60,8 @@
 		url = "https://discord.gg/h4m7mvZHaC"
 
 	[[main_menu.buttons]]
-		label = "Trailer"
-		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+		label = "CurseForge Page"
+		url = "https://legacy.curseforge.com/minecraft/modpacks/create-arcane-engineering"
 
 
 [server_list]
@@ -86,8 +86,8 @@
 		url = "https://discord.gg/h4m7mvZHaC"
 
 	[[server_list.buttons]]
-		label = "Trailer"
-		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+		label = "CurseForge Page"
+		url = "https://legacy.curseforge.com/minecraft/modpacks/create-arcane-engineering"
 
 
 [realms_list]
@@ -112,8 +112,8 @@
 		url = "https://discord.gg/h4m7mvZHaC"
 
 	[[realms_list.buttons]]
-		label = "Trailer"
-		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+		label = "CurseForge Page"
+		url = "https://legacy.curseforge.com/minecraft/modpacks/create-arcane-engineering"
 
 
 [join_game]
@@ -138,8 +138,8 @@
 		url = "https://discord.gg/h4m7mvZHaC"
 
 	[[join_game.buttons]]
-		label = "Trailer"
-		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+		label = "CurseForge Page"
+		url = "https://legacy.curseforge.com/minecraft/modpacks/create-arcane-engineering"
 
 
 [single_player]
@@ -164,8 +164,8 @@
 		url = "https://discord.gg/h4m7mvZHaC"
 
 	[[single_player.buttons]]
-		label = "Trailer"
-		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+		label = "CurseForge Page"
+		url = "https://legacy.curseforge.com/minecraft/modpacks/create-arcane-engineering"
 
 
 [multi_player]
@@ -190,8 +190,8 @@
 		url = "https://discord.gg/h4m7mvZHaC"
 
 	[[multi_player.buttons]]
-		label = "Trailer"
-		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+		label = "CurseForge Page"
+		url = "https://legacy.curseforge.com/minecraft/modpacks/create-arcane-engineering"
 
 
 [realms]
@@ -216,8 +216,8 @@
 		url = "https://discord.gg/h4m7mvZHaC"
 
 	[[realms.buttons]]
-		label = "Trailer"
-		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+		label = "CurseForge Page"
+		url = "https://legacy.curseforge.com/minecraft/modpacks/create-arcane-engineering"
 
 
 [generic]
@@ -240,8 +240,8 @@
 		url = "https://discord.gg/h4m7mvZHaC"
 
 	[[generic.buttons]]
-		label = "Trailer"
-		url = "https://www.youtube.com/watch?v=wdwiHLM_LKw"
+		label = "CurseForge Page"
+		url = "https://legacy.curseforge.com/minecraft/modpacks/create-arcane-engineering"
 
 
 [custom]

@@ -120,6 +120,7 @@ onEvent('fluid.registry', event => {
     juice("cascading",0x000099)
     juice("flourishing",0x009933)
     juice("blazing",0x800020)
+    juice("flashing",0xFFBF00)
 
     event.create('inertia_essence')
     .thinTexture(0x009933)

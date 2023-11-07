@@ -107,6 +107,26 @@ onEvent('recipes', event => {
         "pressure": 3
         
       })
+      event.custom({
+        "type": "pneumaticcraft:thermo_plant",
+        "item_input": {
+          "item": "minecraft:coal"
+        },
+        "fluid_output": {
+          "fluid": "thermal:creosote",
+          "amount": 200
+        },
+        "item_output": {
+          "item": "thermal:coal_coke"
+        },
+        "temperature": {
+          "min_temp": 573
+        },
+        "pressure": 4.0,
+        "speed": 0.25,
+        "air_use_multiplier": 5.0,
+        "exothermic": false
+      })
       event.custom({    
         "type": "pneumaticcraft:thermo_plant",
         "fluid_input": {

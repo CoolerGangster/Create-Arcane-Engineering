@@ -22,7 +22,7 @@ onEvent('tags.items', event => {
     event.add('create:upright_on_belt', 'forbidden_arcanus:corrupted_pixie')
     event.add('create:upright_on_belt', 'forbidden_arcanus:pixie')
     event.add('create:upright_on_belt', 'tiab:time_in_a_bottle')
-
+    
     event.add('create:upright_on_belt', 'forbidden_arcanus:arcane_crystal_obelisk')
     event.add('create:funkynuggets','minecraft:iron_nugget')
     event.add('create:funkynuggets','create:zinc_nugget')
@@ -33,4 +33,24 @@ onEvent('tags.items', event => {
     const wrenchpickupables = 
     ["#thermal:", "", "", "", "", "", "", "", "", "",]
 
+    event.add('cae:skystone', 'ae2:sky_stone_block')
+    event.add('cae:skystone', 'cae:sky_stone')
+    event.add("randomium:blacklist", [
+        /dev/,
+        /creative/,
+        /test/,
+        /command/,
+        /infinite/,
+        /portal/,
+        /^tconstruct:.*bucket/,
+        /^curios:/,
+        /^itemfilters:/,
+        /^cae/,
+        /^waystones:/,
+        "create:handheld_worldshaper",
+        "kubejs:finalpcb",
+        "randomium:randomium",
+        "kubejs:god_actuation_fluid_bucket",
+        "kubejs:portal_actuation_fluid_bucket"
+    ])
 })

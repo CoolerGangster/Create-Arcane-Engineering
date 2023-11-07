@@ -233,6 +233,7 @@ onEvent('item.registry', event => {
 		simple("Bramble", BOP('bramble', 4), 9, S, 0x8C3122, 0xECCDBC)
 		simple("Barley", BOP('barley', 4), 4, S, 0xB78B44, 0xD8BC64)
 		simple("Watergrass", BOP('watergrass', 4), 4, S, 0x43763D, 0x538B51)
+		simple("Menril Sapling", "integrateddynamics:menril_sapling", 32, S, 0x0015A8, 0x0015A8)
 		// simple("Mangrove Root", BOP('mangrove_root', 4), 9, S, 0x795740, 0xB8AB88)
 		simple("Reed", BOP('reed', 4), 5, S, 0x7B4E35, 0xB2855C)
 		simple("Clover Petal", BOP('huge_clover_petal', 4), 10, S, 0x5B8A4F, 0x6FA960)

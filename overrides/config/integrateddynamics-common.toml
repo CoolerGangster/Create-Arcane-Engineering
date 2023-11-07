@@ -99,7 +99,7 @@
 
 	[machine.general]
 		#The maximum offset in blocks a directional connector can look for its target.
-		maxDirectionalConnectorOffset = 512
+		maxDirectionalConnectorOffset = 96
 		#Priority list of mod id's when determining tag-based recipe outputs.
 		recipeTagOutputModPriorities = []
 		#The default update frequency in ticks to use for new parts.
@@ -153,7 +153,7 @@
 
 	[worldgeneration.meneglin]
 		#The chance at which a Menril Tree will spawn in the wild, the higher this value, the lower the chance.
-		wildMenrilTreeChance = 100
+		wildMenrilTreeChance = 80
 
 [item]
 

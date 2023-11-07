@@ -1,7 +1,7 @@
 {
 	id: "3CB202406B401D8B"
-	group: "42A213AA17D37DAF"
-	order_index: 3
+	group: "65FB4ECE344979A8"
+	order_index: 2
 	filename: "chapter_3"
 	title: "Chapter III: Chromatic Creation"
 	icon: "thermal:invar_block"
@@ -22,7 +22,7 @@
 		}
 		{
 			x: -1.0d
-			y: -2.5d
+			y: -3.0d
 			width: 21.0d
 			height: 23.0d
 			rotation: 0.0d
@@ -35,10 +35,14 @@
 	]
 	quests: [
 		{
+			title: "Chapter 3 Start!"
 			x: -1.0d
-			y: -11.0d
+			y: -11.3d
+			shape: "hexagon"
+			subtitle: "It's time to test your expertise."
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
+			size: 1.5d
 			id: "05BCD225FB1AD581"
 			tasks: [{
 				id: "48DEC554715A495D"
@@ -175,7 +179,7 @@
 		{
 			x: -4.5d
 			y: -5.0d
-			subtitle: "This is just an example for converting Chromatic Compound to Refined Radiance."
+			description: ["A (cool) example on converting Chromatic Compound to Refined Radiance."]
 			dependencies: [
 				"78E3EDD6BCCA4E06"
 				"24F10DF147EC0844"
@@ -224,6 +228,7 @@
 		{
 			x: 2.0d
 			y: -10.0d
+			description: ["Refine Heavy Oil into Tar and Refined Fuel"]
 			dependencies: ["68A5356444030698"]
 			id: "7192EEB9C99F0186"
 			tasks: [{
@@ -247,7 +252,7 @@
 			title: "Anthracene"
 			x: -1.0d
 			y: -10.0d
-			subtitle: "Fill a Vial with Anthracene"
+			description: ["Fill a Vial with Anthracene"]
 			dependencies: ["470D621EDE14E399"]
 			id: "5B6CFF917782AA41"
 			tasks: [{
@@ -259,7 +264,7 @@
 		{
 			x: -1.0d
 			y: -8.0d
-			subtitle: "Drop Incomplete Anthraquinone into Dichromic Acid"
+			description: ["Drop Incomplete Anthraquinone into Dichromic Acid"]
 			dependencies: [
 				"2B264D6DD625F492"
 				"0CA2002E4C346B59"
@@ -271,12 +276,23 @@
 				type: "item"
 				item: "kubejs:anthraquinone"
 			}]
+			rewards: [{
+				id: "78385925F09D7ABB"
+				type: "item"
+				item: {
+					id: "kubejs:lootbag_create_radiant"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			title: "The glowstone reactor"
 			x: -4.5d
 			y: -7.0d
-			subtitle: "Drop gunpowder into glowfire"
+			description: ["Create a Glow Fire by lighting a block of Shimmer Sand on fire\\nThen drop gunpowder into it to convert it."]
 			dependencies: ["24F10DF147EC0844"]
 			id: "78E3EDD6BCCA4E06"
 			tasks: [{
@@ -288,6 +304,7 @@
 		{
 			x: 2.0d
 			y: -9.0d
+			description: ["Refine Light Oil into Sulfur Dust and Refined Fuel"]
 			dependencies: ["68A5356444030698"]
 			id: "068FE94132C1DE4D"
 			tasks: [{
@@ -311,7 +328,7 @@
 			title: "Chrom"
 			x: -4.5d
 			y: -8.0d
-			subtitle: "Roll Glowstone over a drain"
+			description: ["Roll Glowstone over a drain"]
 			dependencies: ["78E3EDD6BCCA4E06"]
 			id: "22B3B089C7AD3875"
 			tasks: [{
@@ -335,7 +352,7 @@
 			title: "Chromic acid"
 			x: -3.0d
 			y: -8.0d
-			subtitle: "Won by dropping Chrome Into Water"
+			description: ["Won by dropping Chrome Into Water"]
 			dependencies: ["22B3B089C7AD3875"]
 			id: "2B264D6DD625F492"
 			tasks: [{
@@ -348,8 +365,14 @@
 			icon: "thermal:crude_oil_bucket"
 			x: 2.0d
 			y: -7.5d
-			subtitle: "Set up a train link to various crude oil deposits found all around the world."
-			description: ["Or set up a 10k source in your base"]
+			description: [
+				"Refine Crude Oil into Heavy and Light Oil using a Pneumaticcraft Refinery"
+				""
+				"Find Oil and automate it using a Hose Pulley to take from a source of more than 10,000 buckets. "
+				""
+				"You can do so by setting up a train link to one of the various crude oil deposits found in deserts, or by creating a deposit of your own at your base."
+				"cae:oil"
+			]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "68A5356444030698"
@@ -371,7 +394,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 0.5d
 			y: -5.0d
 			dependencies: ["79280E8FD6822EF7"]
 			id: "4CEEEAF453245B08"
@@ -410,7 +433,7 @@
 		{
 			x: 0.5d
 			y: -10.0d
-			subtitle: "Melt Tar into Anthracene"
+			description: ["Use a Smeltery to melt Tar into Anthracene"]
 			dependencies: ["7192EEB9C99F0186"]
 			id: "470D621EDE14E399"
 			tasks: [{
@@ -434,7 +457,7 @@
 		{
 			x: -6.0d
 			y: -7.0d
-			subtitle: "Mix Powdered Flint with Refined Fuel to create Gunpowder"
+			description: ["Mix Powdered Flint with Refined Fuel to create Gunpowder"]
 			dependencies: ["4114B764FB9FF9BC"]
 			id: "24F10DF147EC0844"
 			tasks: [{
@@ -465,7 +488,7 @@
 		{
 			x: -6.0d
 			y: -9.5d
-			subtitle: "Wash gravel for Flint and Iron Nuggets"
+			description: ["Wash gravel for Flint and Iron Nuggets"]
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "2F15BD639AC10819"
@@ -478,7 +501,7 @@
 		{
 			x: -6.0d
 			y: -8.0d
-			subtitle: "Crush Flint to get Powdered Flint"
+			description: ["Crush Flint to get Powdered Flint"]
 			dependencies: ["2F15BD639AC10819"]
 			id: "4114B764FB9FF9BC"
 			tasks: [{
@@ -498,6 +521,7 @@
 			x: -0.99d
 			y: -2.5d
 			shape: "gear"
+			description: ["You can now Craft a Super Basic AE2 System, and have unlocked Thermal!"]
 			dependencies: [
 				"25223990C329055B"
 				"76F116CCDB324A7E"
@@ -548,8 +572,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -4.0d
+			x: -3.0d
+			y: -2.5d
 			dependencies: ["3A10D0D5E8548C54"]
 			hide: true
 			id: "25223990C329055B"
@@ -602,6 +626,7 @@
 			title: "[Optional 2x bonus] Shadow Steel"
 			x: 1.0d
 			y: -6.0d
+			description: ["Obtained by dropping Chromatic Compound into the void."]
 			dependencies: ["3EA71EFE88668E16"]
 			optional: true
 			id: "01E0C7BE2AD25541"
@@ -627,7 +652,6 @@
 							Damage: 0
 						}
 					}
-					count: 2
 				}
 			]
 		}
@@ -645,8 +669,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 2.5d
+			x: -5.0d
+			y: 1.5d
 			shape: "diamond"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
@@ -662,12 +686,13 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -1.0d
 			y: 3.5d
 			dependencies: [
 				"24C1844E85C471F9"
 				"7F668BCB6E7FED46"
 			]
+			dependency_requirement: "one_completed"
 			id: "2DCECAF511896C4D"
 			tasks: [{
 				id: "0F75F89E0A0CD7CD"
@@ -712,8 +737,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 4.5d
+			x: 1.0d
+			y: 3.5d
 			dependencies: ["6F59B705C4AC7E93"]
 			id: "7F668BCB6E7FED46"
 			tasks: [{
@@ -723,9 +748,10 @@
 			}]
 		}
 		{
-			x: 0.5d
+			title: "Option 2: LPG Route"
+			x: 1.75d
 			y: 4.5d
-			shape: "rsquare"
+			shape: "square"
 			dependencies: ["19232B8B77F86AF8"]
 			hide: true
 			id: "6F59B705C4AC7E93"
@@ -748,8 +774,8 @@
 		}
 		{
 			title: "[Byproduct] All colors of fuel."
-			x: 2.0d
-			y: 4.5d
+			x: 2.5d
+			y: 3.5d
 			dependencies: ["6F59B705C4AC7E93"]
 			id: "01170F6AF97D2887"
 			tasks: [
@@ -783,8 +809,8 @@
 		}
 		{
 			title: "The Industrial Revolution"
-			x: 2.0d
-			y: 1.0d
+			x: 4.0d
+			y: 2.5d
 			subtitle: "Reprocess your output fuels to fuel your Factory."
 			dependencies: ["248443FB4003CD22"]
 			id: "5A4A535DF716F163"
@@ -795,7 +821,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: 2.5d
 			dependencies: [
 				"01170F6AF97D2887"
@@ -836,7 +862,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: 2.5d
 			dependencies: ["7870083118F5EB2A"]
 			id: "5CF7DD93DE302B8E"
@@ -851,6 +877,7 @@
 			y: 5.5d
 			shape: "gear"
 			dependencies: ["11B6AE2F61CB518A"]
+			size: 1.5d
 			id: "0B18125292828D4D"
 			tasks: [{
 				id: "0899A09E0003375C"
@@ -867,7 +894,7 @@
 				{
 					id: "18B5F7C72061CF2B"
 					type: "item"
-					item: "kubejs:zinc_casing"
+					item: "cae:zinc_casing"
 					count: 8
 				}
 				{
@@ -885,11 +912,15 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 4.5d
+			x: -5.0d
+			y: 5.5d
 			shape: "gear"
-			subtitle: "Applied Energistics; I'm waiting for you. A lot of machines are still gated behind a higher technology tier, but you should be able to set up a very basic ME system"
+			description: [
+				"Applied Energistics; I'm waiting for you. "
+				"A lot of machines are still gated behind a higher technology tier, but you should be able to set up a very basic ME system"
+			]
 			dependencies: ["1393B214AF417C06"]
+			size: 1.5d
 			id: "3070EC94FB14615C"
 			tasks: [{
 				id: "24D8C402AE782367"
@@ -900,7 +931,7 @@
 				{
 					id: "6A54A3D364A2DD5C"
 					type: "item"
-					item: "kubejs:enderium_casing"
+					item: "cae:enderium_casing"
 					count: 8
 				}
 				{
@@ -957,7 +988,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: 0.5d
 			dependencies: ["7620DA247BD74FC4"]
 			id: "7870083118F5EB2A"
@@ -987,7 +1018,8 @@
 			]
 		}
 		{
-			x: -2.5d
+			title: "Option 1: Biodiesel Route"
+			x: -1.0d
 			y: -1.0d
 			shape: "rsquare"
 			dependencies: ["19232B8B77F86AF8"]
@@ -1019,7 +1051,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: -1.0d
 			dependencies: ["3ACE31F1A130AEA7"]
 			id: "7620DA247BD74FC4"
@@ -1032,7 +1064,7 @@
 		{
 			x: -1.0d
 			y: -9.0d
-			subtitle: "Drop an Anthracene Vial into Sulfuric Acid"
+			description: ["Drop an Anthracene Vial into Sulfuric Acid to convert it into Incomplete Anthraquinone"]
 			dependencies: [
 				"5B6CFF917782AA41"
 				"74E536DF3F2CB466"
@@ -1044,21 +1076,16 @@
 				item: "kubejs:incomplete_anthraquinone"
 			}]
 			rewards: [{
-				id: "30731462C653984B"
+				id: "5D77DB9153E5C445"
 				type: "item"
-				item: {
-					id: "kubejs:lootbag_create_radiant"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "kubejs:sushi"
+				count: 8
 			}]
 		}
 		{
 			x: 0.5d
 			y: -9.0d
-			subtitle: "Drop Sulfur dust into Water to create Sulfuric Acid"
+			description: ["Drop Sulfur dust into Water to create Sulfuric Acid"]
 			dependencies: [
 				"5F66AA228DD8F04C"
 				"068FE94132C1DE4D"
@@ -1080,6 +1107,61 @@
 				id: "04A4406AB9BD7EAF"
 				type: "item"
 				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			title: "Eternal Resonator"
+			icon: {
+				id: "kubejs:resonator"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					Damage: 0
+					Repair: 1b
+					Modifier: "forbidden_arcanus:eternal"
+					Enchantments: [{ }]
+				}
+			}
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["3A10D0D5E8548C54"]
+			hide: true
+			id: "17FEA552B950FD37"
+			tasks: [
+				{
+					id: "4CA00E5C3B54F009"
+					type: "item"
+					item: "thermal:silver_coin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "564403D5D55F2A79"
+					type: "item"
+					item: {
+						id: "kubejs:resonator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "04F532D68D837745"
+				type: "item"
+				item: {
+					id: "kubejs:resonator"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						Damage: 0
+						Repair: 1b
+						Modifier: "forbidden_arcanus:eternal"
+						Enchantments: [{ }]
+					}
+				}
 			}]
 		}
 	]

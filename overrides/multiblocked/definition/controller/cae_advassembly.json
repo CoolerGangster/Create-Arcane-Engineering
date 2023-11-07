@@ -1,0 +1,199 @@
+{
+  "version": 3,
+  "location": "cae:advassembly",
+  "traits": {},
+  "properties": {
+    "rotationState": "NONE",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:pog",
+        "type": "imodel",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "advassembly",
+        "isGlobal": true,
+        "type": "geo",
+        "postRenderer": false
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "assemb",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        " C ",
+        "   ",
+        " D "
+      ],
+      [
+        "I@H",
+        " F ",
+        "   ",
+        " G "
+      ],
+      [
+        "ABA",
+        " C ",
+        "   ",
+        " D "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "cae:enderium_casing"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "outc": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:smart_chest"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true,
+        "io": "OUT"
+      },
+      "controller": {
+        "location": "cae:advassembly",
+        "type": "component"
+      },
+      "nrg": {
+        "capability": "forge_energy",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "kubejs:time_machine"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:pressure_tube"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:assembly_platform"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "createaddition:tesla_coil"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      },
+      "inc": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:smart_chest"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true,
+        "io": "IN"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "nrg"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "inc"
+      ],
+      "I": [
+        "outc"
+      ]
+    }
+  }
+}

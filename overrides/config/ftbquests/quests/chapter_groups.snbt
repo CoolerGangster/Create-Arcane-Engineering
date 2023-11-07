@@ -1,3 +1,8 @@
 {
-	chapter_groups: [{ id: "42A213AA17D37DAF", title: "Chapters" }]
+	chapter_groups: [
+		{ id: "65FB4ECE344979A8", title: "Tech Chapters" }
+		{ id: "304E6354DAF7E22F", title: "Magic Chapters" }
+		{ id: "595B2B01CFB4E702", title: "Better Together" }
+		{ id: "73266C3574BDAE4C", title: "\"Fun\" Automations" }
+	]
 }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": [
+        {
+            "item": "architects_palette:myonite"
+        },
+        {
+            "item": "architects_palette:myonite_bricks"
+        }
+    ],
+    "result": "architects_palette:myonite_brick_vertical_slab",
+    "count": 2,
+    "conditions": [
+        {
+            "type": "architects_palette:enable_vertical_slabs"
+        }
+    ]
+}

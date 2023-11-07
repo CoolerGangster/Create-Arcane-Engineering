@@ -31,7 +31,7 @@ onEvent('recipes', event => {
       P: "spirit:broken_spawner",
       Z: "kubejs:finalpcb" 
   })
-    event.recipes.create.mixing('pneumaticcraft:spawner_core',[Fluid.of('pneumaticcraft:memory_essence',4000),'pneumaticcraft:spawner_core_shell']).superheated()
+
     event.custom({
         "type": "pneumaticcraft:explosion_crafting",
         "input": {

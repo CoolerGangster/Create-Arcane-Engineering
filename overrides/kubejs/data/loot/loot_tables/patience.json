@@ -24,12 +24,8 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:enchanted_book",
+                    "name": "minecraft:book",
                     "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 3
-                        },
                         {
                             "function": "minecraft:enchant_randomly",
                             "enchantments": [

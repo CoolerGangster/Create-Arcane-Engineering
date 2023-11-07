@@ -1,7 +1,7 @@
 {
 	id: "728EE5762BA55881"
-	group: "42A213AA17D37DAF"
-	order_index: 1
+	group: "65FB4ECE344979A8"
+	order_index: 0
 	filename: "chapter_1_the_andesite_age"
 	title: "Chapter I: Alluring Allusions"
 	icon: "create:andesite_casing"
@@ -106,7 +106,8 @@
 			title: "[Optional] Deployers."
 			x: 6.0d
 			y: 3.0d
-			subtitle: "Assembling mechanisms and tree farming. This needs brass, so perhaps a smeltery can do the trick? (Chapter 2 Hosts more info on Brass creation.)"
+			subtitle: "Assembling mechanisms and placing Saplings in a tree farm. "
+			description: ["Crafting Deployeres requires brass, so you will need to figure out a way to obtain it first."]
 			dependencies: [
 				"47EFBCDC513EE52D"
 				"11DAEE7A3CD9F8B6"
@@ -129,6 +130,11 @@
 			y: 4.5d
 			shape: "gear"
 			subtitle: "Let the journey begin!"
+			description: [
+				"Craft your first \"real\" Kinetic Mechanism!"
+				""
+				"Do so by having a Deployer deploy 2 Andesite Alloy and then a Saw onto a menril slab."
+			]
 			min_required_dependencies: 3
 			dependencies: [
 				"3193DF57DE756299"
@@ -172,7 +178,7 @@
 		{
 			title: "The Saw"
 			x: 2.0d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "Sawcon"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
@@ -193,7 +199,7 @@
 			x: 0.0d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Extract resin from Trees using Arboreal Extractors."
+			description: ["Extract resin from Trees using Arboreal Extractors."]
 			dependencies: ["6EFF8BCEBC2E2AF2"]
 			hide: true
 			id: "146F8C2D929D7A9E"
@@ -206,6 +212,7 @@
 		{
 			x: 0.0d
 			y: 7.5d
+			description: ["Press the Resin into Rubber"]
 			dependencies: ["146F8C2D929D7A9E"]
 			id: "52D5CD76BB2EFBF3"
 			tasks: [{
@@ -236,6 +243,7 @@
 			x: 0.0d
 			y: 11.0d
 			shape: "gear"
+			subtitle: "The first of the Sub-Chapters!"
 			dependencies: [
 				"6C5277004B0E4431"
 				"125AABACCC0764C1"
@@ -328,7 +336,7 @@
 		{
 			x: -3.5d
 			y: 9.0d
-			subtitle: "Finally, ID juice"
+			subtitle: "[Optional] Enriching the Cured Rubber"
 			dependencies: ["5561DB673DBC0A77"]
 			id: "58C607BC03069CB5"
 			tasks: [{
@@ -340,7 +348,7 @@
 		{
 			x: -4.5d
 			y: 9.0d
-			subtitle: "Rubber and Menril"
+			subtitle: "Moving around the fluids"
 			dependencies: ["5561DB673DBC0A77"]
 			dependency_requirement: "all_started"
 			id: "14892D9D3ADFB68E"
@@ -379,6 +387,7 @@
 			x: 1.0d
 			y: 8.5d
 			subtitle: "Ponder the Arboreal Extractor to see how it works!"
+			description: ["Extract Menril Resin from Trees"]
 			dependencies: ["4FDF0A226DCE7DF3"]
 			hide: true
 			id: "162780AD2FB145CB"
@@ -427,12 +436,12 @@
 			}]
 		}
 		{
-			title: "Common Concerns"
+			title: "Welcome Engineer!"
 			icon: "architects_palette:hazard_sign"
 			x: 0.0d
-			y: -2.0d
+			y: -1.5d
 			shape: "gear"
-			subtitle: "While the early chapters look similar to Above \\& Beyond, the pack diverges wildly as you progress."
+			description: ["While the early chapters look similar to Above \\& Beyond, the pack diverges wildly as you progress."]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			size: 1.5d
@@ -457,10 +466,16 @@
 		}
 		{
 			title: "Cant find any Andesite or Diorite? We got you."
-			x: 1.0d
-			y: -2.0d
+			x: 0.5d
+			y: 0.0d
 			shape: "gear"
-			subtitle: "Andesite is most commonly found in Forest biome and you can find andesite super easily by using a Nature's Compass and using it to search for an Andesite Caves biome. If you have a hard time regardless, try using the Alloy Radar. It will scan a chunk for the blocks."
+			description: [
+				"Andesite is most commonly found in Forest biomes."
+				"You can also find it easily by using a Nature's Compass to search for an Andesite Caves biome. "
+				""
+				"If you have a hard time regardless, try using the Alloy Radar. "
+				"It will scan a chunk for these blocks, and give you coordinates for where you should look"
+			]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "45875AB5349E8E94"
@@ -522,6 +537,7 @@
 		{
 			x: -5.5d
 			y: 9.0d
+			subtitle: "Extracting Resin from trees"
 			dependencies: ["5561DB673DBC0A77"]
 			id: "355A59290365045F"
 			tasks: [{
@@ -570,20 +586,34 @@
 			title: "Alloying through Tinkers, no blazes required!"
 			x: 5.0d
 			y: 5.5d
+			description: [
+				"The Smeltery from Tinkers Construct allows for easy alloying of Molten Metals."
+				"Using it temporarily avoids having to make a Blaze Burner."
+			]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "6EE3AFA0160D976A"
 			tasks: [{
-				id: "746941FD390384A0"
+				id: "4153EC731E4E2EF7"
 				type: "item"
-				item: "tconstruct:smeltery_controller"
+				item: {
+					id: "tconstruct:smeltery_controller"
+					Count: 1b
+					tag: {
+						texture: "tconstruct:seared_bricks"
+					}
+				}
 			}]
 		}
 		{
 			title: "Runic Tablet + Empty Blaze Burner = Blaze Burner"
 			x: 6.0d
 			y: 5.5d
-			subtitle: "Requires brass to craft the Runic Tablet through Chapter m1!"
+			description: [
+				"You can craft a Blaze Burner by combining an Empty Blaze Burner with a Runic Tablet"
+				""
+				"Do note: crafting a Runic Tablet through Chapter m1 requires you to already have Brass!"
+			]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "03B32FBE53374954"
@@ -598,7 +628,7 @@
 			title: "Alloying with Create, blazes required!"
 			x: 7.0d
 			y: 5.5d
-			subtitle: "Alloying with Create is probably easier and faster in the long run."
+			description: ["Alloying with Create is probably the easier and faster way to go."]
 			dependencies: [
 				"3D9E29CE4BA41D20"
 				"03B32FBE53374954"
@@ -616,7 +646,10 @@
 			icon: "minecraft:blaze_spawn_egg"
 			x: 6.0d
 			y: 6.5d
-			subtitle: "You can capture a blaze into your blaze burner, by rightclicking it with an empty one. You can alternatively rightclick blaze spawners with blaze burners!"
+			description: [
+				"You can capture a blaze into your burner by rightclicking it with an empty one. "
+				"Alternatively, you can also rightclick a blaze spawner directly to fill your burner."
+			]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3D9E29CE4BA41D20"
@@ -632,20 +665,29 @@
 		}
 		{
 			title: "Improbable Saplings"
+			icon: "integrateddynamics:menril_sapling"
 			x: -4.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "The Arcane has significantly reduced the availability of these Saplings, making them extremely rare to come by. As a result, a conventional tree farm is no longer sufficient to sustain their growth. However, trees will still drop lifeless versions of their saplings, which can be rejuvenated through a specific process. To successfully cultivate menril trees, it is necessary to establish an automated system for restoring the menril shrubs to menril saplings that loop back into the contraption."
+			subtitle: "A rare drop from Menril trees"
+			description: [
+				"These saplings only appear very rarely, making them extremely difficult to come by. "
+				""
+				"As a result, the Sapling rates of a conventional tree farm are no longer sufficient to keep the farm running. "
+				"However, trees will still drop lifeless versions of their saplings for you to rejuvenate through a specific process."
+				""
+				"To successfully cultivate Menril trees, you will have to set up an automated system to restore the Menril Shrubs and loop them back into the contraption."
+			]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "65EB6D888AE39417"
 			tasks: [{
-				id: "779958089C9591AA"
-				type: "item"
-				item: "integrateddynamics:menril_sapling"
+				id: "68D84E2BF7E8A4E8"
+				type: "checkmark"
+				title: "Okayyyy"
 			}]
 			rewards: [{
-				id: "422FEE7F6CA834A3"
+				id: "3E24D71D23148A59"
 				type: "item"
 				item: "integrateddynamics:menril_sapling"
 				count: 2
@@ -655,7 +697,10 @@
 			x: -4.0d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "Log Cutting Chain. Basically, just slap down 3 saws and they'll do the job."
+			description: [
+				"The Log Cutting Chain:"
+				"Place down 3 saws to cut from logs to slabs"
+			]
 			dependencies: ["65EB6D888AE39417"]
 			id: "2D3F582CF81B08C7"
 			tasks: [{
@@ -676,46 +721,56 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
+			title: "Menril Slab"
+			icon: "integrateddynamics:menril_slab"
+			x: -2.0d
+			y: 4.5d
 			shape: "pentagon"
 			dependencies: ["66CF869E554ADF06"]
 			id: "5EC51DF0F91C1C5E"
 			tasks: [{
-				id: "456510FDCEEA1922"
+				id: "7936866843DF148C"
 				type: "item"
-				item: "integrateddynamics:menril_slab"
+				item: "integrateddynamics:menril_log"
 			}]
 		}
 		{
-			x: -3.5d
-			y: 2.5d
+			title: "Stripped Menril Log"
+			icon: "integrateddynamics:menril_log_stripped"
+			x: -4.0d
+			y: 3.0d
 			shape: "octagon"
 			dependencies: ["2D3F582CF81B08C7"]
 			id: "2B079ED92A265059"
 			tasks: [{
-				id: "791DDA5A857BD5EA"
+				id: "3A15B5ED5C30B238"
 				type: "item"
-				item: "integrateddynamics:menril_log_stripped"
+				item: "integrateddynamics:menril_log"
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.5d
+			title: "Menril Planks"
+			icon: "integrateddynamics:menril_planks"
+			x: -2.0d
+			y: 3.0d
 			shape: "hexagon"
 			dependencies: ["2B079ED92A265059"]
 			id: "66CF869E554ADF06"
 			tasks: [{
-				id: "7A7258400F676D77"
+				id: "2909A20123949943"
 				type: "item"
-				item: "integrateddynamics:menril_planks"
+				item: "integrateddynamics:menril_log"
 			}]
 		}
 		{
 			x: -5.5d
 			y: 1.0d
 			shape: "rsquare"
-			subtitle: "Drops from Menril Trees. With the weakening of the Arcane, so has the menril sapling been stripped of its life essence, perhaps a bit of water can help it?"
+			subtitle: "An uncommon drop from Menril trees"
+			description: [
+				"This Menril Sapling been stripped of its life force. "
+				"Perhaps giving it some water could help with its rejuvination?"
+			]
 			dependencies: ["65EB6D888AE39417"]
 			id: "2E64E817F8FABAC6"
 			tasks: [{
@@ -727,7 +782,11 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			subtitle: "Drops from Menril Trees, in particular the enriched menril logs. Perhaps there are more ways to get this though?"
+			subtitle: "A drop from Enriched Menril Logs"
+			description: [
+				"Dropped by Menril Trees, in particular the Enriched Logs."
+				"Perhaps there is also another way to obtain this?"
+			]
 			dependencies: ["65EB6D888AE39417"]
 			id: "7027A7515B010BDD"
 			tasks: [{
@@ -745,7 +804,13 @@
 			x: -5.5d
 			y: -1.0d
 			shape: "diamond"
-			subtitle: "Congratulations! You've accomplished it! You've successfully rejuvenated it. However, it hasn't quite reached the level of the original sapling. Perhaps the inclusion of menril berries could contribute to its full resurrection?"
+			description: [
+				"Congratulations! You've done it!"
+				"You've successfully rejuvenated a Menril Shrub. "
+				""
+				"However, it still hasn't quite reached the level of the original sapling."
+				"Perhaps a combination with Menril Berries could contribute to a full resurrection?"
+			]
 			dependencies: ["2E64E817F8FABAC6"]
 			id: "424889E3B5E01EBB"
 			tasks: [{
@@ -777,7 +842,7 @@
 			x: -4.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Drops from Menril Trees. Also used for resurrecting Menril Saplings."
+			subtitle: "A common drop from Menril trees."
 			dependencies: ["65EB6D888AE39417"]
 			id: "293527BB98246AD0"
 			tasks: [{
@@ -790,15 +855,13 @@
 			x: -4.0d
 			y: 0.0d
 			shape: "diamond"
-			dependencies: [
-				"424889E3B5E01EBB"
-				"293527BB98246AD0"
-			]
+			dependencies: ["424889E3B5E01EBB"]
 			id: "4E6D567989DB1215"
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
+			description: ["You can smelt Gravel into Andesite!"]
 			dependencies: ["0F2D17506A5B767D"]
 			id: "09C8825D777648B2"
 			tasks: [{
@@ -829,6 +892,7 @@
 		{
 			x: 3.0d
 			y: -1.0d
+			description: ["Set up a Cobblestone generator by letting lava flow next to water."]
 			dependencies: [
 				"285D1A1F699BB89B"
 				"5421B5CF50A0D596"
@@ -842,7 +906,7 @@
 		}
 		{
 			x: 2.0d
-			y: -1.5d
+			y: -1.0d
 			shape: "diamond"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
@@ -855,7 +919,7 @@
 		}
 		{
 			x: 4.0d
-			y: -1.5d
+			y: -1.0d
 			shape: "diamond"
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
@@ -867,8 +931,9 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
+			description: ["Crush the Cobblestone into Gravel"]
 			dependencies: ["2B23E9988262E352"]
 			id: "0F2D17506A5B767D"
 			tasks: [{
@@ -891,10 +956,14 @@
 		}
 		{
 			title: "Early game item filtering."
-			x: -1.0d
-			y: -2.0d
+			x: -0.5d
+			y: 0.0d
 			shape: "gear"
-			subtitle: "Filtering items is possible, just slap an item into a drawer, lock the drawer, and put a funnel on. Now the funnel will only insert if the item matches the drawers locked item."
+			description: [
+				"Filtering items is possible, even without brass!"
+				"Just put an item into a drawer, lock the drawer using a Configuration Tool, and put a funnel on. "
+				"The funnel will only be able to insert items matching the drawers configured item."
+			]
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
 			id: "3B2E6054E10C6452"
@@ -931,8 +1000,8 @@
 		}
 		{
 			icon: "minecraft:light"
-			x: -2.5d
-			y: -2.0d
+			x: -4.0d
+			y: -2.5d
 			subtitle: "If your sapling isn't growing, check for any unnatural blocks in a 5x15x5 area around it. Also check that it has enough light to grow."
 			dependencies: ["3BAD2CEF1245F202"]
 			hide: true
@@ -941,6 +1010,62 @@
 				id: "3584059D2523EA21"
 				type: "checkmark"
 				title: "Stuff that may go wrong."
+			}]
+		}
+		{
+			title: "Eternal Saw"
+			icon: {
+				id: "kubejs:saw"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					Damage: 0
+					Repair: 1b
+					Modifier: "forbidden_arcanus:eternal"
+					Enchantments: [{ }]
+				}
+			}
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["3BAD2CEF1245F202"]
+			hide: true
+			id: "455CE1A58D8D524E"
+			tasks: [
+				{
+					id: "050B87AAAB6B023B"
+					type: "item"
+					icon: "thermal:silver_coin"
+					item: "thermal:silver_coin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "351D9F90EA5AEA69"
+					type: "item"
+					item: {
+						id: "kubejs:saw"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5B45E894A341F645"
+				type: "item"
+				item: {
+					id: "kubejs:saw"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						Damage: 0
+						Repair: 1b
+						Modifier: "forbidden_arcanus:eternal"
+						Enchantments: [{ }]
+					}
+				}
 			}]
 		}
 	]

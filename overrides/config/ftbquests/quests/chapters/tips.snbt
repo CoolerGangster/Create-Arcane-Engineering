@@ -4,6 +4,13 @@
 	order_index: 1
 	filename: "tips"
 	title: "Tips"
+	icon: {
+		id: "minecraft:light"
+		Count: 1b
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -60,7 +67,7 @@
 		{
 			x: -5.5d
 			y: -12.0d
-			subtitle: "There are many locational recources. The motive behind those is for you to use the new 1.18 trains :) Train Tracks have been made SIXTEEN TIMES cheaper than normal, so your train building adventures are as easy as they can be!"
+			description: ["There are many locational resources. The motive behind those is for you to use the new 1.18 trains :) Train Tracks have been made SIXTEEN TIMES cheaper than normal, so your train building adventures are as easy as they can be!"]
 			id: "2DF25740BF8AF0F2"
 			tasks: [{
 				id: "7BB8B3A8548C9213"
@@ -70,7 +77,7 @@
 		}
 		{
 			title: "Iron Farms"
-			x: -6.5d
+			x: -7.5d
 			y: -11.0d
 			subtitle: "This pack demands a good supply of iron...."
 			id: "14FC19629B01ACFF"
@@ -82,9 +89,13 @@
 		}
 		{
 			title: "Ore Deposit Guide"
-			x: -6.0d
+			x: -6.5d
 			y: -10.0d
-			subtitle: "All ores can be found in every biome, but they differ in rarity and plentyness depending on Biome. In particular, every Ore has 1 biome where it is found in plentyfull quality, then theres a secondary biome which has very high vein spawn rates, but very miniscule deposits (1k-7k ish), lastly there are normal veins in every overworld biome that are very rare.You can see all the info on the Biomes and max vein sizes in the recipe tabs for the drilling machine.Gold is most common in Dry biomes, while it also has remnants in the nether, but these veins are more limited.Iron is most commonly found in Jungles, and secondarily in Rare biomes, such as the flower forest.Tin, lead,nickel,and Zinc are found like Iron.Copper is found most commonly in Mountains, and secondarily in Rare biomes.Lastly, Silver is most commonly found in Mountains, and secondarily in the End"
+			description: [
+				"Check the Ore Excavation Chapter for more Info"
+				""
+				"Note: Make sure they always have somewhere to deposit too. Or else they will store to many items which will cause a lot of lag."
+			]
 			id: "51054C4D158084AD"
 			tasks: [{
 				id: "27EA85318341928B"
@@ -94,9 +105,13 @@
 		}
 		{
 			title: "Trains in every Dimension!"
-			x: -4.5d
-			y: -13.5d
-			subtitle: "Rightclicking a Diamond Block with Flint and Steel will Grant portals in every dimension, as an extension you can make trains in every dimension, just place a track into that generated portal."
+			x: -5.5d
+			y: -11.0d
+			description: [
+				"Rightclicking a Diamond Block with Flint and Steel will create a portals no matter the dimension, allowing trains to travel anywhere!"
+				"This Portal only works for Trains, and their Inhabiting entities. To make the link work in the first place, you have to place a Track Down just as you would next to any Nether Portal. Just make sure to place it in the dimension you are attempting to link to."
+				"Place Your Portal in the Special Dimension. Then go through it. Go back to the special Dimension (not through the newly created Portal) and then place a Train Track at the Portal in the special dimension."
+			]
 			id: "0C07D49BEDE78634"
 			tasks: [
 				{
@@ -120,7 +135,11 @@
 		{
 			x: 13.0d
 			y: -8.0d
-			subtitle: "This is a create chunkloader, it also works on contraptions. But it doesnt simulate randomticks, which is the stuff you need to grow crops. But another tool allows for randomtick chunkloading, which is the FTBchunks force load. It is more or less required to complete this pack."
+			description: [
+				"This is a create chunkloader. It ONLY works on contraptions. "
+				"But it doesnt simulate randomticks, which is the stuff you need to grow crops. FTBchunks force load can do that for you. "
+				"Chunk Loading is more or less required to complete this pack."
+			]
 			id: "3147CC1F634EF8E7"
 			tasks: [{
 				id: "00D0B84159CDC1CE"
@@ -131,6 +150,11 @@
 		{
 			x: -5.0d
 			y: -2.5d
+			description: [
+				"Sophisticated Backpacks are in this pack!"
+				"And there is even additional Functionality:"
+				"Clicking a placed Backpack with an item mentioned on the backpacks tooltip will add additional Slots!"
+			]
 			id: "5296043AF72D58DD"
 			tasks: [{
 				id: "113D19B9D0E0D469"
@@ -155,7 +179,7 @@
 		{
 			x: -5.5d
 			y: -14.0d
-			subtitle: "Find Any Structure at the click of a Button"
+			description: ["Find Any Structure at the click of a Button"]
 			id: "39417A51292D3544"
 			tasks: [{
 				id: "004F74707B04D4E7"
@@ -182,7 +206,7 @@
 			title: "CT Mills"
 			x: 12.0d
 			y: -7.0d
-			subtitle: "Windmills Only need 1 Sail to work! (assuming I didnt mess up configs)"
+			description: ["Windmills Only need 1 Sail to work! (assuming I didnt mess up configs)"]
 			id: "6BE95A5BCF9527ED"
 			tasks: [
 				{
@@ -201,7 +225,11 @@
 			title: "Orestones are now Renewable!"
 			x: 13.0d
 			y: -7.0d
-			subtitle: "Molten Geodes of Orestones now spawn all around the world, find the Geode Block in those and rightclick it with a redstone dust item. This way, orestones and their recources are fully automatable!"
+			description: [
+				"Geodes of Orestones now spawn all around the world. "
+				"rightclick the Geode Block in those with a redstone dust item, and it will spawn in Orestone blocks! "
+				"This way, orestones and their resources are fully automatable!"
+			]
 			id: "520888735E13CA2E"
 			tasks: [{
 				id: "00B80DE0D3B744F1"
@@ -212,7 +240,10 @@
 		{
 			x: -6.5d
 			y: -12.0d
-			subtitle: "After Chapter M1 you will have unlocked the Runic Tablet. It allows transmuting various things into their counterpart, such as empty blaze burners into blaze burners, and mobdrops into their super rare reliquary counterpart"
+			description: [
+				"After Chapter M1 you will have unlocked the Runic Tablet. "
+				"It allows transmuting various things into their counterparts, such as empty blaze burners into blaze burners, and mobdrops into their super rare reliquary versions."
+			]
 			id: "52EE3B7F60A5C0F4"
 			tasks: [{
 				id: "0D57135F3938BE15"
@@ -224,7 +255,7 @@
 			title: "Item filtering in the early game!"
 			x: -6.5d
 			y: -13.0d
-			subtitle: "Locking Drawers and attaching a Andesite Funnel works suprisingly well as an early game Item filtering method!"
+			description: ["Locking Drawers and attaching a Andesite Funnel works suprisingly well as an early game Item filtering method!"]
 			id: "45D36D1DEB856A0F"
 			tasks: [
 				{
@@ -268,7 +299,7 @@
 			title: "Pre Brass Item Stacking!"
 			x: -7.5d
 			y: -13.5d
-			subtitle: "You can group items into stacks by using Weighted Ejectors, simply scroll with a wrench on a Weighted Ejector to configure the desired Stack amount!"
+			description: ["You can group items into stacks by using Weighted Ejectors, simply scroll with a wrench on a Weighted Ejector to configure the desired Stack amount!"]
 			id: "392207368024751B"
 			tasks: [{
 				id: "0558024E34F02416"
@@ -279,7 +310,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			subtitle: "Easy Placing and Breaking. The Construction Wand is absolutely overpowered."
+			description: ["Easy Placing and Breaking of Blocks. The Construction Wand is an incredibly powerful tool!"]
 			id: "39BEA048AB996A02"
 			tasks: [
 				{
@@ -319,6 +350,12 @@
 			title: "Vein Mining Enchantment"
 			x: -6.0d
 			y: -1.0d
+			description: [
+				"We have Veinmining - As an enchantment."
+				"It goes up to level 3, and mines 16 connected blocks per level."
+				""
+				"If you don't like it being active all the time on enchanted tools, you can change it to require a keybind in the client config of the mod."
+			]
 			id: "1F8010E246DBE7D2"
 			tasks: [{
 				id: "7322A96D72857116"
@@ -338,7 +375,7 @@
 		{
 			x: -4.5d
 			y: -12.5d
-			subtitle: "Blaze Burners can now Accept Liquids if you give them a Straw! Bypasses blaze cakes"
+			description: ["Blaze Burners can now Accept Liquids if you give them a Straw! Bypasses blaze cakes"]
 			id: "0403135BEBFF8693"
 			tasks: [
 				{
@@ -382,7 +419,6 @@
 		{
 			x: -6.0d
 			y: -2.0d
-			subtitle: "Still to be implemented"
 			id: "10F2426EC2ABA865"
 			tasks: [
 				{
@@ -403,9 +439,9 @@
 		}
 		{
 			title: "Witherproof glass"
-			x: -5.5d
+			x: -4.5d
 			y: -11.0d
-			subtitle: "Completely Indestructible by Withers"
+			subtitle: "Completely Indestructible to Withers"
 			id: "5CFBF9DB3C810E70"
 			tasks: [
 				{
@@ -423,6 +459,10 @@
 		{
 			x: -7.0d
 			y: -2.5d
+			description: [
+				"Can be used to manually buy any item available through Imports!"
+				"A charged Tablet can be bought in the Market as well."
+			]
 			id: "52E70CAD0E90E8E3"
 			tasks: [{
 				id: "07618CC7C276AE29"
@@ -452,7 +492,7 @@
 			title: "Harvesting Leaves in STYLE"
 			x: -6.5d
 			y: -14.0d
-			subtitle: "Harvesters can harvest leaves."
+			description: ["Harvesters can harvest leaves."]
 			id: "39726A3AB587CB01"
 			tasks: [
 				{
@@ -475,7 +515,7 @@
 			]
 		}
 		{
-			x: 11.0d
+			x: 10.0d
 			y: -6.0d
 			subtitle: "Can be used to farm Fish..."
 			id: "3D7B34D45116567D"
@@ -498,7 +538,7 @@
 		{
 			x: -5.5d
 			y: -13.0d
-			subtitle: "Scans a chunk for Andesite and Diorite"
+			description: ["Scans a chunk for Andesite and Diorite"]
 			id: "433CCF86EBF39A8E"
 			tasks: [{
 				id: "3D478FAFAF8DACFC"
@@ -539,7 +579,7 @@
 			title: "Plates through Anvils"
 			x: 10.0d
 			y: -7.0d
-			subtitle: "Drop an Anvil on an Ingot, and sure enough, itll get pressed down into a plate. (A bit lossy)"
+			description: ["Drop an Anvil on an Ingot, and sure enough, itll get pressed down into a plate. (A bit lossy)"]
 			id: "2A80651B5135AB01"
 			tasks: [
 				{
@@ -582,9 +622,8 @@
 			y: -16.0d
 			id: "280B58649F0CB8C9"
 			tasks: [{
-				id: "468BB1C3DA5FEB88"
-				type: "item"
-				item: "davebuildingmod:alarm_sign"
+				id: "53564807F11631EF"
+				type: "checkmark"
 			}]
 		}
 		{
@@ -593,9 +632,8 @@
 			y: -9.0d
 			id: "654993F745FC29F0"
 			tasks: [{
-				id: "638064ADFA699D9E"
-				type: "item"
-				item: "davebuildingmod:alarm_sign"
+				id: "0A528E8B0DA9AEA2"
+				type: "checkmark"
 			}]
 		}
 		{
@@ -604,15 +642,14 @@
 			y: -5.0d
 			id: "3799508D7DECC323"
 			tasks: [{
-				id: "5FAD817B1557E963"
-				type: "item"
-				item: "davebuildingmod:alarm_sign"
+				id: "7E93E3775796E6F3"
+				type: "checkmark"
 			}]
 		}
 		{
 			x: 10.0d
 			y: -8.0d
-			subtitle: "Will Generate the block placed below it."
+			description: ["Will Generate most decorative stones when they are placed below it."]
 			id: "686971D4F5FC320E"
 			tasks: [{
 				id: "0D6C3F32723A2F16"
@@ -625,7 +662,7 @@
 			icon: "quark:warped_chest"
 			x: -6.5d
 			y: -15.0d
-			subtitle: "Hover over a item in JEI and Press Y to show all chests with that item."
+			description: ["Hover over a item in JEI and Press Y to show all chests with that item."]
 			id: "1BDC8F965F8B7DA7"
 			tasks: [{
 				id: "0A0883A23A9D8436"
@@ -634,9 +671,9 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 13.0d
 			y: -6.0d
-			subtitle: "Heat Create Steam Engines with Pneumaticcraft!"
+			description: ["You can heat Create Steam Engines with Pneumaticcraft!"]
 			id: "41474C57E044994B"
 			tasks: [{
 				id: "63EC1E041F8BFE36"
@@ -649,7 +686,11 @@
 			x: -5.5d
 			y: -15.0d
 			subtitle: "Don't know how to fix something? Call it a feature."
-			description: ["Item Vaults are a great way to store the bulk of your Items. \\nYou can even interact with their contents manually through a Tinkers crafting station."]
+			description: [
+				"Item Vaults are a great way to store the bulk of your Items. \\nYou can even interact with their contents manually through a Tinkers crafting station."
+				""
+				"Note: This is Buggy, a better alternative is using Sophisticated Storage Barrels."
+			]
 			id: "48D73F3A6C8C0203"
 			tasks: [
 				{
@@ -668,6 +709,88 @@
 							value: "forge:workbenches"
 						}
 					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			subtitle: "Another Chunkloader."
+			description: ["Right-Click to Activate. If the player is longer than 140 minutes offline, it will disable itself."]
+			id: "79A1DE90448ED2F4"
+			tasks: [{
+				id: "1C4067CE9D0886AC"
+				type: "item"
+				item: "chunkymcchunkface:chunk_loader"
+			}]
+		}
+		{
+			title: "Mob Yoinking, like a BOSS"
+			x: 12.0d
+			y: -6.0d
+			subtitle: "Right-Click to Imprison a Mob, Right-Click again to release it."
+			id: "778B02DD79D525D2"
+			tasks: [{
+				id: "741700582CFD8D1F"
+				type: "item"
+				item: "forbidden_arcanus:quantum_catcher"
+			}]
+		}
+		{
+			title: "For Server Admins: ClearItems.js"
+			x: -6.5d
+			y: -11.0d
+			subtitle: "Click for Info."
+			description: [
+				"Did you know this pack has an inbuilt clear items system? (that is superior to other ones I might add)"
+				"To activate, simply go into your server files and go into kubejs/server_scripts/ClearItems.js Now, acces the file and change the first line (let activated = false) to (let activated = true)"
+			]
+			id: "442079A1265BAFD5"
+			tasks: [{
+				id: "65D47CE2C836CE9A"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			title: "Fluid Voiding made easy."
+			x: -4.5d
+			y: -13.5d
+			description: ["To Void the Fluids in any Liquid Container, simply apply a faucet that points into a Sponge!"]
+			id: "3C69A545EEBC1650"
+			tasks: [
+				{
+					id: "4556A160A36786C5"
+					type: "item"
+					item: "minecraft:sponge"
+				}
+				{
+					id: "3CFADF44157DB1F9"
+					type: "item"
+					item: "supplementaries:faucet"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -10.0d
+			description: ["Rightclick a Dark Soul onto a regular Sapling to make a Edelwood Sapling"]
+			id: "205F8718D258F452"
+			tasks: [
+				{
+					id: "0DF26DBCAFC3D1CC"
+					type: "item"
+					item: "forbidden_arcanus:growing_edelwood"
+				}
+				{
+					id: "5DFD4893189473CD"
+					type: "item"
+					item: "forbidden_arcanus:dark_soul"
+				}
+				{
+					id: "0046573C42561008"
+					type: "item"
+					item: "minecraft:oak_sapling"
 				}
 			]
 		}

@@ -14,14 +14,6 @@ onEvent('recipes', event => {
             {
                 "type": "place",
                 "block": "kubejs:sulfuric_acid"
-            },
-            {
-                "type": "drop_item",
-                "item": "thermal:sulfur_dust",
-                "contextual": {
-                    "type": "chance",
-                    "chance": 0.33
-                }
             }
             ]
 
@@ -41,14 +33,6 @@ onEvent('recipes', event => {
             {
                 "type": "place",
                 "block": "kubejs:dichromic_acid"
-            },
-            {
-                "type": "drop_item",
-                "item": "kubejs:chrom",
-                "contextual": {
-                    "type": "chance",
-                    "chance": 0.33
-                }
             }
             ]
 
@@ -71,7 +55,7 @@ onEvent('recipes', event => {
                 "block": "air",
                 "contextual": {
                     "type": "chance",
-                    "chance": 0.20
+                    "chance": 0.1
                 }
             },
             {
@@ -99,7 +83,7 @@ onEvent('recipes', event => {
                 "block": "air",
                 "contextual": {
                     "type": "chance",
-                    "chance": 0.20
+                    "chance": 0.10
                 }
             },
             {
