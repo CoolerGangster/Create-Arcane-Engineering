@@ -88,11 +88,15 @@ onEvent('entity.death', event =>{
 
 onEvent('entity.hurt', event =>{
         if (event.entity.type == 'minecraft:skeleton'){
+            
             if (event.entity.block.id == "minecraft:wither_rose" && event.entity.fullNBT.getString("fireType") == "minecraft:soul_fire") {
                 event.entity.remove()
+               
                 //event.server.tell("fortnite")
                 //event.server.tell(Skeleton.block)
                 event.server.runCommandSilent(`execute in ${event.entity.level.dimension} run summon minecraft:wither_skeleton ${event.entity.x} ${event.entity.y} ${event.entity.z} {DeathLootTable:"cae:basedskellie",PersistenceRequired:1b}`)
+
+                event.server.runCommandSilent(`playsound cae:skeleton_convert hostile @e[type=player] ${event.entity.x} ${event.entity.y} ${event.entity.z}`)
                 event.entity.block.set("minecraft:air")
                 //event.entity.block.playSound('ars_nouveau:fire_family')
             }
@@ -102,6 +106,7 @@ onEvent("block.right_click", event =>{
     if (event.item.id == "forbidden_arcanus:soul" && event.block.id.includes('davebuildingmod') && event.block.id.includes('skeleton')) {
        event.item.setCount(event.item.getCount()-1)
        event.block.set('minecraft:air')
+       event.server.runCommandSilent(`playsound cae:skeleton_convert hostile @e[type=player] ${event.block.x} ${event.block.y} ${event.block.z}`)
        event.server.runCommandSilent(`execute in ${event.block.level.dimension} run summon minecraft:skeleton ${event.block.x} ${event.block.y} ${event.block.z} {DeathLootTable:"cae:skellie",PersistenceRequired:1b}`)
     }   
 })
