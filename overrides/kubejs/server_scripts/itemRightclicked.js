@@ -114,6 +114,9 @@ onEvent('block.right_click', event =>{
         event.block.set('air')
         event.block.offset(0,10,0).set('cae:skystone_catalyst')
     }  
+	if (event.block.id == 'minecraft:iron_block' && event.item.id == "minecraft:coal") {
+		event.cancel()
+    }  
 	 if (event.block.id == 'minecraft:cartography_table' && event.item.id == "kubejs:portal_actuation_fluid_bucket") {
         event.block.set('air')
         event.server.runCommandSilent(`execute in ${event.level.dimension} run loot spawn ${event.block.x} ${event.block.y} ${event.block.z} loot cae:temple`)
