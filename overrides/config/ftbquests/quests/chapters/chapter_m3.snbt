@@ -164,6 +164,11 @@
 			hide: true
 			dependency_requirement: "one_completed"
 			id: "09E4D27B89F783CF"
+			tasks: [{
+				id: "0B1C471BC83D634D"
+				type: "checkmark"
+				title: "Yes!!"
+			}]
 		}
 		{
 			title: "By bulk-haunting cobblestone, you get blackstone!"
