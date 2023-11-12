@@ -1164,6 +1164,35 @@
 				}
 			}]
 		}
+		{
+			x: -3.0d
+			y: -6.0d
+			description: [
+				"Need to void excess fluid?"
+				"Fear not, cause Supplementaries has your back!"
+				"Simply attach a faucet pointing into a sponge onto any fluid tank, to void any fluids."
+			]
+			dependencies: ["3A10D0D5E8548C54"]
+			hide: true
+			id: "5FF5CAF946C8127C"
+			tasks: [
+				{
+					id: "3D402796A86E6268"
+					type: "checkmark"
+					title: "Fluid Voiding Made Easy!"
+				}
+				{
+					id: "1771561024085254"
+					type: "item"
+					item: "supplementaries:faucet"
+				}
+			]
+			rewards: [{
+				id: "498B053A541AFD61"
+				type: "item"
+				item: "minecraft:sponge"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

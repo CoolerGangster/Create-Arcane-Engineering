@@ -208,6 +208,7 @@
           }
         ],
         "type": "blocks",
+        "disableRenderFormed": true,
         "io": "OUT"
       },
       "any": {

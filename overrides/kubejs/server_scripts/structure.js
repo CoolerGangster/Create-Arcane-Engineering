@@ -182,10 +182,12 @@ onEvent('block.right_click', event =>{
         let x = event.block.x
         let y = event.block.y
         let z = event.block.z
-        event.server.runCommandSilent(`execute in ${event.level.dimension} run fill ${x-7} ${y+1} ${z} ${x+7} ${y+11} ${z} cae:arcane_portal replace air`)
-
-        event.item.setCount(0)
-        event.cancel()
+        let block = event.block.getPos()
+        if(event.level.getBlock(x-1,y+1,z).id == "minecraft:cobbled_deepslate"){event.server.runCommandSilent(`execute in ${event.level.dimension} run fill ${x-7} ${y+1} ${z} ${x+7} ${y+11} ${z} cae:arcane_portal replace air`); event.item.setCount(0);event.cancel()}
+        if(event.level.getBlock(x+1,y+1,z).id == "minecraft:cobbled_deepslate"){event.server.runCommandSilent(`execute in ${event.level.dimension} run fill ${x-7} ${y+1} ${z} ${x+7} ${y+11} ${z} cae:arcane_portal replace air`);event.item.setCount(0);event.cancel()}
+        if(event.level.getBlock(x,y+1,z-1).id == "minecraft:cobbled_deepslate"){event.server.runCommandSilent(`execute in ${event.level.dimension} run fill ${x} ${y+1} ${z-7} ${x} ${y+11} ${z+7} cae:arcane_portal replace air`);event.item.setCount(0);event.cancel()}
+        if(event.level.getBlock(x,y+1,z+1).id == "minecraft:cobbled_deepslate"){event.server.runCommandSilent(`execute in ${event.level.dimension} run fill ${x} ${y+1} ${z-7} ${x} ${y+11} ${z+7} cae:arcane_portal replace air`);event.item.setCount(0);event.cancel()}
+        event.server.runCommandSilent(`execute in ${event.level.dimension} run fill ${x-7} ${y+1} ${z} ${x+7} ${y+11} ${z} cae:arcane_portal replace air`); event.item.setCount(0);event.cancel()
     }
     if(event.item.id == 'kubejs:god_actuation_fluid_bucket'&& event.block.id == "cae:void"){
         let x = event.block.x
