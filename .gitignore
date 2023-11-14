@@ -1,19 +1,18 @@
-overrides/saves/*
-CreateArcaneEngineeringblabla/*
-ArcaneTrailer/*
-overrides/mods/*
-overrides/logs/*
-overrides/modernfix/*
-overrides/lightspeed/*
-overrides/backups/*
-overrides/local/*
-overrides/lightspeed-cache/*
+# Exclude folders
+overrides/saves/
+CreateArcaneEngineeringblabla/
+ArcaneTrailer/
+overrides/mods/
+overrides/logs/
+overrides/crash-reports/
+overrides/modernfix/
+overrides/lightspeed/
+overrides/backups/
+overrides/screenshots/
+overrides/local/
+overrides/lightspeed-cache/
+# Exclude individual files
 overrides/.vscode/probe.code-snippets
-overrides/backups/2023-8-23_22-0-0.zip
-overrides/backups/2023-8-23_22-30-0.zip
-overrides/backups/2023-8-23_23-0-0.zip
-overrides/backups/2023-8-23_23-30-0.zip
-overrides/backups/2023-8-24_0-0-0.zip
 overrides/config/antiqueatlas.json5
 overrides/config/byg/backups/last_working_configs_backup.zip
 overrides/config/byg/end-biomes.json5
@@ -42,7 +41,6 @@ overrides/.vscode/probe.class-definitions.json
 overrides/.vscode/probe.doc-schema.json
 overrides/.vscode/probe.lang-schema.json
 overrides/.vscode/settings.json
-overrides/backups/backups.json
 overrides/config/antiqueatlas.json5
 overrides/config/appliedenergistics2/client.json
 overrides/config/appliedenergistics2/common.json
@@ -86,7 +84,6 @@ overrides/config/redirectionor-mixins.properties
 overrides/config/rubidium-options.json
 overrides/config/smoothboot.json
 overrides/config/toastcontrol-common.toml
-overrides/crash-reports/crash-2023-08-22_15.56.41-client.txt
 overrides/fancymenu_data/last_world.fmdata
 overrides/fancymenu_instance_data/extensions/fmaudio/muted_audio_items.properties
 overrides/instance.json
@@ -176,18 +173,6 @@ overrides/local/ftbchunks/data/fd9e5214-8b08-4276-bc03-043123d0c3b8/minecraft_ov
 overrides/local/ftbchunks/data/fd9e5214-8b08-4276-bc03-043123d0c3b8/minecraft_overworld/0EA60-0EA60.zip
 overrides/local/ftbchunks/data/fd9e5214-8b08-4276-bc03-043123d0c3b8/minecraft_overworld/dimension.regions
 overrides/local/ftbchunks/data/fd9e5214-8b08-4276-bc03-043123d0c3b8/minecraft_overworld/waypoints.json
-overrides/logs/2023-08-22-1.log.gz
-overrides/logs/2023-08-22-2.log.gz
-overrides/logs/2023-08-23-1.log.gz
-overrides/logs/2023-08-23-2.log.gz
-overrides/logs/2023-08-23-3.log.gz
-overrides/logs/2023-08-23-4.log.gz
-overrides/logs/custommachinery.log
-overrides/logs/kubejs/client.txt
-overrides/logs/kubejs/server.txt
-overrides/logs/kubejs/startup.txt
-overrides/logs/latest.log
-overrides/logs/vlc.log
 overrides/options.txt
 overrides/patchouli_data.json
 overrides/plugins/access/libfilesystem_plugin.dll
@@ -213,7 +198,6 @@ overrides/plugins/video_output/libwdummy_plugin.dll
 overrides/resourcepacks/Infernal Resources.zip
 overrides/resourcepacks/Quark Programmer Art.zip
 overrides/rhino.local.properties
-overrides/screenshots/2023-08-22_18.31.08.png
 overrides/servers.dat
 overrides/shaderpacks/Complementary_Reimagined_r2.1.zip.txt
 overrides/usercache.json
@@ -221,7 +205,6 @@ overrides/usernamecache.json
 overrides/WailaErrorOutput.txt
 overrides/schematics/uploaded/FortnitePro420Xx/unassembled_hephaesthus_forge.nbt
 overrides/servers.dat_old
-overrides/logs/2023-08-24-1.log.gz
 overrides/local/ftbchunks/data/018cd0fa-82af-4d6a-b98b-2f3970b14497/minecraft_the_end/0EA5E-0EA5C.zip
 overrides/local/ftbchunks/data/018cd0fa-82af-4d6a-b98b-2f3970b14497/minecraft_the_end/0EA5D-0EA5F.zip
 overrides/local/ftbchunks/data/018cd0fa-82af-4d6a-b98b-2f3970b14497/minecraft_the_end/0EA5D-0EA5E.zip
@@ -234,21 +217,6 @@ overrides/lightspeed-cache/1.18.2/namespaces/cae1.4-cae-1.4.ser
 overrides/lightspeed-cache/1.18.2/hasResource/chunkymcchunkface0.3.2-ChunkyMcChunkFace-1.18.2-0.3.2.ser
 overrides/lightspeed-cache/1.18.2/hasResource/cae1.4-cae-1.4.ser
 overrides/config/ChunkyMcChunkFace-common.toml
-overrides/backups/2023-8-24_15-0-0.zip
-overrides/backups/2023-8-24_20-30-0.zip
-overrides/backups/2023-8-24_21-0-0.zip
-overrides/backups/2023-8-24_21-30-0.zip
-overrides/backups/2023-8-24_22-0-0.zip
-overrides/backups/2023-8-24_22-30-0.zip
-overrides/logs/2023-08-26-6.log.gz
-overrides/logs/2023-08-26-5.log.gz
-overrides/logs/2023-08-26-4.log.gz
-overrides/logs/2023-08-26-3.log.gz
-overrides/logs/2023-08-26-2.log.gz
-overrides/logs/2023-08-26-1.log.gz
-overrides/logs/2023-08-24-4.log.gz
-overrides/logs/2023-08-24-3.log.gz
-overrides/logs/2023-08-24-2.log.gz
 overrides/local/ftbchunks/data/fd9e5214-8b08-4276-bc03-043123d0c3b8/minecraft_overworld/0EA21-0EA9F.zip
 overrides/local/ftbchunks/data/fd9e5214-8b08-4276-bc03-043123d0c3b8/minecraft_overworld/0EA21-0EA9E.zip
 overrides/local/ftbchunks/data/fd9e5214-8b08-4276-bc03-043123d0c3b8/minecraft_overworld/0EA21-0EA9D.zip
@@ -333,12 +301,6 @@ overrides/local/ftbchunks/data/018cd0fa-82af-4d6a-b98b-2f3970b14497/minecraft_th
 overrides/local/ftbchunks/data/018cd0fa-82af-4d6a-b98b-2f3970b14497/minecraft_the_nether/0EA60-0EA5F.zip
 overrides/local/ftbchunks/data/018cd0fa-82af-4d6a-b98b-2f3970b14497/minecraft_the_nether/0EA5F-0EA60.zip
 overrides/config/sophisticatedstorage-client.toml
-overrides/crash-reports/crash-2023-08-26_21.03.11-fml.txt
-overrides/backups/2023-8-27_19-0-0.zip
-overrides/backups/2023-8-27_18-30-0.zip
-overrides/backups/2023-8-27_18-0-0.zip
-overrides/backups/2023-8-27_17-30-0.zip
-overrides/backups/2023-8-27_17-0-0.zip
 overrides/local/ftbchunks/data/41b5aeb0-4908-41eb-b054-9f619dda9dc1/cae_void/0EA73-0EA4C.zip
 overrides/local/ftbchunks/data/41b5aeb0-4908-41eb-b054-9f619dda9dc1/minecraft_overworld/0EA5E-0EA5F.zip
 overrides/local/ftbchunks/data/41b5aeb0-4908-41eb-b054-9f619dda9dc1/minecraft_overworld/0EA5E-0EA60.zip
@@ -348,35 +310,17 @@ overrides/local/ftbchunks/data/41b5aeb0-4908-41eb-b054-9f619dda9dc1/minecraft_ov
 overrides/local/ftbchunks/data/41b5aeb0-4908-41eb-b054-9f619dda9dc1/minecraft_overworld/0EA60-0EA5B.zip
 overrides/local/ftbchunks/data/41b5aeb0-4908-41eb-b054-9f619dda9dc1/minecraft_the_nether/0EA5E-0EA5F.zip
 overrides/local/ftbchunks/data/41b5aeb0-4908-41eb-b054-9f619dda9dc1/minecraft_the_nether/0EA5E-0EA60.zip
-overrides/logs/2023-08-27-1.log.gz
-overrides/logs/2023-08-27-2.log.gz
-overrides/logs/2023-08-27-3.log.gz
-overrides/logs/2023-08-27-4.log.gz
-overrides/backups/2023-8-24_15-0-0.zip
 overrides/config/byg/backups/last_working_configs_backup.zip
 overrides/ESM/soundsMuffled.dat
 overrides/ESM/Minecraft Server/anchors.dat
 overrides/schematics/s.nbt
 overrides/schematics/sick.nbt
 overrides/shaderpacks/ComplementaryReimagined_r2.3/HOW TO INSTALL.txt
-overrides/crash-reports/crash-2023-09-30_20.34.06-client.txt
-overrides/crash-reports/crash-2023-09-30_20.38.18-client.txt
 overrides/config/byg/backups/last_working_configs_backup.zip
 overrides/config/forgeendertech/cached.dat
-overrides/crash-reports/crash-2023-10-11_13.19.33-client.txt
-overrides/crash-reports/crash-2023-10-11_13.17.31-client.txt
-overrides/crash-reports/crash-2023-10-11_13.16.01-client.txt
 overrides/schematics/cae_violet.nbt
 overrides/schematics/uploaded/FortnitePro420Xx/cae_violet.nbt
-overrides/screenshots/2023-10-13_22.29.24.png
-overrides/screenshots/2023-10-13_22.29.24_2.png
-overrides/screenshots/2023-10-15_14.46.12.png
-overrides/crash-reports/crash-2023-10-23_13.22.39-client.txt
 overrides/config/ftbquests/quests/chapters/chaotic_catastrophy.snbt
 overrides/config/ftbquests/quests/chapters/chaotic_catastrophy.snbt
 overrides/config/ftbquests/quests/chapters/chaotic_catastrophy.snbt
 overrides/libvlccore.dll
-overrides/screenshots/2023-10-28_00.13.18.png
-overrides/screenshots/2023-10-28_00.13.19.png
-overrides/screenshots/2023-10-30_15.04.44.png
-overrides/crash-reports/crash-2023-11-05_19.09.54-fml.txt
