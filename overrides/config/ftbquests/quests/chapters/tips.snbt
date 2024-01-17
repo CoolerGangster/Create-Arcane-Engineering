@@ -108,7 +108,7 @@
 			x: -5.5d
 			y: -11.0d
 			description: [
-				"Rightclicking a Diamond Block with Flint and Steel will create a portals no matter the dimension, allowing trains to travel anywhere!"
+				"Rightclicking a Diamond Block with Flint and Steel will create a portal no matter the dimension, allowing trains to travel anywhere!"
 				"If youre attemtping to establish a link to dimensions other than the nether, you must remember that the link will only work for trains. Only if you ride on a train through the portal, will it actually transport you correctly. Otherwise you might end up somewhere else. So make sure to create the portal link through the create tracks."
 				"Create this portal in the goal Dimension. Go through it. Now, you must make sure not to go back through the newly created portal in the overworld/nether, but rather go back to your goal Dimension by other means. Now, place a Train Track at the Portal in the special dimension, just as you would with any Create Portal links. It should then establish a correct Track link, you can ride your train through."
 			]
