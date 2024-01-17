@@ -198,6 +198,7 @@ onEvent('level.load', event => {
 	if (global.cachedSeed == event.level.getSeed()) {return}
 	global.cachedSeed = event.level.getSeed()
 	global.seededRandom = new java("java.util.Random")(global.cachedSeed)
+	global.questLists = []
 
 	//quest types
 	assign(mining, values, global.seededRandom, "quests:mining_task")
