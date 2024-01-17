@@ -89,7 +89,7 @@ onEvent('entity.death', event =>{
 onEvent('entity.hurt', event =>{
         if (event.entity.type == 'minecraft:skeleton'){
             
-            if (event.entity.block.id == "minecraft:wither_rose" && event.entity.fullNBT.getString("fireType") == "minecraft:soul_fire") {
+            if ((event.entity.block.id == "minecraft:wither_rose" || event.entity.block.offset(0,1,0).id == "minecraft:wither_rose")&& event.entity.fullNBT.getString("fireType") == "minecraft:soul_fire") {
                 event.entity.remove()
                
                 //event.server.tell("fortnite")
@@ -97,7 +97,8 @@ onEvent('entity.hurt', event =>{
                 event.server.runCommandSilent(`execute in ${event.entity.level.dimension} run summon minecraft:wither_skeleton ${event.entity.x} ${event.entity.y} ${event.entity.z} {DeathLootTable:"cae:basedskellie",PersistenceRequired:1b}`)
 
                 event.server.runCommandSilent(`playsound cae:skeleton_convert hostile @e[type=player] ${event.entity.x} ${event.entity.y} ${event.entity.z}`)
-                event.entity.block.set("minecraft:air")
+                if(event.entity.block.id == "minecraft:wither_rose"){event.entity.block.set("minecraft:air")}
+               else{event.entity.block.offset(0,1,0).set("minecraft:air")}
                 //event.entity.block.playSound('ars_nouveau:fire_family')
             }
         }
