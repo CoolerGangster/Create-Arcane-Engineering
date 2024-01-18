@@ -779,7 +779,7 @@
 				" "
 				"3. Create Chunk Loader: Needs to be on a contraption. Chunkloads in 3x3 chunks. Has no random ticks, No offline timer."
 				" "
-				"4. Vanilla Chunk loader: Go watch a video on how to build one. Chunk loads a 5x5 chunk area, but the center 3x3 chunks have entity processing (items and mobs). Has no random ticks, offline timer. "
+				"4. Vanilla Chunk loader: Go watch a video on how to build one. Chunk loads a 5x5 chunk area, but the center 3x3 chunks have entity processing (items and mobs). Has no random ticks, No offline timer. "
 			]
 			id: "1EFB8BA1B6937B80"
 			tasks: [
@@ -812,7 +812,7 @@
 			x: -7.5d
 			y: -14.0d
 			subtitle: "Make sure the hose pully is at the bottom of the source hole. "
-			description: ["Only Water, Lava and Oil can me made infinite. "]
+			description: ["10k source blocks are needed for an infinite supply. Only Water, Lava and Oil can me made infinite. "]
 			id: "08E35C3CA461650F"
 			tasks: [{
 				id: "10A580A0C66A6589"
