@@ -108,9 +108,9 @@
 			x: -5.5d
 			y: -11.0d
 			description: [
-				"Rightclicking a Diamond Block with Flint and Steel will create a portal no matter the dimension, allowing trains to travel anywhere!"
-				"If youre attemtping to establish a link to dimensions other than the nether, you must remember that the link will only work for trains. Only if you ride on a train through the portal, will it actually transport you correctly. Otherwise you might end up somewhere else. So make sure to create the portal link through the create tracks."
-				"Create this portal in the goal Dimension. Go through it. Now, you must make sure not to go back through the newly created portal in the overworld/nether, but rather go back to your goal Dimension by other means. Now, place a Train Track at the Portal in the special dimension, just as you would with any Create Portal links. It should then establish a correct Track link, you can ride your train through."
+				"Rightclicking a Diamond Block with Flint and Steel will create a portals no matter the dimension, allowing trains to travel anywhere!"
+				"This Portal only works for Trains, and their Inhabiting entities. To make the link work in the first place, you have to place a Track Down just as you would next to any Nether Portal. Just make sure to place it in the dimension you are attempting to link to."
+				"Place Your Portal in the Special Dimension. Then go through it. Go back to the special Dimension (not through the newly created Portal) and then place a Train Track at the Portal in the special dimension."
 			]
 			id: "0C07D49BEDE78634"
 			tasks: [
@@ -131,21 +131,6 @@
 					item: "minecraft:diamond_block"
 				}
 			]
-		}
-		{
-			x: 13.0d
-			y: -8.0d
-			description: [
-				"This is a create chunkloader. It ONLY works on contraptions. "
-				"But it doesnt simulate randomticks, which is the stuff you need to grow crops. FTBchunks force load can do that for you. "
-				"Chunk Loading is more or less required to complete this pack."
-			]
-			id: "3147CC1F634EF8E7"
-			tasks: [{
-				id: "00D0B84159CDC1CE"
-				type: "item"
-				item: "createchunkloading:chunk_loader"
-			}]
 		}
 		{
 			x: -5.0d
@@ -224,7 +209,7 @@
 		{
 			title: "Orestones are now Renewable!"
 			x: 13.0d
-			y: -7.0d
+			y: -7.5d
 			description: [
 				"Geodes of Orestones now spawn all around the world. "
 				"rightclick the Geode Block in those with a redstone dust item, and it will spawn in Orestone blocks! "
@@ -298,7 +283,7 @@
 		{
 			title: "Pre Brass Item Stacking!"
 			x: -7.5d
-			y: -13.5d
+			y: -13.0d
 			description: ["You can group items into stacks by using Weighted Ejectors, simply scroll with a wrench on a Weighted Ejector to configure the desired Stack amount!"]
 			id: "392207368024751B"
 			tasks: [{
@@ -374,7 +359,7 @@
 		}
 		{
 			x: -4.5d
-			y: -12.5d
+			y: -12.0d
 			description: ["Blaze Burners can now Accept Liquids if you give them a Straw! Bypasses blaze cakes"]
 			id: "0403135BEBFF8693"
 			tasks: [
@@ -515,7 +500,7 @@
 			]
 		}
 		{
-			x: 10.0d
+			x: 11.0d
 			y: -6.0d
 			subtitle: "Can be used to farm Fish..."
 			id: "3D7B34D45116567D"
@@ -559,7 +544,7 @@
 		}
 		{
 			x: -7.5d
-			y: -12.5d
+			y: -12.0d
 			subtitle: "Collect some, will ya?"
 			id: "223B1CB805849D44"
 			tasks: [
@@ -578,7 +563,7 @@
 		{
 			title: "Plates through Anvils"
 			x: 10.0d
-			y: -7.0d
+			y: -6.5d
 			description: ["Drop an Anvil on an Ingot, and sure enough, itll get pressed down into a plate. (A bit lossy)"]
 			id: "2A80651B5135AB01"
 			tasks: [
@@ -648,7 +633,7 @@
 		}
 		{
 			x: 10.0d
-			y: -8.0d
+			y: -7.5d
 			description: ["Will Generate most decorative stones when they are placed below it."]
 			id: "686971D4F5FC320E"
 			tasks: [{
@@ -672,7 +657,7 @@
 		}
 		{
 			x: 13.0d
-			y: -6.0d
+			y: -6.5d
 			description: ["You can heat Create Steam Engines with Pneumaticcraft!"]
 			id: "41474C57E044994B"
 			tasks: [{
@@ -713,18 +698,6 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: -6.0d
-			subtitle: "Another Chunkloader."
-			description: ["Right-Click to Activate. If the player is longer than 140 minutes offline, it will disable itself."]
-			id: "79A1DE90448ED2F4"
-			tasks: [{
-				id: "1C4067CE9D0886AC"
-				type: "item"
-				item: "chunkymcchunkface:chunk_loader"
-			}]
-		}
-		{
 			title: "Mob Yoinking, like a BOSS"
 			x: 12.0d
 			y: -6.0d
@@ -755,7 +728,7 @@
 		{
 			title: "Fluid Voiding made easy."
 			x: -4.5d
-			y: -13.5d
+			y: -13.0d
 			description: ["To Void the Fluids in any Liquid Container, simply apply a faucet that points into a Sponge!"]
 			id: "3C69A545EEBC1650"
 			tasks: [
@@ -793,6 +766,59 @@
 					item: "minecraft:oak_sapling"
 				}
 			]
+		}
+		{
+			title: "Chunk Loaders"
+			x: -4.5d
+			y: -14.0d
+			subtitle: "Random ticks affect the growth and behavior of certain in-game features (plant growth cauldron filling etc.)"
+			description: [
+				"1. FTB Chunks: Accesed Via the map (defualt key m) then the map in the top left. Has random ticks, No offline timer."
+				" "
+				"2. Chunky McChunkFace: Build beacon pyramids to increase range. Defualt key \"\\\" to see its range. No random ticks, No offline timer for single player. Goes offline after 140 minutes upon player leaving the server (multiplayer). "
+				" "
+				"3. Create Chunk Loader: Needs to be on a contraption. Chunkloads in 3x3 chunks. Has no random ticks, No offline timer."
+				" "
+				"4. Vanilla Chunk loader: Go watch a video on how to build one. Chunk loads a 5x5 chunk area, but the center 3x3 chunks have entity processing (items and mobs). Has no random ticks, No offline timer. "
+			]
+			id: "1EFB8BA1B6937B80"
+			tasks: [
+				{
+					id: "590FED6E22B3EFD3"
+					type: "custom"
+					title: "FTB Chunks"
+					icon: "minecraft:map"
+				}
+				{
+					id: "5D9A74B69DD9379A"
+					type: "item"
+					item: "chunkymcchunkface:chunk_loader"
+				}
+				{
+					id: "4B2149D41D0C513D"
+					type: "item"
+					item: "createchunkloading:chunk_loader"
+				}
+				{
+					id: "3F45E97D61F73B2A"
+					type: "custom"
+					title: "Vanilla Method"
+					icon: "minecraft:obsidian"
+				}
+			]
+		}
+		{
+			title: "Infinte Fluid Source"
+			x: -7.5d
+			y: -14.0d
+			subtitle: "Make sure the hose pully is at the bottom of the source hole. "
+			description: ["10k source blocks are needed for an infinite supply. Only Water, Lava and Oil can me made infinite. "]
+			id: "08E35C3CA461650F"
+			tasks: [{
+				id: "10A580A0C66A6589"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
 		}
 	]
 	quest_links: [ ]
