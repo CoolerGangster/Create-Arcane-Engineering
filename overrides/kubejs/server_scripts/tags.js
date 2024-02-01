@@ -29,7 +29,10 @@ onEvent('tags.items', event => {
     event.add('create:kinetic_mechanisms','kubejs:makeshift_kinetic_mechanism')
     event.add('create:kinetic_mechanisms','kubejs:kinetic_mechanism')
     event.add('davebuildingmod:skeleton', /^davebuildingmod:skeleton_/)
-    
+
+    //Ty too #DarkLotus
+    event.add('ae2:blacklisted/spatial', '#forge:relocation_not_supported');
+    event.add('forge:relocation_not_supported', /cae:.+_catalyst/);
     const wrenchpickupables = 
     ["#thermal:", "", "", "", "", "", "", "", "", "",]
 

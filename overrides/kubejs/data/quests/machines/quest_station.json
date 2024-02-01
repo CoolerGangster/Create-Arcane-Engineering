@@ -2,7 +2,7 @@
     "name": "Quest Station",
     "appearance": {
       "idle": {
-        "block": "testresourcepack:machine/stone_generator_model"
+        "block": "quests:machines/quest_station"
       },
       "running": {
         "lightlevel": 15
