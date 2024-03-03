@@ -50,16 +50,13 @@ function cloudCheck(event){
 	let truofal = false
 	for (let i = -1; i < 2; i++) {
 		for (let j = -1; j < 2; j++) {
-			
 			for (let k = -1; k < 2; k++) {
 				if((i != 0 && j ==0 && k ==0) || (i == 0 && j !=0 && k ==0) || (i == 0 && j ==0 && k !=0) ){
-	
-				if(event.block.offset(i,j,k).id == "integrateddynamics:cable"){
-					event.block.offset(i,j,k).entityData.partContainer.parts.forEach(thing =>{ 
-
-						if(dontIDcomponents.includes(thing.__partType) && thing.__side == dirtostr(i*-1,j*-1,k*-1)){truofal=true}
-					})
-				}
+					if(event.block.offset(i,j,k).id == "integrateddynamics:cable"){
+						event.block.offset(i,j,k).entityData.partContainer.parts.forEach(thing =>{ 
+							if(dontIDcomponents.includes(thing.__partType) && thing.__side == dirtostr(i*-1,j*-1,k*-1)){truofal=true}
+						})
+					}
 				}
 			}
 			
@@ -86,13 +83,10 @@ onEvent('block.place',event =>{
 })
 let itemcounter = 0
 onEvent('block.right_click', event =>{
-
 	if (dontIDparts.includes(event.item.id) && nonoIDArray.includes(event.block.id)) {
 		event.player.tell( Text.red('We Highly Recommend not connecting these ID parts to these Blocks, as they are known to cause a lot of lag most of the time. Only keep it if you know what you are doing.'))
 	
 	}
-	
-	
 	if (dontIDparts.includes(event.item.id)) {
 		let letext = event.facing
 		if(nonoIDArray.includes(event.block.offset(getdirx(letext),getdiry(letext),getdirz(letext)).id)){
@@ -100,7 +94,6 @@ onEvent('block.right_click', event =>{
 	
 		}
 	}
-	
 	if (event.item.id == "kubejs:runic_tablet" && event.block.entityId == "minecraft:air" && event.block.id != "minecraft:crafting_table") {
 		if (!event.player.creativeMode) {event.item.count--}
 		let lightning = event.block.createEntity("forbidden_arcanus:crimson_lightning_bolt")
@@ -133,15 +126,11 @@ onEvent('block.right_click', event =>{
         let data = event.block.entityData
         data.Essences.Corruption = 0
         event.block.mergeEntityData(data) //why do i have to merge the entire data :/
-
-
-			event.server.scheduleInTicks(3, c => {
-				if (c.server.getLevel(event.level.dimension).getBlock(event.block.x, event.block.y, event.block.z).entityData.Ritual.Counter == 3){
+		event.server.scheduleInTicks(3, c => {
+			if (c.server.getLevel(event.level.dimension).getBlock(event.block.x, event.block.y, event.block.z).entityData.Ritual.Counter == 3){
 					c.server.runCommandSilent(`playsound cae:forge_start block @e[type=player] ${event.block.x} ${event.block.y} ${event.block.z}`)
-				}
-			})
-		
-		
+			}
+		})
     }
 	// Prevent Straw duping because it's annoying!
 	if (event.item.id == "createaddition:straw" && event.block.id == 'create:blaze_burner' && event.level.dimension != 'cae:void') {
@@ -150,10 +139,7 @@ onEvent('block.right_click', event =>{
 			event.item.count--
 		}
 	}
-	
 	if(event.item == "forbidden_arcanus:mundabitur_dust" && arcaneblox.includes(event.block.id)){
-		
-
 		if(event.block.id == arcaneblox[0]){
 			if (event.block.offset(0,1,0).id == arcaneblox[1] && event.block.offset(0,2,0).id == arcaneblox[1]){
 				event.server.runCommandSilent(`playsound cae:arcane_obelisk_creation block @e[type=player] ${event.block.x} ${event.block.y} ${event.block.z}`)
@@ -169,9 +155,5 @@ onEvent('block.right_click', event =>{
 
 			}
 		}
-
 	}
-
-
-
 })
