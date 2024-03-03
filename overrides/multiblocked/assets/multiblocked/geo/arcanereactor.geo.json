@@ -824,12 +824,12 @@
 				{
 					"name": "ReactorBeams",
 					"parent": "Reactor",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 38, 0]
 				},
 				{
 					"name": "ReactorFloating",
 					"parent": "ReactorBeams",
-					"pivot": [0, 0, 0],
+					"pivot": [0, 37, 0],
 					"cubes": [
 						{
 							"origin": [-20, 18, -1],
