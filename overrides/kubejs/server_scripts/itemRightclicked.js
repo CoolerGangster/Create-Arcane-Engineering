@@ -132,13 +132,7 @@ onEvent('block.right_click', event =>{
 			}
 		})
     }
-	// Prevent Straw duping because it's annoying!
-	if (event.item.id == "createaddition:straw" && event.block.id == 'create:blaze_burner' && event.level.dimension != 'cae:void') {
-		if (!event.player.creativeMode) {
-			event.block.set('createaddition:liquid_blaze_burner')
-			event.item.count--
-		}
-	}
+
 	if(event.item == "forbidden_arcanus:mundabitur_dust" && arcaneblox.includes(event.block.id)){
 		if(event.block.id == arcaneblox[0]){
 			if (event.block.offset(0,1,0).id == arcaneblox[1] && event.block.offset(0,2,0).id == arcaneblox[1]){
@@ -156,4 +150,25 @@ onEvent('block.right_click', event =>{
 			}
 		}
 	}
+})
+
+onEvent('block.right_click', event => {
+    if (event.item.id !== 'createaddition:straw') return;
+    if (!event.block.entityData) {
+        event.cancel();
+        return;
+    }
+    
+    if (!event.block.entityData.id || event.block.entityData.id !== 'create:blaze_heater') {
+        event.cancel();
+        return;
+    }
+
+    // Prevent Straw duping because it's annoying, but only outside the void dimension :)
+    if (event.level.dimension != 'cae:void') {
+        event.block.set('createaddition:liquid_blaze_burner');
+        if (!event.player.creativeMode) {
+            event.item.count--;
+        }
+    }
 })
