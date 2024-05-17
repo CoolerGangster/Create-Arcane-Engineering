@@ -10,6 +10,8 @@ onEvent('recipes', event => {
     event.shapeless('integratedtunnels:part_interface_fluid', ['integratedtunnels:part_interface_fluid'])
     event.shapeless('integratedtunnels:part_importer_fluid', ['integratedtunnels:part_importer_fluid'])
     event.shapeless('integratedtunnels:part_exporter_fluid', ['integratedtunnels:part_exporter_fluid'])
+    event.shapeless('integratedtunnels:part_importer_energy', ['integratedtunnels:part_importer_energy'])
+    event.shapeless('integratedtunnels:part_exporter_energy', ['integratedtunnels:part_exporter_energy'])
 
     // Fix Integrated Dynamics items not able to be reset once an ID is defined.
     event.shapeless('integrateddynamics:part_connector_mono_directional', ['integrateddynamics:part_connector_mono_directional'])
