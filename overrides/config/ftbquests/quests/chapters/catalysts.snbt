@@ -114,7 +114,7 @@
 			y: -2.5d
 			subtitle: "Click Quest for Catalyst Explanation"
 			description: [
-				"Catalysts spawn underground everywhere in the world. You can spot them easily in oceans, or find them using the Structures Compass"
+				"Catalysts spawn underground everywhere in the world. You can spot them easily in oceans, or find them using the Explorer's Compass"
 				"Simply Right-Click a Catalyst with Redstone, and 5 Blocks around it will get transformed to its corresponding Resource. Veridium Catalysts => Veridium"
 			]
 			id: "00082526A88C36D7"
