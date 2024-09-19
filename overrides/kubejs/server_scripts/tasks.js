@@ -60,7 +60,7 @@ let mining = [//item, value-multiplier, amount-multiplier.
 	['minecraft:raw_gold', 8, 1], 
 	['minecraft:diamond', 12, 1],
 	['minecraft:diamond', 14, 1], 
-	['minecraft:ancient_Debris', 32, 1],
+	['minecraft:ancient_debris', 32, 1],
 	['minecraft:amethyst_shard', 4, 9]
 ]
 let hunting = [// same as above
