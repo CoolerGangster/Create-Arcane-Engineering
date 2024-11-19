@@ -93,7 +93,8 @@ let treeRegistry = [
                 trunk: 'byg:fir_log',
                 leaf: 'byg:fir_leaves',
                 sap: 'thermal:resin',
-                rate: { living: 25, dead: 4 }
+                // Respect bop's fir recipe in ThermalIntegration
+                rate: { living: 50, dead: 4 }
               },
               {
                 trunk: 'byg:green_enchanted_log',
@@ -188,8 +189,9 @@ let treeRegistry = [
               {
                 trunk: 'minecraft:spruce_log',
                 leaf: 'byg:blue_spruce_leaves',
-                sap: 'thermal:sap',
-                rate: { living: 25, dead: 4 }
+                sap: 'thermal:resin',
+                // Respect thermal's spruce recipe
+                rate: { living: 50, dead: 4 }
               },
               {
                 trunk: 'byg:pine_log',
@@ -249,7 +251,8 @@ let treeRegistry = [
                 trunk: 'minecraft:spruce_log',
                 leaf: 'byg:orange_spruce_leaves',
                 sap: 'thermal:resin',
-                rate: { living: 25, dead: 4 }
+                // Respect thermal's spruce recipe
+                rate: { living: 50, dead: 4 }
               },
               {
                 trunk: 'minecraft:oak_log',
@@ -267,7 +270,8 @@ let treeRegistry = [
                 trunk: 'minecraft:spruce_log',
                 leaf: 'byg:red_spruce_leaves',
                 sap: 'thermal:resin',
-                rate: { living: 25, dead: 4 }
+                // Respect thermal's spruce recipe
+                rate: { living: 50, dead: 4 }
               },
               {
                 trunk: 'architects_palette:twisted_log',
@@ -315,7 +319,8 @@ let treeRegistry = [
                 trunk: 'minecraft:spruce_log',
                 leaf: 'byg:yellow_spruce_leaves',
                 sap: 'thermal:resin',
-                rate: { living: 25, dead: 4 }
+                // Respect thermal's spruce recipe
+                rate: { living: 50, dead: 4 }
               },
               {
                 trunk: 'minecraft:birch_log',
