@@ -57,7 +57,7 @@ onEvent('recipes', event => {
         ]
       })
     event.recipes.createCrushing([Item.of('ae2:singularity').withChance(0.30)],'2x create:crushing_wheel')
-})
+}) //TODO: This might be able able to be made more efficiently with entity spawn....
 onEvent('level.tick', event => {
   event.level.getEntities('@e[type=cae:essentialorb]').forEach(Orb => {
     if (Orb.fullNBT.getInt('kubejsdoshit')){

@@ -200,4 +200,22 @@ onEvent('item.registry', (event) => {
     event.create("lootbag_create_brass", "pickaxe").displayName("Engineers Brass Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag")
     event.create("lootbag_create_radiant", "pickaxe").displayName("Engineers Radiant Toolkit").rarity(RARITY_EPIC).unstackable().tier("lootbag").glow(true)
     event.create("lootbag_pcb", "pickaxe").displayName("PCB Loot Package").rarity(RARITY_EPIC).unstackable().tier("lootbag")
+    //Chaos Chapter
+
+    event.create("cae:epsilon").displayName("Epsilon").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:delta").displayName("Delta").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:there_exists").displayName("There Exists").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:for_all").displayName("For All").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:greater_than").displayName("Greater Than").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:implies").displayName("Implies").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:absolute").displayName("Absolute").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:zero").displayName("Zero").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:x").displayName("X").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:y").displayName("Y").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:such_that").displayName("Such That").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:minus").displayName("Minus").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:less_than").displayName("Less Than").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:f").displayName("F").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:left_paren").displayName("(").unstackable().rarity(RARITY_EPIC)
+    event.create("cae:right_paren").displayName(")").unstackable().rarity(RARITY_EPIC)
 });

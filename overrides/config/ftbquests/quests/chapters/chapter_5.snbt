@@ -368,7 +368,7 @@
 			icon: "cae:orb_spawn_egg"
 			x: 7.0d
 			y: -2.5d
-			description: ["Its cashout time, the entity is severly destabilized and will need to be fueled with 7 Singularities in the span of 5 seconds to convert to a Orb of Flight, which will be important later."]
+			description: ["Its cashout time, the entity is severly destabilized and will need to be fueled with 7 Singularities in the span of 5 seconds to convert to a Orb of Flight, which will be important later. (its actually not 7 singularities I think its 5 but forgot)"]
 			dependencies: [
 				"4BCEB0647E3CD6D6"
 				"02063472CAF17409"
@@ -904,8 +904,8 @@
 		{
 			title: "Artwork by @betwixer on discord"
 			icon: "ars_nouveau:glyph_redstone_signal"
-			x: 52.5d
-			y: -29.5d
+			x: 42.5d
+			y: -25.0d
 			description: [
 				"{image:kubejs:textures/arcane_nebulae_by_betwizer.png width:150 height:100 align:1}"
 				"This amazing piece of Art was provided by @betwizer"
