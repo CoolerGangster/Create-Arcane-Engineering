@@ -1,0 +1,63 @@
+{
+  "name": "contuinity-2",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "8a021096-f56e-46f6-a032-33b98cf6d5a0",
+      "duration": 80,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 4,
+              "ingredient": {
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "entity": [
+          {
+            "content": {
+              "type": "minecraft:pig"
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f73c1afa-6726-4442-a0b0-4f1d741ad072",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:diamond"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "entity": [
+          {
+            "content": {
+              "type": "minecraft:creeper"
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

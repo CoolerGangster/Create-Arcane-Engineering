@@ -35,9 +35,13 @@ let ItemReferences = {
 let DiscontinuityCycle = {};
 let CountdownMap = {};
 let ErrorMap = {};
+let addmod31 = (cycleValue, value) => (cycleValue + value) % 31;
 function getNumba(cycleValue) {
-    if (cycleValue % 30 === 0) {
+    if (cycleValue === 0) {
         return 2;
+    }
+    if(cycleValue >= 28){
+        return 0;
     }
     return Math.random() < 0.5 ? 0 : 2;
 }
@@ -53,12 +57,12 @@ function ContinuumLoop(event) {
     } else {
         let cycleValue = DiscontinuityCycle[blockPos];
         event.server.tell("Cycle Value: " + cycleValue);
-        if (Math.random() < /*0.99258947596 0.5*/ 1 && CountdownMap[blockPos]  < 0) {
-            DiscontinuityCycle[blockPos] = cycleValue + 1;
+        if ((Math.random() < /*0.99258947596*/ 0.5 || cycleValue == 30) && CountdownMap[blockPos]  < 0) {
+            DiscontinuityCycle[blockPos] = addmod31(cycleValue,1);
         } else {
             if(CountdownMap[blockPos] >= 0) {
                 event.server.tell(CountdownMap[blockPos]);
-                DiscontinuityCycle[blockPos] = cycleValue + 1;
+                DiscontinuityCycle[blockPos] = addmod31(cycleValue, 1);
                 CountdownMap[blockPos] = CountdownMap[blockPos] - 1;
                 if(CountdownMap[blockPos] === 0) {
                     event.server.tell("Boom");
@@ -67,20 +71,20 @@ function ContinuumLoop(event) {
             }
             else {
                 const numba = getNumba(cycleValue);
-                DiscontinuityCycle[blockPos] = cycleValue + numba ;
+                DiscontinuityCycle[blockPos] = addmod31(cycleValue, numba) ;
                 //if number is 2 the Item of Error is the item that was skipped, else its the item that was repeated.
                 ErrorMap[blockPos] = (numba == 2 ? DiscontinuityCycle[blockPos] - 1 : DiscontinuityCycle[blockPos]);
                 event.server.tell(`Initialized Error Map: ${ErrorMap[blockPos]} for block: ${blockPos}`);
-                CountdownMap[blockPos] = 10;    
-                event.server.tell("fortnite");
+                CountdownMap[blockPos] = -cycleValue + 31;    
+                event.server.tell("Error needs to be Found");
+                event.server.tell(ItemReferences[Math.round(ErrorMap[blockPos])])
                 event.server.tell(CountdownMap[blockPos])
             }
         }
-        event.entity.block.popItemFromFace(Item.of(ItemReferences[cycleValue % 30] , 1), "down");
+        event.entity.block.popItemFromFace(Item.of(ItemReferences[cycleValue] , 1), "down");
         
     }
 }
-
 onEvent('entity.spawned', event => {
     if (event.entity.type == "minecraft:pig" && event.entity.block.id.includes("cae:continuity_reactor")) {
         ContinuumLoop(event);
@@ -100,10 +104,14 @@ onEvent('block.right_click', event => {
             CountdownMap[blockPos] = -1;
             ErrorMap[blockPos] = null;
             }
-            if(CountdownMap[blockPos] > 0 && event.item.id == ItemReferences[Math.round(ErrorMap[blockPos])]) {
-                event.server.tell("Success");	
-                event.entity.block.popItemFromFace(Item.of("minecraft:diamond" , 64), "down");
-                CountdownMap[blockPos] = -1;
+            if(CountdownMap[blockPos] > 0) {
+                if(event.item.id == ItemReferences[Math.round(ErrorMap[blockPos])]){
+                    event.server.tell("You found Error yippie");	
+                    event.entity.block.popItemFromFace(Item.of("minecraft:diamond" , 64), "down");
+                    CountdownMap[blockPos] = -1;
+                }else{
+                    event.server.tell("Fuck You, (Wrong Item)")
+                }
             }
         }
 });
