@@ -16,9 +16,9 @@
 	images: [
 		{
 			x: 0.5d
-			y: -5.5d
-			width: 30.0d
-			height: 30.0d
+			y: -6.5d
+			width: 64.0d
+			height: 36.0d
 			rotation: 0.0d
 			image: "kubejs:textures/nether.png"
 			hover: [ ]
@@ -27,8 +27,8 @@
 			corner: false
 		}
 		{
-			x: 0.5d
-			y: -6.0d
+			x: 42.5d
+			y: -1.5d
 			width: 18.0d
 			height: 18.0d
 			rotation: 0.0d

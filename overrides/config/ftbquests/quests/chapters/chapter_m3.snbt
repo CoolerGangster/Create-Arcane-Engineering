@@ -9,10 +9,10 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -4.0d
-			y: -4.5d
-			width: 50.0d
-			height: 50.0d
+			x: -3.0d
+			y: 0.0d
+			width: 52.0d
+			height: 29.25d
 			rotation: 0.0d
 			image: "kubejs:textures/m3.png"
 			hover: [ ]
@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: -3.5d
-			y: -1.0d
+			x: 58.5d
+			y: -4.5d
 			width: 20.0d
 			height: 18.0d
 			rotation: 0.0d

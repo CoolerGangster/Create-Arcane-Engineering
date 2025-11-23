@@ -17,8 +17,8 @@
 		{
 			x: 1.5d
 			y: 1.0d
-			width: 45.0d
-			height: 45.0d
+			width: 52.0d
+			height: 29.25d
 			rotation: 0.0d
 			image: "kubejs:textures/trade.png"
 			hover: [ ]
@@ -27,8 +27,8 @@
 			corner: false
 		}
 		{
-			x: 1.5d
-			y: 0.5d
+			x: 43.5d
+			y: 0.0d
 			width: 20.0d
 			height: 30.0d
 			rotation: 0.0d

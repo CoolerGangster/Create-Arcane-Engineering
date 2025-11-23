@@ -10,10 +10,10 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 16.5d
-			y: 2.5d
-			width: 42.0d
-			height: 42.0d
+			x: 15.0d
+			y: 4.0d
+			width: 57.0d
+			height: 54.0d
 			rotation: 0.0d
 			image: "kubejs:textures/corundum.png"
 			hover: [ ]
@@ -22,8 +22,8 @@
 			corner: false
 		}
 		{
-			x: 16.0d
-			y: 3.25d
+			x: 51.0d
+			y: 0.5d
 			width: 12.0d
 			height: 12.0d
 			rotation: 0.0d

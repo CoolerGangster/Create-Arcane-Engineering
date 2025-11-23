@@ -17,8 +17,8 @@
 		{
 			x: 2.0d
 			y: -8.5d
-			width: 28.0d
-			height: 28.0d
+			width: 52.0d
+			height: 29.25d
 			rotation: 0.0d
 			image: "kubejs:textures/tips.png"
 			hover: [ ]

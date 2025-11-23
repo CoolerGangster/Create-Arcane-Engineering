@@ -9,9 +9,9 @@
 	images: [
 		{
 			x: 3.5d
-			y: 1.5d
-			width: 40.0d
-			height: 40.0d
+			y: -0.5d
+			width: 52.0d
+			height: 29.25d
 			rotation: 0.0d
 			image: "kubejs:textures/progression.png"
 			hover: [ ]
@@ -20,8 +20,8 @@
 			corner: false
 		}
 		{
-			x: 3.5d
-			y: 0.0d
+			x: 42.5d
+			y: 0.5d
 			width: 14.0d
 			height: 14.0d
 			rotation: 0.0d

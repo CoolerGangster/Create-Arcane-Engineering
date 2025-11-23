@@ -14,19 +14,19 @@
 	images: [
 		{
 			x: 1.0d
-			y: -1.0d
-			width: 50.0d
-			height: 50.0d
+			y: -0.5d
+			width: 52.0d
+			height: 29.25d
 			rotation: 0.0d
-			image: "kubejs:textures/m4.png"
+			image: "kubejs:textures/m3.png"
 			hover: [ ]
 			click: ""
 			dev: false
 			corner: false
 		}
 		{
-			x: 1.0d
-			y: -0.5d
+			x: 36.5d
+			y: -1.5d
 			width: 17.0d
 			height: 17.0d
 			rotation: 0.0d

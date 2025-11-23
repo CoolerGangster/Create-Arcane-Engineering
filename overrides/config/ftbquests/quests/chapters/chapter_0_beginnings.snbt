@@ -11,8 +11,8 @@
 		{
 			x: 1.5d
 			y: -0.5d
-			width: 40.0d
-			height: 40.0d
+			width: 52.0d
+			height: 29.25d
 			rotation: 0.0d
 			image: "kubejs:textures/start.png"
 			hover: [ ]
@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 1.5d
-			y: -1.0d
+			x: 36.0d
+			y: -3.0d
 			width: 16.0d
 			height: 16.0d
 			rotation: 0.0d

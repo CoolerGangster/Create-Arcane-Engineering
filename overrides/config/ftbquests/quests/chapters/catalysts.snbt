@@ -15,20 +15,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -4.5d
-			y: 3.0d
-			width: 20.0d
-			height: 20.0d
-			rotation: 0.0d
-			image: "kubejs:textures/drgmine.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: -4.5d
-			y: 3.0d
+			x: -44.5d
+			y: 2.0d
 			width: 10.0d
 			height: 16.0d
 			rotation: 0.0d
@@ -38,12 +26,24 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -4.5d
+			y: 1.5d
+			width: 52.0d
+			height: 29.25d
+			rotation: 0.0d
+			image: "kubejs:textures/drgmine.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
 			title: "Veridium Catalyst"
-			x: -4.0d
-			y: -1.0d
+			x: 4.0d
+			y: 4.5d
 			shape: "square"
 			dependencies: ["00082526A88C36D7"]
 			id: "19BDDB9B19B0183B"
@@ -59,8 +59,8 @@
 		}
 		{
 			title: "Ochrum Catalyst"
-			x: -3.0d
-			y: -1.0d
+			x: 9.5d
+			y: 4.0d
 			shape: "square"
 			dependencies: ["00082526A88C36D7"]
 			id: "3EF752B1176D3704"
@@ -76,8 +76,8 @@
 		}
 		{
 			title: "Asurine Catalyst"
-			x: -5.0d
-			y: -1.0d
+			x: -12.5d
+			y: 5.0d
 			shape: "square"
 			dependencies: ["00082526A88C36D7"]
 			id: "677A19A419C2D27D"
@@ -93,8 +93,8 @@
 		}
 		{
 			title: "Crimsite Catalyst"
-			x: -6.0d
-			y: -1.0d
+			x: -20.0d
+			y: 4.0d
 			shape: "square"
 			dependencies: ["00082526A88C36D7"]
 			id: "32987F2AD1668C78"
@@ -111,7 +111,7 @@
 		{
 			title: "Automated Redstone from Chapter 2"
 			x: -4.5d
-			y: -2.5d
+			y: 11.5d
 			subtitle: "Click Quest for Catalyst Explanation"
 			description: [
 				"Catalysts spawn underground everywhere in the world. You can spot them easily in oceans, or find them using the Structures Compass"
@@ -125,8 +125,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 0.5d
+			x: -18.0d
+			y: -0.5d
 			shape: "diamond"
 			dependencies: ["32987F2AD1668C78"]
 			id: "5BDDA61CBC3BEC7D"
@@ -137,8 +137,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 0.5d
+			x: -9.5d
+			y: 0.0d
 			shape: "diamond"
 			dependencies: ["677A19A419C2D27D"]
 			id: "2980B8880809B70D"
@@ -149,7 +149,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: 0.0d
 			y: 0.5d
 			shape: "diamond"
 			dependencies: ["19BDDB9B19B0183B"]
@@ -161,8 +161,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.5d
+			x: 5.5d
+			y: 0.0d
 			shape: "diamond"
 			dependencies: ["3EF752B1176D3704"]
 			id: "1832DB451C6EC706"
@@ -174,8 +174,8 @@
 		}
 		{
 			title: "Crush and Smelt...."
-			x: -5.5d
-			y: 1.5d
+			x: -4.5d
+			y: 4.0d
 			id: "365CE975D4D014A5"
 			tasks: [
 				{
@@ -192,8 +192,8 @@
 		}
 		{
 			title: "...Or Melt and Cast Them"
-			x: -3.5d
-			y: 1.5d
+			x: -4.5d
+			y: 6.0d
 			id: "54D1A20EFA9E0B53"
 			tasks: [
 				{
@@ -222,7 +222,7 @@
 		}
 		{
 			x: -6.0d
-			y: 2.5d
+			y: 5.0d
 			dependencies: ["5BDDA61CBC3BEC7D"]
 			id: "560D24E2347B9DFE"
 			tasks: [{
@@ -233,7 +233,7 @@
 		}
 		{
 			x: -5.0d
-			y: 2.5d
+			y: 5.0d
 			dependencies: ["2980B8880809B70D"]
 			id: "5726F8C2F32E2A66"
 			tasks: [{
@@ -244,7 +244,7 @@
 		}
 		{
 			x: -4.0d
-			y: 2.5d
+			y: 5.0d
 			dependencies: ["5358700492ED96BE"]
 			id: "1AE5B4C325449F3B"
 			tasks: [{
@@ -255,7 +255,7 @@
 		}
 		{
 			x: -3.0d
-			y: 2.5d
+			y: 5.0d
 			dependencies: ["1832DB451C6EC706"]
 			id: "6415133FE51D5307"
 			tasks: [{
@@ -266,8 +266,8 @@
 		}
 		{
 			title: "Ferrum Vein"
-			x: -6.0d
-			y: 3.5d
+			x: 2.5d
+			y: -2.0d
 			subtitle: "Tier 2: Rare Biomes | Tier 3: Jungle Biomes"
 			dependencies: ["3EA36059A00F4BEE"]
 			id: "2632E7C34A062220"
@@ -279,8 +279,8 @@
 		}
 		{
 			title: "Cuprum Vein"
-			x: -4.0d
-			y: 3.5d
+			x: -14.5d
+			y: -4.5d
 			subtitle: "Tier 2: Rare Biomes | Tier 3: Mountaineous Biomes"
 			dependencies: ["3EA36059A00F4BEE"]
 			id: "576EEDE43BF2955E"
@@ -292,8 +292,8 @@
 		}
 		{
 			title: "Aurum Vein"
-			x: -3.0d
-			y: 3.5d
+			x: 13.5d
+			y: -2.0d
 			subtitle: "Tier 2: The Nether | Tier 3: Desert Biomes"
 			dependencies: ["3EA36059A00F4BEE"]
 			id: "574FCD56B901868D"
@@ -305,8 +305,8 @@
 		}
 		{
 			title: "Stannum Vein"
-			x: -6.0d
-			y: 7.0d
+			x: 5.5d
+			y: -2.0d
 			subtitle: "Tier 2: Rare Biomes | Tier 3: Jungle Biomes"
 			dependencies: ["3EA36059A00F4BEE"]
 			id: "75B810B83774F411"
@@ -318,8 +318,8 @@
 		}
 		{
 			title: "Plumbum Vein"
-			x: -5.0d
-			y: 7.0d
+			x: -1.0d
+			y: -2.0d
 			subtitle: "Tier 2: Rare Biomes | Tier 3: Jungle Biomes"
 			dependencies: ["3EA36059A00F4BEE"]
 			id: "4F018DC1E9B5973C"
@@ -331,8 +331,8 @@
 		}
 		{
 			title: "Nickel Vein"
-			x: -4.0d
-			y: 7.0d
+			x: 10.0d
+			y: -2.0d
 			subtitle: "Tier 2: Rare Biomes | Tier 3: Jungle Biomes"
 			dependencies: ["3EA36059A00F4BEE"]
 			id: "1163192B30EF6B27"
@@ -344,8 +344,8 @@
 		}
 		{
 			title: "Zinc Vein"
-			x: -5.0d
-			y: 3.5d
+			x: -9.0d
+			y: -2.5d
 			subtitle: "Tier 2: Rare Biomes | Tier 3: Jungle Biomes"
 			dependencies: ["3EA36059A00F4BEE"]
 			id: "0EC810C86FB79767"
@@ -357,8 +357,8 @@
 		}
 		{
 			title: "Carbon Vein"
-			x: -3.0d
-			y: 7.0d
+			x: -20.5d
+			y: -6.5d
 			subtitle: "Tier 2: The End | Tier 3: Mountaineous Biomes"
 			dependencies: ["3EA36059A00F4BEE"]
 			id: "71AE2DD561F646CF"
@@ -378,7 +378,7 @@
 		{
 			title: "Drilling Machine and You"
 			x: -4.5d
-			y: 5.5d
+			y: -1.5d
 			shape: "heart"
 			subtitle: "Click on This Quest for a Detailled Guide to Ore Deposits"
 			description: [

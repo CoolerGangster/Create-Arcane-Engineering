@@ -15,10 +15,10 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -1.0d
+			x: 0.0d
 			y: 10.5d
-			width: 60.0d
-			height: 60.0d
+			width: 52.0d
+			height: 29.25d
 			rotation: 0.0d
 			image: "kubejs:textures/end.png"
 			hover: [ ]
@@ -27,8 +27,8 @@
 			corner: false
 		}
 		{
-			x: 0.0d
-			y: 10.5d
+			x: 48.0d
+			y: 12.5d
 			width: 33.0d
 			height: 33.0d
 			rotation: 0.0d

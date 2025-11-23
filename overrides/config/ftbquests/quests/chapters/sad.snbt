@@ -7,32 +7,18 @@
 	icon: "create:brass_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [
-		{
-			x: -1.5d
-			y: 0.5d
-			width: 50.0d
-			height: 50.0d
-			rotation: 0.0d
-			image: "kubejs:textures/brass.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: -1.5d
-			y: 2.0d
-			width: 20.0d
-			height: 27.0d
-			rotation: 0.0d
-			image: "kubejs:textures/wow.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-	]
+	images: [{
+		x: -1.5d
+		y: 0.5d
+		width: 50.0d
+		height: 56.5d
+		rotation: 0.0d
+		image: "kubejs:textures/brass.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Chapter 2 Start!"

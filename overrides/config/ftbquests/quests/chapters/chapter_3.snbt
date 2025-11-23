@@ -9,10 +9,10 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -1.5d
+			x: -1.0d
 			y: -2.5d
-			width: 55.0d
-			height: 55.0d
+			width: 52.0d
+			height: 29.25d
 			rotation: 0.0d
 			image: "kubejs:textures/invar.png"
 			hover: [ ]
@@ -21,10 +21,22 @@
 			corner: false
 		}
 		{
-			x: -1.0d
-			y: -3.0d
+			x: 51.5d
+			y: -2.5d
 			width: 21.0d
 			height: 23.0d
+			rotation: 0.0d
+			image: "kubejs:textures/wow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 48.5d
+			y: -1.5d
+			width: 20.0d
+			height: 27.0d
 			rotation: 0.0d
 			image: "kubejs:textures/wow.png"
 			hover: [ ]

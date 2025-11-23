@@ -11,8 +11,8 @@
 		{
 			x: 0.0d
 			y: 5.5d
-			width: 50.0d
-			height: 50.0d
+			width: 37.75d
+			height: 35.75d
 			rotation: 0.0d
 			image: "kubejs:textures/andesite.png"
 			hover: [ ]
@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 0.0d
-			y: 4.5d
+			x: 34.5d
+			y: 6.0d
 			width: 20.0d
 			height: 20.0d
 			rotation: 0.0d
